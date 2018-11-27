@@ -1,5 +1,5 @@
 const { Client } = require('klasa');
-const { token } = require('./config');
+const { token } = require('./ecosystem.config');
 
 new Client({
     fetchAllMembers: false,
