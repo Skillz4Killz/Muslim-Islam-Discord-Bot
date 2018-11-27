@@ -1,0 +1,23 @@
+{
+  "name": "muslim-islam-discord-bot",
+  "version": "1.0.0",
+  "description": "An Islamic bot for any muslim!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skillz4Killz/Muslim-Islam-Discord-Bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Skillz4Killz/Muslim-Islam-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Skillz4Killz/Muslim-Islam-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "discordjs/discord.js",
+    "klasa": "dirigeants/klasa"
+  }
+}
