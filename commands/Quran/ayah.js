@@ -9,19 +9,9 @@ module.exports = class extends Command {
     super(...args, {
       enabled: true,
       runIn: ['text', 'dm', 'group'],
-      requiredPermissions: [],
-      requiredSettings: [],
-      aliases: [],
-      autoAliases: true,
-      bucket: 1,
-      cooldown: 0,
-      promptLimit: 0,
-      promptTime: 30000,
-      deletable: false,
-      guarded: false,
-      nsfw: false,
-      permissionLevel: 0,
-      description: '',
+      requiredPermissions: ['EMBED_LINKS'],
+      aliases: ['a'],
+      description: 'Read a specific ayah.',
       extendedHelp: 'No extended help available.',
       usage: '[surah:str] [ayah:int]',
       usageDelim: ' ',
@@ -32,11 +22,24 @@ module.exports = class extends Command {
 
   async run(message, [surah, ayah]) {
     // Check if the surah provided is a number or a string
-    const surahIsString = isNaN(surah);
-    // 
-    if (surahIsString) surah = surahNameToInit(surah);
+    if (surah) {
+      const surahIsString = isNaN(surah); 
+      if (surahIsString) surah = surahNameToInit(surah);
+    } else surah = this.getRandom();
 
-    return message.send(new MessageEmbed().setColor('RANDOM').setDescription(Quran[surah][ayah].text).setImage(Quran[surah][ayah].image));
+    const ayahToSend = Quran[surah][ayah || this.getRandom(surah)];
+
+    return message.send(new MessageEmbed()
+      .setColor('RANDOM')
+      .setDescription(ayahToSend.text)
+      .setImage(ayahToSend.image)
+      .setFooter('Credits To Quran.com')
+    );
+  }
+
+  getRandom(surah) {
+    // TODO: once more surahs are added change the 1 at the end to 114
+    return 1 + Math.floor(Math.random() * surah ? Object.keys(Quran[surah]).length : 1);
   }
 
 };
