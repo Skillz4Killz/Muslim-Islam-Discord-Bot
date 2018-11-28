@@ -4,7 +4,7 @@ const { MessageEmbed } = require('discord.js')
 const Quran = require('../../quran.js')
 
 module.exports = class extends Command {
-  constructor (...args) {
+  constructor(...args) {
     super(...args, {
       requiredPermissions: ['EMBED_LINKS'],
       aliases: ['a'],
@@ -17,12 +17,12 @@ module.exports = class extends Command {
     })
   }
 
-  async run (message, [surah, ayah]) {
+  async run(message, [surah, ayah]) {
     // Check if the surah provided is a number or a string
     if (surah) {
       const surahIsString = isNaN(surah)
       // TODO: create this function
-      if (surahIsString) surah = this.surahNameToInit(surah)
+      if (surahIsString) surah = this.surahNameToInt(surah)
     } else surah = this.getRandom()
 
     const ayahToSend = Quran[surah][ayah || this.getRandom(surah)]
@@ -36,7 +36,15 @@ module.exports = class extends Command {
     )
   }
 
-  getRandom (surah) {
+  surahNameToInt(surah) {
+    // TODO: add all the remaining surahs
+    switch (surah) {
+      case 'fatihah': return 1;
+      case 'baqarah': return 2;
+    }
+  }
+
+  getRandom(surah) {
     // TODO: once more surahs are added change the 1 at the end to 114
     return 1 + Math.floor(Math.random() * surah ? Object.keys(Quran[surah]).length : 1)
   }
