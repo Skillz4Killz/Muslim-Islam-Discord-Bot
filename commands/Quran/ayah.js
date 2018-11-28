@@ -21,8 +21,7 @@ module.exports = class extends Command {
     // Check if the surah provided is a number or a string
     if (surah) {
       const surahIsString = isNaN(surah)
-      // TODO: create this function
-      if (surahIsString) surah = this.surahNameToInit(surah)
+      if (surahIsString) surah = this.surahNameToInt(surah)
     } else surah = this.getRandom()
 
     const ayahToSend = Quran[surah][ayah || this.getRandom(surah)]
@@ -34,6 +33,15 @@ module.exports = class extends Command {
       .setImage(ayahToSend.image)
       .setFooter('Credits To Quran.com')
     )
+  }
+
+  surahNameToInt (surah) {
+    // TODO: add all the remaining surahs
+    switch (surah) {
+      case 'fatihah': return 1
+      case 'baqarah': return 2
+      default: throw 'No surah found with that name.'
+    }
   }
 
   getRandom (surah) {
