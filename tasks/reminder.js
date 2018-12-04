@@ -5,15 +5,19 @@ const { MessageEmbed } = require('discord.js')
 module.exports = class extends Task {
   async run () {
     this.client.emit('log', 'Reminder Task Running')
+    // Find all users that have enabled the reminders
     const usersToRemind = this.client.users
       .filter(user => user.settings.reminders.finishMonthly.enabled)
       .array()
+    // If no users canncel
     if (!usersToRemind.length) return null
+    // Run a loop for each user
     for (const user of usersToRemind) {
-      const { verse } = user.settings.reminders.finishMonthly
-
+      // Get the verse for this user or if it has none set it to 1
+      const verse = user.settings.reminders.finishMonthly.verse || 1
+      // Get the surah and ayah numbers to send based on the verse they are up to
       const { surah, ayah } = this.getSurahAndAyah(verse)
-
+      // Get the ayah object
       const ayahToSend = surah[ayah]
 
       const embed = new MessageEmbed()
@@ -36,16 +40,14 @@ module.exports = class extends Task {
         'reminders.finishMonthly.verse',
         verse === 6105 ? 1 : verse + 1
       )
-      if (errors) this.client.emit('error', errors.join('\n'))
-      return null
+      if (errors.length) this.client.emit('error', errors.join('\n'))
+      this.client.emit('log', `Reminded ${user.tag} of ${surah.name} ${ayah} in the reminder task.`)
     }
   }
 
   getSurahAndAyah (verse) {
     for (const surah of Object.values(Quran)) {
-      for (const ayah of Object.keys(surah)) {
-        if (surah[ayah].verse === verse) return { surah, ayah }
-      }
+      for (const ayah of Object.keys(surah)) if (surah[ayah].verse === verse) return { surah, ayah }
     }
   }
 }
