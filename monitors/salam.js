@@ -8,6 +8,7 @@ const salamTerms = [
 const greetingTerms = [
   'hi',
   'hello',
+  'morning',
   'good morning',
   'good day',
   'good afternoon',
