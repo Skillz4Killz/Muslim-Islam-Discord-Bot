@@ -1,6 +1,6 @@
+/* tslint:disable:object-literal-sort-keys */
 export default {
   surah_1: {
-    name: 'Al-Fatihah',
     ayah_1: {
       text:
         'In the name of Allah, the Entirely Merciful, the Especially Merciful.',
@@ -33,10 +33,11 @@ export default {
         'The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.',
       image: '',
       verse: 7
-    }
+    },
+    name: 'Al-Fatihah',
   },
   surah_2: {
-    name: 'Al-Baqarah',
+
     ayah_1: { text: 'Alif, Lam, Meem.', image: '', verse: 8 },
     ayah_2: {
       text:
@@ -1744,7 +1745,8 @@ export default {
         'Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned. "Our Lord, do not impose blame upon us if we have forgotten or erred. Our Lord, and lay not upon us a burden like that which You laid upon those before us. Our Lord, and burden us not with that which we have no ability to bear. And pardon us; and forgive us; and have mercy upon us. You are our protector, so give us victory over the disbelieving people."',
       image: '',
       verse: 293
-    }
+    },
+    name: 'Al-Baqarah',
   },
     'surah_3':{
        'name':'Ali-Imran',
