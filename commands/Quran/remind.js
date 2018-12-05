@@ -1,8 +1,6 @@
 const { Command } = require('klasa')
 const { MessageEmbed } = require('discord.js')
 
-const Quran = require('../../quran.js')
-
 module.exports = class extends Command {
   constructor (...args) {
     super(...args, {
