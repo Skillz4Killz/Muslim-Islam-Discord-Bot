@@ -26,7 +26,6 @@
 		"strictPropertyInitialization": true,
 		"types": [
 			"node",
-			"node-fetch",
 		],
 		"moduleResolution": "node",
 		"noEmitOnError": true

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Skillz4Killz/Muslim-Islam-Discord-Bot#readme",
   "dependencies": {
+    "@types/node": "^10.12.12",
     "discord.js": "discordjs/discord.js",
     "klasa": "dirigeants/klasa"
   },
