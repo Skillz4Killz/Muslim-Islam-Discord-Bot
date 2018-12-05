@@ -1,5 +1,5 @@
 // Exporting necessary parts from dependencies
-export { Command, CommandStore, KlasaClient, util as KlasaUtil, Monitor, Stopwatch, Task, Type, } from 'klasa';
+export { Command, CommandStore, Event, KlasaClient, util as KlasaUtil, Monitor, Stopwatch, Task, Type, } from 'klasa';
 export { Message, MessageEmbed } from 'discord.js';
 export { default as fetch } from 'node-fetch';
 export { inspect } from 'util';
