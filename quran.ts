@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   surah_1: {
     name: 'Al-Fatihah',
     ayah_1: {
