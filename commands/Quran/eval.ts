@@ -1,8 +1,8 @@
 // Copyright (c) 2017-2018 dirigeants. All rights reserved. MIT license.
-import { Command, CommandStore, fetch, inspect, KlasaClient, KlasaUtil, Stopwatch, Type } from '../../imports';
+import { Command, CommandStore, inspect, KlasaClient, KlasaMessage, KlasaUtil, Stopwatch, Type } from '../../imports';
 
 export default class extends Command {
-  timeout: 30000;
+  timeout!: 30000;
 
   constructor(client: KlasaClient, store: CommandStore, file: string[], directory: string) {
     super(client, store, file, directory, {
@@ -15,85 +15,85 @@ export default class extends Command {
     });
   }
 
-  async run(msg, [code]) {
-    const flagTime = 'no-timeout' in msg.flags ? 'wait' in msg.flags ? Number(msg.flags.wait) : this.timeout : Infinity;
-    const language = msg.flags.lang || msg.flags.language || (msg.flags.json ? 'json' : 'js');
-    const { success, result, time, type } = await this.timedEval(msg, code, flagTime);
+  async run(message: KlasaMessage, [code]: [string]) {
+    const flagTime = 'no-timeout' in message.flags ? 'wait' in message.flags ? Number(message.flags.wait) : this.timeout : Infinity;
+    const language = message.flags.lang || message.flags.language || (message.flags.json ? 'json' : 'js');
+    const { success, result, time, type } = await this.timedEval(message, code, flagTime);
 
-    if (msg.flags.silent) {
-      if (!success && result && result.stack) this.client.emit('error', result.stack);
+    if (message.flags.silent) {
+      if (!success && result) this.client.emit('error', result);
       return null;
     }
 
     const footer = KlasaUtil.codeBlock('ts', type);
-    const sendAs = msg.flags.output || msg.flags['output-to'] || (msg.flags.log ? 'log' : null);
-    return this.handleMessage(msg, { sendAs, hastebinUnavailable: false, url: null }, { success, result, time, footer, language });
+    const sendAs = message.flags.output || message.flags['output-to'] || (message.flags.log ? 'log' : null);
+    return this.handleMessage(message, { sendAs, hastebinUnavailable: false, url: null }, { success, result, time, footer, language });
   }
 
-  async handleMessage(msg, options, { success, result, time, footer, language }) {
+  async handleMessage(message: KlasaMessage, options: any, { success, result, time, footer, language }: { success: boolean; result: any; time: string; footer: string; language: string }): Promise<any> {
     switch (options.sendAs) {
       case 'file': {
-        if (msg.channel.attachable) return msg.channel.sendFile(Buffer.from(result), 'output.txt', msg.language.get('COMMAND_EVAL_OUTPUT_FILE', time, footer));
-        await this.getTypeOutput(msg, options);
-        return this.handleMessage(msg, options, { success, result, time, footer, language });
+        if (message.channel.attachable) return message.channel.sendFile(Buffer.from(result), 'output.txt', message.language.get('COMMAND_EVAL_OUTPUT_FILE', time, footer));
+        await this.getTypeOutput(message, options);
+        return this.handleMessage(message, options, { success, result, time, footer, language });
       }
-      case 'haste':
-      case 'hastebin': {
-        if (!options.url) options.url = await this.getHaste(result, language).catch(() => null);
-        if (options.url) return msg.sendMessage(msg.language.get('COMMAND_EVAL_OUTPUT_HASTEBIN', time, options.url, footer));
-        options.hastebinUnavailable = true;
-        await this.getTypeOutput(msg, options);
-        return this.handleMessage(msg, options, { success, result, time, footer, language });
-      }
+      // case 'haste':
+      // case 'hastebin': {
+      //   if (!options.url) options.url = await this.getHaste(result, language).catch(() => null);
+      //   if (options.url) return message.sendMessage(message.language.get('COMMAND_EVAL_OUTPUT_HASTEBIN', time, options.url, footer));
+      //   options.hastebinUnavailable = true;
+      //   await this.getTypeOutput(message, options);
+      //   return this.handleMessage(message, options, { success, result, time, footer, language });
+      // }
       case 'console':
       case 'log': {
         this.client.emit('log', result);
-        return msg.sendMessage(msg.language.get('COMMAND_EVAL_OUTPUT_CONSOLE', time, footer));
+        return message.sendMessage(message.language.get('COMMAND_EVAL_OUTPUT_CONSOLE', time, footer));
       }
       case 'none':
         return null;
       default: {
         if (result.length > 2000) {
-          await this.getTypeOutput(msg, options);
-          return this.handleMessage(msg, options, { success, result, time, footer, language });
+          await this.getTypeOutput(message, options);
+          return this.handleMessage(message, options, { success, result, time, footer, language });
         }
-        return msg.sendMessage(msg.language.get(success ? 'COMMAND_EVAL_OUTPUT' : 'COMMAND_EVAL_ERROR',
+        return message.sendMessage(message.language.get(success ? 'COMMAND_EVAL_OUTPUT' : 'COMMAND_EVAL_ERROR',
           time, KlasaUtil.codeBlock(language, result), footer));
       }
     }
   }
 
-  async getTypeOutput(msg, options) {
+  async getTypeOutput(message: KlasaMessage, options: any) {
     const _options = ['log'];
-    if (msg.channel.attachable) _options.push('file');
+    if (message.channel.attachable) _options.push('file');
     if (!options.hastebinUnavailable) _options.push('hastebin');
     let _choice;
-    do _choice = await msg.prompt(`Choose one of the following options: ${_options.join(', ')}`).catch(() => ({ content: 'none' }));
+    do _choice = await message.prompt(`Choose one of the following options: ${_options.join(', ')}`).catch(() => ({ content: 'none' }));
     while (!['file', 'haste', 'hastebin', 'console', 'log', 'default', 'none', null].includes(_choice.content));
     options.sendAs = _choice.content;
   }
 
-  timedEval(msg, code, flagTime) {
-    if (flagTime === Infinity || flagTime === 0) return this.eval(msg, code);
+  timedEval(message: KlasaMessage, code: string, flagTime: number) {
+    if (flagTime === Infinity || flagTime === 0) return this.eval(message, code);
     return Promise.race([
       KlasaUtil.sleep(flagTime).then(() => ({
-        result: msg.language.get('COMMAND_EVAL_TIMEOUT', flagTime / 1000),
+        result: message.language.get('COMMAND_EVAL_TIMEOUT', flagTime / 1000),
         success: false,
         time: '⏱ ...',
         type: 'EvalTimeoutError',
       })),
-      this.eval(msg, code),
+      this.eval(message, code),
     ]);
   }
 
   // Eval the input
-  async eval(msg, code) {
+  async eval(message: KlasaMessage, code: string) {
     const stopwatch = new Stopwatch();
     let success, syncTime, asyncTime, result;
     let thenable = false;
     let type;
     try {
-      if (msg.flags.async) code = `(async () => {\n${code}\n})();`;
+      if (message.flags.async) code = `(async () => {\n${code}\n})();`;
       result = eval(code);
       syncTime = stopwatch.toString();
       type = new Type(result);
@@ -113,22 +113,22 @@ export default class extends Command {
     }
 
     stopwatch.stop();
-    if (typeof result !== 'string') result = result instanceof Error ? result.stack : msg.flags.json ? JSON.stringify(result, null, 4) : inspect(result, {
-      depth: msg.flags.depth ? parseInt(msg.flags.depth) || 0 : 0,
-      showHidden: Boolean(msg.flags.showHidden),
+    if (typeof result !== 'string') result = result instanceof Error ? result.stack : message.flags.json ? JSON.stringify(result, null, 4) : inspect(result, {
+      depth: message.flags.depth ? parseInt(message.flags.depth) || 0 : 0,
+      showHidden: Boolean(message.flags.showHidden),
     });
 
     return { success, type, time: this.formatTime(syncTime, asyncTime), result: KlasaUtil.clean(result) };
   }
 
-  formatTime(syncTime, asyncTime) {
+  formatTime(syncTime: string, asyncTime: string | undefined) {
     return asyncTime ? `⏱ ${asyncTime}<${syncTime}>` : `⏱ ${syncTime}`;
   }
 
-  async getHaste(evalResult, language) {
-    const key = await fetch('https://hastebin.com/documents', { method: 'POST', body: evalResult })
-      .then((response) => response.json())
-      .then((body) => body.key);
-    return `https://hastebin.com/${key}.${language}`;
-  }
+  // async getHaste(evalResult, language) {
+  //   const key = await fetch('https://hastebin.com/documents', { method: 'POST', body: evalResult })
+  //     .then((response) => response.json())
+  //     .then((body) => body.key);
+  //   return `https://hastebin.com/${key}.${language}`;
+  // }
 }
