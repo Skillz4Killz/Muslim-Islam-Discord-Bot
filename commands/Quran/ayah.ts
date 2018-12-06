@@ -1,4 +1,4 @@
-import { Command, CommandStore, KlasaClient, MessageEmbed, Quran } from '../../imports';
+import { Command, CommandStore, KlasaClient, KlasaMessage, MessageEmbed, Quran } from '../../imports';
 
 export default class extends Command {
   constructor(client: KlasaClient, store: CommandStore, file: string[], directory: string) {
@@ -8,17 +8,14 @@ export default class extends Command {
       extendedHelp: 'No extended help available.',
       quotedStringSupport: true,
       requiredPermissions: ['EMBED_LINKS'],
-      usage: '[surah:str] [ayah:int]',
+      usage: '[surah:int|surah:str] [ayah:int]',
       usageDelim: ' ',
     });
   }
 
-  async run(message, [surah, ayah]) {
+  async run(message: KlasaMessage, [surah, ayah]: [number | string, number]) {
     // Check if the surah provided is a number or a string
-    if (surah) {
-      const surahIsString = isNaN(surah);
-      if (surahIsString) surah = this.surahNameToInt(surah);
-    } else surah = this.getRandom();
+    surah = typeof surah === 'string' ? this.surahNameToInt(surah) : this.getRandom();
 
     const ayahToSend = Quran[surah][ayah || this.getRandom(surah)];
 
@@ -31,18 +28,17 @@ export default class extends Command {
     );
   }
 
-  surahNameToInt(surah) {
+  surahNameToInt(surah: string) {
     // TODO: add all the remaining surahs
     switch (surah) {
       case 'fatihah': return 1;
       case 'baqarah': return 2;
-      case 'imran'  : return 3;
+      case 'imran': return 3;
       default: throw 'No surah found with that name.';
     }
   }
 
   getRandom(surah?: number) {
-    // TODO: once more surahs are added change the 1 at the end to 114
-    return Math.floor(Math.random() * surah ? Object.keys(Quran[surah]).length : 1) + 1;
+    return Math.floor(Math.random() * (surah ? Object.keys(Quran[surah]).length : 114)) + 1;
   }
 }
