@@ -2,7 +2,6 @@
 import { Imran } from '../typings/islam';
 
 export const imran: Imran = {
-	name: 'Ali-Imran',
 	ayah_1: {
 		text: 'Alif, Lam, Meem.',
 		image: '',
@@ -933,4 +932,5 @@ export const imran: Imran = {
 		image: '',
 		verse: 479,
 	},
+	name: 'Ali-Imran',
 };
