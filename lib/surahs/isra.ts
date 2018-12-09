@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Isra } from '../typings/islam';
+import { Isra } from '../types/islam';
 
 export const isra: Isra = {
 	ayah_1: {

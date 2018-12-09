@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Muminun } from '../typings/islam';
+import { Muminun } from '../types/islam';
 
 export const muminun: Muminun = {
 	ayah_1: {

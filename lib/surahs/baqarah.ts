@@ -1,4 +1,4 @@
-import { Baqarah } from '../typings/islam';
+import { Baqarah } from '../types/islam';
 
 /* tslint:disable:object-literal-sort-keys */
 export const baqarah: Baqarah = {

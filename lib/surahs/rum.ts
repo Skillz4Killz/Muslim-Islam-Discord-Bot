@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Rum } from '../typings/islam';
+import { Rum } from '../types/islam';
 
 export const rum: Rum = {
 	ayah_1: {

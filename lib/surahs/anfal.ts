@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Anfal } from '../typings/islam';
+import { Anfal } from '../types/islam';
 
 export const anfal: Anfal = {
 	ayah_1: {

@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Hijr } from '../typings/islam';
+import { Hijr } from '../types/islam';
 
 export const hijr: Hijr = {
 	ayah_1: {

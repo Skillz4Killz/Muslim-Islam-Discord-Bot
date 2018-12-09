@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Furqan } from '../typings/islam';
+import { Furqan } from '../types/islam';
 
 export const furqan: Furqan = {
 	ayah_1: {

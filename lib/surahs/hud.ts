@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Hud } from '../typings/islam';
+import { Hud } from '../types/islam';
 
 export const hud: Hud = {
 	ayah_1: {

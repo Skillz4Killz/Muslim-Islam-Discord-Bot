@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Luqman } from '../typings/islam';
+import { Luqman } from '../types/islam';
 
 export const luqman: Luqman = {
 	ayah_1: {

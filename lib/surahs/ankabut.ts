@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Ankabut } from '../typings/islam';
+import { Ankabut } from '../types/islam';
 
 export const ankabut: Ankabut = {
 	ayah_1: {

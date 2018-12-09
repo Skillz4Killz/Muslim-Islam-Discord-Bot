@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Sajdah } from '../typings/islam';
+import { Sajdah } from '../types/islam';
 
 export const sajdah: Sajdah = {
 	ayah_1: {

@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Nur } from '../typings/islam';
+import { Nur } from '../types/islam';
 
 export const nur: Nur = {
 	ayah_1: {

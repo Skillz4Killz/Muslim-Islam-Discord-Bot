@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Araf } from '../typings/islam';
+import { Araf } from '../types/islam';
 
 export const araf: Araf = {
 	ayah_1: {

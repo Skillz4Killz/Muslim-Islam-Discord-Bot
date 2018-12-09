@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Nahl } from '../typings/islam';
+import { Nahl } from '../types/islam';
 
 export const nahl: Nahl = {
 	ayah_1: {

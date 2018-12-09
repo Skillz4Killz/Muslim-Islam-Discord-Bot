@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Shuara } from '../typings/islam';
+import { Shuara } from '../types/islam';
 
 export const shuara: Shuara = {
 	ayah_1: {
