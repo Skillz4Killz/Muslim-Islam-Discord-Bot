@@ -1,4 +1,4 @@
-ecosystem.config.js
+ecosystem.config.ts
 yarn.lock
 package.lock.json
 bwd/
