@@ -1,4 +1,4 @@
-import { Command, CommandStore, KlasaClient, MessageEmbed, Quran } from '../../imports';
+import { Command, CommandStore, KlasaClient, KlasaMessage, MessageEmbed } from '../../imports';
 
 export default class extends Command {
   constructor(client: KlasaClient, store: CommandStore, file: string[], directory: string) {
@@ -10,7 +10,7 @@ export default class extends Command {
     });
   }
 
-  async run(message) {
+  async run(message: KlasaMessage) {
     const enabled = message.author.settings.reminders.finishMonthly.enabled;
     const { errors } = await message.author.settings.update('reminders.finishMonthly.enabled', !enabled);
     if (errors.length) this.client.emit('error', errors.join('\n'));

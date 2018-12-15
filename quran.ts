@@ -1,7 +1,7 @@
 /* tslint:disable:object-literal-sort-keys */
 
 import { abasa, adiyat, ahqaf, ahzab, ala, alaq, anam, anbya, anfal, ankabut, araf, asr, balad, baqarah, bayyinah, buruj, dhariyat, duhaa, dukhan, fajr, falaq, fath, fatihah, fatir, fil, fissulat, furqan, ghafir, ghashiyah, hadid, haj, haqqah, hashr, hijr, hud, hujurat, humazah, ibrahim, ikhlas, imran, infitar, insan, inshiqaq, isra, jathiyah, jinn, jumuah, kafirun, kahf, kawthar, layl, luqman, maarij, maidah, maryam, masad, maun, muddaththir, muhammad, mujadila, mulk, muminun, mumtahanah, munafiqun, mursalat, mutaffifin, muzzammil, naba, nahl, najm, naml, nas, nasr, naziat, nisa, nuh, nur, qadr, qaf, qalam, qamar, qariah, qasas, qiyamah, quraysh, rad, rahman, rum, saba, sad, saf, saffat, sajdah, shams, sharh, shuara, shuraa, sin, taha, tahabun, tahrim, takathur, takwir, talaq, tariq, tawbah, tin, tur, waqiah, yunus, yusuf, zalzalah, zukhruf, zumar } from './imports';
-import { QuranType } from './lib/typings/islam';
+import { QuranType } from './lib/types/islam';
 
 export const Quran: QuranType = {
    surah_1: fatihah,

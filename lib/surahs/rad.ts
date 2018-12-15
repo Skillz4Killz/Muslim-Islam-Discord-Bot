@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Rad } from '../typings/islam';
+import { Rad } from '../types/islam';
 
 export const rad: Rad = {
 	ayah_1: {

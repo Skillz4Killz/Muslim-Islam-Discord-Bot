@@ -1,4 +1,4 @@
-import { Fatihah } from '../typings/islam';
+import { Fatihah } from '../types/islam';
 
 export const fatihah: Fatihah = {
 	ayah_1: {

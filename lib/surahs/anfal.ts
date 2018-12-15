@@ -1,7 +1,7 @@
 /* tslint:disable:object-literal-sort-keys */
-import { Anam } from '../typings/islam';
+import { Anfal } from '../types/islam';
 
-export const anam: Anam = {
+export const anfal: Anfal = {
 	ayah_1: {
 		text: 'They ask you, [O Muhammad], about the bounties [of war]. Say, "The [decision concerning] bounties is for Allah and the Messenger."  So fear Allah and amend that which is between you and obey Allah and His Messenger, if you should be believers.',
 		image: '',

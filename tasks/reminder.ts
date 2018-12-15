@@ -11,13 +11,23 @@ export default class extends Task {
       .filter((user) => user.settings.reminders.finishMonthly.enabled)
       .array();
     // If no users canncel
-    if (!usersToRemind.length) return null;
+    if (!usersToRemind.length) return;
     // Run a loop for each user
     for (const user of usersToRemind) {
       // Get the verse for this user or if it has none set it to 1
       const verse = user.settings.reminders.finishMonthly.verse || 1;
       // Get the surah and ayah numbers to send based on the verse they are up to
-      const { surah, ayah } = this.getSurahAndAyah(verse);
+      let surah;
+      let ayah = 'ayah_1';
+
+      for (const surahKey of Object.keys(Quran)) {
+        const surahValue = Quran[surahKey];
+        for (const ayahKey of Object.keys(surahValue)) {
+          if (surahValue[ayahKey].verse !== verse) continue;
+          surah = surahValue;
+          ayah = ayahKey;
+        }
+      }
       // Get the ayah object
       const ayahToSend = surah[ayah];
 
@@ -43,12 +53,7 @@ export default class extends Task {
       if (errors.length) this.client.emit('error', errors.join('\n'));
       this.client.emit('log', `Reminded ${user.tag} of ${surah.name} ${ayah} in the reminder task.`);
     }
+    return;
   }
 
-  getSurahAndAyah(verse) {
-
-    for (const surah of Object.values(Quran))
-      for (const ayah of Object.keys(surah)) if (surah[ayah].verse === verse) return { surah, ayah };
-    this.client.emit('error', '');
-  }
 }
