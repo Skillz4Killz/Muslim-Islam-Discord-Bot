@@ -1,4 +1,4 @@
-import { Event, Task } from '../imports';
+import { Event } from '../imports';
 
 export default class extends Event {
 
