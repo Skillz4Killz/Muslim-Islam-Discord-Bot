@@ -225,7 +225,7 @@ js-yaml@^3.7.0:
 
 klasa@dirigeants/klasa:
   version "0.5.0-dev"
-  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/98b183b612e00aad7fa1e9b2bd28dd9aaeafb433"
+  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/bf89d349a8be045fd68be517a39caeccd2e9d1ea"
   dependencies:
     fs-nextra "^0.3.2"
 
