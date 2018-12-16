@@ -1,6 +1,11 @@
 import { Kafirun } from '../types/islam';
+
 export const kafirun: Kafirun = {
-  ayah_1: { image: '', text: 'Say, "O disbelievers,', verse: 6077 },
+  ayah_1: {
+    image: '',
+    text: 'Say, "O disbelievers,',
+    verse: 6077,
+  },
   ayah_2: {
     image: '',
     text: 'I do not worship what you worship.',

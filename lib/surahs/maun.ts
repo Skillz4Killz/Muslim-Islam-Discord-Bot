@@ -1,4 +1,5 @@
 import { Maun } from '../types/islam';
+
 export const maun: Maun = {
   ayah_1: {
     image: '',

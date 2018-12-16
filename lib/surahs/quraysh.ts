@@ -1,4 +1,5 @@
 import { Quraysh } from '../types/islam';
+
 export const quraysh: Quraysh = {
   ayah_1: {
     image: '',

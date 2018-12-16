@@ -1,4 +1,5 @@
 import { Nasr } from '../types/islam';
+
 export const nasr: Nasr = {
   ayah_1: {
     image: '',

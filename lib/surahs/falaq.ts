@@ -1,4 +1,5 @@
 import { Falaq } from '../types/islam';
+
 export const falaq: Falaq = {
   ayah_1: {
     image: '',

@@ -1,4 +1,5 @@
 import { Masad } from '../types/islam';
+
 export const masad: Masad = {
   ayah_1: {
     image: '',

@@ -1,4 +1,5 @@
 import { Kawthar } from '../types/islam';
+
 export const kawthar: Kawthar = {
   ayah_1: {
     image: '',

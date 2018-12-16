@@ -1,4 +1,5 @@
 import { Fil } from '../types/islam';
+
 export const fil: Fil = {
   ayah_1: {
     image: '',
