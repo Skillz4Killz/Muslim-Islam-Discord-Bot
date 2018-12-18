@@ -1,8 +1,7 @@
 import { Message, MessageEmbed, Quran, Task, TextChannel } from '../imports';
 
 export default class extends Task {
-
-  private readonly reminderChannel = this.client.channels.get('517175884432801795') as TextChannel;
+  private reminderChannel!: TextChannel;
 
   async run() {
     this.client.emit('log', 'Reminder Task Running');
@@ -43,7 +42,7 @@ export default class extends Task {
         .setFooter('Credits To Quran.com');
 
       const channel = this.reminderChannel;
-      const sentReminder = await channel.send(user, { embed }) as Message;
+      const sentReminder = (await channel.send(user, { embed })) as Message;
       if (sentReminder) await sentReminder.react('✅');
 
       const { errors } = await user.settings.update(
@@ -51,9 +50,17 @@ export default class extends Task {
         verse === 6105 ? 1 : verse + 1
       );
       if (errors.length) this.client.emit('error', errors.join('\n'));
-      this.client.emit('log', `Reminded ${user.tag} of ${surah.name} ${ayah} in the reminder task.`);
+      this.client.emit(
+        'log',
+        `Reminded ${user.tag} of ${surah.name} ${ayah} in the reminder task.`
+      );
     }
     return;
   }
 
+  async init() {
+    this.reminderChannel = this.client.channels.get(
+      '517175884432801795'
+    ) as TextChannel;
+  }
 }
