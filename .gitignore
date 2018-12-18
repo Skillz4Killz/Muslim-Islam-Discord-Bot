@@ -1,7 +1,9 @@
+ecosystem.config.ts
 ecosystem.config.js
 yarn.lock
 package.lock.json
 bwd/
+out/
 
 # Logs
 logs
