@@ -23,6 +23,7 @@ export { inspect } from 'util';
 
 // Exporting project constant files
 export { default as Configs } from './ecosystem.config';
+
 export { Quran } from './quran';
 // Exporting surahs
 export { abasa } from './lib/surahs/abasa';
@@ -47,7 +48,7 @@ export { dukhan } from './lib/surahs/dukhan';
 export { fajr } from './lib/surahs/fajr';
 export { falaq } from './lib/surahs/falaq';
 export { fath } from './lib/surahs/fath';
-export { fatihah } from './lib/surahs/fatihah';
+export { default as fatihah } from './lib/surahs/fatihah';
 export { fatir } from './lib/surahs/fatir';
 export { fil } from './lib/surahs/fil';
 export { fussilat } from './lib/surahs/fussilat';

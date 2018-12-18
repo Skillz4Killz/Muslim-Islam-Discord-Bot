@@ -1,121 +1,120 @@
 /* tslint:disable:object-literal-sort-keys */
 
-import {
-  abasa,
-  adiyat,
-  ahqaf,
-  ahzab,
-  ala,
-  alaq,
-  anam,
-  anbya,
-  anfal,
-  ankabut,
-  araf,
-  asr,
-  balad,
-  baqarah,
-  bayyinah,
-  buruj,
-  dhariyat,
-  duhaa,
-  dukhan,
-  fajr,
-  falaq,
-  fath,
-  fatihah,
-  fatir,
-  fil,
-  furqan,
-  fussilat,
-  ghafir,
-  ghashiyah,
-  hadid,
-  haj,
-  haqqah,
-  hashr,
-  hijr,
-  hud,
-  hujurat,
-  humazah,
-  ibrahim,
-  ikhlas,
-  imran,
-  infitar,
-  insan,
-  inshiqaq,
-  isra,
-  jathiyah,
-  jinn,
-  jumuah,
-  kafirun,
-  kahf,
-  kawthar,
-  layl,
-  luqman,
-  maarij,
-  maidah,
-  maryam,
-  masad,
-  maun,
-  muddaththir,
-  muhammad,
-  mujadila,
-  mulk,
-  muminun,
-  mumtahanah,
-  munafiqun,
-  mursalat,
-  mutaffifin,
-  muzzammil,
-  naba,
-  nahl,
-  najm,
-  naml,
-  nas,
-  nasr,
-  naziat,
-  nisa,
-  nuh,
-  nur,
-  qadr,
-  qaf,
-  qalam,
-  qamar,
-  qariah,
-  qasas,
-  qiyamah,
-  quraysh,
-  rad,
-  rahman,
-  rum,
-  saba,
-  sad,
-  saf,
-  saffat,
-  sajdah,
-  shams,
-  sharh,
-  shuara,
-  shuraa,
-  sin,
-  taghabun,
-  taha,
-  tahrim,
-  takathur,
-  takwir,
-  talaq,
-  tariq,
-  tawbah,
-  tin,
-  tur,
-  waqiah,
-  yunus,
-  yusuf,
-  zalzalah,
-  zukhruf,
-  zumar,
-} from './imports';
+// Exporting surahs
+import { abasa } from './lib/surahs/abasa';
+import { adiyat } from './lib/surahs/adiyat';
+import { ahqaf } from './lib/surahs/ahqaf';
+import { ahzab } from './lib/surahs/ahzab';
+import { ala } from './lib/surahs/ala';
+import { alaq } from './lib/surahs/alaq';
+import { anam } from './lib/surahs/anam';
+import { anbya } from './lib/surahs/anbya';
+import { anfal } from './lib/surahs/anfal';
+import { ankabut } from './lib/surahs/ankabut';
+import { araf } from './lib/surahs/araf';
+import { asr } from './lib/surahs/asr';
+import { balad } from './lib/surahs/balad';
+import { baqarah } from './lib/surahs/baqarah';
+import { bayyinah } from './lib/surahs/bayyinah';
+import { buruj } from './lib/surahs/buruj';
+import { dhariyat } from './lib/surahs/dhariyat';
+import { duhaa } from './lib/surahs/duhaa';
+import { dukhan } from './lib/surahs/dukhan';
+import { fajr } from './lib/surahs/fajr';
+import { falaq } from './lib/surahs/falaq';
+import { fath } from './lib/surahs/fath';
+import { default as fatihah } from './lib/surahs/fatihah';
+import { fatir } from './lib/surahs/fatir';
+import { fil } from './lib/surahs/fil';
+import { fussilat } from './lib/surahs/fussilat';
+import { furqan } from './lib/surahs/furqan';
+import { ghafir } from './lib/surahs/ghafir';
+import { ghashiyah } from './lib/surahs/ghashiyah';
+import { hadid } from './lib/surahs/hadid';
+import { haj } from './lib/surahs/haj';
+import { haqqah } from './lib/surahs/haqqah';
+import { hashr } from './lib/surahs/hashr';
+import { hijr } from './lib/surahs/hijr';
+import { hud } from './lib/surahs/hud';
+import { hujurat } from './lib/surahs/hujurat';
+import { humazah } from './lib/surahs/humazah';
+import { ibrahim } from './lib/surahs/ibrahim';
+import { ikhlas } from './lib/surahs/ikhlas';
+import { imran } from './lib/surahs/imran';
+import { infitar } from './lib/surahs/infitar';
+import { insan } from './lib/surahs/insan';
+import { inshiqaq } from './lib/surahs/inshiqaq';
+import { isra } from './lib/surahs/isra';
+import { jathiyah } from './lib/surahs/jathiyah';
+import { jinn } from './lib/surahs/jinn';
+import { jumuah } from './lib/surahs/jumuah';
+import { kafirun } from './lib/surahs/kafirun';
+import { kahf } from './lib/surahs/kahf';
+import { kawthar } from './lib/surahs/kawthar';
+import { layl } from './lib/surahs/layl';
+import { luqman } from './lib/surahs/luqman';
+import { maarij } from './lib/surahs/maarij';
+import { maidah } from './lib/surahs/maidah';
+import { maryam } from './lib/surahs/maryam';
+import { masad } from './lib/surahs/masad';
+import { maun } from './lib/surahs/maun';
+import { muddaththir } from './lib/surahs/muddaththir';
+import { muhammad } from './lib/surahs/muhammad';
+import { mujadila } from './lib/surahs/mujadila';
+import { mulk } from './lib/surahs/mulk';
+import { muminun } from './lib/surahs/muminun';
+import { mumtahanah } from './lib/surahs/mumtahanah';
+import { munafiqun } from './lib/surahs/munafiqun';
+import { mursalat } from './lib/surahs/mursalat';
+import { mutaffifin } from './lib/surahs/mutaffifin';
+import { muzzammil } from './lib/surahs/muzzammil';
+import { naba } from './lib/surahs/naba';
+import { nahl } from './lib/surahs/nahl';
+import { najm } from './lib/surahs/najm';
+import { naml } from './lib/surahs/naml';
+import { nas } from './lib/surahs/nas';
+import { nasr } from './lib/surahs/nasr';
+import { naziat } from './lib/surahs/naziat';
+import { nisa } from './lib/surahs/nisa';
+import { nuh } from './lib/surahs/nuh';
+import { nur } from './lib/surahs/nur';
+import { qadr } from './lib/surahs/qadr';
+import { qaf } from './lib/surahs/qaf';
+import { qalam } from './lib/surahs/qalam';
+import { qamar } from './lib/surahs/qamar';
+import { qariah } from './lib/surahs/qariah';
+import { qasas } from './lib/surahs/qasas';
+import { qiyamah } from './lib/surahs/qiyamah';
+import { quraysh } from './lib/surahs/quraysh';
+import { rad } from './lib/surahs/rad';
+import { rahman } from './lib/surahs/rahman';
+import { rum } from './lib/surahs/rum';
+import { saba } from './lib/surahs/saba';
+import { sad } from './lib/surahs/sad';
+import { saf } from './lib/surahs/saf';
+import { saffat } from './lib/surahs/saffat';
+import { sajdah } from './lib/surahs/sajdah';
+import { shams } from './lib/surahs/shams';
+import { sharh } from './lib/surahs/sharh';
+import { shuara } from './lib/surahs/shuara';
+import { shuraa } from './lib/surahs/shuraa';
+import { sin } from './lib/surahs/sin';
+import { taha } from './lib/surahs/taha';
+import { taghabun } from './lib/surahs/taghabun';
+import { tahrim } from './lib/surahs/tahrim';
+import { takathur } from './lib/surahs/takathur';
+import { takwir } from './lib/surahs/takwir';
+import { talaq } from './lib/surahs/talaq';
+import { tariq } from './lib/surahs/tariq';
+import { tawbah } from './lib/surahs/tawbah';
+import { tin } from './lib/surahs/tin';
+import { tur } from './lib/surahs/tur';
+import { waqiah } from './lib/surahs/waqiah';
+import { yunus } from './lib/surahs/yunus';
+import { yusuf } from './lib/surahs/yusuf';
+import { zalzalah } from './lib/surahs/zalzalah';
+import { zukhruf } from './lib/surahs/zukhruf';
+import { zumar } from './lib/surahs/zumar';
 import { QuranType } from './lib/types/islam';
 
 export const Quran: QuranType = {

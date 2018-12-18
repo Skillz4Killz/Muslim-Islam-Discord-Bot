@@ -1,6 +1,6 @@
 import { Fatihah } from '../types/islam';
 
-export const fatihah: Fatihah = {
+const fatihah: Fatihah = {
   ayah_1: {
     image: '',
     text:
@@ -40,3 +40,5 @@ export const fatihah: Fatihah = {
   },
   name: 'Al-Fatihah',
 };
+
+export default fatihah;

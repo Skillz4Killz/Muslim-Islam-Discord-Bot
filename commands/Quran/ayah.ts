@@ -27,7 +27,7 @@ export default class extends Command {
 
   async run(message: KlasaMessage, [surah, ayah]: [string, string]) {
     const surahToUse = Quran[`surah_${surah}`];
-    const ayahToSend = surahToUse[ayah || this.getRandom(surah)];
+    const ayahToSend = surahToUse[`ayah_${ayah}` || this.getRandom(surah)];
 
     return message.send(
       new MessageEmbed()
@@ -60,7 +60,7 @@ export default class extends Command {
     return (
       Math.floor(
         Math.random() *
-          (surah ? Object.keys(Quran[`surah_${surah}`]).length : 114)
+          (surah ? Object.keys(Quran[`surah_${surah}`]).length - 1 : 114)
       ) + 1
     );
   }
