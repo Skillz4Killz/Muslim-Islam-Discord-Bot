@@ -1,6 +1,23 @@
 // Exporting necessary parts from dependencies
-export { Command, CommandStore, Event, KlasaClient, util as KlasaUtil, KlasaMessage, Monitor, Stopwatch, Task, Type, } from 'klasa';
-export { Client, Message, MessageEmbed, TextBasedChannel, TextChannel } from 'discord.js';
+export {
+  Command,
+  CommandStore,
+  Event,
+  KlasaClient,
+  util as KlasaUtil,
+  KlasaMessage,
+  Monitor,
+  Stopwatch,
+  Task,
+  Type,
+} from 'klasa';
+export {
+  Client,
+  Message,
+  MessageEmbed,
+  TextBasedChannel,
+  TextChannel,
+} from 'discord.js';
 export { default as fetch } from 'node-fetch';
 export { inspect } from 'util';
 
@@ -121,4 +138,4 @@ export { yunus } from './lib/surahs/yunus';
 export { yusuf } from './lib/surahs/yusuf';
 export { zalzalah } from './lib/surahs/zalzalah';
 export { zukhruf } from './lib/surahs/zukhruf';
-export { zuma } from './lib/surahs/zuma';
+export { zumar } from './lib/surahs/zumar';
