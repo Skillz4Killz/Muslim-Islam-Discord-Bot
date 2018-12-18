@@ -1,44 +1,67 @@
-import { Command, CommandStore, KlasaClient, KlasaMessage, MessageEmbed, Quran } from '../../imports';
+import {
+  Command,
+  CommandStore,
+  KlasaClient,
+  KlasaMessage,
+  MessageEmbed,
+  Quran,
+} from '../../imports';
 
 export default class extends Command {
-  constructor(client: KlasaClient, store: CommandStore, file: string[], directory: string) {
+  constructor(
+    client: KlasaClient,
+    store: CommandStore,
+    file: string[],
+    directory: string
+  ) {
     super(client, store, file, directory, {
       aliases: ['a'],
       description: 'Read a specific ayah.',
       extendedHelp: 'No extended help available.',
       quotedStringSupport: true,
       requiredPermissions: ['EMBED_LINKS'],
-      usage: '[surah:int|surah:str] [ayah:int]',
+      usage: '[surah:str] [ayah:str]',
       usageDelim: ' ',
     });
   }
 
-  async run(message: KlasaMessage, [surah, ayah]: [number | string, number]) {
-    // Check if the surah provided is a number or a string
-    surah = typeof surah === 'string' ? this.surahNameToInt(surah) : this.getRandom();
+  async run(message: KlasaMessage, [surah, ayah]: [string, string]) {
+    const surahToUse = Quran[`surah_${surah}`];
+    const ayahToSend = surahToUse[ayah || this.getRandom(surah)];
 
-    const ayahToSend = Quran[surah][ayah || this.getRandom(surah)];
-
-    return message.send(new MessageEmbed()
-      .setColor('RANDOM')
-      .setAuthor(`Surah ${Quran[surah].name} Ayah #${ayah}`, message.author.displayAvatarURL())
-      .setDescription(ayahToSend.text)
-      .setImage(ayahToSend.image)
-      .setFooter('Credits To Quran.com')
+    return message.send(
+      new MessageEmbed()
+        .setColor('RANDOM')
+        .setAuthor(
+          `Surah ${surahToUse.name} Ayah #${ayah}`,
+          message.author.displayAvatarURL()
+        )
+        .setDescription(ayahToSend.text)
+        .setImage(ayahToSend.image)
+        .setFooter('Credits To Quran.com')
     );
   }
 
-  surahNameToInt(surah: string) {
+  findSurah(surah: string) {
     // TODO: add all the remaining surahs
     switch (surah) {
-      case 'fatihah': return 1;
-      case 'baqarah': return 2;
-      case 'imran': return 3;
-      default: throw 'No surah found with that name.';
+      case 'fatihah':
+        return '1';
+      case 'baqarah':
+        return '2';
+      case 'imran':
+        return '3';
+      default:
+        return surah;
     }
   }
 
-  getRandom(surah?: number) {
-    return Math.floor(Math.random() * (surah ? Object.keys(Quran[surah]).length : 114)) + 1;
+  getRandom(surah?: string) {
+    return (
+      Math.floor(
+        Math.random() *
+          (surah ? Object.keys(Quran[`surah_${surah}`]).length : 114)
+      ) + 1
+    );
   }
 }

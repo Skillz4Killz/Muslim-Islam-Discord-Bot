@@ -6683,4 +6683,5 @@ export type QuranType = {
 	surah_112: Ikhlas;
 	surah_113: Falaq;
 	surah_114: Nas;
+	[K: string]: any;
 };

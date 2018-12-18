@@ -1,7 +1,7 @@
 /* tslint:disable:object-literal-sort-keys */
 import { Naziat } from '../types/islam';
 
-export const Naziat: Naziat = {
+export const naziat: Naziat = {
   ayah_1: {
     image: '',
     text: 'By those [angels] who extract with violence',

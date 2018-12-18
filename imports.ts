@@ -18,7 +18,7 @@ export {
   TextBasedChannel,
   TextChannel,
 } from 'discord.js';
-export { default as fetch } from 'node-fetch';
+export { default as fetch } from 'chainfetch';
 export { inspect } from 'util';
 
 // Exporting project constant files
@@ -50,7 +50,7 @@ export { fath } from './lib/surahs/fath';
 export { fatihah } from './lib/surahs/fatihah';
 export { fatir } from './lib/surahs/fatir';
 export { fil } from './lib/surahs/fil';
-export { fissulat } from './lib/surahs/fissulat';
+export { fussilat } from './lib/surahs/fussilat';
 export { furqan } from './lib/surahs/furqan';
 export { ghafir } from './lib/surahs/ghafir';
 export { ghashiyah } from './lib/surahs/ghashiyah';
@@ -124,7 +124,7 @@ export { shuara } from './lib/surahs/shuara';
 export { shuraa } from './lib/surahs/shuraa';
 export { sin } from './lib/surahs/sin';
 export { taha } from './lib/surahs/taha';
-export { tahabun } from './lib/surahs/tahabun';
+export { taghabun } from './lib/surahs/taghabun';
 export { tahrim } from './lib/surahs/tahrim';
 export { takathur } from './lib/surahs/takathur';
 export { takwir } from './lib/surahs/takwir';
