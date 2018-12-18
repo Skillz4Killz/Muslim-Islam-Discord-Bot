@@ -2,10 +2,10 @@
   "name": "muslim-islam-discord-bot",
   "version": "1.0.0",
   "description": "An Islamic bot for any muslim!",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node production/index",
+    "start": "node index.ts",
     "build": "tsc"
   },
   "repository": {
