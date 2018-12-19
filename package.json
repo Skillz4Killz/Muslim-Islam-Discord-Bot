@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node production/index",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "npm run build && npm run start",
+    "reset": "rm -R production && npm run dev"
   },
   "repository": {
     "type": "git",
