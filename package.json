@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.ts",
+    "start": "node production/index",
     "build": "tsc"
   },
   "repository": {
@@ -24,7 +24,7 @@
     "chainfetch": "^1.2.0",
     "discord.js": "discordjs/discord.js",
     "dotenv": "^6.2.0",
-    "klasa": "dirigeants/klasa",
+    "klasa": "https://github.com/dirigeants/klasa",
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {
