@@ -247,9 +247,9 @@ js-yaml@^3.7.0:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-klasa@dirigeants/klasa:
+"klasa@https://github.com/dirigeants/klasa":
   version "0.5.0-dev"
-  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/bf89d349a8be045fd68be517a39caeccd2e9d1ea"
+  resolved "https://github.com/dirigeants/klasa#7fe6a6085dbcb5d448fced119d966581ef92518d"
   dependencies:
     fs-nextra "^0.3.2"
 
