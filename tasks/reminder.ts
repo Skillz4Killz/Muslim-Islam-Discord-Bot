@@ -1,4 +1,5 @@
 import { Message, MessageEmbed, Quran, Task, TextChannel } from '../imports';
+import { UserSettings } from '../lib/types/klasa';
 
 export default class extends Task {
   private reminderChannel!: TextChannel;
@@ -7,14 +8,14 @@ export default class extends Task {
     this.client.emit('log', 'Reminder Task Running');
     // Find all users that have enabled the reminders
     const usersToRemind = this.client.users
-      .filter((user) => user.settings.reminders.finishMonthly.enabled)
+      .filter((user) => (user.settings as UserSettings).reminders.finishMonthly.enabled)
       .array();
     // If no users canncel
     if (!usersToRemind.length) return;
     // Run a loop for each user
     for (const user of usersToRemind) {
       // Get the verse for this user or if it has none set it to 1
-      const verse = user.settings.reminders.finishMonthly.verse || 1;
+      const verse = (user.settings as UserSettings).reminders.finishMonthly.verse || 1;
       // Get the surah and ayah numbers to send based on the verse they are up to
       let surah;
       let ayah = 'ayah_1';
