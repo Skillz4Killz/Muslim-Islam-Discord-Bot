@@ -7,6 +7,7 @@ export {
   util as KlasaUtil,
   KlasaMessage,
   Monitor,
+  MonitorStore,
   Stopwatch,
   Task,
   Type,
