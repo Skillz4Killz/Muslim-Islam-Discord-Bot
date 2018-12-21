@@ -14,7 +14,6 @@ switch (process.env.NODE_ENV) {
     path = `${__dirname}/../../.env.development`;
 }
 dotenv.config({ path });
-export const token = process.env.token;
 
 KlasaClient.defaultUserSchema
   .add('reminders', (reminder) => reminder
