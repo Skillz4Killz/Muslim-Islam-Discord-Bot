@@ -25,9 +25,9 @@ export { inspect } from 'util';
 // Exporting types
 export * from './lib/types/klasa';
 export * from './lib/types/islam';
+export * from 'dotenv';
 
 // Exporting project constant files
-export { default as Configs } from './ecosystem.config';
 
 export { Quran } from './quran';
 // Exporting surahs
