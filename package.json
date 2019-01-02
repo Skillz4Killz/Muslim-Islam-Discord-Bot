@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Skillz4Killz/Muslim-Islam-Discord-Bot#readme",
   "dependencies": {
     "@types/dotenv": "^6.1.0",
-    "@types/node": "^10.12.12",
+    "@types/node": "^10.12.18",
     "@types/node-fetch": "^2.1.4",
     "chainfetch": "^1.2.0",
     "discord.js": "discordjs/discord.js",
