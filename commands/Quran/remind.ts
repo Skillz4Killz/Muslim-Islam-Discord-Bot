@@ -37,7 +37,7 @@ export default class extends Command {
         .setDescription(
           enabled
             ? 'You turned off the reminders to help you read the Quran every month.'
-            : 'Alhumdulilah! You have enabled the reminders to help you complete reading the Quran every month.'
+            : 'Alhumdulillah! You have enabled the reminders to help you complete reading the Quran every month.'
         )
     );
   }
