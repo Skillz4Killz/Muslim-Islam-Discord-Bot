@@ -19,7 +19,6 @@ export {
   TextBasedChannel,
   TextChannel,
 } from 'discord.js';
-export { default as fetch } from 'chainfetch';
 export { inspect } from 'util';
 
 // Exporting types
