@@ -26,7 +26,7 @@ export default class extends Command {
   }
 
   async run(message: KlasaMessage, [surah, ayah]: [string, string]) {
-    const surahToUse = Quran[`surah_${surah}`];
+    const surahToUse = Quran[`surah_${this.findSurah(surah)}`];
     const ayahToSend = surahToUse[`ayah_${ayah}` || this.getRandom(surah)];
 
     return message.send(
