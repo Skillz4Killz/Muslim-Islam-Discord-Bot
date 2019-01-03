@@ -4,7 +4,7 @@
   "description": "An Islamic bot for any muslim!",
   "main": "production/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsc",
     "start": "node production/index",
     "build": "tsc",
     "dev": "npm run build && npm run start",
