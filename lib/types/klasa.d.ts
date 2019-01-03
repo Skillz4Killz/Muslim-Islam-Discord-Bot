@@ -8,3 +8,8 @@ export type UserSettings = Settings & {
     };
   };
 };
+
+export type GuildSettings = Settings & {
+  prefix: string;
+  disableNaturalPrefix: boolean;
+};

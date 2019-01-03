@@ -6,6 +6,8 @@ export {
   KlasaClient,
   util as KlasaUtil,
   KlasaMessage,
+  Language,
+  LanguageStore,
   Monitor,
   MonitorStore,
   Stopwatch,
@@ -16,6 +18,7 @@ export {
   Client,
   Message,
   MessageEmbed,
+  Permissions,
   TextBasedChannel,
   TextChannel,
 } from 'discord.js';

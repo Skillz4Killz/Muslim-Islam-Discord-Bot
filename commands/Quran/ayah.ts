@@ -4,6 +4,7 @@ import {
   KlasaClient,
   KlasaMessage,
   MessageEmbed,
+  Permissions,
   Quran,
 } from '../../imports';
 
@@ -16,10 +17,9 @@ export default class extends Command {
   ) {
     super(client, store, file, directory, {
       aliases: ['a'],
-      description: 'Read a specific ayah.',
-      extendedHelp: 'No extended help available.',
+      description: (language) => language.get('COMMAND_AYAH_DESCRIPTION'),
       quotedStringSupport: true,
-      requiredPermissions: ['EMBED_LINKS'],
+      requiredPermissions: [Permissions.FLAGS.EMBED_LINKS],
       usage: '[surah:str] [ayah:str]',
       usageDelim: ' ',
     });
@@ -33,12 +33,16 @@ export default class extends Command {
       new MessageEmbed()
         .setColor('RANDOM')
         .setAuthor(
-          `Surah ${surahToUse.name} Ayah #${ayah}`,
+          message.language.get(
+            'COMMAND_AYAH_SURAH_AND_AYAH',
+            surahToUse.name,
+            ayah
+          ),
           message.author.displayAvatarURL()
         )
         .setDescription(ayahToSend.text)
         .setImage(ayahToSend.image)
-        .setFooter('Credits To Quran.com')
+        .setFooter(message.language.get('QURAN_COM_CREDITS'))
     );
   }
 

@@ -4,6 +4,7 @@ import {
   KlasaClient,
   KlasaMessage,
   MessageEmbed,
+  Permissions,
   UserSettings,
 } from '../../imports';
 
@@ -16,9 +17,8 @@ export default class extends Command {
   ) {
     super(client, store, file, directory, {
       aliases: ['r'],
-      description: 'Enable or disable the Quran reminders',
-      extendedHelp: 'No extended help available.',
-      requiredPermissions: ['EMBED_LINKS'],
+      description: (language) => language.get('COMMAND_REMIND_DESCRIPTION'),
+      requiredPermissions: [Permissions.FLAGS.EMBED_LINKS],
     });
   }
 
@@ -36,8 +36,8 @@ export default class extends Command {
         .setColor('RANDOM')
         .setDescription(
           enabled
-            ? 'You turned off the reminders to help you read the Quran every month.'
-            : 'Alhumdulillah! You have enabled the reminders to help you complete reading the Quran every month.'
+            ? message.language.get('COMMAND_REMIND_DISABLED')
+            : message.language.get('COMMAND_REMIND_ENABLED')
         )
     );
   }
