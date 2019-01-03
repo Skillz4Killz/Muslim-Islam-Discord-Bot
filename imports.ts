@@ -30,8 +30,8 @@ export * from './lib/types/islam';
 export * from 'dotenv';
 
 // Exporting project constant files
-
 export { Quran } from './quran';
+export { default as ImageConstants } from './lib/constants/images';
 // Exporting surahs
 export { abasa } from './lib/surahs/abasa';
 export { adiyat } from './lib/surahs/adiyat';
