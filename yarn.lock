@@ -213,8 +213,8 @@ js-yaml@^3.7.0:
 
 "klasa@git+https://github.com/dirigeants/klasa.git":
   version "0.5.0-dev"
-  uid "6c443e32ac366beded6c2392d3bb24d56c046f3b"
-  resolved "https://github.com/dirigeants/klasa.git#6c443e32ac366beded6c2392d3bb24d56c046f3b"
+  uid "4bf756bb2e3caaaf404dcc407162c7e488b0beb5"
+  resolved "https://github.com/dirigeants/klasa.git#4bf756bb2e3caaaf404dcc407162c7e488b0beb5"
   dependencies:
     fs-nextra "^0.3.2"
 
