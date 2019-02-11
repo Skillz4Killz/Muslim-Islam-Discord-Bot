@@ -23,7 +23,7 @@
   "dependencies": {
     "@types/node": "^10.12.18",
     "@types/dotenv": "^6.1.0",
-    "@types/node-fetch": "^2.1.4",
+    "@types/node-fetch": "^2.1.6",
     "chainfetch": "^1.2.2",
     "discord.js": "github:discordjs/discord.js",
     "dotenv": "^6.2.0",
