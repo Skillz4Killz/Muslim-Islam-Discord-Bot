@@ -160,9 +160,9 @@ form-data@^2.3.2:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
-fs-nextra@^0.3.2:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/fs-nextra/-/fs-nextra-0.3.8.tgz#2a0c860a7a3c5d4b398548059d481d6155aac3c8"
+fs-nextra@^0.4.3:
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/fs-nextra/-/fs-nextra-0.4.5.tgz#0f44a00dd6c0547adaf59ce875e59941d0c70664"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -213,10 +213,10 @@ js-yaml@^3.7.0:
 
 "klasa@git+https://github.com/dirigeants/klasa.git":
   version "0.5.0-dev"
-  uid "6c443e32ac366beded6c2392d3bb24d56c046f3b"
-  resolved "https://github.com/dirigeants/klasa.git#6c443e32ac366beded6c2392d3bb24d56c046f3b"
+  uid "4420d31585c3dff69805195b137a3a556b3204f2"
+  resolved "git+https://github.com/dirigeants/klasa.git#4420d31585c3dff69805195b137a3a556b3204f2"
   dependencies:
-    fs-nextra "^0.3.2"
+    fs-nextra "^0.4.3"
 
 mime-db@~1.37.0:
   version "1.37.0"
