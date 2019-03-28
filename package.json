@@ -26,7 +26,7 @@
     "@types/node-fetch": "^2.1.4",
     "chainfetch": "^1.2.2",
     "discord.js": "github:discordjs/discord.js",
-    "dotenv": "^6.2.0",
+    "dotenv": "^7.0.0",
     "klasa": "git+https://github.com/dirigeants/klasa.git",
     "node-fetch": "^2.3.0"
   },
