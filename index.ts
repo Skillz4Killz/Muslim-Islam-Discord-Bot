@@ -1,5 +1,6 @@
 import * as dotenv from 'dotenv';
 import { KlasaClient } from './imports';
+import fridaySurahKahf from './tasks/fridaySurahKahf';
 
 dotenv.config();
 let path;
@@ -20,6 +21,17 @@ KlasaClient.defaultUserSchema
     .add('finishMonthly', (monthly) => monthly
       .add('verse', 'integer', { default: 1 })
       .add('enabled', 'boolean')
+    )
+    .add('fridaySurahKahf', (fridaySurahKahf) => fridaySurahKahf
+      .add('enabled', 'boolean')
+    )
+  );
+
+KlasaClient.defaultGuildSchema
+  .add('reminders', (reminder) => reminder
+    .add('fridaySurahKahf', (fridaySurahKahf) => fridaySurahKahf
+      .add('enabled', 'boolean')
+      .add('channelID', 'textchannel')
     )
   );
 
