@@ -30,7 +30,7 @@ export default class extends Task {
 
       await reminderChannel.send(surahKahfFirstTenVerses).catch((error: any) => this.client.console.error(`Failure to send Guild Reminder for ${guild.id} AKA ${guild.name} for Surah Kahf Reminder Task\n\n${error}.`));
     }
-    
+
     // Send reminder to all users in their DMs
     for (const user of this.client.users.values()) {
       const { fridaySurahKahf } = user.settings;
