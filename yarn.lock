@@ -125,16 +125,16 @@ diff@^3.2.0:
 
 "discord.js@github:discordjs/discord.js":
   version "12.0.0-dev"
-  uid "8230255c68b94d68a4e8ffc559a98d08d1a08a7c"
-  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/8230255c68b94d68a4e8ffc559a98d08d1a08a7c"
+  uid "04fa56d0c07b66c77d0fdd6cb4419efb890043eb"
+  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/04fa56d0c07b66c77d0fdd6cb4419efb890043eb"
   dependencies:
-    form-data "^2.3.2"
-    node-fetch "^2.1.2"
-    pako "^1.0.0"
-    prism-media amishshah/prism-media
+    form-data "^2.3.3"
+    node-fetch "^2.3.0"
+    pako "^1.0.8"
+    prism-media "^1.0.0"
     setimmediate "^1.0.5"
-    tweetnacl "^1.0.0"
-    ws "^6.0.0"
+    tweetnacl "^1.0.1"
+    ws "^6.1.3"
 
 dotenv@^6.2.0:
   version "6.2.0"
@@ -152,7 +152,7 @@ esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
 
-form-data@^2.3.2:
+form-data@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
   dependencies:
@@ -234,7 +234,7 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-node-fetch@^2.1.2, node-fetch@^2.3.0:
+node-fetch@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
 
@@ -244,9 +244,9 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-pako@^1.0.0:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.7.tgz#2473439021b57f1516c82f58be7275ad8ef1bb27"
+pako@^1.0.8:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -256,9 +256,9 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
 
-prism-media@amishshah/prism-media:
-  version "0.3.1"
-  resolved "https://codeload.github.com/amishshah/prism-media/tar.gz/1e336c9a20dd0928ef3bdc2075ab58d1521fb323"
+prism-media@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/prism-media/-/prism-media-1.0.1.tgz#3d033c214f9d79ca157bae7985938be65f521c02"
 
 resolve@^1.3.2:
   version "1.9.0"
@@ -321,9 +321,9 @@ tsutils@^2.27.2:
   dependencies:
     tslib "^1.8.1"
 
-tweetnacl@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.0.tgz#713d8b818da42068740bf68386d0479e66fc8a7b"
+tweetnacl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.1.tgz#2594d42da73cd036bd0d2a54683dd35a6b55ca17"
 
 typescript@^3.2.4:
   version "3.2.4"
@@ -333,8 +333,8 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws@^6.0.0:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.1.2.tgz#3cc7462e98792f0ac679424148903ded3b9c3ad8"
+ws@^6.1.3:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.0.tgz#13806d9913b2a5f3cbb9ba47b563c002cbc7c526"
   dependencies:
     async-limiter "~1.0.0"
