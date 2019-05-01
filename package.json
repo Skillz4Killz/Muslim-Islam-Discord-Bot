@@ -28,7 +28,7 @@
     "discord.js": "github:discordjs/discord.js",
     "dotenv": "^7.0.0",
     "klasa": "git+https://github.com/dirigeants/klasa.git",
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.5.0"
   },
   "devDependencies": {
     "tslint": "^5.14.0",
