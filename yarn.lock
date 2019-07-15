@@ -125,8 +125,8 @@ diff@^3.2.0:
 
 "discord.js@github:discordjs/discord.js":
   version "12.0.0-dev"
-  uid "04fa56d0c07b66c77d0fdd6cb4419efb890043eb"
-  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/04fa56d0c07b66c77d0fdd6cb4419efb890043eb"
+  uid "651ff81bd522c03b5c9724a3a8c14eeb88dcd6b9"
+  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/651ff81bd522c03b5c9724a3a8c14eeb88dcd6b9"
   dependencies:
     form-data "^2.3.3"
     node-fetch "^2.3.0"
@@ -260,7 +260,7 @@ pako@^1.0.8:
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
-  resolved "http://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
+  resolved "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
 
 path-parse@^1.0.6:
   version "1.0.6"
@@ -286,17 +286,17 @@ setimmediate@^1.0.5:
 
 sprintf-js@~1.0.2:
   version "1.0.3"
-  resolved "http://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+  resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
 
 strip-ansi@^3.0.0:
   version "3.0.1"
-  resolved "http://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
+  resolved "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"
   dependencies:
     ansi-regex "^2.0.0"
 
 supports-color@^2.0.0:
   version "2.0.0"
-  resolved "http://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
+  resolved "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
 supports-color@^5.3.0:
   version "5.5.0"
