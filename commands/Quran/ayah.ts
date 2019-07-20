@@ -11,7 +11,7 @@ export default class extends Command {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, {
       aliases: ['a'],
-      description: (language) => language.get('COMMAND_AYAH_DESCRIPTION'),
+      description: (language) => language.get('AYAH_DESCRIPTION'),
       quotedStringSupport: true,
       requiredPermissions: [Permissions.FLAGS.EMBED_LINKS],
       usage: '[surah:str] [ayah:str]',
@@ -19,7 +19,7 @@ export default class extends Command {
     });
   }
 
-  async run(message: KlasaMessage, [surah, ayah]: [string, string]) {
+  async run(message: KlasaMessage, [surah, ayah]: [string | undefined, string]) {
     const surahToUse = Quran[`surah_${this.findSurah(surah)}`];
     const ayahToSend = surahToUse[`ayah_${ayah}` || this.getRandom(surah)];
 
@@ -28,7 +28,7 @@ export default class extends Command {
         .setColor('RANDOM')
         .setAuthor(
           message.language.get(
-            'COMMAND_AYAH_SURAH_AND_AYAH',
+            'AYAH_SURAH_AND_AYAH',
             surahToUse.name,
             ayah
           ),

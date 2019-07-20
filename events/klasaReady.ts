@@ -1,18 +1,21 @@
 import { Event } from '../imports';
 
+const tasksToCreate = [
+  { name: 'reminder', time: '*/10 * * * *' },
+  { name: 'changeProfilePicture', time: '0 */2 * * *' },
+  // { name: 'fridaySurahKahf', time: '@weekly' }
+
+]
 export default class extends Event {
   async run() {
-    // If reminder task doesnt exist on startup create it every 10 minutes
-    if (!this.client.schedule.tasks.find((t) => t.taskName === 'reminder'))
-      await this.client.schedule.create('reminder', '*/10 * * * *');
-    // If the profile picture task doesnt exist on startup create it for every 2 hrs
-    if (
-      !this.client.schedule.tasks.find(
-        (t) => t.taskName === 'changeProfilePicture'
-      )
-    )
-      await this.client.schedule.create('changeProfilePicture', '0 */2 * * *');
+    // For every task we will create them as needed
+    for (const task of tasksToCreate) await this.handleTaskCreation(task.name, task.time);
 
     return this.client.emit('log', 'Klasa Ready Completed!');
+  }
+
+  handleTaskCreation(name: string, time: string) {
+    const taskExists = this.client.schedule.tasks.find((task) => task.taskName === name);
+    if (!taskExists) return this.client.schedule.create(name, time);
   }
 }

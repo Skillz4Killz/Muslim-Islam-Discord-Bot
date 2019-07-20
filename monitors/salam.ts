@@ -18,23 +18,24 @@ const greetingTerms = [
   'goodnight',
   'gn',
 ];
-
-module.exports = class extends Monitor {
+export default class extends Monitor {
   ignoreEdits = false;
   ignoreOthers = false;
 
   async run(message: KlasaMessage) {
     // If this is not a in a guild cancel out
     if (!message.guild || !message.content.length) return null;
+
+    const content = message.content.toLowerCase();
     // if the message starts with a salam term reply
     for (const term of salamTerms)
-      if (message.content.startsWith(term))
+      if (content.startsWith(term))
         return message.reply('Walaikumasalam Wa Rahmatullahi Wa Barakatuhu');
     // if the message starts with non-salam greeting reply
     for (const term of greetingTerms)
-      if (message.content.startsWith(term))
+      if (content.startsWith(term))
         return message.reply('Asalamoalaikum Wa Rahmatullahi Wa Barakatuhu');
     // Cancel out
     return null;
   }
-};
+}
