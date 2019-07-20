@@ -1,4 +1,4 @@
-import { ImageConstants, Task, Permissions } from '../imports';
+import { ImageConstants, Permissions, Task } from '../imports';
 
 export default class extends Task {
   async run() {
@@ -20,10 +20,8 @@ export default class extends Task {
     // Set the servers logo if the guild exists and the bot has permissions
     if (process.env.mainGuildID) {
       const mainGuild = this.client.guilds.get(process.env.mainGuildID);
-      if (
-        mainGuild &&
-        mainGuild.me.hasPermission(Permissions.FLAGS.MANAGE_GUILD)
-      )
+      if (!mainGuild) return;
+      if (mainGuild.me.hasPermission(Permissions.FLAGS.MANAGE_GUILD))
         mainGuild
           .setIcon(randomImageUrl)
           .catch((error) =>
@@ -36,7 +34,4 @@ export default class extends Task {
     }
   }
 
-  async init() {
-    // Leave this so this.client is available
-  }
 }

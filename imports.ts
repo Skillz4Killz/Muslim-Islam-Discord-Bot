@@ -21,11 +21,11 @@ export {
   Permissions,
   TextBasedChannel,
   TextChannel,
+  VoiceChannel,
 } from 'discord.js';
 export { inspect } from 'util';
 
 // Exporting types
-export * from './lib/types/klasa';
 export * from './lib/types/islam';
 export * from 'dotenv';
 

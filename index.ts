@@ -15,20 +15,22 @@ switch (process.env.NODE_ENV) {
 }
 dotenv.config({ path });
 
-KlasaClient.defaultUserSchema
-  .add('reminders', (reminder) => reminder
-    .add('finishMonthly', (monthly) => monthly
-      .add('verse', 'integer', { default: 1 })
-      .add('enabled', 'boolean')
-    )
-  );
+KlasaClient.defaultUserSchema.add('reminders', (reminder) =>
+  reminder.add('finishMonthly', (monthly) =>
+    monthly.add('verse', 'integer', { default: 1 }).add('enabled', 'boolean')
+  )
+);
 
-new KlasaClient({
+const Muslim = new KlasaClient({
   commandEditing: true,
   commandLogging: true,
   fetchAllMembers: false,
   noPrefixDM: true,
   prefix: '!',
-  readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`,
+  readyMessage: (client: KlasaClient) =>
+    `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`,
   typing: true,
-}).login(process.env.token);
+});
+
+// tslint:disable-next-line: no-console
+Muslim.login(process.env.token).catch((error) => console.log(error));

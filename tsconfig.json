@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "outDir": "./production",
     "target": "esnext",
+    "module": "commonjs",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "incremental": true,
     "lib": [
       "es2015",
       "es2016",
@@ -12,21 +19,8 @@
       "es6",
       "es7"
     ],
-    "declaration": false,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "outDir": "./production",
-    "removeComments": true,
-    "sourceMap": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "types": ["node"],
-    "moduleResolution": "node",
-    "noEmitOnError": true
+    "types": ["node", "klasa", "discord.js"]
   },
-  "include": ["ecosystem.config.ts", "./**/*"]
+  "include": ["./**/*"],
+  "exclude": ["./node_modules/*"]
 }
