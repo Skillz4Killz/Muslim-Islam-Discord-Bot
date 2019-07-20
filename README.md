@@ -6,6 +6,11 @@ An Islamic Discord bot for any muslim that uses Discord! The bot will do it's be
 
 Please join us all at https://discord.gg/XHBgG7P
 
+
+## Inviting The Bot To Your Server
+
+Use the **!invite** command
+
 ## Getting Your Own Bot
 
 1. Clone the repo.
@@ -16,10 +21,6 @@ Please join us all at https://discord.gg/XHBgG7P
 6. Enjoy!
 
 If it does not work please contact us at the discord link above to get support or make an issue.
-
-## Inviting The Bot To Your Server
-
-At this time, I will not be showing you how to add the bot because I do not feel it is ready or completed to a point where it should be added to a server. It is still very much in development and should be treated as such. Feel free to test the bot out on the discord server above. In the meantime, if you already know how to invite bots it is a public bot and you can invite it but once again I would highly recommend against it.
 
 ## Contributing
 
