@@ -22,16 +22,17 @@
   },
   "homepage": "https://github.com/Skillz4Killz/Muslim-Islam-Discord-Bot#readme",
   "dependencies": {
+    "@types/node": "^11.12.0",
     "@types/dotenv": "^6.1.0",
-    "@types/node": "^10.12.18",
-    "@types/node-fetch": "^2.1.4",
+    "@types/node-fetch": "^2.1.7",
     "chainfetch": "^1.2.2",
     "discord.js": "github:discordjs/discord.js",
-    "dotenv": "^6.2.0",
-    "klasa": "github:dirigeants/klasa#settings"
+    "dotenv": "^7.0.0",
+    "klasa": "github:dirigeants/klasa#settings",
+    "node-fetch": "^2.3.0"
   },
   "devDependencies": {
-    "tslint": "^5.12.0",
-    "typescript": "^3.2.2"
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
   }
 }

@@ -15,11 +15,24 @@ switch (process.env.NODE_ENV) {
 }
 dotenv.config({ path });
 
-KlasaClient.defaultUserSchema.add('reminders', (reminder) =>
-  reminder.add('finishMonthly', (monthly) =>
-    monthly.add('verse', 'integer', { default: 1 }).add('enabled', 'boolean')
-  )
-);
+KlasaClient.defaultUserSchema
+  .add('reminders', (reminder) => reminder
+    .add('finishMonthly', (monthly) => monthly
+      .add('verse', 'integer', { default: 1 })
+      .add('enabled', 'boolean')
+    )
+    .add('fridaySurahKahf', (fridayFolder) => fridayFolder
+      .add('enabled', 'boolean')
+    )
+  );
+
+KlasaClient.defaultGuildSchema
+  .add('reminders', (reminder) => reminder
+    .add('fridaySurahKahf', (fridayFolder) => fridayFolder
+      .add('enabled', 'boolean')
+      .add('channelID', 'textchannel')
+    )
+  );
 
 const Muslim = new KlasaClient({
   commandEditing: true,

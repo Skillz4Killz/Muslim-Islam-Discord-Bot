@@ -23,7 +23,7 @@ At this time, I will not be showing you how to add the bot because I do not feel
 
 ## Contributing
 
-Alhumdulillah! If you wish to contribute please read the [Contributing Guide]() for details on our code of conduct, and the process for submitting pull requests to us.
+Alhumdulillah! If you wish to contribute please read the [Contributing Guide](https://github.com/Alhumdulillah/Muslim-Islam-Discord-Bot/blob/master/.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Developers
 
