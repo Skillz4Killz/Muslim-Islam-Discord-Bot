@@ -20,18 +20,15 @@ KlasaClient.defaultUserSchema
     .add('finishMonthly', (monthly) => monthly
       .add('verse', 'integer', { default: 1 })
       .add('enabled', 'boolean')
+      .add('guildID', 'guild')
     )
-    .add('fridaySurahKahf', (fridayFolder) => fridayFolder
-      .add('enabled', 'boolean')
-    )
+    .add('fridaySurahKahfEnabled', 'boolean')
   );
 
 KlasaClient.defaultGuildSchema
   .add('reminders', (reminder) => reminder
-    .add('fridaySurahKahf', (fridayFolder) => fridayFolder
-      .add('enabled', 'boolean')
-      .add('channelID', 'textchannel')
-    )
+    .add('fridaySurahKahfChannelID', 'textchannel')
+    .add('finishMonthlyChannelID', 'textchannel')
   );
 
 const Muslim = new KlasaClient({

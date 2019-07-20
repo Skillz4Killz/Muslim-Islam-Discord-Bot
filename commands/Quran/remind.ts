@@ -2,37 +2,36 @@ import {
   Command,
   CommandStore,
   KlasaMessage,
-  MessageEmbed,
   Permissions,
 } from '../../imports';
+import { GuildSettings } from '../../lib/types/settings/GuildSettings';
+import { UserSettings } from '../../lib/types/settings/UserSettings';
 
 export default class extends Command {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, {
       aliases: ['r'],
-      description: (language) => language.get('COMMAND_REMIND_DESCRIPTION'),
+      description: (language) => language.get('REMIND_DESCRIPTION'),
       requiredPermissions: [Permissions.FLAGS.EMBED_LINKS],
     });
   }
 
   async run(message: KlasaMessage) {
+    const channelID = message.guild.settings.get(
+      GuildSettings.FinishMonthlyChannelID
+    ) as GuildSettings.ChannelID | null;
+    if (!channelID) return message.sendLocale(`REMIND_NOT_SETUP`);
+
     const enabled = message.author.settings.get(
-      `reminders.finishMonthly.enabled`
+      UserSettings.FinishMonthlyEnabled
     );
+
     await message.author.settings.update(
-      'reminders.finishMonthly.enabled',
+      UserSettings.FinishMonthlyEnabled,
       !enabled,
       { throwOnError: true }
     );
 
-    return message.send(
-      new MessageEmbed()
-        .setColor('RANDOM')
-        .setDescription(
-          enabled
-            ? message.language.get('COMMAND_REMIND_DISABLED')
-            : message.language.get('COMMAND_REMIND_ENABLED')
-        )
-    );
+    return message.sendLocale(enabled ? 'REMIND_DISABLED' : 'REMIND_ENABLED');
   }
 }
