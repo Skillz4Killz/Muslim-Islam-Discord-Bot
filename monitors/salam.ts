@@ -1,4 +1,4 @@
-import { KlasaClient, KlasaMessage, Monitor, MonitorStore } from './../imports';
+import { KlasaMessage, Monitor } from './../imports';
 
 const salamTerms = [
   'salam',
@@ -20,17 +20,8 @@ const greetingTerms = [
 ];
 
 module.exports = class extends Monitor {
-  constructor(
-    client: KlasaClient,
-    store: MonitorStore,
-    file: string[],
-    directory: string
-  ) {
-    super(client, store, file, directory, {
-      ignoreEdits: false,
-      ignoreOthers: false,
-    });
-  }
+  ignoreEdits = false;
+  ignoreOthers = false;
 
   async run(message: KlasaMessage) {
     // If this is not a in a guild cancel out

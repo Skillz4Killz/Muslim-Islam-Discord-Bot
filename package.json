@@ -8,7 +8,8 @@
     "start": "node production/index",
     "build": "tsc",
     "dev": "npm run build && npm run start",
-    "reset": "rm -R production && npm run dev"
+    "reset": "rm -R production && npm run dev",
+    "clean": "rm -r -f node_modules || true && rm -r -f production || true && rm yarn.lock -f -r || true && yarn cache clean && yarn"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
     "chainfetch": "^1.2.2",
     "discord.js": "github:discordjs/discord.js",
     "dotenv": "^7.0.0",
-    "klasa": "git+https://github.com/dirigeants/klasa.git",
+    "klasa": "github:dirigeants/klasa#settings",
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {

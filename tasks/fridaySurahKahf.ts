@@ -1,3 +1,4 @@
+import { TextChannel } from 'discord.js';
 import { kahf, Task } from '../imports';
 // import { UserSettings } from '../lib/types/klasa';
 
@@ -20,26 +21,52 @@ export default class extends Task {
   async run() {
     // Send reminder to all servers in their reminder channel
     for (const guild of this.client.guilds.values()) {
-      const { fridaySurahKahf } = guild.settings;
-      if (!fridaySurahKahf.enabled || !fridaySurahKahf.channelID) continue;
+      const [enabled, channelID] = guild.settings.pluck(
+        'fridaySurahKahf.enabled',
+        'fridaySurahKahf.channelID'
+      );
+      if (!enabled || !channelID) continue;
 
-      const reminderChannel = guild.channels.get(fridaySurahKahf.channelID);
+      const reminderChannel = guild.channels.get(channelID) as
+        | TextChannel
+        | undefined;
       if (!reminderChannel) continue;
-      const reasonMessageSent = await reminderChannel.send(surahKahfReminder).catch(() => null);
+
+      const reasonMessageSent = await reminderChannel
+        .send(surahKahfReminder)
+        .catch(() => null);
       if (!reasonMessageSent) continue;
 
-      await reminderChannel.send(surahKahfFirstTenVerses).catch((error: any) => this.client.console.error(`Failure to send Guild Reminder for ${guild.id} AKA ${guild.name} for Surah Kahf Reminder Task\n\n${error}.`));
+      await reminderChannel
+        .send(surahKahfFirstTenVerses)
+        .catch((error: any) =>
+          this.client.console.error(
+            `Failure to send Guild Reminder for ${guild.id} AKA ${
+              guild.name
+            } for Surah Kahf Reminder Task\n\n${error}.`
+          )
+        );
     }
 
     // Send reminder to all users in their DMs
     for (const user of this.client.users.values()) {
-      const { fridaySurahKahf } = user.settings;
-      if (!fridaySurahKahf.enabled) continue;
+      const enabled = user.settings.get('fridaySurahKahf.enabled');
+      if (!enabled) continue;
 
-      const dmReminderSent = await user.send(surahKahfReminder).catch(() => null);
+      const dmReminderSent = await user
+        .send(surahKahfReminder)
+        .catch(() => null);
       if (!dmReminderSent) continue;
 
-      await user.send(surahKahfFirstTenVerses).catch((error: any) => this.client.console.error(`Failure to send DM for ${user.id} for Surah Kahf Friday Reminder Task.\n\n${error}`));
+      await user
+        .send(surahKahfFirstTenVerses)
+        .catch((error: any) =>
+          this.client.console.error(
+            `Failure to send DM for ${
+              user.id
+            } for Surah Kahf Friday Reminder Task.\n\n${error}`
+          )
+        );
     }
   }
 }

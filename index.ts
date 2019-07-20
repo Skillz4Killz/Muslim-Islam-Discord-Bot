@@ -1,6 +1,5 @@
 import * as dotenv from 'dotenv';
 import { KlasaClient } from './imports';
-import fridaySurahKahf from './tasks/fridaySurahKahf';
 
 dotenv.config();
 let path;
@@ -22,25 +21,29 @@ KlasaClient.defaultUserSchema
       .add('verse', 'integer', { default: 1 })
       .add('enabled', 'boolean')
     )
-    .add('fridaySurahKahf', (fridaySurahKahf) => fridaySurahKahf
+    .add('fridaySurahKahf', (fridayFolder) => fridayFolder
       .add('enabled', 'boolean')
     )
   );
 
 KlasaClient.defaultGuildSchema
   .add('reminders', (reminder) => reminder
-    .add('fridaySurahKahf', (fridaySurahKahf) => fridaySurahKahf
+    .add('fridaySurahKahf', (fridayFolder) => fridayFolder
       .add('enabled', 'boolean')
       .add('channelID', 'textchannel')
     )
   );
 
-new KlasaClient({
+const Muslim = new KlasaClient({
   commandEditing: true,
   commandLogging: true,
   fetchAllMembers: false,
   noPrefixDM: true,
   prefix: '!',
-  readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`,
+  readyMessage: (client: KlasaClient) =>
+    `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`,
   typing: true,
-}).login(process.env.token);
+});
+
+// tslint:disable-next-line: no-console
+Muslim.login(process.env.token).catch((error) => console.log(error));

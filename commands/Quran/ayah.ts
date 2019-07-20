@@ -1,7 +1,6 @@
 import {
   Command,
   CommandStore,
-  KlasaClient,
   KlasaMessage,
   MessageEmbed,
   Permissions,
@@ -9,13 +8,8 @@ import {
 } from '../../imports';
 
 export default class extends Command {
-  constructor(
-    client: KlasaClient,
-    store: CommandStore,
-    file: string[],
-    directory: string
-  ) {
-    super(client, store, file, directory, {
+  constructor(store: CommandStore, file: string[], directory: string) {
+    super(store, file, directory, {
       aliases: ['a'],
       description: (language) => language.get('COMMAND_AYAH_DESCRIPTION'),
       quotedStringSupport: true,
