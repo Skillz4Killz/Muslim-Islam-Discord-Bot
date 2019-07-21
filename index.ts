@@ -53,6 +53,10 @@ const Muslim = new KlasaClient({
   slowmode: 2000,
   slowmodeAggressive: true,
   typing: true,
+  ws: {
+    // @ts-ignore
+    guild_subscriptions: false,
+  },
 });
 
 // tslint:disable-next-line: no-console
