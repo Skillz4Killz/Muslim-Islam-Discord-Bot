@@ -32,6 +32,8 @@ export default class extends Command {
       { throwOnError: true }
     );
 
+    await message.guild.settings.update(GuildSettings.FinishMonthlyUserIDs, message.author.id);
+
     return message.sendLocale(enabled ? 'REMIND_DISABLED' : 'REMIND_ENABLED');
   }
 }

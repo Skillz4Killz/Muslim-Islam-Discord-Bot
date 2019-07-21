@@ -31,6 +31,7 @@ KlasaClient.defaultGuildSchema.add('reminders', (reminder) =>
   reminder
     .add('fridaySurahKahfChannelID', 'textchannel')
     .add('finishMonthlyChannelID', 'textchannel')
+    .add('finishMonthlyUserIDs', 'user', { array: true })
 );
 
 const Muslim = new KlasaClient({

@@ -1,22 +1,26 @@
+import { Snowflake } from 'discord.js';
 import { Message, MessageEmbed, Quran, Task } from '../imports';
 import { GuildSettings } from '../lib/types/settings/GuildSettings';
 import { UserSettings } from '../lib/types/settings/UserSettings';
 
 export default class extends Task {
-
   async run() {
     this.client.emit('log', 'Reminder Task Running');
 
     for (const guild of this.client.guilds.values()) {
+      const userIDs = guild.settings.get(
+        GuildSettings.FinishMonthlyUserIDs
+      ) as Snowflake[];
+      if (!userIDs.length) continue;
+
       const [channel] = await guild.settings.resolve(
         GuildSettings.FinishMonthlyChannelID
       );
       if (!channel) continue;
 
-      // This channel has a valid reminder channel so fetch all members
-      await guild.members.fetch();
-
-      for (const member of guild.members.values()) {
+      for (const id of userIDs) {
+        const member = await guild.members.fetch(id).catch(() => null);
+        if (!member) continue;
         // For each member get the status and verse of their quran reminders
         const [enabled, nextVerse] = member.user.settings.pluck(
           UserSettings.FinishMonthlyEnabled,
@@ -53,9 +57,9 @@ export default class extends Task {
           .setFooter('Credits To Quran.com');
 
         // Send the reminder embed for the verse
-        const sentReminder = await channel.send(member.user, {
+        const sentReminder = (await channel.send(member.user, {
           embed,
-        }) as Message;
+        })) as Message;
         // Add a reaction so the user can confirm they read it
         if (sentReminder) await sentReminder.react('✅');
         // Add 1 to the verse number or reset it if they are complete
