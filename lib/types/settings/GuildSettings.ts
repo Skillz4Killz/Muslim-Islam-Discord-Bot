@@ -4,4 +4,5 @@ export namespace GuildSettings {
 	export type ChannelID = Snowflake;
 	export const FinishMonthlyChannelID = 'reminders.finishMonthlyChannelID';
 	export const FridaySurahKahfChannelID = 'reminders.fridaySurahKahfChannelID';
+	export const Prefix = 'prefix';
 }

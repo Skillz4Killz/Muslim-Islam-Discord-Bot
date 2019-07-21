@@ -1,4 +1,5 @@
 import { TextChannel } from 'discord.js';
+import { KlasaUser } from 'klasa';
 import { kahf, Task } from '../imports';
 import { GuildSettings } from '../lib/types/settings/GuildSettings';
 import { UserSettings } from '../lib/types/settings/UserSettings';
@@ -19,44 +20,38 @@ const surahKahfFirstTenVerses = [
 const surahKahfReminder = `**Surah Kahf Friday Reminder**`;
 
 export default class extends Task {
-  async run() {
-    // Send reminder to all servers in their reminder channel
-    for (const guild of this.client.guilds.values()) {
-      try {
-        const [channel] = (await guild.settings.resolve(
-          GuildSettings.FridaySurahKahfChannelID
-        )) as [TextChannel | null];
-        if (!channel) continue;
+  async run(data) {
+    const guild = this.client.guilds.get(data.guildID);
+    if (!guild) return this.recreateAndCancel(data);
 
-        const reasonMessageSent = await channel.send(surahKahfReminder);
-        if (!reasonMessageSent) continue;
+    const [channel] = (await guild.settings.resolve(
+      GuildSettings.FridaySurahKahfChannelID
+    )) as [TextChannel | null];
+    if (!channel || !channel.embedable) return this.recreateAndCancel(data);
 
-        await channel.send(surahKahfFirstTenVerses);
-      } catch (error) {
-        this.client.console.error(
-          `Failure to send Guild Reminder for ${guild.id} AKA ${
-            guild.name
-          } for Surah Kahf Reminder Task\n\n${error}.`
-        );
-      }
+    const user = (await this.client.users
+      .fetch(data.authorID)
+      .catch(() => null)) as KlasaUser | null;
+    if (!user) return null;
+
+    const enabled = user.settings.get(
+      UserSettings.FridaySurahKahfEnabled
+    ) as boolean;
+    if (!enabled) return null;
+
+    try {
+      const reasonMessageSent = await channel.send(surahKahfReminder);
+      if (!reasonMessageSent) return this.recreateAndCancel(data);
+
+      await channel.send(surahKahfFirstTenVerses);
+    } catch (error) {
+      this.client.console.error(
+        `Error: ${guild.id} - ${guild.name} for Kahf Task\n\n${error}.`
+      );
     }
+  }
 
-    // Send reminder to all users in their DMs
-    for (const user of this.client.users.values()) {
-      try {
-        const enabled = user.settings.get(UserSettings.FridaySurahKahfEnabled);
-        if (!enabled) continue;
-
-        const dmReminderSent = await user.send(surahKahfReminder);
-        if (!dmReminderSent) continue;
-        await user.send(surahKahfFirstTenVerses);
-      } catch (error) {
-        this.client.console.error(
-          `Failure to send DM for ${
-            user.id
-          } for Surah Kahf Friday Reminder Task.\n\n${error}`
-        );
-      }
-    }
+  recreateAndCancel(data) {
+    return this.client.schedule.create(this.name, Date.now() + 604800000, data);
   }
 }
