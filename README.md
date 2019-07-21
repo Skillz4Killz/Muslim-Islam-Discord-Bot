@@ -11,6 +11,12 @@ Please join us all at https://discord.gg/XHBgG7P
 
 Use the **!invite** command
 
+## Features
+
+- Helps your guilds members be able to read the full Quran once a month.
+- Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
+- Get any Ayah from the Quran at any time.
+
 ## Getting Your Own Bot
 
 1. Clone the repo.
