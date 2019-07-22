@@ -16,6 +16,7 @@ Use the **!invite** command
 - Helps your guilds members be able to read the full Quran once a month.
 - Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
 - Get any Ayah from the Quran at any time.
+- Sends proper salam greeting to everyone saying many different greetings.
 
 ## Getting Your Own Bot
 
