@@ -2,7 +2,7 @@ import { Event } from '../imports';
 
 const tasksToCreate = [
   { name: 'reminder', time: '*/10 * * * *' },
-  { name: 'changeProfilePicture', time: '0 */2 * * *' },
+  { name: 'changeProfilePicture', time: '@daily' },
   // { name: 'fridaySurahKahf', time: '@weekly' }
 ];
 export default class extends Event {
