@@ -25,7 +25,7 @@
     "@kcp/functions": "^1.0.0",
     "@types/dotenv": "^6.1.0",
     "@types/node": "^12.6.8",
-    "@types/node-fetch": "^2.1.7",
+    "@types/node-fetch": "^2.5.0",
     "chainfetch": "^1.2.2",
     "discord.js": "github:discordjs/discord.js",
     "dotenv": "^8.0.0",
