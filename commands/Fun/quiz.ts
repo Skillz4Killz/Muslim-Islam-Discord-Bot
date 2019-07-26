@@ -9,7 +9,6 @@ export default class extends Command {
       .map((a) => a.value);
 
     for (const data of questions) {
-      console.log(data.question);
 			// Try and quiz on each question
       try {
         // Send the question to the user
