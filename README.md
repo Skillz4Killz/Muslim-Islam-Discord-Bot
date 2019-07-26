@@ -17,6 +17,8 @@ Use the **!invite** command
 - Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
 - Get any Ayah from the Quran at any time.
 - Sends proper salam greeting to everyone saying many different greetings.
+- Learn about Islam little by little by reviewing questions and answers with the **!questions** command.
+	- If you feel you are ready go ahead and try the **!quiz** command.
 
 ## Getting Your Own Bot
 
