@@ -34,7 +34,11 @@ KlasaClient.defaultGuildSchema.add('reminders', (reminder) =>
     .add('finishMonthlyUserIDs', 'user', { array: true })
 );
 
+KlasaClient.use(require(`@kcp/functions`));
+
 const Muslim = new KlasaClient({
+  // Functions plugin
+  aliasFunctions: { prefix: `helpers`, enabled: true },
   commandEditing: true,
   commandLogging: true,
   fetchAllMembers: false,

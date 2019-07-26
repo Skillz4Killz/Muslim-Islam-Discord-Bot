@@ -16,6 +16,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@kcp/functions@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@kcp/functions/-/functions-1.0.0.tgz#7f1b60c63bcc66094e1b088cbb97231836819bc4"
+
 "@types/dotenv@^6.1.0":
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/@types/dotenv/-/dotenv-6.1.1.tgz#f7ce1cc4fe34f0a4373ba99fefa437b0bec54b46"
