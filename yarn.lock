@@ -26,15 +26,15 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node-fetch@^2.1.7":
-  version "2.3.7"
-  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.3.7.tgz#b7212e895100f8642dbdab698472bab5f3c1d2f1"
+"@types/node-fetch@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.5.0.tgz#1c55616a4591bdd15a389fbd0da4a55b9502add5"
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^12.6.8":
-  version "12.6.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.6.8.tgz#e469b4bf9d1c9832aee4907ba8a051494357c12c"
+"@types/node@*", "@types/node@^12.6.9":
+  version "12.6.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.6.9.tgz#ffeee23afdc19ab16e979338e7b536fdebbbaeaf"
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -117,7 +117,8 @@ diff@^3.2.0:
 
 "discord.js@github:discordjs/discord.js":
   version "12.0.0-dev"
-  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/651ff81bd522c03b5c9724a3a8c14eeb88dcd6b9"
+  uid "5af8cb8e6e7591e81f758a8b0f6748db7c2f12f1"
+  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/5af8cb8e6e7591e81f758a8b0f6748db7c2f12f1"
   dependencies:
     form-data "^2.3.3"
     node-fetch "^2.3.0"
