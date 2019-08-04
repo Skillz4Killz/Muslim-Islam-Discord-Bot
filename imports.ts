@@ -147,3 +147,5 @@ export { yusuf } from './lib/surahs/yusuf';
 export { zalzalah } from './lib/surahs/zalzalah';
 export { zukhruf } from './lib/surahs/zukhruf';
 export { zumar } from './lib/surahs/zumar';
+
+export { default as surahNamesToNumber } from './lib/constants/surahnames';
