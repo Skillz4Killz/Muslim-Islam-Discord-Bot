@@ -32,9 +32,9 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^12.6.9":
-  version "12.6.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.6.9.tgz#ffeee23afdc19ab16e979338e7b536fdebbbaeaf"
+"@types/node@*", "@types/node@^12.7.0":
+  version "12.7.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.0.tgz#545dde2a1a5c27d281cfb8308d6736e0708f5d6c"
 
 ansi-styles@^3.2.1:
   version "3.2.1"
