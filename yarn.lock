@@ -36,6 +36,12 @@
   version "12.7.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.2.tgz#c4e63af5e8823ce9cc3f0b34f7b998c2171f0c44"
 
+abort-controller@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
+  dependencies:
+    event-target-shim "^5.0.0"
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -117,9 +123,10 @@ diff@^3.2.0:
 
 "discord.js@github:discordjs/discord.js":
   version "12.0.0-dev"
-  uid "3fcc862c5fa336bb26c570655245d57e2e532f20"
-  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/3fcc862c5fa336bb26c570655245d57e2e532f20"
+  uid fbd811517a298b857f9fd963d8fb13c4c1207f90
+  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/fbd811517a298b857f9fd963d8fb13c4c1207f90"
   dependencies:
+    abort-controller "^3.0.0"
     form-data "^2.3.3"
     node-fetch "^2.3.0"
     pako "^1.0.8"
@@ -143,6 +150,10 @@ esprima@^4.0.0:
 esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
+
+event-target-shim@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
 
 form-data@^2.3.3:
   version "2.5.0"
