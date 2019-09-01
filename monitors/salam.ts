@@ -24,7 +24,7 @@ export default class extends Monitor {
 
   async run(message: KlasaMessage) {
     // If this is not a in a guild cancel out
-    if (!message.guild || !message.content.length) return null;
+    if (!message.guild || !message.content.length || !message.channel.postable) return null;
 
     const content = message.content.toLowerCase();
     // if the message starts with a salam term reply
