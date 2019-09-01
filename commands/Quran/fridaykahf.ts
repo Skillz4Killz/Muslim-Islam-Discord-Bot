@@ -1,8 +1,16 @@
-import { Command, KlasaMessage } from 'klasa';
+import { Command, CommandStore, KlasaMessage, Language } from 'klasa';
 import { UserSettings } from '../../lib/types/settings/UserSettings';
 
 export default class extends Command {
-  async run(message: KlasaMessage) {
+  constructor(store: CommandStore, file: string[], directory: string) {
+    super(store, file, directory, {
+      description: (language: Language) =>
+        language.get(`FRIDAYKAHF_DESCRIPTION`),
+      extendedHelp: (language: Language) => language.get(`FRIDAYKAHF_EXTENDED`),
+      usage: `[days:integer{0,7}]`,
+    });
+  }
+  async run(message: KlasaMessage, [days = 0]) {
     const status = message.author.settings.get(
       UserSettings.FridaySurahKahfEnabled
     ) as boolean;
@@ -12,7 +20,13 @@ export default class extends Command {
     );
 
     // If it is now enabled create a task that will remind them next week
-    if (!status) await this.client.schedule.create(`fridaySurahKahf`, Date.now() + 604800000, { data: { guildID: message.guild.id, authorID: message.author.id }});
+    if (!status)
+      await this.client.schedule.create(
+        `fridaySurahKahf`,
+        // Now + a week + the number of days to skip
+        Date.now() + 604800000 + (days * 86400000),
+        { data: { guildID: message.guild.id, authorID: message.author.id } }
+      );
 
     return message.sendLocale(`FRIDAY_KAHF_TOGGLED`, [!status]);
   }
