@@ -16,6 +16,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@discordjs/collection@^0.1.1":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-0.1.2.tgz#f3d88dfc0ca62bb4cbf24f80202cdfdfccf9fa4d"
+
 "@kcp/functions@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@kcp/functions/-/functions-1.0.0.tgz#7f1b60c63bcc66094e1b088cbb97231836819bc4"
@@ -123,9 +127,10 @@ diff@^3.2.0:
 
 "discord.js@github:discordjs/discord.js":
   version "12.0.0-dev"
-  uid "89a3a3a6daa7b5e25bd277b4e2ec6bccb368f1df"
-  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/89a3a3a6daa7b5e25bd277b4e2ec6bccb368f1df"
+  uid ea9e1441905e67e2627a6f5e80a8d989d01376c5
+  resolved "https://codeload.github.com/discordjs/discord.js/tar.gz/ea9e1441905e67e2627a6f5e80a8d989d01376c5"
   dependencies:
+    "@discordjs/collection" "^0.1.1"
     abort-controller "^3.0.0"
     form-data "^2.3.3"
     node-fetch "^2.3.0"
