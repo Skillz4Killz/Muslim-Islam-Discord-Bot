@@ -24,7 +24,7 @@
   "dependencies": {
     "@kcp/functions": "^1.0.0",
     "@types/dotenv": "^6.1.0",
-    "@types/node": "^12.11.2",
+    "@types/node": "^12.12.0",
     "@types/node-fetch": "^2.5.2",
     "chainfetch": "^1.2.2",
     "discord.js": "github:discordjs/discord.js",
