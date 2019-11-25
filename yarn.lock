@@ -24,6 +24,10 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@kcp/functions/-/functions-1.0.0.tgz#7f1b60c63bcc66094e1b088cbb97231836819bc4"
 
+"@klasa/request-handler@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@klasa/request-handler/-/request-handler-0.0.3.tgz#ed72de611ece3dd99725cb797fc13e07bb05e618"
+
 "@types/dotenv@^8.2.0":
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/@types/dotenv/-/dotenv-8.2.0.tgz#5cd64710c3c98e82d9d15844375a33bf1b45d053"
@@ -215,9 +219,10 @@ js-yaml@^3.13.1:
 
 "klasa@github:dirigeants/klasa#settings":
   version "0.5.0-dev"
-  uid ea13732620792c51ee2705e0d8d10d5962873ef6
-  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/ea13732620792c51ee2705e0d8d10d5962873ef6"
+  uid aee79a51a6e845b6678e96fdd1a7cc1e27fda435
+  resolved "https://codeload.github.com/dirigeants/klasa/tar.gz/aee79a51a6e845b6678e96fdd1a7cc1e27fda435"
   dependencies:
+    "@klasa/request-handler" "^0.0.3"
     fs-nextra "^0.4.5"
 
 mime-db@1.40.0:
