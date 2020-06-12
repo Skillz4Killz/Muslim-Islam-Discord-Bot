@@ -1,7 +1,5 @@
-import { Snowflake } from 'discord.js';
-
 export namespace GuildSettings {
-	export type ChannelID = Snowflake;
+	export type ChannelID = string;
 	export const FinishMonthlyChannelID = 'reminders.finishMonthlyChannelID';
 	export const FinishMonthlyUserIDs = 'reminders.finishMonthlyUserIDs';
 	export const FridaySurahKahfChannelID = 'reminders.fridaySurahKahfChannelID';

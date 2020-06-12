@@ -1,8 +1,8 @@
 import { TextChannel } from 'discord.js';
-import { KlasaUser } from 'klasa';
-import { kahf, Task } from '../imports';
-import { GuildSettings } from '../lib/types/settings/GuildSettings';
-import { UserSettings } from '../lib/types/settings/UserSettings';
+import { KlasaUser, Task } from 'klasa';
+import { kahf } from '../../imports';
+import { GuildSettings } from '../../lib/types/settings/GuildSettings';
+import { UserSettings } from '../../lib/types/settings/UserSettings';
 
 const surahKahfFirstTenVerses = [
   kahf.ayah_1.text,

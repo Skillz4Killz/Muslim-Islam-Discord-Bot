@@ -1,7 +1,7 @@
-import { Snowflake } from 'discord.js';
-import { Message, MessageEmbed, Quran, Task } from '../imports';
-import { GuildSettings } from '../lib/types/settings/GuildSettings';
-import { UserSettings } from '../lib/types/settings/UserSettings';
+import { Snowflake, TextChannel } from 'discord.js';
+import { Message, MessageEmbed, Quran, Task } from '../../imports';
+import { GuildSettings } from '../../lib/types/settings/GuildSettings';
+import { UserSettings } from '../../lib/types/settings/UserSettings';
 
 export default class extends Task {
   async run() {
@@ -15,7 +15,7 @@ export default class extends Task {
 
       const [channel] = await guild.settings.resolve(
         GuildSettings.FinishMonthlyChannelID
-      );
+      ) as [TextChannel | null];
       if (!channel) continue;
 
       for (const id of userIDs) {
@@ -29,32 +29,50 @@ export default class extends Task {
 
         if (!enabled) continue;
 
-        // Get the surah and ayah numbers to send based on the verse they are up to
-        const verse = nextVerse || 1;
-        let surah;
-        let ayah = 'ayah_1';
-
-        for (const surahKey of Object.keys(Quran)) {
-          const surahValue = Quran[surahKey];
-          for (const ayahKey of Object.keys(surahValue)) {
-            if (surahValue[ayahKey].verse !== verse) continue;
-            surah = surahValue;
-            ayah = ayahKey;
-          }
-        }
-        // Get the ayah object
-        const ayahToSend = surah[ayah];
         // Create the embed to send
         const embed = new MessageEmbed()
           .setColor('RANDOM')
           .setAuthor(
-            `Surah ${surah.name} Ayah #${ayah.substring(5)}`,
+            `Finish Quran Every Month Reminder!`,
             member.user.displayAvatarURL()
           )
-          .setDescription(ayahToSend.text)
-          .setImage(ayahToSend.image)
           .setTimestamp()
           .setFooter('Credits To Quran.com');
+
+        // Get the surah and ayah numbers to send based on the verse they are up to
+        let verse = nextVerse || 1;
+
+        for (let i = 0; i < 3; i++) {
+          let surah;
+          let ayah = 'ayah_1';
+
+          for (const surahKey of Object.keys(Quran)) {
+            const surahValue = Quran[surahKey];
+            for (const ayahKey of Object.keys(surahValue)) {
+              if (surahValue[ayahKey].verse !== verse) continue;
+              surah = surahValue;
+              ayah = ayahKey;
+              break;
+            }
+            if (surah) break;
+          }
+
+          // Get the ayah object
+          const ayahToSend = surah[ayah];
+          // Add the ayah to the embed
+          embed.addField(
+            `Surah ${surah.name} Ayah #${ayah.substring(5)}`,
+            ayahToSend.text
+          );
+
+          // Log it
+          this.client.emit(
+            'log',
+            `Reminded ${member.user.tag} of ${surah.name} ${ayah} in the reminder task.`
+          );
+          // Increase the counter
+          verse++;
+        }
 
         // Send the reminder embed for the verse
         const sentReminder = (await channel.send(member.user, {
@@ -65,15 +83,8 @@ export default class extends Task {
         // Add 1 to the verse number or reset it if they are complete
         await member.user.settings.update(
           UserSettings.FinishMonthlyVerse,
-          verse === 6105 ? 1 : verse + 1,
+          verse === 6105 ? 1 : verse + 3,
           { throwOnError: true }
-        );
-        // Log it
-        this.client.emit(
-          'log',
-          `Reminded ${member.user.tag} of ${
-            surah.name
-          } ${ayah} in the reminder task.`
         );
       }
     }

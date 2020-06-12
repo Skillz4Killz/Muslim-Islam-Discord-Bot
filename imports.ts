@@ -1,37 +1,10 @@
-// Exporting necessary parts from dependencies
-export {
-  Command,
-  CommandStore,
-  Event,
-  KlasaClient,
-  util as KlasaUtil,
-  KlasaMessage,
-  Language,
-  LanguageStore,
-  Monitor,
-  MonitorStore,
-  Stopwatch,
-  Task,
-  Type,
-} from 'klasa';
-export {
-  Client,
-  Message,
-  MessageEmbed,
-  Permissions,
-  TextBasedChannel,
-  TextChannel,
-  VoiceChannel,
-} from 'discord.js';
-export { inspect } from 'util';
-
 // Exporting types
 export * from './lib/types/islam';
-export * from 'dotenv';
 
 // Exporting project constant files
 export { Quran } from './quran';
 export { default as ImageConstants } from './lib/constants/images';
+
 // Exporting surahs
 export { abasa } from './lib/surahs/abasa';
 export { adiyat } from './lib/surahs/adiyat';
@@ -149,3 +122,6 @@ export { zukhruf } from './lib/surahs/zukhruf';
 export { zumar } from './lib/surahs/zumar';
 
 export { default as surahNamesToNumber } from './lib/constants/surahnames';
+
+// Exporting functions
+export * from './lib/utils/klasa'

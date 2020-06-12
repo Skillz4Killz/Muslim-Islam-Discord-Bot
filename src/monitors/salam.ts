@@ -1,4 +1,4 @@
-import { KlasaMessage, Monitor } from './../imports';
+import { KlasaMessage, Monitor } from '../../imports';
 
 const salamTerms = [
   'salam',

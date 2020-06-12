@@ -1,8 +1,7 @@
-ecosystem.config.ts
-yarn.lock
-package.lock.json
-bwd/
+dist/
+node_modules/
 production/
+configs.ts
 
 # Logs
 logs

@@ -1,26 +1,24 @@
 {
   "compilerOptions": {
-    "outDir": "./production",
-    "target": "esnext",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "incremental": true,
     "module": "commonjs",
-    "removeComments": true,
     "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "outDir": "./production",
+    "pretty": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
     "sourceMap": true,
-    "incremental": true,
-    "lib": [
-      "es2015",
-      "es2016",
-      "es2017",
-      "es2018",
-      "esnext",
-      "es5",
-      "es6",
-      "es7"
-    ],
-    "types": ["node", "klasa", "discord.js"]
+    "strict": true,
+    "types": ["node"],
+    "target": "es2019",
+    "esModuleInterop": true
   },
-  "include": ["./**/*"],
-  "exclude": ["./node_modules/*"]
+  "compileOnSave": true,
+  "include": ["./src/**/*.ts", "config.ts"]
 }
