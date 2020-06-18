@@ -1,5 +1,6 @@
 import { KlasaClient } from "klasa";
 import config from "../configs";
+import {Intents} from "@klasa/ws"
 
 const client = new KlasaClient({
   commands: {
@@ -18,6 +19,9 @@ const client = new KlasaClient({
     messageLifetime: 300000,
     messageSweepInterval: 60000,
   },
+  ws: {
+    intents: Intents.FLAGS.GUILD_MESSAGES | Intents.FLAGS.GUILDS
+  }
 });
 
 client.token = config.token;
