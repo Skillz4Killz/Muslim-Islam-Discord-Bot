@@ -1,4 +1,4 @@
-interface Quran {
+export interface Quran {
 	[key: string]: any;
 }
 
