@@ -1,7 +1,7 @@
 import { Quran, surahNamesToNumber, sendTextMessage } from "../../../imports";
 import { Command, CommandStore } from "klasa";
 import { PermissionsFlags, Message, Embed } from "@klasa/core";
-import { randomColor, sendEmbedMessage } from "../../../lib/utils/klasa";
+import { randomColor, sendEmbedMessage, displayAvatarURL } from "../../../lib/utils/klasa";
 
 export default class extends Command {
   constructor(store: CommandStore, file: string, directory: string[]) {
@@ -60,7 +60,7 @@ export default class extends Command {
 
       embed
         .setColor(randomColor())
-        .setAuthor(message.language.get("AYAH_SURAH_AND_AYAH", surahToUse.name, i), message.author.displayAvatarURL())
+        .setAuthor(message.language.get("AYAH_SURAH_AND_AYAH", surahToUse.name, i), displayAvatarURL(message.author))
         .setDescription(ayahToSend.text)
         .setImage(ayahToSend.image);
 

@@ -1,5 +1,5 @@
-import { Message } from "@klasa/core";
-import { APIEmbedData } from '@klasa/dapi-types'
+import { Message, User } from "@klasa/core";
+import { APIEmbedData } from "@klasa/dapi-types";
 export function sendTextMessage(message: Message, content: string) {
   return message.send({ data: { content } });
 }
@@ -10,4 +10,10 @@ export function sendEmbedMessage(message: Message, embed: APIEmbedData) {
 
 export function randomColor() {
   return Math.floor(Math.random() * (0xffffff + 1));
+}
+
+export function displayAvatarURL(user: User) {
+  return user.avatar
+    ? user.client.api.cdn.userAvatar(user.id, user.avatar)
+    : user.client.api.cdn.defaultAvatar(Number(user.discriminator));
 }
