@@ -1,6 +1,7 @@
 import { ImageConstants } from "../../imports";
 import { Task } from "klasa";
 import { PermissionsFlags } from "@klasa/core";
+import configs from "../../configs";
 
 export default class extends Task {
   async run() {
@@ -13,9 +14,9 @@ export default class extends Task {
       .user!.setAvatar(randomImageUrl)
       .catch((error) => this.client.emit("error", `Change Profile Picture Task Set Avatar: \n${error.stack || error}`));
     // Set the servers logo if the guild exists and the bot has permissions
-    if (!process.env.mainGuildID) return;
+    if (!configs.mainGuildID) return;
 
-    const mainGuild = this.client.guilds.get(process.env.mainGuildID);
+    const mainGuild = this.client.guilds.get(configs.mainGuildID);
     if (!mainGuild) return;
     if (!mainGuild.me?.permissions.has(PermissionsFlags.ManageGuild)) return;
 
