@@ -2,27 +2,24 @@ import { KlasaClient } from "klasa";
 import config from "../configs";
 import { Intents } from "@klasa/ws";
 
-KlasaClient.defaultUserSchema.add('reminders', (reminder) =>
+KlasaClient.defaultUserSchema.add("reminders", (reminder) =>
   reminder
-    .add('finishMonthly', (monthly) =>
-      monthly
-        .add('verse', 'integer', { default: 1 })
-        .add('enabled', 'boolean')
-        .add('guildID', 'guild')
+    .add("finishMonthly", (monthly) =>
+      monthly.add("verse", "integer", { default: 1 }).add("enabled", "boolean").add("guildID", "guild")
     )
-    .add('fridaySurahKahfEnabled', 'boolean')
+    .add("fridaySurahKahfEnabled", "boolean")
 );
 
-KlasaClient.defaultGuildSchema.add('reminders', (reminder) =>
+KlasaClient.defaultGuildSchema.add("reminders", (reminder) =>
   reminder
-    .add('fridaySurahKahfChannelID', 'textchannel')
-    .add('finishMonthlyChannelID', 'textchannel')
-    .add('finishMonthlyUserIDs', 'user', { array: true })
+    .add("fridaySurahKahfChannelID", "textchannel")
+    .add("finishMonthlyChannelID", "textchannel")
+    .add("finishMonthlyUserIDs", "user", { array: true })
 );
 
 const client = new KlasaClient({
   commands: {
-    prefix: ",",
+    prefix: "!",
     logging: true,
     editing: true,
     messageLifetime: 600000,
@@ -43,6 +40,5 @@ const client = new KlasaClient({
 });
 
 client.token = config.token;
-
 
 client.connect().catch(console.error);
