@@ -1,7 +1,7 @@
 import { Command } from "klasa";
 import questions from "../../../lib/constants/questions";
 import { Message } from "@klasa/core";
-import { sendTextMessage } from "../../../lib/utils/klasa";
+import { sendTextMessage, sendMessage } from "../../../lib/utils/klasa";
 
 export default class extends Command {
   async run(message: Message) {
@@ -35,13 +35,12 @@ export default class extends Command {
           : randomQuestion.choices[userChoice - 1] === randomQuestion.answer;
 
       // Send the answer and the explanantion
-      return message.send(
+      return sendMessage(
+        message.channel.id,
         {
-          data: {
-            content: `${message.author}, ${isCorrect ? `Correct!` : `Wrong!`} => The answer is: **${
-              randomQuestion.answer
-            }**.\n\n${randomQuestion.explanation}`,
-          },
+          content: `${message.author}, ${isCorrect ? `Correct!` : `Wrong!`} => The answer is: **${
+            randomQuestion.answer
+          }**.\n\n${randomQuestion.explanation}`,
         },
         { maxLength: 2000, char: " " }
       );

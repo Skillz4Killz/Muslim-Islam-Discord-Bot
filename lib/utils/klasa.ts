@@ -1,4 +1,4 @@
-import { Message, User, MessageData, isTextBasedChannel } from "@klasa/core";
+import { Message, User, MessageData, isTextBasedChannel, SplitOptions } from "@klasa/core";
 import { APIEmbedData } from "@klasa/dapi-types";
 import { client } from "../../src";
 
@@ -10,11 +10,11 @@ export function sendEmbedMessage(message: Message, embed: APIEmbedData) {
   return message.send({ data: { embed } });
 }
 
-export async function sendMessage(channelID: string, data: MessageData) {
+export async function sendMessage(channelID: string, data: MessageData, options?: SplitOptions) {
   const channel = client.channels.get(channelID);
   if (!channel || !isTextBasedChannel(channel)) return [];
 
-  return channel.send({ data });
+  return channel.send({ data }, options);
 }
 
 export function randomColor() {

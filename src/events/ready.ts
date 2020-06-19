@@ -1,7 +1,7 @@
 import { Event } from "@klasa/core";
 
 const tasksToCreate = [
-  { name: "reminder", time: "*/1 * * * *" },
+  { name: "reminder", time: "*/20 * * * *" },
   { name: "changeProfilePicture", time: "@daily" },
   // { name: 'fridaySurahKahf', time: '@weekly' }
 ];
