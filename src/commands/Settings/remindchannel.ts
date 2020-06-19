@@ -12,7 +12,7 @@ export default class extends Command {
       permissionLevel: 1,
       usage: `[channel:channel]`,
       usageDelim: ` `,
-      runIn: [],
+      runIn: [ChannelType.GuildText, ChannelType.GuildNews],
     });
   }
 
