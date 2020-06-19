@@ -2,22 +2,18 @@ import { KlasaClient } from "klasa";
 import config from "../configs";
 import { Intents } from "@klasa/ws";
 
-KlasaClient.defaultUserSchema.add("reminders", (reminder) =>
-  reminder
-    .add("finishMonthly", (monthly) =>
-      monthly.add("verse", "integer", { default: 1 }).add("enabled", "boolean").add("guildID", "guild")
-    )
-    .add("fridaySurahKahfEnabled", "boolean")
-);
+KlasaClient.defaultUserSchema
+  .add("finishMonthlyVerse", "integer", { default: 1 })
+  .add("finishMonthlyEnabled", "boolean")
+  .add("finishMonthlyGuildID", "guild")
+  .add("fridaySurahKahfEnabled", "boolean");
 
-KlasaClient.defaultGuildSchema.add("reminders", (reminder) =>
-  reminder
-    .add("fridaySurahKahfChannelID", "textchannel")
-    .add("finishMonthlyChannelID", "textchannel")
-    .add("finishMonthlyUserIDs", "user", { array: true })
-);
+KlasaClient.defaultGuildSchema
+  .add("fridaySurahKahfChannelID", "textchannel")
+  .add("finishMonthlyChannelID", "textchannel")
+  .add("finishMonthlyUserIDs", "user", { array: true });
 
-const client = new KlasaClient({
+export const client = new KlasaClient({
   commands: {
     prefix: "!",
     logging: true,

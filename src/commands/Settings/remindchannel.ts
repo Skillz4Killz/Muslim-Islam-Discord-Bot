@@ -22,7 +22,7 @@ export default class extends Command {
     // Otherwise set the channel to get reminders
     else if (channel.type !== ChannelType.GuildText)
       return sendTextMessage(message, `Invalid channel. I can only use text channels for this.`);
-    else await message.guild!.settings.update(GuildSettings.FinishMonthlyChannelID, channel.id);
+    else await message.guild?.settings.update(GuildSettings.FinishMonthlyChannelID, channel.id);
 
     return message.sendLocale(channel ? `REMINDCHANNEL_SET` : `REMINDCHANNEL_RESET`, [channel]);
   }

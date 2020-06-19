@@ -1,8 +1,8 @@
 import { GuildSettings } from "../../lib/types/settings/GuildSettings";
 import { UserSettings } from "../../lib/types/settings/UserSettings";
 import { Task } from "klasa";
-import { TextChannel, Embed } from "@klasa/core";
-import { randomColor, displayAvatarURL } from "../../lib/utils/klasa";
+import { Embed } from "@klasa/core";
+import { randomColor, displayAvatarURL, sendMessage } from "../../lib/utils/klasa";
 import { Quran } from "../../quran";
 
 export default class extends Task {
@@ -10,18 +10,17 @@ export default class extends Task {
     this.client.emit("log", "Reminder Task Running");
 
     for (const guild of this.client.guilds.values()) {
-      console.log('reminder task', guild.name, 1)
       const userIDs = guild.settings.get(GuildSettings.FinishMonthlyUserIDs) as string[];
-      console.log('reminder task', userIDs, 2)
       if (!userIDs.length) continue;
 
-      const [channel] = (await guild.settings.resolve(GuildSettings.FinishMonthlyChannelID)) as [TextChannel | null];
-      console.log('reminder task', channel?.name, 3)
-      if (!channel) continue;
+      const channelID = guild.settings.get(GuildSettings.FinishMonthlyChannelID) as string | undefined;
+      if (!channelID) continue;
 
       for (const id of userIDs) {
         const member = await guild.members.fetch(id).catch(() => null);
         if (!member?.user) continue;
+
+        await member.user.settings.sync();
         // For each member get the status and verse of their quran reminders
         const [enabled, nextVerse] = member.user.settings.pluck(
           UserSettings.FinishMonthlyEnabled,
@@ -67,16 +66,15 @@ export default class extends Task {
         }
 
         // Send the reminder embed for the verse
-        const [sentReminder] = await channel.send({
-          data: {
-            content: member.user.toString(),
-            embed,
-          },
-        });
+        const [sentReminder] = await sendMessage(channelID, {
+          content: member.user.toString(),
+          embed,
+          allowed_mentions: { parse: [], users: [member.user.id], roles: [] },
+        })
         // Add a reaction so the user can confirm they read it
         if (sentReminder) await sentReminder.reactions.add("✅");
         // Add 1 to the verse number or reset it if they are complete
-        await member.user.settings.update(UserSettings.FinishMonthlyVerse, verse === 6105 ? 1 : verse + 3);
+        await member.user.settings.update(UserSettings.FinishMonthlyVerse, verse === 6105 ? 1 : verse);
       }
     }
 
