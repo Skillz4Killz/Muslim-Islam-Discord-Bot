@@ -14,11 +14,16 @@ Use the **!invite** command
 ## Features
 
 - Helps your guilds members be able to read the full Quran once a month.
-- Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
+![image](https://i.imgur.com/8S4rWis.png)
+- SOON! Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
 - Get any Ayah from the Quran at any time.
+![image](https://i.imgur.com/tWhS7aW.png)
 - Sends proper salam greeting to everyone saying many different greetings.
+![image](https://i.imgur.com/bEchRaK.png)
 - Learn about Islam little by little by reviewing questions and answers with the **!questions** command.
+![image](https://i.imgur.com/b4T5Qp9.png)
 	- If you feel you are ready go ahead and try the **!quiz** command.
+	
 
 ## Getting Your Own Bot
 
