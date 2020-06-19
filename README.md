@@ -4,7 +4,7 @@
 
 An Islamic Discord bot for any muslim that uses Discord! The bot will do it's best to make sure you are a proper muslim while spending your time on Discord. It will help you meet other muslims and learn about Islam on a daily basis. It is just a small bot for now but will be growing with more and more features over time. Inshallah we will make something amazing together.
 
-Please join us all at https://discord.gg/XHBgG7P
+Please join us all at https://discord.gg/J4NqJ72
 
 
 ## Inviting The Bot To Your Server
@@ -29,7 +29,7 @@ Use the **!invite** command
 
 1. Clone the repo.
 2. Create a bot user on Discord.
-3. Create a `.env` file like the `.env.example` file provided and add all necessary information including your bot token.
+3. Create a `configs.ts` file like the `configs.example.ts` file provided and add all necessary information including your bot token.
 4. Run the command `npm run dev`. To see all available command scripts please check the scripts in `package.json`.
 5. Open Discord to where you have added your bot and type `!ping`.
 6. Enjoy!
