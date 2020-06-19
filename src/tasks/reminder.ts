@@ -10,10 +10,13 @@ export default class extends Task {
     this.client.emit("log", "Reminder Task Running");
 
     for (const guild of this.client.guilds.values()) {
+      console.log('reminder task', guild.name, 1)
       const userIDs = guild.settings.get(GuildSettings.FinishMonthlyUserIDs) as string[];
+      console.log('reminder task', userIDs, 2)
       if (!userIDs.length) continue;
 
       const [channel] = (await guild.settings.resolve(GuildSettings.FinishMonthlyChannelID)) as [TextChannel | null];
+      console.log('reminder task', channel?.name, 3)
       if (!channel) continue;
 
       for (const id of userIDs) {
