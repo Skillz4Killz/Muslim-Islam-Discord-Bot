@@ -4,7 +4,7 @@
 
 An Islamic Discord bot for any muslim that uses Discord! The bot will do it's best to make sure you are a proper muslim while spending your time on Discord. It will help you meet other muslims and learn about Islam on a daily basis. It is just a small bot for now but will be growing with more and more features over time. Inshallah we will make something amazing together.
 
-Please join us all at https://discord.gg/XHBgG7P
+Please join us all at https://discord.gg/J4NqJ72
 
 
 ## Inviting The Bot To Your Server
@@ -14,17 +14,22 @@ Use the **!invite** command
 ## Features
 
 - Helps your guilds members be able to read the full Quran once a month.
-- Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
+![image](https://i.imgur.com/8S4rWis.png)
+- SOON! Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
 - Get any Ayah from the Quran at any time.
+![image](https://i.imgur.com/tWhS7aW.png)
 - Sends proper salam greeting to everyone saying many different greetings.
+![image](https://i.imgur.com/bEchRaK.png)
 - Learn about Islam little by little by reviewing questions and answers with the **!questions** command.
+![image](https://i.imgur.com/b4T5Qp9.png)
 	- If you feel you are ready go ahead and try the **!quiz** command.
+	
 
 ## Getting Your Own Bot
 
 1. Clone the repo.
 2. Create a bot user on Discord.
-3. Create a `.env` file like the `.env.example` file provided and add all necessary information including your bot token.
+3. Create a `configs.ts` file like the `configs.example.ts` file provided and add all necessary information including your bot token.
 4. Run the command `npm run dev`. To see all available command scripts please check the scripts in `package.json`.
 5. Open Discord to where you have added your bot and type `!ping`.
 6. Enjoy!
