@@ -69,7 +69,8 @@ export default class extends Task {
         const [sentReminder] = await sendMessage(channelID, {
           content: member.user.toString(),
           embed,
-          allowed_mentions: { parse: [], users: [member.user.id], roles: [] },
+          // @ts-ignore
+          allowed_mentions: { users: [member.user.id] },
         })
         // Add a reaction so the user can confirm they read it
         if (sentReminder) await sentReminder.reactions.add("✅");
