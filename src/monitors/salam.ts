@@ -30,9 +30,11 @@ export default class extends Monitor {
       if (content.startsWith(term))
         return sendTextMessage(message, `${message.author.toString()}, Walaikumasalam Wa Rahmatullahi Wa Barakatuhu`);
     // if the message starts with non-salam greeting reply
-    for (const term of greetingTerms)
+    for (const term of greetingTerms) {
+      if (term === "hi" && content.startsWith(term) && content.split(" ")[0] !== "hi") continue;
       if (content.startsWith(term))
         return sendTextMessage(message, `${message.author.toString()}, Asalamoalaikum Wa Rahmatullahi Wa Barakatuhu`);
+    }
     // Cancel out
     return;
   }
