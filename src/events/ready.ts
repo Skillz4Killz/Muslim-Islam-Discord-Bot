@@ -1,21 +1,40 @@
-import { Event } from "@klasa/core";
+import { configs } from "../../configs.ts";
+import { botCache } from "../../deps.ts";
+import {
+  ActivityType,
+  cache,
+  editBotsStatus,
+  StatusTypes,
+} from "../../deps.ts";
+import { db } from "../database/database.ts";
 
-const tasksToCreate = [
-  { name: "reminder", time: "*/20 * * * *" },
-  { name: "changeProfilePicture", time: "@daily" },
-  // { name: 'fridaySurahKahf', time: '@weekly' }
-];
+botCache.eventHandlers.ready = async function () {
+  editBotsStatus(
+    StatusTypes.DoNotDisturb,
+    "Discordeno Best Lib",
+    ActivityType.Game,
+  );
 
-export default class extends Event {
-  async run() {
-    // For every task we will create them as needed
-    for (const task of tasksToCreate) this.handleTaskCreation(task.name, task.time);
+  console.info(`Loaded ${botCache.arguments.size} Argument(s)`);
+  console.info(`Loaded ${botCache.commands.size} Command(s)`);
+  console.info(`Loaded ${Object.keys(botCache.eventHandlers).length} Event(s)`);
+  console.info(`Loaded ${botCache.inhibitors.size} Inhibitor(s)`);
+  console.info(`Loaded ${botCache.monitors.size} Monitor(s)`);
+  console.info(`Loaded ${botCache.tasks.size} Task(s)`);
 
-    return this.client.emit("log", "Klasa Ready Completed!");
+  for (const task of botCache.tasks.values()) {
+    task.execute();
+    setInterval(() => task.execute(), task.interval);
   }
 
-  handleTaskCreation(name: string, time: string) {
-    const taskExists = this.client.schedule.tasks.find((task) => task.taskName === name);
-    if (!taskExists) this.client.schedule.create(name, time);
+  const guilds = await db.guilds.findMany(() => true);
+  for (const guild of guilds.values()) {
+    if (guild.prefix !== configs.prefix) {
+      botCache.guildPrefixes.set(guild.id, guild.prefix);
+    }
   }
-}
+
+  console.log(
+    `[READY] Bot is online and ready in ${cache.guilds.size} guild(s)!`,
+  );
+};

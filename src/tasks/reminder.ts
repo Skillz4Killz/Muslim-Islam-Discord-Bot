@@ -1,84 +1,101 @@
-import { GuildSettings } from "../../lib/types/settings/GuildSettings";
-import { UserSettings } from "../../lib/types/settings/UserSettings";
-import { Task } from "klasa";
-import { Embed } from "@klasa/core";
-import { randomColor, displayAvatarURL, sendMessage } from "../../lib/utils/klasa";
-import { Quran } from "../../quran";
+import {
+  addReaction,
+  botCache,
+  cache,
+  getMember,
+  Member,
+  sendMessage,
+} from "../../deps.ts";
+import { db } from "../database/database.ts";
+import { QuranCollection } from "../quran.ts";
+import { Embed } from "../utils/Embed.ts";
 
-export default class extends Task {
-  async run() {
-    this.client.emit("log", "Reminder Task Running");
+botCache.tasks.set("reminder", {
+  name: "reminder",
+  interval: 1000 * 60 * 60,
+  execute: async function () {
+    console.log("Reminder Task Running");
 
-    for (const guild of this.client.guilds.values()) {
-      const userIDs = guild.settings.get(GuildSettings.FinishMonthlyUserIDs) as string[];
-      if (!userIDs.length) continue;
+    // Gets all guilds settings that has a channel id
+    const guildSettings = await db.guilds.findMany((value) =>
+      Boolean(value.finishMonthlyChannelID) &&
+      Boolean(value.finishMonthlyUserIDs?.length)
+    );
 
-      const channelID = guild.settings.get(GuildSettings.FinishMonthlyChannelID) as string | undefined;
-      if (!channelID) continue;
+    guildSettings.forEach(async (settings) => {
+      const guild = cache.guilds.get(settings.id);
+      if (!guild) return;
 
-      for (const id of userIDs) {
-        const member = await guild.members.fetch(id).catch(() => null);
-        if (!member?.user) continue;
+      settings.finishMonthlyUserIDs?.forEach(async (id) => {
+        const member = guild.members.get(id) ||
+          await getMember(guild.id, id).catch(() => null) as Member;
+        if (!member) return;
 
-        await member.user.settings.sync();
-        // For each member get the status and verse of their quran reminders
-        const [enabled, nextVerse] = member.user.settings.pluck(
-          UserSettings.FinishMonthlyEnabled,
-          UserSettings.FinishMonthlyVerse
-        ) as [boolean, number];
-
-        if (!enabled) continue;
+        const usersettings = await db.users.get(id);
+        if (!usersettings?.finishMonthlyEnabled) return;
 
         // Create the embed to send
         const embed = new Embed()
-          .setColor(randomColor())
-          .setAuthor(`Finish Quran Every Month Reminder!`, displayAvatarURL(member.user))
+          .setColor("RANDOM")
+          .setAuthor(`Finish Quran Every Month Reminder!`, member.avatarURL)
           .setTimestamp()
           .setFooter("Credits To Quran.com");
 
         // Get the surah and ayah numbers to send based on the verse they are up to
-        let verse = nextVerse || 1;
+        let verse = usersettings.finishMonthlyVerse || 0;
 
-        for (let i = 0; i < 3; i++) {
-          let surah;
-          let ayah = "ayah_1";
+        for (const surah of QuranCollection.values()) {
+          if (embed.fields.length >= 3) break;
 
-          for (const surahKey of Object.keys(Quran)) {
-            const surahValue = Quran[surahKey];
-            for (const ayahKey of Object.keys(surahValue)) {
-              if (surahValue[ayahKey].verse !== verse) continue;
-              surah = surahValue;
-              ayah = ayahKey;
-              break;
-            }
-            if (surah) break;
-          }
+          const ayah = surah.ayahs?.find((a) => a.verse === verse + 1);
+          if (!ayah) continue;
 
-          // Get the ayah object
-          const ayahToSend = surah[ayah];
           // Add the ayah to the embed
-          embed.addField(`Surah ${surah.name} Ayah #${ayah.substring(5)}`, ayahToSend.text);
+          embed.addField(`Surah ${surah.name} Ayah #${ayah.number}`, ayah.text);
+          console.log(
+            `Reminded ${member.tag} in ${settings.id} of ${surah.name} Ayah #${ayah.number} in the reminder task.`,
+          );
+          verse++;
 
-          // Log it
-          this.client.emit("log", `Reminded ${member.user.tag} of ${surah.name} ${ayah} in the reminder task.`);
-          // Increase the counter
+          const ayah2 = surah.ayahs?.find((a) => a.verse === verse + 1);
+          if (!ayah2) continue;
+
+          // Add the ayah to the embed
+          embed.addField(
+            `Surah ${surah.name} Ayah #${ayah2.number}`,
+            ayah2.text,
+          );
+          console.log(
+            `Reminded ${member.tag} in ${settings.id} of ${surah.name} Ayah #${ayah2.number} in the reminder task.`,
+          );
+          verse++;
+
+          const ayah3 = surah.ayahs?.find((a) => a.verse === verse + 1);
+          if (!ayah3) continue;
+
+          // Add the ayah to the embed
+          embed.addField(
+            `Surah ${surah.name} Ayah #${ayah3.number}`,
+            ayah3.text,
+          );
+          console.log(
+            `Reminded ${member.tag} in ${guild.name} #${settings.id} of ${surah.name} Ayah #${ayah3.number} in the reminder task.`,
+          );
           verse++;
         }
 
         // Send the reminder embed for the verse
-        const [sentReminder] = await sendMessage(channelID, {
-          content: member.user.toString(),
-          embed,
-          // @ts-ignore
-          allowed_mentions: { users: [member.user.id] },
-        })
-        // Add a reaction so the user can confirm they read it
-        if (sentReminder) await sentReminder.reactions.add("✅");
+        const reminder = await sendMessage(
+          settings.finishMonthlyChannelID,
+          { embed, content: member.mention, mentions: { users: [member.id] } },
+        );
+        addReaction(reminder.channelID, reminder.id, "✅");
         // Add 1 to the verse number or reset it if they are complete
-        await member.user.settings.update(UserSettings.FinishMonthlyVerse, verse === 6105 ? 1 : verse);
-      }
-    }
-
-    return;
-  }
-}
+        db.users.update(
+          member.id,
+          { finishMonthlyVerse: verse === 6105 ? 1 : verse + 3 },
+        );
+      });
+    });
+  },
+});

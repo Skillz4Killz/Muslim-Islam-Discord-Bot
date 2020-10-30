@@ -1,58 +1,111 @@
-# Muslim-Islam-Discord-Bot
+# Discordeno Bot Template
 
-![image](https://i.imgur.com/ZelM2J9.jpg)
+This repo is meant as a template which you can use to create a Discord bot very easily using the [Discordeno library](https://github.com/Skillz4Killz/Discordeno).
 
-An Islamic Discord bot for any muslim that uses Discord! The bot will do it's best to make sure you are a proper muslim while spending your time on Discord. It will help you meet other muslims and learn about Islam on a daily basis. It is just a small bot for now but will be growing with more and more features over time. Inshallah we will make something amazing together.
+[Website/Guide:](https://discordeno.netlify.app/)
 
-Please join us all at https://discord.gg/J4NqJ72
+[Discord Server](https://discord.gg/J4NqJ72)
 
+## Pre-requisites
 
-## Inviting The Bot To Your Server
+- [Deno](https://deno.land)
 
-Use the **!invite** command
+## Step By Step
+
+1. Create your own repo using the template button. It is next to the button where you get the url to clone. It will say `Use this template` This is a template repo.
+2. Clone your own repo that Github created for you. `git clone url-here-for-your-repo`
+3. Create your `configs.ts` file in the main folder.
+
+```ts
+// Step 1: Remove the `.example` from this file name so it is called `configs.ts`
+// Step 2: Add all your bot's information below. The only required one is token and prefix. NOTE: As long as `.gitignore` file is ignoring configs.ts your configurations will be kept private!
+// Step 3: Remove these comments if you like.
+
+export const configs = {
+  // Your bot token goes here
+  token: "",
+  // The default prefix for your bot. Don't worry guilds can change this later.
+  prefix: "!",
+  // This isn't required but you can add bot list api keys here.
+  botListTokens: {
+    DISCORD_BOT_ORG: "",
+    BOTS_ON_DISCORD: "",
+    DISCORD_BOT_LIST: "",
+    BOTS_FOR_DISCORD: "",
+    DISCORD_BOATS: "",
+    DISCORD_BOTS_GG: "",
+    DISCORD_BOTS_GROUP: "",
+  },
+  // This is the server id for your bot's main server where users can get help/support
+  supportServerID: "",
+  // These are channel ids that will enable some functionality
+  channelIDs: {
+    // When a translation is missing this is the channel you will be alerted in.
+    missingTranslation: "",
+    // When an error occurs, we will try and log it to this channel
+    errorChannelID: "",
+  },
+  // These are the role ids that will enable some functionality.
+  roleIDs: {
+    // If you have a patreon set up you can add the patreon vip role id here.
+    patreonVIPRoleID: "",
+  },
+  // These are the user ids that will enable some functionality.
+  userIDs: {
+    // You can delete the `as string[]` when you add atleast 1 id in them.
+    // The user ids for the support team
+    botSupporters: [] as string[],
+    // The user ids for the other devs on your team
+    botDevs: [] as string[],
+    // The user ids who have complete 100% access to your bot
+    botOwners: [] as string[],
+  },
+};
+```
+
+4. Start the bot `deno run --allow-net --allow-read --quiet mod.ts`
+
+**Note:** To run the bot with [PM2](https://github.com/Unitech/pm2): `pm2 start mod.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-read --allow-write --no-check --config tsconfig.json --quiet -r" `
+
+The `-r` is short for `--reload`, it reloads your deno cache whenever the bot restarts to get the latest and greatest changes to Discordeno. You don't have to include it.
 
 ## Features
 
-- Helps your guilds members be able to read the full Quran once a month.
-![image](https://i.imgur.com/8S4rWis.png)
-- SOON! Get weekly reminders on Fridays to read the first 10 verses of Surah Kahf.
-- Get any Ayah from the Quran at any time.
-![image](https://i.imgur.com/tWhS7aW.png)
-- Sends proper salam greeting to everyone saying many different greetings.
-![image](https://i.imgur.com/bEchRaK.png)
-- Learn about Islam little by little by reviewing questions and answers with the **!questions** command.
-![image](https://i.imgur.com/b4T5Qp9.png)
-	- If you feel you are ready go ahead and try the **!quiz** command.
-	
+## Beginner Developers
 
-## Getting Your Own Bot
+Don't worry a lot of developers start out coding their first projects as a Discord bot(I did 😉) and it is not so easy. With Discordeno, I tried to build it in a way that solved all the headaches I had when first starting out coding bots. If you are a beginner developer, please use this boilerplate.
 
-1. Clone the repo.
-2. Create a bot user on Discord.
-3. Create a `configs.ts` file like the `configs.example.ts` file provided and add all necessary information including your bot token.
-4. Run the command `npm run dev`. To see all available command scripts please check the scripts in `package.json`.
-5. Open Discord to where you have added your bot and type `!ping`.
-6. Enjoy!
+**Modular commands, arguments, events, inhibitors, monitors, tasks.**
 
-If it does not work please contact us at the discord link above to get support or make an issue.
+- Clean and powerful commands system
+  - Powerful argument handling including validating, parsing and modifications.
+  - Easily create custom arguments for your specific needs.
+  - Command aliases.
+  - Cooldowns and allowed uses before cooldown triggers.
+  - Author and bot permission checks in server AND in channel!
+- Clean and powerful events system
+  - Simple functions that are called when an event occurs.
+  - Easily reloadable!
+  - No possible memory leaks due to incorrect EventEmitter usage!
+  - Useful events available to help debug!
+- Clean and powerful inhibitors system
+  - Stops a command from running if a requirement fails.
+  - Easily add custom inhibitors!
+- Clean and powerful monitors system.
+  - Runs a function on every message sent. Useful for stuff like auto-moderation or tags.
+  - Easily ignore bots, users, edits, dms.
+  - Powerful permission checks.
+- Clean and powerful tasks system.
+  - Runs a function at a certain interval. Useful for things like unmute and updating bot lists etc.
+  - Can be used for cache sweeping to keep your cache optimized for exactly what you want.
+  - Botlists code already made for most botlists. Just add your api tokens for each site and magic!
+- Clean and powerful languages system.
+  - Built in multi-lingual support.
+  - Uses i18next, one of the best localization tools available.
+  - Supports nested folders to keep cleaner translation files
 
-## Contributing
+**Hot Reloadable**
+  - Easily update your code without having to restart the bot everytime.
 
-Alhumdulillah! If you wish to contribute please read the [Contributing Guide](https://github.com/Alhumdulillah/Muslim-Islam-Discord-Bot/blob/master/.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Developers
-
-- Brother Zishan ([Skillz4Killz](https://github.com/Skillz4Killz))
-
-## Contributers
-
-Please add your name below when you send a pull request to have your name added here.
-
-## Credits
-
-- Quran.com (English Translation and Arabic Wording was from this amazing website.)
-- qtafsir (English Translation of Ibn Kathir is from this amazing site.)
-
-## License
-
-This project is licensed under the MIT License - see the [License](LICENSE.md) file for details
+**Step By Step Guide**
+  - There is a step by step walkthrough to learn how to create Discord bots with Discordeno on our website! https://discordeno.netlify.app/stepbystep
