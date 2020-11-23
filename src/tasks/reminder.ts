@@ -82,6 +82,47 @@ botCache.tasks.set("reminder", {
             `Reminded ${member.tag} in ${guild.name} #${settings.id} of ${surah.name} Ayah #${ayah3.number} in the reminder task.`,
           );
           verse++;
+
+          const ayah4 = surah.ayahs?.find((a) => a.verse === verse + 1);
+          if (!ayah4) continue;
+
+          // Add the ayah to the embed
+          embed.addField(
+            `Surah ${surah.name} Ayah #${ayah4.number}`,
+            ayah4.text,
+          );
+          console.log(
+            `Reminded ${member.tag} in ${guild.name} #${settings.id} of ${surah.name} Ayah #${ayah4.number} in the reminder task.`,
+          );
+          verse++;
+
+
+          const ayah5 = surah.ayahs?.find((a) => a.verse === verse + 1);
+          if (!ayah5) continue;
+
+          // Add the ayah to the embed
+          embed.addField(
+            `Surah ${surah.name} Ayah #${ayah5.number}`,
+            ayah5.text,
+          );
+          console.log(
+            `Reminded ${member.tag} in ${guild.name} #${settings.id} of ${surah.name} Ayah #${ayah5.number} in the reminder task.`,
+          );
+          verse++;
+
+
+          const ayah6 = surah.ayahs?.find((a) => a.verse === verse + 1);
+          if (!ayah6) continue;
+
+          // Add the ayah to the embed
+          embed.addField(
+            `Surah ${surah.name} Ayah #${ayah6.number}`,
+            ayah6.text,
+          );
+          console.log(
+            `Reminded ${member.tag} in ${guild.name} #${settings.id} of ${surah.name} Ayah #${ayah6.number} in the reminder task.`,
+          );
+          verse++;
         }
 
         // Send the reminder embed for the verse
@@ -93,7 +134,7 @@ botCache.tasks.set("reminder", {
         // Add 1 to the verse number or reset it if they are complete
         db.users.update(
           member.id,
-          { finishMonthlyVerse: verse === 6105 ? 1 : verse + 3 },
+          { finishMonthlyVerse: verse === 6105 ? 1 : verse },
         );
       });
     });
