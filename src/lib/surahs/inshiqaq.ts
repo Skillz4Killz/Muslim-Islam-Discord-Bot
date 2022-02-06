@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Inshiqaq } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const inshiqaq: Inshiqaq = {
+export const inshiqaq: Surah = {
   ayah_1: { image: "", text: "When the sky has split [open]", verse: 5754 },
   ayah_2: {
     image: "",

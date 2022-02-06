@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Infitar } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const infitar: Infitar = {
+export const infitar: Surah = {
   ayah_1: { image: "", text: "When the sky breaks apart", verse: 5699 },
   ayah_2: {
     image: "",

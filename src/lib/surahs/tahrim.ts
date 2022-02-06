@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Tahrim } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const tahrim: Tahrim = {
+export const tahrim: Surah = {
   ayah_1: {
     image: "",
     text:

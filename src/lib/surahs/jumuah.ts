@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Jumuah } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const jumuah: Jumuah = {
+export const jumuah: Surah = {
   ayah_1: {
     image: "",
     text:

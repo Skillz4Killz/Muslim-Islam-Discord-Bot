@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Mumtahanah } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const mumtahanah: Mumtahanah = {
+export const mumtahanah: Surah = {
   ayah_1: {
     image: "",
     text:

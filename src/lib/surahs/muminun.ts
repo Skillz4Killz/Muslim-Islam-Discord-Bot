@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Muminun } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const muminun: Muminun = {
+export const muminun: Surah = {
   ayah_1: {
     image: "",
     text: "Certainly will the believers have succeeded:",

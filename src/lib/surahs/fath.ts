@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Fath } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const fath: Fath = {
+export const fath: Surah = {
   ayah_1: {
     image: "",
     text: "Indeed, We have given you, [O Muhammad], a clear conquest",

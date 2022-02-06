@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Luqman } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const luqman: Luqman = {
+export const luqman: Surah = {
   ayah_1: { image: "", text: "Alif, Lam, Meem.", verse: 3339 },
   ayah_2: {
     image: "",

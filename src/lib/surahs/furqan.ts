@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Furqan } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const furqan: Furqan = {
+export const furqan: Surah = {
   ayah_1: {
     image: "",
     text:

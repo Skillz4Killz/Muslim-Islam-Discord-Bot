@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Mujadila } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const mujadila: Mujadila = {
+export const mujadila: Surah = {
   ayah_1: {
     image: "",
     text:

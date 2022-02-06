@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Hijr } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const hijr: Hijr = {
+export const hijr: Surah = {
   ayah_1: {
     image: "",
     text: "Alif, Lam, Ra. These are the verses of the Book and a clear Qur'an.",

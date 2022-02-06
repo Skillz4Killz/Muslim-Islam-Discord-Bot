@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Hud } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const hud: Hud = {
+export const hud: Surah = {
   ayah_1: {
     image: "",
     text:

@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Maarij } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const maarij: Maarij = {
+export const maarij: Surah = {
   ayah_1: {
     image: "",
     text: "A supplicant asked for a punishment bound to happen",

@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Jathiyah } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const jathiyah: Jathiyah = {
+export const jathiyah: Surah = {
   ayah_1: { image: "", text: "Ha, Meem.", verse: 4343 },
   ayah_2: {
     image: "",

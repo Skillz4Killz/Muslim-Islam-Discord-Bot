@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Sad } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const sad: Sad = {
+export const sad: Surah = {
   ayah_1: {
     image: "",
     text: "Sad. By the Qur'an containing reminder...",

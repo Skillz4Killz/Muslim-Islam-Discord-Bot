@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Insan } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const insan: Insan = {
+export const insan: Surah = {
   ayah_1: {
     image: "",
     text:

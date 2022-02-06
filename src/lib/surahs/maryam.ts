@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Maryam } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const maryam: Maryam = {
+export const maryam: Surah = {
   ayah_1: { image: "", text: "Kaf, Ha, Ya, 'Ayn, Sad.", verse: 2120 },
   ayah_2: {
     image: "",

@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Hujurat } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const hujurat: Hujurat = {
+export const hujurat: Surah = {
   ayah_1: {
     image: "",
     text:

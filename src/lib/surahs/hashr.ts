@@ -1,7 +1,6 @@
-/* tslint:disable:object-literal-sort-keys */
-import { Hashr } from "../types/islam.ts";
+import { Surah } from "../types/islam.ts";
 
-export const hashr: Hashr = {
+export const hashr: Surah = {
   ayah_1: {
     image: "",
     text:
