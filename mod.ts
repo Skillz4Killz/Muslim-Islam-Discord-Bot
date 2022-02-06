@@ -1,4 +1,4 @@
-import StartBot, { botCache, Intents } from "./deps.ts";
+import { botCache, createBot, startBot } from "./deps.ts";
 import { configs } from "./configs.ts";
 import { importDirectory } from "./src/utils/helpers.ts";
 import { loadLanguages } from "./src/utils/i18next.ts";
@@ -34,10 +34,11 @@ await Promise.all(
 await loadLanguages();
 await import("./src/database/database.ts");
 
-StartBot({
+const bot = createBot({
   token: configs.token,
-  // Pick the intents you wish to have for your bot.
-  intents: [Intents.GUILDS, Intents.GUILD_MESSAGES],
-  // These are all your event handler functions. Imported from the events folder
-  eventHandlers: botCache.eventHandlers,
+  botId: BigInt(atob(configs.token.split(".")[0])),
+  intents: ["Guilds", "GuildMessages"],
+  events: botCache.eventHandlers,
 });
+
+await startBot(bot);
