@@ -1,7 +1,6 @@
 import { botCache, createBot, startBot } from "./deps.ts";
 import { configs } from "./configs.ts";
 import { importDirectory } from "./src/utils/helpers.ts";
-import { loadLanguages } from "./src/utils/i18next.ts";
 
 console.info(
   "Beginning Bot Startup Process. This can take a little bit depending on your system. Loading now...",
@@ -30,8 +29,6 @@ await Promise.all(
   ),
 );
 
-// Loads languages
-await loadLanguages();
 await import("./src/database/database.ts");
 
 const bot = createBot({

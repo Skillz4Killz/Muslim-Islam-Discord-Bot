@@ -1,5 +1,5 @@
 import { Collection, Guild, Message } from "./deps.ts";
-import { MessageCollector, ReactionCollector } from "./src/types/collectors.ts";
+import { MessageCollector } from "./src/types/collectors.ts";
 import { Argument, Command, PermissionLevels } from "./src/types/commands.ts";
 import { CustomEvents } from "./src/types/events.ts";
 import { Monitor } from "./src/types/monitors.ts";

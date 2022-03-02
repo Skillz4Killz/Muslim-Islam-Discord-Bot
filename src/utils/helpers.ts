@@ -1,39 +1,30 @@
 import type { Command } from "../types/commands.ts";
-import type { Message, MessageContent } from "../../deps.ts";
-import type { Embed } from "./Embed.ts";
-
-import {
-  botCache,
-  Collection,
-  deleteMessageByID,
-  editMessage,
-  sendMessage,
-} from "../../deps.ts";
+import { botCache, Collection } from "../../deps.ts";
 import { Milliseconds } from "./constants/time.ts";
 
-/** This function should be used when you want to send a response that will @mention the user and delete it after a certain amount of seconds. By default, it will be deleted after 10 seconds. */
-export async function sendAlertResponse(
-  message: Message,
-  content: string | MessageContent,
-  timeout = 10,
-  reason = "",
-) {
-  const response = await sendResponse(message, content);
-  deleteMessageByID(response.channelID, response.id, reason, timeout * 1000);
-}
+// /** This function should be used when you want to send a response that will @mention the user and delete it after a certain amount of seconds. By default, it will be deleted after 10 seconds. */
+// export async function sendAlertResponse(
+//   message: Message,
+//   content: string | MessageContent,
+//   timeout = 10,
+//   reason = "",
+// ) {
+//   const response = await sendResponse(message, content);
+//   deleteMessageByID(response.channelID, response.id, reason, timeout * 1000);
+// }
 
-/** This function should be used when you want to send a response that will @mention the user. */
-export function sendResponse(
-  message: Message,
-  content: string | MessageContent,
-) {
-  const mention = `<@!${message.author.id}>`;
-  const contentWithMention = typeof content === "string"
-    ? `${mention}, ${content}`
-    : { ...content, content: `${mention}, ${content.content}` };
+// /** This function should be used when you want to send a response that will @mention the user. */
+// export function sendResponse(
+//   message: Message,
+//   content: string | MessageContent,
+// ) {
+//   const mention = `<@!${message.author.id}>`;
+//   const contentWithMention = typeof content === "string"
+//     ? `${mention}, ${content}`
+//     : { ...content, content: `${mention}, ${content.content}` };
 
-  return sendMessage(message.channelID, contentWithMention);
-}
+//   return sendMessage(message.channelID, contentWithMention);
+// }
 
 /** This function should be used when you want to convert milliseconds to a human readable format like 1d5h. */
 export function humanizeMilliseconds(milliseconds: number) {
@@ -160,15 +151,15 @@ export function createSubcommand(
   command.subcommands.set(subcommand.name, subcommand);
 }
 
-/** Use this function to send an embed with ease. */
-export function sendEmbed(channelID: string, embed: Embed, content?: string) {
-  return sendMessage(channelID, { content, embed });
-}
+// /** Use this function to send an embed with ease. */
+// export function sendEmbed(channelID: string, embed: Embed, content?: string) {
+//   return sendMessage(channelID, { content, embed });
+// }
 
-/** Use this function to edit an embed with ease. */
-export function editEmbed(message: Message, embed: Embed, content?: string) {
-  return editMessage(message, { content, embed });
-}
+// /** Use this function to edit an embed with ease. */
+// export function editEmbed(message: Message, embed: Embed, content?: string) {
+//   return editMessage(message, { content, embed });
+// }
 
 // Very important to make sure files are reloaded properly
 let uniqueFilePathCounter = 0;
