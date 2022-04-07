@@ -34,7 +34,7 @@ await import("./src/database/database.ts");
 const bot = createBot({
   token: configs.token,
   botId: BigInt(atob(configs.token.split(".")[0])),
-  intents: ["Guilds", "GuildMessages"],
+  intents: ["Guilds", "GuildMessages", "MessageContent"],
   events: botCache.eventHandlers,
 });
 
