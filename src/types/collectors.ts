@@ -36,6 +36,7 @@ export interface CollectMessagesOptions extends BaseCollectorCreateOptions {
 
 export interface MessageCollector extends CollectMessagesOptions {
   resolve: (value?: Message[] | PromiseLike<Message[]> | undefined) => void;
+  // deno-lint-ignore no-explicit-any
   reject: (reason?: any) => void;
   /** Where the messages are stored if the amount to collect is more than 1. */
   messages: Message[];

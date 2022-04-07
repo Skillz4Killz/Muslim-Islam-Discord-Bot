@@ -2,7 +2,6 @@ import { Surah } from "../types/islam.ts";
 
 export const tin: Surah = {
   name: "At-Tin",
-
   ayahs: [
     { number: 1, image: "", text: "By the fig and the olive", verse: 5968 },
     { number: 2, image: "", text: "And [by] Mount Sinai", verse: 5969 },

@@ -12,7 +12,6 @@ export const botCache = {
   guildPrefixes: new Collection<string, string>(),
   guildLanguages: new Collection<string, string>(),
   messageCollectors: new Collection<string, MessageCollector>(),
-  reactionCollectors: new Collection<string, ReactionCollector>(),
   inhibitors: new Collection<
     string,
     (message: Message, command: Command, guild?: Guild) => Promise<boolean>
