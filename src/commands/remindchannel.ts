@@ -1,39 +1,35 @@
-import { botCache, Channel } from "../../deps.ts";
-import { db } from "../database/database.ts";
-import { sendResponse } from "../utils/helpers.ts";
+import {
+  ApplicationCommandTypes,
+  InteractionResponseTypes,
+} from "../../deps.ts";
+import { db } from "../database/mod.ts";
+import { createCommand } from "./mod.ts";
 
-botCache.commands.set("remindchannel", {
+createCommand({
   name: "remindchannel",
-  aliases: ["rc"],
-  cooldown: {
-    seconds: 5,
-    allowedUses: 2,
-  },
-  botChannelPermissions: ["SEND_MESSAGES"],
-  arguments: [
-    { name: "channel", type: "textchannel", required: false },
-  ],
-  execute: async function (message, args: RemindArgs, guild) {
-    if (!args.channel) {
-      db.guilds.update(message.guildID, { finishMonthlyChannelID: "" });
-      return sendResponse(
-        message,
-        `The reminder channel has been removed. You will no longer get reminders in this guild.`,
-      );
-    }
+  description: "Set the channel to send reminders in.",
+  type: ApplicationCommandTypes.ChatInput,
+  execute: async (Bot, interaction) => {
+    if (!interaction.guildId || !interaction.channelId) return;
 
     db.guilds.update(
-      message.guildID,
-      { finishMonthlyChannelID: args.channel.id },
+      interaction.guildId.toString(),
+      {
+        id: interaction.guildId.toString(),
+        finishMonthlyChannelID: interaction.channelId.toString(),
+      },
     );
 
-    sendResponse(
-      message,
-      `The reminder channel has been set to ${args.channel.mention} Alhumdulilah. Inshallah everyone will be able to finish the entire Quran every month now.`,
+    await Bot.helpers.sendInteractionResponse(
+      interaction.id,
+      interaction.token,
+      {
+        type: InteractionResponseTypes.ChannelMessageWithSource,
+        data: {
+          content:
+            `The reminder channel has been set to <#${interaction.channelId}> Alhumdulilah. Inshallah everyone will be able to finish the entire Quran every month now.`,
+        },
+      },
     );
   },
 });
-
-interface RemindArgs {
-  channel?: Channel;
-}

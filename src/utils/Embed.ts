@@ -1,13 +1,8 @@
-import type {
-  EmbedAuthor,
-  EmbedField,
-  EmbedFooter,
-  EmbedImage,
-} from "../../deps.ts";
+import { Bot, Embed, User } from "../../deps.ts";
 
 const embedLimits = {
   title: 256,
-  description: 2048,
+  description: 4096,
   fieldName: 256,
   fieldValue: 1024,
   footerText: 2048,
@@ -16,26 +11,18 @@ const embedLimits = {
   total: 6000,
 };
 
-export class Embed {
+export class Embeds extends Array<Embed> {
   /** The amount of characters in the embed. */
   currentTotal = 0;
   /** Whether the limits should be enforced or not. */
   enforceLimits = true;
   /** If a file is attached to the message it will be added here. */
   file?: EmbedFile;
+  bot: Bot;
 
-  color = 0x41ebf4;
-  fields: EmbedField[] = [];
-  author?: EmbedAuthor;
-  description?: string;
-  footer?: EmbedFooter;
-  image?: EmbedImage;
-  timestamp?: string;
-  title?: string;
-  thumbnail?: EmbedImage;
-  url?: string;
-
-  constructor(enforceLimits = true) {
+  constructor(bot: Bot, enforceLimits = true) {
+    super();
+    this.bot = bot;
     // By default we will always want to enforce discord limits but this option allows us to bypass for whatever reason.
     if (!enforceLimits) this.enforceLimits = false;
 
@@ -57,17 +44,35 @@ export class Embed {
     return data;
   }
 
-  setAuthor(name: string, icon?: string, url?: string) {
+  setAuthor(name: string, iconUrl?: string | User, url?: string) {
+    const embed = this.getLastEmbed();
     const finalName = this.enforceLimits
       ? this.fitData(name, embedLimits.authorName)
       : name;
-    this.author = { name: finalName, iconUrl: icon, url };
+
+    if (typeof iconUrl === "string") {
+      embed.author = { name: finalName, iconUrl, url };
+    } else if (iconUrl) {
+      embed.author = {
+        name: finalName,
+        iconUrl: this.bot.helpers.avatarURL(
+          iconUrl.id,
+          iconUrl?.discriminator,
+          {
+            avatar: iconUrl.avatar!,
+          },
+        ),
+        url,
+      };
+    } else {
+      embed.author = { name: finalName, url };
+    }
 
     return this;
   }
 
   setColor(color: string) {
-    this.color = color.toLowerCase() === `random`
+    this.getLastEmbed().color = color.toLowerCase() === `random`
       ? // Random color
         Math.floor(Math.random() * (0xffffff + 1))
       : // Convert the hex to a acceptable color for discord
@@ -76,16 +81,22 @@ export class Embed {
     return this;
   }
 
-  setDescription(description: string) {
-    this.description = this.fitData(description, embedLimits.description);
+  setDescription(description: string | string[]) {
+    if (Array.isArray(description)) description = description.join("\n");
+    this.getLastEmbed().description = this.fitData(
+      description,
+      embedLimits.description,
+    );
 
     return this;
   }
 
   addField(name: string, value: string, inline = false) {
-    if (this.fields.length >= 25) return this;
+    const embed = this.getLastEmbed();
 
-    this.fields.push({
+    if (embed.fields!.length >= 25) return this;
+
+    embed.fields!.push({
       name: this.fitData(name, embedLimits.fieldName),
       value: this.fitData(value, embedLimits.fieldValue),
       inline,
@@ -109,7 +120,7 @@ export class Embed {
   }
 
   setFooter(text: string, icon?: string) {
-    this.footer = {
+    this.getLastEmbed().footer = {
       text: this.fitData(text, embedLimits.footerText),
       iconUrl: icon,
     };
@@ -117,29 +128,58 @@ export class Embed {
     return this;
   }
 
-  setImage(url: string) {
-    this.image = { url };
+  setImage(url: string | User) {
+    if (typeof url === "string") this.getLastEmbed().image = { url };
+    else {
+      this.getLastEmbed().image = {
+        url: this.bot.helpers.avatarURL(url.id, url.discriminator, {
+          avatar: url.avatar!,
+          size: 2048,
+        }),
+      };
+    }
 
     return this;
   }
 
-  setTimestamp(time = Date.now()) {
-    this.timestamp = new Date(time).toISOString();
+  setTimestamp(time: number | string = Date.now()) {
+    this.getLastEmbed().timestamp = typeof time === "string"
+      ? Date.parse(time)
+      : time;
 
     return this;
   }
 
   setTitle(title: string, url?: string) {
-    this.title = this.fitData(title, embedLimits.title);
-    if (url) this.url = url;
+    this.getLastEmbed().title = this.fitData(title, embedLimits.title);
+    if (url) this.getLastEmbed().url = url;
 
     return this;
   }
 
   setThumbnail(url: string) {
-    this.thumbnail = { url };
+    this.getLastEmbed().thumbnail = { url };
 
     return this;
+  }
+
+  addEmbed(embed?: Embed) {
+    if (this.length === 10) return this;
+
+    this.push({ ...embed, fields: embed?.fields ?? [] });
+
+    return this;
+  }
+
+  /** Get the last Embed, if there is no it will create one */
+  getLastEmbed() {
+    if (this.length) return this[this.length - 1];
+
+    this.push({
+      fields: [],
+    });
+
+    return this[0];
   }
 }
 
@@ -147,3 +187,5 @@ export interface EmbedFile {
   blob: unknown;
   name: string;
 }
+
+export default Embeds;

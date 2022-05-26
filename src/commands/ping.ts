@@ -1,32 +1,23 @@
-// This file is meant to show how you can create multiple commands in the same file if you wish.
-import { botCache, cache, sendMessage } from "../../deps.ts";
+import { ApplicationCommandTypes, InteractionResponseTypes } from "../../deps.ts";
+import { snowflakeToTimestamp } from "../utils/helpers.ts";
+import { createCommand } from "./mod.ts";
 
-botCache.commands.set(`ping`, {
-  name: `ping`,
-  description: "commands/ping:DESCRIPTION",
-  botChannelPermissions: ["SEND_MESSAGES"],
-  execute: function (message) {
-    sendMessage(
-      message.channelID,
-      `Ping MS: ${Date.now() - message.timestamp}ms`,
-    );
-  },
-});
+createCommand({
+  name: "ping",
+  description: "Ping the Bot!",
+  type: ApplicationCommandTypes.ChatInput,
+  execute: async (Bot, interaction) => {
+    const ping = Date.now() - snowflakeToTimestamp(interaction.id);
 
-botCache.commands.set(`devping`, {
-  name: `devping`,
-  guildOnly: true,
-  execute: function (message) {
-    let memberCount = 0;
-    cache.guilds.forEach((guild) => {
-      memberCount += guild.members.size;
-    });
-
-    sendMessage(
-      message.channelID,
-      `Ping MS: ${Date.now() -
-        message
-          .timestamp}ms | Guilds: ${cache.guilds.size} | Users: ${memberCount}`,
+    await Bot.helpers.sendInteractionResponse(
+      interaction.id,
+      interaction.token,
+      {
+        type: InteractionResponseTypes.ChannelMessageWithSource,
+        data: {
+          content: `🏓 Pong! ${ping}ms`,
+        },
+      },
     );
   },
 });
