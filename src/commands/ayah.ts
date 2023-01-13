@@ -36,7 +36,90 @@ createCommand({
     },
   ],
   type: ApplicationCommandTypes.ChatInput,
+  autocomplete: async (Bot, interaction) => {
+    const focused = interaction.data?.options?.find((opt) => opt.focused);
+    if (!focused) return;
+
+    const surahOption = interaction.data?.options?.find((opt) =>
+      opt.name === "surah"
+    );
+    if (!surahOption) return;
+
+    const ayahOption = interaction.data?.options?.find((opt) =>
+      opt.name === "ayah"
+    );
+    const lastayahOption = interaction.data?.options?.find((opt) =>
+      opt.name === "lastayah"
+    );
+
+    const search = focused.value as string;
+    const relevantSurah = QuranCollection.filter((surah, surahNumber) => {
+      if (surahNumber.toString().startsWith(search)) return true;
+      if (surah.name.toLowerCase().startsWith(search)) return true;
+      if (surah.name.toLowerCase().includes(search)) return true;
+
+      return false;
+    });
+
+    // User needs to pick a surah
+    if (focused.name === "surah") {
+      return await Bot.helpers.sendInteractionResponse(
+        interaction.id,
+        interaction.token,
+        {
+          type: InteractionResponseTypes.ApplicationCommandAutocompleteResult,
+          data: {
+            choices: relevantSurah.map((surah, surahNumber) => ({
+              name: `${surahNumber} - Surah ${surah.name}`,
+              value: surahNumber.toString(),
+            })).slice(0, 25),
+          },
+        },
+      );
+    }
+
+    const surah = QuranCollection.get(parseInt(surahOption.value as string));
+    if (!surah) return;
+
+    const ayahNumber = parseInt(focused.value as string);
+    const firstAyah = focused.name === "lastayah" && ayahOption?.value &&
+      parseInt(ayahOption.value as string);
+
+    const relevantAyahs = search || firstAyah
+      ? surah.ayahs.filter((ayah) => {
+        if (firstAyah && ayah.number <= firstAyah) return false;
+
+        if (ayah.number === ayahNumber) return true;
+        if (
+          (ayah.number).toString().startsWith(ayahNumber.toString())
+        ) return true;
+        if (
+          ayah.text.toLowerCase().startsWith(search.toLowerCase())
+        ) return true;
+        if (ayah.text.toLowerCase().includes(search.toLowerCase())) {
+          return true;
+        }
+
+        return false;
+      })
+      : surah.ayahs;
+
+    return await Bot.helpers.sendInteractionResponse(
+      interaction.id,
+      interaction.token,
+      {
+        type: InteractionResponseTypes.ApplicationCommandAutocompleteResult,
+        data: {
+          choices: relevantAyahs.map((ayah) => ({
+            name: `${ayah.number} - ${ayah.text}`.substring(0, 100),
+            value: ayah.number,
+          })).slice(0, 25),
+        },
+      },
+    );
+  },
   execute: async (Bot, interaction) => {
+    let followup = false;
     const args = {
       surah: undefined as Surah | undefined,
       ayah: 1,
@@ -49,13 +132,13 @@ createCommand({
     }
 
     if (!args.surah) {
+      followup = true;
       await Bot.helpers.sendInteractionResponse(
         interaction.id,
         interaction.token,
         {
           type: InteractionResponseTypes.ChannelMessageWithSource,
           data: {
-            flags: 64,
             content: `Finding random surah and ayah since none was provided.`,
           },
         },
@@ -110,13 +193,14 @@ createCommand({
     for (let i = args.ayah; i <= lastayah; i++) {
       const ayahToSend = args.surah.ayahs[i - 1];
       if (!ayahToSend) {
+        followup = true;
         await Bot.helpers.sendInteractionResponse(
           interaction.id,
           interaction.token,
           {
             type: InteractionResponseTypes.ChannelMessageWithSource,
             data: {
-              flags: 64,
+              // flags: 64,
               content:
                 `Are you sure you provided a valid ayah number? I can't find ${i} ayah for surah ${args.surah.name}`,
             },
@@ -131,26 +215,45 @@ createCommand({
           "https://i.imgur.com/EbtoXX8.jpeg",
         )
         .setDescription(ayahToSend.text)
-        .setImage(ayahToSend.image)
         .setFooter("Credits To Quran.com");
+      if (ayahToSend.image) embeds.setImage(ayahToSend.image);
 
       if (embeds.length === 10) {
-        await Bot.helpers.sendInteractionResponse(
-          interaction.id,
-          interaction.token,
-          {
+        followup = true;
+        if (followup) {
+          await Bot.helpers.sendFollowupMessage(interaction.token, {
             type: InteractionResponseTypes.ChannelMessageWithSource,
             data: {
               embeds,
             },
-          },
-        );
+          });
+        } else {
+          await Bot.helpers.sendInteractionResponse(
+            interaction.id,
+            interaction.token,
+            {
+              type: InteractionResponseTypes.ChannelMessageWithSource,
+              data: {
+                embeds,
+              },
+            },
+          );
+        }
 
         embeds.length = 0;
       }
     }
 
     if (!embeds.length) return;
+
+    if (followup) {
+      return await Bot.helpers.sendFollowupMessage(interaction.token, {
+        type: InteractionResponseTypes.ChannelMessageWithSource,
+        data: {
+          embeds,
+        },
+      });
+    }
 
     await Bot.helpers.sendInteractionResponse(
       interaction.id,

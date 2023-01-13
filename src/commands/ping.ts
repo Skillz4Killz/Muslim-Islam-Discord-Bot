@@ -1,4 +1,7 @@
-import { ApplicationCommandTypes, InteractionResponseTypes } from "../../deps.ts";
+import {
+  ApplicationCommandTypes,
+  InteractionResponseTypes,
+} from "../../deps.ts";
 import { snowflakeToTimestamp } from "../utils/helpers.ts";
 import { createCommand } from "./mod.ts";
 
@@ -15,7 +18,9 @@ createCommand({
       {
         type: InteractionResponseTypes.ChannelMessageWithSource,
         data: {
-          content: `🏓 Pong! ${ping}ms`,
+          content: `🏓 **Allahu Akbar!** The bot is online and responding in: \`${
+            ping / 1000
+          }s\``,
         },
       },
     );

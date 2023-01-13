@@ -40,18 +40,24 @@
 // };
 
 import { Bot } from "../../bot.ts";
+import { botCache } from "../../cache.ts";
 import log from "../utils/logger.ts";
 
 Bot.events.ready = (_, payload) => {
-  log.info(`[READY] Shard ID ${payload.shardId} of ${Bot.gateway.maxShards} shards is ready!`);
+  log.info(
+    `[READY] Shard ID ${payload.shardId} of ${Bot.gateway.manager.totalShards} shards is ready!`,
+  );
 
-  if (payload.shardId + 1 === Bot.gateway.maxShards) {
+  if (payload.shardId + 1 === Bot.gateway.manager.totalShards) {
     botFullyReady();
   }
 };
 
 // This function lets you run custom code when all your bot's shards are online.
 function botFullyReady() {
-  // DO STUFF YOU WANT HERE ONCE BOT IS FULLY ONLINE.
+  log.info(`Loaded ${Bot.commands.size} Command(s)`);
+  log.info(`Loaded ${Object.keys(Bot.events).length} Event(s)`);
+  // log.info(`Loaded ${Bot.monitors.size} Monitor(s)`);
+  log.info(`Loaded ${Bot.tasks.size} Task(s)`);
   log.info("[READY] Bot is fully online.");
 }

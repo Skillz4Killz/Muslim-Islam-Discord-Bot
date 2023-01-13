@@ -55,7 +55,7 @@ export class Embeds extends Array<Embed> {
     } else if (iconUrl) {
       embed.author = {
         name: finalName,
-        iconUrl: this.bot.helpers.avatarURL(
+        iconUrl: this.bot.helpers.getAvatarURL(
           iconUrl.id,
           iconUrl?.discriminator,
           {
@@ -132,7 +132,7 @@ export class Embeds extends Array<Embed> {
     if (typeof url === "string") this.getLastEmbed().image = { url };
     else {
       this.getLastEmbed().image = {
-        url: this.bot.helpers.avatarURL(url.id, url.discriminator, {
+        url: this.bot.helpers.getAvatarURL(url.id, url.discriminator, {
           avatar: url.avatar!,
           size: 2048,
         }),

@@ -1,4 +1,6 @@
-import { botCache, Message, sendMessage } from "../../deps.ts";
+import { Bot } from "../../bot.ts";
+import { botCache } from "../../cache.ts";
+import { Message } from "../../deps.ts";
 
 const salamTerms = [
   "salam",
@@ -30,9 +32,9 @@ botCache.monitors.set("salam", {
     // if the message starts with a salam term reply
     for (const term of salamTerms) {
       if (content.startsWith(term)) {
-        return sendMessage(
-          message.channelID,
-          `Walaikumasalam Wa Rahmatullahi Wa Barakatuhu`,
+        return await Bot.helpers.sendMessage(
+          message.channelId,
+          { content: `Walaikumasalam Wa Rahmatullahi Wa Barakatuhu`},
         );
       }
     }
@@ -46,9 +48,9 @@ botCache.monitors.set("salam", {
         continue;
       }
       if (content.startsWith(term)) {
-        return sendMessage(
-          message.channelID,
-          `Asalamoalaikum Wa Rahmatullahi Wa Barakatuhu`,
+        return await Bot.helpers.sendMessage(
+          message.channelId,
+          { content: `Asalamoalaikum Wa Rahmatullahi Wa Barakatuhu`},
         );
       }
     }

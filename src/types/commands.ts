@@ -1,5 +1,5 @@
 import { BotClient } from "../../bot.ts";
-import { ApplicationCommandOption, ApplicationCommandTypes, Interaction } from "../../deps.ts";
+import { ApplicationCommandOption, ApplicationCommandTypes, Interaction, Message } from "../../deps.ts";
 
 export interface Command {
   /** The name of this command. */
@@ -14,4 +14,15 @@ export interface Command {
   options?: ApplicationCommandOption[];
   /** This will be executed when the command is run. */
   execute: (bot: BotClient, interaction: Interaction) => unknown;
+  /** Executed when an autocomplete request came through for this command. */
+  autocomplete?: (bot: BotClient, interaction: Interaction) => unknown;
+}
+
+export interface Argument {
+  name: string
+  execute: (argument: CommandArgument, parameters: string[], message: Message) => unknown | Promise<unknown>
+}
+
+export interface CommandArgument {
+  lowercase: boolean
 }

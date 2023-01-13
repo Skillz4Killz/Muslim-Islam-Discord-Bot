@@ -1,4 +1,5 @@
-import { decode, encode, Kwik, KwikTable } from "../../deps.ts";
+// Database, thx Tri!
+import { decode, encode, Kwik, KwikTable } from "https://deno.land/x/kwik@v1.3.1/mod.ts";
 import { logger } from "../utils/logger.ts";
 
 const log = logger({ name: "DB Manager" });

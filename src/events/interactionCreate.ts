@@ -12,5 +12,12 @@ Bot.events.interactionCreate = (_, interaction) => {
       );
       Bot.commands.get(interaction.data.name!)?.execute(Bot, interaction);
       break;
+    case InteractionTypes.ApplicationCommandAutocomplete:
+      log.info(`[Interactions] Autocomplete ${interaction.data.name} executed.`, interaction)
+      Bot.commands.get(interaction.data.name)?.autocomplete?.(Bot, interaction)
+      break;
+    case InteractionTypes.MessageComponent:
+      log.info(`[Interactions] Message component interaction arrived.`);
+      
   }
 };
