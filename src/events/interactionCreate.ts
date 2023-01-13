@@ -1,5 +1,6 @@
 import { Bot } from "../../bot.ts";
 import { InteractionTypes } from "../../deps.ts";
+import { processButtonClick } from "../components/buttons/mod.ts";
 import log from "../utils/logger.ts";
 
 Bot.events.interactionCreate = (_, interaction) => {
@@ -18,6 +19,7 @@ Bot.events.interactionCreate = (_, interaction) => {
       break;
     case InteractionTypes.MessageComponent:
       log.info(`[Interactions] Message component interaction arrived.`);
-      
+      processButtonClick(interaction);
+      break;
   }
 };
