@@ -219,7 +219,6 @@ createCommand({
       if (ayahToSend.image) embeds.setImage(ayahToSend.image);
 
       if (embeds.length === 10) {
-        followup = true;
         if (followup) {
           await Bot.helpers.sendFollowupMessage(interaction.token, {
             type: InteractionResponseTypes.ChannelMessageWithSource,
@@ -228,6 +227,8 @@ createCommand({
             },
           });
         } else {
+        followup = true;
+
           await Bot.helpers.sendInteractionResponse(
             interaction.id,
             interaction.token,
