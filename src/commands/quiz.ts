@@ -21,7 +21,6 @@ Bot.commands.set("quiz", {
     for (const data of questions) {
       // Try and quiz on each question
       try {
-        Bot.logger.info("quiz 1");
         // Send the question to the user
         if (interaction.acknowledged)
           await interaction.respond(
@@ -44,7 +43,6 @@ Bot.commands.set("quiz", {
             }
           );
         }
-        Bot.logger.info("quiz 2");
 
         interaction.acknowledged = true;
 
@@ -53,7 +51,6 @@ Bot.commands.set("quiz", {
           interaction.user.id,
           interaction.channelId!
         );
-        Bot.logger.info("quiz 3");
         // if no response just cancel out
         if (!answer) {
           return interaction.respond(
@@ -61,7 +58,6 @@ Bot.commands.set("quiz", {
             { private: false }
           );
         }
-        Bot.logger.info("quiz 4");
 
         // Check if the response is a number or a string and heck if the response was right or wrong
         const userChoice = parseInt(answer.content, 10);
@@ -71,7 +67,6 @@ Bot.commands.set("quiz", {
             : data.choices[userChoice - 1] === data.answer;
         if (isCorrect) correctAnswer++;
 
-        Bot.logger.info("quiz 5");
         // React if the user is right or wrong
         await Bot.helpers
           .addReaction(
@@ -80,7 +75,6 @@ Bot.commands.set("quiz", {
             isCorrect ? `✅` : `❌`
           )
           .catch(() => null);
-        Bot.logger.info("quiz 6");
       } catch (error) {
         console.error(error);
         return interaction.respond(
