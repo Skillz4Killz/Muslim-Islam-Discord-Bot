@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const anfal: Surah = {
   name: "Al-Anfal",
@@ -6,527 +6,751 @@ export const anfal: Surah = {
     {
       number: 1,
       image: "",
-      text:
-        'They ask you, [O Muhammad], about the bounties [of war]. Say, "The [decision concerning] bounties is for Allah and the Messenger."  So fear Allah and amend that which is between you and obey Allah and His Messenger, if you should be believers.',
-      verse: 1040,
+      text: "They ask you about the spoils of war Say The spoils of war (are) for Allah and the Messenger So fear Allah and set right that (which is) between you and obey Allah and His Messenger if you are believers (1)",
+      transliteration:
+        "yasalūnaka ʿani l-anfāli quli l-anfālu lillahi wal-rasūli fa-ittaqū l-laha wa-aṣliḥū dhāta baynikum wa-aṭīʿū l-laha warasūlahu in kuntum mu'minīna ",
+      verse: 1161,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 2,
       image: "",
-      text:
-        "The believers are only those who, when Allah is mentioned, their hearts become fearful, and when His verses are recited to them, it increases them in faith; and upon their Lord they rely -",
-      verse: 1041,
+      text: "Only the believers (are) those who when is mentioned Allah feel fear their hearts and when are recited to them His Verses they increase them (in) faith and upon their Lord they put their trust (2)",
+      transliteration:
+        "innamā l-mu'minūna alladhīna idhā dhukira l-lahu wajilat qulūbuhum wa-idhā tuliyat ʿalayhim āyātuhu zādathum īmānan waʿalā rabbihim yatawakkalūna ",
+      verse: 1162,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 3,
       image: "",
-      text:
-        "The ones who establish prayer, and from what We have provided them, they spend.",
-      verse: 1042,
+      text: "Those who establish the prayer and out of what We have provided them they spend (3)",
+      transliteration:
+        "alladhīna yuqīmūna l-ṣalata wamimmā razaqnāhum yunfiqūna ",
+      verse: 1163,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 4,
       image: "",
-      text:
-        "Those are the believers, truly.  For them are degrees [of high position] with their Lord and forgiveness and noble provision.",
-      verse: 1043,
+      text: "Those  they are the believers (in) truth For them (are) ranks with their Lord and forgiveness and a provision noble (4)",
+      transliteration:
+        "ulāika humu l-mu'minūna ḥaqqan lahum darajātun ʿinda rabbihim wamaghfiratun wariz'qun karīmun ",
+      verse: 1164,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 5,
       image: "",
-      text:
-        "[It is] just as when your Lord brought you out of your home [for the battle of Badr] in truth, while indeed, a party among the believers were unwilling,",
-      verse: 1044,
+      text: "As brought you out your Lord from your home in truth while indeed a party among the believers certainly disliked (5)",
+      transliteration:
+        "kamā akhrajaka rabbuka min baytika bil-ḥaqi wa-inna farīqan mina l-mu'minīna lakārihūna ",
+      verse: 1165,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 6,
       image: "",
-      text:
-        "Arguing with you concerning the truth after it had become clear, as if they were being driven toward death while they were looking on.",
-      verse: 1045,
+      text: "They dispute with you concerning the truth after what was made clear as if they were driven to [the] death while they (were) looking (6)",
+      transliteration:
+        "yujādilūnaka fī l-ḥaqi baʿdamā tabayyana ka-annamā yusāqūna ilā l-mawti wahum yanẓurūna ",
+      verse: 1166,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 7,
       image: "",
-      text:
-        "[Remember, O believers], when Allah promised you one of the two groups -  that it would be yours -  and you wished that the unarmed one would be yours.  But Allah intended to establish the truth by His words and to eliminate the disbelievers",
-      verse: 1046,
+      text: "And when promised you Allah one (of) the two groups  that it (would be) for you  and you wished that (one) other than that (of) the armed would be for you But intended Allah to justify the truth by His words and cut off (the) roots (of) the disbelievers (7)",
+      transliteration:
+        "wa-idh yaʿidukumu l-lahu iḥ'dā l-ṭāifatayni annahā lakum watawaddūna anna ghayra dhāti l-shawkati takūnu lakum wayurīdu l-lahu an yuḥiqqa l-ḥaqa bikalimātihi wayaqṭaʿa dābira l-kāfirīna ",
+      verse: 1167,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 8,
       image: "",
-      text:
-        "That He should establish the truth and abolish falsehood, even if the criminals disliked it.",
-      verse: 1047,
+      text: "That He might justify the truth and prove false the falsehood even if disliked (it) the criminals (8)",
+      transliteration:
+        "liyuḥiqqa l-ḥaqa wayub'ṭila l-bāṭila walaw kariha l-muj'rimūna ",
+      verse: 1168,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 9,
       image: "",
-      text:
-        '[Remember] when you asked help of your Lord, and He answered you, "Indeed, I will reinforce you with a thousand from the angels, following one another."',
-      verse: 1048,
+      text: "When you were seeking help (of) your Lord and He answered [to] you Indeed, I am going to reinforce you with a thousand of the Angels one after another (9)",
+      transliteration:
+        "idh tastaghīthūna rabbakum fa-is'tajāba lakum annī mumiddukum bi-alfin mina l-malāikati mur'difīna ",
+      verse: 1169,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 10,
       image: "",
-      text:
-        "And Allah made it not but good tidings and so that your hearts would be assured thereby.  And victory is not but from Allah . Indeed, Allah is Exalted in Might and Wise.",
-      verse: 1049,
+      text: "And not (it was) made (by) Allah but good tidings and so that might be at rest with it your hearts And (there is) no [the] victory except from [of] Allah Indeed Allah (is) All-Mighty All-Wise (10)",
+      transliteration:
+        "wamā jaʿalahu l-lahu illā bush'rā walitaṭma-inna bihi qulūbukum wamā l-naṣru illā min ʿindi l-lahi inna l-laha ʿazīzun ḥakīmun ",
+      verse: 1170,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 11,
       image: "",
-      text:
-        "[Remember] when He overwhelmed you with drowsiness [giving] security from Him and sent down upon you from the sky, rain by which to purify you and remove from you the evil [suggestions] of Satan and to make steadfast your hearts and plant firmly thereby your feet.",
-      verse: 1050,
+      text: "When He covered you with [the] slumber a security from Him and sent down upon you from the sky water so that He may purify you with it and take away from you evil (suggestions) (of) the Shaitaan And to strengthen [on] your hearts and make firm with it your feet (11)",
+      transliteration:
+        "idh yughashīkumu l-nuʿāsa amanatan min'hu wayunazzilu ʿalaykum mina l-samāi māan liyuṭahhirakum bihi wayudh'hiba ʿankum rij'za l-shayṭāni waliyarbiṭa ʿalā qulūbikum wayuthabbita bihi l-aqdāma ",
+      verse: 1171,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 12,
       image: "",
-      text:
-        '[Remember] when your Lord inspired to the angels, "I am with you, so strengthen those who have believed. I will cast terror into the hearts of those who disbelieved, so strike [them] upon the necks and strike from them every fingertip."',
-      verse: 1051,
+      text: "When inspired your Lord to the Angels I am with you so strengthen those who believed I will cast in (the) hearts (of) those who disbelieved  the terror so strike above the necks and strike from them every fingertip[s] (12)",
+      transliteration:
+        "idh yūḥī rabbuka ilā l-malāikati annī maʿakum fathabbitū alladhīna āmanū sa-ul'qī fī qulūbi alladhīna kafarū l-ruʿ'ba fa-iḍ'ribū fawqa l-aʿnāqi wa-iḍ'ribū min'hum kulla banānin ",
+      verse: 1172,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 13,
       image: "",
-      text:
-        "That is because they opposed Allah and His Messenger. And whoever opposes Allah and His Messenger -  indeed, Allah is severe in penalty.",
-      verse: 1052,
+      text: "That (is) because they opposed Allah and His Messenger And whoever opposes Allah and His Messenger then indeed Allah (is) severe in [the] penalty (13)",
+      transliteration:
+        "dhālika bi-annahum shāqqū l-laha warasūlahu waman yushāqiqi l-laha warasūlahu fa-inna l-laha shadīdu l-ʿiqābi ",
+      verse: 1173,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 14,
       image: "",
-      text:
-        '"That [is yours], so taste it." And indeed for the disbelievers is the punishment of the Fire.',
-      verse: 1053,
+      text: "That  So taste it And that for the disbelievers (is the) punishment (of) the Fire (14)",
+      transliteration:
+        "dhālikum fadhūqūhu wa-anna lil'kāfirīna ʿadhāba l-nāri ",
+      verse: 1174,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 15,
       image: "",
-      text:
-        "O you who have believed, when you meet those who disbelieve advancing [for battle], do not turn to them your backs [in flight].",
-      verse: 1054,
+      text: "O you who believe When you meet those who disbelieve advancing then (do) not turn to them the backs (15)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū idhā laqītumu alladhīna kafarū zaḥfan falā tuwallūhumu l-adbāra ",
+      verse: 1175,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 16,
       image: "",
-      text:
-        "And whoever turns his back to them on such a day, unless swerving [as a strategy] for war or joining [another] company, has certainly returned with anger [upon him] from Allah, and his refuge is Hell -  and wretched is the destination.",
-      verse: 1055,
+      text: "And whoever turns to them that day his back except (as) a strategy of war or (to) join to a group certainly (he has) incurred wrath of Allah and his abode (is) Hell a wretched destination (16)",
+      transliteration:
+        "waman yuwallihim yawma-idhin duburahu illā mutaḥarrifan liqitālin aw mutaḥayyizan ilā fi-atin faqad bāa bighaḍabin mina l-lahi wamawāhu jahannamu wabi'sa l-maṣīru ",
+      verse: 1176,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 17,
       image: "",
-      text:
-        "And you did not kill them, but it was Allah who killed them. And you threw not, [O Muhammad], when you threw, but it was Allah who threw that He might test the believers with a good test. Indeed, Allah is Hearing and Knowing.",
-      verse: 1056,
+      text: "And not you kill them but Allah killed them And not you threw when you threw but Allah threw and that He may test the believers from Him (with) a trial good Indeed Allah (is) All-Hearing All-Knowing (17)",
+      transliteration:
+        "falam taqtulūhum walākinna l-laha qatalahum wamā ramayta idh ramayta walākinna l-laha ramā waliyub'liya l-mu'minīna min'hu balāan ḥasanan inna l-laha samīʿun ʿalīmun ",
+      verse: 1177,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 18,
       image: "",
-      text:
-        "That [is so], and [also] that Allah will weaken the plot of the disbelievers.",
-      verse: 1057,
+      text: "That (is the case) and that Allah (is) one who makes weak (the) plan (of) the disbelievers (18)",
+      transliteration: "dhālikum wa-anna l-laha mūhinu kaydi l-kāfirīna ",
+      verse: 1178,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 19,
       image: "",
-      text:
-        "If you [disbelievers] seek the victory -  the defeat has come to you. And if you desist [from hostilities], it is best for you; but if you return [to war], We will return, and never will you be availed by your [large] company at all, even if it should increase; and [that is] because Allah is with the believers.",
-      verse: 1058,
+      text: "If you ask for victory then certainly has come to you the victory And if you desist then it (is) good for you but if you return We will return (too) And never will avail you your forces anything even if (they are) numerous And that Allah (is) with the believers (19)",
+      transliteration:
+        "in tastaftiḥū faqad jāakumu l-fatḥu wa-in tantahū fahuwa khayrun lakum wa-in taʿūdū naʿud walan tugh'niya ʿankum fi-atukum shayan walaw kathurat wa-anna l-laha maʿa l-mu'minīna ",
+      verse: 1179,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 20,
       image: "",
-      text:
-        "O you who have believed, obey Allah and His Messenger and do not turn from him while you hear [his order].",
-      verse: 1059,
+      text: "O you who believe Obey Allah and His Messenger And (do) not turn away from him while you hear (20)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū aṭīʿū l-laha warasūlahu walā tawallaw ʿanhu wa-antum tasmaʿūna ",
+      verse: 1180,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 21,
       image: "",
-      text:
-        'And do not be like those who say, "We have heard," while they do not hear.',
-      verse: 1060,
+      text: "And (do) not be like those who say We heard while they (do) not hear (21)",
+      transliteration:
+        "walā takūnū ka-alladhīna qālū samiʿ'nā wahum lā yasmaʿūna ",
+      verse: 1181,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 22,
       image: "",
-      text:
-        "Indeed, the worst of living creatures in the sight of Allah are the deaf and dumb who do not use reason.",
-      verse: 1061,
+      text: "Indeed worst (of) the living creatures near Allah (are) the deaf the dumb  those who (do) not use (their) intellect (22)",
+      transliteration:
+        "inna sharra l-dawābi ʿinda l-lahi l-ṣumu l-buk'mu alladhīna lā yaʿqilūna ",
+      verse: 1182,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 23,
       image: "",
-      text:
-        "Had Allah known any good in them, He would have made them hear. And if He had made them hear, they would [still] have turned away, while they were refusing.",
-      verse: 1062,
+      text: "And if (had) known Allah in them any good surely, He (would) have made them hear And if He had made them hear surely they would have turned away while they (were) averse (23)",
+      transliteration:
+        "walaw ʿalima l-lahu fīhim khayran la-asmaʿahum walaw asmaʿahum latawallaw wahum muʿ'riḍūna ",
+      verse: 1183,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 24,
       image: "",
-      text:
-        "O you who have believed, respond to Allah and to the Messenger when he calls you to that which gives you life. And know that Allah intervenes between a man and his heart and that to Him you will be gathered.",
-      verse: 1063,
+      text: "O you who believe Respond to Allah and His Messenger when he calls you to what gives you life And know that Allah comes (in) between a man and his heart and that to Him you will be gathered (24)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū is'tajībū lillahi walilrrasūli idhā daʿākum limā yuḥ'yīkum wa-iʿ'lamū anna l-laha yaḥūlu bayna l-mari waqalbihi wa-annahu ilayhi tuḥ'sharūna ",
+      verse: 1184,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 25,
       image: "",
-      text:
-        "And fear a trial which will not strike those who have wronged among you exclusively, and know that Allah is severe in penalty.",
-      verse: 1064,
+      text: "And fear a trial not which will afflict those who do wrong among you exclusively And know that Allah (is) severe (in) the penalty (25)",
+      transliteration:
+        "wa-ittaqū fit'natan lā tuṣībanna alladhīna ẓalamū minkum khāṣṣatan wa-iʿ'lamū anna l-laha shadīdu l-ʿiqābi ",
+      verse: 1185,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 26,
       image: "",
-      text:
-        "And remember when you were few and oppressed in the land, fearing that people might abduct you, but He sheltered you, supported you with His victory, and provided you with good things -  that you might be grateful.",
-      verse: 1065,
+      text: "And remember when you (were) few (and) deemed weak in the earth fearing that might do away with you the men then He sheltered you and strengthened you with His help and provided you of the good things so that you may (be) thankful (26)",
+      transliteration:
+        "wa-udh'kurū idh antum qalīlun mus'taḍʿafūna fī l-arḍi takhāfūna an yatakhaṭṭafakumu l-nāsu faāwākum wa-ayyadakum binaṣrihi warazaqakum mina l-ṭayibāti laʿallakum tashkurūna ",
+      verse: 1186,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 27,
       image: "",
-      text:
-        "O you who have believed, do not betray Allah and the Messenger or betray your trusts while you know [the consequence].",
-      verse: 1066,
+      text: "O you who believe (Do) not betray Allah and the Messenger or betray your trusts while you know (27)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū lā takhūnū l-laha wal-rasūla watakhūnū amānātikum wa-antum taʿlamūna ",
+      verse: 1187,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 28,
       image: "",
-      text:
-        "And know that your properties and your children are but a trial and that Allah has with Him a great reward.",
-      verse: 1067,
+      text: "And know that your wealth and your children (are) a trial And that Allah  with Him (is) a reward great (28)",
+      transliteration:
+        "wa-iʿ'lamū annamā amwālukum wa-awlādukum fit'natun wa-anna l-laha ʿindahu ajrun ʿaẓīmun ",
+      verse: 1188,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 29,
       image: "",
-      text:
-        "O you who have believed, if you fear Allah, He will grant you a criterion and will remove from you your misdeeds and forgive you. And Allah is the possessor of great bounty.",
-      verse: 1068,
+      text: "O you who believe If you fear Allah He will grant you a criterion and will remove from you your evil deeds and forgive you And Allah (is) the Possessor (of) Bounty the Great (29)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū in tattaqū l-laha yajʿal lakum fur'qānan wayukaffir ʿankum sayyiātikum wayaghfir lakum wal-lahu dhū l-faḍli l-ʿaẓīmi ",
+      verse: 1189,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 30,
       image: "",
-      text:
-        "And [remember, O Muhammad], when those who disbelieved plotted against you to restrain you or kill you or evict you [from Makkah]. But they plan, and Allah plans. And Allah is the best of planners.",
-      verse: 1069,
+      text: "And when plotted against you those who disbelieved that they restrain you or kill you or drive you out And they were planning and (also) was planning Allah And Allah is (the) Best (of) the Planners (30)",
+      transliteration:
+        "wa-idh yamkuru bika alladhīna kafarū liyuth'bitūka aw yaqtulūka aw yukh'rijūka wayamkurūna wayamkuru l-lahu wal-lahu khayru l-mākirīna ",
+      verse: 1190,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 31,
       image: "",
-      text:
-        'And when Our verses are recited to them, they say, "We have heard.  If we willed, we could say [something] like this. This is not but legends of the former peoples."',
-      verse: 1070,
+      text: "And when are recited to them Our Verses they say Verily we have heard if we wish surely, we could say like this Not is this but tales (of) the former (people) (31)",
+      transliteration:
+        "wa-idhā tut'lā ʿalayhim āyātunā qālū qad samiʿ'nā law nashāu laqul'nā mith'la hādhā in hādhā illā asāṭīru l-awalīna ",
+      verse: 1191,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 32,
       image: "",
-      text:
-        'And [remember] when they said, "O Allah, if this should be the truth from You, then rain down upon us stones from the sky or bring us a painful punishment."',
-      verse: 1071,
+      text: "And when they said O Allah If was this [it] the truth [of] from You then (send) rain upon us (of) stones from the sky or bring (upon) us a punishment painful (32)",
+      transliteration:
+        "wa-idh qālū l-lahuma in kāna hādhā huwa l-ḥaqa min ʿindika fa-amṭir ʿalaynā ḥijāratan mina l-samāi awi i'tinā biʿadhābin alīmin ",
+      verse: 1192,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 33,
       image: "",
-      text:
-        "But Allah would not punish them while you, [O Muhammad], are among them, and Allah would not punish them while they seek forgiveness.",
-      verse: 1072,
+      text: "But not is (for) Allah that He punishes them while you (are) among them and not is Allah the One Who punishes them while they seek forgiveness (33)",
+      transliteration:
+        "wamā kāna l-lahu liyuʿadhibahum wa-anta fīhim wamā kāna l-lahu muʿadhibahum wahum yastaghfirūna ",
+      verse: 1193,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 34,
       image: "",
-      text:
-        "But why should Allah not punish them while they obstruct [people] from al-Masjid al- Haram and they were not [fit to be] its guardians? Its [true] guardians are not but the righteous, but most of them do not know.",
-      verse: 1073,
+      text: "But what (is) for them that not (should) punish them Allah while they hinder (people) from Al-Masjid Al-Haraam while not they are its guardians Not (can be) its guardians except the ones who fear Allah but most of them (do) not know (34)",
+      transliteration:
+        "wamā lahum allā yuʿadhibahumu l-lahu wahum yaṣuddūna ʿani l-masjidi l-ḥarāmi wamā kānū awliyāahu in awliyāuhu illā l-mutaqūna walākinna aktharahum lā yaʿlamūna ",
+      verse: 1194,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 35,
       image: "",
-      text:
-        "And their prayer at the House was not except whistling and handclapping.  So taste the punishment for what you disbelieved.",
-      verse: 1074,
+      text: "And not was their prayer at the House except whistling and clapping So taste the punishment because you used to disbelieve (35)",
+      transliteration:
+        "wamā kāna ṣalātuhum ʿinda l-bayti illā mukāan wataṣdiyatan fadhūqū l-ʿadhāba bimā kuntum takfurūna ",
+      verse: 1195,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 36,
       image: "",
-      text:
-        "Indeed, those who disbelieve spend their wealth to avert [people] from the way of Allah . So they will spend it; then it will be for them a [source of] regret; then they will be overcome. And those who have disbelieved -  unto Hell they will be gathered.",
-      verse: 1075,
+      text: "Indeed those who disbelieve they spend their wealth to hinder (people) from (the) way (of) Allah So they will spend it then it will be for them a regret then they will be overcome And those who disbelieve to Hell they will be gathered (36)",
+      transliteration:
+        "inna alladhīna kafarū yunfiqūna amwālahum liyaṣuddū ʿan sabīli l-lahi fasayunfiqūnahā thumma takūnu ʿalayhim ḥasratan thumma yugh'labūna wa-alladhīna kafarū ilā jahannama yuḥ'sharūna ",
+      verse: 1196,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 37,
       image: "",
-      text:
-        "[This is] so that Allah may distinguish the wicked from the good and place the wicked some of them upon others and heap them all together and put them into Hell. It is those who are the losers.",
-      verse: 1076,
+      text: "That may distinguish Allah the wicked from the good and place the wicked some of them on others and heap them all together and put them in Hell Those  they (are) the losers (37)",
+      transliteration:
+        "liyamīza l-lahu l-khabītha mina l-ṭayibi wayajʿala l-khabītha baʿḍahu ʿalā baʿḍin fayarkumahu jamīʿan fayajʿalahu fī jahannama ulāika humu l-khāsirūna ",
+      verse: 1197,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 38,
       image: "",
-      text:
-        "Say to those who have disbelieved [that] if they cease, what has previously occurred will be forgiven for them. But if they return [to hostility] -  then the precedent of the former [rebellious] peoples has already taken place.",
-      verse: 1077,
+      text: "Say to those who disbelieve if they cease will be forgiven for them what [verily] (is) past But if they return then verily preceded (the) practice (of) the former (people) (38)",
+      transliteration:
+        "qul lilladhīna kafarū in yantahū yugh'far lahum mā qad salafa wa-in yaʿūdū faqad maḍat sunnatu l-awalīna ",
+      verse: 1198,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 39,
       image: "",
-      text:
-        "And fight them until there is no fitnah and [until] the religion, all of it, is for Allah . And if they cease -  then indeed, Allah is Seeing of what they do.",
-      verse: 1078,
+      text: "And fight them until not there is oppression and is the religion all of it for Allah But if they cease then indeed Allah of what they do (is) All-Seer (39)",
+      transliteration:
+        "waqātilūhum ḥattā lā takūna fit'natun wayakūna l-dīnu kulluhu lillahi fa-ini intahaw fa-inna l-laha bimā yaʿmalūna baṣīrun ",
+      verse: 1199,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 40,
       image: "",
-      text:
-        "But if they turn away -  then know that Allah is your protector. Excellent is the protector, and Excellent is the helper.",
-      verse: 1079,
+      text: "And if they turn away then know that Allah (is) your Protector Excellent (is) the Protector and Excellent (is) the Helper (40)",
+      transliteration:
+        "wa-in tawallaw fa-iʿ'lamū anna l-laha mawlākum niʿ'ma l-mawlā waniʿ'ma l-naṣīru ",
+      verse: 1200,
+      juz: 9,
+      surah: 8,
     },
     {
       number: 41,
       image: "",
-      text:
-        "And know that anything you obtain of war booty -  then indeed, for Allah is one fifth of it and for the Messenger and for [his] near relatives and the orphans, the needy, and the [stranded] traveler, if you have believed in Allah and in that which We sent down to Our Servant on the day of criterion  -  the day when the two armies met. And Allah, over all things, is competent.",
-      verse: 1080,
+      text: "And know that what you obtain (as) spoils of war of anything then that for Allah (is) one fifth of it and for the Messenger and for the near relatives and the orphans and the needy and the wayfarer if you believe in Allah and (in) what We sent down to Our slave (on the) day (of) the criterion (the) day (when) met the two forces And Allah (is) on every thing All-Powerful (41)",
+      transliteration:
+        "wa-iʿ'lamū annamā ghanim'tum min shayin fa-anna lillahi khumusahu walilrrasūli walidhī l-qur'bā wal-yatāmā wal-masākīni wa-ib'ni l-sabīli in kuntum āmantum bil-lahi wamā anzalnā ʿalā ʿabdinā yawma l-fur'qāni yawma l-taqā l-jamʿāni wal-lahu ʿalā kulli shayin qadīrun ",
+      verse: 1201,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 42,
       image: "",
-      text:
-        "[Remember] when you were on the near side of the valley, and they were on the farther side, and the caravan was lower [in position] than you. If you had made an appointment [to meet], you would have missed the appointment.  But [it was] so that Allah might accomplish a matter already destined -  that those who perished [through disbelief] would perish upon evidence and those who lived [in faith] would live upon evidence; and indeed, Allah is Hearing and Knowing.",
-      verse: 1081,
+      text: "When you (were) on side of the valley the nearer and they (were) on the side the farther and the caravan (was) lower than you And if you (had) made an appointment certainly you would have failed in the appointment But that might accomplish Allah a matter (that) was destined that (might be) destroyed (those) who (were to be) destroyed on a clear evidence and (might) live (those) who (were to) live on a clear evidence And indeed Allah (is) All-Hearing All-Knowing (42)",
+      transliteration:
+        "idh antum bil-ʿud'wati l-dun'yā wahum bil-ʿud'wati l-quṣ'wā wal-rakbu asfala minkum walaw tawāʿadttum la-ikh'talaftum fī l-mīʿādi walākin liyaqḍiya l-lahu amran kāna mafʿūlan liyahlika man halaka ʿan bayyinatin wayaḥyā man ḥayya ʿan bayyinatin wa-inna l-laha lasamīʿun ʿalīmun ",
+      verse: 1202,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 43,
       image: "",
-      text:
-        "[Remember, O Muhammad], when Allah showed them to you in your dream as few; and if He had shown them to you as many, you [believers] would have lost courage and would have disputed in the matter [of whether to fight], but Allah saved [you from that]. Indeed, He is Knowing of that within the breasts.",
-      verse: 1082,
+      text: "When you (where) shown them (by) Allah in your dream (as) few and if He had shown them to you (as) many surely you would have lost courage and surely you would have disputed in the matter but Allah saved (you) Indeed, He (is) All-Knower of what is in the breasts (43)",
+      transliteration:
+        "idh yurīkahumu l-lahu fī manāmika qalīlan walaw arākahum kathīran lafashil'tum walatanāzaʿtum fī l-amri walākinna l-laha sallama innahu ʿalīmun bidhāti l-ṣudūri ",
+      verse: 1203,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 44,
       image: "",
-      text:
-        "And [remember] when He showed them to you, when you met, as few in your eyes, and He made you [appear] as few in their eyes so that Allah might accomplish a matter already destined.  And to Allah are [all] matters returned.",
-      verse: 1083,
+      text: "And when He showed them to you when you met  in your eyes (as) few and He made you (appear) as few in their eyes that might accomplish Allah might accomplish a matter (that) was (already) destined And to Allah return (all) the matters (44)",
+      transliteration:
+        "wa-idh yurīkumūhum idhi l-taqaytum fī aʿyunikum qalīlan wayuqallilukum fī aʿyunihim liyaqḍiya l-lahu amran kāna mafʿūlan wa-ilā l-lahi tur'jaʿu l-umūru ",
+      verse: 1204,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 45,
       image: "",
-      text:
-        "O you who have believed, when you encounter a company [from the enemy forces], stand firm and remember Allah much that you may be successful.",
-      verse: 1084,
+      text: "O you who believe When you meet a force then be firm and remember Allah much so that you may (be) successful (45)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū idhā laqītum fi-atan fa-uth'butū wa-udh'kurū l-laha kathīran laʿallakum tuf'liḥūna ",
+      verse: 1205,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 46,
       image: "",
-      text:
-        "And obey Allah and His Messenger, and do not dispute and [thus] lose courage and [then] your strength would depart; and be patient.  Indeed, Allah is with the patient.",
-      verse: 1085,
+      text: "And obey Allah and His Messenger and (do) not dispute lest you lose courage and (would) depart your strength and be patient Indeed Allah (is) with the patient ones (46)",
+      transliteration:
+        "wa-aṭīʿū l-laha warasūlahu walā tanāzaʿū fatafshalū watadhhaba rīḥukum wa-iṣ'birū inna l-laha maʿa l-ṣābirīna ",
+      verse: 1206,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 47,
       image: "",
-      text:
-        "And do not be like those who came forth from their homes insolently and to be seen by people and avert [them] from the way of Allah . And Allah is encompassing of what they do.",
-      verse: 1086,
+      text: "And (do) not be like those who came forth from their homes boastfully and showing off (to) the people and hinder (them) from (the) way (of) Allah And Allah of what they do (is) All-Encompassing (47)",
+      transliteration:
+        "walā takūnū ka-alladhīna kharajū min diyārihim baṭaran wariāa l-nāsi wayaṣuddūna ʿan sabīli l-lahi wal-lahu bimā yaʿmalūna muḥīṭun ",
+      verse: 1207,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 48,
       image: "",
-      text:
-        'And [remember] when Satan made their deeds pleasing to them and said, "No one can overcome you today from among the people, and indeed, I am your protector." But when the two armies sighted each other, he turned on his heels and said, "Indeed, I am disassociated from you.  Indeed, I see what you do not see; indeed I fear Allah . And Allah is severe in penalty."',
-      verse: 1087,
+      text: "And when made fair-seeming to them the Shaitaan their deeds and he said No (one) (can) overcome [to] you today from the people and indeed, I am a neighbor for you But when came in sight the two forces he turned away on his heels and said Indeed, I am free of you Indeed, I see what not you see indeed, I [I] fear Allah And Allah (is) severe (in) the penalty (48)",
+      transliteration:
+        "wa-idh zayyana lahumu l-shayṭānu aʿmālahum waqāla lā ghāliba lakumu l-yawma mina l-nāsi wa-innī jārun lakum falammā tarāati l-fi-atāni nakaṣa ʿalā ʿaqibayhi waqāla innī barīon minkum innī arā mā lā tarawna innī akhāfu l-laha wal-lahu shadīdu l-ʿiqābi ",
+      verse: 1208,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 49,
       image: "",
-      text:
-        '[Remember] when the hypocrites and those in whose hearts was disease said, "Their religion has deluded those [Muslims]." But whoever relies upon Allah -  then indeed, Allah is Exalted in Might and Wise.',
-      verse: 1088,
+      text: "When said the hypocrites and those who  in their hearts (was) a disease (Had) deluded these (people) their religion But whoever puts (his) trust in Allah then indeed Allah (is) All-Mighty All-Wise (49)",
+      transliteration:
+        "idh yaqūlu l-munāfiqūna wa-alladhīna fī qulūbihim maraḍun gharra hāulāi dīnuhum waman yatawakkal ʿalā l-lahi fa-inna l-laha ʿazīzun ḥakīmun ",
+      verse: 1209,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 50,
       image: "",
-      text:
-        'And if you could but see when the angels take the souls of those who disbelieved... They are striking their faces and their backs and [saying], "Taste the punishment of the Burning Fire.',
-      verse: 1089,
+      text: "And if you (could) see when take away souls (of) those who disbelieve the Angels striking their faces and their backs Taste (the) punishment (of) the Blazing Fire (50)",
+      transliteration:
+        "walaw tarā idh yatawaffā alladhīna kafarū l-malāikatu yaḍribūna wujūhahum wa-adbārahum wadhūqū ʿadhāba l-ḥarīqi ",
+      verse: 1210,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 51,
       image: "",
-      text:
-        'That is for what your hands have put forth [of evil] and because Allah is not ever unjust to His servants."',
-      verse: 1090,
+      text: "That (is) for what sent forth your hands And indeed Allah (is) not unjust to His slaves (51)",
+      transliteration:
+        "dhālika bimā qaddamat aydīkum wa-anna l-laha laysa biẓallāmin lil'ʿabīdi ",
+      verse: 1211,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 52,
       image: "",
-      text:
-        "[Theirs is] like the custom of the people of Pharaoh and of those before them.  They disbelieved in the signs of Allah, so Allah seized them for their sins.  Indeed, Allah is Powerful and severe in penalty.",
-      verse: 1091,
+      text: "Like (the) way (of) people (of) Firaun and those who (were) from before them They disbelieved in (the) Signs (of) Allah so seized them Allah for their sins Indeed Allah (is) All-Strong (and) severe (in) the penalty (52)",
+      transliteration:
+        "kadabi āli fir'ʿawna wa-alladhīna min qablihim kafarū biāyāti l-lahi fa-akhadhahumu l-lahu bidhunūbihim inna l-laha qawiyyun shadīdu l-ʿiqābi ",
+      verse: 1212,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 53,
       image: "",
-      text:
-        "That is because Allah would not change a favor which He had bestowed upon a people until they change what is within themselves. And indeed, Allah is Hearing and Knowing.",
-      verse: 1092,
+      text: "That (is) because Allah not is One Who changes a favor which He had bestowed on a people until they change what (is) in themselves And indeed Allah (is) All-Hearing All-Knowing (53)",
+      transliteration:
+        "dhālika bi-anna l-laha lam yaku mughayyiran niʿ'matan anʿamahā ʿalā qawmin ḥattā yughayyirū mā bi-anfusihim wa-anna l-laha samīʿun ʿalīmun ",
+      verse: 1213,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 54,
       image: "",
-      text:
-        "[Theirs is] like the custom of the people of Pharaoh and of those before them.  They denied the signs of their Lord, so We destroyed them for their sins, and We drowned the people of Pharaoh. And all [of them] were wrongdoers.",
-      verse: 1093,
+      text: "Like (the) way (of) people (of) Firaun and those who (were) from before them They denied (the) Signs (of) their Lord so We destroyed them for their sins and We drowned (the) people (of) Firaun and (they) all were wrongdoers (54)",
+      transliteration:
+        "kadabi āli fir'ʿawna wa-alladhīna min qablihim kadhabū biāyāti rabbihim fa-ahlaknāhum bidhunūbihim wa-aghraqnā āla fir'ʿawna wakullun kānū ẓālimīna ",
+      verse: 1214,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 55,
       image: "",
-      text:
-        "Indeed, the worst of living creatures in the sight of Allah are those who have disbelieved, and they will not [ever] believe -",
-      verse: 1094,
+      text: "Indeed (the) worst (of) the living creatures near Allah (are) those who disbelieve and they (will) not believe (55)",
+      transliteration:
+        "inna sharra l-dawābi ʿinda l-lahi alladhīna kafarū fahum lā yu'minūna ",
+      verse: 1215,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 56,
       image: "",
-      text:
-        "The ones with whom you made a treaty but then they break their pledge every time, and they do not fear Allah .",
-      verse: 1095,
+      text: "Those who  you made a covenant with them then they break their covenant [in] every time and they (do) not fear (Allah) (56)",
+      transliteration:
+        "alladhīna ʿāhadtta min'hum thumma yanquḍūna ʿahdahum fī kulli marratin wahum lā yattaqūna ",
+      verse: 1216,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 57,
       image: "",
-      text:
-        "So if you, [O Muhammad], gain dominance over them in war, disperse by [means of] them those behind them that perhaps they will be reminded.",
-      verse: 1096,
+      text: "So if you gain dominance over them in the war disperse by them (those) who (are) behind them so that they may take heed (57)",
+      transliteration:
+        "fa-immā tathqafannahum fī l-ḥarbi fasharrid bihim man khalfahum laʿallahum yadhakkarūna ",
+      verse: 1217,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 58,
       image: "",
-      text:
-        "If you [have reason to] fear from a people betrayal, throw [their treaty] back to them, [putting you] on equal terms. Indeed, Allah does not like traitors.",
-      verse: 1097,
+      text: "And if you fear from a people betrayal throw back to them on equal (terms) Indeed Allah (does) not love the traitors (58)",
+      transliteration:
+        "wa-immā takhāfanna min qawmin khiyānatan fa-inbidh ilayhim ʿalā sawāin inna l-laha lā yuḥibbu l-khāinīna ",
+      verse: 1218,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 59,
       image: "",
-      text:
-        "And let not those who disbelieve think they will escape. Indeed, they will not cause failure [to Allah ].",
-      verse: 1098,
+      text: "And (let) not think those who disbelieve they can outstrip Indeed, they (can) not escape (59)",
+      transliteration:
+        "walā yaḥsabanna alladhīna kafarū sabaqū innahum lā yuʿ'jizūna ",
+      verse: 1219,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 60,
       image: "",
-      text:
-        "And prepare against them whatever you are able of power and of steeds of war by which you may terrify the enemy of Allah and your enemy and others besides them whom you do not know [but] whom Allah knows. And whatever you spend in the cause of Allah will be fully repaid to you, and you will not be wronged.",
-      verse: 1099,
+      text: "And prepare for them whatever you able (to) of force and of tethered horses (to) terrify therewith (the) enemy (of) Allah and your enemy and others from besides them not (do) you know them (but) Allah knows them And whatever you spend from (any) thing in (the) way (of) Allah it will be fully repaid to you and you (will) not be wronged (60)",
+      transliteration:
+        "wa-aʿiddū lahum mā is'taṭaʿtum min quwwatin wamin ribāṭi l-khayli tur'hibūna bihi ʿaduwwa l-lahi waʿaduwwakum waākharīna min dūnihim lā taʿlamūnahumu l-lahu yaʿlamuhum wamā tunfiqū min shayin fī sabīli l-lahi yuwaffa ilaykum wa-antum lā tuẓ'lamūna ",
+      verse: 1220,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 61,
       image: "",
-      text:
-        "And if they incline to peace, then incline to it [also] and rely upon Allah . Indeed, it is He who is the Hearing, the Knowing.",
-      verse: 1100,
+      text: "And if they incline to peace then you (also) incline to it and put (your) trust in Allah Indeed He (is) All-Hearer All-Knower (61)",
+      transliteration:
+        "wa-in janaḥū lilssalmi fa-ij'naḥ lahā watawakkal ʿalā l-lahi innahu huwa l-samīʿu l-ʿalīmu ",
+      verse: 1221,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 62,
       image: "",
-      text:
-        "But if they intend to deceive you -  then sufficient for you is Allah . It is He who supported you with His help and with the believers",
-      verse: 1101,
+      text: "But if they intend to deceive you then indeed is sufficient for you Allah He (is) the One Who supported you with His help and with the believers (62)",
+      transliteration:
+        "wa-in yurīdū an yakhdaʿūka fa-inna ḥasbaka l-lahu huwa alladhī ayyadaka binaṣrihi wabil-mu'minīna ",
+      verse: 1222,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 63,
       image: "",
-      text:
-        "And brought together their hearts. If you had spent all that is in the earth, you could not have brought their hearts together; but Allah brought them together.  Indeed, He is Exalted in Might and Wise.",
-      verse: 1102,
+      text: "And He (has) put affection between their hearts If you (had) spent whatever (is) in the earth all not (could) you (have) put affection between their hearts but Allah (has) put affection between them Indeed, He (is) All-Mighty All-Wise (63)",
+      transliteration:
+        "wa-allafa bayna qulūbihim law anfaqta mā fī l-arḍi jamīʿan mā allafta bayna qulūbihim walākinna l-laha allafa baynahum innahu ʿazīzun ḥakīmun ",
+      verse: 1223,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 64,
       image: "",
-      text:
-        "O Prophet, sufficient for you is Allah and for whoever follows you of the believers.",
-      verse: 1103,
+      text: "O Prophet Sufficient for you (is) Allah and whoever follows you of the believers (64)",
+      transliteration:
+        "yāayyuhā l-nabiyu ḥasbuka l-lahu wamani ittabaʿaka mina l-mu'minīna ",
+      verse: 1224,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 65,
       image: "",
-      text:
-        "O Prophet, urge the believers to battle. If there are among you twenty [who are] steadfast, they will overcome two hundred. And if there are among you one hundred [who are] steadfast, they will overcome a thousand of those who have disbelieved because they are a people who do not understand.",
-      verse: 1104,
+      text: "O Prophet Urge the believers to [the] fight If (there) are among you twenty steadfast they will overcome two hundred And if (there) are among you a hundred they will overcome a thousand of those who disbelieve because they (are) a people (who do) not understand (65)",
+      transliteration:
+        "yāayyuhā l-nabiyu ḥarriḍi l-mu'minīna ʿalā l-qitāli in yakun minkum ʿish'rūna ṣābirūna yaghlibū mi-atayni wa-in yakun minkum mi-atun yaghlibū alfan mina alladhīna kafarū bi-annahum qawmun lā yafqahūna ",
+      verse: 1225,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 66,
       image: "",
-      text:
-        "Now, Allah has lightened [the hardship] for you, and He knows that among you is weakness. So if there are from you one hundred [who are] steadfast, they will overcome two hundred.  And if there are among you a thousand, they will overcome two thousand by permission of Allah . And Allah is with the steadfast.",
-      verse: 1105,
+      text: "Now has (been) lightened (by) Allah for you and He knows that in you (there) is weakness So if (there) are among you a hundred steadfast they will overcome two hundred And if (there) are among you a thousand they will overcome two thousand with (the) permission (of) Allah And Allah (is) with the steadfast (66)",
+      transliteration:
+        "al-āna khaffafa l-lahu ʿankum waʿalima anna fīkum ḍaʿfan fa-in yakun minkum mi-atun ṣābiratun yaghlibū mi-atayni wa-in yakun minkum alfun yaghlibū alfayni bi-idh'ni l-lahi wal-lahu maʿa l-ṣābirīna ",
+      verse: 1226,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 67,
       image: "",
-      text:
-        "It is not for a prophet to have captives [of war] until he inflicts a massacre [upon Allah's enemies] in the land. Some Muslims desire the commodities of this world, but Allah desires [for you] the Hereafter. And Allah is Exalted in Might and Wise.",
-      verse: 1106,
+      text: "Not is for a Prophet that (there) should be for him prisoners of war until he has battled strenuously in the land You desire (the) commodities (of) the world but Allah desires (for you) the Hereafter And Allah (is) All-Mighty All-Wise (67)",
+      transliteration:
+        "mā kāna linabiyyin an yakūna lahu asrā ḥattā yuth'khina fī l-arḍi turīdūna ʿaraḍa l-dun'yā wal-lahu yurīdu l-ākhirata wal-lahu ʿazīzun ḥakīmun ",
+      verse: 1227,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 68,
       image: "",
-      text:
-        "If not for a decree from Allah that preceded, you would have been touched for what you took by a great punishment.",
-      verse: 1107,
+      text: "Had not an ordainment from Allah preceded surely (would) have touched you for what you took  a punishment great (68)",
+      transliteration:
+        "lawlā kitābun mina l-lahi sabaqa lamassakum fīmā akhadhtum ʿadhābun ʿaẓīmun ",
+      verse: 1228,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 69,
       image: "",
-      text:
-        "So consume what you have taken of war booty [as being] lawful and good, and fear Allah . Indeed, Allah is Forgiving and Merciful.",
-      verse: 1108,
+      text: "So eat from what you got as war booty  lawful (and) good and fear Allah Indeed Allah (is) Oft-Forgiving Most Merciful (69)",
+      transliteration:
+        "fakulū mimmā ghanim'tum ḥalālan ṭayyiban wa-ittaqū l-laha inna l-laha ghafūrun raḥīmun ",
+      verse: 1229,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 70,
       image: "",
-      text:
-        'O Prophet, say to whoever is in your hands of the captives, "If Allah knows [any] good in your hearts, He will give you [something] better than what was taken from you, and He will forgive you; and Allah is Forgiving and Merciful."',
-      verse: 1109,
+      text: "O Prophet Say to whoever (is) in your hands of the captives If knows Allah in your hearts any good He will give you better than what was taken from you and He will forgive you And Allah (is) Oft-Forgiving Most Merciful (70)",
+      transliteration:
+        "yāayyuhā l-nabiyu qul liman fī aydīkum mina l-asrā in yaʿlami l-lahu fī qulūbikum khayran yu'tikum khayran mimmā ukhidha minkum wayaghfir lakum wal-lahu ghafūrun raḥīmun ",
+      verse: 1230,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 71,
       image: "",
-      text:
-        "But if they intend to betray you -  then they have already betrayed Allah before, and He empowered [you] over them. And Allah is Knowing and Wise.",
-      verse: 1110,
+      text: "But if they intend (to) betray you certainly they have betrayed Allah from before So He gave (you) power over them And Allah (is) All-Knower All-Wise (71)",
+      transliteration:
+        "wa-in yurīdū khiyānataka faqad khānū l-laha min qablu fa-amkana min'hum wal-lahu ʿalīmun ḥakīmun ",
+      verse: 1231,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 72,
       image: "",
-      text:
-        "Indeed, those who have believed and emigrated and fought with their wealth and lives in the cause of Allah and those who gave shelter and aided -  they are allies of one another. But those who believed and did not emigrate -  for you there is no guardianship of them until they emigrate. And if they seek help of you for the religion, then you must help, except against a people between yourselves and whom is a treaty. And Allah is Seeing of what you do.",
-      verse: 1111,
+      text: "Indeed those who believed and emigrated and strove hard with their wealth and their lives in (the) way (of) Allah and those who gave shelter and helped those  some of them (are) allies (of) another But those who believed and (did) not emigrate (it is) not for you (of) their protection (in) (in) anything until they emigrate And if they seek your help in the religion then upon you (is to) help them except against a people between you and between them (is) a treaty And Allah of what you do (is) All-Seer (72)",
+      transliteration:
+        "inna alladhīna āmanū wahājarū wajāhadū bi-amwālihim wa-anfusihim fī sabīli l-lahi wa-alladhīna āwaw wanaṣarū ulāika baʿḍuhum awliyāu baʿḍin wa-alladhīna āmanū walam yuhājirū mā lakum min walāyatihim min shayin ḥattā yuhājirū wa-ini is'tanṣarūkum fī l-dīni faʿalaykumu l-naṣru illā ʿalā qawmin baynakum wabaynahum mīthāqun wal-lahu bimā taʿmalūna baṣīrun ",
+      verse: 1232,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 73,
       image: "",
-      text:
-        "And those who disbelieved are allies of one another. If you do not do so, there will be fitnah on earth and great corruption.",
-      verse: 1112,
+      text: "And those who disbelieve some of them (are) allies (to) another If not you do it (there) will be oppression in the earth and corruption great (73)",
+      transliteration:
+        "wa-alladhīna kafarū baʿḍuhum awliyāu baʿḍin illā tafʿalūhu takun fit'natun fī l-arḍi wafasādun kabīrun ",
+      verse: 1233,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 74,
       image: "",
-      text:
-        "But those who have believed and emigrated and fought in the cause of Allah and those who gave shelter and aided -  it is they who are the believers, truly.  For them is forgiveness and noble provision.",
-      verse: 1113,
+      text: "And those who believed and emigrated and strove hard in (the) way (of) Allah and those who gave shelter and helped those  they (are) the believers (in) truth For them (is) forgiveness and a provision noble (74)",
+      transliteration:
+        "wa-alladhīna āmanū wahājarū wajāhadū fī sabīli l-lahi wa-alladhīna āwaw wanaṣarū ulāika humu l-mu'minūna ḥaqqan lahum maghfiratun wariz'qun karīmun ",
+      verse: 1234,
+      juz: 10,
+      surah: 8,
     },
     {
       number: 75,
       image: "",
-      text:
-        "And those who believed after [the initial emigration] and emigrated and fought with you -  they are of you. But those of [blood] relationship are more entitled [to inheritance] in the decree of Allah . Indeed, Allah is Knowing of all things.",
-      verse: 1114,
+      text: "And those who believed from afterwards and emigrated and strove hard with you then those (are) of you But those (of) blood relationship some of them (are) nearer to another in (the) Book (of) Allah Indeed Allah of every thing (is) All-Knower (75)",
+      transliteration:
+        "wa-alladhīna āmanū min baʿdu wahājarū wajāhadū maʿakum fa-ulāika minkum wa-ulū l-arḥāmi baʿḍuhum awlā bibaʿḍin fī kitābi l-lahi inna l-laha bikulli shayin ʿalīmun ",
+      verse: 1235,
+      juz: 10,
+      surah: 8,
     },
   ],
 };

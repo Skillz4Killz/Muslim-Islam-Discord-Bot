@@ -1,80 +1,34 @@
-// import { botCache, createBot, startBot } from "./deps.ts";
-// import { configs } from "./configs.ts";
-// import { importDirectory } from "./src/utils/helpers.ts";
-
-// console.info(
-//   "Beginning Bot Startup Process. This can take a little bit depending on your system. Loading now...",
-// );
-
-// // Always require these files be processed before anything else
-// await Promise.all([
-//   "./src/customizations/structures",
-// ].map(
-//   (path) => importDirectory(Deno.realPathSync(path)),
-// ));
-
-// // Forces deno to read all the files which will fill the commands/inhibitors cache etc.
-// await Promise.all(
-//   [
-//     "./src/commands",
-//     "./src/inhibitors",
-//     "./src/events",
-//     "./src/arguments",
-//     "./src/monitors",
-//     "./src/tasks",
-//     "./src/permissionLevels",
-//     "./src/events",
-//   ].map(
-//     (path) => importDirectory(Deno.realPathSync(path)),
-//   ),
-// );
-
-// await import("./src/database/database.ts");
-
-// const bot = createBot({
-//   token: configs.token,
-//   botId: BigInt(atob(configs.token.split(".")[0])),
-//   intents: ["Guilds", "GuildMessages", "MessageContent"],
-//   events: botCache.eventHandlers,
-// });
-
-// await startBot(bot);
-
-import { bgBlue, bgYellow, black, startBot } from "./deps.ts";
-import log from "./src/utils/logger.ts";
-import { fileLoader, importDirectory } from "./src/utils/loader.ts";
-import { updateApplicationCommands } from "./src/utils/updateCommands.ts";
+import log from "./src/utils/logger.js";
+import { updateApplicationCommands } from "./src/utils/updateCommands.js";
 // setup db
-import "./src/database/mod.ts";
-import { Bot } from "./bot.ts";
-import { getTime } from "./src/utils/helpers.ts";
+import { Bot } from "./bot.js";
+import { loadEvents } from "./src/events/index.js";
+import { loadCommands } from "./src/commands/index.js";
+import { loadMonitors } from "./src/monitors/index.js";
+import { loadTasks } from "./src/tasks/index.js";
+// import { fetchQuran } from "./src/lib/quran.com/index.js";
 
 log.info("Starting bot...");
 
-// Forces deno to read all the files which will fill the commands/inhibitors cache etc.
-await Promise.all(
-  [
-    "./src/commands",
-    "./src/events",
-    "./src/tasks",
-  ].map((path) => importDirectory(Deno.realPathSync(path))),
-);
-await fileLoader();
+// Sets the event handlers before starting the bot
+await loadCommands();
+await loadEvents();
+await loadMonitors();
+await loadTasks();
 
 // UPDATES YOUR COMMANDS TO LATEST COMMANDS
 await updateApplicationCommands();
 
+// This is only for when we see there is a translation fix or something. This will refill the constants.
+// await fetchQuran();
+
 // STARTS THE CONNECTION TO DISCORD
-await startBot(Bot);
+await Bot.start();
 
 // Start tasks
 Bot.tasks.forEach((task) => {
   setTimeout(async () => {
-    console.log(
-      `${bgBlue(`[${getTime()}]`)} => [TASK: ${
-        bgYellow(black(task.name))
-      }] Started.`,
-    );
+    Bot.logger.info(`[TASK: ${task.name}] Started.`)
     try {
       await task.execute();
     } catch (error) {
@@ -82,11 +36,7 @@ Bot.tasks.forEach((task) => {
     }
 
     setInterval(async () => {
-      console.log(
-        `${bgBlue(`[${getTime()}]`)} => [TASK: ${
-          bgYellow(black(task.name))
-        }] Started.`,
-      );
+      Bot.logger.info(`[TASK: ${task.name}] Started.`)
       try {
         await task.execute();
       } catch (error) {
@@ -95,3 +45,5 @@ Bot.tasks.forEach((task) => {
     }, task.interval);
   }, Date.now() % task.interval);
 });
+
+process.on('unhandledRejection', Bot.logger.error);

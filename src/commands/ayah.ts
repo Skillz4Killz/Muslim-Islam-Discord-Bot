@@ -2,12 +2,12 @@ import {
   ApplicationCommandOptionTypes,
   ApplicationCommandTypes,
   InteractionResponseTypes,
-} from "../../deps.ts";
-import { Surah } from "../lib/types/islam.ts";
-import { Quran, QuranCollection } from "../quran.ts";
-import Embeds from "../utils/Embed.ts";
-import { chooseRandom } from "../utils/helpers.ts";
-import { createCommand } from "./mod.ts";
+} from "../../deps.js";
+import { Surah } from "../lib/types/islam.js";
+import { Quran, QuranCollection } from "../quran.js";
+import Embeds from "../utils/Embed.js";
+import { chooseRandom } from "../utils/helpers.js";
+import { createCommand } from "./mod.js";
 
 createCommand({
   name: "ayah",
@@ -40,17 +40,17 @@ createCommand({
     const focused = interaction.data?.options?.find((opt) => opt.focused);
     if (!focused) return;
 
-    const surahOption = interaction.data?.options?.find((opt) =>
-      opt.name === "surah"
+    const surahOption = interaction.data?.options?.find(
+      (opt) => opt.name === "surah"
     );
     if (!surahOption) return;
 
-    const ayahOption = interaction.data?.options?.find((opt) =>
-      opt.name === "ayah"
+    const ayahOption = interaction.data?.options?.find(
+      (opt) => opt.name === "ayah"
     );
-    const lastayahOption = interaction.data?.options?.find((opt) =>
-      opt.name === "lastayah"
-    );
+    // const lastayahOption = interaction.data?.options?.find(
+    //   (opt) => opt.name === "lastayah"
+    // );
 
     const search = focused.value as string;
     const relevantSurah = QuranCollection.filter((surah, surahNumber) => {
@@ -69,12 +69,14 @@ createCommand({
         {
           type: InteractionResponseTypes.ApplicationCommandAutocompleteResult,
           data: {
-            choices: relevantSurah.map((surah, surahNumber) => ({
-              name: `${surahNumber} - Surah ${surah.name}`,
-              value: surahNumber.toString(),
-            })).slice(0, 25),
+            choices: relevantSurah
+              .map((surah, surahNumber) => ({
+                name: `${surahNumber} - Surah ${surah.name}`,
+                value: surahNumber.toString(),
+              }))
+              .slice(0, 25),
           },
-        },
+        }
       );
     }
 
@@ -82,27 +84,28 @@ createCommand({
     if (!surah) return;
 
     const ayahNumber = parseInt(focused.value as string);
-    const firstAyah = focused.name === "lastayah" && ayahOption?.value &&
+    const firstAyah =
+      focused.name === "lastayah" &&
+      ayahOption?.value &&
       parseInt(ayahOption.value as string);
 
-    const relevantAyahs = search || firstAyah
-      ? surah.ayahs.filter((ayah) => {
-        if (firstAyah && ayah.number <= firstAyah) return false;
+    const relevantAyahs =
+      search || firstAyah
+        ? surah.ayahs.filter((ayah) => {
+            if (firstAyah && ayah.number <= firstAyah) return false;
 
-        if (ayah.number === ayahNumber) return true;
-        if (
-          (ayah.number).toString().startsWith(ayahNumber.toString())
-        ) return true;
-        if (
-          ayah.text.toLowerCase().startsWith(search.toLowerCase())
-        ) return true;
-        if (ayah.text.toLowerCase().includes(search.toLowerCase())) {
-          return true;
-        }
+            if (ayah.number === ayahNumber) return true;
+            if (ayah.number.toString().startsWith(ayahNumber.toString()))
+              return true;
+            if (ayah.text.toLowerCase().startsWith(search.toLowerCase()))
+              return true;
+            if (ayah.text.toLowerCase().includes(search.toLowerCase())) {
+              return true;
+            }
 
-        return false;
-      })
-      : surah.ayahs;
+            return false;
+          })
+        : surah.ayahs;
 
     return await Bot.helpers.sendInteractionResponse(
       interaction.id,
@@ -110,12 +113,14 @@ createCommand({
       {
         type: InteractionResponseTypes.ApplicationCommandAutocompleteResult,
         data: {
-          choices: relevantAyahs.map((ayah) => ({
-            name: `${ayah.number} - ${ayah.text}`.substring(0, 100),
-            value: ayah.number,
-          })).slice(0, 25),
+          choices: relevantAyahs
+            .map((ayah) => ({
+              name: `${ayah.number} - ${ayah.text}`.substring(0, 100),
+              value: ayah.number,
+            }))
+            .slice(0, 25),
         },
-      },
+      }
     );
   },
   execute: async (Bot, interaction) => {
@@ -132,17 +137,17 @@ createCommand({
     }
 
     if (!args.surah) {
-      followup = true;
-      await Bot.helpers.sendInteractionResponse(
-        interaction.id,
-        interaction.token,
-        {
-          type: InteractionResponseTypes.ChannelMessageWithSource,
-          data: {
-            content: `Finding random surah and ayah since none was provided.`,
-          },
-        },
-      );
+      // followup = true;
+      // await Bot.helpers.sendInteractionResponse(
+      //   interaction.id,
+      //   interaction.token,
+      //   {
+      //     type: InteractionResponseTypes.ChannelMessageWithSource,
+      //     data: {
+      //       content: `Finding random surah and ayah since none was provided.`,
+      //     },
+      //   }
+      // );
       args.surah = QuranCollection.random();
       if (args.surah) args.ayah = chooseRandom(args.surah.ayahs).number;
     } else if (Number(args.surah)) {
@@ -154,20 +159,18 @@ createCommand({
 
     // If something was provided check if its a valid surah
     if (!args.surah) {
-      return Bot.helpers.sendTextMessage(
-        interaction.channelId!,
-        `I was not able to find ${
+      return Bot.helpers.sendMessage(interaction.channelId!, {
+        content: `I was not able to find ${
           args.surah ?? "a"
         } surah. If you believe this is an mistake, please contact me on my server using the **invite** command.`,
-      );
+      });
     }
 
     // Check if the end ayah is valid
     if (args.lastayah && args.lastayah < args.ayah) {
-      return Bot.helpers.sendTextMessage(
-        interaction.channelId!,
-        `You can't have a ending ayah number smaller then the starting ayah number.`,
-      );
+      return Bot.helpers.sendMessage(interaction.channelId!, {
+        content: `You can't have a ending ayah number smaller then the starting ayah number.`,
+      });
     }
 
     // TODO: perm check
@@ -201,18 +204,19 @@ createCommand({
             type: InteractionResponseTypes.ChannelMessageWithSource,
             data: {
               // flags: 64,
-              content:
-                `Are you sure you provided a valid ayah number? I can't find ${i} ayah for surah ${args.surah.name}`,
+              content: `Are you sure you provided a valid ayah number? I can't find ${i} ayah for surah ${args.surah.name}`,
             },
-          },
+          }
         );
         break;
       }
 
-      embeds.addEmbed().setColor("RANDOM")
+      embeds
+        .addEmbed()
+        .setColor("RANDOM")
         .setAuthor(
           `Surah ${args.surah.name} Ayah #${ayahToSend.number}`,
-          "https://i.imgur.com/EbtoXX8.jpeg",
+          "https://i.imgur.com/EbtoXX8.jpeg"
         )
         .setDescription(ayahToSend.text)
         .setFooter("Credits To Quran.com");
@@ -221,13 +225,10 @@ createCommand({
       if (embeds.length === 10) {
         if (followup) {
           await Bot.helpers.sendFollowupMessage(interaction.token, {
-            type: InteractionResponseTypes.ChannelMessageWithSource,
-            data: {
-              embeds,
-            },
+            embeds,
           });
         } else {
-        followup = true;
+          followup = true;
 
           await Bot.helpers.sendInteractionResponse(
             interaction.id,
@@ -237,7 +238,7 @@ createCommand({
               data: {
                 embeds,
               },
-            },
+            }
           );
         }
 
@@ -249,10 +250,7 @@ createCommand({
 
     if (followup) {
       return await Bot.helpers.sendFollowupMessage(interaction.token, {
-        type: InteractionResponseTypes.ChannelMessageWithSource,
-        data: {
-          embeds,
-        },
+        embeds,
       });
     }
 
@@ -264,7 +262,9 @@ createCommand({
         data: {
           embeds,
         },
-      },
+      }
     );
+
+    return;
   },
 });

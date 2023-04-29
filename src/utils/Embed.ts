@@ -1,4 +1,4 @@
-import { Bot, Embed, User } from "../../deps.ts";
+import { Bot, DiscordEmbed, Embed, User, avatarUrl } from "../../deps.js";
 
 const embedLimits = {
   title: 256,
@@ -11,7 +11,7 @@ const embedLimits = {
   total: 6000,
 };
 
-export class Embeds extends Array<Embed> {
+export class Embeds extends Array<DiscordEmbed> {
   /** The amount of characters in the embed. */
   currentTotal = 0;
   /** Whether the limits should be enforced or not. */
@@ -51,17 +51,13 @@ export class Embeds extends Array<Embed> {
       : name;
 
     if (typeof iconUrl === "string") {
-      embed.author = { name: finalName, iconUrl, url };
+      embed.author = { name: finalName, icon_url: iconUrl, url };
     } else if (iconUrl) {
       embed.author = {
         name: finalName,
-        iconUrl: this.bot.helpers.getAvatarURL(
-          iconUrl.id,
-          iconUrl?.discriminator,
-          {
-            avatar: iconUrl.avatar!,
-          },
-        ),
+        icon_url: avatarUrl(iconUrl.id, iconUrl?.discriminator, {
+          avatar: iconUrl.avatar!,
+        }),
         url,
       };
     } else {
@@ -72,11 +68,12 @@ export class Embeds extends Array<Embed> {
   }
 
   setColor(color: string) {
-    this.getLastEmbed().color = color.toLowerCase() === `random`
-      ? // Random color
-        Math.floor(Math.random() * (0xffffff + 1))
-      : // Convert the hex to a acceptable color for discord
-        parseInt(color.replace("#", ""), 16);
+    this.getLastEmbed().color =
+      color.toLowerCase() === `random`
+        ? // Random color
+          Math.floor(Math.random() * (0xffffff + 1))
+        : // Convert the hex to a acceptable color for discord
+          parseInt(color.replace("#", ""), 16);
 
     return this;
   }
@@ -85,7 +82,7 @@ export class Embeds extends Array<Embed> {
     if (Array.isArray(description)) description = description.join("\n");
     this.getLastEmbed().description = this.fitData(
       description,
-      embedLimits.description,
+      embedLimits.description
     );
 
     return this;
@@ -122,7 +119,7 @@ export class Embeds extends Array<Embed> {
   setFooter(text: string, icon?: string) {
     this.getLastEmbed().footer = {
       text: this.fitData(text, embedLimits.footerText),
-      iconUrl: icon,
+      icon_url: icon,
     };
 
     return this;
@@ -132,7 +129,7 @@ export class Embeds extends Array<Embed> {
     if (typeof url === "string") this.getLastEmbed().image = { url };
     else {
       this.getLastEmbed().image = {
-        url: this.bot.helpers.getAvatarURL(url.id, url.discriminator, {
+        url: avatarUrl(url.id, url.discriminator, {
           avatar: url.avatar!,
           size: 2048,
         }),
@@ -143,9 +140,8 @@ export class Embeds extends Array<Embed> {
   }
 
   setTimestamp(time: number | string = Date.now()) {
-    this.getLastEmbed().timestamp = typeof time === "string"
-      ? Date.parse(time)
-      : time;
+    this.getLastEmbed().timestamp =
+      typeof time === "string" ? time : new Date(time).toISOString();
 
     return this;
   }
@@ -166,20 +162,26 @@ export class Embeds extends Array<Embed> {
   addEmbed(embed?: Embed) {
     if (this.length === 10) return this;
 
-    this.push({ ...embed, fields: embed?.fields ?? [] });
+    this.push({
+      ...embed,
+      fields: embed?.fields ?? [],
+      timestamp: embed?.timestamp
+        ? new Date(embed.timestamp).toISOString()
+        : undefined,
+    });
 
     return this;
   }
 
   /** Get the last Embed, if there is no it will create one */
   getLastEmbed() {
-    if (this.length) return this[this.length - 1];
+    if (this.length) return this[this.length - 1]!;
 
     this.push({
       fields: [],
     });
 
-    return this[0];
+    return this[0]!;
   }
 }
 

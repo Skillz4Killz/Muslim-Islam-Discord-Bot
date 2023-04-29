@@ -1,594 +1,846 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const ghafir: Surah = {
   name: "Ghafir",
   ayahs: [
-    { number: 1, image: "", text: "Ha, Meem.", verse: 4003 },
+    {
+      number: 1,
+      image: "",
+      text: "Ha Meem (1)",
+      transliteration: "hha-meem ",
+      verse: 4134,
+      juz: 24,
+      surah: 40,
+    },
     {
       number: 2,
       image: "",
-      text:
-        "The revelation of the Book is from Allah, the Exalted in Might, the Knowing.",
-      verse: 4004,
+      text: "(The) revelation (of) the Book (is) from Allah the All-Mighty the All-Knower (2)",
+      transliteration: "tanzīlu l-kitābi mina l-lahi l-ʿazīzi l-ʿalīmi ",
+      verse: 4135,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 3,
       image: "",
-      text:
-        "The forgiver of sin, acceptor of repentance, severe in punishment, owner of abundance. There is no deity except Him; to Him is the destination.",
-      verse: 4005,
+      text: "(The) Forgiver (of) the sin and (the) Acceptor (of) [the] repentance severe (in) the punishment Owner (of) the abundance Owner (of) the abundance (There is) no god except Him to Him (is) the final return (3)",
+      transliteration:
+        "ghāfiri l-dhanbi waqābili l-tawbi shadīdi l-ʿiqābi dhī l-ṭawli lā ilāha illā huwa ilayhi l-maṣīru ",
+      verse: 4136,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 4,
       image: "",
-      text:
-        "No one disputes concerning the signs of Allah except those who disbelieve, so be not deceived by their [uninhibited] movement throughout the land.",
-      verse: 4006,
+      text: "Not dispute concerning (the) Verses (of) Allah except those who disbelieve so (let) not deceive you their movement in the cities (4)",
+      transliteration:
+        "mā yujādilu fī āyāti l-lahi illā alladhīna kafarū falā yaghrur'ka taqallubuhum fī l-bilādi ",
+      verse: 4137,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 5,
       image: "",
-      text:
-        "The people of Noah denied before them and the [disbelieving] factions after them, and every nation intended [a plot] for their messenger to seize him, and they disputed by [using] falsehood to [attempt to] invalidate thereby the truth. So I seized them, and how [terrible] was My penalty.",
-      verse: 4007,
+      text: "Denied before them (the) people (of) Nuh and the factions after them after them and plotted every nation against their Messenger to seize him and they disputed by falsehood to refute thereby the truth So I seized them Then how was My penalty (5)",
+      transliteration:
+        "kadhabat qablahum qawmu nūḥin wal-aḥzābu min baʿdihim wahammat kullu ummatin birasūlihim liyakhudhūhu wajādalū bil-bāṭili liyud'ḥiḍū bihi l-ḥaqa fa-akhadhtuhum fakayfa kāna ʿiqābi ",
+      verse: 4138,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 6,
       image: "",
-      text:
-        "And thus has the word of your Lord come into effect upon those who disbelieved that they are companions of the Fire.",
-      verse: 4008,
+      text: "And thus has been justified (the) Word (of) your Lord against those who disbelieved that they (are) companions (of) the Fire (6)",
+      transliteration:
+        "wakadhālika ḥaqqat kalimatu rabbika ʿalā alladhīna kafarū annahum aṣḥābu l-nāri ",
+      verse: 4139,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 7,
       image: "",
-      text:
-        'Those [angels] who carry the Throne and those around it exalt [ Allah ] with praise of their Lord and believe in Him and ask forgiveness for those who have believed, [saying], "Our Lord, You have encompassed all things in mercy and knowledge, so forgive those who have repented and followed Your way and protect them from the punishment of Hellfire.',
-      verse: 4009,
+      text: "Those who bear the Throne and who (are) around it glorify (the) praises (of) their Lord and believe in Him and ask forgiveness for those who believe Our Lord You encompass all things (by Your) Mercy and knowledge so forgive those who repent and follow Your Way and save them (from) (the) punishment (of) the Hellfire (7)",
+      transliteration:
+        "alladhīna yaḥmilūna l-ʿarsha waman ḥawlahu yusabbiḥūna biḥamdi rabbihim wayu'minūna bihi wayastaghfirūna lilladhīna āmanū rabbanā wasiʿ'ta kulla shayin raḥmatan waʿil'man fa-igh'fir lilladhīna tābū wa-ittabaʿū sabīlaka waqihim ʿadhāba l-jaḥīmi ",
+      verse: 4140,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 8,
       image: "",
-      text:
-        "Our Lord, and admit them to gardens of perpetual residence which You have promised them and whoever was righteous among their fathers, their spouses and their offspring. Indeed, it is You who is the Exalted in Might, the Wise.",
-      verse: 4010,
+      text: "Our Lord And admit them (to) Gardens (of) Eden which You have promised them and whoever (was) righteous among their fathers and their spouses and their offspring Indeed You You (are) the All-Mighty the All-Wise (8)",
+      transliteration:
+        "rabbanā wa-adkhil'hum jannāti ʿadnin allatī waʿadttahum waman ṣalaḥa min ābāihim wa-azwājihim wadhurriyyātihim innaka anta l-ʿazīzu l-ḥakīmu ",
+      verse: 4141,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 9,
       image: "",
-      text:
-        'And protect them from the evil consequences [of their deeds]. And he whom You protect from evil consequences that Day -  You will have given him mercy.  And that is the great attainment."',
-      verse: 4011,
+      text: "And protect them (from) the evils And whoever you protect (from) the evils that Day then verily You have bestowed mercy on him And that [it] (is) the success the great (9)",
+      transliteration:
+        "waqihimu l-sayiāti waman taqi l-sayiāti yawma-idhin faqad raḥim'tahu wadhālika huwa l-fawzu l-ʿaẓīmu ",
+      verse: 4142,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 10,
       image: "",
-      text:
-        'Indeed, those who disbelieve will be addressed, "The hatred of Allah for you was [even] greater than your hatred of yourselves [this Day in Hell] when you were invited to faith, but you refused."',
-      verse: 4012,
+      text: "Indeed those who disbelieved will be cried out to them Certainly Allah's hatred Certainly Allah's hatred (was) greater than your hatred (of) yourselves when you were called to the faith and you disbelieved (10)",
+      transliteration:
+        "inna alladhīna kafarū yunādawna lamaqtu l-lahi akbaru min maqtikum anfusakum idh tud'ʿawna ilā l-īmāni fatakfurūna ",
+      verse: 4143,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 11,
       image: "",
-      text:
-        'They will say, "Our Lord, You made us lifeless twice and gave us life twice, and we have confessed our sins.  So is there to an exit any way?"',
-      verse: 4013,
+      text: "They (will) say Our Lord You gave us death twice and You gave us life twice and we confess our sins So is (there) to get out any way (11)",
+      transliteration:
+        "qālū rabbanā amattanā ith'natayni wa-aḥyaytanā ith'natayni fa-iʿ'tarafnā bidhunūbinā fahal ilā khurūjin min sabīlin ",
+      verse: 4144,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 12,
       image: "",
-      text:
-        '[They will be told], "That is because, when Allah was called upon alone, you disbelieved; but if others were associated with Him, you believed. So the judgement is with Allah, the Most High, the Grand."',
-      verse: 4014,
+      text: "That (is) because when Allah was invoked Allah was invoked Alone you disbelieved but if (others) were associated with Him you believed So the judgment (is) with Allah the Most High the Most Great (12)",
+      transliteration:
+        "dhālikum bi-annahu idhā duʿiya l-lahu waḥdahu kafartum wa-in yush'rak bihi tu'minū fal-ḥuk'mu lillahi l-ʿaliyi l-kabīri ",
+      verse: 4145,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 13,
       image: "",
-      text:
-        "It is He who shows you His signs and sends down to you from the sky, provision. But none will remember except he who turns back [in repentance].",
-      verse: 4015,
+      text: "He (is) the One Who shows you His Signs and sends down for you from the sky provision But (does) not take heed except (one) who turns (13)",
+      transliteration:
+        "huwa alladhī yurīkum āyātihi wayunazzilu lakum mina l-samāi riz'qan wamā yatadhakkaru illā man yunību ",
+      verse: 4146,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 14,
       image: "",
-      text:
-        "So invoke Allah, [being] sincere to Him in religion, although the disbelievers dislike it.",
-      verse: 4016,
+      text: "So invoke Allah (being) sincere to Him (in) the religion even though dislike (it) the disbelievers (14)",
+      transliteration:
+        "fa-id'ʿū l-laha mukh'liṣīna lahu l-dīna walaw kariha l-kāfirūna ",
+      verse: 4147,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 15,
       image: "",
-      text:
-        "[He is] the Exalted above [all] degrees, Owner of the Throne; He places the inspiration of His command upon whom He wills of His servants to warn of the Day of Meeting.",
-      verse: 4017,
+      text: "Possessor of the Highest Ranks Possessor of the Highest Ranks Owner (of) the Throne Owner (of) the Throne He places the inspiration of His Command upon whom He wills of His slaves to warn (of the) Day (of) the Meeting (15)",
+      transliteration:
+        "rafīʿu l-darajāti dhū l-ʿarshi yul'qī l-rūḥa min amrihi ʿalā man yashāu min ʿibādihi liyundhira yawma l-talāqi ",
+      verse: 4148,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 16,
       image: "",
-      text:
-        "The Day they come forth nothing concerning them will be concealed from Allah . To whom belongs [all] sovereignty this Day? To Allah, the One, the Prevailing.",
-      verse: 4018,
+      text: "(The) Day they come forth not is hidden from Allah about them anything For whom (is) the Dominion this Day For Allah the One the Irresistible (16)",
+      transliteration:
+        "yawma hum bārizūna lā yakhfā ʿalā l-lahi min'hum shayon limani l-mul'ku l-yawma lillahi l-wāḥidi l-qahāri ",
+      verse: 4149,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 17,
       image: "",
-      text:
-        "This Day every soul will be recompensed for what it earned. No injustice today! Indeed, Allah is swift in account.",
-      verse: 4019,
+      text: "This Day will be recompensed every soul for what it earned No injustice today Indeed Allah (is) Swift (in) Account (17)",
+      transliteration:
+        "al-yawma tuj'zā kullu nafsin bimā kasabat lā ẓul'ma l-yawma inna l-laha sarīʿu l-ḥisābi ",
+      verse: 4150,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 18,
       image: "",
-      text:
-        "And warn them, [O Muhammad], of the Approaching Day, when hearts are at the throats, filled [with distress]. For the wrongdoers there will be no devoted friend and no intercessor [who is] obeyed.",
-      verse: 4020,
+      text: "And warn them (of the) Day the Approaching when the hearts (are) at the throats choked Not for the wrongdoers any intimate friend and no intercessor (who) is obeyed (18)",
+      transliteration:
+        "wa-andhir'hum yawma l-āzifati idhi l-qulūbu ladā l-ḥanājiri kāẓimīna mā lilẓẓālimīna min ḥamīmin walā shafīʿin yuṭāʿu ",
+      verse: 4151,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 19,
       image: "",
-      text:
-        "He knows that which deceives the eyes and what the breasts conceal.",
-      verse: 4021,
+      text: "He knows (the) stealthy glance (the) stealthy glance and what conceal the breasts (19)",
+      transliteration: "yaʿlamu khāinata l-aʿyuni wamā tukh'fī l-ṣudūru ",
+      verse: 4152,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 20,
       image: "",
-      text:
-        "And Allah judges with truth, while those they invoke besides Him judge not with anything. Indeed, Allah -  He is the Hearing, the Seeing.",
-      verse: 4022,
+      text: "And Allah judges in truth while those (whom) they invoke besides Him besides Him not they judge with anything Indeed Allah  He (is) the All-Hearer the All-Seer (20)",
+      transliteration:
+        "wal-lahu yaqḍī bil-ḥaqi wa-alladhīna yadʿūna min dūnihi lā yaqḍūna bishayin inna l-laha huwa l-samīʿu l-baṣīru ",
+      verse: 4153,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 21,
       image: "",
-      text:
-        "Have they not traveled through the land and observed how was the end of those who were before them? They were greater than them in strength and in impression on the land, but Allah seized them for their sins. And they had not from Allah any protector.",
-      verse: 4023,
+      text: "Do not they travel in the earth and see how was (the) end (of) those who were before them before them They were [they] superior to them (in) strength and (in) impressions in the land but Allah seized them but Allah seized them for their sins and not was for them against Allah any protector (21)",
+      transliteration:
+        "awalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna kānū min qablihim kānū hum ashadda min'hum quwwatan waāthāran fī l-arḍi fa-akhadhahumu l-lahu bidhunūbihim wamā kāna lahum mina l-lahi min wāqin ",
+      verse: 4154,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 22,
       image: "",
-      text:
-        "That was because their messengers were coming to them with clear proofs, but they disbelieved, so Allah seized them. Indeed, He is Powerful and severe in punishment.",
-      verse: 4024,
+      text: "That (was) because [they] used to come to them used to come to them their Messengers with clear proofs but they disbelieved So Allah seized them So Allah seized them Indeed, He (is) All-Strong severe (in) punishment (22)",
+      transliteration:
+        "dhālika bi-annahum kānat tatīhim rusuluhum bil-bayināti fakafarū fa-akhadhahumu l-lahu innahu qawiyyun shadīdu l-ʿiqābi ",
+      verse: 4155,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 23,
       image: "",
-      text:
-        "And We did certainly send Moses with Our signs and a clear authority",
-      verse: 4025,
+      text: "And certainly We sent Musa with Our Signs and an authority clear (23)",
+      transliteration: "walaqad arsalnā mūsā biāyātinā wasul'ṭānin mubīnin ",
+      verse: 4156,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 24,
       image: "",
-      text:
-        'To Pharaoh, Haman and Qarun; but they said, "[He is] a magician and a liar."',
-      verse: 4026,
+      text: "To Firaun Haman and Qarun but they said A magician a liar (24)",
+      transliteration: "ilā fir'ʿawna wahāmāna waqārūna faqālū sāḥirun kadhābun ",
+      verse: 4157,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 25,
       image: "",
-      text:
-        'And when he brought them the truth from Us, they said, "Kill the sons of those who have believed with him and keep their women alive." But the plan of the disbelievers is not except in error.',
-      verse: 4027,
+      text: "Then when he brought to them the truth from Us they said Kill (the) sons (of) those who believe with him and let live their women And not (is the) plot (of) the disbelievers but in error (25)",
+      transliteration:
+        "falammā jāahum bil-ḥaqi min ʿindinā qālū uq'tulū abnāa alladhīna āmanū maʿahu wa-is'taḥyū nisāahum wamā kaydu l-kāfirīna illā fī ḍalālin ",
+      verse: 4158,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 26,
       image: "",
-      text:
-        'And Pharaoh said, "Let me kill Moses and let him call upon his Lord. Indeed, I fear that he will change your religion or that he will cause corruption in the land."',
-      verse: 4028,
+      text: "And said Firaun Leave me (so that) I kill Musa and let him call his Lord Indeed, I [I] fear that he will change your religion or that he may cause to appear in the land the corruption (26)",
+      transliteration:
+        "waqāla fir'ʿawnu dharūnī aqtul mūsā walyadʿu rabbahu innī akhāfu an yubaddila dīnakum aw an yuẓ'hira fī l-arḍi l-fasāda ",
+      verse: 4159,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 27,
       image: "",
-      text:
-        'But Moses said, "Indeed, I have sought refuge in my Lord and your Lord from every arrogant one who does not believe in the Day of Account."',
-      verse: 4029,
+      text: "And said Musa Indeed, I [I] seek refuge in my Lord and your Lord from every arrogant one not who believes (in the) Day (of) the Account (27)",
+      transliteration:
+        "waqāla mūsā innī ʿudh'tu birabbī warabbikum min kulli mutakabbirin lā yu'minu biyawmi l-ḥisābi ",
+      verse: 4160,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 28,
       image: "",
-      text:
-        "And a believing man from the family of Pharaoh who concealed his faith said, \"Do you kill a man [merely] because he says, 'My Lord is Allah' while he has brought you clear proofs from your Lord? And if he should be lying, then upon him is [the consequence of] his lie; but if he should be truthful, there will strike you some of what he promises you. Indeed, Allah does not guide one who is a transgressor and a liar.",
-      verse: 4030,
+      text: "And said a man believing from (the) family (of) Firaun who conceal(ed) his faith Will you kill a man because he says My Lord (is) Allah and indeed he has brought you clear proofs from your Lord And if he is a liar then upon him (is) his lie and if he is truthful (there) will strike you some (of) (that) which he threatens you Indeed Allah (does) not guide (one) who [he] (is) a transgressor a liar (28)",
+      transliteration:
+        "waqāla rajulun mu'minun min āli fir'ʿawna yaktumu īmānahu ataqtulūna rajulan an yaqūla rabbiya l-lahu waqad jāakum bil-bayināti min rabbikum wa-in yaku kādhiban faʿalayhi kadhibuhu wa-in yaku ṣādiqan yuṣib'kum baʿḍu alladhī yaʿidukum inna l-laha lā yahdī man huwa mus'rifun kadhābun ",
+      verse: 4161,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 29,
       image: "",
-      text:
-        'O my people, sovereignty is yours today, [your being] dominant in the land.  But who would protect us from the punishment of Allah if it came to us?"  Pharaoh said, "I do not show you except what I see, and I do not guide you except to the way of right conduct."',
-      verse: 4031,
+      text: "O my people For you (is) the kingdom today dominant in the land but who will help us from (the) punishment (of) Allah if it came to us Said Firaun Not I show you except what I see and not I guide you except (to the) path the right (29)",
+      transliteration:
+        "yāqawmi lakumu l-mul'ku l-yawma ẓāhirīna fī l-arḍi faman yanṣurunā min basi l-lahi in jāanā qāla fir'ʿawnu mā urīkum illā mā arā wamā ahdīkum illā sabīla l-rashādi ",
+      verse: 4162,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 30,
       image: "",
-      text:
-        'And he who believed said, "O my people, indeed I fear for you [a fate] like the day of the companies -',
-      verse: 4032,
+      text: "And said (he) who believed O my people Indeed I [I] fear for you like (the) day (of) the companies (30)",
+      transliteration:
+        "waqāla alladhī āmana yāqawmi innī akhāfu ʿalaykum mith'la yawmi l-aḥzābi ",
+      verse: 4163,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 31,
       image: "",
-      text:
-        "Like the custom of the people of Noah and of 'Aad and Thamud and those after them. And Allah wants no injustice for [His] servants.",
-      verse: 4033,
+      text: "Like (the) plight (of the) people (of) Nuh and Aad and Thamud and those after them after them And Allah (does) not And Allah (does) not want injustice for (His) slaves (31)",
+      transliteration:
+        "mith'la dabi qawmi nūḥin waʿādin wathamūda wa-alladhīna min baʿdihim wamā l-lahu yurīdu ẓul'man lil'ʿibādi ",
+      verse: 4164,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 32,
       image: "",
-      text: "And O my people, indeed I fear for you the Day of Calling -",
-      verse: 4034,
+      text: "And O my people Indeed, I [I] fear for you (the) Day (of) Calling (32)",
+      transliteration: "wayāqawmi innī akhāfu ʿalaykum yawma l-tanādi ",
+      verse: 4165,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 33,
       image: "",
-      text:
-        "The Day you will turn your backs fleeing; there is not for you from Allah any protector. And whoever Allah leaves astray -  there is not for him any guide.",
-      verse: 4035,
+      text: "A Day you will turn back fleeing not for you from Allah any protector And whoever Allah lets go astray Allah lets go astray then not for him any guide (33)",
+      transliteration:
+        "yawma tuwallūna mud'birīna mā lakum mina l-lahi min ʿāṣimin waman yuḍ'lili l-lahu famā lahu min hādin ",
+      verse: 4166,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 34,
       image: "",
-      text:
-        "And Joseph had already come to you before with clear proofs, but you remained in doubt of that which he brought to you, until when he died, you said, 'Never will Allah send a messenger after him.' Thus does Allah leave astray he who is a transgressor and skeptic.\"",
-      verse: 4036,
+      text: "And indeed came to you Yusuf before before with clear proofs but not you ceased in doubt about what he brought to you [with it] until when he died you said Never will Allah raise will Allah raise after him after him a Messenger Thus Allah lets go astray Allah lets go astray who [he] (is) a transgressor a doubter (34)",
+      transliteration:
+        "walaqad jāakum yūsufu min qablu bil-bayināti famā zil'tum fī shakkin mimmā jāakum bihi ḥattā idhā halaka qul'tum lan yabʿatha l-lahu min baʿdihi rasūlan kadhālika yuḍillu l-lahu man huwa mus'rifun mur'tābun ",
+      verse: 4167,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 35,
       image: "",
-      text:
-        "Those who dispute concerning the signs of Allah without an authority having come to them -  great is hatred [of them] in the sight of Allah and in the sight of those who have believed. Thus does Allah seal over every heart [belonging to] an arrogant tyrant.",
-      verse: 4037,
+      text: "Those who dispute concerning (the) Signs (of) Allah without any authority (having) come to them (it) is greatly hateful near Allah near Allah and near those who believe Thus Allah sets a seal Allah sets a seal over every heart (of) an arrogant tyrant (35)",
+      transliteration:
+        "alladhīna yujādilūna fī āyāti l-lahi bighayri sul'ṭānin atāhum kabura maqtan ʿinda l-lahi waʿinda alladhīna āmanū kadhālika yaṭbaʿu l-lahu ʿalā kulli qalbi mutakabbirin jabbārin ",
+      verse: 4168,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 36,
       image: "",
-      text:
-        'And Pharaoh said, "O Haman, construct for me a tower that I might reach the ways -',
-      verse: 4038,
+      text: "And said Firaun O Haman Construct for me a tower that I may reach the ways (36)",
+      transliteration:
+        "waqāla fir'ʿawnu yāhāmānu ib'ni lī ṣarḥan laʿallī ablughu l-asbāba ",
+      verse: 4169,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 37,
       image: "",
-      text:
-        'The ways into the heavens -  so that I may look at the deity of Moses; but indeed, I think he is a liar." And thus was made attractive to Pharaoh the evil of his deed, and he was averted from the [right] way. And the plan of Pharaoh was not except in ruin.',
-      verse: 4039,
+      text: "(The) ways (to) the heavens so I may look at (the) God (of) Musa and indeed, I [I] surely think him (to be) a liar And thus was made fair-seeming to Firaun (the) evil (of) his deed and he was averted from the way And not (was the) plot (of) Firaun except in ruin (37)",
+      transliteration:
+        "asbāba l-samāwāti fa-aṭṭaliʿa ilā ilāhi mūsā wa-innī la-aẓunnuhu kādhiban wakadhālika zuyyina lifir'ʿawna sūu ʿamalihi waṣudda ʿani l-sabīli wamā kaydu fir'ʿawna illā fī tabābin ",
+      verse: 4170,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 38,
       image: "",
-      text:
-        'And he who believed said, "O my people, follow me, I will guide you to the way of right conduct.',
-      verse: 4040,
+      text: "And said the one who believed O my people Follow me I will guide you (to the) way the right (38)",
+      transliteration:
+        "waqāla alladhī āmana yāqawmi ittabiʿūni ahdikum sabīla l-rashādi ",
+      verse: 4171,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 39,
       image: "",
-      text:
-        "O my people, this worldly life is only [temporary] enjoyment, and indeed, the Hereafter - that is the home of [permanent] settlement.",
-      verse: 4041,
+      text: "O my people Only this the life (of) the world (is) enjoyment and indeed the Hereafter  it (is the) home (of) settlement (39)",
+      transliteration:
+        "yāqawmi innamā hādhihi l-ḥayatu l-dun'yā matāʿun wa-inna l-ākhirata hiya dāru l-qarāri ",
+      verse: 4172,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 40,
       image: "",
-      text:
-        "Whoever does an evil deed will not be recompensed except by the like thereof; but whoever does righteousness, whether male or female, while he is a believer -  those will enter Paradise, being given provision therein without account.",
-      verse: 4042,
+      text: "Whoever does an evil then not he will be recompensed but (the) like thereof and whoever does righteous (deeds) of male or female while he (is) a believer then those will enter Paradise they will be given provision in it without account (40)",
+      transliteration:
+        "man ʿamila sayyi-atan falā yuj'zā illā mith'lahā waman ʿamila ṣāliḥan min dhakarin aw unthā wahuwa mu'minun fa-ulāika yadkhulūna l-janata yur'zaqūna fīhā bighayri ḥisābin ",
+      verse: 4173,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 41,
       image: "",
-      text:
-        "And O my people, how is it that I invite you to salvation while you invite me to the Fire?",
-      verse: 4043,
+      text: "And O my people What (is) for me (that) I call you to the salvation while you call me to the Fire (41)",
+      transliteration:
+        "wayāqawmi mā lī adʿūkum ilā l-najati watadʿūnanī ilā l-nāri ",
+      verse: 4174,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 42,
       image: "",
-      text:
-        "You invite me to disbelieve in Allah and associate with Him that of which I have no knowledge, and I invite you to the Exalted in Might, the Perpetual Forgiver.",
-      verse: 4044,
+      text: "You call me that I disbelieve in Allah and (to) associate with Him what not for me of it any knowledge and I call you to the All-Mighty the Oft-Forgiving (42)",
+      transliteration:
+        "tadʿūnanī li-akfura bil-lahi wa-ush'rika bihi mā laysa lī bihi ʿil'mun wa-anā adʿūkum ilā l-ʿazīzi l-ghafāri ",
+      verse: 4175,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 43,
       image: "",
-      text:
-        "Assuredly, that to which you invite me has no [response to a] supplication in this world or in the Hereafter; and indeed, our return is to Allah, and indeed, the transgressors will be companions of the Fire.",
-      verse: 4045,
+      text: "No doubt that what you call me to it not for it a claim in the world and not in the Hereafter and that our return (is) to Allah and that the transgressors  they (will be the) companions (of) the Fire (43)",
+      transliteration:
+        "lā jarama annamā tadʿūnanī ilayhi laysa lahu daʿwatun fī l-dun'yā walā fī l-ākhirati wa-anna maraddanā ilā l-lahi wa-anna l-mus'rifīna hum aṣḥābu l-nāri ",
+      verse: 4176,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 44,
       image: "",
-      text:
-        'And you will remember what I [now] say to you, and I entrust my affair to Allah . Indeed, Allah is Seeing of [His] servants."',
-      verse: 4046,
+      text: "And you will remember what I say to you and I entrust my affair to Allah Indeed Allah (is) All-Seer of (His) slaves (44)",
+      transliteration:
+        "fasatadhkurūna mā aqūlu lakum wa-ufawwiḍu amrī ilā l-lahi inna l-laha baṣīrun bil-ʿibādi ",
+      verse: 4177,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 45,
       image: "",
-      text:
-        "So Allah protected him from the evils they plotted, and the people of Pharaoh were enveloped by the worst of punishment -",
-      verse: 4047,
+      text: "So Allah protected him So Allah protected him (from the) evils that they plotted and enveloped (the) people (of) Firaun (the) worst punishment (45)",
+      transliteration:
+        "fawaqāhu l-lahu sayyiāti mā makarū waḥāqa biāli fir'ʿawna sūu l-ʿadhābi ",
+      verse: 4178,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 46,
       image: "",
-      text:
-        'The Fire, they are exposed to it morning and evening. And the Day the Hour appears [it will be said], "Make the people of Pharaoh enter the severest punishment."',
-      verse: 4048,
+      text: "The Fire they are exposed to it morning and evening And (the) Day (will be) established the Hour Cause to enter (the) people (of) Firaun (in the) severest punishment (46)",
+      transliteration:
+        "al-nāru yuʿ'raḍūna ʿalayhā ghuduwwan waʿashiyyan wayawma taqūmu l-sāʿatu adkhilū āla fir'ʿawna ashadda l-ʿadhābi ",
+      verse: 4179,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 47,
       image: "",
-      text:
-        'And [mention] when they will argue within the Fire, and the weak will say to those who had been arrogant, "Indeed, we were [only] your followers, so will you relieve us of a share of the Fire?"',
-      verse: 4049,
+      text: "And when they will dispute in the Fire then will say the weak to those who were arrogant Indeed, we [we] were for you followers so can you avert from us a portion of the Fire (47)",
+      transliteration:
+        "wa-idh yataḥājjūna fī l-nāri fayaqūlu l-ḍuʿafāu lilladhīna is'takbarū innā kunnā lakum tabaʿan fahal antum mugh'nūna ʿannā naṣīban mina l-nāri ",
+      verse: 4180,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 48,
       image: "",
-      text:
-        'Those who had been arrogant will say, "Indeed, all [of us] are in it.  Indeed, Allah has judged between the servants."',
-      verse: 4050,
+      text: "Will say those who (were) arrogant Indeed, we all (are) in it Indeed Allah certainly has judged between (His) slaves (48)",
+      transliteration:
+        "qāla alladhīna is'takbarū innā kullun fīhā inna l-laha qad ḥakama bayna l-ʿibādi ",
+      verse: 4181,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 49,
       image: "",
-      text:
-        'And those in the Fire will say to the keepers of Hell, "Supplicate your Lord to lighten for us a day from the punishment."',
-      verse: 4051,
+      text: "And will say those in the Fire to (the) keepers (of) Hell Call your Lord (to) lighten for us a day of the punishment (49)",
+      transliteration:
+        "waqāla alladhīna fī l-nāri likhazanati jahannama id'ʿū rabbakum yukhaffif ʿannā yawman mina l-ʿadhābi ",
+      verse: 4182,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 50,
       image: "",
-      text:
-        'They will say, "Did there not come to you your messengers with clear proofs?"  They will say, "Yes." They will reply, "Then supplicate [yourselves], but the supplication of the disbelievers is not except in error."',
-      verse: 4052,
+      text: "They (will) say Did there not Did there not come to you your Messengers with clear proofs They (will) say Yes They (will) say Then call but not (is the) call (of) the disbelievers except in error (50)",
+      transliteration:
+        "qālū awalam taku tatīkum rusulukum bil-bayināti qālū balā qālū fa-id'ʿū wamā duʿāu l-kāfirīna illā fī ḍalālin ",
+      verse: 4183,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 51,
       image: "",
-      text:
-        "Indeed, We will support Our messengers and those who believe during the life of this world and on the Day when the witnesses will stand -",
-      verse: 4053,
+      text: "Indeed We We will surely help Our Messengers and those who believe in the life (of) the world and (on the) Day (when) will stand the witnesses (51)",
+      transliteration:
+        "innā lananṣuru rusulanā wa-alladhīna āmanū fī l-ḥayati l-dun'yā wayawma yaqūmu l-ashhādu ",
+      verse: 4184,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 52,
       image: "",
-      text:
-        "The Day their excuse will not benefit the wrongdoers, and they will have the curse, and they will have the worst home.",
-      verse: 4054,
+      text: "(The) Day not will benefit the wrongdoers their excuse and for them (is) the curse and for them (is the) worst home (52)",
+      transliteration:
+        "yawma lā yanfaʿu l-ẓālimīna maʿdhiratuhum walahumu l-laʿnatu walahum sūu l-dāri ",
+      verse: 4185,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 53,
       image: "",
-      text:
-        "And We had certainly given Moses guidance, and We caused the Children of Israel to inherit the Scripture",
-      verse: 4055,
+      text: "And certainly We gave Musa the guidance and We caused to inherit (the) Children of Israel (the) Children of Israel the Book (53)",
+      transliteration:
+        "walaqad ātaynā mūsā l-hudā wa-awrathnā banī is'rāīla l-kitāba ",
+      verse: 4186,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 54,
       image: "",
-      text: "As guidance and a reminder for those of understanding.",
-      verse: 4056,
+      text: "A guide and a reminder for those (of) understanding (54)",
+      transliteration: "hudan wadhik'rā li-ulī l-albābi ",
+      verse: 4187,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 55,
       image: "",
-      text:
-        "So be patient, [O Muhammad]. Indeed, the promise of Allah is truth. And ask forgiveness for your sin and exalt [ Allah ] with praise of your Lord in the evening and the morning.",
-      verse: 4057,
+      text: "So be patient indeed (the) Promise of Allah (the) Promise of Allah (is) true And ask forgiveness for your sin and glorify (the) praise (of) your Lord in the evening and the morning (55)",
+      transliteration:
+        "fa-iṣ'bir inna waʿda l-lahi ḥaqqun wa-is'taghfir lidhanbika wasabbiḥ biḥamdi rabbika bil-ʿashiyi wal-ib'kāri ",
+      verse: 4188,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 56,
       image: "",
-      text:
-        "Indeed, those who dispute concerning the signs of Allah without [any] authority having come to them -  there is not within their breasts except pride, [the extent of] which they cannot reach. So seek refuge in Allah . Indeed, it is He who is the Hearing, the Seeing.",
-      verse: 4058,
+      text: "Indeed those who dispute concerning (the) Signs (of) Allah without any authority (which) came to them not (is) in their breasts but greatness not they (can) reach it So seek refuge in Allah Indeed He He (is) the All-Hearer the All-Seer (56)",
+      transliteration:
+        "inna alladhīna yujādilūna fī āyāti l-lahi bighayri sul'ṭānin atāhum in fī ṣudūrihim illā kib'run mā hum bibālighīhi fa-is'taʿidh bil-lahi innahu huwa l-samīʿu l-baṣīru ",
+      verse: 4189,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 57,
       image: "",
-      text:
-        "The creation of the heavens and earth is greater than the creation of mankind, but most of the people do not know.",
-      verse: 4059,
+      text: "Surely, (the) creation (of) the heavens and the earth (is) greater than (the) creation (of) the mankind but most (of) the people (do) not know (57)",
+      transliteration:
+        "lakhalqu l-samāwāti wal-arḍi akbaru min khalqi l-nāsi walākinna akthara l-nāsi lā yaʿlamūna ",
+      verse: 4190,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 58,
       image: "",
-      text:
-        "And not equal are the blind and the seeing, nor are those who believe and do righteous deeds and the evildoer. Little do you remember.",
-      verse: 4060,
+      text: "And not (are) equal the blind and the seeing and those who believe and do righteous deeds and not the evildoer Little (is) what you take heed (58)",
+      transliteration:
+        "wamā yastawī l-aʿmā wal-baṣīru wa-alladhīna āmanū waʿamilū l-ṣāliḥāti walā l-musīu qalīlan mā tatadhakkarūna ",
+      verse: 4191,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 59,
       image: "",
-      text:
-        "Indeed, the Hour is coming -  no doubt about it -  but most of the people do not believe.",
-      verse: 4061,
+      text: "Indeed the Hour (is) surely coming no doubt in it but most (of) the people (do) not believe (59)",
+      transliteration:
+        "inna l-sāʿata laātiyatun lā rayba fīhā walākinna akthara l-nāsi lā yu'minūna ",
+      verse: 4192,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 60,
       image: "",
-      text:
-        'And your Lord says, "Call upon Me; I will respond to you." Indeed, those who disdain My worship will enter Hell [rendered] contemptible.',
-      verse: 4062,
+      text: "And said your Lord Call upon Me I will respond to you Indeed those who (are) proud to worship Me will enter Hell (in) humiliation (60)",
+      transliteration:
+        "waqāla rabbukumu id'ʿūnī astajib lakum inna alladhīna yastakbirūna ʿan ʿibādatī sayadkhulūna jahannama dākhirīna ",
+      verse: 4193,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 61,
       image: "",
-      text:
-        "It is Allah who made for you the night that you may rest therein and the day giving sight. Indeed, Allah is full of bounty to the people, but most of the people are not grateful.",
-      verse: 4063,
+      text: "Allah (is) the One Who made for you the night that you may rest in it and the day giving visibility Indeed Allah (is) Full (of) Bounty (is) Full (of) Bounty to the people but most (of) the people (do) not give thanks (61)",
+      transliteration:
+        "al-lahu alladhī jaʿala lakumu al-layla litaskunū fīhi wal-nahāra mub'ṣiran inna l-laha ladhū faḍlin ʿalā l-nāsi walākinna akthara l-nāsi lā yashkurūna ",
+      verse: 4194,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 62,
       image: "",
-      text:
-        "That is Allah, your Lord, Creator of all things; there is no deity except Him, so how are you deluded?",
-      verse: 4064,
+      text: "That (is) Allah your Lord (the) Creator (of) all things (there is) no god except Him So how are you deluded (62)",
+      transliteration:
+        "dhālikumu l-lahu rabbukum khāliqu kulli shayin lā ilāha illā huwa fa-annā tu'fakūna ",
+      verse: 4195,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 63,
       image: "",
-      text:
-        "Thus were those [before you] deluded who were rejecting the signs of Allah .",
-      verse: 4065,
+      text: "Thus were deluded those who were  (the) Signs (of) Allah rejecting (63)",
+      transliteration:
+        "kadhālika yu'faku alladhīna kānū biāyāti l-lahi yajḥadūna ",
+      verse: 4196,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 64,
       image: "",
-      text:
-        "It is Allah who made for you the earth a place of settlement and the sky a ceiling and formed you and perfected your forms and provided you with good things. That is Allah, your Lord; then blessed is Allah, Lord of the worlds.",
-      verse: 4066,
+      text: "Allah (is) the One Who made for you the earth a place of settlement and the sky a canopy and He formed you and perfected your forms and provided you of the good things That (is) Allah your Lord Then blessed (is) Allah (the) Lord (of) the worlds (64)",
+      transliteration:
+        "al-lahu alladhī jaʿala lakumu l-arḍa qarāran wal-samāa bināan waṣawwarakum fa-aḥsana ṣuwarakum warazaqakum mina l-ṭayibāti dhālikumu l-lahu rabbukum fatabāraka l-lahu rabbu l-ʿālamīna ",
+      verse: 4197,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 65,
       image: "",
-      text:
-        "He is the Ever-Living; there is no deity except Him, so call upon Him, [being] sincere to Him in religion. [All] praise is [due] to Allah, Lord of the worlds.",
-      verse: 4067,
+      text: "He (is) the Ever-Living (there is) no god but He so call Him (being) sincere to Him (in) the religion All praise (be) to Allah (the) Lord (of) the worlds (65)",
+      transliteration:
+        "huwa l-ḥayu lā ilāha illā huwa fa-id'ʿūhu mukh'liṣīna lahu l-dīna l-ḥamdu lillahi rabbi l-ʿālamīna ",
+      verse: 4198,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 66,
       image: "",
-      text:
-        'Say, [O Muhammad], "Indeed, I have been forbidden to worship those you call upon besides Allah once the clear proofs have come to me from my Lord, and I have been commanded to submit to the Lord of the worlds."',
-      verse: 4068,
+      text: "Say Indeed, I [I] have been forbidden to worship those whom you call besides besides Allah when have come to me the clear proofs from my Lord and I am commanded to submit to (the) Lord (of) the worlds (66)",
+      transliteration:
+        "qul innī nuhītu an aʿbuda alladhīna tadʿūna min dūni l-lahi lammā jāaniya l-bayinātu min rabbī wa-umir'tu an us'lima lirabbi l-ʿālamīna ",
+      verse: 4199,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 67,
       image: "",
-      text:
-        "It is He who created you from dust, then from a sperm-drop, then from a clinging clot; then He brings you out as a child; then [He develops you] that you reach your [time of] maturity, then [further] that you become elders.  And among you is he who is taken in death before [that], so that you reach a specified term; and perhaps you will use reason.",
-      verse: 4069,
+      text: "He (is) the One Who created you from dust then from a semen-drop then from a clinging substance then He brings you out (as) a child then lets you reach your maturity then lets you become old  and among you (is he) who dies before  before  and lets you reach a term specified and that you may use reason (67)",
+      transliteration:
+        "huwa alladhī khalaqakum min turābin thumma min nuṭ'fatin thumma min ʿalaqatin thumma yukh'rijukum ṭif'lan thumma litablughū ashuddakum thumma litakūnū shuyūkhan waminkum man yutawaffā min qablu walitablughū ajalan musamman walaʿallakum taʿqilūna ",
+      verse: 4200,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 68,
       image: "",
-      text:
-        'He it is who gives life and causes death; and when He decrees a matter, He but says to it, "Be," and it is.',
-      verse: 4070,
+      text: "He (is) the One Who gives life and causes death And when He decrees a matter then only He says to it Be and it is (68)",
+      transliteration:
+        "huwa alladhī yuḥ'yī wayumītu fa-idhā qaḍā amran fa-innamā yaqūlu lahu kun fayakūnu ",
+      verse: 4201,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 69,
       image: "",
-      text:
-        "Do you not consider those who dispute concerning the signs of Allah -  how are they averted?",
-      verse: 4071,
+      text: "Do not you see [to] those who dispute concerning (the) Signs (of) Allah How they are turned away (69)",
+      transliteration:
+        "alam tara ilā alladhīna yujādilūna fī āyāti l-lahi annā yuṣ'rafūna ",
+      verse: 4202,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 70,
       image: "",
-      text:
-        "Those who deny the Book and that with which We sent Our messengers -  they are going to know,",
-      verse: 4072,
+      text: "Those who deny the Book and with what We sent with it Our Messengers but soon they will know (70)",
+      transliteration:
+        "alladhīna kadhabū bil-kitābi wabimā arsalnā bihi rusulanā fasawfa yaʿlamūna ",
+      verse: 4203,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 71,
       image: "",
-      text:
-        "When the shackles are around their necks and the chains; they will be dragged",
-      verse: 4073,
+      text: "When the iron collars (will be) around their necks and the chains they will be dragged (71)",
+      transliteration: "idhi l-aghlālu fī aʿnāqihim wal-salāsilu yus'ḥabūna ",
+      verse: 4204,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 72,
       image: "",
-      text:
-        "In boiling water; then in the Fire they will be filled [with flame].",
-      verse: 4074,
+      text: "In the boiling water then in the Fire they will be burned (72)",
+      transliteration: "fī l-ḥamīmi thumma fī l-nāri yus'jarūna ",
+      verse: 4205,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 73,
       image: "",
-      text:
-        'Then it will be said to them, "Where is that which you used to associate [with Him in worship]',
-      verse: 4075,
+      text: "Then it will be said to them Where (is) that which you used to associate (73)",
+      transliteration: "thumma qīla lahum ayna mā kuntum tush'rikūna ",
+      verse: 4206,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 74,
       image: "",
-      text:
-        'Other than Allah ?" They will say, "They have departed from us; rather, we did not used to invoke previously anything." Thus does Allah put astray the disbelievers.',
-      verse: 4076,
+      text: "Other than Other than Allah They will say They have departed from us Nay Not we used to [we] call before before anything Thus Allah lets go astray Allah lets go astray the disbelievers (74)",
+      transliteration:
+        "min dūni l-lahi qālū ḍallū ʿannā bal lam nakun nadʿū min qablu shayan kadhālika yuḍillu l-lahu l-kāfirīna ",
+      verse: 4207,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 75,
       image: "",
-      text:
-        '[The angels will say], "That was because you used to exult upon the earth without right and you used to behave insolently.',
-      verse: 4077,
+      text: "That was because you used to rejoice in the earth without right and because you used to be insolent (75)",
+      transliteration:
+        "dhālikum bimā kuntum tafraḥūna fī l-arḍi bighayri l-ḥaqi wabimā kuntum tamraḥūna ",
+      verse: 4208,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 76,
       image: "",
-      text:
-        'Enter the gates of Hell to abide eternally therein, and wretched is the residence of the arrogant."',
-      verse: 4078,
+      text: "Enter (the) gates (of) Hell (to) abide forever in it and wretched is (the) abode (of) the arrogant (76)",
+      transliteration:
+        "ud'khulū abwāba jahannama khālidīna fīhā fabi'sa mathwā l-mutakabirīna ",
+      verse: 4209,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 77,
       image: "",
-      text:
-        "So be patient, [O Muhammad]; indeed, the promise of Allah is truth. And whether We show you some of what We have promised them or We take you in death, it is to Us they will be returned.",
-      verse: 4079,
+      text: "So be patient indeed (the) Promise (of) Allah (is) true And whether We show you some (of) what We have promised them or We cause you to die then to Us they will be returned (77)",
+      transliteration:
+        "fa-iṣ'bir inna waʿda l-lahi ḥaqqun fa-immā nuriyannaka baʿḍa alladhī naʿiduhum aw natawaffayannaka fa-ilaynā yur'jaʿūna ",
+      verse: 4210,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 78,
       image: "",
-      text:
-        "And We have already sent messengers before you. Among them are those [whose stories] We have related to you, and among them are those [whose stories] We have not related to you. And it was not for any messenger to bring a sign [or verse] except by permission of Allah . So when the command of Allah comes, it will be concluded in truth, and the falsifiers will thereupon lose [all].",
-      verse: 4080,
+      text: "And certainly We have sent Messengers before you before you Among them (are) who  We have related to you and among them (are) who  not We have related to you And not is for any Messenger that he brings a Sign except by (the) permission (of) Allah So when comes (the) Command (of) Allah it will be decided in truth and will lose there the falsifiers (78)",
+      transliteration:
+        "walaqad arsalnā rusulan min qablika min'hum man qaṣaṣnā ʿalayka wamin'hum man lam naqṣuṣ ʿalayka wamā kāna lirasūlin an yatiya biāyatin illā bi-idh'ni l-lahi fa-idhā jāa amru l-lahi quḍiya bil-ḥaqi wakhasira hunālika l-mub'ṭilūna ",
+      verse: 4211,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 79,
       image: "",
-      text:
-        "It is Allah who made for you the grazing animals upon which you ride, and some of them you eat.",
-      verse: 4081,
+      text: "Allah (is) the One Who made for you the cattle that you may ride some of them and some of them you eat (79)",
+      transliteration:
+        "al-lahu alladhī jaʿala lakumu l-anʿāma litarkabū min'hā wamin'hā takulūna ",
+      verse: 4212,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 80,
       image: "",
-      text:
-        "And for you therein are [other] benefits and that you may realize upon them a need which is in your breasts; and upon them and upon ships you are carried.",
-      verse: 4082,
+      text: "And for you in them (are) benefits and that you may reach through them a need (that is) in your breasts and upon them and upon the ships you are carried (80)",
+      transliteration:
+        "walakum fīhā manāfiʿu walitablughū ʿalayhā ḥājatan fī ṣudūrikum waʿalayhā waʿalā l-ful'ki tuḥ'malūna ",
+      verse: 4213,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 81,
       image: "",
-      text:
-        "And He shows you His signs. So which of the signs of Allah do you deny?",
-      verse: 4083,
+      text: "And He shows you His Signs Then which (of the) Signs (of) Allah will you deny (81)",
+      transliteration: "wayurīkum āyātihi fa-ayya āyāti l-lahi tunkirūna ",
+      verse: 4214,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 82,
       image: "",
-      text:
-        "Have they not traveled through the land and observed how was the end of those before them? They were more numerous than themselves and greater in strength and in impression on the land, but they were not availed by what they used to earn.",
-      verse: 4084,
+      text: "Do they not travel through the land and see how was (the) end (of) those who (were) before them (were) before them They were more numerous than them and mightier (in) strength and impressions in the land but not availed them what they used to earn (82)",
+      transliteration:
+        "afalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim kānū akthara min'hum wa-ashadda quwwatan waāthāran fī l-arḍi famā aghnā ʿanhum mā kānū yaksibūna ",
+      verse: 4215,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 83,
       image: "",
-      text:
-        "And when their messengers came to them with clear proofs, they [merely] rejoiced in what they had of knowledge, but they were enveloped by what they used to ridicule.",
-      verse: 4085,
+      text: "Then when came to them their Messengers with clear proofs they rejoiced in what they had of the knowledge and enveloped them what they used to [at it] mock (83)",
+      transliteration:
+        "falammā jāathum rusuluhum bil-bayināti fariḥū bimā ʿindahum mina l-ʿil'mi waḥāqa bihim mā kānū bihi yastahziūna ",
+      verse: 4216,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 84,
       image: "",
-      text:
-        'And when they saw Our punishment, they said," We believe in Allah alone and disbelieve in that which we used to associate with Him."',
-      verse: 4086,
+      text: "So when they saw Our punishment they said We believe in Allah Alone and we disbelieve in what we used to with Him associate (84)",
+      transliteration:
+        "falammā ra-aw basanā qālū āmannā bil-lahi waḥdahu wakafarnā bimā kunnā bihi mush'rikīna ",
+      verse: 4217,
+      juz: 24,
+      surah: 40,
     },
     {
       number: 85,
       image: "",
-      text:
-        "But never did their faith benefit them once they saw Our punishment. [It is] the established way of Allah which has preceded among His servants. And the disbelievers thereupon lost [all].",
-      verse: 4087,
+      text: "But did not But did not benefit them their faith when they saw Our punishment (Such is the) Way (of) Allah which (has) indeed preceded among His slaves And are lost there the disbelievers (85)",
+      transliteration:
+        "falam yaku yanfaʿuhum īmānuhum lammā ra-aw basanā sunnata l-lahi allatī qad khalat fī ʿibādihi wakhasira hunālika l-kāfirūna ",
+      verse: 4218,
+      juz: 24,
+      surah: 40,
     },
   ],
 };

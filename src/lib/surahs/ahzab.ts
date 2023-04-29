@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const ahzab: Surah = {
   name: "Al-Ahzab",
@@ -6,510 +6,726 @@ export const ahzab: Surah = {
     {
       number: 1,
       image: "",
-      text:
-        "O Prophet, fear Allah and do not obey the disbelievers and the hypocrites. Indeed, Allah is ever Knowing and Wise.",
-      verse: 3403,
+      text: "O Prophet O Prophet Fear Allah and (do) not obey the disbelievers and the hypocrites Indeed Allah is All-Knower All-Wise (1)",
+      transliteration:
+        "yāayyuhā l-nabiyu ittaqi l-laha walā tuṭiʿi l-kāfirīna wal-munāfiqīna inna l-laha kāna ʿalīman ḥakīman ",
+      verse: 3534,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 2,
       image: "",
-      text:
-        "And follow that which is revealed to you from your Lord. Indeed Allah is ever, with what you do, Acquainted.",
-      verse: 3404,
+      text: "And follow what is inspired to you from your Lord Indeed Allah is of what you do All-Aware (2)",
+      transliteration:
+        "wa-ittabiʿ mā yūḥā ilayka min rabbika inna l-laha kāna bimā taʿmalūna khabīran ",
+      verse: 3535,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 3,
       image: "",
-      text:
-        "And rely upon Allah ; and sufficient is Allah as Disposer of affairs.",
-      verse: 3405,
+      text: "And put your trust in Allah And Allah is sufficient And Allah is sufficient (as) Disposer of affairs (3)",
+      transliteration: "watawakkal ʿalā l-lahi wakafā bil-lahi wakīlan ",
+      verse: 3536,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 4,
       image: "",
-      text:
-        "Allah has not made for a man two hearts in his interior. And He has not made your wives whom you declare unlawful your mothers. And he has not made your adopted sons your [true] sons. That is [merely] your saying by your mouths, but Allah says the truth, and He guides to the [right] way.",
-      verse: 3406,
+      text: "Not Allah (has) made Allah (has) made for any man [of] two hearts in his interior And not He (has) made your wives whom you declare unlawful [of them] (as) your mothers And not He has made your adopted sons your sons That (is) your saying by your mouths but Allah says the truth and He guides (to) the Way (4)",
+      transliteration:
+        "mā jaʿala l-lahu lirajulin min qalbayni fī jawfihi wamā jaʿala azwājakumu allāī tuẓāhirūna min'hunna ummahātikum wamā jaʿala adʿiyāakum abnāakum dhālikum qawlukum bi-afwāhikum wal-lahu yaqūlu l-ḥaqa wahuwa yahdī l-sabīla ",
+      verse: 3537,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 5,
       image: "",
-      text:
-        "Call them by [the names of] their fathers; it is more just in the sight of Allah . But if you do not know their fathers -  then they are [still] your brothers in religion and those entrusted to you. And there is no blame upon you for that in which you have erred but [only for] what your hearts intended. And ever is Allah Forgiving and Merciful.",
-      verse: 3407,
+      text: "Call them by their fathers it (is) more just near Allah But if not you know their fathers  then (they are) your brothers in [the] religion and your friends But not is upon you any blame in what you made a mistake in it but what intended your hearts And Allah And Allah (is) Oft-Forgiving Most Merciful (5)",
+      transliteration:
+        "id'ʿūhum liābāihim huwa aqsaṭu ʿinda l-lahi fa-in lam taʿlamū ābāahum fa-ikh'wānukum fī l-dīni wamawālīkum walaysa ʿalaykum junāḥun fīmā akhṭatum bihi walākin mā taʿammadat qulūbukum wakāna l-lahu ghafūran raḥīman ",
+      verse: 3538,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 6,
       image: "",
-      text:
-        "The Prophet is more worthy of the believers than themselves, and his wives are [in the position of] their mothers. And those of [blood] relationship are more entitled [to inheritance] in the decree of Allah than the [other] believers and the emigrants, except that you may do to your close associates a kindness [through bequest]. That was in the Book inscribed.",
-      verse: 3408,
+      text: "The Prophet (is) closer to the believers than their own selves and his wives (are) their mothers And possessors (of) relationships some of them (are) closer to another in (the) Decree (of) Allah than the believers and the emigrants except that you do to your friends a kindness That is That is in the Book written (6)",
+      transliteration:
+        "al-nabiyu awlā bil-mu'minīna min anfusihim wa-azwājuhu ummahātuhum wa-ulū l-arḥāmi baʿḍuhum awlā bibaʿḍin fī kitābi l-lahi mina l-mu'minīna wal-muhājirīna illā an tafʿalū ilā awliyāikum maʿrūfan kāna dhālika fī l-kitābi masṭūran ",
+      verse: 3539,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 7,
       image: "",
-      text:
-        "And [mention, O Muhammad], when We took from the prophets their covenant and from you and from Noah and Abraham and Moses and Jesus, the son of Mary; and We took from them a solemn covenant.",
-      verse: 3409,
+      text: "And when We took from the Prophets their Covenant and from you and from Nuh and Ibrahim and Musa and Isa son (of) Maryam And We took from them a covenant strong (7)",
+      transliteration:
+        "wa-idh akhadhnā mina l-nabiyīna mīthāqahum waminka wamin nūḥin wa-ib'rāhīma wamūsā waʿīsā ib'ni maryama wa-akhadhnā min'hum mīthāqan ghalīẓan ",
+      verse: 3540,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 8,
       image: "",
-      text:
-        "That He may question the truthful about their truth. And He has prepared for the disbelievers a painful punishment.",
-      verse: 3410,
+      text: "That He may ask the truthful about their truth And He has prepared for the disbelievers a punishment painful (8)",
+      transliteration:
+        "liyasala l-ṣādiqīna ʿan ṣid'qihim wa-aʿadda lil'kāfirīna ʿadhāban alīman ",
+      verse: 3541,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 9,
       image: "",
-      text:
-        "O you who have believed, remember the favor of Allah upon you when armies came to [attack] you and We sent upon them a wind and armies [of angels] you did not see. And ever is Allah, of what you do, Seeing.",
-      verse: 3411,
+      text: "O you who believe Remember (the) Favor (of) Allah upon you when came to you (the) hosts and We sent upon them a wind and hosts not you (could) see them And Allah is And Allah is of what you do All-Seer (9)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū udh'kurū niʿ'mata l-lahi ʿalaykum idh jāatkum junūdun fa-arsalnā ʿalayhim rīḥan wajunūdan lam tarawhā wakāna l-lahu bimā taʿmalūna baṣīran ",
+      verse: 3542,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 10,
       image: "",
-      text:
-        "[Remember] when they came at you from above you and from below you, and when eyes shifted [in fear], and hearts reached the throats and you assumed about Allah [various] assumptions.",
-      verse: 3412,
+      text: "When they came upon you from above you and from below you and when grew wild the eyes and reached the hearts the throats and you assumed about Allah the assumptions (10)",
+      transliteration:
+        "idh jāūkum min fawqikum wamin asfala minkum wa-idh zāghati l-abṣāru wabalaghati l-qulūbu l-ḥanājira wataẓunnūna bil-lahi l-ẓunūnā ",
+      verse: 3543,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 11,
       image: "",
-      text: "There the believers were tested and shaken with a severe shaking.",
-      verse: 3413,
+      text: "There  were tried the believers and shaken (with a) shake severe (11)",
+      transliteration:
+        "hunālika ub'tuliya l-mu'minūna wazul'zilū zil'zālan shadīdan ",
+      verse: 3544,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 12,
       image: "",
-      text:
-        'And [remember] when the hypocrites and those in whose hearts is disease said, " Allah and His Messenger did not promise us except delusion,"',
-      verse: 3414,
+      text: "And when said the hypocrites and those in their hearts (was) a disease Not Allah promised us Allah promised us and His messenger except delusion (12)",
+      transliteration:
+        "wa-idh yaqūlu l-munāfiqūna wa-alladhīna fī qulūbihim maraḍun mā waʿadanā l-lahu warasūluhu illā ghurūran ",
+      verse: 3545,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 13,
       image: "",
-      text:
-        'And when a faction of them said, "O people of Yathrib, there is no stability for you [here], so return [home]." And a party of them asked permission of the Prophet, saying, "Indeed, our houses are unprotected," while they were not exposed. They did not intend except to flee.',
-      verse: 3415,
+      text: "And when said a party of them O People (of) Yathrib No stand for you so return And asked permission a group of them (from) the Prophet saying Indeed our houses (are) exposed and not they (were) exposed Not they wished but to flee (13)",
+      transliteration:
+        "wa-idh qālat ṭāifatun min'hum yāahla yathriba lā muqāma lakum fa-ir'jiʿū wayastadhinu farīqun min'humu l-nabiya yaqūlūna inna buyūtanā ʿawratun wamā hiya biʿawratin in yurīdūna illā firāran ",
+      verse: 3546,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 14,
       image: "",
-      text:
-        "And if they had been entered upon from all its [surrounding] regions and fitnah had been demanded of them, they would have done it and not hesitated over it except briefly.",
-      verse: 3416,
+      text: "And if had been entered upon them from all its sides then they had been asked the treachery they (would) have certainly done it and not they (would) have hesitated over it except a little (14)",
+      transliteration:
+        "walaw dukhilat ʿalayhim min aqṭārihā thumma su-ilū l-fit'nata laātawhā wamā talabbathū bihā illā yasīran ",
+      verse: 3547,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 15,
       image: "",
-      text:
-        "And they had already promised Allah before not to turn their backs and flee. And ever is the promise to Allah [that about which one will be] questioned.",
-      verse: 3417,
+      text: "And certainly they had promised Allah before before not they would turn their backs And is (the) promise (to) Allah to be questioned (15)",
+      transliteration:
+        "walaqad kānū ʿāhadū l-laha min qablu lā yuwallūna l-adbāra wakāna ʿahdu l-lahi masūlan ",
+      verse: 3548,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 16,
       image: "",
-      text:
-        'Say, [O Muhammad], "Never will fleeing benefit you if you should flee from death or killing; and then [if you did], you would not be given enjoyment [of life] except for a little."',
-      verse: 3418,
+      text: "Say Never will benefit you the fleeing if you flee from death or killing and then not you will be allowed to enjoy except a little (16)",
+      transliteration:
+        "qul lan yanfaʿakumu l-firāru in farartum mina l-mawti awi l-qatli wa-idhan lā tumattaʿūna illā qalīlan ",
+      verse: 3549,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 17,
       image: "",
-      text:
-        'Say, "Who is it that can protect you from Allah if He intends for you an ill or intends for you a mercy?" And they will not find for themselves besides Allah any protector or any helper.',
-      verse: 3419,
+      text: "Say Who (is) it that (is) it that (can) protect you from Allah If He intends for you any harm or He intends for you a mercy And not they will find for them besides besides Allah any protector and not any helper (17)",
+      transliteration:
+        "qul man dhā alladhī yaʿṣimukum mina l-lahi in arāda bikum sūan aw arāda bikum raḥmatan walā yajidūna lahum min dūni l-lahi waliyyan walā naṣīran ",
+      verse: 3550,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 18,
       image: "",
-      text:
-        'Already Allah knows the hinderers among you and those [hypocrites] who say to their brothers, "Come to us," and do not go to battle, except for a few,',
-      verse: 3420,
+      text: "Verily Allah knows Allah knows those who hinder among you and those who say to their brothers Come to us and not they come (to) the battle except a few (18)",
+      transliteration:
+        "qad yaʿlamu l-lahu l-muʿawiqīna minkum wal-qāilīna li-ikh'wānihim halumma ilaynā walā yatūna l-basa illā qalīlan ",
+      verse: 3551,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 19,
       image: "",
-      text:
-        "Indisposed toward you. And when fear comes, you see them looking at you, their eyes revolving like one being overcome by death. But when fear departs, they lash you with sharp tongues, indisposed toward [any] good. Those have not believed, so Allah has rendered their deeds worthless, and ever is that, for Allah, easy.",
-      verse: 3421,
+      text: "Miserly towards you But when comes the fear you see them looking at you revolving their eyes like one who faints faints from [the] death But when departs the fear they smite you with tongues sharp miserly towards the good Those  not they have believed so Allah made worthless so Allah made worthless their deeds And is that for Allah easy (19)",
+      transliteration:
+        "ashiḥḥatan ʿalaykum fa-idhā jāa l-khawfu ra-aytahum yanẓurūna ilayka tadūru aʿyunuhum ka-alladhī yugh'shā ʿalayhi mina l-mawti fa-idhā dhahaba l-khawfu salaqūkum bi-alsinatin ḥidādin ashiḥḥatan ʿalā l-khayri ulāika lam yu'minū fa-aḥbaṭa l-lahu aʿmālahum wakāna dhālika ʿalā l-lahi yasīran ",
+      verse: 3552,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 20,
       image: "",
-      text:
-        "They think the companies have not [yet] withdrawn. And if the companies should come [again], they would wish they were in the desert among the bedouins, inquiring [from afar] about your news. And if they should be among you, they would not fight except for a little.",
-      verse: 3422,
+      text: "They think the confederates (have) not withdrawn And if (should) come the confederates they would wish if that they (were) living in (the) desert among the Bedouins asking about your news And if they were among you not they would fight except a little (20)",
+      transliteration:
+        "yaḥsabūna l-aḥzāba lam yadhhabū wa-in yati l-aḥzābu yawaddū law annahum bādūna fī l-aʿrābi yasalūna ʿan anbāikum walaw kānū fīkum mā qātalū illā qalīlan ",
+      verse: 3553,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 21,
       image: "",
-      text:
-        "There has certainly been for you in the Messenger of Allah an excellent pattern for anyone whose hope is in Allah and the Last Day and [who] remembers Allah often.",
-      verse: 3423,
+      text: "Certainly is for you in (the) Messenger (of) Allah an excellent example an excellent example for (one) who has hope (in) Allah and the Day the Last and remembers Allah much (21)",
+      transliteration:
+        "laqad kāna lakum fī rasūli l-lahi us'watun ḥasanatun liman kāna yarjū l-laha wal-yawma l-ākhira wadhakara l-laha kathīran ",
+      verse: 3554,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 22,
       image: "",
-      text:
-        'And when the believers saw the companies, they said, "This is what Allah and His Messenger had promised us, and Allah and His Messenger spoke the truth." And it increased them only in faith and acceptance.',
-      verse: 3424,
+      text: "And when saw the believers the confederates they said This (is) what Allah promised us Allah promised us and His Messenger and Allah spoke the truth and Allah spoke the truth and His Messenger And not it increased them except (in) faith and submission (22)",
+      transliteration:
+        "walammā raā l-mu'minūna l-aḥzāba qālū hādhā mā waʿadanā l-lahu warasūluhu waṣadaqa l-lahu warasūluhu wamā zādahum illā īmānan wataslīman ",
+      verse: 3555,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 23,
       image: "",
-      text:
-        "Among the believers are men true to what they promised Allah . Among them is he who has fulfilled his vow [to the death], and among them is he who awaits [his chance]. And they did not alter [the terms of their commitment] by any alteration -",
-      verse: 3425,
+      text: "Among the believers (are) men (who) have been true (to) what they promised Allah they promised Allah [on it] And among them (is he) who has fulfilled his vow and among them (is he) who awaits And not they alter (by) any alteration  (23)",
+      transliteration:
+        "mina l-mu'minīna rijālun ṣadaqū mā ʿāhadū l-laha ʿalayhi famin'hum man qaḍā naḥbahu wamin'hum man yantaẓiru wamā baddalū tabdīlan ",
+      verse: 3556,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 24,
       image: "",
-      text:
-        "That Allah may reward the truthful for their truth and punish the hypocrites if He wills or accept their repentance. Indeed, Allah is ever Forgiving and Merciful.",
-      verse: 3426,
+      text: "That Allah may reward That Allah may reward the truthful for their truth and punish the hypocrites if He wills or turn in mercy to them Indeed Allah is Oft-Forgiving Most Merciful (24)",
+      transliteration:
+        "liyajziya l-lahu l-ṣādiqīna biṣid'qihim wayuʿadhiba l-munāfiqīna in shāa aw yatūba ʿalayhim inna l-laha kāna ghafūran raḥīman ",
+      verse: 3557,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 25,
       image: "",
-      text:
-        "And Allah repelled those who disbelieved, in their rage, not having obtained any good. And sufficient was Allah for the believers in battle, and ever is Allah Powerful and Exalted in Might.",
-      verse: 3427,
+      text: "And Allah turned back And Allah turned back those who disbelieved in their rage not they obtained any good And sufficient is Allah (for) the believers (in) the battle and Allah is and Allah is All-Strong All-Mighty (25)",
+      transliteration:
+        "waradda l-lahu alladhīna kafarū bighayẓihim lam yanālū khayran wakafā l-lahu l-mu'minīna l-qitāla wakāna l-lahu qawiyyan ʿazīzan ",
+      verse: 3558,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 26,
       image: "",
-      text:
-        "And He brought down those who supported them among the People of the Scripture from their fortresses and cast terror into their hearts [so that] a party you killed, and you took captive a party.",
-      verse: 3428,
+      text: "And He brought down those who backed them among (the) People (of) the Scripture from their fortresses and cast into their hearts [the] terror a group you killed and you took captive a group (26)",
+      transliteration:
+        "wa-anzala alladhīna ẓāharūhum min ahli l-kitābi min ṣayāṣīhim waqadhafa fī qulūbihimu l-ruʿ'ba farīqan taqtulūna watasirūna farīqan ",
+      verse: 3559,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 27,
       image: "",
-      text:
-        "And He caused you to inherit their land and their homes and their properties and a land which you have not trodden. And ever is Allah, over all things, competent.",
-      verse: 3429,
+      text: "And He caused you to inherit their land and their houses and their properties and a land not you (had) trodden And Allah is And Allah is on every thing All-Powerful (27)",
+      transliteration:
+        "wa-awrathakum arḍahum wadiyārahum wa-amwālahum wa-arḍan lam taṭaūhā wakāna l-lahu ʿalā kulli shayin qadīran ",
+      verse: 3560,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 28,
       image: "",
-      text:
-        'O Prophet, say to your wives, "If you should desire the worldly life and its adornment, then come, I will provide for you and give you a gracious release.',
-      verse: 3430,
+      text: "O Prophet O Prophet Say to your wives If you desire the life (of) the world and its adornment then come I will provide for you and release you (with) a release good (28)",
+      transliteration:
+        "yāayyuhā l-nabiyu qul li-azwājika in kuntunna turid'na l-ḥayata l-dun'yā wazīnatahā fataʿālayna umattiʿ'kunna wa-usarriḥ'kunna sarāḥan jamīlan ",
+      verse: 3561,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 29,
       image: "",
-      text:
-        'But if you should desire Allah and His Messenger and the home of the Hereafter -  then indeed, Allah has prepared for the doers of good among you a great reward."',
-      verse: 3431,
+      text: "But if you desire Allah and His Messenger and the Home (of) the Hereafter then indeed Allah has prepared for the good-doers among you a reward great (29)",
+      transliteration:
+        "wa-in kuntunna turid'na l-laha warasūlahu wal-dāra l-ākhirata fa-inna l-laha aʿadda lil'muḥ'sināti minkunna ajran ʿaẓīman ",
+      verse: 3562,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 30,
       image: "",
-      text:
-        "O wives of the Prophet, whoever of you should commit a clear immorality -  for her the punishment would be doubled two fold, and ever is that, for Allah, easy.",
-      verse: 3432,
+      text: "O wives (of) the Prophet Whoever commits from you immorality clear will be doubled for her the punishment two fold And that is And that is for Allah easy (30)",
+      transliteration:
+        "yānisāa l-nabiyi man yati minkunna bifāḥishatin mubayyinatin yuḍāʿaf lahā l-ʿadhābu ḍiʿ'fayni wakāna dhālika ʿalā l-lahi yasīran ",
+      verse: 3563,
+      juz: 21,
+      surah: 33,
     },
     {
       number: 31,
       image: "",
-      text:
-        "And whoever of you devoutly obeys Allah and His Messenger and does righteousness - We will give her her reward twice; and We have prepared for her a noble provision.",
-      verse: 3433,
+      text: "And whoever is obedient among you to Allah and His Messenger and does righteousness We will give her her reward twice and We have prepared for her a provision noble (31)",
+      transliteration:
+        "waman yaqnut minkunna lillahi warasūlihi wataʿmal ṣāliḥan nu'tihā ajrahā marratayni wa-aʿtadnā lahā riz'qan karīman ",
+      verse: 3564,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 32,
       image: "",
-      text:
-        "O wives of the Prophet, you are not like anyone among women. If you fear Allah, then do not be soft in speech [to men], lest he in whose heart is disease should covet, but speak with appropriate speech.",
-      verse: 3434,
+      text: "O wives (of) the Prophet You are not like anyone among the women If you fear (Allah) then (do) not be soft in speech lest should be moved with desire he who in his heart (is) a disease but say a word appropriate (32)",
+      transliteration:
+        "yānisāa l-nabiyi lastunna ka-aḥadin mina l-nisāi ini ittaqaytunna falā takhḍaʿna bil-qawli fayaṭmaʿa alladhī fī qalbihi maraḍun waqul'na qawlan maʿrūfan ",
+      verse: 3565,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 33,
       image: "",
-      text:
-        "And abide in your houses and do not display yourselves as [was] the display of the former times of ignorance. And establish prayer and give zakah and obey Allah and His Messenger. Allah intends only to remove from you the impurity [of sin], O people of the [Prophet's] household, and to purify you with [extensive] purification.",
-      verse: 3435,
+      text: "And stay in your houses and (do) not display yourselves (as was the) display (of the times of) ignorance the former And establish the prayer and give zakah and obey Allah and His Messenger Only Allah wishes Allah wishes to remove from you the impurity (O) People (of) the House And to purify you (with thorough) purification (33)",
+      transliteration:
+        "waqarna fī buyūtikunna walā tabarrajna tabarruja l-jāhiliyati l-ūlā wa-aqim'na l-ṣalata waātīna l-zakata wa-aṭiʿ'na l-laha warasūlahu innamā yurīdu l-lahu liyudh'hiba ʿankumu l-rij'sa ahla l-bayti wayuṭahhirakum taṭhīran ",
+      verse: 3566,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 34,
       image: "",
-      text:
-        "And remember what is recited in your houses of the verses of Allah and wisdom. Indeed, Allah is ever Subtle and Acquainted [with all things].",
-      verse: 3436,
+      text: "And remember what is recited in your houses of (the) Verses (of) Allah and the wisdom Indeed Allah is All-Subtle All-Aware (34)",
+      transliteration:
+        "wa-udh'kur'na mā yut'lā fī buyūtikunna min āyāti l-lahi wal-ḥik'mati inna l-laha kāna laṭīfan khabīran ",
+      verse: 3567,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 35,
       image: "",
-      text:
-        "Indeed, the Muslim men and Muslim women, the believing men and believing women, the obedient men and obedient women, the truthful men and truthful women, the patient men and patient women, the humble men and humble women, the charitable men and charitable women, the fasting men and fasting women, the men who guard their private parts and the women who do so, and the men who remember Allah often and the women who do so -  for them Allah has prepared forgiveness and a great reward.",
-      verse: 3437,
+      text: "Indeed the Muslim men and the Muslim women and the believing men and the believing women and the obedient men and the obedient women and the truthful men and the truthful women and the patient men and the patient women and the humble men and the humble women and the men who give charity and the women who give charity and the men who fast and the women who fast and the men who guard their chastity and the women who guard (it) and the men who remember Allah much and the women who remember Allah has prepared Allah has prepared for them forgiveness and a reward great (35)",
+      transliteration:
+        "inna l-mus'limīna wal-mus'limāti wal-mu'minīna wal-mu'mināti wal-qānitīna wal-qānitāti wal-ṣādiqīna wal-ṣādiqāti wal-ṣābirīna wal-ṣābirāti wal-khāshiʿīna wal-khāshiʿāti wal-mutaṣadiqīna wal-mutaṣadiqāti wal-ṣāimīna wal-ṣāimāti wal-ḥāfiẓīna furūjahum wal-ḥāfiẓāti wal-dhākirīna l-laha kathīran wal-dhākirāti aʿadda l-lahu lahum maghfiratan wa-ajran ʿaẓīman ",
+      verse: 3568,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 36,
       image: "",
-      text:
-        "It is not for a believing man or a believing woman, when Allah and His Messenger have decided a matter, that they should [thereafter] have any choice about their affair. And whoever disobeys Allah and His Messenger has certainly strayed into clear error.",
-      verse: 3438,
+      text: "And not (it) is for a believing man and not (for) a believing woman when Allah has decided Allah has decided and His Messenger a matter that (there) should be for them (any) choice about their affair And whoever disobeys Allah and His Messenger certainly he (has) strayed (into) error clear (36)",
+      transliteration:
+        "wamā kāna limu'minin walā mu'minatin idhā qaḍā l-lahu warasūluhu amran an yakūna lahumu l-khiyaratu min amrihim waman yaʿṣi l-laha warasūlahu faqad ḍalla ḍalālan mubīnan ",
+      verse: 3569,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 37,
       image: "",
-      text:
-        'And [remember, O Muhammad], when you said to the one on whom Allah bestowed favor and you bestowed favor, "Keep your wife and fear Allah," while you concealed within yourself that which Allah is to disclose. And you feared the people, while Allah has more right that you fear Him. So when Zayd had no longer any need for her, We married her to you in order that there not be upon the believers any discomfort concerning the wives of their adopted sons when they no longer have need of them. And ever is the command of Allah accomplished.',
-      verse: 3439,
+      text: "And when you said to the one Allah bestowed favor Allah bestowed favor on him and you bestowed favor on him Keep to yourself your wife and fear Allah But you concealed within yourself what Allah (was to) disclose And you fear the people while Allah has more right that you (should) fear Him So when ended Zaid from her necessary (formalities) We married her to you so that not there be on the believers any discomfort concerning the wives (of) their adopted sons when they have ended from them necessary (formalities) And is (the) Command (of) Allah accomplished (37)",
+      transliteration:
+        "wa-idh taqūlu lilladhī anʿama l-lahu ʿalayhi wa-anʿamta ʿalayhi amsik ʿalayka zawjaka wa-ittaqi l-laha watukh'fī fī nafsika mā l-lahu mub'dīhi watakhshā l-nāsa wal-lahu aḥaqqu an takhshāhu falammā qaḍā zaydun min'hā waṭaran zawwajnākahā likay lā yakūna ʿalā l-mu'minīna ḥarajun fī azwāji adʿiyāihim idhā qaḍaw min'hunna waṭaran wakāna amru l-lahi mafʿūlan ",
+      verse: 3570,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 38,
       image: "",
-      text:
-        "There is not to be upon the Prophet any discomfort concerning that which Allah has imposed upon him. [This is] the established way of Allah with those [prophets] who have passed on before. And ever is the command of Allah a destiny decreed.",
-      verse: 3440,
+      text: "Not (there can) be upon the Prophet any discomfort in what Allah has imposed Allah has imposed on him (That is the) Way (of) Allah concerning those who passed away before before And is (the) Command (of) Allah a decree destined (38)",
+      transliteration:
+        "mā kāna ʿalā l-nabiyi min ḥarajin fīmā faraḍa l-lahu lahu sunnata l-lahi fī alladhīna khalaw min qablu wakāna amru l-lahi qadaran maqdūran ",
+      verse: 3571,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 39,
       image: "",
-      text:
-        "[ Allah praises] those who convey the messages of Allah and fear Him and do not fear anyone but Allah . And sufficient is Allah as Accountant.",
-      verse: 3441,
+      text: "Those who convey (the) Messages (of) Allah and fear Him and (do) not fear anyone except Allah And sufficient is Allah And sufficient is Allah (as) a Reckoner (39)",
+      transliteration:
+        "alladhīna yuballighūna risālāti l-lahi wayakhshawnahu walā yakhshawna aḥadan illā l-laha wakafā bil-lahi ḥasīban ",
+      verse: 3572,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 40,
       image: "",
-      text:
-        "Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and last of the prophets. And ever is Allah, of all things, Knowing.",
-      verse: 3442,
+      text: "Not is Muhammad (the) father (of) anyone of your men but (he is the) Messenger (of) Allah and Seal (of) the Prophets And Allah is And Allah is of every thing All-Knower (40)",
+      transliteration:
+        "mā kāna muḥammadun abā aḥadin min rijālikum walākin rasūla l-lahi wakhātama l-nabiyīna wakāna l-lahu bikulli shayin ʿalīman ",
+      verse: 3573,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 41,
       image: "",
-      text: "O you who have believed, remember Allah with much remembrance",
-      verse: 3443,
+      text: "O you who believe O you who believe O you who believe Remember Allah (with) remembrance much (41)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū udh'kurū l-laha dhik'ran kathīran ",
+      verse: 3574,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 42,
       image: "",
-      text: "And exalt Him morning and afternoon.",
-      verse: 3444,
+      text: "And glorify Him morning and evening (42)",
+      transliteration: "wasabbiḥūhu buk'ratan wa-aṣīlan ",
+      verse: 3575,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 43,
       image: "",
-      text:
-        "It is He who confers blessing upon you, and His angels [ask Him to do so] that He may bring you out from darknesses into the light. And ever is He, to the believers, Merciful.",
-      verse: 3445,
+      text: "He (is) the One Who sends His blessings upon you and His Angels so that He may bring you out from the darkness[es] to the light And He is to the believers Merciful (43)",
+      transliteration:
+        "huwa alladhī yuṣallī ʿalaykum wamalāikatuhu liyukh'rijakum mina l-ẓulumāti ilā l-nūri wakāna bil-mu'minīna raḥīman ",
+      verse: 3576,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 44,
       image: "",
-      text:
-        'Their greeting the Day they meet Him will be, "Peace." And He has prepared for them a noble reward.',
-      verse: 3446,
+      text: 'Their greetings (on the) Day they will meet Him (will be), "Peace and He has prepared for them a reward noble (44)',
+      transliteration:
+        "taḥiyyatuhum yawma yalqawnahu salāmun wa-aʿadda lahum ajran karīman ",
+      verse: 3577,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 45,
       image: "",
-      text:
-        "O Prophet, indeed We have sent you as a witness and a bringer of good tidings and a warner.",
-      verse: 3447,
+      text: "O Prophet O Prophet Indeed, We have sent you (as) a witness and a bearer of glad tidings and (as) a warner (45)",
+      transliteration:
+        "yāayyuhā l-nabiyu innā arsalnāka shāhidan wamubashiran wanadhīran ",
+      verse: 3578,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 46,
       image: "",
-      text:
-        "And one who invites to Allah, by His permission, and an illuminating lamp.",
-      verse: 3448,
+      text: "And as one who invites to Allah by His permission and (as) a lamp illuminating (46)",
+      transliteration: "wadāʿiyan ilā l-lahi bi-idh'nihi wasirājan munīran ",
+      verse: 3579,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 47,
       image: "",
-      text:
-        "And give good tidings to the believers that they will have from Allah great bounty.",
-      verse: 3449,
+      text: "And give glad tidings (to) the believers that for them (is) from Allah a Bounty great (47)",
+      transliteration:
+        "wabashiri l-mu'minīna bi-anna lahum mina l-lahi faḍlan kabīran ",
+      verse: 3580,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 48,
       image: "",
-      text:
-        "And do not obey the disbelievers and the hypocrites but do not harm them, and rely upon Allah . And sufficient is Allah as Disposer of affairs.",
-      verse: 3450,
+      text: "And (do) not obey the disbelievers and the hypocrites and disregard their harm and put your trust in Allah And sufficient is Allah And sufficient is Allah (as) a Trustee (48)",
+      transliteration:
+        "walā tuṭiʿi l-kāfirīna wal-munāfiqīna wadaʿ adhāhum watawakkal ʿalā l-lahi wakafā bil-lahi wakīlan ",
+      verse: 3581,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 49,
       image: "",
-      text:
-        "O You who have believed, when you marry believing women and then divorce them before you have touched them, then there is not for you any waiting period to count concerning them. So provide for them and give them a gracious release.",
-      verse: 3451,
+      text: "O you who believe O you who believe O you who believe When you marry believing women and then divorce them before before [that] you have touched them then not for you on them any waiting period (to) count concerning them So provide for them and release them (with) a release good (49)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū idhā nakaḥtumu l-mu'mināti thumma ṭallaqtumūhunna min qabli an tamassūhunna famā lakum ʿalayhinna min ʿiddatin taʿtaddūnahā famattiʿūhunna wasarriḥūhunna sarāḥan jamīlan ",
+      verse: 3582,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 50,
       image: "",
-      text:
-        "O Prophet, indeed We have made lawful to you your wives to whom you have given their due compensation and those your right hand possesses from what Allah has returned to you [of captives] and the daughters of your paternal uncles and the daughters of your paternal aunts and the daughters of your maternal uncles and the daughters of your maternal aunts who emigrated with you and a believing woman if she gives herself to the Prophet [and] if the Prophet wishes to marry her, [this is] only for you, excluding the [other] believers. We certainly know what We have made obligatory upon them concerning their wives and those their right hands possess, [but this is for you] in order that there will be upon you no discomfort. And ever is Allah Forgiving and Merciful.",
-      verse: 3452,
+      text: "O Prophet O Prophet Indeed, We [We] have made lawful to you your wives (to) whom you have given their bridal money and whom you rightfully possess you rightfully possess from those (whom) Allah has given Allah has given to you and (the) daughters (of) your paternal uncles and (the) daughters (of) your paternal aunts and (the) daughters (of) your maternal uncles and (the) daughters (of) your maternal aunts who emigrated with you and a woman believing if she gives herself to the Prophet if wishes the Prophet to marry her  only for you excluding excluding the believers Certainly We know what We have made obligatory upon them concerning their wives and whom they rightfully possess they rightfully possess that not should be on you any discomfort And Allah is And Allah is Oft-Forgiving Most Merciful (50)",
+      transliteration:
+        "yāayyuhā l-nabiyu innā aḥlalnā laka azwājaka allātī ātayta ujūrahunna wamā malakat yamīnuka mimmā afāa l-lahu ʿalayka wabanāti ʿammika wabanāti ʿammātika wabanāti khālika wabanāti khālātika allātī hājarna maʿaka wa-im'ra-atan mu'minatan in wahabat nafsahā lilnnabiyyi in arāda l-nabiyu an yastankiḥahā khāliṣatan laka min dūni l-mu'minīna qad ʿalim'nā mā faraḍnā ʿalayhim fī azwājihim wamā malakat aymānuhum likaylā yakūna ʿalayka ḥarajun wakāna l-lahu ghafūran raḥīman ",
+      verse: 3583,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 51,
       image: "",
-      text:
-        "You, [O Muhammad], may put aside whom you will of them or take to yourself whom you will. And any that you desire of those [wives] from whom you had [temporarily] separated -  there is no blame upon you [in returning her]. That is more suitable that they should be content and not grieve and that they should be satisfied with what you have given them -  all of them. And Allah knows what is in your hearts. And ever is Allah Knowing and Forbearing.",
-      verse: 3453,
+      text: "You may defer whom you will of them or you may take to yourself whom you will And whoever you desire of those whom you (had) set aside  then (there is) no blame upon you That (is) more suitable that may be cooled their eyes and not they grieve and they may be pleased with what you have given them  all of them And Allah knows what (is) in your hearts And Allah is And Allah is All-Knower Most Forbearing (51)",
+      transliteration:
+        "tur'jī man tashāu min'hunna watu'wī ilayka man tashāu wamani ib'taghayta mimman ʿazalta falā junāḥa ʿalayka dhālika adnā an taqarra aʿyunuhunna walā yaḥzanna wayarḍayna bimā ātaytahunna kulluhunna wal-lahu yaʿlamu mā fī qulūbikum wakāna l-lahu ʿalīman ḥalīman ",
+      verse: 3584,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 52,
       image: "",
-      text:
-        "Not lawful to you, [O Muhammad], are [any additional] women after [this], nor [is it] for you to exchange them for [other] wives, even if their beauty were to please you, except what your right hand possesses. And ever is Allah, over all things, an Observer.",
-      verse: 3454,
+      text: "(It is) not lawful for you (to marry) women after (this) after (this) and not to exchange them for (other) wives even if pleases you their beauty except whom you rightfully possess you rightfully possess And Allah is And Allah is over all things an Observer (52)",
+      transliteration:
+        "lā yaḥillu laka l-nisāu min baʿdu walā an tabaddala bihinna min azwājin walaw aʿjabaka ḥus'nuhunna illā mā malakat yamīnuka wakāna l-lahu ʿalā kulli shayin raqīban ",
+      verse: 3585,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 53,
       image: "",
-      text:
-        "O you who have believed, do not enter the houses of the Prophet except when you are permitted for a meal, without awaiting its readiness. But when you are invited, then enter; and when you have eaten, disperse without seeking to remain for conversation. Indeed, that [behavior] was troubling the Prophet, and he is shy of [dismissing] you. But Allah is not shy of the truth. And when you ask [his wives] for something, ask them from behind a partition. That is purer for your hearts and their hearts. And it is not [conceivable or lawful] for you to harm the Messenger of Allah or to marry his wives after him, ever. Indeed, that would be in the sight of Allah an enormity.",
-      verse: 3455,
+      text: "O you who believe O you who believe O you who believe (Do) not enter (the) houses (of) the Prophet except when permission is given to you for a meal without awaiting its preparation But when you are invited then enter and when you have eaten then disperse and not seeking to remain for a conversation Indeed that was troubling the Prophet and he is shy of (dismissing) you But Allah is not shy is not shy of the truth And when you ask them (for) anything then ask them from behind a screen That (is) purer for your hearts and their hearts And not is for you that you trouble (the) Messenger (of) Allah and not that you should marry his wives after him after him ever Indeed that is near Allah an enormity (53)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū lā tadkhulū buyūta l-nabiyi illā an yu'dhana lakum ilā ṭaʿāmin ghayra nāẓirīna ināhu walākin idhā duʿītum fa-ud'khulū fa-idhā ṭaʿim'tum fa-intashirū walā mus'tanisīna liḥadīthin inna dhālikum kāna yu'dhī l-nabiya fayastaḥyī minkum wal-lahu lā yastaḥyī mina l-ḥaqi wa-idhā sa-altumūhunna matāʿan fasalūhunna min warāi ḥijābin dhālikum aṭharu liqulūbikum waqulūbihinna wamā kāna lakum an tu'dhū rasūla l-lahi walā an tankiḥū azwājahu min baʿdihi abadan inna dhālikum kāna ʿinda l-lahi ʿaẓīman ",
+      verse: 3586,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 54,
       image: "",
-      text:
-        "Whether you reveal a thing or conceal it, indeed Allah is ever, of all things, Knowing.",
-      verse: 3456,
+      text: "Whether you reveal a thing or conceal it indeed Allah is of all things All-Knower (54)",
+      transliteration:
+        "in tub'dū shayan aw tukh'fūhu fa-inna l-laha kāna bikulli shayin ʿalīman ",
+      verse: 3587,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 55,
       image: "",
-      text:
-        "There is no blame upon women concerning their fathers or their sons or their brothers or their brothers' sons or their sisters' sons or their women or those their right hands possess. And fear Allah . Indeed Allah is ever, over all things, Witness.",
-      verse: 3457,
+      text: "(There is) no blame upon them concerning their fathers and not their sons and not their brothers and not sons (of) their brothers and not sons (of) their sisters and not their women and not what they rightfully possess they rightfully possess And fear Allah Indeed Allah is over all things a Witness (55)",
+      transliteration:
+        "lā junāḥa ʿalayhinna fī ābāihinna walā abnāihinna walā ikh'wānihinna walā abnāi ikh'wānihinna walā abnāi akhawātihinna walā nisāihinna walā mā malakat aymānuhunna wa-ittaqīna l-laha inna l-laha kāna ʿalā kulli shayin shahīdan ",
+      verse: 3588,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 56,
       image: "",
-      text:
-        "Indeed, Allah confers blessing upon the Prophet, and His angels [ask Him to do so]. O you who have believed, ask [ Allah to confer] blessing upon him and ask [ Allah to grant him] peace.",
-      verse: 3458,
+      text: "Indeed Allah and His Angels send blessings upon the Prophet O you who believe O you who believe O you who believe Send blessings on him and greet him (with) greetings (56)",
+      transliteration:
+        "inna l-laha wamalāikatahu yuṣallūna ʿalā l-nabiyi yāayyuhā alladhīna āmanū ṣallū ʿalayhi wasallimū taslīman ",
+      verse: 3589,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 57,
       image: "",
-      text:
-        "Indeed, those who abuse Allah and His Messenger - Allah has cursed them in this world and the Hereafter and prepared for them a humiliating punishment.",
-      verse: 3459,
+      text: "Indeed those who annoy Allah and His Messenger Allah has cursed them Allah has cursed them in the world and the Hereafter and prepared for them a punishment humiliating (57)",
+      transliteration:
+        "inna alladhīna yu'dhūna l-laha warasūlahu laʿanahumu l-lahu fī l-dun'yā wal-ākhirati wa-aʿadda lahum ʿadhāban muhīnan ",
+      verse: 3590,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 58,
       image: "",
-      text:
-        "And those who harm believing men and believing women for [something] other than what they have earned have certainly born upon themselves a slander and manifest sin.",
-      verse: 3460,
+      text: "And those who harm the believing men and the believing women for other than what they have earned then certainly they bear false accusation and sin manifest (58)",
+      transliteration:
+        "wa-alladhīna yu'dhūna l-mu'minīna wal-mu'mināti bighayri mā ik'tasabū faqadi iḥ'tamalū buh'tānan wa-ith'man mubīnan ",
+      verse: 3591,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 59,
       image: "",
-      text:
-        "O Prophet, tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments. That is more suitable that they will be known and not be abused. And ever is Allah Forgiving and Merciful.",
-      verse: 3461,
+      text: "O Prophet O Prophet Say to your wives and your daughters and (the) women (of) the believers to draw over themselves [of] their outer garments That (is) more suitable that they should be known and not harmed And is Allah Oft-Forgiving Most Merciful (59)",
+      transliteration:
+        "yāayyuhā l-nabiyu qul li-azwājika wabanātika wanisāi l-mu'minīna yud'nīna ʿalayhinna min jalābībihinna dhālika adnā an yuʿ'rafna falā yu'dhayna wakāna l-lahu ghafūran raḥīman ",
+      verse: 3592,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 60,
       image: "",
-      text:
-        "If the hypocrites and those in whose hearts is disease and those who spread rumors in al-Madinah do not cease, We will surely incite you against them; then they will not remain your neighbors therein except for a little.",
-      verse: 3462,
+      text: "If (do) not cease the hypocrites and those who in their hearts (is) a disease and those who spread rumors in the city We will let you overpower them We will let you overpower them then not they will remain your neighbors therein except (for) a little (60)",
+      transliteration:
+        "la-in lam yantahi l-munāfiqūna wa-alladhīna fī qulūbihim maraḍun wal-mur'jifūna fī l-madīnati lanugh'riyannaka bihim thumma lā yujāwirūnaka fīhā illā qalīlan ",
+      verse: 3593,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 61,
       image: "",
-      text:
-        "Accursed wherever they are found, [being] seized and massacred completely.",
-      verse: 3463,
+      text: "Accursed wherever they are found they are seized and massacred completely and massacred completely (61)",
+      transliteration: "malʿūnīna aynamā thuqifū ukhidhū waquttilū taqtīlan ",
+      verse: 3594,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 62,
       image: "",
-      text:
-        "[This is] the established way of Allah with those who passed on before; and you will not find in the way of Allah any change.",
-      verse: 3464,
+      text: "(Such is the) Way (of) Allah with those who passed away before before and never you will find in (the) Way (of) Allah any change (62)",
+      transliteration:
+        "sunnata l-lahi fī alladhīna khalaw min qablu walan tajida lisunnati l-lahi tabdīlan ",
+      verse: 3595,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 63,
       image: "",
-      text:
-        'People ask you concerning the Hour. Say," Knowledge of it is only with Allah . And what may make you perceive? Perhaps the Hour is near."',
-      verse: 3465,
+      text: "Ask you the people about the Hour Say Only its knowledge (is) with Allah And what will make you know Perhaps the Hour is near (63)",
+      transliteration:
+        "yasaluka l-nāsu ʿani l-sāʿati qul innamā ʿil'muhā ʿinda l-lahi wamā yud'rīka laʿalla l-sāʿata takūnu qarīban ",
+      verse: 3596,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 64,
       image: "",
-      text:
-        "Indeed, Allah has cursed the disbelievers and prepared for them a Blaze.",
-      verse: 3466,
+      text: "Indeed Allah has cursed the disbelievers and has prepared for them a Blaze (64)",
+      transliteration: "inna l-laha laʿana l-kāfirīna wa-aʿadda lahum saʿīran ",
+      verse: 3597,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 65,
       image: "",
-      text:
-        "Abiding therein forever, they will not find a protector or a helper.",
-      verse: 3467,
+      text: "Abiding therein forever not they will find any protector and not any helper (65)",
+      transliteration: "khālidīna fīhā abadan lā yajidūna waliyyan walā naṣīran ",
+      verse: 3598,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 66,
       image: "",
-      text:
-        'The Day their faces will be turned about in the Fire, they will say, "How we wish we had obeyed Allah and obeyed the Messenger."',
-      verse: 3468,
+      text: "(The) Day will be turned about their faces in the Fire they will say O we wish we (had) obeyed Allah and obeyed the Messenger (66)",
+      transliteration:
+        "yawma tuqallabu wujūhuhum fī l-nāri yaqūlūna yālaytanā aṭaʿnā l-laha wa-aṭaʿnā l-rasūlā ",
+      verse: 3599,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 67,
       image: "",
-      text:
-        'And they will say, "Our Lord, indeed we obeyed our masters and our dignitaries, and they led us astray from the [right] way.',
-      verse: 3469,
+      text: "And they will say Our Lord Indeed, we [we] obeyed our chiefs and our great men and they misled us (from) the Way (67)",
+      transliteration:
+        "waqālū rabbanā innā aṭaʿnā sādatanā wakubarāanā fa-aḍallūnā l-sabīlā ",
+      verse: 3600,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 68,
       image: "",
-      text:
-        'Our Lord, give them double the punishment and curse them with a great curse."',
-      verse: 3470,
+      text: "Our Lord Give them double [of] punishment and curse them (with) a curse great (68)",
+      transliteration:
+        "rabbanā ātihim ḍiʿ'fayni mina l-ʿadhābi wal-ʿanhum laʿnan kabīran ",
+      verse: 3601,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 69,
       image: "",
-      text:
-        "O you who have believed, be not like those who abused Moses; then Allah cleared him of what they said. And he, in the sight of Allah, was distinguished.",
-      verse: 3471,
+      text: "O you who believe O you who believe O you who believe (Do) not be like those who abused Musa then Allah cleared him then Allah cleared him of what they said And he was near Allah honorable (69)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū lā takūnū ka-alladhīna ādhaw mūsā fabarra-ahu l-lahu mimmā qālū wakāna ʿinda l-lahi wajīhan ",
+      verse: 3602,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 70,
       image: "",
-      text:
-        "O you who have believed, fear Allah and speak words of appropriate justice.",
-      verse: 3472,
+      text: "O you who believe O you who believe O you who believe Fear Allah and speak a word right (70)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū ittaqū l-laha waqūlū qawlan sadīdan ",
+      verse: 3603,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 71,
       image: "",
-      text:
-        "He will [then] amend for you your deeds and forgive you your sins. And whoever obeys Allah and His Messenger has certainly attained a great attainment.",
-      verse: 3473,
+      text: "He will amend for you your deeds and forgive for you your sins And whoever obeys Allah and His Messenger certainly has attained an attainment great (71)",
+      transliteration:
+        "yuṣ'liḥ lakum aʿmālakum wayaghfir lakum dhunūbakum waman yuṭiʿi l-laha warasūlahu faqad fāza fawzan ʿaẓīman ",
+      verse: 3604,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 72,
       image: "",
-      text:
-        "Indeed, we offered the Trust to the heavens and the earth and the mountains, and they declined to bear it and feared it; but man [undertook to] bear it. Indeed, he was unjust and ignorant.",
-      verse: 3474,
+      text: "Indeed, We [We] offered the Trust to the heavens and the earth and the mountains but they refused to bear it and they feared from it but bore it the man Indeed, he was unjust ignorant (72)",
+      transliteration:
+        "innā ʿaraḍnā l-amānata ʿalā l-samāwāti wal-arḍi wal-jibāli fa-abayna an yaḥmil'nahā wa-ashfaqna min'hā waḥamalahā l-insānu innahu kāna ẓalūman jahūlan ",
+      verse: 3605,
+      juz: 22,
+      surah: 33,
     },
     {
       number: 73,
       image: "",
-      text:
-        "[It was] so that Allah may punish the hypocrite men and hypocrite women and the men and women who associate others with Him and that Allah may accept repentance from the believing men and believing women. And ever is Allah Forgiving and Merciful.",
-      verse: 3475,
+      text: "So that Allah may punish So that Allah may punish the hypocrite men and the hypocrite women and the polytheist men and the polytheist women and Allah will turn (in Mercy) and Allah will turn (in Mercy) to the believing men and the believing women And Allah is And Allah is Oft-Forgiving Most Merciful (73)",
+      transliteration:
+        "liyuʿadhiba l-lahu l-munāfiqīna wal-munāfiqāti wal-mush'rikīna wal-mush'rikāti wayatūba l-lahu ʿalā l-mu'minīna wal-mu'mināti wakāna l-lahu ghafūran raḥīman ",
+      verse: 3606,
+      juz: 22,
+      surah: 33,
     },
   ],
 };

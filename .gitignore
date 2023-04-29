@@ -1,3 +1,7 @@
 configs.ts
 db
 .env
+
+# Node
+dist/
+node_modules/

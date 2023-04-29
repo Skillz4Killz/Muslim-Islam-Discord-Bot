@@ -1,5 +1,5 @@
-// import { Embed } from "./../utils/Embed.ts";
-// import { botCache, botID, cache, sendMessage } from "../../deps.ts";
+// import { Embed } from "./../utils/Embed.js";
+// import { botCache, botID, cache, sendMessage } from "../../deps.js";
 
 // botCache.commands.set(`stats`, {
 //   name: `stats`,

@@ -1,7 +1,7 @@
-import type { Guild } from "../../deps.ts";
+import { Bot } from "../../bot.js";
 
-export const guildCreate = (guild: Guild) => {
+Bot.events.guildCreate = (guild) => {
   console.info(
-    `[EVENT=GuildCreate]: ${guild.name} with ${guild.memberCount} members.`,
+    `[EVENT=GuildCreate]: ${guild.name} with ${guild.memberCount} members.`
   );
 };

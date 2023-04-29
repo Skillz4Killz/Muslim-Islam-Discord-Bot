@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const yusuf: Surah = {
   name: "Yusuf",
@@ -6,775 +6,1101 @@ export const yusuf: Surah = {
     {
       number: 1,
       image: "",
-      text: "Alif, Lam, Ra. These are the verses of the clear Book.",
-      verse: 1476,
+      text: "Alif Laam Ra These (are the) Verses (of) the Book [the] clear (1)",
+      transliteration: "alif-lam-ra til'ka āyātu l-kitābi l-mubīni ",
+      verse: 1597,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 2,
       image: "",
-      text:
-        "Indeed, We have sent it down as an Arabic Qur'an that you might understand.",
-      verse: 1477,
+      text: "Indeed, We We have sent it down (as) a Quran in Arabic (as) a Quran in Arabic so that you may understand (2)",
+      transliteration: "innā anzalnāhu qur'ānan ʿarabiyyan laʿallakum taʿqilūna ",
+      verse: 1598,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 3,
       image: "",
-      text:
-        "We relate to you, [O Muhammad], the best of stories in what We have revealed to you of this Qur'an although you were, before it, among the unaware.",
-      verse: 1478,
+      text: "We relate to you the best of the narrations in what We have revealed to you (of) this the Quran although you were before it before it surely among the unaware (3)",
+      transliteration:
+        "naḥnu naquṣṣu ʿalayka aḥsana l-qaṣaṣi bimā awḥaynā ilayka hādhā l-qur'āna wa-in kunta min qablihi lamina l-ghāfilīna ",
+      verse: 1599,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 4,
       image: "",
-      text:
-        '[Of these stories mention] when Joseph said to his father, "O my father, indeed I have seen [in a dream] eleven stars and the sun and the moon; I saw them prostrating to me."',
-      verse: 1479,
+      text: "When said Yusuf to his father O my father Indeed, I I saw eleven eleven stars and the sun and the moon I saw them to me prostrating (4)",
+      transliteration:
+        "idh qāla yūsufu li-abīhi yāabati innī ra-aytu aḥada ʿashara kawkaban wal-shamsa wal-qamara ra-aytuhum lī sājidīna ",
+      verse: 1600,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 5,
       image: "",
-      text:
-        'He said, "O my son, do not relate your vision to your brothers or they will contrive against you a plan. Indeed Satan, to man, is a manifest enemy.',
-      verse: 1480,
+      text: "He said O my son (Do) not relate your vision to your brothers lest they plan against you a plot Indeed the Shaitaan (is) to man an enemy open (5)",
+      transliteration:
+        "qāla yābunayya lā taqṣuṣ ru'yāka ʿalā ikh'watika fayakīdū laka kaydan inna l-shayṭāna lil'insāni ʿaduwwun mubīnun ",
+      verse: 1601,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 6,
       image: "",
-      text:
-        'And thus will your Lord choose you and teach you the interpretation of narratives and complete His favor upon you and upon the family of Jacob, as He completed it upon your fathers before, Abraham and Isaac. Indeed, your Lord is Knowing and Wise."',
-      verse: 1481,
+      text: "And thus will choose you your Lord and will teach you of (the) interpretation (of) the narratives and complete His Favor on you and on (the) family (of) Yaqub as He completed it on your two forefathers before  before  Ibrahim and Isaac Indeed your Lord (is) All-Knower All-Wise (6)",
+      transliteration:
+        "wakadhālika yajtabīka rabbuka wayuʿallimuka min tawīli l-aḥādīthi wayutimmu niʿ'matahu ʿalayka waʿalā āli yaʿqūba kamā atammahā ʿalā abawayka min qablu ib'rāhīma wa-is'ḥāqa inna rabbaka ʿalīmun ḥakīmun ",
+      verse: 1602,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 7,
       image: "",
-      text:
-        "Certainly were there in Joseph and his brothers signs for those who ask,",
-      verse: 1482,
+      text: "Certainly were in Yusuf and his brothers signs for those who ask (7)",
+      transliteration: "laqad kāna fī yūsufa wa-ikh'watihi āyātun lilssāilīna ",
+      verse: 1603,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 8,
       image: "",
-      text:
-        'When they said, "Joseph and his brother are more beloved to our father than we, while we are a clan. Indeed, our father is in clear error.',
-      verse: 1483,
+      text: "When they said Surely Yusuf and his brother (are) more beloved to our father than we while we (are) a group Indeed our father (is) surely in an error clear (8)",
+      transliteration:
+        "idh qālū layūsufu wa-akhūhu aḥabbu ilā abīnā minnā wanaḥnu ʿuṣ'batun inna abānā lafī ḍalālin mubīnin ",
+      verse: 1604,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 9,
       image: "",
-      text:
-        'Kill Joseph or cast him out to [another] land; the countenance of your father will [then] be only for you, and you will be after that a righteous people."',
-      verse: 1484,
+      text: "Kill Yusuf or cast him (to) a land so will be free for you (the) face (of) your father and you will be after that after that a people righteous (9)",
+      transliteration:
+        "uq'tulū yūsufa awi iṭ'raḥūhu arḍan yakhlu lakum wajhu abīkum watakūnū min baʿdihi qawman ṣāliḥīna ",
+      verse: 1605,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 10,
       image: "",
-      text:
-        'Said a speaker among them, "Do not kill Joseph but throw him into the bottom of the well; some travelers will pick him up -  if you would do [something]."',
-      verse: 1485,
+      text: "Said a speaker among them (Do) not kill Yusuf but throw him in the bottom (of) the well will pick him some [the] caravan if you are doing (10)",
+      transliteration:
+        "qāla qāilun min'hum lā taqtulū yūsufa wa-alqūhu fī ghayābati l-jubi yaltaqiṭ'hu baʿḍu l-sayārati in kuntum fāʿilīna ",
+      verse: 1606,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 11,
       image: "",
-      text:
-        'They said, "O our father, why do you not entrust us with Joseph while indeed, we are to him sincere counselors?',
-      verse: 1486,
+      text: "They said O our father Why (do) you not trust us with Yusuf while indeed, we (are) for him surely well-wishers (11)",
+      transliteration:
+        "qālū yāabānā mā laka lā tamannā ʿalā yūsufa wa-innā lahu lanāṣiḥūna ",
+      verse: 1607,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 12,
       image: "",
-      text:
-        "Send him with us tomorrow that he may eat well and play. And indeed, we will be his guardians.",
-      verse: 1487,
+      text: "Send him with us tomorrow (to) enjoy and play And indeed, we for him (will) surely (be) guardians (12)",
+      transliteration:
+        "arsil'hu maʿanā ghadan yartaʿ wayalʿab wa-innā lahu laḥāfiẓūna ",
+      verse: 1608,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 13,
       image: "",
-      text:
-        '[Jacob] said, "Indeed, it saddens me that you should take him, and I fear that a wolf would eat him while you are of him unaware."',
-      verse: 1488,
+      text: "He said Indeed, [I] it surely saddens me that you should take him you should take him and I fear that would eat him a wolf while you of him (are) unaware (13)",
+      transliteration:
+        "qāla innī layaḥzununī an tadhhabū bihi wa-akhāfu an yakulahu l-dhi'bu wa-antum ʿanhu ghāfilūna ",
+      verse: 1609,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 14,
       image: "",
-      text:
-        'They said, " If a wolf should eat him while we are a [strong] clan, indeed, we would then be losers."',
-      verse: 1489,
+      text: "They said If eats him the wolf while we (are) a group indeed, we then surely (would be) losers (14)",
+      transliteration:
+        "qālū la-in akalahu l-dhi'bu wanaḥnu ʿuṣ'batun innā idhan lakhāsirūna ",
+      verse: 1610,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 15,
       image: "",
-      text:
-        'So when they took him [out] and agreed to put him into the bottom of the well...  But We inspired to him, "You will surely inform them [someday] about this affair of theirs while they do not perceive [your identity]."',
-      verse: 1490,
+      text: "So when they took him they took him and agreed that they put him in (the) bottom (of) the well But We inspired to him Surely, you will inform them about this affair about this affair while they (do) not perceive (15)",
+      transliteration:
+        "falammā dhahabū bihi wa-ajmaʿū an yajʿalūhu fī ghayābati l-jubi wa-awḥaynā ilayhi latunabbi-annahum bi-amrihim hādhā wahum lā yashʿurūna ",
+      verse: 1611,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 16,
       image: "",
-      text: "And they came to their father at night, weeping.",
-      verse: 1491,
+      text: "And they came (to) their father early at night weeping (16)",
+      transliteration: "wajāū abāhum ʿishāan yabkūna ",
+      verse: 1612,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 17,
       image: "",
-      text:
-        'They said, "O our father, indeed we went racing each other and left Joseph with our possessions, and a wolf ate him. But you would not believe us, even if we were truthful."',
-      verse: 1492,
+      text: "They said O our father Indeed, we [we] went racing each other and we left Yusuf with our possessions and ate him the wolf But not you (will) believe us even if we are truthful (17)",
+      transliteration:
+        "qālū yāabānā innā dhahabnā nastabiqu wataraknā yūsufa ʿinda matāʿinā fa-akalahu l-dhi'bu wamā anta bimu'minin lanā walaw kunnā ṣādiqīna ",
+      verse: 1613,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 18,
       image: "",
-      text:
-        'And they brought upon his shirt false blood. [Jacob] said, "Rather, your souls have enticed you to something, so patience is most fitting. And Allah is the one sought for help against that which you describe."',
-      verse: 1493,
+      text: "And they brought upon his shirt with false blood with false blood He said Nay has enticed you has enticed you your souls (to) a matter so patience (is) beautiful And Allah (is) the One sought for help against what you describe (18)",
+      transliteration:
+        "wajāū ʿalā qamīṣihi bidamin kadhibin qāla bal sawwalat lakum anfusukum amran faṣabrun jamīlun wal-lahu l-mus'taʿānu ʿalā mā taṣifūna ",
+      verse: 1614,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 19,
       image: "",
-      text:
-        'And there came a company of travelers; then they sent their water drawer, and he let down his bucket. He said, "Good news! Here is a boy." And they concealed him, [taking him] as merchandise; and Allah was knowing of what they did.',
-      verse: 1494,
+      text: "And there came a caravan and they sent their water drawer then he let down his bucket He said O good news This (is) a boy And they hid him (as) a merchandise And Allah (is) All-Knower of what they do (19)",
+      transliteration:
+        "wajāat sayyāratun fa-arsalū wāridahum fa-adlā dalwahu qāla yābush'rā hādhā ghulāmun wa-asarrūhu biḍāʿatan wal-lahu ʿalīmun bimā yaʿmalūna ",
+      verse: 1615,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 20,
       image: "",
-      text:
-        "And they sold him for a reduced price -  a few dirhams -  and they were, concerning him, of those content with little.",
-      verse: 1495,
+      text: "And they sold him for a price very low dirhams few and they were about him of those keen to give up (20)",
+      transliteration:
+        "washarawhu bithamanin bakhsin darāhima maʿdūdatin wakānū fīhi mina l-zāhidīna ",
+      verse: 1616,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 21,
       image: "",
-      text:
-        'And the one from Egypt who bought him said to his wife, "Make his residence comfortable. Perhaps he will benefit us, or we will adopt him as a son." And thus, We established Joseph in the land that We might teach him the interpretation of events. And Allah is predominant over His affair, but most of the people do not know.',
-      verse: 1496,
+      text: "And said the one who bought him of Egypt to his wife Make comfortable his stay Perhaps that (he) will benefit us or we will take him (as) a son And thus We established Yusuf in the land that We might teach him (the) interpretation of (the) interpretation of the events And Allah (is) Predominant over His affairs but most (of) the people (do) not know (21)",
+      transliteration:
+        "waqāla alladhī ish'tarāhu min miṣ'ra li-im'ra-atihi akrimī mathwāhu ʿasā an yanfaʿanā aw nattakhidhahu waladan wakadhālika makkannā liyūsufa fī l-arḍi walinuʿallimahu min tawīli l-aḥādīthi wal-lahu ghālibun ʿalā amrihi walākinna akthara l-nāsi lā yaʿlamūna ",
+      verse: 1617,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 22,
       image: "",
-      text:
-        "And when Joseph reached maturity, We gave him judgment and knowledge. And thus We reward the doers of good.",
-      verse: 1497,
+      text: "And when he reached his maturity We gave him wisdom and knowledge And thus We reward the good-doers (22)",
+      transliteration:
+        "walammā balagha ashuddahu ātaynāhu ḥuk'man waʿil'man wakadhālika najzī l-muḥ'sinīna ",
+      verse: 1618,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 23,
       image: "",
-      text:
-        'And she, in whose house he was, sought to seduce him. She closed the doors and said, "Come, you." He said, "[I seek] the refuge of Allah . Indeed, he is my master, who has made good my residence. Indeed, wrongdoers will not succeed."',
-      verse: 1498,
+      text: "And sought to seduce him she who he (was) in her house from his self And she closed the doors and she said Come on you He said I seek refuge in Allah I seek refuge in Allah Indeed, he (is) my lord (who has) made good my stay Indeed not will succeed the wrongdoers (23)",
+      transliteration:
+        "warāwadathu allatī huwa fī baytihā ʿan nafsihi waghallaqati l-abwāba waqālat hayta laka qāla maʿādha l-lahi innahu rabbī aḥsana mathwāya innahu lā yuf'liḥu l-ẓālimūna ",
+      verse: 1619,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 24,
       image: "",
-      text:
-        "And she certainly determined [to seduce] him, and he would have inclined to her had he not seen the proof of his Lord. And thus [it was] that We should avert from him evil and immorality. Indeed, he was of Our chosen servants.",
-      verse: 1499,
+      text: "And certainly she did desire him and he would have desired her if not that he saw the proof (of) his Lord Thus that We might avert from him the evil and the immorality Indeed, he (was) of Our slaves the sincere (24)",
+      transliteration:
+        "walaqad hammat bihi wahamma bihā lawlā an raā bur'hāna rabbihi kadhālika linaṣrifa ʿanhu l-sūa wal-faḥshāa innahu min ʿibādinā l-mukh'laṣīna ",
+      verse: 1620,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 25,
       image: "",
-      text:
-        'And they both raced to the door, and she tore his shirt from the back, and they found her husband at the door. She said, "What is the recompense of one who intended evil for your wife but that he be imprisoned or a painful punishment?"',
-      verse: 1500,
+      text: "And they both raced (to) the door and she tore his shirt from the back and they both found her husband at the door She said What (is) the recompense (of one) who intended for your wife evil except that he be imprisoned or a punishment painful (25)",
+      transliteration:
+        "wa-is'tabaqā l-bāba waqaddat qamīṣahu min duburin wa-alfayā sayyidahā ladā l-bābi qālat mā jazāu man arāda bi-ahlika sūan illā an yus'jana aw ʿadhābun alīmun ",
+      verse: 1621,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 26,
       image: "",
-      text:
-        '[Joseph] said, "It was she who sought to seduce me." And a witness from her family testified. "If his shirt is torn from the front, then she has told the truth, and he is of the liars.',
-      verse: 1501,
+      text: "He said She sought to seduce me about myself And testified a witness of her family If [is] his shirt (is) torn from the front then she has spoken the truth and he (is) of the liars (26)",
+      transliteration:
+        "qāla hiya rāwadatnī ʿan nafsī washahida shāhidun min ahlihā in kāna qamīṣuhu qudda min qubulin faṣadaqat wahuwa mina l-kādhibīna ",
+      verse: 1622,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 27,
       image: "",
-      text:
-        'But if his shirt is torn from the back, then she has lied, and he is of the truthful."',
-      verse: 1502,
+      text: "But if [is] his shirt (is) torn from (the) back then she has lied and he (is) of the truthful (27)",
+      transliteration:
+        "wa-in kāna qamīṣuhu qudda min duburin fakadhabat wahuwa mina l-ṣādiqīna ",
+      verse: 1623,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 28,
       image: "",
-      text:
-        "So when her husband saw his shirt torn from the back, he said, \"Indeed, it is of the women's plan. Indeed, your plan is great.",
-      verse: 1503,
+      text: "So when he saw his shirt torn from (the) back he said Indeed, it (is) of your plot Indeed your plot (is) great (28)",
+      transliteration:
+        "falammā raā qamīṣahu qudda min duburin qāla innahu min kaydikunna inna kaydakunna ʿaẓīmun ",
+      verse: 1624,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 29,
       image: "",
-      text:
-        'Joseph, ignore this. And, [my wife], ask forgiveness for your sin. Indeed, you were of the sinful."',
-      verse: 1504,
+      text: "Yusuf turn away from this And ask forgiveness for your sin Indeed, you are of the sinful (29)",
+      transliteration:
+        "yūsufu aʿriḍ ʿan hādhā wa-is'taghfirī lidhanbiki innaki kunti mina l-khāṭiīna ",
+      verse: 1625,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 30,
       image: "",
-      text:
-        'And women in the city said, "The wife of al-\'Azeez is seeking to seduce her slave boy; he has impassioned her with love. Indeed, we see her [to be] in clear error."',
-      verse: 1505,
+      text: "And said women in the city The wife of Aziz (is) seeking to seduce her slave boy about himself indeed he has impassioned her (with) love Indeed, we [we] surely see her in an error clear (30)",
+      transliteration:
+        "waqāla nis'watun fī l-madīnati im'ra-atu l-ʿazīzi turāwidu fatāhā ʿan nafsihi qad shaghafahā ḥubban innā lanarāhā fī ḍalālin mubīnin ",
+      verse: 1626,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 31,
       image: "",
-      text:
-        'So when she heard of their scheming, she sent for them and prepared for them a banquet and gave each one of them a knife and said [to Joseph], "Come out before them." And when they saw him, they greatly admired him and cut their hands and said, "Perfect is Allah ! This is not a man; this is none but a noble angel."',
-      verse: 1506,
+      text: "So when she heard of their scheming she sent for them and she prepared for them a banquet and she gave each one of them a knife and she said Come out before them Then when they saw him they greatly admired him and cut their hands they said Forbid Allah not (is) this a man not (is) this but an angel noble (31)",
+      transliteration:
+        "falammā samiʿat bimakrihinna arsalat ilayhinna wa-aʿtadat lahunna muttaka-an waātat kulla wāḥidatin min'hunna sikkīnan waqālati ukh'ruj ʿalayhinna falammā ra-aynahu akbarnahu waqaṭṭaʿna aydiyahunna waqul'na ḥāsha lillahi mā hādhā basharan in hādhā illā malakun karīmun ",
+      verse: 1627,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 32,
       image: "",
-      text:
-        'She said, "That is the one about whom you blamed me. And I certainly sought to seduce him, but he firmly refused; and if he will not do what I order him, he will surely be imprisoned and will be of those debased."',
-      verse: 1507,
+      text: "She said That (is) the one you blamed me about him And certainly I sought to seduce him [from] [himself] but he saved himself and if not he does what I order him surely, he will be imprisoned and certainly will be of those who are disgraced (32)",
+      transliteration:
+        "qālat fadhālikunna alladhī lum'tunnanī fīhi walaqad rāwadttuhu ʿan nafsihi fa-is'taʿṣama wala-in lam yafʿal mā āmuruhu layus'jananna walayakūnan mina l-ṣāghirīna ",
+      verse: 1628,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 33,
       image: "",
-      text:
-        'He said, "My Lord, prison is more to my liking than that to which they invite me. And if You do not avert from me their plan, I might incline toward them and [thus] be of the ignorant."',
-      verse: 1508,
+      text: "He said My Lord the prison (is) dearer to me than what they invite me to it And unless You turn away from me their plot I might incline towards them and [I] be of the ignorant (33)",
+      transliteration:
+        "qāla rabbi l-sij'nu aḥabbu ilayya mimmā yadʿūnanī ilayhi wa-illā taṣrif ʿannī kaydahunna aṣbu ilayhinna wa-akun mina l-jāhilīna ",
+      verse: 1629,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 34,
       image: "",
-      text:
-        "So his Lord responded to him and averted from him their plan. Indeed, He is the Hearing, the Knowing.",
-      verse: 1509,
+      text: "So responded to him his Lord and turned away from him their plot Indeed, [He] He (is) All-Hearer All-Knower (34)",
+      transliteration:
+        "fa-is'tajāba lahu rabbuhu faṣarafa ʿanhu kaydahunna innahu huwa l-samīʿu l-ʿalīmu ",
+      verse: 1630,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 35,
       image: "",
-      text:
-        "Then it appeared to them after they had seen the signs that al-'Azeez should surely imprison him for a time.",
-      verse: 1510,
+      text: "Then (it) appeared to them after after [what] they had seen the signs surely they should imprison him until a time (35)",
+      transliteration:
+        "thumma badā lahum min baʿdi mā ra-awū l-āyāti layasjununnahu ḥattā ḥīnin ",
+      verse: 1631,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 36,
       image: "",
-      text:
-        'And there entered the prison with him two young men. One of them said, "Indeed, I have seen myself [in a dream] pressing wine." The other said, "Indeed, I have seen myself carrying upon my head [some] bread, from which the birds were eating. Inform us of its interpretation; indeed, we see you to be of those who do good."',
-      verse: 1511,
+      text: "And entered with him (in) the prison two young men Said one of them Indeed, I [I] see myself pressing wine And said the other Indeed, I [I] see myself [I am] carrying over my head bread (were) eating the birds from it Inform us of its interpretation indeed, we [we] see you of the good-doers (36)",
+      transliteration:
+        "wadakhala maʿahu l-sij'na fatayāni qāla aḥaduhumā innī arānī aʿṣiru khamran waqāla l-ākharu innī arānī aḥmilu fawqa rasī khub'zan takulu l-ṭayru min'hu nabbi'nā bitawīlihi innā narāka mina l-muḥ'sinīna ",
+      verse: 1632,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 37,
       image: "",
-      text:
-        'He said, "You will not receive food that is provided to you except that I will inform you of its interpretation before it comes to you. That is from what my Lord has taught me. Indeed, I have left the religion of a people who do not believe in Allah, and they, in the Hereafter, are disbelievers.',
-      verse: 1512,
+      text: "He said Not (will) come to both of you food you are provided with but I will inform both of you of its interpretation before [that] [it] comes to both of you That (is) of what has taught me my Lord Indeed, I [I] abandon (the) religion (of) a people not they believe in Allah and they in the Hereafter [they] (are) disbelievers (37)",
+      transliteration:
+        "qāla lā yatīkumā ṭaʿāmun tur'zaqānihi illā nabbatukumā bitawīlihi qabla an yatiyakumā dhālikumā mimmā ʿallamanī rabbī innī taraktu millata qawmin lā yu'minūna bil-lahi wahum bil-ākhirati hum kāfirūna ",
+      verse: 1633,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 38,
       image: "",
-      text:
-        "And I have followed the religion of my fathers, Abraham, Isaac and Jacob. And it was not for us to associate anything with Allah . That is from the favor of Allah upon us and upon the people, but most of the people are not grateful.",
-      verse: 1513,
+      text: "And I follow (the) religion (of) my forefathers Ibrahim and Isaac and Yaqub Not was for us that we associate with Allah any thing That (is) from (the) Grace (of) Allah upon us and upon the mankind but most (of) the men (are) not grateful (38)",
+      transliteration:
+        "wa-ittabaʿtu millata ābāī ib'rāhīma wa-is'ḥāqa wayaʿqūba mā kāna lanā an nush'rika bil-lahi min shayin dhālika min faḍli l-lahi ʿalaynā waʿalā l-nāsi walākinna akthara l-nāsi lā yashkurūna ",
+      verse: 1634,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 39,
       image: "",
-      text:
-        "O [my] two companions of prison, are separate lords better or Allah, the One, the Prevailing?",
-      verse: 1514,
+      text: "O my two companions (of) the prison Are lords separate better or Allah the One the Irresistible (39)",
+      transliteration:
+        "yāṣāḥibayi l-sij'ni a-arbābun mutafarriqūna khayrun ami l-lahu l-wāḥidu l-qahāru ",
+      verse: 1635,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 40,
       image: "",
-      text:
-        "You worship not besides Him except [mere] names you have named them, you and your fathers, for which Allah has sent down no authority. Legislation is not but for Allah . He has commanded that you worship not except Him. That is the correct religion, but most of the people do not know.",
-      verse: 1515,
+      text: "Not you worship besides Him besides Him but names which you have named them you and your forefathers not (has) sent down Allah for it any authority Not (is) the command but for Allah He has commanded that not you worship but Him Alone That (is) the religion the right but most [the] men (do) not know (40)",
+      transliteration:
+        "mā taʿbudūna min dūnihi illā asmāan sammaytumūhā antum waābāukum mā anzala l-lahu bihā min sul'ṭānin ini l-ḥuk'mu illā lillahi amara allā taʿbudū illā iyyāhu dhālika l-dīnu l-qayimu walākinna akthara l-nāsi lā yaʿlamūna ",
+      verse: 1636,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 41,
       image: "",
-      text:
-        'O two companions of prison, as for one of you, he will give drink to his master of wine; but as for the other, he will be crucified, and the birds will eat from his head. The matter has been decreed about which you both inquire."',
-      verse: 1516,
+      text: "O my two companions (of) the prison As for one of you he will give drink (to) his master wine and as for the other he will be crucified and will eat the birds from his head Has been decreed the matter about which about which you both inquire (41)",
+      transliteration:
+        "yāṣāḥibayi l-sij'ni ammā aḥadukumā fayasqī rabbahu khamran wa-ammā l-ākharu fayuṣ'labu fatakulu l-ṭayru min rasihi quḍiya l-amru alladhī fīhi tastaftiyāni ",
+      verse: 1637,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 42,
       image: "",
-      text:
-        'And he said to the one whom he knew would go free, "Mention me before your master." But Satan made him forget the mention [to] his master, and Joseph remained in prison several years.',
-      verse: 1517,
+      text: "And he said to the one whom he thought that he (would be) saved of both of them Mention me to your master But made him forget the Shaitaan (the) mention (to) his master so he remained in the prison several years (42)",
+      transliteration:
+        "waqāla lilladhī ẓanna annahu nājin min'humā udh'kur'nī ʿinda rabbika fa-ansāhu l-shayṭānu dhik'ra rabbihi falabitha fī l-sij'ni biḍ'ʿa sinīna ",
+      verse: 1638,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 43,
       image: "",
-      text:
-        'And [subsequently] the king said, "Indeed, I have seen [in a dream] seven fat cows being eaten by seven [that were] lean, and seven green spikes [of grain] and others [that were] dry. O eminent ones, explain to me my vision, if you should interpret visions."',
-      verse: 1518,
+      text: "And said the king Indeed, I [I] have seen seven cows fat eating them seven lean ones and seven ears (of corn) green and others dry O chiefs Explain to me about my vision if you can of visions interpret (43)",
+      transliteration:
+        "waqāla l-maliku innī arā sabʿa baqarātin simānin yakuluhunna sabʿun ʿijāfun wasabʿa sunbulātin khuḍ'rin wa-ukhara yābisātin yāayyuhā l-mala-u aftūnī fī ru'yāya in kuntum lilrru'yā taʿburūna ",
+      verse: 1639,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 44,
       image: "",
-      text:
-        'They said, "[It is but] a mixture of false dreams, and we are not learned in the interpretation of dreams."',
-      verse: 1519,
+      text: "They said Confused dreams and not we (are) in the interpretation (of) the dreams learned (44)",
+      transliteration:
+        "qālū aḍghāthu aḥlāmin wamā naḥnu bitawīli l-aḥlāmi biʿālimīna ",
+      verse: 1640,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 45,
       image: "",
-      text:
-        'But the one who was freed and remembered after a time said, "I will inform you of its interpretation, so send me forth."',
-      verse: 1520,
+      text: "But said the one who was saved of the two and remembered after a period I [I] will inform you of its interpretation so send me forth (45)",
+      transliteration:
+        "waqāla alladhī najā min'humā wa-iddakara baʿda ummatin anā unabbi-ukum bitawīlihi fa-arsilūni ",
+      verse: 1641,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 46,
       image: "",
-      text:
-        '[He said], "Joseph, O man of truth, explain to us about seven fat cows eaten by seven [that were] lean, and seven green spikes [of grain] and others [that were] dry -  that I may return to the people; perhaps they will know [about you]."',
-      verse: 1521,
+      text: "Yusuf O the truthful one Explain to us about (the) seven cows fat eating them seven lean ones and seven ears (of corn) green and other dry that I may return to the people so that they may know (46)",
+      transliteration:
+        "yūsufu ayyuhā l-ṣidīqu aftinā fī sabʿi baqarātin simānin yakuluhunna sabʿun ʿijāfun wasabʿi sunbulātin khuḍ'rin wa-ukhara yābisātin laʿallī arjiʿu ilā l-nāsi laʿallahum yaʿlamūna ",
+      verse: 1642,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 47,
       image: "",
-      text:
-        '[Joseph] said, "You will plant for seven years consecutively; and what you harvest leave in its spikes, except a little from which you will eat.',
-      verse: 1522,
+      text: "He said You will sow (for) seven years as usual and that which you reap so leave it in its ears except a little from which you (will) eat (47)",
+      transliteration:
+        "qāla tazraʿūna sabʿa sinīna da-aban famā ḥaṣadttum fadharūhu fī sunbulihi illā qalīlan mimmā takulūna ",
+      verse: 1643,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 48,
       image: "",
-      text:
-        "Then will come after that seven difficult [years] which will consume what you saved for them, except a little from which you will store.",
-      verse: 1523,
+      text: "Then will come after after that seven hard (years) (which will) consume what you advanced for them except a little of what you (will) store (48)",
+      transliteration:
+        "thumma yatī min baʿdi dhālika sabʿun shidādun yakul'na mā qaddamtum lahunna illā qalīlan mimmā tuḥ'ṣinūna ",
+      verse: 1644,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 49,
       image: "",
-      text:
-        'Then will come after that a year in which the people will be given rain and in which they will press [olives and grapes]."',
-      verse: 1524,
+      text: "Then will come after after that a year in it will be given abundant rain the people and in it they will press (49)",
+      transliteration:
+        "thumma yatī min baʿdi dhālika ʿāmun fīhi yughāthu l-nāsu wafīhi yaʿṣirūna ",
+      verse: 1645,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 50,
       image: "",
-      text:
-        'And the king said, "Bring him to me." But when the messenger came to him, [Joseph] said, "Return to your master and ask him what is the case of the women who cut their hands. Indeed, my Lord is Knowing of their plan."',
-      verse: 1525,
+      text: "And said the king Bring him to me Bring him to me But when came to him the messenger he said Return to your lord and ask him what (is the) case (of) the women who cut their hands Indeed my Lord of their plot (is) All-Knower (50)",
+      transliteration:
+        "waqāla l-maliku i'tūnī bihi falammā jāahu l-rasūlu qāla ir'jiʿ ilā rabbika fasalhu mā bālu l-nis'wati allātī qaṭṭaʿna aydiyahunna inna rabbī bikaydihinna ʿalīmun ",
+      verse: 1646,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 51,
       image: "",
-      text:
-        'Said [the king to the women], "What was your condition when you sought to seduce Joseph?" They said, "Perfect is Allah ! We know about him no evil." The wife of al-\'Azeez said, "Now the truth has become evident. It was I who sought to seduce him, and indeed, he is of the truthful.',
-      verse: 1526,
+      text: "He said What (was) your affair when you sought to seduce Yusuf from himself They said Allah forbid Allah forbid Not we know about him any evil Said (the) wife (of) Aziz Now (is) manifest the truth I sought to seduce him from himself and indeed, he (is) surely of the truthful (51)",
+      transliteration:
+        "qāla mā khaṭbukunna idh rāwadttunna yūsufa ʿan nafsihi qul'na ḥāsha lillahi mā ʿalim'nā ʿalayhi min sūin qālati im'ra-atu l-ʿazīzi l-āna ḥaṣḥaṣa l-ḥaqu anā rāwadttuhu ʿan nafsihi wa-innahu lamina l-ṣādiqīna ",
+      verse: 1647,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 52,
       image: "",
-      text:
-        "That is so al-'Azeez will know that I did not betray him in [his] absence and that Allah does not guide the plan of betrayers.",
-      verse: 1527,
+      text: "That he may know that I not [I] betray him in secret and that Allah (does) not guide (the) plan (of) the betrayers (52)",
+      transliteration:
+        "dhālika liyaʿlama annī lam akhun'hu bil-ghaybi wa-anna l-laha lā yahdī kayda l-khāinīna ",
+      verse: 1648,
+      juz: 12,
+      surah: 12,
     },
     {
       number: 53,
       image: "",
-      text:
-        'And I do not acquit myself. Indeed, the soul is a persistent enjoiner of evil, except those upon which my Lord has mercy. Indeed, my Lord is Forgiving and Merciful."',
-      verse: 1528,
+      text: "And not I absolve myself Indeed the soul (is) a certain enjoiner of evil unless [that] bestows Mercy my Lord Indeed my Lord (is) Oft-Forgiving Most Merciful (53)",
+      transliteration:
+        "wamā ubarri-u nafsī inna l-nafsa la-ammāratun bil-sūi illā mā raḥima rabbī inna rabbī ghafūrun raḥīmun ",
+      verse: 1649,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 54,
       image: "",
-      text:
-        'And the king said, "Bring him to me; I will appoint him exclusively for myself." And when he spoke to him, he said, "Indeed, you are today established [in position] and trusted."',
-      verse: 1529,
+      text: "And said the king Bring him to me Bring him to me I will select him for myself Then when he spoke to him he said Indeed, you (are) today with us firmly established (and) trusted (54)",
+      transliteration:
+        "waqāla l-maliku i'tūnī bihi astakhliṣ'hu linafsī falammā kallamahu qāla innaka l-yawma ladaynā makīnun amīnun ",
+      verse: 1650,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 55,
       image: "",
-      text:
-        '[Joseph] said, "Appoint me over the storehouses of the land. Indeed, I will be a knowing guardian."',
-      verse: 1530,
+      text: "He said Appoint me over (the) treasuries (of) the land Indeed, I (will be) a guardian knowing (55)",
+      transliteration: "qāla ij'ʿalnī ʿalā khazāini l-arḍi innī ḥafīẓun ʿalīmun ",
+      verse: 1651,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 56,
       image: "",
-      text:
-        "And thus We established Joseph in the land to settle therein wherever he willed. We touch with Our mercy whom We will, and We do not allow to be lost the reward of those who do good.",
-      verse: 1531,
+      text: "And thus We established [to] Yusuf in the land to settle therein where ever he willed We bestow Our Mercy (on) whom We will And not We let go waste (the) reward (of) the good-doers (56)",
+      transliteration:
+        "wakadhālika makkannā liyūsufa fī l-arḍi yatabawwa-u min'hā ḥaythu yashāu nuṣību biraḥmatinā man nashāu walā nuḍīʿu ajra l-muḥ'sinīna ",
+      verse: 1652,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 57,
       image: "",
-      text:
-        "And the reward of the Hereafter is better for those who believed and were fearing Allah .",
-      verse: 1532,
+      text: "And surely (the) reward (of) the Hereafter (is) better for those who believe and are God conscious (57)",
+      transliteration:
+        "wala-ajru l-ākhirati khayrun lilladhīna āmanū wakānū yattaqūna ",
+      verse: 1653,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 58,
       image: "",
-      text:
-        "And the brothers of Joseph came [seeking food], and they entered upon him; and he recognized them, but he was to them unknown.",
-      verse: 1533,
+      text: "And came (the) brothers (of) Yusuf and they entered upon him and he recognized them but they knew him not knew him not (58)",
+      transliteration:
+        "wajāa ikh'watu yūsufa fadakhalū ʿalayhi faʿarafahum wahum lahu munkirūna ",
+      verse: 1654,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 59,
       image: "",
-      text:
-        'And when he had furnished them with their supplies, he said, "Bring me a brother of yours from your father. Do not you see that I give full measure and that I am the best of accommodators?',
-      verse: 1534,
+      text: "And when he had furnished them with their supplies he said Bring to me a brother of yours from your father Do not you see that I [I] give full [the] measure and that I am (the) best (of) the hosts (59)",
+      transliteration:
+        "walammā jahhazahum bijahāzihim qāla i'tūnī bi-akhin lakum min abīkum alā tarawna annī ūfī l-kayla wa-anā khayru l-munzilīna ",
+      verse: 1655,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 60,
       image: "",
-      text:
-        'But if you do not bring him to me, no measure will there be [hereafter] for you from me, nor will you approach me."',
-      verse: 1535,
+      text: "But if not you bring him to me you bring him to me then (there will be) no measure for you from me and not you will come near me (60)",
+      transliteration:
+        "fa-in lam tatūnī bihi falā kayla lakum ʿindī walā taqrabūni ",
+      verse: 1656,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 61,
       image: "",
-      text:
-        'They said, "We will attempt to dissuade his father from [keeping] him, and indeed, we will do [it]."',
-      verse: 1536,
+      text: "They said We will try to get permission for him (from) his father and indeed we surely will do (61)",
+      transliteration: "qālū sanurāwidu ʿanhu abāhu wa-innā lafāʿilūna ",
+      verse: 1657,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 62,
       image: "",
-      text:
-        'And [Joseph] said to his servants, "Put their merchandise into their saddlebags so they might recognize it when they have gone back to their people that perhaps they will [again] return."',
-      verse: 1537,
+      text: "And he said to his servants Put their merchandise in their saddlebags so that they may recognize it when they go back to their people so that they may return (62)",
+      transliteration:
+        "waqāla lifit'yānihi ij'ʿalū biḍāʿatahum fī riḥālihim laʿallahum yaʿrifūnahā idhā inqalabū ilā ahlihim laʿallahum yarjiʿūna ",
+      verse: 1658,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 63,
       image: "",
-      text:
-        'So when they returned to their father, they said, "O our father, [further] measure has been denied to us, so send with us our brother [that] we will be given measure. And indeed, we will be his guardians."',
-      verse: 1538,
+      text: "So when they returned to their father they said O our father Has been denied to us the measure so send with us our brother (that) we will get measure And indeed, we for him (will) surely (be) guardians (63)",
+      transliteration:
+        "falammā rajaʿū ilā abīhim qālū yāabānā muniʿa minnā l-kaylu fa-arsil maʿanā akhānā naktal wa-innā lahu laḥāfiẓūna ",
+      verse: 1659,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 64,
       image: "",
-      text:
-        'He said, "Should I entrust you with him except [under coercion] as I entrusted you with his brother before? But Allah is the best guardian, and He is the most merciful of the merciful."',
-      verse: 1539,
+      text: "He said Should I entrust you with him except as I entrusted you with his brother before before But Allah (is) the best Guardian and He (is the) Most Merciful (of) the merciful (64)",
+      transliteration:
+        "qāla hal āmanukum ʿalayhi illā kamā amintukum ʿalā akhīhi min qablu fal-lahu khayrun ḥāfiẓan wahuwa arḥamu l-rāḥimīna ",
+      verse: 1660,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 65,
       image: "",
-      text:
-        'And when they opened their baggage, they found their merchandise returned to them. They said, "O our father, what [more] could we desire? This is our merchandise returned to us. And we will obtain supplies for our family and protect our brother and obtain an increase of a camel\'s load; that is an easy measurement."',
-      verse: 1540,
+      text: "And when they opened their baggage they found their merchandise returned to them They said O our father What (could) we desire This (is) our merchandise returned to us And we will get provision (for) our family and we will protect our brother and get an increase measure (of) a camel's (load) That (is) a measurement easy (65)",
+      transliteration:
+        "walammā fataḥū matāʿahum wajadū biḍāʿatahum ruddat ilayhim qālū yāabānā mā nabghī hādhihi biḍāʿatunā ruddat ilaynā wanamīru ahlanā wanaḥfaẓu akhānā wanazdādu kayla baʿīrin dhālika kaylun yasīrun ",
+      verse: 1661,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 66,
       image: "",
-      text:
-        '[Jacob] said, "Never will I send him with you until you give me a promise by Allah that you will bring him [back] to me, unless you should be surrounded by enemies." And when they had given their promise, he said, " Allah, over what we say, is Witness."',
-      verse: 1541,
+      text: "He said Never will I send him with you until you give to me a promise by Allah that surely you will bring him to me that surely you will bring him to me unless that you are surrounded you are surrounded And when they had given him their promise he said Allah over what we say (is) a Guardian (66)",
+      transliteration:
+        "qāla lan ur'silahu maʿakum ḥattā tu'tūni mawthiqan mina l-lahi latatunnanī bihi illā an yuḥāṭa bikum falammā ātawhu mawthiqahum qāla l-lahu ʿalā mā naqūlu wakīlun ",
+      verse: 1662,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 67,
       image: "",
-      text:
-        'And he said, "O my sons, do not enter from one gate but enter from different gates; and I cannot avail you against [the decree of] Allah at all. The decision is only for Allah ; upon Him I have relied, and upon Him let those who would rely [indeed] rely."',
-      verse: 1542,
+      text: "And he said O my sons (Do) not enter from one gate one gate but enter from gates different And not I can avail you against Allah any thing Not (is) the decision except with Allah upon Him I put my trust and upon Him let put (their) trust the ones who put trust (67)",
+      transliteration:
+        "waqāla yābaniyya lā tadkhulū min bābin wāḥidin wa-ud'khulū min abwābin mutafarriqatin wamā ugh'nī ʿankum mina l-lahi min shayin ini l-ḥuk'mu illā lillahi ʿalayhi tawakkaltu waʿalayhi falyatawakkali l-mutawakilūna ",
+      verse: 1663,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 68,
       image: "",
-      text:
-        "And when they entered from where their father had ordered them, it did not avail them against Allah at all except [it was] a need within the soul of Jacob, which he satisfied. And indeed, he was a possessor of knowledge because of what We had taught him, but most of the people do not know.",
-      verse: 1543,
+      text: "And when they entered from where ordered them their father not it avail(ed) them against Allah any thing but (it was) a need of Yaqub's soul Yaqub's soul which he carried out And indeed, he (was) a possessor (of) knowledge because We had taught him but most (of) the people (do) not know (68)",
+      transliteration:
+        "walammā dakhalū min ḥaythu amarahum abūhum mā kāna yugh'nī ʿanhum mina l-lahi min shayin illā ḥājatan fī nafsi yaʿqūba qaḍāhā wa-innahu ladhū ʿil'min limā ʿallamnāhu walākinna akthara l-nāsi lā yaʿlamūna ",
+      verse: 1664,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 69,
       image: "",
-      text:
-        'And when they entered upon Joseph, he took his brother to himself; he said, "Indeed, I am your brother, so do not despair over what they used to do [to me]."',
-      verse: 1544,
+      text: "And when they entered upon Yusuf he took to himself his brother He said Indeed, I [I] am your brother so (do) not grieve for what they used (to) do (69)",
+      transliteration:
+        "walammā dakhalū ʿalā yūsufa āwā ilayhi akhāhu qāla innī anā akhūka falā tabta-is bimā kānū yaʿmalūna ",
+      verse: 1665,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 70,
       image: "",
-      text:
-        'So when he had furnished them with their supplies, he put the [gold measuring] bowl into the bag of his brother. Then an announcer called out, "O caravan, indeed you are thieves."',
-      verse: 1545,
+      text: "So when he had furnished them with their supplies he put the drinking cup in the bag (of) his brother Then called out an announcer O you (in) the caravan Indeed, you surely (are) thieves (70)",
+      transliteration:
+        "falammā jahhazahum bijahāzihim jaʿala l-siqāyata fī raḥli akhīhi thumma adhana mu-adhinun ayyatuhā l-ʿīru innakum lasāriqūna ",
+      verse: 1666,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 71,
       image: "",
-      text: 'They said while approaching them, "What is it you are missing?"',
-      verse: 1546,
+      text: "They said turning towards them What (is it) you miss (71)",
+      transliteration: "qālū wa-aqbalū ʿalayhim mādhā tafqidūna ",
+      verse: 1667,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 72,
       image: "",
-      text:
-        'They said, "We are missing the measure of the king. And for he who produces it is [the reward of] a camel\'s load, and I am responsible for it."',
-      verse: 1547,
+      text: "They said We are missing (the) cup (of) the king And for (one) who brings it (is) a load (of) a camel and I for it (is) responsible (72)",
+      transliteration:
+        "qālū nafqidu ṣuwāʿa l-maliki waliman jāa bihi ḥim'lu baʿīrin wa-anā bihi zaʿīmun ",
+      verse: 1668,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 73,
       image: "",
-      text:
-        'They said, "By Allah, you have certainly known that we did not come to cause corruption in the land, and we have not been thieves."',
-      verse: 1548,
+      text: "They said By Allah certainly you know not we came that we cause corruption in the land and not we are thieves (73)",
+      transliteration:
+        "qālū tal-lahi laqad ʿalim'tum mā ji'nā linuf'sida fī l-arḍi wamā kunnā sāriqīna ",
+      verse: 1669,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 74,
       image: "",
-      text:
-        'The accusers said, "Then what would be its recompense if you should be liars?"',
-      verse: 1549,
+      text: "They said Then what (will be the) recompense (of) it if you are liars (74)",
+      transliteration: "qālū famā jazāuhu in kuntum kādhibīna ",
+      verse: 1670,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 75,
       image: "",
-      text:
-        '[The brothers] said, "Its recompense is that he in whose bag it is found -  he [himself] will be its recompense. Thus do we recompense the wrongdoers."',
-      verse: 1550,
+      text: "They said Its recompense (is that one) who it is found in his bag then he (will be) his recompense Thus (do) we recompense the wrongdoers (75)",
+      transliteration:
+        "qālū jazāuhu man wujida fī raḥlihi fahuwa jazāuhu kadhālika najzī l-ẓālimīna ",
+      verse: 1671,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 76,
       image: "",
-      text:
-        "So he began [the search] with their bags before the bag of his brother; then he extracted it from the bag of his brother. Thus did We plan for Joseph. He could not have taken his brother within the religion of the king except that Allah willed. We raise in degrees whom We will, but over every possessor of knowledge is one [more] knowing.",
-      verse: 1551,
+      text: "So he began with their bags before (the) bag (of) his brother then he brought it out from (the) bag (of) his brother Thus (did) We plan for Yusuf He could not He could not take his brother by the law (of) the king except that Allah willed Allah willed We raise (in) degrees whom We will but over every possessor (of) knowledge (is) the All-Knower (76)",
+      transliteration:
+        "fabada-a bi-awʿiyatihim qabla wiʿāi akhīhi thumma is'takhrajahā min wiʿāi akhīhi kadhālika kid'nā liyūsufa mā kāna liyakhudha akhāhu fī dīni l-maliki illā an yashāa l-lahu narfaʿu darajātin man nashāu wafawqa kulli dhī ʿil'min ʿalīmun ",
+      verse: 1672,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 77,
       image: "",
-      text:
-        'They said, "If he steals -  a brother of his has stolen before." But Joseph kept it within himself and did not reveal it to them. He said, "You are worse in position, and Allah is most knowing of what you describe."',
-      verse: 1552,
+      text: "They said If he steals  then verily stole a brother of his before before But Yusuf kept it secret But Yusuf kept it secret within himself and (did) not reveal it to them He said You (are the) worse (in) position and Allah knows best of what you describe (77)",
+      transliteration:
+        "qālū in yasriq faqad saraqa akhun lahu min qablu fa-asarrahā yūsufu fī nafsihi walam yub'dihā lahum qāla antum sharrun makānan wal-lahu aʿlamu bimā taṣifūna ",
+      verse: 1673,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 78,
       image: "",
-      text:
-        'They said, "O \'Azeez, indeed he has a father [who is] an old man, so take one of us in place of him. Indeed, we see you as a doer of good."',
-      verse: 1553,
+      text: "They said O Aziz Indeed he has a father old [great] so take one of us (in) his place Indeed, we [we] see you of the good-doers (78)",
+      transliteration:
+        "qālū yāayyuhā l-ʿazīzu inna lahu aban shaykhan kabīran fakhudh aḥadanā makānahu innā narāka mina l-muḥ'sinīna ",
+      verse: 1674,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 79,
       image: "",
-      text:
-        'He said, "[I seek] the refuge of Allah [to prevent] that we take except him with whom we found our possession. Indeed, we would then be unjust."',
-      verse: 1554,
+      text: "He said Allah forbid Allah forbid that we take except (one) who we found our possession with him Indeed, we then surely (would be) wrongdoers (79)",
+      transliteration:
+        "qāla maʿādha l-lahi an nakhudha illā man wajadnā matāʿanā ʿindahu innā idhan laẓālimūna ",
+      verse: 1675,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 80,
       image: "",
-      text:
-        'So when they had despaired of him, they secluded themselves in private consultation. The eldest of them said, "Do you not know that your father has taken upon you an oath by Allah and [that] before you failed in [your duty to] Joseph? So I will never leave [this] land until my father permits me or Allah decides for me, and He is the best of judges.',
-      verse: 1555,
+      text: "So when they despaired of him they secluded themselves (in) private consultation Said the eldest among them Do not you know that your father has taken has taken upon you a promise by Allah and before and before that you failed concerning Yusuf So never will I leave the land until permits me my father or Allah decides Allah decides for me and He (is) the Best (of) the judges (80)",
+      transliteration:
+        "falammā is'tayasū min'hu khalaṣū najiyyan qāla kabīruhum alam taʿlamū anna abākum qad akhadha ʿalaykum mawthiqan mina l-lahi wamin qablu mā farraṭtum fī yūsufa falan abraḥa l-arḍa ḥattā yadhana lī abī aw yaḥkuma l-lahu lī wahuwa khayru l-ḥākimīna ",
+      verse: 1676,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 81,
       image: "",
-      text:
-        'Return to your father and say, "O our father, indeed your son has stolen, and we did not testify except to what we knew. And we were not witnesses of the unseen,',
-      verse: 1556,
+      text: "Return to your father and say 'O our father Indeed your son has stolen and not we testify except of what we knew And not we were of the unseen guardians (81)",
+      transliteration:
+        "ir'jiʿū ilā abīkum faqūlū yāabānā inna ib'naka saraqa wamā shahid'nā illā bimā ʿalim'nā wamā kunnā lil'ghaybi ḥāfiẓīna ",
+      verse: 1677,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 82,
       image: "",
-      text:
-        'And ask the city in which we were and the caravan in which we came -  and indeed, we are truthful,"',
-      verse: 1557,
+      text: "And ask the town where we were [in it] and the caravan which we returned [in it] And indeed, we surely (are) truthful.' (82)",
+      transliteration:
+        "wasali l-qaryata allatī kunnā fīhā wal-ʿīra allatī aqbalnā fīhā wa-innā laṣādiqūna ",
+      verse: 1678,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 83,
       image: "",
-      text:
-        '[Jacob] said, "Rather, your souls have enticed you to something, so patience is most fitting. Perhaps Allah will bring them to me all together. Indeed it is He who is the Knowing, the Wise."',
-      verse: 1558,
+      text: "He said Nay have enticed you your souls something so patience (is) beautiful Perhaps Allah will bring them to me will bring them to me will bring them to me all Indeed, He He (is) the All-Knower All-Wise (83)",
+      transliteration:
+        "qāla bal sawwalat lakum anfusukum amran faṣabrun jamīlun ʿasā l-lahu an yatiyanī bihim jamīʿan innahu huwa l-ʿalīmu l-ḥakīmu ",
+      verse: 1679,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 84,
       image: "",
-      text:
-        'And he turned away from them and said, "Oh, my sorrow over Joseph," and his eyes became white from grief, for he was [of that] a suppressor.',
-      verse: 1559,
+      text: "And he turned away from them and said Alas, my grief over Yusuf And became white his eyes from the grief and he (was) a suppressor (84)",
+      transliteration:
+        "watawallā ʿanhum waqāla yāasafā ʿalā yūsufa wa-ib'yaḍḍat ʿaynāhu mina l-ḥuz'ni fahuwa kaẓīmun ",
+      verse: 1680,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 85,
       image: "",
-      text:
-        'They said, "By Allah, you will not cease remembering Joseph until you become fatally ill or become of those who perish."',
-      verse: 1560,
+      text: "They said By Allah you will not cease remembering Yusuf until you become fatally ill or become of those who perish (85)",
+      transliteration:
+        "qālū tal-lahi tafta-u tadhkuru yūsufa ḥattā takūna ḥaraḍan aw takūna mina l-hālikīna ",
+      verse: 1681,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 86,
       image: "",
-      text:
-        'He said, "I only complain of my suffering and my grief to Allah, and I know from Allah that which you do not know.',
-      verse: 1561,
+      text: "He said Only I complain (of) my suffering and my grief to Allah and I know from Allah what not you know (86)",
+      transliteration:
+        "qāla innamā ashkū bathī waḥuz'nī ilā l-lahi wa-aʿlamu mina l-lahi mā lā taʿlamūna ",
+      verse: 1682,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 87,
       image: "",
-      text:
-        'O my sons, go and find out about Joseph and his brother and despair not of relief from Allah . Indeed, no one despairs of relief from Allah except the disbelieving people."',
-      verse: 1562,
+      text: "O my sons Go and inquire about Yusuf and his brother and not despair of (the) Mercy of Allah (the) Mercy of Allah Indeed none despairs of (the) Mercy of Allah (the) Mercy of Allah except the people the disbelievers (87)",
+      transliteration:
+        "yābaniyya idh'habū fataḥassasū min yūsufa wa-akhīhi walā tāy'asū min rawḥi l-lahi innahu lā yāy'asu min rawḥi l-lahi illā l-qawmu l-kāfirūna ",
+      verse: 1683,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 88,
       image: "",
-      text:
-        'So when they entered upon Joseph, they said, "O \'Azeez, adversity has touched us and our family, and we have come with goods poor in quality, but give us full measure and be charitable to us. Indeed, Allah rewards the charitable."',
-      verse: 1563,
+      text: "So when they entered upon him they said O Aziz O Aziz Has touched us and our family the adversity and we have come with goods (of) little value but pay (in) full to us the measure and be charitable to us Indeed Allah rewards the charitable (88)",
+      transliteration:
+        "falammā dakhalū ʿalayhi qālū yāayyuhā l-ʿazīzu massanā wa-ahlanā l-ḍuru waji'nā bibiḍāʿatin muz'jātin fa-awfi lanā l-kayla wataṣaddaq ʿalaynā inna l-laha yajzī l-mutaṣadiqīna ",
+      verse: 1684,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 89,
       image: "",
-      text:
-        'He said, "Do you know what you did with Joseph and his brother when you were ignorant?"',
-      verse: 1564,
+      text: "He said Do you know what you did with Yusuf and his brother when you were ignorant (89)",
+      transliteration:
+        "qāla hal ʿalim'tum mā faʿaltum biyūsufa wa-akhīhi idh antum jāhilūna ",
+      verse: 1685,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 90,
       image: "",
-      text:
-        'They said, "Are you indeed Joseph?" He said "I am Joseph, and this is my brother. Allah has certainly favored us. Indeed, he who fears Allah and is patient, then indeed, Allah does not allow to be lost the reward of those who do good."',
-      verse: 1565,
+      text: "They said Are you indeed surely you Yusuf He said I am Yusuf and this (is) my brother Indeed Allah has been gracious Allah has been gracious to us Indeed, he who fears Allah and (is) patient then indeed Allah (does) not let go waste (the) reward (of) the good-doers (90)",
+      transliteration:
+        "qālū a-innaka la-anta yūsufu qāla anā yūsufu wahādhā akhī qad manna l-lahu ʿalaynā innahu man yattaqi wayaṣbir fa-inna l-laha lā yuḍīʿu ajra l-muḥ'sinīna ",
+      verse: 1686,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 91,
       image: "",
-      text:
-        'They said, "By Allah, certainly has Allah preferred you over us, and indeed, we have been sinners."',
-      verse: 1566,
+      text: "They said By Allah certainly Allah has preferred you Allah has preferred you over us and indeed we have been sinners (91)",
+      transliteration:
+        "qālū tal-lahi laqad ātharaka l-lahu ʿalaynā wa-in kunnā lakhāṭiīna ",
+      verse: 1687,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 92,
       image: "",
-      text:
-        'He said, "No blame will there be upon you today. Allah will forgive you; and He is the most merciful of the merciful."',
-      verse: 1567,
+      text: "He said No blame upon you today Allah will forgive Allah will forgive you and He (is) the Most Merciful (of) those who show mercy (92)",
+      transliteration:
+        "qāla lā tathrība ʿalaykumu l-yawma yaghfiru l-lahu lakum wahuwa arḥamu l-rāḥimīna ",
+      verse: 1688,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 93,
       image: "",
-      text:
-        'Take this, my shirt, and cast it over the face of my father; he will become seeing. And bring me your family, all together."',
-      verse: 1568,
+      text: "Go with this shirt of mine with this shirt of mine and cast it over (the) face (of) my father he will regain sight he will regain sight And bring to me your family all together (93)",
+      transliteration:
+        "idh'habū biqamīṣī hādhā fa-alqūhu ʿalā wajhi abī yati baṣīran watūnī bi-ahlikum ajmaʿīna ",
+      verse: 1689,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 94,
       image: "",
-      text:
-        'And when the caravan departed [from Egypt], their father said, "Indeed, I find the smell of Joseph [and would say that he was alive] if you did not think me weakened in mind."',
-      verse: 1569,
+      text: "And when departed the caravan their father said their father said Indeed, I [I] find (the) smell (of) Yusuf if not that you think me weakened in mind (94)",
+      transliteration:
+        "walammā faṣalati l-ʿīru qāla abūhum innī la-ajidu rīḥa yūsufa lawlā an tufannidūni ",
+      verse: 1690,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 95,
       image: "",
-      text: 'They said, "By Allah, indeed you are in your [same] old error."',
-      verse: 1570,
+      text: "They said By Allah indeed, you surely (are) in your error old (95)",
+      transliteration: "qālū tal-lahi innaka lafī ḍalālika l-qadīmi ",
+      verse: 1691,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 96,
       image: "",
-      text:
-        'And when the bearer of good tidings arrived, he cast it over his face, and he returned [once again] seeing. He said, "Did I not tell you that I know from Allah that which you do not know?"',
-      verse: 1571,
+      text: "Then when [that] arrived the bearer of glad tidings he cast it over his face then returned (his) sight then returned (his) sight He said Did not I say to you indeed, I [I] know from Allah what not you know (96)",
+      transliteration:
+        "falammā an jāa l-bashīru alqāhu ʿalā wajhihi fa-ir'tadda baṣīran qāla alam aqul lakum innī aʿlamu mina l-lahi mā lā taʿlamūna ",
+      verse: 1692,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 97,
       image: "",
-      text:
-        'They said, "O our father, ask for us forgiveness of our sins; indeed, we have been sinners."',
-      verse: 1572,
+      text: "They said O our father Ask forgiveness for us (of) our sins Indeed, we have been sinners (97)",
+      transliteration:
+        "qālū yāabānā is'taghfir lanā dhunūbanā innā kunnā khāṭiīna ",
+      verse: 1693,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 98,
       image: "",
-      text:
-        'He said, "I will ask forgiveness for you from my Lord. Indeed, it is He who is the Forgiving, the Merciful."',
-      verse: 1573,
+      text: "He said Soon I will ask forgiveness for you (from) my Lord Indeed, He He (is) the Oft-Forgiving the Most Merciful (98)",
+      transliteration:
+        "qāla sawfa astaghfiru lakum rabbī innahu huwa l-ghafūru l-raḥīmu ",
+      verse: 1694,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 99,
       image: "",
-      text:
-        'And when they entered upon Joseph, he took his parents to himself and said, "Enter Egypt, Allah willing, safe [and secure]."',
-      verse: 1574,
+      text: "Then when they entered upon Yusuf he took to himself his parents and said Enter Egypt if Allah wills Allah wills safe (99)",
+      transliteration:
+        "falammā dakhalū ʿalā yūsufa āwā ilayhi abawayhi waqāla ud'khulū miṣ'ra in shāa l-lahu āminīna ",
+      verse: 1695,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 100,
       image: "",
-      text:
-        'And he raised his parents upon the throne, and they bowed to him in prostration. And he said, "O my father, this is the explanation of my vision of before. My Lord has made it reality. And He was certainly good to me when He took me out of prison and brought you [here] from bedouin life after Satan had induced [estrangement] between me and my brothers. Indeed, my Lord is Subtle in what He wills. Indeed, it is He who is the Knowing, the Wise.',
-      verse: 1575,
+      text: "And he raised his parents upon the throne and they fell down to him prostrate And he said O my father This (is the) interpretation (of) my dream (of) before (of) before Verily has made it my Lord true And indeed He was good to me when He took me out of the prison and brought you from the bedouin life after after [that] had caused discord the Shaitaan between me and between my brothers Indeed my Lord (is) Most Subtle to what He wills Indeed, He He (is) the All-Knower the All-Wise (100)",
+      transliteration:
+        "warafaʿa abawayhi ʿalā l-ʿarshi wakharrū lahu sujjadan waqāla yāabati hādhā tawīlu ru'yāya min qablu qad jaʿalahā rabbī ḥaqqan waqad aḥsana bī idh akhrajanī mina l-sij'ni wajāa bikum mina l-badwi min baʿdi an nazagha l-shayṭānu baynī wabayna ikh'watī inna rabbī laṭīfun limā yashāu innahu huwa l-ʿalīmu l-ḥakīmu ",
+      verse: 1696,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 101,
       image: "",
-      text:
-        'My Lord, You have given me [something] of sovereignty and taught me of the interpretation of dreams. Creator of the heavens and earth, You are my protector in this world and in the Hereafter. Cause me to die a Muslim and join me with the righteous."',
-      verse: 1576,
+      text: "My Lord indeed you have given me of the sovereignty and taught me of the interpretation of the events Creator (of) the heavens and the earth You (are) my Protector in the world and the Hereafter Cause me to die (as) a Muslim and join me with the righteous (101)",
+      transliteration:
+        "rabbi qad ātaytanī mina l-mul'ki waʿallamtanī min tawīli l-aḥādīthi fāṭira l-samāwāti wal-arḍi anta waliyyī fī l-dun'yā wal-ākhirati tawaffanī mus'liman wa-alḥiq'nī bil-ṣāliḥīna ",
+      verse: 1697,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 102,
       image: "",
-      text:
-        "That is from the news of the unseen which We reveal, [O Muhammad], to you. And you were not with them when they put together their plan while they conspired.",
-      verse: 1577,
+      text: "That (is) from the news (of) the unseen which We reveal to you And not you were with them when they put together their plan while they (were) plotting (102)",
+      transliteration:
+        "dhālika min anbāi l-ghaybi nūḥīhi ilayka wamā kunta ladayhim idh ajmaʿū amrahum wahum yamkurūna ",
+      verse: 1698,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 103,
       image: "",
-      text:
-        "And most of the people, although you strive [for it], are not believers.",
-      verse: 1578,
+      text: "And not most (of) the mankind even though you desire (will be) believers (103)",
+      transliteration: "wamā aktharu l-nāsi walaw ḥaraṣta bimu'minīna ",
+      verse: 1699,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 104,
       image: "",
-      text:
-        "And you do not ask of them for it any payment. It is not except a reminder to the worlds.",
-      verse: 1579,
+      text: "And not you ask them for it any reward Not (is) it but a reminder to the worlds (104)",
+      transliteration:
+        "wamā tasaluhum ʿalayhi min ajrin in huwa illā dhik'run lil'ʿālamīna ",
+      verse: 1700,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 105,
       image: "",
-      text:
-        "And how many a sign within the heavens and earth do they pass over while they, therefrom, are turning away.",
-      verse: 1580,
+      text: "And how many of a Sign in the heavens and the earth they pass over it while they (are) from them the ones who turn away (105)",
+      transliteration:
+        "waka-ayyin min āyatin fī l-samāwāti wal-arḍi yamurrūna ʿalayhā wahum ʿanhā muʿ'riḍūna ",
+      verse: 1701,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 106,
       image: "",
-      text:
-        "And most of them believe not in Allah except while they associate others with Him.",
-      verse: 1581,
+      text: "And not believe most of them in Allah except while they associate partners with Him (106)",
+      transliteration: "wamā yu'minu aktharuhum bil-lahi illā wahum mush'rikūna ",
+      verse: 1702,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 107,
       image: "",
-      text:
-        "Then do they feel secure that there will not come to them an overwhelming [aspect] of the punishment of Allah or that the Hour will not come upon them suddenly while they do not perceive?",
-      verse: 1582,
+      text: "Do they then feel secure (against) that comes to them an overwhelming [of] punishment (of) Allah or comes to them the Hour suddenly while they (do) not perceive (107)",
+      transliteration:
+        "afa-aminū an tatiyahum ghāshiyatun min ʿadhābi l-lahi aw tatiyahumu l-sāʿatu baghtatan wahum lā yashʿurūna ",
+      verse: 1703,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 108,
       image: "",
-      text:
-        'Say, "This is my way; I invite to Allah with insight, I and those who follow me. And exalted is Allah ; and I am not of those who associate others with Him."',
-      verse: 1583,
+      text: "Say This (is) my way I invite to Allah with insight I and whoever follows me And Glory be (to) Allah and not I am of the polytheists (108)",
+      transliteration:
+        "qul hādhihi sabīlī adʿū ilā l-lahi ʿalā baṣīratin anā wamani ittabaʿanī wasub'ḥāna l-lahi wamā anā mina l-mush'rikīna ",
+      verse: 1704,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 109,
       image: "",
-      text:
-        "And We sent not before you [as messengers] except men to whom We revealed from among the people of cities. So have they not traveled through the earth and observed how was the end of those before them? And the home of the Hereafter is best for those who fear Allah ; then will you not reason?",
-      verse: 1584,
+      text: "And not We sent before you before you but men We revealed to them from (among) (the) people (of) the townships So have not they traveled in the earth and seen how was (the) end (of) those who (were) before them (were) before them And surely the home (of) the Hereafter (is) best for those who fear Allah Then will not you use reason (109)",
+      transliteration:
+        "wamā arsalnā min qablika illā rijālan nūḥī ilayhim min ahli l-qurā afalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim waladāru l-ākhirati khayrun lilladhīna ittaqaw afalā taʿqilūna ",
+      verse: 1705,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 110,
       image: "",
-      text:
-        "[They continued] until, when the messengers despaired and were certain that they had been denied, there came to them Our victory, and whoever We willed was saved. And Our punishment cannot be repelled from the people who are criminals.",
-      verse: 1585,
+      text: "Until when gave up hope the Messengers and thought that they certainly were denied then came to them Our help and was saved whom We willed And not (can) be repelled Our punishment from the people (who are) criminals (110)",
+      transliteration:
+        "ḥattā idhā is'tayasa l-rusulu waẓannū annahum qad kudhibū jāahum naṣrunā fanujjiya man nashāu walā yuraddu basunā ʿani l-qawmi l-muj'rimīna ",
+      verse: 1706,
+      juz: 13,
+      surah: 12,
     },
     {
       number: 111,
       image: "",
-      text:
-        "There was certainly in their stories a lesson for those of understanding. Never was the Qur'an a narration invented, but a confirmation of what was before it and a detailed explanation of all things and guidance and mercy for a people who believe.",
-      verse: 1586,
+      text: "Verily (there) is in their stories a lesson for men (of) understanding Not (it) is a narration invented but a confirmation (of that) which (was) before it (was) before it and a detailed explanation (of) all things and a guidance and mercy for a people who believe (111)",
+      transliteration:
+        "laqad kāna fī qaṣaṣihim ʿib'ratun li-ulī l-albābi mā kāna ḥadīthan yuf'tarā walākin taṣdīqa alladhī bayna yadayhi watafṣīla kulli shayin wahudan waraḥmatan liqawmin yu'minūna ",
+      verse: 1707,
+      juz: 13,
+      surah: 12,
     },
   ],
 };

@@ -1,20 +1,17 @@
 import {
   ApplicationCommandTypes,
   InteractionResponseTypes,
-} from "../../deps.ts";
-import { db } from "../database/mod.ts";
-import { createCommand } from "./mod.ts";
+} from "../../deps.js";
+import { db } from "../database/mod.js";
+import { createCommand } from "./mod.js";
 
 createCommand({
   name: "remindchannel",
   description: "Set the channel to send reminders in.",
   type: ApplicationCommandTypes.ChatInput,
   execute: async (Bot, interaction) => {
-    if (!interaction.guildId || !interaction.channelId || !interaction.member) {
-      return;
-    }
     if (
-      !interaction.member.permissions || !(interaction.member.permissions & 8n)
+      !interaction.member?.permissions?.has("ADMINISTRATOR")
     ) {
       return await Bot.helpers.sendInteractionResponse(
         interaction.id,
@@ -25,17 +22,17 @@ createCommand({
             flags: 64,
             content: "Only server admins can use this command.",
           },
-        },
+        }
       );
     }
 
-    db.guilds.update(
-      interaction.guildId.toString(),
-      {
-        id: interaction.guildId.toString(),
-        finishMonthlyChannelID: interaction.channelId.toString(),
-      },
-    );
+    if (!interaction.guildId || !interaction.channelId) return;
+
+    await db.guilds.upsert({
+      where: { guildID: interaction.guildId.toString() },
+      update: { finishMonthlyChannelID: interaction.channelId.toString() },
+      create: { guildID: interaction.guildId.toString(), finishMonthlyChannelID: interaction.channelId.toString() }
+    });
 
     await Bot.helpers.sendInteractionResponse(
       interaction.id,
@@ -43,10 +40,9 @@ createCommand({
       {
         type: InteractionResponseTypes.ChannelMessageWithSource,
         data: {
-          content:
-            `The reminder channel has been set to <#${interaction.channelId}> Alhumdulilah. Inshallah everyone will be able to finish the entire Quran every month now.`,
+          content: `The reminder channel has been set to <#${interaction.channelId}> Alhamdulilah. Inshallah everyone will be able to finish the entire Quran every month now.`,
         },
-      },
+      }
     );
   },
 });

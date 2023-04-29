@@ -1,1299 +1,1997 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const imran: Surah = {
   name: "Al-Imran",
   ayahs: [
-    { number: 1, image: "", text: "Alif, Lam, Meem.", verse: 294 },
+    {
+      number: 1,
+      image: "",
+      text: "Alif Laam Meem (1)",
+      transliteration: "alif-lam-meem ",
+      verse: 294,
+      juz: 3,
+      surah: 3,
+    },
     {
       number: 2,
       image: "",
-      text:
-        "Allah -  there is no deity except Him, the Ever-Living, the Sustainer of existence.",
+      text: "Allah  (there is) no God except Him the Ever-Living the Sustainer of all that exists (2)",
+      transliteration: "al-lahu lā ilāha illā huwa l-ḥayu l-qayūmu ",
       verse: 295,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 3,
       image: "",
-      text:
-        "He has sent down upon you, [O Muhammad], the Book in truth, confirming what was before it. And He revealed the Torah and the Gospel.",
+      text: "He revealed to you the Book in [the] truth confirming that which (was) before it and He revealed the Taurat and the Injeel (3)",
+      transliteration:
+        "nazzala ʿalayka l-kitāba bil-ḥaqi muṣaddiqan limā bayna yadayhi wa-anzala l-tawrāta wal-injīla ",
       verse: 296,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 4,
       image: "",
-      text:
-        "Before, as guidance for the people. And He revealed the Qur'an. Indeed, those who disbelieve in the verses of Allah will have a severe punishment, and Allah is exalted in Might, the Owner of Retribution.",
+      text: "From before (this) (as) guidance for the mankind And (He) revealed the Criterion Verily those who disbelieve[d] in (the) Verses (of) Allah for them (is) a punishment severe And Allah (is) All-Mighty All-Able (of) retribution (4)",
+      transliteration:
+        "min qablu hudan lilnnāsi wa-anzala l-fur'qāna inna alladhīna kafarū biāyāti l-lahi lahum ʿadhābun shadīdun wal-lahu ʿazīzun dhū intiqāmin ",
       verse: 297,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 5,
       image: "",
-      text:
-        "Indeed, from Allah nothing is hidden in the earth nor in the heaven.",
+      text: "Indeed Allah  not is hidden from Him anything in the earth and not in the heaven (5)",
+      transliteration:
+        "inna l-laha lā yakhfā ʿalayhi shayon fī l-arḍi walā fī l-samāi ",
       verse: 298,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 6,
       image: "",
-      text:
-        "It is He who forms you in the wombs however He wills. There is no deity except Him, the Exalted in Might, the Wise.",
+      text: "He (is) the One Who shapes you in the wombs how(ever) He wills (There is) no god except Him the All-Mighty the All-Wise (6)",
+      transliteration:
+        "huwa alladhī yuṣawwirukum fī l-arḥāmi kayfa yashāu lā ilāha illā huwa l-ʿazīzu l-ḥakīmu ",
       verse: 299,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 7,
       image: "",
-      text:
-        'It is He who has sent down to you, [O Muhammad], the Book; in it are verses [that are] precise -  they are the foundation of the Book -  and others unspecific. As for those in whose hearts is deviation [from truth], they will follow that of it which is unspecific, seeking discord and seeking an interpretation [suitable to them]. And no one knows its [true] interpretation except Allah . But those firm in knowledge say, "We believe in it. All [of it] is from our Lord." And no one will be reminded except those of understanding.',
+      text: "He (is) the One Who revealed to you the Book of it (are) Verses absolutely clear  they (are) the foundation (of) the Book and others (are) allegorical Then as for those in their hearts (is) perversity  [so] they follow what (is) allegorical of it seeking [the] discord and seeking its interpretation And not knows its interpretation except Allah And those firm in [the] knowledge they say We believe in it All (is) from our Lord And not will take heed except men (of) understanding (7)",
+      transliteration:
+        "huwa alladhī anzala ʿalayka l-kitāba min'hu āyātun muḥ'kamātun hunna ummu l-kitābi wa-ukharu mutashābihātun fa-ammā alladhīna fī qulūbihim zayghun fayattabiʿūna mā tashābaha min'hu ib'tighāa l-fit'nati wa-ib'tighāa tawīlihi wamā yaʿlamu tawīlahu illā l-lahu wal-rāsikhūna fī l-ʿil'mi yaqūlūna āmannā bihi kullun min ʿindi rabbinā wamā yadhakkaru illā ulū l-albābi ",
       verse: 300,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 8,
       image: "",
-      text:
-        '[Who say], "Our Lord, let not our hearts deviate after You have guided us and grant us from Yourself mercy. Indeed, You are the Bestower.',
+      text: "Our Lord (Do) not deviate our hearts after [when] You (have) guided us and grant (for) us from Yourself mercy Indeed You You (are) the Bestower (8)",
+      transliteration:
+        "rabbanā lā tuzigh qulūbanā baʿda idh hadaytanā wahab lanā min ladunka raḥmatan innaka anta l-wahābu ",
       verse: 301,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 9,
       image: "",
-      text:
-        'Our Lord, surely You will gather the people for a Day about which there is no doubt. Indeed, Allah does not fail in His promise."',
+      text: "Our Lord Indeed, You will gather [the] mankind on a Day (there is) no doubt in it Indeed Allah (does) not break the Promise (9)",
+      transliteration:
+        "rabbanā innaka jāmiʿu l-nāsi liyawmin lā rayba fīhi inna l-laha lā yukh'lifu l-mīʿāda ",
       verse: 302,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 10,
       image: "",
-      text:
-        "Indeed, those who disbelieve -  never will their wealth or their children avail them against Allah at all. And it is they who are fuel for the Fire.",
+      text: "Indeed those who disbelieve[d] never will avail [for] them their wealth and not their children against Allah anything and those  they (are) (the) fuel (for) the Fire (10)",
+      transliteration:
+        "inna alladhīna kafarū lan tugh'niya ʿanhum amwāluhum walā awlāduhum mina l-lahi shayan wa-ulāika hum waqūdu l-nāri ",
       verse: 303,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 11,
       image: "",
-      text:
-        "[Theirs is] like the custom of the people of Pharaoh and those before them. They denied Our signs, so Allah seized them for their sins. And Allah is severe in penalty.",
+      text: "Like behavior (of the) people (of) Firaun and those who (were) from before them They denied Our Signs so seized them Allah for their sins And Allah (is) severe (in) [the] punishment (11)",
+      transliteration:
+        "kadabi āli fir'ʿawna wa-alladhīna min qablihim kadhabū biāyātinā fa-akhadhahumu l-lahu bidhunūbihim wal-lahu shadīdu l-ʿiqābi ",
       verse: 304,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 12,
       image: "",
-      text:
-        'Say to those who disbelieve, "You will be overcome and gathered together to Hell, and wretched is the resting place."',
+      text: "Say to those who disbelieve[d] You will be overcome and you will be gathered to Hell [and] an evil [the] resting place (12)",
+      transliteration:
+        "qul lilladhīna kafarū satugh'labūna watuḥ'sharūna ilā jahannama wabi'sa l-mihādu ",
       verse: 305,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 13,
       image: "",
-      text:
-        "Already there has been for you a sign in the two armies which met -  one fighting in the cause of Allah and another of disbelievers. They saw them [to be] twice their [own] number by [their] eyesight. But Allah supports with His victory whom He wills. Indeed in that is a lesson for those of vision.",
+      text: "Surely it was for you a sign in (the) two hosts which met  one group fighting in (the) way (of) Allah and another disbelievers They were seeing them twice of them with the sight (of) their eyes And Allah supports with His help whom He wills Indeed in that surely (is) a lesson for the owners (of) vision (13)",
+      transliteration:
+        "qad kāna lakum āyatun fī fi-atayni l-taqatā fi-atun tuqātilu fī sabīli l-lahi wa-ukh'rā kāfiratun yarawnahum mith'layhim raya l-ʿayni wal-lahu yu-ayyidu binaṣrihi man yashāu inna fī dhālika laʿib'ratan li-ulī l-abṣāri ",
       verse: 306,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 14,
       image: "",
-      text:
-        "Beautified for people is the love of that which they desire -  of women and sons, heaped-up sums of gold and silver, fine branded horses, and cattle and tilled land. That is the enjoyment of worldly life, but Allah has with Him the best return.",
+      text: "Beautified for mankind (is) love (of) the (things they) desire  of [the] women and [the] sons and [the] heaps [the] stored up of [the] gold and [the] silver and [the] horses [the] branded and [the] cattle and [the] tilled land That (is) provision (of) life (of) the world but Allah  with Him (is an) excellent [the] abode to return (14)",
+      transliteration:
+        "zuyyina lilnnāsi ḥubbu l-shahawāti mina l-nisāi wal-banīna wal-qanāṭīri l-muqanṭarati mina l-dhahabi wal-fiḍati wal-khayli l-musawamati wal-anʿāmi wal-ḥarthi dhālika matāʿu l-ḥayati l-dun'yā wal-lahu ʿindahu ḥus'nu l-maābi ",
       verse: 307,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 15,
       image: "",
-      text:
-        'Say, "Shall I inform you of [something] better than that? For those who fear Allah will be gardens in the presence of their Lord beneath which rivers flow, wherein they abide eternally, and purified spouses and approval from Allah . And Allah is Seeing of [His] servants -',
+      text: "Say Shall I inform you of better than that For those who fear[ed] with their Lord (are) Gardens flows from underneath them [the] rivers  abiding forever in it and spouses pure and approval from Allah And Allah (is) All-Seer of (His) slaves (15)",
+      transliteration:
+        "qul a-unabbi-ukum bikhayrin min dhālikum lilladhīna ittaqaw ʿinda rabbihim jannātun tajrī min taḥtihā l-anhāru khālidīna fīhā wa-azwājun muṭahharatun wariḍ'wānun mina l-lahi wal-lahu baṣīrun bil-ʿibādi ",
       verse: 308,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 16,
       image: "",
-      text:
-        'Those who say, "Our Lord, indeed we have believed, so forgive us our sins and protect us from the punishment of the Fire,"',
+      text: "Those who say Our Lord Indeed, we (have) believed so forgive for us our sins and save us (from) punishment (of) the Fire (16)",
+      transliteration:
+        "alladhīna yaqūlūna rabbanā innanā āmannā fa-igh'fir lanā dhunūbanā waqinā ʿadhāba l-nāri ",
       verse: 309,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 17,
       image: "",
-      text:
-        "The patient, the true, the obedient, those who spend [in the way of Allah ], and those who seek forgiveness before dawn.",
+      text: "The patient and the truthful and the obedient and those who spend and those who seek forgiveness [in the] before dawn (17)",
+      transliteration:
+        "al-ṣābirīna wal-ṣādiqīna wal-qānitīna wal-munfiqīna wal-mus'taghfirīna bil-asḥāri ",
       verse: 310,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 18,
       image: "",
-      text:
-        "Allah witnesses that there is no deity except Him, and [so do] the angels and those of knowledge -  [that He is] maintaining [creation] in justice. There is no deity except Him, the Exalted in Might, the Wise.",
+      text: "Bears witness Allah that [He] (there is) no god except Him and (so do) the Angels and owners (of) [the] knowledge  standing in justice (There is) no god except Him the All-Mighty the All-Wise (18)",
+      transliteration:
+        "shahida l-lahu annahu lā ilāha illā huwa wal-malāikatu wa-ulū l-ʿil'mi qāiman bil-qis'ṭi lā ilāha illā huwa l-ʿazīzu l-ḥakīmu ",
       verse: 311,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 19,
       image: "",
-      text:
-        "Indeed, the religion in the sight of Allah is Islam. And those who were given the Scripture did not differ except after knowledge had come to them -  out of jealous animosity between themselves. And whoever disbelieves in the verses of Allah, then indeed, Allah is swift in [taking] account.",
+      text: "Indeed the religion near Allah (is) Islam And not differed those who were given the Book except from after [what] came to them [the] knowledge out of envy among them And whoever disbelieves in (the) Verses (of) Allah then indeed Allah (is) swift (in taking) account (19)",
+      transliteration:
+        "inna l-dīna ʿinda l-lahi l-is'lāmu wamā ikh'talafa alladhīna ūtū l-kitāba illā min baʿdi mā jāahumu l-ʿil'mu baghyan baynahum waman yakfur biāyāti l-lahi fa-inna l-laha sarīʿu l-ḥisābi ",
       verse: 312,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 20,
       image: "",
-      text:
-        'So if they argue with you, say, "I have submitted myself to Allah [in Islam], and [so have] those who follow me." And say to those who were given the Scripture and [to] the unlearned, "Have you submitted yourselves?" And if they submit [in Islam], they are rightly guided; but if they turn away -  then upon you is only the [duty of] notification. And Allah is Seeing of [His] servants.',
+      text: "Then if they argue with you then say I have submitted myself to Allah and (those) who follow me And say to those who were given the Book and the unlettered people Have you submitted yourselves Then if they submit then surely they are guided But if they turn back then only on you (is) to [the] convey And Allah (is) All-Seer of [His] slaves (20)",
+      transliteration:
+        "fa-in ḥājjūka faqul aslamtu wajhiya lillahi wamani ittabaʿani waqul lilladhīna ūtū l-kitāba wal-umiyīna a-aslamtum fa-in aslamū faqadi ih'tadaw wa-in tawallaw fa-innamā ʿalayka l-balāghu wal-lahu baṣīrun bil-ʿibādi ",
       verse: 313,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 21,
       image: "",
-      text:
-        "Those who disbelieve in the signs of Allah and kill the prophets without right and kill those who order justice from among the people -  give them tidings of a painful punishment.",
+      text: "Indeed those who disbelieve in (the) Signs (of) Allah and they kill the Prophets without right and they kill those who order [with] justice among the people then give them tidings of a punishment painful (21)",
+      transliteration:
+        "inna alladhīna yakfurūna biāyāti l-lahi wayaqtulūna l-nabiyīna bighayri ḥaqqin wayaqtulūna alladhīna yamurūna bil-qis'ṭi mina l-nāsi fabashir'hum biʿadhābin alīmin ",
       verse: 314,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 22,
       image: "",
-      text:
-        "They are the ones whose deeds have become worthless in this world and the Hereafter, and for them there will be no helpers.",
+      text: "Those (are) the ones who  became worthless their deeds in the world and (in) the Hereafter And not (will be) for them any helpers (22)",
+      transliteration:
+        "ulāika alladhīna ḥabiṭat aʿmāluhum fī l-dun'yā wal-ākhirati wamā lahum min nāṣirīna ",
       verse: 315,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 23,
       image: "",
-      text:
-        "Do you not consider, [O Muhammad], those who were given a portion of the Scripture? They are invited to the Scripture of Allah that it should arbitrate between them; then a party of them turns away, and they are refusing.",
+      text: "Have not you seen [to] those who were given a portion of the Scripture They are invited to (the) Book (of) Allah that (it should) arbitrate between them then turns away a party of them and they (are) those who are averse (23)",
+      transliteration:
+        "alam tara ilā alladhīna ūtū naṣīban mina l-kitābi yud'ʿawna ilā kitābi l-lahi liyaḥkuma baynahum thumma yatawallā farīqun min'hum wahum muʿ'riḍūna ",
       verse: 316,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 24,
       image: "",
-      text:
-        'That is because they say, "Never will the Fire touch us except for [a few] numbered days," and [because] they were deluded in their religion by what they were inventing.',
+      text: "That (is) because they say Never will touch us the Fire except (for) days numbered And deceived them in their religion what they were inventing (24)",
+      transliteration:
+        "dhālika bi-annahum qālū lan tamassanā l-nāru illā ayyāman maʿdūdātin wagharrahum fī dīnihim mā kānū yaftarūna ",
       verse: 317,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 25,
       image: "",
-      text:
-        "So how will it be when We assemble them for a Day about which there is no doubt? And each soul will be compensated [in full for] what it earned, and they will not be wronged.",
+      text: "Then how (will it be) when We will gather them on a Day  no doubt in it And will be paid in full every soul what it earned and they (will) not be wronged (25)",
+      transliteration:
+        "fakayfa idhā jamaʿnāhum liyawmin lā rayba fīhi wawuffiyat kullu nafsin mā kasabat wahum lā yuẓ'lamūna ",
       verse: 318,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 26,
       image: "",
-      text:
-        'Say, "O Allah, Owner of Sovereignty, You give sovereignty to whom You will and You take sovereignty away from whom You will. You honor whom You will and You humble whom You will. In Your hand is [all] good. Indeed, You are over all things competent.',
+      text: "Say O Allah Owner (of) the Dominion You give the dominion (to) whom You will and You take away the dominion from whom You will and You honor whom You will and You humiliate whom You will In Your hand (is all) the good Indeed, You (are) on every thing All-Powerful (26)",
+      transliteration:
+        "quli l-lahuma mālika l-mul'ki tu'tī l-mul'ka man tashāu watanziʿu l-mul'ka mimman tashāu watuʿizzu man tashāu watudhillu man tashāu biyadika l-khayru innaka ʿalā kulli shayin qadīrun ",
       verse: 319,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 27,
       image: "",
-      text:
-        'You cause the night to enter the day, and You cause the day to enter the night; and You bring the living out of the dead, and You bring the dead out of the living. And You give provision to whom You will without account."',
+      text: "You cause to enter the night in the day and You cause to enter the day in the night and You bring forth the living from the dead and You bring forth the dead from the living and You give provision (to) whom You will without measure (27)",
+      transliteration:
+        "tūliju al-layla fī l-nahāri watūliju l-nahāra fī al-layli watukh'riju l-ḥaya mina l-mayiti watukh'riju l-mayita mina l-ḥayi watarzuqu man tashāu bighayri ḥisābin ",
       verse: 320,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 28,
       image: "",
-      text:
-        "Let not believers take disbelievers as allies rather than believers. And whoever [of you] does that has nothing with Allah, except when taking precaution against them in prudence. And Allah warns you of Himself, and to Allah is the [final] destination.",
+      text: "(Let) not take the believers the disbelievers (as) allies from instead of the believers And whoever does that then not he (has) from Allah in anything except that you fear from them (as) a precaution And warns you Allah (of) Himself and to Allah (is) the final return (28)",
+      transliteration:
+        "lā yattakhidhi l-mu'minūna l-kāfirīna awliyāa min dūni l-mu'minīna waman yafʿal dhālika falaysa mina l-lahi fī shayin illā an tattaqū min'hum tuqātan wayuḥadhirukumu l-lahu nafsahu wa-ilā l-lahi l-maṣīru ",
       verse: 321,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 29,
       image: "",
-      text:
-        'Say, "Whether you conceal what is in your breasts or reveal it, Allah knows it. And He knows that which is in the heavens and that which is on the earth. And Allah is over all things competent.',
+      text: "Say Whether you conceal what (is) in your breasts or you disclose it  knows it Allah And He knows what (is) in the heavens and what (is) in the earth And Allah (is) on every thing All-Powerful (29)",
+      transliteration:
+        "qul in tukh'fū mā fī ṣudūrikum aw tub'dūhu yaʿlamhu l-lahu wayaʿlamu mā fī l-samāwāti wamā fī l-arḍi wal-lahu ʿalā kulli shayin qadīrun ",
       verse: 322,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 30,
       image: "",
-      text:
-        'The Day every soul will find what it has done of good present [before it] and what it has done of evil, it will wish that between itself and that [evil] was a great distance. And Allah warns you of Himself, and Allah is Kind to [His] servants."',
+      text: "(On the) day will find every soul what it did of good  presented and what it did of evil it will wish [if] that between itself and between it (evil) (was) a distance great And warns you Allah (against) Himself and Allah (is) Most Kind to (His) [the] slaves (30)",
+      transliteration:
+        "yawma tajidu kullu nafsin mā ʿamilat min khayrin muḥ'ḍaran wamā ʿamilat min sūin tawaddu law anna baynahā wabaynahu amadan baʿīdan wayuḥadhirukumu l-lahu nafsahu wal-lahu raūfun bil-ʿibādi ",
       verse: 323,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 31,
       image: "",
-      text:
-        'Say, [O Muhammad], "If you should love Allah, then follow me, [so] Allah will love you and forgive you your sins. And Allah is Forgiving and Merciful."',
+      text: "Say If you love Allah then follow me will love you Allah and He will forgive for you your sins And Allah (is) Oft-Forgiving Most Merciful (31)",
+      transliteration:
+        "qul in kuntum tuḥibbūna l-laha fa-ittabiʿūnī yuḥ'bib'kumu l-lahu wayaghfir lakum dhunūbakum wal-lahu ghafūrun raḥīmun ",
       verse: 324,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 32,
       image: "",
-      text:
-        'Say, "Obey Allah and the Messenger." But if they turn away -  then indeed, Allah does not like the disbelievers.',
+      text: "Say Obey Allah and the Messenger Then if they turn away  then indeed Allah (does) not love the disbelievers (32)",
+      transliteration:
+        "qul aṭīʿū l-laha wal-rasūla fa-in tawallaw fa-inna l-laha lā yuḥibbu l-kāfirīna ",
       verse: 325,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 33,
       image: "",
-      text:
-        "Indeed, Allah chose Adam and Noah and the family of Abraham and the family of 'Imran over the worlds -",
+      text: "Indeed Allah chose Adam and Nuh and (the) family (of) Ibrahim and (the) family (of) Imran over the worlds (33)",
+      transliteration:
+        "inna l-laha iṣ'ṭafā ādama wanūḥan waāla ib'rāhīma waāla ʿim'rāna ʿalā l-ʿālamīna ",
       verse: 326,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 34,
       image: "",
-      text:
-        "Descendants, some of them from others. And Allah is Hearing and Knowing.",
+      text: "Descendents some of them from others And Allah (is) All-Hearing All-Knowing (34)",
+      transliteration:
+        "dhurriyyatan baʿḍuhā min baʿḍin wal-lahu samīʿun ʿalīmun ",
       verse: 327,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 35,
       image: "",
-      text:
-        '[Mention, O Muhammad], when the wife of \'Imran said, "My Lord, indeed I have pledged to You what is in my womb, consecrated [for Your service], so accept this from me. Indeed, You are the Hearing, the Knowing."',
+      text: "When [she] said (the) wife (of) Imran My Lord Indeed, I [I] vowed to You what (is) in my womb dedicated so accept from me Indeed, You You (are) the All-Hearing the All-Knowing (35)",
+      transliteration:
+        "idh qālati im'ra-atu ʿim'rāna rabbi innī nadhartu laka mā fī baṭnī muḥarraran fataqabbal minnī innaka anta l-samīʿu l-ʿalīmu ",
       verse: 328,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 36,
       image: "",
-      text:
-        'But when she delivered her, she said, "My Lord, I have delivered a female." And Allah was most knowing of what she delivered, "And the male is not like the female. And I have named her Mary, and I seek refuge for her in You and [for] her descendants from Satan, the expelled [from the mercy of Allah ]."',
+      text: "Then when she delivered her she said My Lord indeed I [I] (have) delivered [her] a female And Allah knows better [of] what she delivered and is not the male like the female And that I [I] (have) named her Maryam and that I [I] seek refuge for her in You and her offspring from the Shaitaan the rejected (36)",
+      transliteration:
+        "falammā waḍaʿathā qālat rabbi innī waḍaʿtuhā unthā wal-lahu aʿlamu bimā waḍaʿat walaysa l-dhakaru kal-unthā wa-innī sammaytuhā maryama wa-innī uʿīdhuhā bika wadhurriyyatahā mina l-shayṭāni l-rajīmi ",
       verse: 329,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 37,
       image: "",
-      text:
-        'So her Lord accepted her with good acceptance and caused her to grow in a good manner and put her in the care of Zechariah. Every time Zechariah entered upon her in the prayer chamber, he found with her provision. He said, "O Mary, from where is this [coming] to you?" She said, "It is from Allah . Indeed, Allah provides for whom He wills without account."',
+      text: "So accepted her her Lord with acceptance good and reared her  a rearing good and put her in (the) care (of) Zakariya Whenever entered upon her Zakariya [the] prayer chamber he found with her provision He said O Maryam From where for you (is) this She said This (is) from Allah Indeed Allah gives provision (to) whom He wills without measure (37)",
+      transliteration:
+        "fataqabbalahā rabbuhā biqabūlin ḥasanin wa-anbatahā nabātan ḥasanan wakaffalahā zakariyyā kullamā dakhala ʿalayhā zakariyyā l-miḥ'rāba wajada ʿindahā riz'qan qāla yāmaryamu annā laki hādhā qālat huwa min ʿindi l-lahi inna l-laha yarzuqu man yashāu bighayri ḥisābin ",
       verse: 330,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 38,
       image: "",
-      text:
-        'At that, Zechariah called upon his Lord, saying, "My Lord, grant me from Yourself a good offspring. Indeed, You are the Hearer of supplication."',
+      text: "There only invoked Zakariya his Lord he said My Lord grant [for] me from Yourself offspring pure Indeed, You (are) All-Hearer (of) the prayer (38)",
+      transliteration:
+        "hunālika daʿā zakariyyā rabbahu qāla rabbi hab lī min ladunka dhurriyyatan ṭayyibatan innaka samīʿu l-duʿāi ",
       verse: 331,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 39,
       image: "",
-      text:
-        'So the angels called him while he was standing in prayer in the chamber, "Indeed, Allah gives you good tidings of John, confirming a word from Allah and [who will be] honorable, abstaining [from women], and a prophet from among the righteous."',
+      text: "Then called him the Angels when he (was) standing  praying in the prayer chamber Indeed Allah gives you glad tidings of Yahya confirming [of] a Word from Allah and a noble and chaste and a Prophet among the righteous (39)",
+      transliteration:
+        "fanādathu l-malāikatu wahuwa qāimun yuṣallī fī l-miḥ'rābi anna l-laha yubashiruka biyaḥyā muṣaddiqan bikalimatin mina l-lahi wasayyidan waḥaṣūran wanabiyyan mina l-ṣāliḥīna ",
       verse: 332,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 40,
       image: "",
-      text:
-        'He said, "My Lord, how will I have a boy when I have reached old age and my wife is barren?" The angel said, "Such is Allah ; He does what He wills."',
+      text: "He said My Lord how can (there) be for me a son and verily has reached me [the] old age and my wife (is) [a] barren He said Thus Allah does what He wills (40)",
+      transliteration:
+        "qāla rabbi annā yakūnu lī ghulāmun waqad balaghaniya l-kibaru wa-im'ra-atī ʿāqirun qāla kadhālika l-lahu yafʿalu mā yashāu ",
       verse: 333,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 41,
       image: "",
-      text:
-        'He said, "My Lord, make for me a sign." He Said, "Your sign is that you will not [be able to] speak to the people for three days except by gesture. And remember your Lord much and exalt [Him with praise] in the evening and the morning."',
+      text: "He said My Lord make for me a sign He said your sign (is) that not you will speak (to) the people (for) three days except (with) gestures And remember your Lord much and glorify (Him) in the evening and (in) the morning (41)",
+      transliteration:
+        "qāla rabbi ij'ʿal lī āyatan qāla āyatuka allā tukallima l-nāsa thalāthata ayyāmin illā ramzan wa-udh'kur rabbaka kathīran wasabbiḥ bil-ʿashiyi wal-ib'kāri ",
       verse: 334,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 42,
       image: "",
-      text:
-        'And [mention] when the angels said, "O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds.',
+      text: "And when said the Angels O Maryam Indeed Allah (has) chosen you and purified you and chosen you over (the) women (of) the worlds (42)",
+      transliteration:
+        "wa-idh qālati l-malāikatu yāmaryamu inna l-laha iṣ'ṭafāki waṭahharaki wa-iṣ'ṭafāki ʿalā nisāi l-ʿālamīna ",
       verse: 335,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 43,
       image: "",
-      text:
-        'O Mary, be devoutly obedient to your Lord and prostrate and bow with those who bow [in prayer]."',
+      text: "O Maryam Be obedient to your Lord and prostrate and bow down with those who bow down (43)",
+      transliteration:
+        "yāmaryamu uq'nutī lirabbiki wa-us'judī wa-ir'kaʿī maʿa l-rākiʿīna ",
       verse: 336,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 44,
       image: "",
-      text:
-        "That is from the news of the unseen which We reveal to you, [O Muhammad]. And you were not with them when they cast their pens as to which of them should be responsible for Mary. Nor were you with them when they disputed.",
+      text: "That (is) from (the) news (of) the unseen  We reveal it to you And not you were with them when they cast their pens (as to) which of them takes charge (of) Maryam and not you were with them when they (were) disputing (44)",
+      transliteration:
+        "dhālika min anbāi l-ghaybi nūḥīhi ilayka wamā kunta ladayhim idh yul'qūna aqlāmahum ayyuhum yakfulu maryama wamā kunta ladayhim idh yakhtaṣimūna ",
       verse: 337,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 45,
       image: "",
-      text:
-        '[And mention] when the angels said, "O Mary, indeed Allah gives you good tidings of a word from Him, whose name will be the Messiah, Jesus, the son of Mary - distinguished in this world and the Hereafter and among those brought near [to Allah ].',
+      text: "When said the Angels O Maryam Indeed Allah gives you glad tidings of a word from Him his name (is) the Messiah Isa son (of) Maryam honored in the world and (in) the Hereafter and of those brought near (to Allah) (45)",
+      transliteration:
+        "idh qālati l-malāikatu yāmaryamu inna l-laha yubashiruki bikalimatin min'hu us'muhu l-masīḥu ʿīsā ub'nu maryama wajīhan fī l-dun'yā wal-ākhirati wamina l-muqarabīna ",
       verse: 338,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 46,
       image: "",
-      text:
-        'He will speak to the people in the cradle and in maturity and will be of the righteous."',
+      text: "And he will speak (to) the people in the cradle and (in) maturity and (he will be) of the righteous (46)",
+      transliteration:
+        "wayukallimu l-nāsa fī l-mahdi wakahlan wamina l-ṣāliḥīna ",
       verse: 339,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 47,
       image: "",
-      text:
-        'She said, "My Lord, how will I have a child when no man has touched me?" [The angel] said, "Such is Allah ; He creates what He wills. When He decrees a matter, He only says to it, \'Be,\' and it is.',
+      text: "She said My Lord how is [it] for me a boy and (has) not touch(ed) me any man He said Thus Allah creates what He wills When He decrees a matter then only He says to it Be and it becomes (47)",
+      transliteration:
+        "qālat rabbi annā yakūnu lī waladun walam yamsasnī basharun qāla kadhāliki l-lahu yakhluqu mā yashāu idhā qaḍā amran fa-innamā yaqūlu lahu kun fayakūnu ",
       verse: 340,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 48,
       image: "",
-      text:
-        "And He will teach him writing and wisdom and the Torah and the Gospel",
+      text: "And He will teach him the Book and [the] wisdom and the Taurat and the Injeel (48)",
+      transliteration:
+        "wayuʿallimuhu l-kitāba wal-ḥik'mata wal-tawrāta wal-injīla ",
       verse: 341,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 49,
       image: "",
-      text:
-        "And [make him] a messenger to the Children of Israel, [who will say], 'Indeed I have come to you with a sign from your Lord in that I design for you from clay [that which is] like the form of a bird, then I breathe into it and it becomes a bird by permission of Allah . And I cure the blind and the leper, and I give life to the dead -  by permission of Allah . And I inform you of what you eat and what you store in your houses. Indeed in that is a sign for you, if you are believers.",
+      text: "And (make him) a Messenger to (the) Children (of) Israel Indeed, I [surely] [I] (have) come (to) you with a sign from your Lord that I [I] design for you from [the] clay like the form (of) the bird then I breath into it and it becomes a bird by (the) permission (of) Allah And I cure the blind and the leper and I give life (to) the dead by (the) permission (of) Allah And I inform you of what you eat and what you store in your houses Indeed in that (is) surely a sign for you if you are believers (49)",
+      transliteration:
+        "warasūlan ilā banī is'rāīla annī qad ji'tukum biāyatin min rabbikum annī akhluqu lakum mina l-ṭīni kahayati l-ṭayri fa-anfukhu fīhi fayakūnu ṭayran bi-idh'ni l-lahi wa-ub'ri-u l-akmaha wal-abraṣa wa-uḥ'yī l-mawtā bi-idh'ni l-lahi wa-unabbi-ukum bimā takulūna wamā taddakhirūna fī buyūtikum inna fī dhālika laāyatan lakum in kuntum mu'minīna ",
       verse: 342,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 50,
       image: "",
-      text:
-        "And [I have come] confirming what was before me of the Torah and to make lawful for you some of what was forbidden to you. And I have come to you with a sign from your Lord, so fear Allah and obey me.",
+      text: "And confirming that which (was) before me of the Taurat and so that I make lawful for you some (of) that which was forbidden to you And I (have) come to you with a sign from your Lord So fear Allah and obey me (50)",
+      transliteration:
+        "wamuṣaddiqan limā bayna yadayya mina l-tawrāti wali-uḥilla lakum baʿḍa alladhī ḥurrima ʿalaykum waji'tukum biāyatin min rabbikum fa-ittaqū l-laha wa-aṭīʿūni ",
       verse: 343,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 51,
       image: "",
-      text:
-        'Indeed, Allah is my Lord and your Lord, so worship Him. That is the straight path."',
+      text: "Indeed Allah (is) my Lord and your Lord so worship Him This (is) the path straight (51)",
+      transliteration:
+        "inna l-laha rabbī warabbukum fa-uʿ'budūhu hādhā ṣirāṭun mus'taqīmun ",
       verse: 344,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 52,
       image: "",
-      text:
-        'But when Jesus felt [persistence in] disbelief from them, he said, "Who are my supporters for [the cause of] Allah ?" The disciples said," We are supporters for Allah . We have believed in Allah and testify that we are Muslims [submitting to Him].',
+      text: "Then when perceived Isa from them [the] disbelief he said Who (will be) my helpers to Allah Said the disciples We (will be the) helpers (of) Allah we believe[d] in Allah and bear witness that we (are) Muslims (52)",
+      transliteration:
+        "falammā aḥassa ʿīsā min'humu l-kuf'ra qāla man anṣārī ilā l-lahi qāla l-ḥawāriyūna naḥnu anṣāru l-lahi āmannā bil-lahi wa-ish'had bi-annā mus'limūna ",
       verse: 345,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 53,
       image: "",
-      text:
-        'Our Lord, we have believed in what You revealed and have followed the messenger Jesus, so register us among the witnesses [to truth]."',
+      text: "Our Lord we believe[d] in what You revealed and we follow[ed] the Messenger then write us among the witnesses (53)",
+      transliteration:
+        "rabbanā āmannā bimā anzalta wa-ittabaʿnā l-rasūla fa-uk'tub'nā maʿa l-shāhidīna ",
       verse: 346,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 54,
       image: "",
-      text:
-        "And the disbelievers planned, but Allah planned. And Allah is the best of planners.",
+      text: "And they schemed and planned Allah And Allah (is the) best (of) the planners (54)",
+      transliteration: "wamakarū wamakara l-lahu wal-lahu khayru l-mākirīna ",
       verse: 347,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 55,
       image: "",
-      text:
-        '[Mention] when Allah said, "O Jesus, indeed I will take you and raise you to Myself and purify you from those who disbelieve and make those who follow you [in submission to Allah alone] superior to those who disbelieve until the Day of Resurrection. Then to Me is your return, and I will judge between you concerning that in which you used to differ.',
+      text: "When said Allah O Isa Indeed, I (will) take you and raise you to Myself and purify you from those who disbelieve[d] and I will make those who follow[ed] you superior (to) those who disbelieve[d] on (the) Day (of) [the] Resurrection Then to Me (is) your return and I will judge between you about what you were [in it] differing (55)",
+      transliteration:
+        "idh qāla l-lahu yāʿīsā innī mutawaffīka warāfiʿuka ilayya wamuṭahhiruka mina alladhīna kafarū wajāʿilu alladhīna ittabaʿūka fawqa alladhīna kafarū ilā yawmi l-qiyāmati thumma ilayya marjiʿukum fa-aḥkumu baynakum fīmā kuntum fīhi takhtalifūna ",
       verse: 348,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 56,
       image: "",
-      text:
-        'And as for those who disbelieved, I will punish them with a severe punishment in this world and the Hereafter, and they will have no helpers."',
+      text: "Then as for those who disbelieve[d] then I will punish them (with) a punishment severe in the world and (in) the Hereafter And not for them any helpers (56)",
+      transliteration:
+        "fa-ammā alladhīna kafarū fa-uʿadhibuhum ʿadhāban shadīdan fī l-dun'yā wal-ākhirati wamā lahum min nāṣirīna ",
       verse: 349,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 57,
       image: "",
-      text:
-        "But as for those who believed and did righteous deeds, He will give them in full their rewards, and Allah does not like the wrongdoers.",
+      text: "And as for those who believe[d] and did [the] righteous deeds then He will grant them in full their reward And Allah (does) not love the wrongdoers (57)",
+      transliteration:
+        "wa-ammā alladhīna āmanū waʿamilū l-ṣāliḥāti fayuwaffīhim ujūrahum wal-lahu lā yuḥibbu l-ẓālimīna ",
       verse: 350,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 58,
       image: "",
-      text:
-        "This is what We recite to you, [O Muhammad], of [Our] verses and the precise [and wise] message.",
+      text: "That (is what) We recite [it] to you of the Verses and the Reminder  [the] Wise (58)",
+      transliteration:
+        "dhālika natlūhu ʿalayka mina l-āyāti wal-dhik'ri l-ḥakīmi ",
       verse: 351,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 59,
       image: "",
-      text:
-        'Indeed, the example of Jesus to Allah is like that of Adam. He created Him from dust; then He said to him, "Be," and he was.',
+      text: "Indeed (the) likeness (of) Isa near Allah (is) like (the) likeness (of) Adam He created him from dust then He said to him Be and he was (59)",
+      transliteration:
+        "inna mathala ʿīsā ʿinda l-lahi kamathali ādama khalaqahu min turābin thumma qāla lahu kun fayakūnu ",
       verse: 352,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 60,
       image: "",
-      text: "The truth is from your Lord, so do not be among the doubters.",
+      text: "The truth (is) from your Lord so (do) not be among the doubters (60)",
+      transliteration: "al-ḥaqu min rabbika falā takun mina l-mum'tarīna ",
       verse: 353,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 61,
       image: "",
-      text:
-        'Then whoever argues with you about it after [this] knowledge has come to you -  say, "Come, let us call our sons and your sons, our women and your women, ourselves and yourselves, then supplicate earnestly [together] and invoke the curse of Allah upon the liars [among us]."',
+      text: "Then whoever argues (with) you concerning it from after what came to you of the knowledge then say Come let us call our sons and your sons and our women and your women and ourselves and yourselves then let us pray humbly and [we] invoke the curse (of) Allah on the liars (61)",
+      transliteration:
+        "faman ḥājjaka fīhi min baʿdi mā jāaka mina l-ʿil'mi faqul taʿālaw nadʿu abnāanā wa-abnāakum wanisāanā wanisāakum wa-anfusanā wa-anfusakum thumma nabtahil fanajʿal laʿnata l-lahi ʿalā l-kādhibīna ",
       verse: 354,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 62,
       image: "",
-      text:
-        "Indeed, this is the true narration. And there is no deity except Allah . And indeed, Allah is the Exalted in Might, the Wise.",
+      text: "Indeed this surely it (is) the narration  [the] true And (there is) no (of) god except Allah And indeed Allah surely He (is) the All-Mighty the All-Wise (62)",
+      transliteration:
+        "inna hādhā lahuwa l-qaṣaṣu l-ḥaqu wamā min ilāhin illā l-lahu wa-inna l-laha lahuwa l-ʿazīzu l-ḥakīmu ",
       verse: 355,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 63,
       image: "",
-      text:
-        "But if they turn away, then indeed - Allah is Knowing of the corrupters.",
+      text: "And if they turn back then indeed Allah (is) All-Knowing of the corrupters (63)",
+      transliteration: "fa-in tawallaw fa-inna l-laha ʿalīmun bil-muf'sidīna ",
       verse: 356,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 64,
       image: "",
-      text:
-        'Say, "O People of the Scripture, come to a word that is equitable between us and you - that we will not worship except Allah and not associate anything with Him and not take one another as lords instead of Allah ." But if they turn away, then say, "Bear witness that we are Muslims [submitting to Him]."',
+      text: "Say O People (of) the Book Come to a word equitable between us and between you  that not we worship except Allah and not we associate partners with Him  anything and not take some of us (to) others (as) lords from besides Allah Then if they turn away then say Bear witness that we (are) Muslims (64)",
+      transliteration:
+        "qul yāahla l-kitābi taʿālaw ilā kalimatin sawāin baynanā wabaynakum allā naʿbuda illā l-laha walā nush'rika bihi shayan walā yattakhidha baʿḍunā baʿḍan arbāban min dūni l-lahi fa-in tawallaw faqūlū ish'hadū bi-annā mus'limūna ",
       verse: 357,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 65,
       image: "",
-      text:
-        "O People of the Scripture, why do you argue about Abraham while the Torah and the Gospel were not revealed until after him? Then will you not reason?",
+      text: "O People (of) the Book Why (do) you argue concerning Ibrahim while not was revealed the Taurat and the Injeel except from after him Then why don't you use your intellect (65)",
+      transliteration:
+        "yāahla l-kitābi lima tuḥājjūna fī ib'rāhīma wamā unzilati l-tawrātu wal-injīlu illā min baʿdihi afalā taʿqilūna ",
       verse: 358,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 66,
       image: "",
-      text:
-        "Here you are -  those who have argued about that of which you have [some] knowledge, but why do you argue about that of which you have no knowledge? And Allah knows, while you know not.",
+      text: "Here you are  those who argued about what [for] you of it (have some) knowledge Then why (do) you argue about what not for you of it (any) knowledge And Allah knows while you (do) not know (66)",
+      transliteration:
+        "hāantum hāulāi ḥājajtum fīmā lakum bihi ʿil'mun falima tuḥājjūna fīmā laysa lakum bihi ʿil'mun wal-lahu yaʿlamu wa-antum lā taʿlamūna ",
       verse: 359,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 67,
       image: "",
-      text:
-        "Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim [submitting to Allah ]. And he was not of the polytheists.",
+      text: "Not was Ibrahim a Jew and not a Christian [and] but he was a true Muslim and not he was from the polytheists (67)",
+      transliteration:
+        "mā kāna ib'rāhīmu yahūdiyyan walā naṣrāniyyan walākin kāna ḥanīfan mus'liman wamā kāna mina l-mush'rikīna ",
       verse: 360,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 68,
       image: "",
-      text:
-        "Indeed, the most worthy of Abraham among the people are those who followed him [in submission to Allah ] and this prophet, and those who believe [in his message]. And Allah is the ally of the believers.",
+      text: "Indeed the best to claim relationship (of) people with Ibrahim (are) those who follow him and this [the] Prophet and those who believe[d] And Allah (is) a Guardian (of) the believers (68)",
+      transliteration:
+        "inna awlā l-nāsi bi-ib'rāhīma lalladhīna ittabaʿūhu wahādhā l-nabiyu wa-alladhīna āmanū wal-lahu waliyyu l-mu'minīna ",
       verse: 361,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 69,
       image: "",
-      text:
-        "A faction of the people of the Scripture wish they could mislead you. But they do not mislead except themselves, and they perceive [it] not.",
+      text: "Wished a group from (the) People (of) the Book if they could lead you astray and not they lead astray except themselves and not they perceive (69)",
+      transliteration:
+        "waddat ṭāifatun min ahli l-kitābi law yuḍillūnakum wamā yuḍillūna illā anfusahum wamā yashʿurūna ",
       verse: 362,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 70,
       image: "",
-      text:
-        "O People of the Scripture, why do you disbelieve in the verses of Allah while you witness [to their truth]?",
+      text: "O People (of) the Book Why do you deny [in] the Signs (of) Allah while you bear witness (70)",
+      transliteration:
+        "yāahla l-kitābi lima takfurūna biāyāti l-lahi wa-antum tashhadūna ",
       verse: 363,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 71,
       image: "",
-      text:
-        "O People of the Scripture, why do you confuse the truth with falsehood and conceal the truth while you know [it]?",
+      text: "O People (of) the Book Why do you mix the truth with the falsehood and conceal the truth while you know (71)",
+      transliteration:
+        "yāahla l-kitābi lima talbisūna l-ḥaqa bil-bāṭili wataktumūna l-ḥaqa wa-antum taʿlamūna ",
       verse: 364,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 72,
       image: "",
-      text:
-        'And a faction of the People of the Scripture say [to each other], "Believe in that which was revealed to the believers at the beginning of the day and reject it at its end that perhaps they will abandon their religion,',
+      text: "And said a group of (the) People (of) the Book Believe in what was revealed on those who believe[d] (at the) beginning (of) the day and reject (at) its end perhaps they may return (72)",
+      transliteration:
+        "waqālat ṭāifatun min ahli l-kitābi āminū bi-alladhī unzila ʿalā alladhīna āmanū wajha l-nahāri wa-uk'furū ākhirahu laʿallahum yarjiʿūna ",
       verse: 365,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 73,
       image: "",
-      text:
-        'And do not trust except those who follow your religion." Say, "Indeed, the [true] guidance is the guidance of Allah . [Do you fear] lest someone be given [knowledge] like you were given or that they would [thereby] argue with you before your Lord?" Say, "Indeed, [all] bounty is in the hand of Allah -  He grants it to whom He wills. And Allah is all-Encompassing and Wise."',
+      text: "And (do) not believe except (the one) who follows your religion Say Indeed the (true) guidance (is the) Guidance (of) Allah  lest is given (to) one  (the) like (of) what was given to you or they may argue with you near your Lord Say Indeed the Bounty (is) in the Hand (of) Allah He gives it (to) whom He wills and Allah (is) All-Encompassing All-Knowing (73)",
+      transliteration:
+        "walā tu'minū illā liman tabiʿa dīnakum qul inna l-hudā hudā l-lahi an yu'tā aḥadun mith'la mā ūtītum aw yuḥājjūkum ʿinda rabbikum qul inna l-faḍla biyadi l-lahi yu'tīhi man yashāu wal-lahu wāsiʿun ʿalīmun ",
       verse: 366,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 74,
       image: "",
-      text:
-        "He selects for His mercy whom He wills. And Allah is the possessor of great bounty.",
+      text: "He chooses for His Mercy whom He wills And Allah (is) the Possessor (of) Bounty  [the] great (74)",
+      transliteration:
+        "yakhtaṣṣu biraḥmatihi man yashāu wal-lahu dhū l-faḍli l-ʿaẓīmi ",
       verse: 367,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 75,
       image: "",
-      text:
-        'And among the People of the Scripture is he who, if you entrust him with a great amount [of wealth], he will return it to you. And among them is he who, if you entrust him with a [single] silver coin, he will not return it to you unless you are constantly standing over him [demanding it]. That is because they say, "There is no blame upon us concerning the unlearned." And they speak untruth about Allah while they know [it].',
+      text: "And from (the) People (of) the Book (is he) who if you entrust him with a great amount of wealth he will return it to you And from them (is he) who if you entrust him with a single coin not he will return it to you except that you keep constantly over him standing That (is) because they said Not on us concerning the unlettered people any [way] (accountability) And they say about Allah the lie while they know (75)",
+      transliteration:
+        "wamin ahli l-kitābi man in tamanhu biqinṭārin yu-addihi ilayka wamin'hum man in tamanhu bidīnārin lā yu-addihi ilayka illā mā dum'ta ʿalayhi qāiman dhālika bi-annahum qālū laysa ʿalaynā fī l-umiyīna sabīlun wayaqūlūna ʿalā l-lahi l-kadhiba wahum yaʿlamūna ",
       verse: 368,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 76,
       image: "",
-      text:
-        "But yes, whoever fulfills his commitment and fears Allah -  then indeed, Allah loves those who fear Him.",
+      text: "Nay whoever fulfills his covenant and fears (Allah) then indeed Allah loves those who fear (Him) (76)",
+      transliteration:
+        "balā man awfā biʿahdihi wa-ittaqā fa-inna l-laha yuḥibbu l-mutaqīna ",
       verse: 369,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 77,
       image: "",
-      text:
-        "Indeed, those who exchange the covenant of Allah and their [own] oaths for a small price will have no share in the Hereafter, and Allah will not speak to them or look at them on the Day of Resurrection, nor will He purify them; and they will have a painful punishment.",
+      text: "Indeed those who exchange (the) Covenant (of) Allah and their oaths (for) a price little those  no share for them in the Hereafter and not will speak to them Allah and not look at them (on the) Day (of) the Resurrection and not purify them and for them (is) a punishment painful (77)",
+      transliteration:
+        "inna alladhīna yashtarūna biʿahdi l-lahi wa-aymānihim thamanan qalīlan ulāika lā khalāqa lahum fī l-ākhirati walā yukallimuhumu l-lahu walā yanẓuru ilayhim yawma l-qiyāmati walā yuzakkīhim walahum ʿadhābun alīmun ",
       verse: 370,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 78,
       image: "",
-      text:
-        'And indeed, there is among them a party who alter the Scripture with their tongues so you may think it is from the Scripture, but it is not from the Scripture. And they say, "This is from Allah," but it is not from Allah . And they speak untruth about Allah while they know.',
+      text: "And indeed among them surely (is) a group  they distort their tongues in (reciting) the Book so that you may think it (is) from the Book and not it (is) from the Book And they say It (is) from Allah But not it (is) from Allah And they say about Allah the lie while they know (78)",
+      transliteration:
+        "wa-inna min'hum lafarīqan yalwūna alsinatahum bil-kitābi litaḥsabūhu mina l-kitābi wamā huwa mina l-kitābi wayaqūlūna huwa min ʿindi l-lahi wamā huwa min ʿindi l-lahi wayaqūlūna ʿalā l-lahi l-kadhiba wahum yaʿlamūna ",
       verse: 371,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 79,
       image: "",
-      text:
-        'It is not for a human [prophet] that Allah should give him the Scripture and authority and prophethood and then he would say to the people, "Be servants to me rather than Allah," but [instead, he would say], "Be pious scholars of the Lord because of what you have taught of the Scripture and because of what you have studied."',
+      text: "Not is for a human that gives him Allah the Book and the wisdom and the Prophethood then he says to the people Be worshippers of me from besides Allah but (would say) Be worshippers of the Lord because you have been teaching the Book and because you have been studying (it) (79)",
+      transliteration:
+        "mā kāna libasharin an yu'tiyahu l-lahu l-kitāba wal-ḥuk'ma wal-nubuwata thumma yaqūla lilnnāsi kūnū ʿibādan lī min dūni l-lahi walākin kūnū rabbāniyyīna bimā kuntum tuʿallimūna l-kitāba wabimā kuntum tadrusūna ",
       verse: 372,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 80,
       image: "",
-      text:
-        "Nor could he order you to take the angels and prophets as lords. Would he order you to disbelief after you had been Muslims?",
+      text: "And not he will order you that you take the Angels and the Prophets (as) lords Would he order you to [the] disbelief after [when] you (have become) Muslims (80)",
+      transliteration:
+        "walā yamurakum an tattakhidhū l-malāikata wal-nabiyīna arbāban ayamurukum bil-kuf'ri baʿda idh antum mus'limūna ",
       verse: 373,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 81,
       image: "",
-      text:
-        'And [recall, O People of the Scripture], when Allah took the covenant of the prophets, [saying], "Whatever I give you of the Scripture and wisdom and then there comes to you a messenger confirming what is with you, you [must] believe in him and support him." [ Allah ] said, "Have you acknowledged and taken upon that My commitment?" They said, "We have acknowledged it." He said, "Then bear witness, and I am with you among the witnesses."',
+      text: "And when took Allah covenant (of) the Prophets Certainly, whatever I (have) given you of (the) Book and wisdom then comes to you a Messenger confirming that which (is) with you you must believe in him and you must help him He said Do you affirm and take on that (condition) My Covenant They said We affirm He said Then bear witness and I (am) with you among the witnesses (81)",
+      transliteration:
+        "wa-idh akhadha l-lahu mīthāqa l-nabiyīna lamā ātaytukum min kitābin waḥik'matin thumma jāakum rasūlun muṣaddiqun limā maʿakum latu'minunna bihi walatanṣurunnahu qāla a-aqrartum wa-akhadhtum ʿalā dhālikum iṣ'rī qālū aqrarnā qāla fa-ish'hadū wa-anā maʿakum mina l-shāhidīna ",
       verse: 374,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 82,
       image: "",
-      text:
-        "And whoever turned away after that -  they were the defiantly disobedient.",
+      text: "Then whoever turns away after that then those they (are) the defiantly disobedient (82)",
+      transliteration: "faman tawallā baʿda dhālika fa-ulāika humu l-fāsiqūna ",
       verse: 375,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 83,
       image: "",
-      text:
-        "So is it other than the religion of Allah they desire, while to Him have submitted [all] those within the heavens and earth, willingly or by compulsion, and to Him they will be returned?",
+      text: "So is (it) other than (the) religion (of) Allah they seek While to Him (have) submitted whatever (is) in the heavens and the earth willingly or unwillingly and towards Him they will be returned (83)",
+      transliteration:
+        "afaghayra dīni l-lahi yabghūna walahu aslama man fī l-samāwāti wal-arḍi ṭawʿan wakarhan wa-ilayhi yur'jaʿūna ",
       verse: 376,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 84,
       image: "",
-      text:
-        'Say, "We have believed in Allah and in what was revealed to us and what was revealed to Abraham, Ishmael, Isaac, Jacob, and the Descendants, and in what was given to Moses and Jesus and to the prophets from their Lord. We make no distinction between any of them, and we are Muslims [submitting] to Him."',
+      text: "Say We believed in Allah and what (is) revealed on us and what was revealed on Ibrahim and Ishmael and Isaac and Yaqub and the descendents and what was given (to) Musa and Isa and the Prophets from their Lord Not we make distinction between any of them and we to Him (are) submissive (84)",
+      transliteration:
+        "qul āmannā bil-lahi wamā unzila ʿalaynā wamā unzila ʿalā ib'rāhīma wa-is'māʿīla wa-is'ḥāqa wayaʿqūba wal-asbāṭi wamā ūtiya mūsā waʿīsā wal-nabiyūna min rabbihim lā nufarriqu bayna aḥadin min'hum wanaḥnu lahu mus'limūna ",
       verse: 377,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 85,
       image: "",
-      text:
-        "And whoever desires other than Islam as religion -  never will it be accepted from him, and he, in the Hereafter, will be among the losers.",
+      text: "And whoever seeks other than [the] Islam (as) religion then never will be accepted from him and he in the Hereafter (will be) from the losers (85)",
+      transliteration:
+        "waman yabtaghi ghayra l-is'lāmi dīnan falan yuq'bala min'hu wahuwa fī l-ākhirati mina l-khāsirīna ",
       verse: 378,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 86,
       image: "",
-      text:
-        "How shall Allah guide a people who disbelieved after their belief and had witnessed that the Messenger is true and clear signs had come to them? And Allah does not guide the wrongdoing people.",
+      text: "How (shall) guide Allah a people (who) disbelieved after their belief and (had) witnessed that the Messenger (is) true and came to them the clear proofs And Allah (does) not guide the people [the] wrongdoers (86)",
+      transliteration:
+        "kayfa yahdī l-lahu qawman kafarū baʿda īmānihim washahidū anna l-rasūla ḥaqqun wajāahumu l-bayinātu wal-lahu lā yahdī l-qawma l-ẓālimīna ",
       verse: 379,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 87,
       image: "",
-      text:
-        "Those -  their recompense will be that upon them is the curse of Allah and the angels and the people, all together,",
+      text: "Those  their recompense that on them (is the) curse (of) Allah and the Angels and the people all together (87)",
+      transliteration:
+        "ulāika jazāuhum anna ʿalayhim laʿnata l-lahi wal-malāikati wal-nāsi ajmaʿīna ",
       verse: 380,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 88,
       image: "",
-      text:
-        "Abiding eternally therein. The punishment will not be lightened for them, nor will they be reprieved.",
+      text: "(They will) abide forever in it Not will be lightened for them the punishment and not they will be reprieved (88)",
+      transliteration:
+        "khālidīna fīhā lā yukhaffafu ʿanhumu l-ʿadhābu walā hum yunẓarūna ",
       verse: 381,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 89,
       image: "",
-      text:
-        "Except for those who repent after that and correct themselves. For indeed, Allah is Forgiving and Merciful.",
+      text: "Except those who repent from after that and reform[ed] themselves Then indeed Allah (is) Oft-Forgiving Most Merciful (89)",
+      transliteration:
+        "illā alladhīna tābū min baʿdi dhālika wa-aṣlaḥū fa-inna l-laha ghafūrun raḥīmun ",
       verse: 382,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 90,
       image: "",
-      text:
-        "Indeed, those who reject the message after their belief and then increase in disbelief - never will their [claimed] repentance be accepted, and they are the ones astray.",
+      text: "Indeed those who disbelieved after their belief then they increased (in) disbelief never will be accepted their repentance and those  they (are) those who have gone astray (90)",
+      transliteration:
+        "inna alladhīna kafarū baʿda īmānihim thumma iz'dādū kuf'ran lan tuq'bala tawbatuhum wa-ulāika humu l-ḍālūna ",
       verse: 383,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 91,
       image: "",
-      text:
-        "Indeed, those who disbelieve and die while they are disbelievers -  never would the [whole] capacity of the earth in gold be accepted from one of them if he would [seek to] ransom himself with it. For those there will be a painful punishment, and they will have no helpers.",
+      text: "Indeed those who disbelieve[d] and died while they (are) disbelievers then never will be accepted from any one of them full earth (of) gold [and] (even) if he offered as ransom it Those  for them (is) a punishment painful and not (will be) for them any helpers (91)",
+      transliteration:
+        "inna alladhīna kafarū wamātū wahum kuffārun falan yuq'bala min aḥadihim mil'u l-arḍi dhahaban walawi if'tadā bihi ulāika lahum ʿadhābun alīmun wamā lahum min nāṣirīna ",
       verse: 384,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 92,
       image: "",
-      text:
-        "Never will you attain the good [reward] until you spend [in the way of Allah ] from that which you love. And whatever you spend -  indeed, Allah is Knowing of it.",
+      text: "Never will you attain [the] righteousness until you spend from what you love And whatever you spend of a thing then indeed Allah of it (is) All-Knowing (92)",
+      transliteration:
+        "lan tanālū l-bira ḥattā tunfiqū mimmā tuḥibbūna wamā tunfiqū min shayin fa-inna l-laha bihi ʿalīmun ",
       verse: 385,
+      juz: 3,
+      surah: 3,
     },
     {
       number: 93,
       image: "",
-      text:
-        'All food was lawful to the Children of Israel except what Israel had made unlawful to himself before the Torah was revealed. Say, [O Muhammad], "So bring the Torah and recite it, if you should be truthful."',
+      text: "All [the] food was lawful for (the) Children (of) Israel except what made unlawful Israel upon himself from before [that] (was) revealed the Taurat Say So bring the Taurat and recite it if you are truthful (93)",
+      transliteration:
+        "kullu l-ṭaʿāmi kāna ḥillan libanī is'rāīla illā mā ḥarrama is'rāīlu ʿalā nafsihi min qabli an tunazzala l-tawrātu qul fatū bil-tawrāti fa-it'lūhā in kuntum ṣādiqīna ",
       verse: 386,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 94,
       image: "",
-      text:
-        "And whoever invents about Allah untruth after that -  then those are [truly] the wrongdoers.",
+      text: "Then whoever fabricates about Allah [the] lie from after that then those  they (are) the wrongdoers (94)",
+      transliteration:
+        "famani if'tarā ʿalā l-lahi l-kadhiba min baʿdi dhālika fa-ulāika humu l-ẓālimūna ",
       verse: 387,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 95,
       image: "",
-      text:
-        'Say, " Allah has told the truth. So follow the religion of Abraham, inclining toward truth; and he was not of the polytheists."',
+      text: "Say (has) spoken the truth Allah then follow (the) religion (of) Ibrahim (the) upright and not he was of the polytheists (95)",
+      transliteration:
+        "qul ṣadaqa l-lahu fa-ittabiʿū millata ib'rāhīma ḥanīfan wamā kāna mina l-mush'rikīna ",
       verse: 388,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 96,
       image: "",
-      text:
-        "Indeed, the first House [of worship] established for mankind was that at Makkah - blessed and a guidance for the worlds.",
+      text: "Indeed (the) First House set up for the mankind (is) the one which (is) at Bakkah blessed and a guidance for the worlds (96)",
+      transliteration:
+        "inna awwala baytin wuḍiʿa lilnnāsi lalladhī bibakkata mubārakan wahudan lil'ʿālamīna ",
       verse: 389,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 97,
       image: "",
-      text:
-        "In it are clear signs [such as] the standing place of Abraham. And whoever enters it shall be safe. And [due] to Allah from the people is a pilgrimage to the House -  for whoever is able to find thereto a way. But whoever disbelieves -  then indeed, Allah is free from need of the worlds.",
+      text: "In it (are) signs clear standing place (of) Ibrahim and whoever enters it  is safe And (due) to Allah upon the mankind (is) pilgrimage (of) the House (for one) who is able to [it] (find) a way And whoever disbelieved then indeed Allah (is) free from need of the universe (97)",
+      transliteration:
+        "fīhi āyātun bayyinātun maqāmu ib'rāhīma waman dakhalahu kāna āminan walillahi ʿalā l-nāsi ḥijju l-bayti mani is'taṭāʿa ilayhi sabīlan waman kafara fa-inna l-laha ghaniyyun ʿani l-ʿālamīna ",
       verse: 390,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 98,
       image: "",
-      text:
-        'Say, "O People of the Scripture, why do you disbelieve in the verses of Allah while Allah is Witness over what you do?"',
+      text: "Say O People (of) the Book Why (do) you disbelieve in (the) Verses (of) Allah while Allah (is) a Witness over what you do (98)",
+      transliteration:
+        "qul yāahla l-kitābi lima takfurūna biāyāti l-lahi wal-lahu shahīdun ʿalā mā taʿmalūna ",
       verse: 391,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 99,
       image: "",
-      text:
-        'Say, "O People of the Scripture, why do you avert from the way of Allah those who believe, seeking to make it [seem] deviant, while you are witnesses [to the truth]? And Allah is not unaware of what you do."',
+      text: "Say O People (of) the Book Why (do) you hinder from (the) way (of) Allah (those) who believe[d] seeking (to make) it (seem) crooked while you (are) witnesses And not Allah (is) unaware of what you do (99)",
+      transliteration:
+        "qul yāahla l-kitābi lima taṣuddūna ʿan sabīli l-lahi man āmana tabghūnahā ʿiwajan wa-antum shuhadāu wamā l-lahu bighāfilin ʿammā taʿmalūna ",
       verse: 392,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 100,
       image: "",
-      text:
-        "O you who have believed, if you obey a party of those who were given the Scripture, they would turn you back, after your belief, [to being] unbelievers.",
+      text: "O you who believe[d] If you obey a group from those who were given the Book they will turn you back after your belief (as) disbelievers (100)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū in tuṭīʿū farīqan mina alladhīna ūtū l-kitāba yaruddūkum baʿda īmānikum kāfirīna ",
       verse: 393,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 101,
       image: "",
-      text:
-        "And how could you disbelieve while to you are being recited the verses of Allah and among you is His Messenger? And whoever holds firmly to Allah has [indeed] been guided to a straight path.",
+      text: "And how (could) you disbelieve while [you] is recited upon you (the) Verses (of) Allah and among you (is) His Messenger And whoever holds firmly to Allah then surely he is guided to a path straight (101)",
+      transliteration:
+        "wakayfa takfurūna wa-antum tut'lā ʿalaykum āyātu l-lahi wafīkum rasūluhu waman yaʿtaṣim bil-lahi faqad hudiya ilā ṣirāṭin mus'taqīmin ",
       verse: 394,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 102,
       image: "",
-      text:
-        "O you who have believed, fear Allah as He should be feared and do not die except as Muslims [in submission to Him].",
+      text: "O you who believe[d] Fear Allah (as is His) right (that) He (should) be feared and (do) not die except [while you] (as) Muslims (102)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū ittaqū l-laha ḥaqqa tuqātihi walā tamūtunna illā wa-antum mus'limūna ",
       verse: 395,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 103,
       image: "",
-      text:
-        "And hold firmly to the rope of Allah all together and do not become divided. And remember the favor of Allah upon you -  when you were enemies and He brought your hearts together and you became, by His favor, brothers. And you were on the edge of a pit of the Fire, and He saved you from it. Thus does Allah make clear to you His verses that you may be guided.",
+      text: "And hold firmly to (the) rope (of) Allah all together and (do) not be divided And remember (the) Favor (of) Allah on you when you were enemies then He made friendship between your hearts then you became by His Favor brothers And you were on (the) brink (of) pit of the Fire then He saved you from it Thus makes clear Allah for you His Verses so that you may (be) guided (103)",
+      transliteration:
+        "wa-iʿ'taṣimū biḥabli l-lahi jamīʿan walā tafarraqū wa-udh'kurū niʿ'mata l-lahi ʿalaykum idh kuntum aʿdāan fa-allafa bayna qulūbikum fa-aṣbaḥtum biniʿ'matihi ikh'wānan wakuntum ʿalā shafā ḥuf'ratin mina l-nāri fa-anqadhakum min'hā kadhālika yubayyinu l-lahu lakum āyātihi laʿallakum tahtadūna ",
       verse: 396,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 104,
       image: "",
-      text:
-        "And let there be [arising] from you a nation inviting to [all that is] good, enjoining what is right and forbidding what is wrong, and those will be the successful.",
+      text: "And let there be among you [a] people inviting to the good [and] enjoining the right and forbidding from the wrong and those  they (are) the successful ones (104)",
+      transliteration:
+        "waltakun minkum ummatun yadʿūna ilā l-khayri wayamurūna bil-maʿrūfi wayanhawna ʿani l-munkari wa-ulāika humu l-muf'liḥūna ",
       verse: 397,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 105,
       image: "",
-      text:
-        "And do not be like the ones who became divided and differed after the clear proofs had come to them. And those will have a great punishment.",
+      text: "And (do) not be like those who became divided and differed from after what came to them  the clear proofs And those for them (is) a punishment great (105)",
+      transliteration:
+        "walā takūnū ka-alladhīna tafarraqū wa-ikh'talafū min baʿdi mā jāahumu l-bayinātu wa-ulāika lahum ʿadhābun ʿaẓīmun ",
       verse: 398,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 106,
       image: "",
-      text:
-        'On the Day [some] faces will turn white and [some] faces will turn black. As for those whose faces turn black, [to them it will be said], "Did you disbelieve after your belief? Then taste the punishment for what you used to reject."',
+      text: "(On the) Day would become white (some) faces and would become black (some) faces As for those whose turn black [their] faces  Did you disbelieve after your belief Then taste the punishment for what you used to disbelieve (106)",
+      transliteration:
+        "yawma tabyaḍḍu wujūhun wataswaddu wujūhun fa-ammā alladhīna is'waddat wujūhuhum akafartum baʿda īmānikum fadhūqū l-ʿadhāba bimā kuntum takfurūna ",
       verse: 399,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 107,
       image: "",
-      text:
-        "But as for those whose faces will turn white, [they will be] within the mercy of Allah . They will abide therein eternally.",
+      text: "But as for those whose turn white [their] faces then (they will be) in (the) Mercy (of) Allah they in it (will) abide forever (107)",
+      transliteration:
+        "wa-ammā alladhīna ib'yaḍḍat wujūhuhum fafī raḥmati l-lahi hum fīhā khālidūna ",
       verse: 400,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 108,
       image: "",
-      text:
-        "These are the verses of Allah . We recite them to you, [O Muhammad], in truth; and Allah wants no injustice to the worlds.",
+      text: "These (are the) Verses (of) Allah We recite them to you in truth And not Allah wants injustice to the worlds (108)",
+      transliteration:
+        "til'ka āyātu l-lahi natlūhā ʿalayka bil-ḥaqi wamā l-lahu yurīdu ẓul'man lil'ʿālamīna ",
       verse: 401,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 109,
       image: "",
-      text:
-        "To Allah belongs whatever is in the heavens and whatever is on the earth. And to Allah will [all] matters be returned.",
+      text: "And to Allah (belongs) whatever (is) in the heavens and whatever (is) in the earth And to Allah will be returned the matters (109)",
+      transliteration:
+        "walillahi mā fī l-samāwāti wamā fī l-arḍi wa-ilā l-lahi tur'jaʿu l-umūru ",
       verse: 402,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 110,
       image: "",
-      text:
-        "You are the best nation produced [as an example] for mankind. You enjoin what is right and forbid what is wrong and believe in Allah . If only the People of the Scripture had believed, it would have been better for them. Among them are believers, but most of them are defiantly disobedient.",
+      text: "You are (the) best (of) people raised for the mankind  enjoining the right and forbidding [from] the wrong and believing in Allah And if believed (the) People (of) the Book surely would have been good for them Among them (are) [the] believers but most of them (are) defiantly disobedient (110)",
+      transliteration:
+        "kuntum khayra ummatin ukh'rijat lilnnāsi tamurūna bil-maʿrūfi watanhawna ʿani l-munkari watu'minūna bil-lahi walaw āmana ahlu l-kitābi lakāna khayran lahum min'humu l-mu'minūna wa-aktharuhumu l-fāsiqūna ",
       verse: 403,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 111,
       image: "",
-      text:
-        "They will not harm you except for [some] annoyance. And if they fight you, they will show you their backs; then they will not be aided.",
+      text: "Never will they harm you except a hurt And if they fight you they will turn (towards) you the backs then not they will be helped (111)",
+      transliteration:
+        "lan yaḍurrūkum illā adhan wa-in yuqātilūkum yuwallūkumu l-adbāra thumma lā yunṣarūna ",
       verse: 404,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 112,
       image: "",
-      text:
-        "They have been put under humiliation [by Allah ] wherever they are overtaken, except for a covenant from Allah and a rope from the Muslims. And they have drawn upon themselves anger from Allah and have been put under destitution. That is because they disbelieved in the verses of Allah and killed the prophets without right. That is because they disobeyed and [habitually] transgressed.",
+      text: "Struck on them the humiliation wherever that they are found except with a rope from Allah and a rope from the people And they incurred wrath from Allah and struck on them the poverty That (is) because they used to disbelieve in (the) Verses (of) Allah and they killed the Prophets without right That (is) because they disobeyed and they used to transgress (112)",
+      transliteration:
+        "ḍuribat ʿalayhimu l-dhilatu ayna mā thuqifū illā biḥablin mina l-lahi waḥablin mina l-nāsi wabāū bighaḍabin mina l-lahi waḍuribat ʿalayhimu l-maskanatu dhālika bi-annahum kānū yakfurūna biāyāti l-lahi wayaqtulūna l-anbiyāa bighayri ḥaqqin dhālika bimā ʿaṣaw wakānū yaʿtadūna ",
       verse: 405,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 113,
       image: "",
-      text:
-        "They are not [all] the same; among the People of the Scripture is a community standing [in obedience], reciting the verses of Allah during periods of the night and prostrating [in prayer].",
+      text: "They are not (the) same among (the) People (of) the Book (is) a community standing (and) reciting (the) Verses (of) Allah (in the) hours (of) the night and they prostrate (113)",
+      transliteration:
+        "laysū sawāan min ahli l-kitābi ummatun qāimatun yatlūna āyāti l-lahi ānāa al-layli wahum yasjudūna ",
       verse: 406,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 114,
       image: "",
-      text:
-        "They believe in Allah and the Last Day, and they enjoin what is right and forbid what is wrong and hasten to good deeds. And those are among the righteous.",
+      text: "They believe in Allah and the Day the Last and they enjoin [with] the right and forbid [from] the wrong and they hasten in the good deeds And those (are) from the righteous (114)",
+      transliteration:
+        "yu'minūna bil-lahi wal-yawmi l-ākhiri wayamurūna bil-maʿrūfi wayanhawna ʿani l-munkari wayusāriʿūna fī l-khayrāti wa-ulāika mina l-ṣāliḥīna ",
       verse: 407,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 115,
       image: "",
-      text:
-        "And whatever good they do -  never will it be removed from them. And Allah is Knowing of the righteous.",
+      text: "And whatever they do of a good then never will they be denied it And Allah (is) All-Knowing of the God-fearing (115)",
+      transliteration:
+        "wamā yafʿalū min khayrin falan yuk'farūhu wal-lahu ʿalīmun bil-mutaqīna ",
       verse: 408,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 116,
       image: "",
-      text:
-        "Indeed, those who disbelieve -  never will their wealth or their children avail them against Allah at all, and those are the companions of the Fire; they will abide therein eternally.",
+      text: "Indeed those who disbelieved never will avail [for] them their wealth and not their children against Allah anything and those (are the) companions (of) the Fire they in it (will) abide forever (116)",
+      transliteration:
+        "inna alladhīna kafarū lan tugh'niya ʿanhum amwāluhum walā awlāduhum mina l-lahi shayan wa-ulāika aṣḥābu l-nāri hum fīhā khālidūna ",
       verse: 409,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 117,
       image: "",
-      text:
-        "The example of what they spend in this worldly life is like that of a wind containing frost which strikes the harvest of a people who have wronged themselves and destroys it. And Allah has not wronged them, but they wrong themselves.",
+      text: "Example (of) what they spend in this [the] life (of) the world (is) like (the) example (of) a wind in it (is) frost it struck (the) harvest (of) a people who wronged themselves then destroyed it And not (has) wronged them Allah [and] but themselves they wronged (117)",
+      transliteration:
+        "mathalu mā yunfiqūna fī hādhihi l-ḥayati l-dun'yā kamathali rīḥin fīhā ṣirrun aṣābat ḥartha qawmin ẓalamū anfusahum fa-ahlakathu wamā ẓalamahumu l-lahu walākin anfusahum yaẓlimūna ",
       verse: 410,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 118,
       image: "",
-      text:
-        "O you who have believed, do not take as intimates those other than yourselves, for they will not spare you [any] ruin. They wish you would have hardship. Hatred has already appeared from their mouths, and what their breasts conceal is greater. We have certainly made clear to you the signs, if you will use reason.",
+      text: "O you who believe[d] (Do) not take (as) intimates from other than yourselves not they will spare you (any) ruin They wish what distresses you Indeed (has become) apparent the hatred from their mouths and what conceals their breasts (is) greater Certainly We made clear for you the Verses if you were (to use) reason (118)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū lā tattakhidhū biṭānatan min dūnikum lā yalūnakum khabālan waddū mā ʿanittum qad badati l-baghḍāu min afwāhihim wamā tukh'fī ṣudūruhum akbaru qad bayyannā lakumu l-āyāti in kuntum taʿqilūna ",
       verse: 411,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 119,
       image: "",
-      text:
-        'Here you are loving them but they are not loving you, while you believe in the Scripture -  all of it. And when they meet you, they say, "We believe." But when they are alone, they bite their fingertips at you in rage. Say, "Die in your rage. Indeed, Allah is Knowing of that within the breasts."',
+      text: "Lo! You are those you love them but not they love you and you believe in the Book  all of it And when they meet you they say We believe And when they are alone they bite at you the finger tips (out) of [the] rage Say Die in your rage Indeed Allah (is) All-Knowing of what (is in) the breasts (119)",
+      transliteration:
+        "hāantum ulāi tuḥibbūnahum walā yuḥibbūnakum watu'minūna bil-kitābi kullihi wa-idhā laqūkum qālū āmannā wa-idhā khalaw ʿaḍḍū ʿalaykumu l-anāmila mina l-ghayẓi qul mūtū bighayẓikum inna l-laha ʿalīmun bidhāti l-ṣudūri ",
       verse: 412,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 120,
       image: "",
-      text:
-        "If good touches you, it distresses them; but if harm strikes you, they rejoice at it. And if you are patient and fear Allah, their plot will not harm you at all. Indeed, Allah is encompassing of what they do.",
+      text: "If touches you a good it grieves them and if strikes you misfortune they rejoice at it And if you are patient and fear (Allah) not will harm you their plot (in) anything Indeed Allah of what they do (is) All-Encompassing (120)",
+      transliteration:
+        "in tamsaskum ḥasanatun tasu'hum wa-in tuṣib'kum sayyi-atun yafraḥū bihā wa-in taṣbirū watattaqū lā yaḍurrukum kayduhum shayan inna l-laha bimā yaʿmalūna muḥīṭun ",
       verse: 413,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 121,
       image: "",
-      text:
-        "And [remember] when you, [O Muhammad], left your family in the morning to post the believers at their stations for the battle [of Uhud] -  and Allah is Hearing and Knowing -",
+      text: "And when you left early morning from your household to post the believers (to take) positions for the battle And Allah (is) All-Hearing All-Knowing (121)",
+      transliteration:
+        "wa-idh ghadawta min ahlika tubawwi-u l-mu'minīna maqāʿida lil'qitāli wal-lahu samīʿun ʿalīmun ",
       verse: 414,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 122,
       image: "",
-      text:
-        "When two parties among you were about to lose courage, but Allah was their ally; and upon Allah the believers should rely.",
+      text: "When inclined two parties among you that they lost heart but Allah (was) their protector And on Allah let put (their) trust the believers (122)",
+      transliteration:
+        "idh hammat ṭāifatāni minkum an tafshalā wal-lahu waliyyuhumā waʿalā l-lahi falyatawakkali l-mu'minūna ",
       verse: 415,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 123,
       image: "",
-      text:
-        "And already had Allah given you victory at [the battle of] Badr while you were few in number. Then fear Allah ; perhaps you will be grateful.",
+      text: "And certainly helped you Allah in Badr while you (were) weak So fear Allah so that you may (be) grateful (123)",
+      transliteration:
+        "walaqad naṣarakumu l-lahu bibadrin wa-antum adhillatun fa-ittaqū l-laha laʿallakum tashkurūna ",
       verse: 416,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 124,
       image: "",
-      text:
-        '[Remember] when you said to the believers, "Is it not sufficient for you that your Lord should reinforce you with three thousand angels sent down?',
+      text: "When you said to the believers Is it not enough for you that reinforces you your Lord with three thousand[s] [of] [the] Angels [the ones] sent down (124)",
+      transliteration:
+        "idh taqūlu lil'mu'minīna alan yakfiyakum an yumiddakum rabbukum bithalāthati ālāfin mina l-malāikati munzalīna ",
       verse: 417,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 125,
       image: "",
-      text:
-        "Yes, if you remain patient and conscious of Allah and the enemy come upon you [attacking] in rage, your Lord will reinforce you with five thousand angels having marks [of distinction]",
+      text: "Yes if you are patient and fear (Allah) and they come upon you [of] suddenly [this] will reinforce you your Lord with five thousand[s] [of] [the] Angels [the ones] having marks (125)",
+      transliteration:
+        "balā in taṣbirū watattaqū wayatūkum min fawrihim hādhā yum'did'kum rabbukum bikhamsati ālāfin mina l-malāikati musawwimīna ",
       verse: 418,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 126,
       image: "",
-      text:
-        "And Allah made it not except as [a sign of] good tidings for you and to reassure your hearts thereby. And victory is not except from Allah, the Exalted in Might, the Wise -",
+      text: "And not made it Allah except (as) good news for you and to reassure your hearts with it And (there is) no [the] victory except from [near] Allah the All-Mighty the All-Wise (126)",
+      transliteration:
+        "wamā jaʿalahu l-lahu illā bush'rā lakum walitaṭma-inna qulūbukum bihi wamā l-naṣru illā min ʿindi l-lahi l-ʿazīzi l-ḥakīmi ",
       verse: 419,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 127,
       image: "",
-      text:
-        "That He might cut down a section of the disbelievers or suppress them so that they turn back disappointed.",
+      text: "That He may cut off a part of those who disbelieved or suppress them so (that) they turn back disappointed (127)",
+      transliteration:
+        "liyaqṭaʿa ṭarafan mina alladhīna kafarū aw yakbitahum fayanqalibū khāibīna ",
       verse: 420,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 128,
       image: "",
-      text:
-        "Not for you, [O Muhammad, but for Allah ], is the decision whether He should [cut them down] or forgive them or punish them, for indeed, they are wrongdoers.",
+      text: "Not for you of the decision (of) anything whether He turns to them or punishes them for indeed, they (are) wrongdoers (128)",
+      transliteration:
+        "laysa laka mina l-amri shayon aw yatūba ʿalayhim aw yuʿadhibahum fa-innahum ẓālimūna ",
       verse: 421,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 129,
       image: "",
-      text:
-        "And to Allah belongs whatever is in the heavens and whatever is on the earth. He forgives whom He wills and punishes whom He wills. And Allah is Forgiving and Merciful.",
+      text: "And to Allah (belongs) what (is) in the heavens and what (is) in the earth He forgives [for] whom He wills and punishes whom He wills And Allah (is) Oft-Forgiving Most Merciful (129)",
+      transliteration:
+        "walillahi mā fī l-samāwāti wamā fī l-arḍi yaghfiru liman yashāu wayuʿadhibu man yashāu wal-lahu ghafūrun raḥīmun ",
       verse: 422,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 130,
       image: "",
-      text:
-        "O you who have believed, do not consume usury, doubled and multiplied, but fear Allah that you may be successful.",
+      text: "O you who believe (Do) not eat the usury doubled multiplied And fear Allah so that you may (be) successful (130)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū lā takulū l-riba aḍʿāfan muḍāʿafatan wa-ittaqū l-laha laʿallakum tuf'liḥūna ",
       verse: 423,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 131,
       image: "",
-      text: "And fear the Fire, which has been prepared for the disbelievers.",
+      text: "And fear the Fire which is prepared for the disbelievers (131)",
+      transliteration: "wa-ittaqū l-nāra allatī uʿiddat lil'kāfirīna ",
       verse: 424,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 132,
       image: "",
-      text: "And obey Allah and the Messenger that you may obtain mercy.",
+      text: "And obey Allah and the Messenger so that you may receive mercy (132)",
+      transliteration: "wa-aṭīʿū l-laha wal-rasūla laʿallakum tur'ḥamūna ",
       verse: 425,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 133,
       image: "",
-      text:
-        "And hasten to forgiveness from your Lord and a garden as wide as the heavens and earth, prepared for the righteous",
+      text: "And hasten to forgiveness from your Lord and a Garden  its width (is like that of) the heavens and the earth prepared for the pious (133)",
+      transliteration:
+        "wasāriʿū ilā maghfiratin min rabbikum wajannatin ʿarḍuhā l-samāwātu wal-arḍu uʿiddat lil'muttaqīna ",
       verse: 426,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 134,
       image: "",
-      text:
-        "Who spend [in the cause of Allah ] during ease and hardship and who restrain anger and who pardon the people -  and Allah loves the doers of good;",
+      text: "Those who spend in [the] ease and (in) the hardship and those who restrain the anger and those who pardon [from] the people  and Allah loves the good-doers (134)",
+      transliteration:
+        "alladhīna yunfiqūna fī l-sarāi wal-ḍarāi wal-kāẓimīna l-ghayẓa wal-ʿāfīna ʿani l-nāsi wal-lahu yuḥibbu l-muḥ'sinīna ",
       verse: 427,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 135,
       image: "",
-      text:
-        "And those who, when they commit an immorality or wrong themselves [by transgression], remember Allah and seek forgiveness for their sins -  and who can forgive sins except Allah ? -  and [who] do not persist in what they have done while they know.",
+      text: "And those when they did immorality or wronged themselves  they remember Allah then ask forgiveness for their sins  and who (can) forgive the sins except Allah And not they persist on what they did while they know (135)",
+      transliteration:
+        "wa-alladhīna idhā faʿalū fāḥishatan aw ẓalamū anfusahum dhakarū l-laha fa-is'taghfarū lidhunūbihim waman yaghfiru l-dhunūba illā l-lahu walam yuṣirrū ʿalā mā faʿalū wahum yaʿlamūna ",
       verse: 428,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 136,
       image: "",
-      text:
-        "Those -  their reward is forgiveness from their Lord and gardens beneath which rivers flow [in Paradise], wherein they will abide eternally; and excellent is the reward of the [righteous] workers.",
+      text: "Those  their reward (is) forgiveness from their Lord and Gardens flows from underneath it the rivers abiding forever in it And an excellent reward (for) the (righteous) workers (136)",
+      transliteration:
+        "ulāika jazāuhum maghfiratun min rabbihim wajannātun tajrī min taḥtihā l-anhāru khālidīna fīhā waniʿ'ma ajru l-ʿāmilīna ",
       verse: 429,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 137,
       image: "",
-      text:
-        "Similar situations [as yours] have passed on before you, so proceed throughout the earth and observe how was the end of those who denied.",
+      text: "Verily passed from before you situations then travel in the earth and see how was (the) end (of) the deniers (137)",
+      transliteration:
+        "qad khalat min qablikum sunanun fasīrū fī l-arḍi fa-unẓurū kayfa kāna ʿāqibatu l-mukadhibīna ",
       verse: 430,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 138,
       image: "",
-      text:
-        "This [Qur'an] is a clear statement to [all] the people and a guidance and instruction for those conscious of Allah .",
+      text: "This (is) a declaration for the people and guidance and admonition for the God-fearing (138)",
+      transliteration:
+        "hādhā bayānun lilnnāsi wahudan wamawʿiẓatun lil'muttaqīna ",
       verse: 431,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 139,
       image: "",
-      text:
-        "So do not weaken and do not grieve, and you will be superior if you are [true] believers.",
+      text: "And (do) not weaken and (do) not grieve and you (will be) [the] superior if you are believers (139)",
+      transliteration:
+        "walā tahinū walā taḥzanū wa-antumu l-aʿlawna in kuntum mu'minīna ",
       verse: 432,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 140,
       image: "",
-      text:
-        "If a wound should touch you -  there has already touched the [opposing] people a wound similar to it. And these days [of varying conditions] We alternate among the people so that Allah may make evident those who believe and [may] take to Himself from among you martyrs -  and Allah does not like the wrongdoers -",
+      text: "If touched you a wound so certainly (has) touched the people wound like it And this [the] days We alternate them among the people [and] so that makes evident Allah those who believe[d] and take from you martyrs And Allah (does) not love the wrongdoers (140)",
+      transliteration:
+        "in yamsaskum qarḥun faqad massa l-qawma qarḥun mith'luhu watil'ka l-ayāmu nudāwiluhā bayna l-nāsi waliyaʿlama l-lahu alladhīna āmanū wayattakhidha minkum shuhadāa wal-lahu lā yuḥibbu l-ẓālimīna ",
       verse: 433,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 141,
       image: "",
-      text:
-        "And that Allah may purify the believers [through trials] and destroy the disbelievers.",
+      text: "And so that may purify Allah those who believe and destroy the disbelievers (141)",
+      transliteration:
+        "waliyumaḥḥiṣa l-lahu alladhīna āmanū wayamḥaqa l-kāfirīna ",
       verse: 434,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 142,
       image: "",
-      text:
-        "Or do you think that you will enter Paradise while Allah has not yet made evident those of you who fight in His cause and made evident those who are steadfast?",
+      text: "Or do you think that you will enter Paradise while has not yet made evident Allah those who strove hard among you and made evident the steadfast (142)",
+      transliteration:
+        "am ḥasib'tum an tadkhulū l-janata walammā yaʿlami l-lahu alladhīna jāhadū minkum wayaʿlama l-ṣābirīna ",
       verse: 435,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 143,
       image: "",
-      text:
-        "And you had certainly wished for martyrdom before you encountered it, and you have [now] seen it [before you] while you were looking on.",
+      text: "And certainly you used to wish (for) death from before [that] you met it then indeed you have seen it while you (were) looking on (143)",
+      transliteration:
+        "walaqad kuntum tamannawna l-mawta min qabli an talqawhu faqad ra-aytumūhu wa-antum tanẓurūna ",
       verse: 436,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 144,
       image: "",
-      text:
-        "Muhammad is not but a messenger. [Other] messengers have passed on before him. So if he was to die or be killed, would you turn back on your heels [to unbelief]? And he who turns back on his heels will never harm Allah at all; but Allah will reward the grateful.",
+      text: "And not (is) Muhammad  except a Messenger certainly passed away from before him [the] (other) Messengers So if he died or is slain will you turn back on your heels And whoever turns back on his heels then never will he harm Allah (in) anything And will reward Allah the grateful ones (144)",
+      transliteration:
+        "wamā muḥammadun illā rasūlun qad khalat min qablihi l-rusulu afa-in māta aw qutila inqalabtum ʿalā aʿqābikum waman yanqalib ʿalā ʿaqibayhi falan yaḍurra l-laha shayan wasayajzī l-lahu l-shākirīna ",
       verse: 437,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 145,
       image: "",
-      text:
-        "And it is not [possible] for one to die except by permission of Allah at a decree determined. And whoever desires the reward of this world -  We will give him thereof; and whoever desires the reward of the Hereafter -  We will give him thereof. And we will reward the grateful.",
+      text: "And not is for a soul that he dies except by (the) permission (of) Allah (at a) decree determined And whoever desires reward (of) the world  We will give him thereof and whoever desires reward (of) the Hereafter We will give him thereof And We will reward the grateful ones (145)",
+      transliteration:
+        "wamā kāna linafsin an tamūta illā bi-idh'ni l-lahi kitāban mu-ajjalan waman yurid thawāba l-dun'yā nu'tihi min'hā waman yurid thawāba l-ākhirati nu'tihi min'hā wasanajzī l-shākirīna ",
       verse: 438,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 146,
       image: "",
-      text:
-        "And how many a prophet [fought and] with him fought many religious scholars. But they never lost assurance due to what afflicted them in the cause of Allah, nor did they weaken or submit. And Allah loves the steadfast.",
+      text: "And how many from a Prophet fought with him (were) religious scholars many But not they lost heart for what befell them in (the) way (of) Allah and not they weakened and not they gave in And Allah loves the patient ones (146)",
+      transliteration:
+        "waka-ayyin min nabiyyin qātala maʿahu ribbiyyūna kathīrun famā wahanū limā aṣābahum fī sabīli l-lahi wamā ḍaʿufū wamā is'takānū wal-lahu yuḥibbu l-ṣābirīna ",
       verse: 439,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 147,
       image: "",
-      text:
-        'And their words were not but that they said, "Our Lord, forgive us our sins and the excess [committed] in our affairs and plant firmly our feet and give us victory over the disbelieving people."',
+      text: "And not were their words except that they said Our Lord forgive for us our sins and our excesses in our affairs and make firm our feet and give us victory over [the people] the disbelievers (147)",
+      transliteration:
+        "wamā kāna qawlahum illā an qālū rabbanā igh'fir lanā dhunūbanā wa-is'rāfanā fī amrinā wathabbit aqdāmanā wa-unṣur'nā ʿalā l-qawmi l-kāfirīna ",
       verse: 440,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 148,
       image: "",
-      text:
-        "So Allah gave them the reward of this world and the good reward of the Hereafter. And Allah loves the doers of good.",
+      text: "So gave them Allah reward (in) the world and good reward (in) the Hereafter And Allah loves the good-doers (148)",
+      transliteration:
+        "faātāhumu l-lahu thawāba l-dun'yā waḥus'na thawābi l-ākhirati wal-lahu yuḥibbu l-muḥ'sinīna ",
       verse: 441,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 149,
       image: "",
-      text:
-        "O you who have believed, if you obey those who disbelieve, they will turn you back on your heels, and you will [then] become losers.",
+      text: "O you who believe If you obey those who disbelieve they will turn you back on your heels then you will turn back (as) losers (149)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū in tuṭīʿū alladhīna kafarū yaruddūkum ʿalā aʿqābikum fatanqalibū khāsirīna ",
       verse: 442,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 150,
       image: "",
-      text: "But Allah is your protector, and He is the best of helpers.",
+      text: "Nay Allah (is) your Protector and He (is the) best (of) the Helpers (150)",
+      transliteration: "bali l-lahu mawlākum wahuwa khayru l-nāṣirīna ",
       verse: 443,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 151,
       image: "",
-      text:
-        "We will cast terror into the hearts of those who disbelieve for what they have associated with Allah of which He had not sent down [any] authority. And their refuge will be the Fire, and wretched is the residence of the wrongdoers.",
+      text: "We will cast in (the) hearts (of) those who disbelieve [the] terror because they associated partners with Allah what not He sent down about it any authority and their refuge (will be) the Fire and wretched (is the) abode [of] the wrongdoers (151)",
+      transliteration:
+        "sanul'qī fī qulūbi alladhīna kafarū l-ruʿ'ba bimā ashrakū bil-lahi mā lam yunazzil bihi sul'ṭānan wamawāhumu l-nāru wabi'sa mathwā l-ẓālimīna ",
       verse: 444,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 152,
       image: "",
-      text:
-        "And Allah had certainly fulfilled His promise to you when you were killing the enemy by His permission until [the time] when you lost courage and fell to disputing about the order [given by the Prophet] and disobeyed after He had shown you that which you love. Among you are some who desire this world, and among you are some who desire the Hereafter. Then he turned you back from them [defeated] that He might test you. And He has already forgiven you, and Allah is the possessor of bounty for the believers.",
+      text: "And certainly fulfilled to you Allah His promise when you were killing them by His permission until when you lost courage and you fell into dispute concerning the order and you disobeyed from after [what] He (had) shown you what you love Among you (are some) who desire the world and among you (are some) who desire the Hereafter Then He diverted you from them so that He may test you And surely He forgave you And Allah (is the) Possessor (of) Bounty for the believers (152)",
+      transliteration:
+        "walaqad ṣadaqakumu l-lahu waʿdahu idh taḥussūnahum bi-idh'nihi ḥattā idhā fashil'tum watanāzaʿtum fī l-amri waʿaṣaytum min baʿdi mā arākum mā tuḥibbūna minkum man yurīdu l-dun'yā waminkum man yurīdu l-ākhirata thumma ṣarafakum ʿanhum liyabtaliyakum walaqad ʿafā ʿankum wal-lahu dhū faḍlin ʿalā l-mu'minīna ",
       verse: 445,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 153,
       image: "",
-      text:
-        "[Remember] when you [fled and] climbed [the mountain] without looking aside at anyone while the Messenger was calling you from behind. So Allah repaid you with distress upon distress so you would not grieve for that which had escaped you [of victory and spoils of war] or [for] that which had befallen you [of injury and death]. And Allah is [fully] Acquainted with what you do.",
+      text: "When you were running uphill and not casting a glance on anyone while the Messenger was calling you [in] (from) behind you So (He) repaid you (with) distress on distress so that not you grieve over what escaped you and not what (had) befallen you And Allah (is) All-Aware of what you do (153)",
+      transliteration:
+        "idh tuṣ'ʿidūna walā talwūna ʿalā aḥadin wal-rasūlu yadʿūkum fī ukh'rākum fa-athābakum ghamman bighammin likaylā taḥzanū ʿalā mā fātakum walā mā aṣābakum wal-lahu khabīrun bimā taʿmalūna ",
       verse: 446,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 154,
       image: "",
-      text:
-        'Then after distress, He sent down upon you security [in the form of] drowsiness, overcoming a faction of you, while another faction worried about themselves, thinking of Allah other than the truth -  the thought of ignorance, saying, "Is there anything for us [to have done] in this matter?" Say, "Indeed, the matter belongs completely to Allah ." They conceal within themselves what they will not reveal to you. They say, "If there was anything we could have done in the matter, some of us would not have been killed right here." Say, "Even if you had been inside your houses, those decreed to be killed would have come out to their death beds." [It was] so that Allah might test what is in your breasts and purify what is in your hearts. And Allah is Knowing of that within the breasts.',
+      text: "Then He sent down upon you from after the distress security  slumber overcoming a group of you while a group certainly worried [them] (about) themselves thinking about Allah other than the truth  (the) thought (of) [the] ignorance saying Is (there) for us from the matter any thing Say Indeed the matter all (of) it (is) for Allah They hide in themselves what not they reveal to you They say If was for us from the matter anything not we would have been killed here Say If you were in your houses surely (would have) come out those who  was decreed upon them [the] death towards their places of death And that might test Allah what (is) in your breasts and that He may purge what (is) in your hearts And Allah (is) All-Aware of what (is in) the breasts (154)",
+      transliteration:
+        "thumma anzala ʿalaykum min baʿdi l-ghami amanatan nuʿāsan yaghshā ṭāifatan minkum waṭāifatun qad ahammathum anfusuhum yaẓunnūna bil-lahi ghayra l-ḥaqi ẓanna l-jāhiliyati yaqūlūna hal lanā mina l-amri min shayin qul inna l-amra kullahu lillahi yukh'fūna fī anfusihim mā lā yub'dūna laka yaqūlūna law kāna lanā mina l-amri shayon mā qutil'nā hāhunā qul law kuntum fī buyūtikum labaraza alladhīna kutiba ʿalayhimu l-qatlu ilā maḍājiʿihim waliyabtaliya l-lahu mā fī ṣudūrikum waliyumaḥḥiṣa mā fī qulūbikum wal-lahu ʿalīmun bidhāti l-ṣudūri ",
       verse: 447,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 155,
       image: "",
-      text:
-        "Indeed, those of you who turned back on the day the two armies met, it was Satan who caused them to slip because of some [blame] they had earned. But Allah has already forgiven them. Indeed, Allah is Forgiving and Forbearing.",
+      text: "Indeed those who turned back among you (on the) day met the two hosts  only made them slip the Shaitaan for some (of) what they (had) earned And surely forgave Allah [on] them indeed Allah (is) Oft-Forgiving All-Forbearing (155)",
+      transliteration:
+        "inna alladhīna tawallaw minkum yawma l-taqā l-jamʿāni innamā is'tazallahumu l-shayṭānu bibaʿḍi mā kasabū walaqad ʿafā l-lahu ʿanhum inna l-laha ghafūrun ḥalīmun ",
       verse: 448,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 156,
       image: "",
-      text:
-        'O you who have believed, do not be like those who disbelieved and said about their brothers when they traveled through the land or went out to fight, "If they had been with us, they would not have died or have been killed," so Allah makes that [misconception] a regret within their hearts. And it is Allah who gives life and causes death, and Allah is Seeing of what you do.',
+      text: "O you who believe[d] (Do) not be like those who disbelieved and they said about their brothers when they traveled in the earth or they were fighting If they had been with us not they (would have) died and not they (would have) been killed So makes Allah that a regret in their hearts And Allah gives life and causes death and Allah of what you do (is) All-Seer (156)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū lā takūnū ka-alladhīna kafarū waqālū li-ikh'wānihim idhā ḍarabū fī l-arḍi aw kānū ghuzzan law kānū ʿindanā mā mātū wamā qutilū liyajʿala l-lahu dhālika ḥasratan fī qulūbihim wal-lahu yuḥ'yī wayumītu wal-lahu bimā taʿmalūna baṣīrun ",
       verse: 449,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 157,
       image: "",
-      text:
-        "And if you are killed in the cause of Allah or die -  then forgiveness from Allah and mercy are better than whatever they accumulate [in this world].",
+      text: "And if you are killed in (the) way (of) Allah or die[d]  certainly forgiveness from Allah and Mercy (are) better than what they accumulate (157)",
+      transliteration:
+        "wala-in qutil'tum fī sabīli l-lahi aw muttum lamaghfiratun mina l-lahi waraḥmatun khayrun mimmā yajmaʿūna ",
       verse: 450,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 158,
       image: "",
-      text:
-        "And whether you die or are killed, unto Allah you will be gathered.",
+      text: "And if you die or are killed surely to Allah you will be gathered (158)",
+      transliteration: "wala-in muttum aw qutil'tum la-ilā l-lahi tuḥ'sharūna ",
       verse: 451,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 159,
       image: "",
-      text:
-        "So by mercy from Allah, [O Muhammad], you were lenient with them. And if you had been rude [in speech] and harsh in heart, they would have disbanded from about you. So pardon them and ask forgiveness for them and consult them in the matter. And when you have decided, then rely upon Allah . Indeed, Allah loves those who rely [upon Him].",
+      text: "So because (of) Mercy from Allah you dealt gently with them And if you had been rude (and) harsh (at) [the] heart surely they (would have) dispersed from around you Then pardon [from] them and ask forgiveness for them and consult them in the matter Then when you have decided then put trust on Allah Indeed Allah loves the ones who put trust (in Him) (159)",
+      transliteration:
+        "fabimā raḥmatin mina l-lahi linta lahum walaw kunta faẓẓan ghalīẓa l-qalbi la-infaḍḍū min ḥawlika fa-uʿ'fu ʿanhum wa-is'taghfir lahum washāwir'hum fī l-amri fa-idhā ʿazamta fatawakkal ʿalā l-lahi inna l-laha yuḥibbu l-mutawakilīna ",
       verse: 452,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 160,
       image: "",
-      text:
-        "If Allah should aid you, no one can overcome you; but if He should forsake you, who is there that can aid you after Him? And upon Allah let the believers rely.",
+      text: "If helps you Allah then not (can) overcome [for] you and if He forsakes you then who (is) the one who can help you from after Him And on Allah  let put (their) trust the believers (160)",
+      transliteration:
+        "in yanṣur'kumu l-lahu falā ghāliba lakum wa-in yakhdhul'kum faman dhā alladhī yanṣurukum min baʿdihi waʿalā l-lahi falyatawakkali l-mu'minūna ",
       verse: 453,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 161,
       image: "",
-      text:
-        "It is not [attributable] to any prophet that he would act unfaithfully [in regard to war booty]. And whoever betrays, [taking unlawfully], will come with what he took on the Day of Resurrection. Then will every soul be [fully] compensated for what it earned, and they will not be wronged.",
+      text: "And not is for a Prophet that he defrauds And whoever defrauds will bring what he had defrauded (on the) Day (of) Resurrection Then is repaid in full every soul what it earned and they (will) not be wronged (161)",
+      transliteration:
+        "wamā kāna linabiyyin an yaghulla waman yaghlul yati bimā ghalla yawma l-qiyāmati thumma tuwaffā kullu nafsin mā kasabat wahum lā yuẓ'lamūna ",
       verse: 454,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 162,
       image: "",
-      text:
-        "So is one who pursues the pleasure of Allah like one who brings upon himself the anger of Allah and whose refuge is Hell? And wretched is the destination.",
+      text: "So is (the one) who pursues (the) pleasure (of) Allah like (the one) who draws on (himself) wrath of Allah and his abode (is) hell and wretched (is) the destination (162)",
+      transliteration:
+        "afamani ittabaʿa riḍ'wāna l-lahi kaman bāa bisakhaṭin mina l-lahi wamawāhu jahannamu wabi'sa l-maṣīru ",
       verse: 455,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 163,
       image: "",
-      text:
-        "They are [varying] degrees in the sight of Allah, and Allah is Seeing of whatever they do.",
+      text: "They (are in varying) degrees near Allah and Allah (is) All-Seer of what they do (163)",
+      transliteration:
+        "hum darajātun ʿinda l-lahi wal-lahu baṣīrun bimā yaʿmalūna ",
       verse: 456,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 164,
       image: "",
-      text:
-        "Certainly did Allah confer [great] favor upon the believers when He sent among them a Messenger from themselves, reciting to them His verses and purifying them and teaching them the Book and wisdom, although they had been before in manifest error.",
+      text: "Certainly bestowed a Favor Allah upon the believers as He raised among them a Messenger from themselves reciting to them His Verses and purifying them and teaching them the Book and the wisdom although they were from before (that) certainly in (the) error clear (164)",
+      transliteration:
+        "laqad manna l-lahu ʿalā l-mu'minīna idh baʿatha fīhim rasūlan min anfusihim yatlū ʿalayhim āyātihi wayuzakkīhim wayuʿallimuhumu l-kitāba wal-ḥik'mata wa-in kānū min qablu lafī ḍalālin mubīnin ",
       verse: 457,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 165,
       image: "",
-      text:
-        'Why [is it that] when a [single] disaster struck you [on the day of Uhud], although you had struck [the enemy in the battle of Badr] with one twice as great, you said, "From where is this?" Say, "It is from yourselves." Indeed, Allah is over all things competent.',
+      text: "Or when struck you disaster surely you (had) struck (them) twice of it you said From where (is) this Say It (is) from yourselves Indeed Allah (is) on every thing All-Powerful (165)",
+      transliteration:
+        "awalammā aṣābatkum muṣībatun qad aṣabtum mith'layhā qul'tum annā hādhā qul huwa min ʿindi anfusikum inna l-laha ʿalā kulli shayin qadīrun ",
       verse: 458,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 166,
       image: "",
-      text:
-        "And what struck you on the day the two armies met was by permission of Allah that He might make evident the [true] believers.",
+      text: "And what struck you (on the) day (when) met the two hosts (was) by (the) permission (of) Allah and that He (might) make evident the believers (166)",
+      transliteration:
+        "wamā aṣābakum yawma l-taqā l-jamʿāni fabi-idh'ni l-lahi waliyaʿlama l-mu'minīna ",
       verse: 459,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 167,
       image: "",
-      text:
-        'And that He might make evident those who are hypocrites. For it was said to them, "Come, fight in the way of Allah or [at least] defend." They said, "If we had known [there would be] fighting, we would have followed you." They were nearer to disbelief that day than to faith, saying with their mouths what was not in their hearts. And Allah is most Knowing of what they conceal -',
+      text: "And that He (might) make evident those who (are) hypocrites And it was said to them Come fight in (the) way (of) Allah or defend They said If we knew fighting certainly we (would have) followed you They  to disbelief that day (were) nearer than [them] to the faith saying with their mouths what was not in their hearts And Allah (is) Most Knowing of what they conceal (167)",
+      transliteration:
+        "waliyaʿlama alladhīna nāfaqū waqīla lahum taʿālaw qātilū fī sabīli l-lahi awi id'faʿū qālū law naʿlamu qitālan la-ittabaʿnākum hum lil'kuf'ri yawma-idhin aqrabu min'hum lil'īmāni yaqūlūna bi-afwāhihim mā laysa fī qulūbihim wal-lahu aʿlamu bimā yaktumūna ",
       verse: 460,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 168,
       image: "",
-      text:
-        'Those who said about their brothers while sitting [at home], "If they had obeyed us, they would not have been killed." Say, "Then prevent death from yourselves, if you should be truthful."',
+      text: "Those who said about their brothers while they sat If they (had) obeyed us not they would have been killed Say Then avert from yourselves [the] death if you are truthful (168)",
+      transliteration:
+        "alladhīna qālū li-ikh'wānihim waqaʿadū law aṭāʿūnā mā qutilū qul fa-id'raū ʿan anfusikumu l-mawta in kuntum ṣādiqīna ",
       verse: 461,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 169,
       image: "",
-      text:
-        "And never think of those who have been killed in the cause of Allah as dead. Rather, they are alive with their Lord, receiving provision,",
+      text: "And (do) not think (of) those who are killed in (the) way (of) Allah (as) dead Nay They are alive near their Lord they are given provision (169)",
+      transliteration:
+        "walā taḥsabanna alladhīna qutilū fī sabīli l-lahi amwātan bal aḥyāon ʿinda rabbihim yur'zaqūna ",
       verse: 462,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 170,
       image: "",
-      text:
-        "Rejoicing in what Allah has bestowed upon them of His bounty, and they receive good tidings about those [to be martyred] after them who have not yet joined them -  that there will be no fear concerning them, nor will they grieve.",
+      text: "Rejoicing in what bestowed them Allah of His Bounty and they receive good tidings about those who (have) not yet joined [with] them [from] (but are) left behind  that (there will be) no fear on them and not they will grieve (170)",
+      transliteration:
+        "fariḥīna bimā ātāhumu l-lahu min faḍlihi wayastabshirūna bi-alladhīna lam yalḥaqū bihim min khalfihim allā khawfun ʿalayhim walā hum yaḥzanūna ",
       verse: 463,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 171,
       image: "",
-      text:
-        "They receive good tidings of favor from Allah and bounty and [of the fact] that Allah does not allow the reward of believers to be lost -",
+      text: "They receive good tidings of Favor from Allah and Bounty and that Allah (does) not let go waste (the) reward (of) the believers (171)",
+      transliteration:
+        "yastabshirūna biniʿ'matin mina l-lahi wafaḍlin wa-anna l-laha lā yuḍīʿu ajra l-mu'minīna ",
       verse: 464,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 172,
       image: "",
-      text:
-        "Those [believers] who responded to Allah and the Messenger after injury had struck them. For those who did good among them and feared Allah is a great reward -",
+      text: "Those who responded to Allah and the Messenger from after what befell them  the injury  for those who did good among them and feared Allah (is) a reward  great (172)",
+      transliteration:
+        "alladhīna is'tajābū lillahi wal-rasūli min baʿdi mā aṣābahumu l-qarḥu lilladhīna aḥsanū min'hum wa-ittaqaw ajrun ʿaẓīmun ",
       verse: 465,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 173,
       image: "",
-      text:
-        'Those to whom hypocrites said, "Indeed, the people have gathered against you, so fear them." But it [merely] increased them in faith, and they said, "Sufficient for us is Allah, and [He is] the best Disposer of affairs."',
+      text: "Those who said to them [the people] Indeed the people (have) certainly gathered against you so fear them But it increased them (in) faith and they said Sufficient for us (is) Allah and (He is the) best [the] Disposer of affairs (173)",
+      transliteration:
+        "alladhīna qāla lahumu l-nāsu inna l-nāsa qad jamaʿū lakum fa-ikh'shawhum fazādahum īmānan waqālū ḥasbunā l-lahu waniʿ'ma l-wakīlu ",
       verse: 466,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 174,
       image: "",
-      text:
-        "So they returned with favor from Allah and bounty, no harm having touched them. And they pursued the pleasure of Allah, and Allah is the possessor of great bounty.",
+      text: "So they returned with (the) Favor of Allah and Bounty not touched them any harm And they followed (the) pleasure (of) Allah and Allah (is) Possessor (of) Bounty great (174)",
+      transliteration:
+        "fa-inqalabū biniʿ'matin mina l-lahi wafaḍlin lam yamsashum sūon wa-ittabaʿū riḍ'wāna l-lahi wal-lahu dhū faḍlin ʿaẓīmin ",
       verse: 467,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 175,
       image: "",
-      text:
-        "That is only Satan who frightens [you] of his supporters. So fear them not, but fear Me, if you are [indeed] believers.",
+      text: "(It is) only that the Shaitaan frightens (you) (of) his allies So (do) not fear them but fear Me if you are believers (175)",
+      transliteration:
+        "innamā dhālikumu l-shayṭānu yukhawwifu awliyāahu falā takhāfūhum wakhāfūni in kuntum mu'minīna ",
       verse: 468,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 176,
       image: "",
-      text:
-        "And do not be grieved, [O Muhammad], by those who hasten into disbelief. Indeed, they will never harm Allah at all. Allah intends that He should give them no share in the Hereafter, and for them is a great punishment.",
+      text: "And (let) not grieve you those who hasten in(to) [the] disbelief Indeed, they never will harm Allah (in) anything intends Allah that not He will set for them any portion in the Hereafter And for them (is) a punishment great (176)",
+      transliteration:
+        "walā yaḥzunka alladhīna yusāriʿūna fī l-kuf'ri innahum lan yaḍurrū l-laha shayan yurīdu l-lahu allā yajʿala lahum ḥaẓẓan fī l-ākhirati walahum ʿadhābun ʿaẓīmun ",
       verse: 469,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 177,
       image: "",
-      text:
-        "Indeed, those who purchase disbelief [in exchange] for faith -  never will they harm Allah at all, and for them is a painful punishment.",
+      text: "Indeed those who (have) purchased [the] disbelief with the faith never will they harm Allah (in) anything and for them (is) a punishment painful (177)",
+      transliteration:
+        "inna alladhīna ish'tarawū l-kuf'ra bil-īmāni lan yaḍurrū l-laha shayan walahum ʿadhābun alīmun ",
       verse: 470,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 178,
       image: "",
-      text:
-        "And let not those who disbelieve ever think that [because] We extend their time [of enjoyment] it is better for them. We only extend it for them so that they may increase in sin, and for them is a humiliating punishment.",
+      text: "And (let) not think those who disbelieved that We give respite to them (is) good for themselves Only We give respite to them so that they may increase (in) sins and for them (is) a punishment humiliating (178)",
+      transliteration:
+        "walā yaḥsabanna alladhīna kafarū annamā num'lī lahum khayrun li-anfusihim innamā num'lī lahum liyazdādū ith'man walahum ʿadhābun muhīnun ",
       verse: 471,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 179,
       image: "",
-      text:
-        "Allah would not leave the believers in that [state] you are in [presently] until He separates the evil from the good. Nor would Allah reveal to you the unseen. But [instead], Allah chooses of His messengers whom He wills, so believe in Allah and His messengers. And if you believe and fear Him, then for you is a great reward.",
+      text: "Not is Allah to leave the believers on what you (are) in [it] until He separates the evil from the good And not is Allah to inform you about the unseen [and] but Allah chooses from His Messengers whom He wills so believe in Allah and His Messengers and if you believe and fear (Allah) then for you (is a) reward great (179)",
+      transliteration:
+        "mā kāna l-lahu liyadhara l-mu'minīna ʿalā mā antum ʿalayhi ḥattā yamīza l-khabītha mina l-ṭayibi wamā kāna l-lahu liyuṭ'liʿakum ʿalā l-ghaybi walākinna l-laha yajtabī min rusulihi man yashāu faāminū bil-lahi warusulihi wa-in tu'minū watattaqū falakum ajrun ʿaẓīmun ",
       verse: 472,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 180,
       image: "",
-      text:
-        "And let not those who [greedily] withhold what Allah has given them of His bounty ever think that it is better for them. Rather, it is worse for them. Their necks will be encircled by what they withheld on the Day of Resurrection. And to Allah belongs the heritage of the heavens and the earth. And Allah, with what you do, is [fully] Acquainted.",
+      text: "And (let) not think those who withhold of what (has) given them Allah of His Bounty (that) it (is) good for them Nay it (is) bad for them Their necks will be encircled (with) what they withheld [with it] (on the) Day (of) [the] Resurrection And for Allah (is the) heritage (of) the heavens and the earth And Allah with what you do (is) All-Aware (180)",
+      transliteration:
+        "walā yaḥsabanna alladhīna yabkhalūna bimā ātāhumu l-lahu min faḍlihi huwa khayran lahum bal huwa sharrun lahum sayuṭawwaqūna mā bakhilū bihi yawma l-qiyāmati walillahi mīrāthu l-samāwāti wal-arḍi wal-lahu bimā taʿmalūna khabīrun ",
       verse: 473,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 181,
       image: "",
-      text:
-        'Allah has certainly heard the statement of those [Jews] who said, "Indeed, Allah is poor, while we are rich." We will record what they said and their killing of the prophets without right and will say, "Taste the punishment of the Burning Fire.',
+      text: "Certainly heard Allah (the) saying (of) those who said Indeed Allah (is) poor while we (are) rich We will record what they said and their killing the Prophets without (any) right and We will say Taste (the) punishment (of) the Burning Fire (181)",
+      transliteration:
+        "laqad samiʿa l-lahu qawla alladhīna qālū inna l-laha faqīrun wanaḥnu aghniyāu sanaktubu mā qālū waqatlahumu l-anbiyāa bighayri ḥaqqin wanaqūlu dhūqū ʿadhāba l-ḥarīqi ",
       verse: 474,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 182,
       image: "",
-      text:
-        'That is for what your hands have put forth and because Allah is not ever unjust to [His] servants."',
+      text: "That (is) because (of what) sent forth your hands and that Allah is not unjust to (His) slaves (182)",
+      transliteration:
+        "dhālika bimā qaddamat aydīkum wa-anna l-laha laysa biẓallāmin lil'ʿabīdi ",
       verse: 475,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 183,
       image: "",
-      text:
-        '[They are] those who said, "Indeed, Allah has taken our promise not to believe any messenger until he brings us an offering which fire [from heaven] will consume." Say, "There have already come to you messengers before me with clear proofs and [even] that of which you speak. So why did you kill them, if you should be truthful?"',
+      text: "Those who said Indeed Allah (has) taken promise from us that not we (should) believe in a Messenger until he brings to us a sacrifice  consumes it the fire Say Surely came to you Messengers from before me with the clear Signs and with what you speak So why you killed them if you are truthful (183)",
+      transliteration:
+        "alladhīna qālū inna l-laha ʿahida ilaynā allā nu'mina lirasūlin ḥattā yatiyanā biqur'bānin takuluhu l-nāru qul qad jāakum rusulun min qablī bil-bayināti wabi-alladhī qul'tum falima qataltumūhum in kuntum ṣādiqīna ",
       verse: 476,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 184,
       image: "",
-      text:
-        "Then if they deny you, [O Muhammad] -  so were messengers denied before you, who brought clear proofs and written ordinances and the enlightening Scripture.",
+      text: "Then if they reject you then certainly were rejected Messengers from before you (who) came with the clear Signs and the Scriptures and the Book  [the] Enlightening (184)",
+      transliteration:
+        "fa-in kadhabūka faqad kudhiba rusulun min qablika jāū bil-bayināti wal-zuburi wal-kitābi l-munīri ",
       verse: 477,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 185,
       image: "",
-      text:
-        "Every soul will taste death, and you will only be given your [full] compensation on the Day of Resurrection. So he who is drawn away from the Fire and admitted to Paradise has attained [his desire]. And what is the life of this world except the enjoyment of delusion.",
+      text: "Every soul (will) taste [the] death and only you will be paid in full your reward (on the) Day (of) [the] Resurrection Then whoever is drawn away from the Fire and admitted (to) Paradise then surely he is successful And not (is) the life (of) the world except enjoyment (of) delusion (185)",
+      transliteration:
+        "kullu nafsin dhāiqatu l-mawti wa-innamā tuwaffawna ujūrakum yawma l-qiyāmati faman zuḥ'ziḥa ʿani l-nāri wa-ud'khila l-janata faqad fāza wamā l-ḥayatu l-dun'yā illā matāʿu l-ghurūri ",
       verse: 478,
+      juz: 4,
+      surah: 3,
     },
     {
       number: 186,
       image: "",
-      text:
-        "You will surely be tested in your possessions and in yourselves. And you will surely hear from those who were given the Scripture before you and from those who associate others with Allah much abuse. But if you are patient and fear Allah -  indeed, that is of the matters [worthy] of determination.",
+      text: "You will certainly be tested in your wealth and yourselves And you will certainly hear from those who were given the Book from before you and from those who associate partners with Allah  hurtful things many and if you are patient and fear (Allah) then indeed that (is) of the matters (of) determination (186)",
+      transliteration:
+        "latub'lawunna fī amwālikum wa-anfusikum walatasmaʿunna mina alladhīna ūtū l-kitāba min qablikum wamina alladhīna ashrakū adhan kathīran wa-in taṣbirū watattaqū fa-inna dhālika min ʿazmi l-umūri ",
       verse: 479,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 187,
+      image: "",
+      text: "And when took Allah a Covenant (from) those who were given the Book You certainly make it clear to the mankind and (do) not conceal it Then they threw it behind their backs and they exchanged [with] it (for) a price little And wretched (is) what they purchase (187)",
+      transliteration:
+        "wa-idh akhadha l-lahu mīthāqa alladhīna ūtū l-kitāba latubayyinunnahu lilnnāsi walā taktumūnahu fanabadhūhu warāa ẓuhūrihim wa-ish'taraw bihi thamanan qalīlan fabi'sa mā yashtarūna ",
+      verse: 480,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 188,
+      image: "",
+      text: "(Do) not think (that) those who rejoice in what (they have) brought and they love that they be praised for what not they do  so (do) not think (that) they (will) escape from the punishment and for them (is a) punishment painful (188)",
+      transliteration:
+        "lā taḥsabanna alladhīna yafraḥūna bimā ataw wayuḥibbūna an yuḥ'madū bimā lam yafʿalū falā taḥsabannahum bimafāzatin mina l-ʿadhābi walahum ʿadhābun alīmun ",
+      verse: 481,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 189,
+      image: "",
+      text: "And for Allah (is the) dominion (of) the heavens and the earth and Allah (is) on every thing All-Powerful (189)",
+      transliteration:
+        "walillahi mul'ku l-samāwāti wal-arḍi wal-lahu ʿalā kulli shayin qadīrun ",
+      verse: 482,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 190,
+      image: "",
+      text: "Indeed in (the) creation (of) the heavens and the earth and (in the) alternation (of) the night and the day (are) surely Signs for men (of) understanding (190)",
+      transliteration:
+        "inna fī khalqi l-samāwāti wal-arḍi wa-ikh'tilāfi al-layli wal-nahāri laāyātin li-ulī l-albābi ",
+      verse: 483,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 191,
+      image: "",
+      text: "Those who remember Allah standing and sitting and on their sides and they reflect on (the) creation (of) the heavens and the earth Our Lord not You have created this (in) vain Glory be to You so save us (from the) punishment (of) the Fire (191)",
+      transliteration:
+        "alladhīna yadhkurūna l-laha qiyāman waquʿūdan waʿalā junūbihim wayatafakkarūna fī khalqi l-samāwāti wal-arḍi rabbanā mā khalaqta hādhā bāṭilan sub'ḥānaka faqinā ʿadhāba l-nāri ",
+      verse: 484,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 192,
+      image: "",
+      text: "Our Lord indeed [You] whom You admit (to) the Fire then surely You (have) disgraced him and not for the wrongdoers (are) any helpers (192)",
+      transliteration:
+        "rabbanā innaka man tud'khili l-nāra faqad akhzaytahu wamā lilẓẓālimīna min anṣārin ",
+      verse: 485,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 193,
+      image: "",
+      text: "Our Lord indeed we [we] heard a caller calling to the faith that Believe in your Lord so we have believed Our Lord so forgive for us our sins and remove from us our evil deeds and cause us to die with the righteous (193)",
+      transliteration:
+        "rabbanā innanā samiʿ'nā munādiyan yunādī lil'īmāni an āminū birabbikum faāmannā rabbanā fa-igh'fir lanā dhunūbanā wakaffir ʿannā sayyiātinā watawaffanā maʿa l-abrāri ",
+      verse: 486,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 194,
+      image: "",
+      text: "Our Lord grant us what You promised us through Your Messengers and (do) not disgrace us (on the) Day (of) [the] Resurrection Indeed, You (do) not break the promise (194)",
+      transliteration:
+        "rabbanā waātinā mā waʿadttanā ʿalā rusulika walā tukh'zinā yawma l-qiyāmati innaka lā tukh'lifu l-mīʿāda ",
+      verse: 487,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 195,
+      image: "",
+      text: "Then responded to them their Lord Indeed, I (will) not (let go) waste deeds (of the) doer among you [from] (whether) male or female each of you from (the) other So those who emigrated and were driven out from their homes and were harmed in My way and fought and were killed  surely I (will) remove from them their evil deeds and surely I will admit them (to) Gardens flowing from underneath them the rivers  a reward from [near] Allah And Allah  with Him (is the) best reward (195)",
+      transliteration:
+        "fa-is'tajāba lahum rabbuhum annī lā uḍīʿu ʿamala ʿāmilin minkum min dhakarin aw unthā baʿḍukum min baʿḍin fa-alladhīna hājarū wa-ukh'rijū min diyārihim waūdhū fī sabīlī waqātalū waqutilū la-ukaffiranna ʿanhum sayyiātihim wala-ud'khilannahum jannātin tajrī min taḥtihā l-anhāru thawāban min ʿindi l-lahi wal-lahu ʿindahu ḥus'nu l-thawābi ",
+      verse: 488,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 196,
+      image: "",
+      text: "(Let) not deceive you (the) movement (of) those who disbelieved in the land (196)",
+      transliteration:
+        "lā yaghurrannaka taqallubu alladhīna kafarū fī l-bilādi ",
+      verse: 489,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 197,
+      image: "",
+      text: "An enjoyment little then their abode (is) hell  [and] a wretched [the] resting place (197)",
+      transliteration:
+        "matāʿun qalīlun thumma mawāhum jahannamu wabi'sa l-mihādu ",
+      verse: 490,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 198,
+      image: "",
+      text: "But those who fear their Lord for them (will be) Gardens flows from underneath them the rivers will abide forever in it  a hospitality from [near] Allah And what (is) with Allah (is) best for the righteous (198)",
+      transliteration:
+        "lākini alladhīna ittaqaw rabbahum lahum jannātun tajrī min taḥtihā l-anhāru khālidīna fīhā nuzulan min ʿindi l-lahi wamā ʿinda l-lahi khayrun lil'abrāri ",
+      verse: 491,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 199,
+      image: "",
+      text: "And indeed among (the) People (of) the Book (are those) who believe in Allah and what was revealed to you and what was revealed to them  humbly submissive to Allah Not (do) they exchange [with] (the) Verses (of) Allah (for) a price little Those for them their reward (is) with their Lord Indeed Allah (is) swift (in taking) the account (199)",
+      transliteration:
+        "wa-inna min ahli l-kitābi laman yu'minu bil-lahi wamā unzila ilaykum wamā unzila ilayhim khāshiʿīna lillahi lā yashtarūna biāyāti l-lahi thamanan qalīlan ulāika lahum ajruhum ʿinda rabbihim inna l-laha sarīʿu l-ḥisābi ",
+      verse: 492,
+      juz: 4,
+      surah: 3,
+    },
+    {
+      number: 200,
+      image: "",
+      text: "O you who believe[d] Be steadfast and [be] patient and [be] constant and fear Allah so that you may (be) successful (200)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū iṣ'birū waṣābirū warābiṭū wa-ittaqū l-laha laʿallakum tuf'liḥūna ",
+      verse: 493,
+      juz: 4,
+      surah: 3,
     },
   ],
 };

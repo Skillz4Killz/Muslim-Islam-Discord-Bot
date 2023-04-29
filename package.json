@@ -1,0 +1,24 @@
+{
+  "name": "muslim-islam-discord-bot",
+  "version": "1.0.0",
+  "description": "This repo is meant as a template which you can use to create a Discord bot very easily using the [Discordeno library](https://github.com/Skillz4Killz/Discordeno).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc --watch --noEmit",
+    "build": "tsc",
+    "building": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordeno/bot": "^19.0.0-next.5c42bdd",
+    "@prisma/client": "^4.13.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "prisma": "^4.13.0"
+  }
+}

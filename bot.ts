@@ -1,33 +1,19 @@
-import { configs } from "./configs.ts";
-import {
-BASE_URL,
-  BotWithCache,
-  BotWithHelpersPlugin,
-  Collection,
-  createBot,
-  delay,
-  enableCachePlugin,
-  enableCacheSweepers,
-  enableHelpersPlugin,
-  enablePermissionsPlugin,
-HTTPResponseCodes,
-} from "./deps.ts";
-import { Command } from "./src/types/commands.ts";
-import { Task } from "./src/types/tasks.ts";
+import { configs } from "./configs.js";
+import { Bot as BotType, Collection, Intents, createBot } from "./deps.js";
+import { Command } from "./src/types/commands.js";
+import { Monitor } from "./src/types/monitors.js";
+import { Task } from "./src/types/tasks.js";
 
 // MAKE THE BASIC BOT OBJECT
 const bot = createBot({
   token: configs.token,
+  events: {},
+  intents: Intents.GuildMessages | Intents.Guilds | Intents.MessageContent,
 });
 
-// ENABLE ALL THE PLUGINS THAT WILL HELP MAKE IT EASIER TO CODE YOUR BOT
-enableHelpersPlugin(bot);
-enableCachePlugin(bot);
-enableCacheSweepers(bot as BotWithCache);
-enablePermissionsPlugin(bot as BotWithCache);
-
-export interface BotClient extends BotWithCache<BotWithHelpersPlugin> {
+export interface BotClient extends BotType {
   commands: Collection<string, Command>;
+  monitors: Collection<string, Monitor>;
   tasks: Collection<string, Task>;
 }
 
@@ -36,128 +22,23 @@ export const Bot = bot as BotClient;
 // PREPARE COMMANDS HOLDER
 Bot.commands = new Collection();
 Bot.tasks = new Collection();
-// Bot.rest.debug = console.log
-// bot.rest.sendRequest = async function(rest, options) {
-//   try {
-//     // CUSTOM HANDLER FOR USER TO LOG OR WHATEVER WHENEVER A FETCH IS MADE
-//     rest.fetching(options);
+Bot.monitors = new Collection();
 
-//     const response = await fetch(
-//       options.url.startsWith(BASE_URL) ? options.url : `${BASE_URL}/v${rest.version}/${options.url}`,
-//       {
-//         method: options.method,
-//         headers: options.payload?.headers,
-//         body: options.payload?.body,
-//       },
-//     );
-//     rest.fetched(options, response);
-
-//     const bucketIdFromHeaders = rest.processRequestHeaders(
-//       rest,
-//       rest.simplifyUrl(options.url, options.method),
-//       response.headers,
-//     );
-//     // SET THE BUCKET Id IF IT WAS PRESENT
-//     if (bucketIdFromHeaders) {
-//       options.bucketId = bucketIdFromHeaders;
-//     }
-
-//     if (response.status < 200 || response.status >= 400) {
-//       rest.debug(
-//         `[REST - httpError] Payload: ${JSON.stringify(options)} | Response: ${JSON.stringify(response)}`,
-//       );
-//       console.log(JSON.stringify(await response.json()))
-
-//       let error = "REQUEST_UNKNOWN_ERROR";
-//       switch (response.status) {
-//         case HTTPResponseCodes.BadRequest:
-//           error = "The options was improperly formatted, or the server couldn't understand it.";
-//           break;
-//         case HTTPResponseCodes.Unauthorized:
-//           error = "The Authorization header was missing or invalid.";
-//           break;
-//         case HTTPResponseCodes.Forbidden:
-//           error = "The Authorization token you passed did not have permission to the resource.";
-//           break;
-//         case HTTPResponseCodes.NotFound:
-//           error = "The resource at the location specified doesn't exist.";
-//           break;
-//         case HTTPResponseCodes.MethodNotAllowed:
-//           error = "The HTTP method used is not valid for the location specified.";
-//           break;
-//         case HTTPResponseCodes.GatewayUnavailable:
-//           error = "There was not a gateway available to process your options. Wait a bit and retry.";
-//           break;
-//       }
-
-//       // If NOT rate limited remove from queue
-//       if (response.status !== 429) {
-//         rest.invalidBucket.handleCompletedRequest(response.status, false);
-//         const body = response.type ? JSON.stringify(await response.json()) : undefined;
-//         return options.reject?.({
-//           ok: false,
-//           status: response.status,
-//           error,
-//           body,
-//         });
-//       } else {
-//         const json = await response.json();
-
-//         // TOO MANY ATTEMPTS, GET RID OF REQUEST FROM QUEUE.
-//         if (options.retryCount && options.retryCount++ >= rest.maxRetryCount) {
-//           rest.debug(`[REST - RetriesMaxed] ${JSON.stringify(options)}`);
-//           // REMOVE ITEM FROM QUEUE TO PREVENT RETRY
-//           options.reject?.({
-//             ok: false,
-//             status: response.status,
-//             error: "The options was rate limited and it maxed out the retries limit.",
-//           });
-
-//           // @ts-ignore Code should never reach here
-//           return;
-//         } // RATE LIMITED, ADD BACK TO QUEUE
-//         else {
-//           rest.invalidBucket.handleCompletedRequest(
-//             response.status,
-//             response.headers.get("X-RateLimit-Scope") === "shared",
-//           );
-//           await delay(json.retry_after * 1000);
-//           return options.retryRequest?.();
-//         }
-//       }
-//     }
-
-//     // SOMETIMES DISCORD RETURNS AN EMPTY 204 RESPONSE THAT CAN'T BE MADE TO JSON
-//     if (response.status === 204) {
-//       rest.debug(`[REST - FetchSuccess] URL: ${options.url} | ${JSON.stringify(options)}`);
-//       options.respond?.({
-//         ok: true,
-//         status: 204,
-//       });
-//       // @ts-ignore 204 will be void
-//       return;
-//     } else {
-//       // CONVERT THE RESPONSE TO JSON
-//       const json = JSON.stringify(await response.json());
-
-//       rest.debug(`[REST - fetchSuccess] ${JSON.stringify(options)}`);
-//       options.respond?.({
-//         ok: true,
-//         status: 200,
-//         body: json,
-//       });
-
-//       return JSON.parse(json);
-//     }
-//   } catch (error) {
-//     // SOMETHING WENT WRONG, LOG AND RESPOND WITH ERROR
-//     rest.debug(`[REST - fetchFailed] Payload: ${JSON.stringify(options)} | Error: ${error}`);
-//     options.reject?.({
-//       ok: false,
-//       status: 599,
-//       error: `Internal Proxy Error\n${error}`,
-//     });
-
-//     throw new Error(`Something went wrong in sendRequest\n${error}`);
-//   }
-// }
+const props = Bot.transformers.desiredProperties;
+props.interaction.id = true;
+props.interaction.data = true;
+props.interaction.guildId = true;
+props.interaction.channelId = true;
+props.interaction.member = true;
+props.interaction.token = true;
+props.interaction.type = true;
+props.interaction.user = true;
+props.member.permissions = true;
+props.message.author = true;
+props.message.content = true;
+props.message.channelId = true;
+props.message.guildId = true;
+props.user.avatar = true;
+props.user.bot = true;
+props.user.discriminator = true;
+props.user.id = true;

@@ -1,8 +1,8 @@
-import { Collection } from "./deps.ts";
-import { Command } from "./src/types/commands.ts";
-import { CustomEvents } from "./src/types/events.ts";
-import { Monitor } from "./src/types/monitors.ts";
-import { Task } from "./src/types/tasks.ts";
+import { Collection } from "./deps.js";
+import { Command } from "./src/types/commands.js";
+import { CustomEvents } from "./src/types/events.js";
+import { Monitor } from "./src/types/monitors.js";
+import { Task } from "./src/types/tasks.js";
 
 export const botCache = {
   commands: new Collection<string, Command>(),

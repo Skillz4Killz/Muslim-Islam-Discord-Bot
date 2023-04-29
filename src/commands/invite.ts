@@ -3,8 +3,8 @@ import {
   ButtonStyles,
   InteractionResponseTypes,
   MessageComponentTypes,
-} from "../../deps.ts";
-import { createCommand } from "./mod.ts";
+} from "../../deps.js";
+import { createCommand } from "./mod.js";
 
 createCommand({
   name: "invite",
@@ -26,30 +26,29 @@ createCommand({
                   style: ButtonStyles.Link,
                   label: "Invite The Bot!",
                   emoji: {
-                    id: BigInt("759279852389269525"),
+                    id: BigInt("1099768803757400154"),
                     name: "Alhamdulilah",
                     animated: true,
                   },
-                  url:
-                    `https://discordapp.com/oauth2/authorize?client_id=${Bot.id}&scope=bot&permissions=347200`,
+                  url: `https://discordapp.com/oauth2/authorize?client_id=${Bot.id}&scope=bot&permissions=347200`,
                 },
                 {
                   type: MessageComponentTypes.Button,
                   style: ButtonStyles.Link,
                   label: "Need Help?",
                   emoji: {
-                    id: BigInt("821594383915941936"),
+                    id: BigInt("1099768806278176900"),
                     name: "Mashallah",
                     animated: true,
                   },
-                  url: `https://discord.gg/J4NqJ72`,
+                  url: `https://discord.gg/BRwbdQExAB`,
                 },
               ],
             },
           ],
           content: `**Alhamdulilah!**`,
         },
-      },
+      }
     );
   },
 });

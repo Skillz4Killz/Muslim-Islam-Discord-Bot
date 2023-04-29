@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model guilds {
+  id                     String   @id @default(auto()) @map("_id") @db.ObjectId
+  finishMonthlyChannelID String?
+  finishMonthlyUserIDs   String[] @default([])
+  guildID                String   @unique
+}
+
+model users {
+  id                   String  @id @default(auto()) @map("_id") @db.ObjectId
+  finishMonthlyEnabled Boolean @default(false)
+  finishMonthlyVerse   Int     @default(0)
+  userID               String  @unique
+}

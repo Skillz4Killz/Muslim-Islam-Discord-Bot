@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const rum: Surah = {
   name: "Ar-Rum",
@@ -6,417 +6,594 @@ export const rum: Surah = {
     {
       number: 1,
       image: "",
-      text: "Alif, Lam, Meem.",
-      verse: 3279,
+      text: "Alif Lam Meem (1)",
+      transliteration: "alif-lam-meem ",
+      verse: 3410,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 2,
       image: "",
-      text: "The Byzantines have been defeated",
-      verse: 3280,
+      text: "Have been defeated the Romans (2)",
+      transliteration: "ghulibati l-rūmu ",
+      verse: 3411,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 3,
       image: "",
-      text: "In the nearest land. But they, after their defeat, will overcome.",
-      verse: 3281,
+      text: "In (the) nearest land But they after after their defeat will overcome (3)",
+      transliteration: "fī adnā l-arḍi wahum min baʿdi ghalabihim sayaghlibūna ",
+      verse: 3412,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 4,
       image: "",
-      text:
-        "Within three to nine years. To Allah belongs the command before and after. And that day the believers will rejoice",
-      verse: 3282,
+      text: "Within a few years For Allah (is) the command before before and after and after And that day will rejoice the believers (4)",
+      transliteration:
+        "fī biḍ'ʿi sinīna lillahi l-amru min qablu wamin baʿdu wayawma-idhin yafraḥu l-mu'minūna ",
+      verse: 3413,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 5,
       image: "",
-      text:
-        "In the victory of Allah . He gives victory to whom He wills, and He is the Exalted in Might, the Merciful.",
-      verse: 3283,
+      text: "With (the) help (of) Allah He helps whom He wills And He (is) the All-Mighty the Most Merciful (5)",
+      transliteration:
+        "binaṣri l-lahi yanṣuru man yashāu wahuwa l-ʿazīzu l-raḥīmu ",
+      verse: 3414,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 6,
       image: "",
-      text:
-        "[It is] the promise of Allah . Allah does not fail in His promise, but most of the people do not know.",
-      verse: 3284,
+      text: "(It is the) Promise (of) Allah (Does) not fail Allah (in) His promise but most (of) [the] people (do) not know (6)",
+      transliteration:
+        "waʿda l-lahi lā yukh'lifu l-lahu waʿdahu walākinna akthara l-nāsi lā yaʿlamūna ",
+      verse: 3415,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 7,
       image: "",
-      text:
-        "They know what is apparent of the worldly life, but they, of the Hereafter, are unaware.",
-      verse: 3285,
+      text: "They know (the) apparent of the life (of) the world but they about the Hereafter [they] (are) heedless (7)",
+      transliteration:
+        "yaʿlamūna ẓāhiran mina l-ḥayati l-dun'yā wahum ʿani l-ākhirati hum ghāfilūna ",
+      verse: 3416,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 8,
       image: "",
-      text:
-        "Do they not contemplate within themselves? Allah has not created the heavens and the earth and what is between them except in truth and for a specified term. And indeed, many of the people, in [the matter of] the meeting with their Lord, are disbelievers.",
-      verse: 3286,
+      text: "Do not they ponder within themselves Not Allah (has) created Allah (has) created the heavens and the earth and what (is) between them except in truth and (for) a term appointed And indeed many of the people in (the) meeting (with) their Lord surely (are) disbelievers (8)",
+      transliteration:
+        "awalam yatafakkarū fī anfusihim mā khalaqa l-lahu l-samāwāti wal-arḍa wamā baynahumā illā bil-ḥaqi wa-ajalin musamman wa-inna kathīran mina l-nāsi biliqāi rabbihim lakāfirūna ",
+      verse: 3417,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 9,
       image: "",
-      text:
-        "Have they not traveled through the earth and observed how was the end of those before them? They were greater than them in power, and they plowed the earth and built it up more than they have built it up, and their messengers came to them with clear evidences. And Allah would not ever have wronged them, but they were wronging themselves.",
-      verse: 3287,
+      text: "Have not they traveled in the earth and observed how was (the) end (of) those before them before them They were mightier than them (in) strength and they dug the earth and built (on) it more than what they have built (on) it And came (to) them their Messengers with clear proofs So not was Allah to wrong them but they were themselves (doing) wrong (9)",
+      transliteration:
+        "awalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim kānū ashadda min'hum quwwatan wa-athārū l-arḍa waʿamarūhā akthara mimmā ʿamarūhā wajāathum rusuluhum bil-bayināti famā kāna l-lahu liyaẓlimahum walākin kānū anfusahum yaẓlimūna ",
+      verse: 3418,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 10,
       image: "",
-      text:
-        "Then the end of those who did evil was the worst [consequence] because they denied the signs of Allah and used to ridicule them.",
-      verse: 3288,
+      text: "Then was (the) end (of) those who did evil  the evil because they denied (the) Signs (of) Allah and were of them making mockery (10)",
+      transliteration:
+        "thumma kāna ʿāqibata alladhīna asāū l-sūā an kadhabū biāyāti l-lahi wakānū bihā yastahziūna ",
+      verse: 3419,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 11,
       image: "",
-      text:
-        "Allah begins creation; then He will repeat it; then to Him you will be returned.",
-      verse: 3289,
+      text: "Allah originates the creation then He repeats it then to Him you will be returned (11)",
+      transliteration:
+        "al-lahu yabda-u l-khalqa thumma yuʿīduhu thumma ilayhi tur'jaʿūna ",
+      verse: 3420,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 12,
       image: "",
-      text: "And the Day the Hour appears the criminals will be in despair.",
-      verse: 3290,
+      text: "And (the) Day will (be) established the Hour will (be in) despair the criminals (12)",
+      transliteration: "wayawma taqūmu l-sāʿatu yub'lisu l-muj'rimūna ",
+      verse: 3421,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 13,
       image: "",
-      text:
-        "And there will not be for them among their [alleged] partners any intercessors, and they will [then] be disbelievers in their partners.",
-      verse: 3291,
+      text: "And not will be for them among theirs partners any intercessors and they will be in their partners disbelievers (13)",
+      transliteration:
+        "walam yakun lahum min shurakāihim shufaʿāu wakānū bishurakāihim kāfirīna ",
+      verse: 3422,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 14,
       image: "",
-      text:
-        "And the Day the Hour appears -  that Day they will become separated.",
-      verse: 3292,
+      text: "And (the) Day will (be) established the Hour that Day they will become separated (14)",
+      transliteration: "wayawma taqūmu l-sāʿatu yawma-idhin yatafarraqūna ",
+      verse: 3423,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 15,
       image: "",
-      text:
-        "And as for those who had believed and done righteous deeds, they will be in a garden [of Paradise], delighted.",
-      verse: 3293,
+      text: "Then as for those who believed and did righteous deeds so they in a Garden will be delighted (15)",
+      transliteration:
+        "fa-ammā alladhīna āmanū waʿamilū l-ṣāliḥāti fahum fī rawḍatin yuḥ'barūna ",
+      verse: 3424,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 16,
       image: "",
-      text:
-        "But as for those who disbelieved and denied Our verses and the meeting of the Hereafter, those will be brought into the punishment [to remain].",
-      verse: 3294,
+      text: "But as for those who disbelieved and denied Our Signs and (the) meeting (of) the Hereafter then those in the punishment (will be) brought forth (16)",
+      transliteration:
+        "wa-ammā alladhīna kafarū wakadhabū biāyātinā waliqāi l-ākhirati fa-ulāika fī l-ʿadhābi muḥ'ḍarūna ",
+      verse: 3425,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 17,
       image: "",
-      text:
-        "So exalted is Allah when you reach the evening and when you reach the morning.",
-      verse: 3295,
+      text: "So glory be to Allah when you reach the evening and when you reach the morning (17)",
+      transliteration: "fasub'ḥāna l-lahi ḥīna tum'sūna waḥīna tuṣ'biḥūna ",
+      verse: 3426,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 18,
       image: "",
-      text:
-        "And to Him is [due all] praise throughout the heavens and the earth. And [exalted is He] at night and when you are at noon.",
-      verse: 3296,
+      text: "And for Him (are) all praises in the heavens and the earth and (at) night and when you are at noon (18)",
+      transliteration:
+        "walahu l-ḥamdu fī l-samāwāti wal-arḍi waʿashiyyan waḥīna tuẓ'hirūna ",
+      verse: 3427,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 19,
       image: "",
-      text:
-        "He brings the living out of the dead and brings the dead out of the living and brings to life the earth after its lifelessness. And thus will you be brought out.",
-      verse: 3297,
+      text: "He brings forth the living from the dead and He brings forth the dead from the living and He gives life (to) the earth after its death and thus you will be brought forth (19)",
+      transliteration:
+        "yukh'riju l-ḥaya mina l-mayiti wayukh'riju l-mayita mina l-ḥayi wayuḥ'yī l-arḍa baʿda mawtihā wakadhālika tukh'rajūna ",
+      verse: 3428,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 20,
       image: "",
-      text:
-        "And of His signs is that He created you from dust; then, suddenly you were human beings dispersing [throughout the earth].",
-      verse: 3298,
+      text: "And among His Signs (is) that He created you from dust then behold You (are) human beings dispersing (20)",
+      transliteration:
+        "wamin āyātihi an khalaqakum min turābin thumma idhā antum basharun tantashirūna ",
+      verse: 3429,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 21,
       image: "",
-      text:
-        "And of His signs is that He created for you from yourselves mates that you may find tranquillity in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.",
-      verse: 3299,
+      text: "And among His Signs (is) that He created for you from yourselves mates that you may find tranquility in them and He placed between you love and mercy Indeed in that surely (are) Signs for a people who reflect (21)",
+      transliteration:
+        "wamin āyātihi an khalaqa lakum min anfusikum azwājan litaskunū ilayhā wajaʿala baynakum mawaddatan waraḥmatan inna fī dhālika laāyātin liqawmin yatafakkarūna ",
+      verse: 3430,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 22,
       image: "",
-      text:
-        "And of His signs is the creation of the heavens and the earth and the diversity of your languages and your colors. Indeed in that are signs for those of knowledge.",
-      verse: 3300,
+      text: "And among His Signs (is the) creation (of) the heavens and the earth and the diversity (of) your languages and your colors Indeed in that surely (are) Signs for those of knowledge (22)",
+      transliteration:
+        "wamin āyātihi khalqu l-samāwāti wal-arḍi wa-ikh'tilāfu alsinatikum wa-alwānikum inna fī dhālika laāyātin lil'ʿālimīna ",
+      verse: 3431,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 23,
       image: "",
-      text:
-        "And of His signs is your sleep by night and day and your seeking of His bounty. Indeed in that are signs for a people who listen.",
-      verse: 3301,
+      text: "And among His Signs (is) your sleep by night and the day [and] your seeking of His Bounty Indeed in that surely (are) Signs for a people who listen (23)",
+      transliteration:
+        "wamin āyātihi manāmukum bi-al-layli wal-nahāri wa-ib'tighāukum min faḍlihi inna fī dhālika laāyātin liqawmin yasmaʿūna ",
+      verse: 3432,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 24,
       image: "",
-      text:
-        "And of His signs is [that] He shows you the lightening [causing] fear and aspiration, and He sends down rain from the sky by which He brings to life the earth after its lifelessness. Indeed in that are signs for a people who use reason.",
-      verse: 3302,
+      text: "And among His Signs He shows you the lightning (causing) fear and hope and He sends down from the sky water and gives life therewith (to) the earth after its death Indeed in that surely (are) Signs for a people who use intellect (24)",
+      transliteration:
+        "wamin āyātihi yurīkumu l-barqa khawfan waṭamaʿan wayunazzilu mina l-samāi māan fayuḥ'yī bihi l-arḍa baʿda mawtihā inna fī dhālika laāyātin liqawmin yaʿqilūna ",
+      verse: 3433,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 25,
       image: "",
-      text:
-        "And of His signs is that the heaven and earth remain by His command. Then when He calls you with a [single] call from the earth, immediately you will come forth.",
-      verse: 3303,
+      text: "And among His Signs (is) that stands the heavens and the earth by His Command Then when He calls you (with) a call from the earth behold You will come forth (25)",
+      transliteration:
+        "wamin āyātihi an taqūma l-samāu wal-arḍu bi-amrihi thumma idhā daʿākum daʿwatan mina l-arḍi idhā antum takhrujūna ",
+      verse: 3434,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 26,
       image: "",
-      text:
-        "And to Him belongs whoever is in the heavens and earth. All are to Him devoutly obedient.",
-      verse: 3304,
+      text: "And to Him (belongs) whoever (is) in the heavens and the earth All to Him (are) obedient (26)",
+      transliteration: "walahu man fī l-samāwāti wal-arḍi kullun lahu qānitūna ",
+      verse: 3435,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 27,
       image: "",
-      text:
-        "And it is He who begins creation; then He repeats it, and that is [even] easier for Him. To Him belongs the highest attribute in the heavens and earth. And He is the Exalted in Might, the Wise.",
-      verse: 3305,
+      text: "And He (is) the One Who originates the creation then repeats it and it (is) easier for Him And for Him (is) the description the highest in the heavens and the earth And He (is) the All-Mighty the All-Wise (27)",
+      transliteration:
+        "wahuwa alladhī yabda-u l-khalqa thumma yuʿīduhu wahuwa ahwanu ʿalayhi walahu l-mathalu l-aʿlā fī l-samāwāti wal-arḍi wahuwa l-ʿazīzu l-ḥakīmu ",
+      verse: 3436,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 28,
       image: "",
-      text:
-        "He presents to you an example from yourselves. Do you have among those whom your right hands possess any partners in what We have provided for you so that you are equal therein [and] would fear them as your fear of one another [within a partnership]? Thus do We detail the verses for a people who use reason.",
-      verse: 3306,
+      text: "He sets forth to you an example from yourselves Is for you among what possess your right hands any partners in what We have provided you so you in it (are) equal you fear them as you fear yourselves Thus We explain the Verses for a people (who) use reason (28)",
+      transliteration:
+        "ḍaraba lakum mathalan min anfusikum hal lakum min mā malakat aymānukum min shurakāa fī mā razaqnākum fa-antum fīhi sawāon takhāfūnahum kakhīfatikum anfusakum kadhālika nufaṣṣilu l-āyāti liqawmin yaʿqilūna ",
+      verse: 3437,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 29,
       image: "",
-      text:
-        "But those who wrong follow their [own] desires without knowledge. Then who can guide one whom Allah has sent astray? And for them there are no helpers.",
-      verse: 3307,
+      text: "Nay follow those who do wrong their desires without knowledge Then who (can) guide (one) whom Allah has let go astray Allah has let go astray And not for them any helpers (29)",
+      transliteration:
+        "bali ittabaʿa alladhīna ẓalamū ahwāahum bighayri ʿil'min faman yahdī man aḍalla l-lahu wamā lahum min nāṣirīna ",
+      verse: 3438,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 30,
       image: "",
-      text:
-        "So direct your face toward the religion, inclining to truth. [Adhere to] the fitrah of Allah upon which He has created [all] people. No change should there be in the creation of Allah . That is the correct religion, but most of the people do not know.",
-      verse: 3308,
+      text: "So set your face to the religion upright Nature (made by) Allah (upon) which He has created mankind [on it] No change (should there be) in the creation (of) Allah That (is) the religion the correct but most men (do) not know (30)",
+      transliteration:
+        "fa-aqim wajhaka lilddīni ḥanīfan fiṭ'rata l-lahi allatī faṭara l-nāsa ʿalayhā lā tabdīla likhalqi l-lahi dhālika l-dīnu l-qayimu walākinna akthara l-nāsi lā yaʿlamūna ",
+      verse: 3439,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 31,
       image: "",
-      text:
-        "[Adhere to it], turning in repentance to Him, and fear Him and establish prayer and do not be of those who associate others with Allah",
-      verse: 3309,
+      text: "Turning to Him and fear Him and establish the prayer and (do) not be of the polytheists (31)",
+      transliteration:
+        "munībīna ilayhi wa-ittaqūhu wa-aqīmū l-ṣalata walā takūnū mina l-mush'rikīna ",
+      verse: 3440,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 32,
       image: "",
-      text:
-        "[Or] of those who have divided their religion and become sects, every faction rejoicing in what it has.",
-      verse: 3310,
+      text: "Of those who divide their religion and become sects each party in what they have rejoicing (32)",
+      transliteration:
+        "mina alladhīna farraqū dīnahum wakānū shiyaʿan kullu ḥiz'bin bimā ladayhim fariḥūna ",
+      verse: 3441,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 33,
       image: "",
-      text:
-        "And when adversity touches the people, they call upon their Lord, turning in repentance to Him. Then when He lets them taste mercy from Him, at once a party of them associate others with their Lord,",
-      verse: 3311,
+      text: "And when touches people hardship they call their Lord turning to Him Then when He causes them to taste from Him Mercy behold A party of them with their Lord associate partners (33)",
+      transliteration:
+        "wa-idhā massa l-nāsa ḍurrun daʿaw rabbahum munībīna ilayhi thumma idhā adhāqahum min'hu raḥmatan idhā farīqun min'hum birabbihim yush'rikūna ",
+      verse: 3442,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 34,
       image: "",
-      text:
-        "So that they will deny what We have granted them. Then enjoy yourselves, for you are going to know.",
-      verse: 3312,
+      text: "So as to deny [in] what We have granted them Then enjoy but soon you will know (34)",
+      transliteration: "liyakfurū bimā ātaynāhum fatamattaʿū fasawfa taʿlamūna ",
+      verse: 3443,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 35,
       image: "",
-      text:
-        "Or have We sent down to them an authority, and it speaks of what they were associating with Him?",
-      verse: 3313,
+      text: "Or have We sent to them an authority and it speaks of what they were with Him associating (35)",
+      transliteration:
+        "am anzalnā ʿalayhim sul'ṭānan fahuwa yatakallamu bimā kānū bihi yush'rikūna ",
+      verse: 3444,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 36,
       image: "",
-      text:
-        "And when We let the people taste mercy, they rejoice therein, but if evil afflicts them for what their hands have put forth, immediately they despair.",
-      verse: 3314,
+      text: "And when We cause people to taste We cause people to taste mercy they rejoice therein But if afflicts them an evil for what have sent forth their hands behold They despair (36)",
+      transliteration:
+        "wa-idhā adhaqnā l-nāsa raḥmatan fariḥū bihā wa-in tuṣib'hum sayyi-atun bimā qaddamat aydīhim idhā hum yaqnaṭūna ",
+      verse: 3445,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 37,
       image: "",
-      text:
-        "Do they not see that Allah extends provision for whom He wills and restricts [it]? Indeed, in that are signs for a people who believe.",
-      verse: 3315,
+      text: "Do not they see that Allah extends the provision for whom He wills and straitens (it) Indeed in that surely (are) Signs for a people who believe (37)",
+      transliteration:
+        "awalam yaraw anna l-laha yabsuṭu l-riz'qa liman yashāu wayaqdiru inna fī dhālika laāyātin liqawmin yu'minūna ",
+      verse: 3446,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 38,
       image: "",
-      text:
-        "So give the relative his right, as well as the needy and the traveler. That is best for those who desire the countenance of Allah, and it is they who will be the successful.",
-      verse: 3316,
+      text: "So give the relative the relative his right and the poor and the wayfarer and the wayfarer That (is) best for those who desire (the) Countenance (of) Allah And those they (are) the successful ones (38)",
+      transliteration:
+        "faāti dhā l-qur'bā ḥaqqahu wal-mis'kīna wa-ib'na l-sabīli dhālika khayrun lilladhīna yurīdūna wajha l-lahi wa-ulāika humu l-muf'liḥūna ",
+      verse: 3447,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 39,
       image: "",
-      text:
-        "And whatever you give for interest to increase within the wealth of people will not increase with Allah . But what you give in zakah, desiring the countenance of Allah - those are the multipliers.",
-      verse: 3317,
+      text: "And what you give for usury to increase in (the) wealth (of) people not (will) increase with Allah But what you give of zakah desiring (the) Countenance (of) Allah then those [they] (will) get manifold (39)",
+      transliteration:
+        "wamā ātaytum min riban liyarbuwā fī amwāli l-nāsi falā yarbū ʿinda l-lahi wamā ātaytum min zakatin turīdūna wajha l-lahi fa-ulāika humu l-muḍ'ʿifūna ",
+      verse: 3448,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 40,
       image: "",
-      text:
-        'Allah is the one who created you, then provided for you, then will cause you to die, and then will give you life. Are there any of your "partners" who does anything of that? Exalted is He and high above what they associate with Him.',
-      verse: 3318,
+      text: "Allah (is) the One Who created you then He provided (for) you then He will cause you to die then He will give you life Is (there) any (of) your partners who does of that any thing Glory be to Him and exalted is He above what they associate (40)",
+      transliteration:
+        "al-lahu alladhī khalaqakum thumma razaqakum thumma yumītukum thumma yuḥ'yīkum hal min shurakāikum man yafʿalu min dhālikum min shayin sub'ḥānahu wataʿālā ʿammā yush'rikūna ",
+      verse: 3449,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 41,
       image: "",
-      text:
-        "Corruption has appeared throughout the land and sea by [reason of] what the hands of people have earned so He may let them taste part of [the consequence of] what they have done that perhaps they will return [to righteousness].",
-      verse: 3319,
+      text: "Has appeared the corruption in the land and the sea for what have earned (the) hands (of) people so that He may let them taste a part (of) that which they have done so that they may return (41)",
+      transliteration:
+        "ẓahara l-fasādu fī l-bari wal-baḥri bimā kasabat aydī l-nāsi liyudhīqahum baʿḍa alladhī ʿamilū laʿallahum yarjiʿūna ",
+      verse: 3450,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 42,
       image: "",
-      text:
-        'Say, [O Muhammad], "Travel through the land and observe how was the end of those before. Most of them were associators [of others with Allah ].',
-      verse: 3320,
+      text: "Say Travel in the earth and see how was (the) end (of) those who (were) before (were) before Most of them were Most of them were polytheists (42)",
+      transliteration:
+        "qul sīrū fī l-arḍi fa-unẓurū kayfa kāna ʿāqibatu alladhīna min qablu kāna aktharuhum mush'rikīna ",
+      verse: 3451,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 43,
       image: "",
-      text:
-        "So direct your face toward the correct religion before a Day comes from Allah of which there is no repelling. That Day, they will be divided.",
-      verse: 3321,
+      text: "So set your face to the religion right before before [that] comes a Day not (can be) averted [it] from Allah That Day they will be divided (43)",
+      transliteration:
+        "fa-aqim wajhaka lilddīni l-qayimi min qabli an yatiya yawmun lā maradda lahu mina l-lahi yawma-idhin yaṣṣaddaʿūna ",
+      verse: 3452,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 44,
       image: "",
-      text:
-        "Whoever disbelieves -  upon him is [the consequence of] his disbelief. And whoever does righteousness -  they are for themselves preparing,",
-      verse: 3322,
+      text: "Whoever disbelieves then against him (is) his disbelief And whoever does righteousness then for themselves they are preparing (44)",
+      transliteration:
+        "man kafara faʿalayhi kuf'ruhu waman ʿamila ṣāliḥan fali-anfusihim yamhadūna ",
+      verse: 3453,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 45,
       image: "",
-      text:
-        "That He may reward those who have believed and done righteous deeds out of His bounty. Indeed, He does not like the disbelievers.",
-      verse: 3323,
+      text: "That He may reward those who believe and do righteous deeds (out) of His Bounty Indeed, He (does) not like the disbelievers (45)",
+      transliteration:
+        "liyajziya alladhīna āmanū waʿamilū l-ṣāliḥāti min faḍlihi innahu lā yuḥibbu l-kāfirīna ",
+      verse: 3454,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 46,
       image: "",
-      text:
-        "And of His signs is that He sends the winds as bringers of good tidings and to let you taste His mercy and so the ships may sail at His command and so you may seek of His bounty, and perhaps you will be grateful.",
-      verse: 3324,
+      text: "And among His Signs (is) that He sends the winds (as) bearers of glad tidings and to let you taste of His Mercy and that may sail the ships at His Command and that you may seek of His Bounty and that you may be grateful (46)",
+      transliteration:
+        "wamin āyātihi an yur'sila l-riyāḥa mubashirātin waliyudhīqakum min raḥmatihi walitajriya l-ful'ku bi-amrihi walitabtaghū min faḍlihi walaʿallakum tashkurūna ",
+      verse: 3455,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 47,
       image: "",
-      text:
-        "And We have already sent messengers before you to their peoples, and they came to them with clear evidences; then We took retribution from those who committed crimes, and incumbent upon Us was support of the believers.",
-      verse: 3325,
+      text: "And verily We sent before you before you Messengers to their people and they came to them with clear proofs then We took retribution from those who committed crimes And it was incumbent upon Us (to) help the believers (47)",
+      transliteration:
+        "walaqad arsalnā min qablika rusulan ilā qawmihim fajāūhum bil-bayināti fa-intaqamnā mina alladhīna ajramū wakāna ḥaqqan ʿalaynā naṣru l-mu'minīna ",
+      verse: 3456,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 48,
       image: "",
-      text:
-        "It is Allah who sends the winds, and they stir the clouds and spread them in the sky however He wills, and He makes them fragments so you see the rain emerge from within them. And when He causes it to fall upon whom He wills of His servants, immediately they rejoice",
-      verse: 3326,
+      text: "Allah (is) the One Who sends the winds so they raise (the) clouds then He spreads them in the sky how He wills and He makes them fragments so you see the rain coming forth from their midst Then when He causes it to fall on He causes it to fall on whom He wills of His slaves behold They rejoice (48)",
+      transliteration:
+        "al-lahu alladhī yur'silu l-riyāḥa fatuthīru saḥāban fayabsuṭuhu fī l-samāi kayfa yashāu wayajʿaluhu kisafan fatarā l-wadqa yakhruju min khilālihi fa-idhā aṣāba bihi man yashāu min ʿibādihi idhā hum yastabshirūna ",
+      verse: 3457,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 49,
       image: "",
-      text:
-        "Although they were, before it was sent down upon them -  before that, in despair.",
-      verse: 3327,
+      text: "And certainly they were before before [that] it was sent down upon them [before it] [before it] surely in despair (49)",
+      transliteration:
+        "wa-in kānū min qabli an yunazzala ʿalayhim min qablihi lamub'lisīna ",
+      verse: 3458,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 50,
       image: "",
-      text:
-        "So observe the effects of the mercy of Allah -  how He gives life to the earth after its lifelessness. Indeed, that [same one] will give life to the dead, and He is over all things competent.",
-      verse: 3328,
+      text: "So look at (the) effects (of the) Mercy (of) Allah how He gives life (to) the earth after its death Indeed that surely He (will) give life (to) the dead And He (is) on every thing All-Powerful (50)",
+      transliteration:
+        "fa-unẓur ilā āthāri raḥmati l-lahi kayfa yuḥ'yī l-arḍa baʿda mawtihā inna dhālika lamuḥ'yī l-mawtā wahuwa ʿalā kulli shayin qadīrun ",
+      verse: 3459,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 51,
       image: "",
-      text:
-        "But if We should send a [bad] wind and they saw [their crops] turned yellow, they would remain thereafter disbelievers.",
-      verse: 3329,
+      text: "But if We sent a wind and they see it turn yellow certainly they continue after it after it (in) disbelief (51)",
+      transliteration:
+        "wala-in arsalnā rīḥan fara-awhu muṣ'farran laẓallū min baʿdihi yakfurūna ",
+      verse: 3460,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 52,
       image: "",
-      text:
-        "So indeed, you will not make the dead hear, nor will you make the deaf hear the call when they turn their backs, retreating.",
-      verse: 3330,
+      text: "So indeed, you (can) not make the dead hear make the dead hear and not make the deaf hear make the deaf hear the call when they turn retreating (52)",
+      transliteration:
+        "fa-innaka lā tus'miʿu l-mawtā walā tus'miʿu l-ṣuma l-duʿāa idhā wallaw mud'birīna ",
+      verse: 3461,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 53,
       image: "",
-      text:
-        "And you cannot guide the blind away from their error. You will only make hear those who believe in Our verses so they are Muslims [in submission to Allah ].",
-      verse: 3331,
+      text: "And not you can guide the blind from their error Not you can make hear except (those) who believe in Our Verses so they surrender (53)",
+      transliteration:
+        "wamā anta bihādi l-ʿum'yi ʿan ḍalālatihim in tus'miʿu illā man yu'minu biāyātinā fahum mus'limūna ",
+      verse: 3462,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 54,
       image: "",
-      text:
-        "Allah is the one who created you from weakness, then made after weakness strength, then made after strength weakness and white hair. He creates what He wills, and He is the Knowing, the Competent.",
-      verse: 3332,
+      text: "Allah (is) the One Who created you from weakness then made after after weakness strength then made after after strength weakness and gray hair He creates what He wills and He (is) the All-Knower the All-Powerful (54)",
+      transliteration:
+        "al-lahu alladhī khalaqakum min ḍaʿfin thumma jaʿala min baʿdi ḍaʿfin quwwatan thumma jaʿala min baʿdi quwwatin ḍaʿfan washaybatan yakhluqu mā yashāu wahuwa l-ʿalīmu l-qadīru ",
+      verse: 3463,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 55,
       image: "",
-      text:
-        "And the Day the Hour appears the criminals will swear they had remained but an hour. Thus they were deluded.",
-      verse: 3333,
+      text: "And (the) Day will (be) established the Hour will swear the criminals not they remained but an hour Thus they were deluded (55)",
+      transliteration:
+        "wayawma taqūmu l-sāʿatu yuq'simu l-muj'rimūna mā labithū ghayra sāʿatin kadhālika kānū yu'fakūna ",
+      verse: 3464,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 56,
       image: "",
-      text:
-        'But those who were given knowledge and faith will say, "You remained the extent of Allah\'s decree until the Day of Resurrection, and this is the Day of Resurrection, but you did not used to know."',
-      verse: 3334,
+      text: "But will say those who were given the knowledge and the faith Verily you remained by (the) Decree (of) Allah until (the) Day (of) Resurrection And this (is the) Day (of) the Resurrection but you were not knowing (56)",
+      transliteration:
+        "waqāla alladhīna ūtū l-ʿil'ma wal-īmāna laqad labith'tum fī kitābi l-lahi ilā yawmi l-baʿthi fahādhā yawmu l-baʿthi walākinnakum kuntum lā taʿlamūna ",
+      verse: 3465,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 57,
       image: "",
-      text:
-        "So that Day, their excuse will not benefit those who wronged, nor will they be asked to appease [ Allah ].",
-      verse: 3335,
+      text: "So that Day not will profit those who wronged their excuses and not they will be allowed to make amends (57)",
+      transliteration:
+        "fayawma-idhin lā yanfaʿu alladhīna ẓalamū maʿdhiratuhum walā hum yus'taʿtabūna ",
+      verse: 3466,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 58,
       image: "",
-      text:
-        'And We have certainly presented to the people in this Qur\'an from every [kind of] example. But, [O Muhammad], if you should bring them a sign, the disbelievers will surely say, "You [believers] are but falsifiers."',
-      verse: 3336,
+      text: "And verily We (have) set forth for mankind in this  [the] Quran of every example But if you bring them a sign surely will say those who disbelieve Not you (are) except falsifiers (58)",
+      transliteration:
+        "walaqad ḍarabnā lilnnāsi fī hādhā l-qur'āni min kulli mathalin wala-in ji'tahum biāyatin layaqūlanna alladhīna kafarū in antum illā mub'ṭilūna ",
+      verse: 3467,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 59,
       image: "",
-      text: "Thus does Allah seal the hearts of those who do not know.",
-      verse: 3337,
+      text: "Thus Allah seals Allah seals [on] (the) hearts (of) those who (do) not know (59)",
+      transliteration:
+        "kadhālika yaṭbaʿu l-lahu ʿalā qulūbi alladhīna lā yaʿlamūna ",
+      verse: 3468,
+      juz: 21,
+      surah: 30,
     },
     {
       number: 60,
       image: "",
-      text:
-        "So be patient. Indeed, the promise of Allah is truth. And let them not disquiet you who are not certain [in faith].",
-      verse: 3338,
+      text: "So be patient Indeed (the) Promise (of) Allah (is) true And (let) not take you in light estimation those who (are) not certain in faith (60)",
+      transliteration:
+        "fa-iṣ'bir inna waʿda l-lahi ḥaqqun walā yastakhiffannaka alladhīna lā yūqinūna ",
+      verse: 3469,
+      juz: 21,
+      surah: 30,
     },
   ],
 };

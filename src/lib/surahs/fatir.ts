@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const fatir: Surah = {
   name: "Fatir",
@@ -6,312 +6,445 @@ export const fatir: Surah = {
     {
       number: 1,
       image: "",
-      text:
-        "[All] praise is [due] to Allah, Creator of the heavens and the earth, [who] made the angels messengers having wings, two or three or four. He increases in creation what He wills. Indeed, Allah is over all things competent.",
-      verse: 3530,
+      text: "All praises (be) to Allah Originator (of) the heavens and the earth (Who) makes the Angels messengers having wings having wings two or three or four He increases in the creation what He wills Indeed Allah (is) on every thing All-Powerful (1)",
+      transliteration:
+        "al-ḥamdu lillahi fāṭiri l-samāwāti wal-arḍi jāʿili l-malāikati rusulan ulī ajniḥatin mathnā wathulātha warubāʿa yazīdu fī l-khalqi mā yashāu inna l-laha ʿalā kulli shayin qadīrun ",
+      verse: 3661,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 2,
       image: "",
-      text:
-        "Whatever Allah grants to people of mercy -  none can withhold it; and whatever He withholds -  none can release it thereafter. And He is the Exalted in Might, the Wise.",
-      verse: 3531,
+      text: "What Allah grants Allah grants to mankind of Mercy then none (can) withhold it And what He withholds then none (can) release it thereafter thereafter And He (is) the All-Mighty the All-Wise (2)",
+      transliteration:
+        "mā yaftaḥi l-lahu lilnnāsi min raḥmatin falā mum'sika lahā wamā yum'sik falā mur'sila lahu min baʿdihi wahuwa l-ʿazīzu l-ḥakīmu ",
+      verse: 3662,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 3,
       image: "",
-      text:
-        "O mankind, remember the favor of Allah upon you. Is there any creator other than Allah who provides for you from the heaven and earth? There is no deity except Him, so how are you deluded?",
-      verse: 3532,
+      text: "O mankind Remember (the) Favor (of) Allah upon you Is (there) any creator other (than) Allah other (than) Allah who provides for you from the sky and the earth (There is) no god but He Then, how (are) you deluded (3)",
+      transliteration:
+        "yāayyuhā l-nāsu udh'kurū niʿ'mata l-lahi ʿalaykum hal min khāliqin ghayru l-lahi yarzuqukum mina l-samāi wal-arḍi lā ilāha illā huwa fa-annā tu'fakūna ",
+      verse: 3663,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 4,
       image: "",
-      text:
-        "And if they deny you, [O Muhammad] -  already were messengers denied before you. And to Allah are returned [all] matters.",
-      verse: 3533,
+      text: "And if they deny you then certainly were denied Messengers before you before you And to Allah return the matters (4)",
+      transliteration:
+        "wa-in yukadhibūka faqad kudhibat rusulun min qablika wa-ilā l-lahi tur'jaʿu l-umūru ",
+      verse: 3664,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 5,
       image: "",
-      text:
-        "O mankind, indeed the promise of Allah is truth, so let not the worldly life delude you and be not deceived about Allah by the Deceiver.",
-      verse: 3534,
+      text: "O mankind Indeed (the) promise (of) Allah (is) true So (let) not deceive you the life (of) the world and (let) not deceive you about Allah the Deceiver (5)",
+      transliteration:
+        "yāayyuhā l-nāsu inna waʿda l-lahi ḥaqqun falā taghurrannakumu l-ḥayatu l-dun'yā walā yaghurrannakum bil-lahi l-gharūru ",
+      verse: 3665,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 6,
       image: "",
-      text:
-        "Indeed, Satan is an enemy to you; so take him as an enemy. He only invites his party to be among the companions of the Blaze.",
-      verse: 3535,
+      text: "Indeed the Shaitaan (is) to you an enemy so take him (as) an enemy Only he invites his party that they may be among (the) companions (of) the Blaze (6)",
+      transliteration:
+        "inna l-shayṭāna lakum ʿaduwwun fa-ittakhidhūhu ʿaduwwan innamā yadʿū ḥiz'bahu liyakūnū min aṣḥābi l-saʿīri ",
+      verse: 3666,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 7,
       image: "",
-      text:
-        "Those who disbelieve will have a severe punishment, and those who believe and do righteous deeds will have forgiveness and great reward.",
-      verse: 3536,
+      text: "Those who disbelieve for them (will be) a punishment severe and those who believe and do righteous deeds for them (will be) forgiveness and a reward great (7)",
+      transliteration:
+        "alladhīna kafarū lahum ʿadhābun shadīdun wa-alladhīna āmanū waʿamilū l-ṣāliḥāti lahum maghfiratun wa-ajrun kabīrun ",
+      verse: 3667,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 8,
       image: "",
-      text:
-        "Then is one to whom the evil of his deed has been made attractive so he considers it good [like one rightly guided]? For indeed, Allah sends astray whom He wills and guides whom He wills. So do not let yourself perish over them in regret. Indeed, Allah is Knowing of what they do.",
-      verse: 3537,
+      text: "Then is (he) who  is made fair-seeming to him (the) evil (of) his deed  so that he sees it (as) good For indeed Allah lets go astray whom He wills and guides whom He wills So (let) not go out your soul for them (in) regrets Indeed Allah (is) All-Knower of what they do (8)",
+      transliteration:
+        "afaman zuyyina lahu sūu ʿamalihi faraāhu ḥasanan fa-inna l-laha yuḍillu man yashāu wayahdī man yashāu falā tadhhab nafsuka ʿalayhim ḥasarātin inna l-laha ʿalīmun bimā yaṣnaʿūna ",
+      verse: 3668,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 9,
       image: "",
-      text:
-        "And it is Allah who sends the winds, and they stir the clouds, and We drive them to a dead land and give life thereby to the earth after its lifelessness. Thus is the resurrection.",
-      verse: 3538,
+      text: "And Allah (is) the One Who sends the winds so that they raise (the) clouds and We drive them to a land dead and We revive therewith the earth after its death Thus (will be) the Resurrection (9)",
+      transliteration:
+        "wal-lahu alladhī arsala l-riyāḥa fatuthīru saḥāban fasuq'nāhu ilā baladin mayyitin fa-aḥyaynā bihi l-arḍa baʿda mawtihā kadhālika l-nushūru ",
+      verse: 3669,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 10,
       image: "",
-      text:
-        "Whoever desires honor [through power] -  then to Allah belongs all honor. To Him ascends good speech, and righteous work raises it. But they who plot evil deeds will have a severe punishment, and the plotting of those -  it will perish.",
-      verse: 3539,
+      text: "Whoever [is] desires [is] desires the honor then for Allah (is) the Honor all To Him ascends the words good and the deed righteous raises it But those who plot the evil for them (is) a punishment severe and (the) plotting (of) those  it (will) perish (10)",
+      transliteration:
+        "man kāna yurīdu l-ʿizata falillahi l-ʿizatu jamīʿan ilayhi yaṣʿadu l-kalimu l-ṭayibu wal-ʿamalu l-ṣāliḥu yarfaʿuhu wa-alladhīna yamkurūna l-sayiāti lahum ʿadhābun shadīdun wamakru ulāika huwa yabūru ",
+      verse: 3670,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 11,
       image: "",
-      text:
-        "And Allah created you from dust, then from a sperm-drop; then He made you mates. And no female conceives nor does she give birth except with His knowledge. And no aged person is granted [additional] life nor is his lifespan lessened but that it is in a register. Indeed, that for Allah is easy.",
-      verse: 3540,
+      text: "And Allah created you from dust then from a semen-drop then He made you pairs And not conceives any female and not gives birth except with His knowledge And not is granted life any aged person and not is lessened from his life but (is) in a Register Indeed that for Allah (is) easy (11)",
+      transliteration:
+        "wal-lahu khalaqakum min turābin thumma min nuṭ'fatin thumma jaʿalakum azwājan wamā taḥmilu min unthā walā taḍaʿu illā biʿil'mihi wamā yuʿammaru min muʿammarin walā yunqaṣu min ʿumurihi illā fī kitābin inna dhālika ʿalā l-lahi yasīrun ",
+      verse: 3671,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 12,
       image: "",
-      text:
-        "And not alike are the two bodies of water. One is fresh and sweet, palatable for drinking, and one is salty and bitter. And from each you eat tender meat and extract ornaments which you wear, and you see the ships plowing through [them] that you might seek of His bounty; and perhaps you will be grateful.",
-      verse: 3541,
+      text: "And not are alike the two seas This (is) fresh sweet pleasant its drink and this salty (and) bitter And from each you eat meat fresh and you extract ornaments you wear them and you see the ships in it cleaving so that you may seek of His Bounty and that you may be grateful (12)",
+      transliteration:
+        "wamā yastawī l-baḥrāni hādhā ʿadhbun furātun sāighun sharābuhu wahādhā mil'ḥun ujājun wamin kullin takulūna laḥman ṭariyyan watastakhrijūna ḥil'yatan talbasūnahā watarā l-ful'ka fīhi mawākhira litabtaghū min faḍlihi walaʿallakum tashkurūna ",
+      verse: 3672,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 13,
       image: "",
-      text:
-        "He causes the night to enter the day, and He causes the day to enter the night and has subjected the sun and the moon -  each running [its course] for a specified term. That is Allah, your Lord; to Him belongs sovereignty. And those whom you invoke other than Him do not possess [as much as] the membrane of a date seed.",
-      verse: 3542,
+      text: "He causes to enter the night in (to) the day and He causes to enter the day in (to) the night and He has subjected the sun and the moon each running for a term appointed That (is) Allah your Lord for Him (is) the Dominion And those whom you invoke besides Him besides Him not they possess even (as much as) the membrane of a date-seed (13)",
+      transliteration:
+        "yūliju al-layla fī l-nahāri wayūliju l-nahāra fī al-layli wasakhara l-shamsa wal-qamara kullun yajrī li-ajalin musamman dhālikumu l-lahu rabbukum lahu l-mul'ku wa-alladhīna tadʿūna min dūnihi mā yamlikūna min qiṭ'mīrin ",
+      verse: 3673,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 14,
       image: "",
-      text:
-        "If you invoke them, they do not hear your supplication; and if they heard, they would not respond to you. And on the Day of Resurrection they will deny your association. And none can inform you like [one] Acquainted [with all matters].",
-      verse: 3543,
+      text: "If you invoke them not they hear your call and if they heard not they (would) respond to you And (on the) Day (of) the Resurrection they will deny your association And none can inform you like (the) All-Aware (14)",
+      transliteration:
+        "in tadʿūhum lā yasmaʿū duʿāakum walaw samiʿū mā is'tajābū lakum wayawma l-qiyāmati yakfurūna bishir'kikum walā yunabbi-uka mith'lu khabīrin ",
+      verse: 3674,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 15,
       image: "",
-      text:
-        "O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy.",
-      verse: 3544,
+      text: "O mankind You (are) those in need of Allah while Allah He (is) Free of need the Praiseworthy (15)",
+      transliteration:
+        "yāayyuhā l-nāsu antumu l-fuqarāu ilā l-lahi wal-lahu huwa l-ghaniyu l-ḥamīdu ",
+      verse: 3675,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 16,
       image: "",
-      text:
-        "If He wills, He can do away with you and bring forth a new creation.",
-      verse: 3545,
+      text: "If He wills He (can) do away with you and bring in a creation new (16)",
+      transliteration: "in yasha yudh'hib'kum wayati bikhalqin jadīdin ",
+      verse: 3676,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 17,
       image: "",
-      text: "And that is for Allah not difficult.",
-      verse: 3546,
+      text: "And not that (is) on Allah difficult (17)",
+      transliteration: "wamā dhālika ʿalā l-lahi biʿazīzin ",
+      verse: 3677,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 18,
       image: "",
-      text:
-        "And no bearer of burdens will bear the burden of another. And if a heavily laden soul calls [another] to [carry some of] its load, nothing of it will be carried, even if he should be a close relative. You can only warn those who fear their Lord unseen and have established prayer. And whoever purifies himself only purifies himself for [the benefit of] his soul. And to Allah is the [final] destination.",
-      verse: 3547,
+      text: "And not will bear bearer of burdens burden (of) another And if calls a heavily laden to (carry) its load not will be carried of it anything even if he be near of kin near of kin Only you can warn those who fear their Lord  unseen and establish the prayer And whoever purifies himself then only he purifies for his own self And to Allah (is) the destination (18)",
+      transliteration:
+        "walā taziru wāziratun wiz'ra ukh'rā wa-in tadʿu muth'qalatun ilā ḥim'lihā lā yuḥ'mal min'hu shayon walaw kāna dhā qur'bā innamā tundhiru alladhīna yakhshawna rabbahum bil-ghaybi wa-aqāmū l-ṣalata waman tazakkā fa-innamā yatazakkā linafsihi wa-ilā l-lahi l-maṣīru ",
+      verse: 3678,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 19,
       image: "",
-      text: "Not equal are the blind and the seeing,",
-      verse: 3548,
+      text: "And not equal (are) the blind and the seeing (19)",
+      transliteration: "wamā yastawī l-aʿmā wal-baṣīru ",
+      verse: 3679,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 20,
       image: "",
-      text: "Nor are the darknesses and the light,",
-      verse: 3549,
+      text: "And not the darkness[es] and not [the] light (20)",
+      transliteration: "walā l-ẓulumātu walā l-nūru ",
+      verse: 3680,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 21,
       image: "",
-      text: "Nor are the shade and the heat,",
-      verse: 3550,
+      text: "And not the shade and not the heat (21)",
+      transliteration: "walā l-ẓilu walā l-ḥarūru ",
+      verse: 3681,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 22,
       image: "",
-      text:
-        "And not equal are the living and the dead. Indeed, Allah causes to hear whom He wills, but you cannot make hear those in the graves.",
-      verse: 3551,
+      text: "And not equal (are) the living and not the dead Indeed Allah causes to hear whom He wills and not you can make hear (those) who (are) in the graves (22)",
+      transliteration:
+        "wamā yastawī l-aḥyāu walā l-amwātu inna l-laha yus'miʿu man yashāu wamā anta bimus'miʿin man fī l-qubūri ",
+      verse: 3682,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 23,
       image: "",
-      text: "You, [O Muhammad], are not but a warner.",
-      verse: 3552,
+      text: "Not you (are) but a warner (23)",
+      transliteration: "in anta illā nadhīrun ",
+      verse: 3683,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 24,
       image: "",
-      text:
-        "Indeed, We have sent you with the truth as a bringer of good tidings and a warner. And there was no nation but that there had passed within it a warner.",
-      verse: 3553,
+      text: "Indeed, We [We] have sent you with the truth (as) a bearer of glad tidings and (as) a warner And not (was) any nation but had passed within it a warner (24)",
+      transliteration:
+        "innā arsalnāka bil-ḥaqi bashīran wanadhīran wa-in min ummatin illā khalā fīhā nadhīrun ",
+      verse: 3684,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 25,
       image: "",
-      text:
-        "And if they deny you -  then already have those before them denied. Their messengers came to them with clear proofs and written ordinances and with the enlightening Scripture.",
-      verse: 3554,
+      text: "And if they deny you then certainly denied those who (were) before them (were) before them Came to them their Messengers with clear signs and with Scriptures and with the Book [the] enlightening (25)",
+      transliteration:
+        "wa-in yukadhibūka faqad kadhaba alladhīna min qablihim jāathum rusuluhum bil-bayināti wabil-zuburi wabil-kitābi l-munīri ",
+      verse: 3685,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 26,
       image: "",
-      text:
-        "Then I seized the ones who disbelieved, and how [terrible] was My reproach.",
-      verse: 3555,
+      text: "Then I seized those who disbelieved and how was My rejection (26)",
+      transliteration: "thumma akhadhtu alladhīna kafarū fakayfa kāna nakīri ",
+      verse: 3686,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 27,
       image: "",
-      text:
-        "Do you not see that Allah sends down rain from the sky, and We produce thereby fruits of varying colors? And in the mountains are tracts, white and red of varying shades and [some] extremely black.",
-      verse: 3556,
+      text: "Do not you see that Allah sends down from the sky water then We bring forth therewith fruits (of) various [their] colors And in the mountains (are) tracts white and red (of) various [their] colors and intensely black and intensely black (27)",
+      transliteration:
+        "alam tara anna l-laha anzala mina l-samāi māan fa-akhrajnā bihi thamarātin mukh'talifan alwānuhā wamina l-jibāli judadun bīḍun waḥum'run mukh'talifun alwānuhā wagharābību sūdun ",
+      verse: 3687,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 28,
       image: "",
-      text:
-        "And among people and moving creatures and grazing livestock are various colors similarly. Only those fear Allah, from among His servants, who have knowledge. Indeed, Allah is Exalted in Might and Forgiving.",
-      verse: 3557,
+      text: "And among men and moving creatures and the cattle (are) various [their] colors likewise Only fear Allah among His slaves those who have knowledge Indeed Allah (is) All-Mighty Oft-Forgiving (28)",
+      transliteration:
+        "wamina l-nāsi wal-dawābi wal-anʿāmi mukh'talifun alwānuhu kadhālika innamā yakhshā l-laha min ʿibādihi l-ʿulamāu inna l-laha ʿazīzun ghafūrun ",
+      verse: 3688,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 29,
       image: "",
-      text:
-        "Indeed, those who recite the Book of Allah and establish prayer and spend [in His cause] out of what We have provided them, secretly and publicly, [can] expect a profit that will never perish -",
-      verse: 3558,
+      text: "Indeed those who recite (the) Book (of) Allah and establish the prayer and spend out of what We have provided them secretly and openly hope (for) a commerce  never it will perish (29)",
+      transliteration:
+        "inna alladhīna yatlūna kitāba l-lahi wa-aqāmū l-ṣalata wa-anfaqū mimmā razaqnāhum sirran waʿalāniyatan yarjūna tijāratan lan tabūra ",
+      verse: 3689,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 30,
       image: "",
-      text:
-        "That He may give them in full their rewards and increase for them of His bounty. Indeed, He is Forgiving and Appreciative.",
-      verse: 3559,
+      text: "That He may give them in full their rewards and increase for them of His Bounty Indeed, He (is) Oft-Forgiving Most Appreciative (30)",
+      transliteration:
+        "liyuwaffiyahum ujūrahum wayazīdahum min faḍlihi innahu ghafūrun shakūrun ",
+      verse: 3690,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 31,
       image: "",
-      text:
-        "And that which We have revealed to you, [O Muhammad], of the Book is the truth, confirming what was before it. Indeed, Allah, of His servants, is Acquainted and Seeing.",
-      verse: 3560,
+      text: "And (that) which We have revealed to you of the Book it (is) the truth confirming what (was) before it before it Indeed Allah of His slaves surely, (is) All-Aware All-Seer (31)",
+      transliteration:
+        "wa-alladhī awḥaynā ilayka mina l-kitābi huwa l-ḥaqu muṣaddiqan limā bayna yadayhi inna l-laha biʿibādihi lakhabīrun baṣīrun ",
+      verse: 3691,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 32,
       image: "",
-      text:
-        "Then we caused to inherit the Book those We have chosen of Our servants; and among them is he who wrongs himself, and among them is he who is moderate, and among them is he who is foremost in good deeds by permission of Allah . That [inheritance] is what is the great bounty.",
-      verse: 3561,
+      text: "Then We caused to inherit the Book those whom We have chosen of Our slaves and among them (is he) who wrongs himself and among them (is he who is) moderate and among them (is he who is) foremost in good deeds by permission (of) Allah That is the Bounty the great (32)",
+      transliteration:
+        "thumma awrathnā l-kitāba alladhīna iṣ'ṭafaynā min ʿibādinā famin'hum ẓālimun linafsihi wamin'hum muq'taṣidun wamin'hum sābiqun bil-khayrāti bi-idh'ni l-lahi dhālika huwa l-faḍlu l-kabīru ",
+      verse: 3692,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 33,
       image: "",
-      text:
-        "[For them are] gardens of perpetual residence which they will enter. They will be adorned therein with bracelets of gold and pearls, and their garments therein will be silk.",
-      verse: 3562,
+      text: "Gardens (of) Eternity they will enter them They will be adorned therein with bracelets of gold and pearls and their garments therein (will be of) silk (33)",
+      transliteration:
+        "jannātu ʿadnin yadkhulūnahā yuḥallawna fīhā min asāwira min dhahabin walu'lu-an walibāsuhum fīhā ḥarīrun ",
+      verse: 3693,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 34,
       image: "",
-      text:
-        'And they will say, "Praise to Allah, who has removed from us [all] sorrow. Indeed, our Lord is Forgiving and Appreciative -',
-      verse: 3563,
+      text: "And they (will) say All praises (be) to Allah the One Who (has) removed from us the sorrow Indeed our Lord (is) surely Oft-Forgiving Most Appreciative (34)",
+      transliteration:
+        "waqālū l-ḥamdu lillahi alladhī adhhaba ʿannā l-ḥazana inna rabbanā laghafūrun shakūrun ",
+      verse: 3694,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 35,
       image: "",
-      text:
-        'He who has settled us in the home of duration out of His bounty. There touches us not in it any fatigue, and there touches us not in it weariness [of mind]."',
-      verse: 3564,
+      text: "The One Who has settled us (in) a Home (of) Eternity (out) of His Bounty Not touches us therein any fatigue and not touches therein weariness (35)",
+      transliteration:
+        "alladhī aḥallanā dāra l-muqāmati min faḍlihi lā yamassunā fīhā naṣabun walā yamassunā fīhā lughūbun ",
+      verse: 3695,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 36,
       image: "",
-      text:
-        "And for those who disbelieve will be the fire of Hell. [Death] is not decreed for them so they may die, nor will its torment be lightened for them. Thus do we recompense every ungrateful one.",
-      verse: 3565,
+      text: "And those who disbelieve for them (will be the) Fire (of) Hell Not is decreed for them that they die and not will be lightened for them of its torment Thus We recompense every ungrateful one (36)",
+      transliteration:
+        "wa-alladhīna kafarū lahum nāru jahannama lā yuq'ḍā ʿalayhim fayamūtū walā yukhaffafu ʿanhum min ʿadhābihā kadhālika najzī kulla kafūrin ",
+      verse: 3696,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 37,
       image: "",
-      text:
-        'And they will cry out therein, "Our Lord, remove us; we will do righteousness -  other than what we were doing!" But did We not grant you life enough for whoever would remember therein to remember, and the warner had come to you? So taste [the punishment], for there is not for the wrongdoers any helper.',
-      verse: 3566,
+      text: "And they will cry therein Our Lord Bring us out we will do righteous (deeds) other than (that) which we used (to) do Did not We give you life long enough that (would) receive admonition therein whoever receives admonition And came to you the warner So taste then not (is) for the wrongdoers any helper (37)",
+      transliteration:
+        "wahum yaṣṭarikhūna fīhā rabbanā akhrij'nā naʿmal ṣāliḥan ghayra alladhī kunnā naʿmalu awalam nuʿammir'kum mā yatadhakkaru fīhi man tadhakkara wajāakumu l-nadhīru fadhūqū famā lilẓẓālimīna min naṣīrin ",
+      verse: 3697,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 38,
       image: "",
-      text:
-        "Indeed, Allah is Knower of the unseen [aspects] of the heavens and earth. Indeed, He is Knowing of that within the breasts.",
-      verse: 3567,
+      text: "Indeed Allah (is the) Knower (of the) unseen (of) the heavens and the earth Indeed, He (is the) All-Knower of what (is) in the breasts of what (is) in the breasts (38)",
+      transliteration:
+        "inna l-laha ʿālimu ghaybi l-samāwāti wal-arḍi innahu ʿalīmun bidhāti l-ṣudūri ",
+      verse: 3698,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 39,
       image: "",
-      text:
-        "It is He who has made you successors upon the earth. And whoever disbelieves -  upon him will be [the consequence of] his disbelief. And the disbelief of the disbelievers does not increase them in the sight of their Lord except in hatred; and the disbelief of the disbelievers does not increase them except in loss.",
-      verse: 3568,
+      text: "He (is) the One Who made you successors in the earth And whoever disbelieves then upon him (is) his disbelief And not increase the disbelievers their disbelief near their Lord except (in) hatred and not increase the disbelievers their disbelief except (in) loss (39)",
+      transliteration:
+        "huwa alladhī jaʿalakum khalāifa fī l-arḍi faman kafara faʿalayhi kuf'ruhu walā yazīdu l-kāfirīna kuf'ruhum ʿinda rabbihim illā maqtan walā yazīdu l-kāfirīna kuf'ruhum illā khasāran ",
+      verse: 3699,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 40,
       image: "",
-      text:
-        "Say, \"Have you considered your 'partners' whom you invoke besides Allah ? Show me what they have created from the earth, or have they partnership [with Him] in the heavens? Or have We given them a book so they are [standing] on evidence therefrom? [No], rather, the wrongdoers do not promise each other except delusion.\"",
-      verse: 3569,
+      text: "Say Have you seen your partners those whom you call besides besides Allah Show Me what they have created from the earth or for them (is) a share in the heavens Or have We given them a Book so they (are) on a clear proof therefrom Nay not promise the wrongdoers some of them (to) others except delusion (40)",
+      transliteration:
+        "qul ara-aytum shurakāakumu alladhīna tadʿūna min dūni l-lahi arūnī mādhā khalaqū mina l-arḍi am lahum shir'kun fī l-samāwāti am ātaynāhum kitāban fahum ʿalā bayyinatin min'hu bal in yaʿidu l-ẓālimūna baʿḍuhum baʿḍan illā ghurūran ",
+      verse: 3700,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 41,
       image: "",
-      text:
-        "Indeed, Allah holds the heavens and the earth, lest they cease. And if they should cease, no one could hold them [in place] after Him. Indeed, He is Forbearing and Forgiving.",
-      verse: 3570,
+      text: "Indeed Allah upholds the heavens and the earth lest they cease And if they should cease not can uphold them any one after Him after Him Indeed, He is Most Forbearing Oft-Forgiving (41)",
+      transliteration:
+        "inna l-laha yum'siku l-samāwāti wal-arḍa an tazūlā wala-in zālatā in amsakahumā min aḥadin min baʿdihi innahu kāna ḥalīman ghafūran ",
+      verse: 3701,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 42,
       image: "",
-      text:
-        "And they swore by Allah their strongest oaths that if a warner came to them, they would be more guided than [any] one of the [previous] nations. But when a warner came to them, it did not increase them except in aversion.",
-      verse: 3571,
+      text: "And they swore by Allah (the) strongest (of) their oaths that if came to them a warner surely, they would be more guided than any (of) the nations But when came to them a warner not it increased them but (in) aversion (42)",
+      transliteration:
+        "wa-aqsamū bil-lahi jahda aymānihim la-in jāahum nadhīrun layakūnunna ahdā min iḥ'dā l-umami falammā jāahum nadhīrun mā zādahum illā nufūran ",
+      verse: 3702,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 43,
       image: "",
-      text:
-        "[Due to] arrogance in the land and plotting of evil; but the evil plot does not encompass except its own people. Then do they await except the way of the former peoples? But you will never find in the way of Allah any change, and you will never find in the way of Allah any alteration.",
-      verse: 3572,
+      text: "(Due to) arrogance in the land and plotting (of) the evil but not encompasses the plot (of) the evil except its own people Then do they wait except (the) way (of) the former (people) But never you will find in (the) way (of) Allah any change and never you will find in (the) way (of) Allah any alteration (43)",
+      transliteration:
+        "is'tik'bāran fī l-arḍi wamakra l-sayi-i walā yaḥīqu l-makru l-sayi-u illā bi-ahlihi fahal yanẓurūna illā sunnata l-awalīna falan tajida lisunnati l-lahi tabdīlan walan tajida lisunnati l-lahi taḥwīlan ",
+      verse: 3703,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 44,
       image: "",
-      text:
-        "Have they not traveled through the land and observed how was the end of those before them? And they were greater than them in power. But Allah is not to be caused failure by anything in the heavens or on the earth. Indeed, He is ever Knowing and Competent.",
-      verse: 3573,
+      text: "Have they not traveled in the land and seen how was (the) end (of) those who (were) before them (were) before them And they were stronger than them (in) power But not is Allah that can escape (from) Him any thing in the heavens and not in the earth Indeed, He is All-Knower All-Powerful (44)",
+      transliteration:
+        "awalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim wakānū ashadda min'hum quwwatan wamā kāna l-lahu liyuʿ'jizahu min shayin fī l-samāwāti walā fī l-arḍi innahu kāna ʿalīman qadīran ",
+      verse: 3704,
+      juz: 22,
+      surah: 35,
     },
     {
       number: 45,
       image: "",
-      text:
-        "And if Allah were to impose blame on the people for what they have earned, He would not leave upon the earth any creature. But He defers them for a specified term. And when their time comes, then indeed Allah has ever been, of His servants, Seeing.",
-      verse: 3574,
+      text: "And if Allah (were to) punish Allah (were to) punish the people for what they have earned not He would leave on its back any creature But He gives them respite till a term appointed And when comes their term then indeed Allah is of His slaves All-Seer (45)",
+      transliteration:
+        "walaw yuākhidhu l-lahu l-nāsa bimā kasabū mā taraka ʿalā ẓahrihā min dābbatin walākin yu-akhiruhum ilā ajalin musamman fa-idhā jāa ajaluhum fa-inna l-laha kāna biʿibādihi baṣīran ",
+      verse: 3705,
+      juz: 22,
+      surah: 35,
     },
   ],
 };

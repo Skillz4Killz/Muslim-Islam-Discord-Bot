@@ -1,1435 +1,2047 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const araf: Surah = {
   name: "Al-A'raf",
   ayahs: [
-    { number: 1, image: "", text: "Alif, Lam, Meem, Sad.", verse: 834 },
+    {
+      number: 1,
+      image: "",
+      text: "Alif Laam Meem Saad (1)",
+      transliteration: "alif-lam-meem-sad ",
+      verse: 955,
+      juz: 8,
+      surah: 7,
+    },
     {
       number: 2,
       image: "",
-      text:
-        "[This is] a Book revealed to you, [O Muhammad] -  so let there not be in your breast distress therefrom -  that you may warn thereby and as a reminder to the believers.",
-      verse: 835,
+      text: "(This is) a Book revealed to you so (let) not be in your breast any uneasiness from it that you warn with it and a reminder for the believers (2)",
+      transliteration:
+        "kitābun unzila ilayka falā yakun fī ṣadrika ḥarajun min'hu litundhira bihi wadhik'rā lil'mu'minīna ",
+      verse: 956,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 3,
       image: "",
-      text:
-        "Follow, [O mankind], what has been revealed to you from your Lord and do not follow other than Him any allies. Little do you remember.",
-      verse: 836,
+      text: "Follow what has been revealed to you from your Lord and (do) not follow from beside Him any allies Little (is) what you remember (3)",
+      transliteration:
+        "ittabiʿū mā unzila ilaykum min rabbikum walā tattabiʿū min dūnihi awliyāa qalīlan mā tadhakkarūna ",
+      verse: 957,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 4,
       image: "",
-      text:
-        "And how many cities have We destroyed, and Our punishment came to them at night or while they were sleeping at noon.",
-      verse: 837,
+      text: "And how many of a city We destroyed it and came to it Our punishment (at) night or (while) they were sleeping at noon (4)",
+      transliteration:
+        "wakam min qaryatin ahlaknāhā fajāahā basunā bayātan aw hum qāilūna ",
+      verse: 958,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 5,
       image: "",
-      text:
-        'And their declaration when Our punishment came to them was only that they said, "Indeed, we were wrongdoers!"',
-      verse: 838,
+      text: "Then not was their plea when came to them Our punishment except that they said Indeed, we were wrongdoers (5)",
+      transliteration:
+        "famā kāna daʿwāhum idh jāahum basunā illā an qālū innā kunnā ẓālimīna ",
+      verse: 959,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 6,
       image: "",
-      text:
-        "Then We will surely question those to whom [a message] was sent, and We will surely question the messengers.",
-      verse: 839,
+      text: "Then surely We will question those (to) whom were sent to them (Messengers) and surely We will question the Messengers (6)",
+      transliteration:
+        "falanasalanna alladhīna ur'sila ilayhim walanasalanna l-mur'salīna ",
+      verse: 960,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 7,
       image: "",
-      text:
-        "Then We will surely relate [their deeds] to them with knowledge, and We were not [at all] absent.",
-      verse: 840,
+      text: "Then surely We will narrate to them with knowledge and not were We absent (7)",
+      transliteration: "falanaquṣṣanna ʿalayhim biʿil'min wamā kunnā ghāibīna ",
+      verse: 961,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 8,
       image: "",
-      text:
-        "And the weighing [of deeds] that Day will be the truth. So those whose scales are heavy -  it is they who will be the successful.",
-      verse: 841,
+      text: "And the weighing that day (will be) the truth So whose  (will be) heavy his scales then those [they] (will be) the successful ones (8)",
+      transliteration:
+        "wal-waznu yawma-idhin l-ḥaqu faman thaqulat mawāzīnuhu fa-ulāika humu l-muf'liḥūna ",
+      verse: 962,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 9,
       image: "",
-      text:
-        "And those whose scales are light -  they are the ones who will lose themselves for what injustice they were doing toward Our verses.",
-      verse: 842,
+      text: "And (for) those (will be) light his scales so those (will be) the ones who lost themselves because they were to Our Verses (doing) injustice (9)",
+      transliteration:
+        "waman khaffat mawāzīnuhu fa-ulāika alladhīna khasirū anfusahum bimā kānū biāyātinā yaẓlimūna ",
+      verse: 963,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 10,
       image: "",
-      text:
-        "And We have certainly established you upon the earth and made for you therein ways of livelihood. Little are you grateful.",
-      verse: 843,
+      text: "And certainly We established you in the earth and We made for you in it livelihood Little (is) what you (are) grateful (10)",
+      transliteration:
+        "walaqad makkannākum fī l-arḍi wajaʿalnā lakum fīhā maʿāyisha qalīlan mā tashkurūna ",
+      verse: 964,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 11,
       image: "",
-      text:
-        'And We have certainly created you, [O Mankind], and given you [human] form. Then We said to the angels, "Prostrate to Adam"; so they prostrated, except for Iblees. He was not of those who prostrated.',
-      verse: 844,
+      text: "And certainly We created you then We fashioned you Then We said to the Angels Prostrate to Adam So they prostrated except Iblis Not he was of those who prostrated (11)",
+      transliteration:
+        "walaqad khalaqnākum thumma ṣawwarnākum thumma qul'nā lil'malāikati us'judū liādama fasajadū illā ib'līsa lam yakun mina l-sājidīna ",
+      verse: 965,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 12,
       image: "",
-      text:
-        '[ Allah ] said, "What prevented you from prostrating when I commanded you?" [Satan] said, "I am better than him. You created me from fire and created him from clay."',
-      verse: 845,
+      text: "(Allah) said What prevented you that not you prostrate when I commanded you (Shaitaan) said I am better than him You created me from fire and You created him from clay (12)",
+      transliteration:
+        "qāla mā manaʿaka allā tasjuda idh amartuka qāla anā khayrun min'hu khalaqtanī min nārin wakhalaqtahu min ṭīnin ",
+      verse: 966,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 13,
       image: "",
-      text:
-        '[ Allah ] said, "Descend from Paradise, for it is not for you to be arrogant therein. So get out; indeed, you are of the debased.',
-      verse: 846,
+      text: "(Allah) said Then go down from it for not it is for you that you be arrogant in it So get out indeed, you (are) of the disgraced ones (13)",
+      transliteration:
+        "qāla fa-ih'biṭ min'hā famā yakūnu laka an tatakabbara fīhā fa-ukh'ruj innaka mina l-ṣāghirīna ",
+      verse: 967,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 14,
       image: "",
-      text: '[Satan] said, "Reprieve me until the Day they are resurrected."',
-      verse: 847,
+      text: "(Shaitaan) said Give me respite till (the) Day they are raised up (14)",
+      transliteration: "qāla anẓir'nī ilā yawmi yub'ʿathūna ",
+      verse: 968,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 15,
       image: "",
-      text: '[ Allah ] said, "Indeed, you are of those reprieved."',
-      verse: 848,
+      text: "(Allah) said Indeed, you (are) of the ones given respite (15)",
+      transliteration: "qāla innaka mina l-munẓarīna ",
+      verse: 969,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 16,
       image: "",
-      text:
-        '[Satan] said, "Because You have put me in error, I will surely sit in wait for them on Your straight path.',
-      verse: 849,
+      text: "(Shaitaan) said Because You have sent me astray surely I will sit for them (on) Your path the straight (16)",
+      transliteration:
+        "qāla fabimā aghwaytanī la-aqʿudanna lahum ṣirāṭaka l-mus'taqīma ",
+      verse: 970,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 17,
       image: "",
-      text:
-        'Then I will come to them from before them and from behind them and on their right and on their left, and You will not find most of them grateful [to You]."',
-      verse: 850,
+      text: "Then surely, I will come to them from before them and from behind them and from their right and from their left and not You (will) find most of them grateful (17)",
+      transliteration:
+        "thumma laātiyannahum min bayni aydīhim wamin khalfihim waʿan aymānihim waʿan shamāilihim walā tajidu aktharahum shākirīna ",
+      verse: 971,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 18,
       image: "",
-      text:
-        '[ Allah ] said, "Get out of Paradise, reproached and expelled. Whoever follows you among them -  I will surely fill Hell with you, all together."',
-      verse: 851,
+      text: "(Allah) said Get out of it disgraced and expelled Certainly, whoever follows you among them surely, I will fill Hell with you all (18)",
+      transliteration:
+        "qāla ukh'ruj min'hā madhūman madḥūran laman tabiʿaka min'hum la-amla-anna jahannama minkum ajmaʿīna ",
+      verse: 972,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 19,
       image: "",
-      text:
-        'And "O Adam, dwell, you and your wife, in Paradise and eat from wherever you will but do not approach this tree, lest you be among the wrongdoers."',
-      verse: 852,
+      text: "And O Adam Dwell you and your wife (in) the Garden and you both eat from wherever you both wish but (do) not approach [both of you] this [the] tree lest you both be among the wrongdoers (19)",
+      transliteration:
+        "wayāādamu us'kun anta wazawjuka l-janata fakulā min ḥaythu shi'tumā walā taqrabā hādhihi l-shajarata fatakūnā mina l-ẓālimīna ",
+      verse: 973,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 20,
       image: "",
-      text:
-        'But Satan whispered to them to make apparent to them that which was concealed from them of their private parts. He said, "Your Lord did not forbid you this tree except that you become angels or become of the immortal."',
-      verse: 853,
+      text: "Then whispered to both of them the Shaitaan to make apparent to both of them what was concealed from both of them of their shame And he said (Did) not forbid you both your Lord from this [the] tree except that you two become Angels or you two become of the immortals (20)",
+      transliteration:
+        "fawaswasa lahumā l-shayṭānu liyub'diya lahumā mā wūriya ʿanhumā min sawātihimā waqāla mā nahākumā rabbukumā ʿan hādhihi l-shajarati illā an takūnā malakayni aw takūnā mina l-khālidīna ",
+      verse: 974,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 21,
       image: "",
-      text:
-        'And he swore [by Allah ] to them, "Indeed, I am to you from among the sincere advisors."',
-      verse: 854,
+      text: "And he swore (to) both of them Indeed, I am to both of you among the sincere advisors (21)",
+      transliteration: "waqāsamahumā innī lakumā lamina l-nāṣiḥīna ",
+      verse: 975,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 22,
       image: "",
-      text:
-        'So he made them fall, through deception. And when they tasted of the tree, their private parts became apparent to them, and they began to fasten together over themselves from the leaves of Paradise. And their Lord called to them, "Did I not forbid you from that tree and tell you that Satan is to you a clear enemy?"',
-      verse: 855,
+      text: "So he made both of them fall by deception Then when they both tasted the tree became apparent to both of them their shame and they began (to) fasten over themselves from (the) leaves (of) the Garden And called them both their Lord Did not I forbid you both from this [the] tree and [I] say to both of you that [the] Shaitaan to both of you (is) an enemy open (22)",
+      transliteration:
+        "fadallāhumā bighurūrin falammā dhāqā l-shajarata badat lahumā sawātuhumā waṭafiqā yakhṣifāni ʿalayhimā min waraqi l-janati wanādāhumā rabbuhumā alam anhakumā ʿan til'kumā l-shajarati wa-aqul lakumā inna l-shayṭāna lakumā ʿaduwwun mubīnun ",
+      verse: 976,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 23,
       image: "",
-      text:
-        'They said, "Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers."',
-      verse: 856,
+      text: "Both of them said Our Lord we have wronged ourselves and if not You forgive [for] us and have mercy (on) us surely, we will be among the losers (23)",
+      transliteration:
+        "qālā rabbanā ẓalamnā anfusanā wa-in lam taghfir lanā watarḥamnā lanakūnanna mina l-khāsirīna ",
+      verse: 977,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 24,
       image: "",
-      text:
-        '[ Allah ] said, "Descend, being to one another enemies. And for you on the earth is a place of settlement and enjoyment for a time."',
-      verse: 857,
+      text: "(Allah) said Get down some of you to some others (as) enemy And for you in the earth (is) a dwelling place and livelihood for a time (24)",
+      transliteration:
+        "qāla ih'biṭū baʿḍukum libaʿḍin ʿaduwwun walakum fī l-arḍi mus'taqarrun wamatāʿun ilā ḥīnin ",
+      verse: 978,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 25,
       image: "",
-      text:
-        'He said, "Therein you will live, and therein you will die, and from it you will be brought forth."',
-      verse: 858,
+      text: "He said In it you will live and in it you will die and from it you will be brought forth (25)",
+      transliteration:
+        "qāla fīhā taḥyawna wafīhā tamūtūna wamin'hā tukh'rajūna ",
+      verse: 979,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 26,
       image: "",
-      text:
-        "O children of Adam, We have bestowed upon you clothing to conceal your private parts and as adornment. But the clothing of righteousness -  that is best. That is from the signs of Allah that perhaps they will remember.",
-      verse: 859,
+      text: "O Children (of) Adam Verily We have sent down to you clothing it covers your shame and (as) an adornment But the clothing (of) [the] righteousness  that (is) best That (is) from (the) Signs (of) Allah so that they may remember (26)",
+      transliteration:
+        "yābanī ādama qad anzalnā ʿalaykum libāsan yuwārī sawātikum warīshan walibāsu l-taqwā dhālika khayrun dhālika min āyāti l-lahi laʿallahum yadhakkarūna ",
+      verse: 980,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 27,
       image: "",
-      text:
-        "O children of Adam, let not Satan tempt you as he removed your parents from Paradise, stripping them of their clothing to show them their private parts. Indeed, he sees you, he and his tribe, from where you do not see them. Indeed, We have made the devils allies to those who do not believe.",
-      verse: 860,
+      text: "O Children (of) Adam (Let) not tempt you [the] Shaitaan as he drove out your parents from Paradise stripping from both of them their clothing to show both of them their shame Indeed, he sees you  he and his tribe from where not you see them Indeed We have made the devils friends of those who (do) not believe (27)",
+      transliteration:
+        "yābanī ādama lā yaftinannakumu l-shayṭānu kamā akhraja abawaykum mina l-janati yanziʿu ʿanhumā libāsahumā liyuriyahumā sawātihimā innahu yarākum huwa waqabīluhu min ḥaythu lā tarawnahum innā jaʿalnā l-shayāṭīna awliyāa lilladhīna lā yu'minūna ",
+      verse: 981,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 28,
       image: "",
-      text:
-        'And when they commit an immorality, they say, "We found our fathers doing it, and Allah has ordered us to do it." Say, "Indeed, Allah does not order immorality. Do you say about Allah that which you do not know?"',
-      verse: 861,
+      text: "And when they do immorality they say We found on it our forefathers and Allah (has) ordered us of it Say Indeed Allah (does) not order immorality Do you say about Allah what not you know (28)",
+      transliteration:
+        "wa-idhā faʿalū fāḥishatan qālū wajadnā ʿalayhā ābāanā wal-lahu amaranā bihā qul inna l-laha lā yamuru bil-faḥshāi ataqūlūna ʿalā l-lahi mā lā taʿlamūna ",
+      verse: 982,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 29,
       image: "",
-      text:
-        'Say, [O Muhammad], "My Lord has ordered justice and that you maintain yourselves [in worship of Him] at every place [or time] of prostration, and invoke Him, sincere to Him in religion." Just as He originated you, you will return [to life] -',
-      verse: 862,
+      text: "Say (Has been) ordered (by) my Lord justice and set your faces at every masjid and invoke Him (being) sincere to Him (in) the religion As He originated you (so) will you return (29)",
+      transliteration:
+        "qul amara rabbī bil-qis'ṭi wa-aqīmū wujūhakum ʿinda kulli masjidin wa-id'ʿūhu mukh'liṣīna lahu l-dīna kamā bada-akum taʿūdūna ",
+      verse: 983,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 30,
       image: "",
-      text:
-        "A group [of you] He guided, and a group deserved [to be in] error. Indeed, they had taken the devils as allies instead of Allah while they thought that they were guided.",
-      verse: 863,
+      text: "A group He guided and a group deserved  [on] they the astraying Indeed, they take the devils (as) allies from besides Allah while they think that they (are the) guided-ones (30)",
+      transliteration:
+        "farīqan hadā wafarīqan ḥaqqa ʿalayhimu l-ḍalālatu innahumu ittakhadhū l-shayāṭīna awliyāa min dūni l-lahi wayaḥsabūna annahum muh'tadūna ",
+      verse: 984,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 31,
       image: "",
-      text:
-        "O children of Adam, take your adornment at every masjid, and eat and drink, but be not excessive. Indeed, He likes not those who commit excess.",
-      verse: 864,
+      text: "O Children (of) Adam Take your adornment at every masjid and eat and drink but (do) not be extravagant Indeed, He (does) not love the extravagant ones (31)",
+      transliteration:
+        "yābanī ādama khudhū zīnatakum ʿinda kulli masjidin wakulū wa-ish'rabū walā tus'rifū innahu lā yuḥibbu l-mus'rifīna ",
+      verse: 985,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 32,
       image: "",
-      text:
-        'Say, "Who has forbidden the adornment of Allah which He has produced for His servants and the good [lawful] things of provision?" Say, "They are for those who believe during the worldly life [but] exclusively for them on the Day of Resurrection." Thus do We detail the verses for a people who know.',
-      verse: 865,
+      text: "Say Who has forbidden (the) adornment (from) Allah which He has brought forth for His slaves and the pure things of sustenance Say They (are) for those who believe during the life (of) the world exclusively (for them) (on the) Day (of) Resurrection Thus We explain the Signs for (the) people who know (32)",
+      transliteration:
+        "qul man ḥarrama zīnata l-lahi allatī akhraja liʿibādihi wal-ṭayibāti mina l-riz'qi qul hiya lilladhīna āmanū fī l-ḥayati l-dun'yā khāliṣatan yawma l-qiyāmati kadhālika nufaṣṣilu l-āyāti liqawmin yaʿlamūna ",
+      verse: 986,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 33,
       image: "",
-      text:
-        'Say, "My Lord has only forbidden immoralities -  what is apparent of them and what is concealed -  and sin, and oppression without right, and that you associate with Allah that for which He has not sent down authority, and that you say about Allah that which you do not know."',
-      verse: 866,
+      text: "Say Only (had) forbidden my Lord the shameful deeds what (is) apparent of it and what is concealed and the sin and the oppression without [the] right and that you associate (others) with Allah what not He (has) sent down of it any authority and that you say about Allah what not you know (33)",
+      transliteration:
+        "qul innamā ḥarrama rabbiya l-fawāḥisha mā ẓahara min'hā wamā baṭana wal-ith'ma wal-baghya bighayri l-ḥaqi wa-an tush'rikū bil-lahi mā lam yunazzil bihi sul'ṭānan wa-an taqūlū ʿalā l-lahi mā lā taʿlamūna ",
+      verse: 987,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 34,
       image: "",
-      text:
-        "And for every nation is a [specified] term. So when their time has come, they will not remain behind an hour, nor will they precede [it].",
-      verse: 867,
+      text: "And for every nation (is a fixed) term So when comes their term (they can) not seek to delay an hour and not seek to advance (it) (34)",
+      transliteration:
+        "walikulli ummatin ajalun fa-idhā jāa ajaluhum lā yastakhirūna sāʿatan walā yastaqdimūna ",
+      verse: 988,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 35,
       image: "",
-      text:
-        "O children of Adam, if there come to you messengers from among you relating to you My verses, then whoever fears Allah and reforms -  there will be no fear concerning them, nor will they grieve.",
-      verse: 868,
+      text: "O Children (of) Adam If come to you Messengers from you relating to you My Verses then whoever fears Allah and reforms then no fear on them and not they will grieve (35)",
+      transliteration:
+        "yābanī ādama immā yatiyannakum rusulun minkum yaquṣṣūna ʿalaykum āyātī famani ittaqā wa-aṣlaḥa falā khawfun ʿalayhim walā hum yaḥzanūna ",
+      verse: 989,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 36,
       image: "",
-      text:
-        "But the ones who deny Our verses and are arrogant toward them -  those are the companions of the Fire; they will abide therein eternally.",
-      verse: 869,
+      text: "But those who deny Our Verses and (are) arrogant towards them those (are the) companions (of) the Fire they in it will abide forever (36)",
+      transliteration:
+        "wa-alladhīna kadhabū biāyātinā wa-is'takbarū ʿanhā ulāika aṣḥābu l-nāri hum fīhā khālidūna ",
+      verse: 990,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 37,
       image: "",
-      text:
-        'And who is more unjust than one who invents about Allah a lie or denies His verses? Those will attain their portion of the decree until when Our messengers come to them to take them in death, they will say, "Where are those you used to invoke besides Allah ?" They will say, "They have departed from us," and will bear witness against themselves that they were disbelievers.',
-      verse: 870,
+      text: "Then who (is) more unjust than (one) who invented against Allah a lie or denies His Verses Those  will reach them their portion from the Book until when comes to them Our messengers (Angels) (to) take them in death they say Where are those (whom) you used to invoke from besides Allah They say They strayed from us and they (will) testify against themselves that they were disbelievers (37)",
+      transliteration:
+        "faman aẓlamu mimmani if'tarā ʿalā l-lahi kadhiban aw kadhaba biāyātihi ulāika yanāluhum naṣībuhum mina l-kitābi ḥattā idhā jāathum rusulunā yatawaffawnahum qālū ayna mā kuntum tadʿūna min dūni l-lahi qālū ḍallū ʿannā washahidū ʿalā anfusihim annahum kānū kāfirīna ",
+      verse: 991,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 38,
       image: "",
-      text:
-        '[ Allah ] will say, "Enter among nations which had passed on before you of jinn and mankind into the Fire." Every time a nation enters, it will curse its sister until, when they have all overtaken one another therein, the last of them will say about the first of them "Our Lord, these had misled us, so give them a double punishment of the Fire. He will say, "For each is double, but you do not know."',
-      verse: 871,
+      text: "He (will) say Enter among (the) nations (who) passed away from before you of the jinn and the men in the Fire Every time entered a nation it cursed its sister (nation) until when they had overtaken one another in it all (will) say (the) last of them about the first of them Our Lord these misled us so give them punishment double of the Fire He (will) say For each (is) a double [and] but not you know (38)",
+      transliteration:
+        "qāla ud'khulū fī umamin qad khalat min qablikum mina l-jini wal-insi fī l-nāri kullamā dakhalat ummatun laʿanat ukh'tahā ḥattā idhā iddārakū fīhā jamīʿan qālat ukh'rāhum liūlāhum rabbanā hāulāi aḍallūnā faātihim ʿadhāban ḍiʿ'fan mina l-nāri qāla likullin ḍiʿ'fun walākin lā taʿlamūna ",
+      verse: 992,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 39,
       image: "",
-      text:
-        'And the first of them will say to the last of them, "Then you had not any favor over us, so taste the punishment for what you used to earn."',
-      verse: 872,
+      text: "And (will) say (the) first of them to (the) last of them Then not is for you upon us any superiority so taste the punishment for what you used to earn (39)",
+      transliteration:
+        "waqālat ūlāhum li-ukh'rāhum famā kāna lakum ʿalaynā min faḍlin fadhūqū l-ʿadhāba bimā kuntum taksibūna ",
+      verse: 993,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 40,
       image: "",
-      text:
-        "Indeed, those who deny Our verses and are arrogant toward them -  the gates of Heaven will not be opened for them, nor will they enter Paradise until a camel enters into the eye of a needle. And thus do We recompense the criminals.",
-      verse: 873,
+      text: "Indeed those who denied Our Verses and (were) arrogant towards them (will) not be opened for them (the) doors (of) the heaven and not they will enter Paradise until passes the camel through (the) eye (of) the needle And thus We recompense the criminals (40)",
+      transliteration:
+        "inna alladhīna kadhabū biāyātinā wa-is'takbarū ʿanhā lā tufattaḥu lahum abwābu l-samāi walā yadkhulūna l-janata ḥattā yalija l-jamalu fī sammi l-khiyāṭi wakadhālika najzī l-muj'rimīna ",
+      verse: 994,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 41,
       image: "",
-      text:
-        "They will have from Hell a bed and over them coverings [of fire]. And thus do We recompense the wrongdoers.",
-      verse: 874,
+      text: "For them of (the) Hell (is) a bed and from over them coverings And thus We recompense the wrongdoers (41)",
+      transliteration:
+        "lahum min jahannama mihādun wamin fawqihim ghawāshin wakadhālika najzī l-ẓālimīna ",
+      verse: 995,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 42,
       image: "",
-      text:
-        "But those who believed and did righteous deeds -  We charge no soul except [within] its capacity. Those are the companions of Paradise; they will abide therein eternally.",
-      verse: 875,
+      text: "But those who believe and do [the] righteous deeds not We burden any soul except (to) its capacity Those (are the) companions (of) Paradise they in it (will) abide forever (42)",
+      transliteration:
+        "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti lā nukallifu nafsan illā wus'ʿahā ulāika aṣḥābu l-janati hum fīhā khālidūna ",
+      verse: 996,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 43,
       image: "",
-      text:
-        'And We will have removed whatever is within their breasts of resentment, [while] flowing beneath them are rivers. And they will say, "Praise to Allah, who has guided us to this; and we would never have been guided if Allah had not guided us. Certainly the messengers of our Lord had come with the truth." And they will be called, "This is Paradise, which you have been made to inherit for what you used to do."',
-      verse: 876,
+      text: "And We will remove whatever (is) in their breasts of malice Flows from underneath them the rivers And they will say All the praise (is) for Allah the One Who guided us to this and not we were to receive guidance if not [that] (had) guided us Allah Certainly came Messengers (of) our Lord with the truth And they will be addressed [that] This (is) Paradise you have been made to inherit it for what you used to do (43)",
+      transliteration:
+        "wanazaʿnā mā fī ṣudūrihim min ghillin tajrī min taḥtihimu l-anhāru waqālū l-ḥamdu lillahi alladhī hadānā lihādhā wamā kunnā linahtadiya lawlā an hadānā l-lahu laqad jāat rusulu rabbinā bil-ḥaqi wanūdū an til'kumu l-janatu ūrith'tumūhā bimā kuntum taʿmalūna ",
+      verse: 997,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 44,
       image: "",
-      text:
-        'And the companions of Paradise will call out to the companions of the Fire, "We have already found what our Lord promised us to be true. Have you found what your Lord promised to be true?" They will say, "Yes." Then an announcer will announce among them, "The curse of Allah shall be upon the wrongdoers."',
-      verse: 877,
+      text: "And will call out (the) companions (of) Paradise (to the) companions (of) the Fire that Indeed we found what (had) promised us our Lord true So have you found what (was) promised (by) your Lord (to be) true They will say Yes Then will announce an announcer among them [that] (The) curse (of) Allah (is) on the wrongdoers (44)",
+      transliteration:
+        "wanādā aṣḥābu l-janati aṣḥāba l-nāri an qad wajadnā mā waʿadanā rabbunā ḥaqqan fahal wajadttum mā waʿada rabbukum ḥaqqan qālū naʿam fa-adhana mu-adhinun baynahum an laʿnatu l-lahi ʿalā l-ẓālimīna ",
+      verse: 998,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 45,
       image: "",
-      text:
-        "Who averted [people] from the way of Allah and sought to make it [seem] deviant while they were, concerning the Hereafter, disbelievers.",
-      verse: 878,
+      text: "Those who hinder from (the) way (of) Allah and seek in it crookedness while they (are) concerning the Hereafter disbelievers (45)",
+      transliteration:
+        "alladhīna yaṣuddūna ʿan sabīli l-lahi wayabghūnahā ʿiwajan wahum bil-ākhirati kāfirūna ",
+      verse: 999,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 46,
       image: "",
-      text:
-        'And between them will be a partition, and on [its] elevations are men who recognize all by their mark. And they call out to the companions of Paradise, "Peace be upon you." They have not [yet] entered it, but they long intensely.',
-      verse: 879,
+      text: "And between them (will be) a partition and on the heights (will be) men recognizing all by their marks And they will call out (to the) companions (of) Paradise that Peace (be) upon you Not they have entered it but they hope (46)",
+      transliteration:
+        "wabaynahumā ḥijābun waʿalā l-aʿrāfi rijālun yaʿrifūna kullan bisīmāhum wanādaw aṣḥāba l-janati an salāmun ʿalaykum lam yadkhulūhā wahum yaṭmaʿūna ",
+      verse: 1000,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 47,
       image: "",
-      text:
-        'And when their eyes are turned toward the companions of the Fire, they say, "Our Lord, do not place us with the wrongdoing people."',
-      verse: 880,
+      text: "And when are turned their eyes towards (the) companions (of) the Fire they (will) say Our Lord (Do) not place us with the people  the wrongdoers (47)",
+      transliteration:
+        "wa-idhā ṣurifat abṣāruhum til'qāa aṣḥābi l-nāri qālū rabbanā lā tajʿalnā maʿa l-qawmi l-ẓālimīna ",
+      verse: 1001,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 48,
       image: "",
-      text:
-        'And the companions of the Elevations will call to men [within Hell] whom they recognize by their mark, saying, "Of no avail to you was your gathering and [the fact] that you were arrogant."',
-      verse: 881,
+      text: "And (will) call out (the) companions (of) the heights (to) men whom they recognize by their marks saying Not (has) availed [to] you your gathering and what you were arrogant (about) (48)",
+      transliteration:
+        "wanādā aṣḥābu l-aʿrāfi rijālan yaʿrifūnahum bisīmāhum qālū mā aghnā ʿankum jamʿukum wamā kuntum tastakbirūna ",
+      verse: 1002,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 49,
       image: "",
-      text:
-        '[ Allah will say], "Are these the ones whom you [inhabitants of Hell] swore that Allah would never offer them mercy? Enter Paradise, [O People of the Elevations]. No fear will there be concerning you, nor will you grieve."',
-      verse: 882,
+      text: "Are these the ones whom you had sworn (that) not (will) grant them Allah Mercy Enter Paradise (There will be) no fear upon you and not you will grieve (49)",
+      transliteration:
+        "ahāulāi alladhīna aqsamtum lā yanāluhumu l-lahu biraḥmatin ud'khulū l-janata lā khawfun ʿalaykum walā antum taḥzanūna ",
+      verse: 1003,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 50,
       image: "",
-      text:
-        'And the companions of the Fire will call to the companions of Paradise, "Pour upon us some water or from whatever Allah has provided you." They will say, "Indeed, Allah has forbidden them both to the disbelievers."',
-      verse: 883,
+      text: "And (will) call out (the) companions (of) the Fire (to the) companions (of) Paradise [that] Pour upon us [of] (some) water or of what (has been) provided (to) you (by) Allah They (will) say Indeed Allah has forbidden both to the disbelievers (50)",
+      transliteration:
+        "wanādā aṣḥābu l-nāri aṣḥāba l-janati an afīḍū ʿalaynā mina l-māi aw mimmā razaqakumu l-lahu qālū inna l-laha ḥarramahumā ʿalā l-kāfirīna ",
+      verse: 1004,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 51,
       image: "",
-      text:
-        'Who took their religion as distraction and amusement and whom the worldly life deluded." So today We will forget them just as they forgot the meeting of this Day of theirs and for having rejected Our verses.',
-      verse: 884,
+      text: "Those who took their religion (as) an amusement and play and deluded them the life (of) the world So today We forget them as they forgot (the) meeting (of) their day this and [what] (as) they used to with Our Verses they reject (51)",
+      transliteration:
+        "alladhīna ittakhadhū dīnahum lahwan walaʿiban wagharrathumu l-ḥayatu l-dun'yā fal-yawma nansāhum kamā nasū liqāa yawmihim hādhā wamā kānū biāyātinā yajḥadūna ",
+      verse: 1005,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 52,
       image: "",
-      text:
-        "And We had certainly brought them a Book which We detailed by knowledge - as guidance and mercy to a people who believe.",
-      verse: 885,
+      text: "And certainly We had brought them a Book which We have explained with knowledge  as guidance and mercy for a people who believe (52)",
+      transliteration:
+        "walaqad ji'nāhum bikitābin faṣṣalnāhu ʿalā ʿil'min hudan waraḥmatan liqawmin yu'minūna ",
+      verse: 1006,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 53,
       image: "",
-      text:
-        'Do they await except its result? The Day its result comes those who had ignored it before will say, "The messengers of our Lord had come with the truth, so are there [now] any intercessors to intercede for us or could we be sent back to do other than we used to do?" They will have lost themselves, and lost from them is what they used to invent.',
-      verse: 886,
+      text: "Do they wait except (for) its fulfillment (The) Day (will) come its fulfillment will say those who had forgotten it from before Verily had come (the) Messengers (of) our Lord with the truth so are (there) for us any intercessors so (that) they intercede for us or we are sent back so (that) we do (deeds) other than that which we used to do Verily they lost themselves and strayed from them what they used to invent (53)",
+      transliteration:
+        "hal yanẓurūna illā tawīlahu yawma yatī tawīluhu yaqūlu alladhīna nasūhu min qablu qad jāat rusulu rabbinā bil-ḥaqi fahal lanā min shufaʿāa fayashfaʿū lanā aw nuraddu fanaʿmala ghayra alladhī kunnā naʿmalu qad khasirū anfusahum waḍalla ʿanhum mā kānū yaftarūna ",
+      verse: 1007,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 54,
       image: "",
-      text:
-        "Indeed, your Lord is Allah, who created the heavens and earth in six days and then established Himself above the Throne. He covers the night with the day, [another night] chasing it rapidly; and [He created] the sun, the moon, and the stars, subjected by His command. Unquestionably, His is the creation and the command; blessed is Allah, Lord of the worlds.",
-      verse: 887,
+      text: "Indeed your Lord (is) Allah the One Who created the heavens and the earth in six epochs then He ascended on the Throne He covers the night (with) the day seeking it rapidly and the sun and the moon and the stars  subjected by His command Unquestionably for Him (is) the creation and the command blessed (is) Allah Lord (of) the worlds (54)",
+      transliteration:
+        "inna rabbakumu l-lahu alladhī khalaqa l-samāwāti wal-arḍa fī sittati ayyāmin thumma is'tawā ʿalā l-ʿarshi yugh'shī al-layla l-nahāra yaṭlubuhu ḥathīthan wal-shamsa wal-qamara wal-nujūma musakharātin bi-amrihi alā lahu l-khalqu wal-amru tabāraka l-lahu rabbu l-ʿālamīna ",
+      verse: 1008,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 55,
       image: "",
-      text:
-        "Call upon your Lord in humility and privately; indeed, He does not like transgressors.",
-      verse: 888,
+      text: "Call upon your Lord humbly and privately Indeed, He (does) not love the transgressors (55)",
+      transliteration:
+        "id'ʿū rabbakum taḍarruʿan wakhuf'yatan innahu lā yuḥibbu l-muʿ'tadīna ",
+      verse: 1009,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 56,
       image: "",
-      text:
-        "And cause not corruption upon the earth after its reformation. And invoke Him in fear and aspiration. Indeed, the mercy of Allah is near to the doers of good.",
-      verse: 889,
+      text: "And (do) not cause corruption in the earth after its reformation And call Him (in) fear and hope Indeed (the) Mercy (of) Allah (is) near for the good-doers (56)",
+      transliteration:
+        "walā tuf'sidū fī l-arḍi baʿda iṣ'lāḥihā wa-id'ʿūhu khawfan waṭamaʿan inna raḥmata l-lahi qarībun mina l-muḥ'sinīna ",
+      verse: 1010,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 57,
       image: "",
-      text:
-        "And it is He who sends the winds as good tidings before His mercy until, when they have carried heavy rainclouds, We drive them to a dead land and We send down rain therein and bring forth thereby [some] of all the fruits. Thus will We bring forth the dead; perhaps you may be reminded.",
-      verse: 890,
+      text: "And He (is) the One Who sends the winds (as) glad tidings from before His Mercy until when they have carried clouds  heavy We drive them to a land dead then We send down from it the water then We bring forth from it (of) all (kinds) (of) fruits Thus We will bring forth the dead so that you may take heed (57)",
+      transliteration:
+        "wahuwa alladhī yur'silu l-riyāḥa bush'ran bayna yaday raḥmatihi ḥattā idhā aqallat saḥāban thiqālan suq'nāhu libaladin mayyitin fa-anzalnā bihi l-māa fa-akhrajnā bihi min kulli l-thamarāti kadhālika nukh'riju l-mawtā laʿallakum tadhakkarūna ",
+      verse: 1011,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 58,
       image: "",
-      text:
-        "And the good land - its vegetation emerges by permission of its Lord; but that which is bad - nothing emerges except sparsely, with difficulty. Thus do We diversify the signs for a people who are grateful.",
-      verse: 891,
+      text: "And the land  [the] pure comes forth its vegetation by (the) permission (of) its Lord but which is bad  (does) not come forth except (with) difficulty Thus We explain the Signs for a people who are grateful (58)",
+      transliteration:
+        "wal-baladu l-ṭayibu yakhruju nabātuhu bi-idh'ni rabbihi wa-alladhī khabutha lā yakhruju illā nakidan kadhālika nuṣarrifu l-āyāti liqawmin yashkurūna ",
+      verse: 1012,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 59,
       image: "",
-      text:
-        'We had certainly sent Noah to his people, and he said, "O my people, worship Allah ; you have no deity other than Him. Indeed, I fear for you the punishment of a tremendous Day.',
-      verse: 892,
+      text: "Certainly We sent Nuh to his people and he said O my people Worship Allah not for you any god other than Him Indeed, I [I] fear for you punishment (of the) Day Great (59)",
+      transliteration:
+        "laqad arsalnā nūḥan ilā qawmihi faqāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu innī akhāfu ʿalaykum ʿadhāba yawmin ʿaẓīmin ",
+      verse: 1013,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 60,
       image: "",
-      text:
-        'Said the eminent among his people, "Indeed, we see you in clear error."',
-      verse: 893,
+      text: "Said the chiefs of his people Indeed, we surely see you in error clear (60)",
+      transliteration:
+        "qāla l-mala-u min qawmihi innā lanarāka fī ḍalālin mubīnin ",
+      verse: 1014,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 61,
       image: "",
-      text:
-        '[Noah] said, "O my people, there is not error in me, but I am a messenger from the Lord of the worlds."',
-      verse: 894,
+      text: "He said O my people There is not in me error but I am a Messenger from (the) Lord (of) the worlds (61)",
+      transliteration:
+        "qāla yāqawmi laysa bī ḍalālatun walākinnī rasūlun min rabbi l-ʿālamīna ",
+      verse: 1015,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 62,
       image: "",
-      text:
-        "I convey to you the messages of my Lord and advise you; and I know from Allah what you do not know.",
-      verse: 895,
+      text: "I convey to you the Messages (of) my Lord and [I] advise [to] you and I know from Allah what not you know (62)",
+      transliteration:
+        "uballighukum risālāti rabbī wa-anṣaḥu lakum wa-aʿlamu mina l-lahi mā lā taʿlamūna ",
+      verse: 1016,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 63,
       image: "",
-      text:
-        'Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you and that you may fear Allah so you might receive mercy."',
-      verse: 896,
+      text: "Do you wonder that has come to you a reminder from your Lord on a man among you that he may warn you and that you may fear and so that you may receive mercy (63)",
+      transliteration:
+        "awaʿajib'tum an jāakum dhik'run min rabbikum ʿalā rajulin minkum liyundhirakum walitattaqū walaʿallakum tur'ḥamūna ",
+      verse: 1017,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 64,
       image: "",
-      text:
-        "But they denied him, so We saved him and those who were with him in the ship. And We drowned those who denied Our signs. Indeed, they were a blind people.",
-      verse: 897,
+      text: "But they denied him so We saved him and those who (were) with him in the ship And We drowned those who denied Our Verses Indeed, they were a people blind (64)",
+      transliteration:
+        "fakadhabūhu fa-anjaynāhu wa-alladhīna maʿahu fī l-ful'ki wa-aghraqnā alladhīna kadhabū biāyātinā innahum kānū qawman ʿamīna ",
+      verse: 1018,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 65,
       image: "",
-      text:
-        'And to the \'Aad [We sent] their brother Hud. He said, "O my people, worship Allah ; you have no deity other than Him. Then will you not fear Him?"',
-      verse: 898,
+      text: "And to Aad (We sent) their brother Hud He said O my people Worship Allah not for you any god other than Him Then will not you fear (Allah) (65)",
+      transliteration:
+        "wa-ilā ʿādin akhāhum hūdan qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu afalā tattaqūna ",
+      verse: 1019,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 66,
       image: "",
-      text:
-        'Said the eminent ones who disbelieved among his people, "Indeed, we see you in foolishness, and indeed, we think you are of the liars."',
-      verse: 899,
+      text: "Said the chiefs (of) those who disbelieved from his people Indeed, we surely, see you in foolishness and indeed, we [we] think you (are) of the liars (66)",
+      transliteration:
+        "qāla l-mala-u alladhīna kafarū min qawmihi innā lanarāka fī safāhatin wa-innā lanaẓunnuka mina l-kādhibīna ",
+      verse: 1020,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 67,
       image: "",
-      text:
-        '[Hud] said, "O my people, there is not foolishness in me, but I am a messenger from the Lord of the worlds."',
-      verse: 900,
+      text: "He said O my people There is not in me foolishness but I am a Messenger from (the) Lord (of) the worlds (67)",
+      transliteration:
+        "qāla yāqawmi laysa bī safāhatun walākinnī rasūlun min rabbi l-ʿālamīna ",
+      verse: 1021,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 68,
       image: "",
-      text:
-        "I convey to you the messages of my Lord, and I am to you a trustworthy adviser.",
-      verse: 901,
+      text: "I convey to you Messages (of) my Lord and I am to you an adviser  trustworthy (68)",
+      transliteration:
+        "uballighukum risālāti rabbī wa-anā lakum nāṣiḥun amīnun ",
+      verse: 1022,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 69,
       image: "",
-      text:
-        "Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you? And remember when He made you successors after the people of Noah and increased you in stature extensively. So remember the favors of Allah that you might succeed.",
-      verse: 902,
+      text: "Do you wonder that has come to you a reminder from your Lord on a man among you that he may warn you And remember when He made you successors from after (the) people (of) Nuh and increased you in the stature extensively So remember (the) Bounties (of) Allah so that you may succeed (69)",
+      transliteration:
+        "awaʿajib'tum an jāakum dhik'run min rabbikum ʿalā rajulin minkum liyundhirakum wa-udh'kurū idh jaʿalakum khulafāa min baʿdi qawmi nūḥin wazādakum fī l-khalqi baṣ'ṭatan fa-udh'kurū ālāa l-lahi laʿallakum tuf'liḥūna ",
+      verse: 1023,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 70,
       image: "",
-      text:
-        'They said, "Have you come to us that we should worship Allah alone and leave what our fathers have worshipped? Then bring us what you promise us, if you should be of the truthful."',
-      verse: 903,
+      text: "They said Have you come to us that we (should) worship Allah Alone and we forsake what used to worship our forefathers Then bring us of what you promise us if you are of the truthful (70)",
+      transliteration:
+        "qālū aji'tanā linaʿbuda l-laha waḥdahu wanadhara mā kāna yaʿbudu ābāunā fatinā bimā taʿidunā in kunta mina l-ṣādiqīna ",
+      verse: 1024,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 71,
       image: "",
-      text:
-        '[Hud] said, "Already have defilement and anger fallen upon you from your Lord. Do you dispute with me concerning [mere] names you have named them, you and your fathers, for which Allah has not sent down any authority? Then wait; indeed, I am with you among those who wait."',
-      verse: 904,
+      text: "He said Verily has fallen upon you from your Lord punishment and anger Do you dispute with me concerning names you have named them  you and your forefathers Not (has been) sent down (by) Allah for it any authority Then wait indeed, I am with you of the ones who wait (71)",
+      transliteration:
+        "qāla qad waqaʿa ʿalaykum min rabbikum rij'sun waghaḍabun atujādilūnanī fī asmāin sammaytumūhā antum waābāukum mā nazzala l-lahu bihā min sul'ṭānin fa-intaẓirū innī maʿakum mina l-muntaẓirīna ",
+      verse: 1025,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 72,
       image: "",
-      text:
-        "So We saved him and those with him by mercy from Us. And We eliminated those who denied Our signs, and they were not [at all] believers.",
-      verse: 905,
+      text: "So We saved him and those with him by Mercy from Us And We cut off the roots (of) those who denied Our Signs and not they were believers (72)",
+      transliteration:
+        "fa-anjaynāhu wa-alladhīna maʿahu biraḥmatin minnā waqaṭaʿnā dābira alladhīna kadhabū biāyātinā wamā kānū mu'minīna ",
+      verse: 1026,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 73,
       image: "",
-      text:
-        "And to the Thamud [We sent] their brother Salih. He said, \"O my people, worship Allah ; you have no deity other than Him. There has come to you clear evidence from your Lord. This is the she-camel of Allah [sent] to you as a sign. So leave her to eat within Allah's land and do not touch her with harm, lest there seize you a painful punishment.",
-      verse: 906,
+      text: "And to Thamud (We sent) their brother Salih He said O my people Worship Allah not for you any god other than Him Verily has come to you a clear proof from your Lord This (is) a she-camel (of) Allah (it is) for you a Sign So you leave her (to) eat on (the) earth (of) Allah and (do) not touch her with harm lest seizes you a punishment painful (73)",
+      transliteration:
+        "wa-ilā thamūda akhāhum ṣāliḥan qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu qad jāatkum bayyinatun min rabbikum hādhihi nāqatu l-lahi lakum āyatan fadharūhā takul fī arḍi l-lahi walā tamassūhā bisūin fayakhudhakum ʿadhābun alīmun ",
+      verse: 1027,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 74,
       image: "",
-      text:
-        "And remember when He made you successors after the 'Aad and settled you in the land, [and] you take for yourselves palaces from its plains and carve from the mountains, homes. Then remember the favors of Allah and do not commit abuse on the earth, spreading corruption.\"",
-      verse: 907,
+      text: "And remember when He made you successors from after Aad and settled you in the earth You take from its plains palaces and you carve out the mountains (as) homes So remember (the) Bounties (of) Allah and (do) not act wickedly in (the) earth spreading corruption (74)",
+      transliteration:
+        "wa-udh'kurū idh jaʿalakum khulafāa min baʿdi ʿādin wabawwa-akum fī l-arḍi tattakhidhūna min suhūlihā quṣūran watanḥitūna l-jibāla buyūtan fa-udh'kurū ālāa l-lahi walā taʿthaw fī l-arḍi muf'sidīna ",
+      verse: 1028,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 75,
       image: "",
-      text:
-        'Said the eminent ones who were arrogant among his people to those who were oppressed -  to those who believed among them, "Do you [actually] know that Salih is sent from his Lord?" They said, "Indeed we, in that with which he was sent, are believers."',
-      verse: 908,
+      text: "Said the chiefs  those (who) were arrogant among his people to those who were oppressed  [to] those who believed among them Do you know that Salih (is the) one sent from his Lord They said Indeed, we in what he has been sent with [it] (are) believers (75)",
+      transliteration:
+        "qāla l-mala-u alladhīna is'takbarū min qawmihi lilladhīna us'tuḍ'ʿifū liman āmana min'hum ataʿlamūna anna ṣāliḥan mur'salun min rabbihi qālū innā bimā ur'sila bihi mu'minūna ",
+      verse: 1029,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 76,
       image: "",
-      text:
-        'Said those who were arrogant, "Indeed we, in that which you have believed, are disbelievers."',
-      verse: 909,
+      text: "Said those who were arrogant Indeed we in that which you believe in it (are) disbelievers (76)",
+      transliteration:
+        "qāla alladhīna is'takbarū innā bi-alladhī āmantum bihi kāfirūna ",
+      verse: 1030,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 77,
       image: "",
-      text:
-        'So they hamstrung the she-camel and were insolent toward the command of their Lord and said, "O Salih, bring us what you promise us, if you should be of the messengers."',
-      verse: 910,
+      text: "Then they hamstrung the she-camel and (were) insolent towards (the) command (of) their Lord and they said O Salih Bring us what you promise us if you are of the Messengers (77)",
+      transliteration:
+        "faʿaqarū l-nāqata waʿataw ʿan amri rabbihim waqālū yāṣāliḥu i'tinā bimā taʿidunā in kunta mina l-mur'salīna ",
+      verse: 1031,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 78,
       image: "",
-      text:
-        "So the earthquake seized them, and they became within their home [corpses] fallen prone.",
-      verse: 911,
+      text: "So seized them the earthquake then they became in their homes fallen prone (78)",
+      transliteration:
+        "fa-akhadhathumu l-rajfatu fa-aṣbaḥū fī dārihim jāthimīna ",
+      verse: 1032,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 79,
       image: "",
-      text:
-        'And he turned away from them and said, "O my people, I had certainly conveyed to you the message of my Lord and advised you, but you do not like advisors."',
-      verse: 912,
+      text: "So he turned away from them and he said O my people Verily I have conveyed to you (the) Message (of) my Lord and [I] advised [to] you but not you like the advisers (79)",
+      transliteration:
+        "fatawallā ʿanhum waqāla yāqawmi laqad ablaghtukum risālata rabbī wanaṣaḥtu lakum walākin lā tuḥibbūna l-nāṣiḥīna ",
+      verse: 1033,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 80,
       image: "",
-      text:
-        'And [We had sent] Lot when he said to his people, "Do you commit such immorality as no one has preceded you with from among the worlds?',
-      verse: 913,
+      text: "And Lut when he said to his people Do you commit (such) immorality not has preceded you therein any one of the worlds (80)",
+      transliteration:
+        "walūṭan idh qāla liqawmihi atatūna l-fāḥishata mā sabaqakum bihā min aḥadin mina l-ʿālamīna ",
+      verse: 1034,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 81,
       image: "",
-      text:
-        'Indeed, you approach men with desire, instead of women. Rather, you are a transgressing people."',
-      verse: 914,
+      text: "Indeed, you you approach the men lustfully from instead of the women Nay you (are) a people (who) commit excesses (81)",
+      transliteration:
+        "innakum latatūna l-rijāla shahwatan min dūni l-nisāi bal antum qawmun mus'rifūna ",
+      verse: 1035,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 82,
       image: "",
-      text:
-        'But the answer of his people was only that they said, "Evict them from your city! Indeed, they are men who keep themselves pure."',
-      verse: 915,
+      text: "And not was (the) answer (of) his people except that they said Drive them out of your town Indeed, they (are) people who keep themselves pure (82)",
+      transliteration:
+        "wamā kāna jawāba qawmihi illā an qālū akhrijūhum min qaryatikum innahum unāsun yataṭahharūna ",
+      verse: 1036,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 83,
       image: "",
-      text:
-        "So We saved him and his family, except for his wife; she was of those who remained [with the evildoers].",
-      verse: 916,
+      text: "So We saved him and his family except his wife she was of those who stayed behind (83)",
+      transliteration:
+        "fa-anjaynāhu wa-ahlahu illā im'ra-atahu kānat mina l-ghābirīna ",
+      verse: 1037,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 84,
       image: "",
-      text:
-        "And We rained upon them a rain [of stones]. Then see how was the end of the criminals.",
-      verse: 917,
+      text: "And We showered upon them a rain So see how was (the) end (of) the criminals (84)",
+      transliteration:
+        "wa-amṭarnā ʿalayhim maṭaran fa-unẓur kayfa kāna ʿāqibatu l-muj'rimīna ",
+      verse: 1038,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 85,
       image: "",
-      text:
-        "And to [the people of] Madyan [We sent] their brother Shu'ayb. He said, \"O my people, worship Allah ; you have no deity other than Him. There has come to you clear evidence from your Lord. So fulfill the measure and weight and do not deprive people of their due and cause not corruption upon the earth after its reformation. That is better for you, if you should be believers.",
-      verse: 918,
+      text: "And to Madyan his brother Shuaib He said O my people Worship Allah not for you any god other than Him Verily has came to you a clear proof from your Lord So give full [the] measure and the weight and (do) not deprive [the] people in their things and (do) not cause corruption in the earth after its reformation That (is) better for you if you are believers (85)",
+      transliteration:
+        "wa-ilā madyana akhāhum shuʿayban qāla yāqawmi uʿ'budū l-laha mā lakum min ilāhin ghayruhu qad jāatkum bayyinatun min rabbikum fa-awfū l-kayla wal-mīzāna walā tabkhasū l-nāsa ashyāahum walā tuf'sidū fī l-arḍi baʿda iṣ'lāḥihā dhālikum khayrun lakum in kuntum mu'minīna ",
+      verse: 1039,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 86,
       image: "",
-      text:
-        "And do not sit on every path, threatening and averting from the way of Allah those who believe in Him, seeking to make it [seem] deviant. And remember when you were few and He increased you. And see how was the end of the corrupters.",
-      verse: 919,
+      text: "And (do) not sit on every path threatening and hindering from (the) way (of) Allah (those) who believe in Him and seeking (to make) it crooked And remember when you were few and He increased you And see how was (the) end (of) the corrupters (86)",
+      transliteration:
+        "walā taqʿudū bikulli ṣirāṭin tūʿidūna wataṣuddūna ʿan sabīli l-lahi man āmana bihi watabghūnahā ʿiwajan wa-udh'kurū idh kuntum qalīlan fakatharakum wa-unẓurū kayfa kāna ʿāqibatu l-muf'sidīna ",
+      verse: 1040,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 87,
       image: "",
-      text:
-        'And if there should be a group among you who has believed in that with which I have been sent and a group that has not believed, then be patient until Allah judges between us. And He is the best of judges."',
-      verse: 920,
+      text: "And if (there) is a group among you (who has) believed in that which I have been sent with [it] and a group not they believe then be patient until judges Allah between us And He (is the) Best (of) [the] Judges (87)",
+      transliteration:
+        "wa-in kāna ṭāifatun minkum āmanū bi-alladhī ur'sil'tu bihi waṭāifatun lam yu'minū fa-iṣ'birū ḥattā yaḥkuma l-lahu baynanā wahuwa khayru l-ḥākimīna ",
+      verse: 1041,
+      juz: 8,
+      surah: 7,
     },
     {
       number: 88,
       image: "",
-      text:
-        'Said the eminent ones who were arrogant among his people, "We will surely evict you, O Shu\'ayb, and those who have believed with you from our city, or you must return to our religion." He said, "Even if we were unwilling?"',
-      verse: 921,
+      text: "Said the chiefs (of) those who were arrogant among his people We will surely drive you out O Shuaib And those who (have) believed with you from our city or you must return to our religion He said Even if we are (the) ones who hate (it) (88)",
+      transliteration:
+        "qāla l-mala-u alladhīna is'takbarū min qawmihi lanukh'rijannaka yāshuʿaybu wa-alladhīna āmanū maʿaka min qaryatinā aw lataʿūdunna fī millatinā qāla awalaw kunnā kārihīna ",
+      verse: 1042,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 89,
       image: "",
-      text:
-        'We would have invented against Allah a lie if we returned to your religion after Allah had saved us from it. And it is not for us to return to it except that Allah, our Lord, should will. Our Lord has encompassed all things in knowledge. Upon Allah we have relied. Our Lord, decide between us and our people in truth, and You are the best of those who give decision."',
-      verse: 922,
+      text: "Verily we would have fabricated against Allah a lie if we returned in your religion after [when] saved us Allah from it And not it is for us that we return in it except that wills Allah  our Lord Encompasses (by) Our Lord every thing (in) knowledge Upon Allah we put our trust Our Lord Decide between us and between our people in truth and You (are the) Best (of) those who Decide (89)",
+      transliteration:
+        "qadi if'taraynā ʿalā l-lahi kadhiban in ʿud'nā fī millatikum baʿda idh najjānā l-lahu min'hā wamā yakūnu lanā an naʿūda fīhā illā an yashāa l-lahu rabbunā wasiʿa rabbunā kulla shayin ʿil'man ʿalā l-lahi tawakkalnā rabbanā if'taḥ baynanā wabayna qawminā bil-ḥaqi wa-anta khayru l-fātiḥīna ",
+      verse: 1043,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 90,
       image: "",
-      text:
-        'Said the eminent ones who disbelieved among his people, "If you should follow Shu\'ayb, indeed, you would then be losers."',
-      verse: 923,
+      text: "And said the chiefs (of) those who disbelieved among his people If you follow Shuaib indeed, you then (will be) certainly losers (90)",
+      transliteration:
+        "waqāla l-mala-u alladhīna kafarū min qawmihi la-ini ittabaʿtum shuʿayban innakum idhan lakhāsirūna ",
+      verse: 1044,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 91,
       image: "",
-      text:
-        "So the earthquake seized them, and they became within their home [corpses] fallen prone.",
-      verse: 924,
+      text: "Then seized them the earthquake then they became in their home(s) fallen prone (91)",
+      transliteration:
+        "fa-akhadhathumu l-rajfatu fa-aṣbaḥū fī dārihim jāthimīna ",
+      verse: 1045,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 92,
       image: "",
-      text:
-        "Those who denied Shu'ayb -  it was as though they had never resided there. Those who denied Shu'ayb -  it was they who were the losers.",
-      verse: 925,
+      text: "Those who denied Shuaib (became) as if not they (had) lived therein Those who denied Shuaib they were them the losers (92)",
+      transliteration:
+        "alladhīna kadhabū shuʿayban ka-an lam yaghnaw fīhā alladhīna kadhabū shuʿayban kānū humu l-khāsirīna ",
+      verse: 1046,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 93,
       image: "",
-      text:
-        'And he turned away from them and said, "O my people, I had certainly conveyed to you the messages of my Lord and advised you, so how could I grieve for a disbelieving people?"',
-      verse: 926,
+      text: "So he turned away from them and said O my people Verily I (have) conveyed to you (the) Messages (of) my Lord and advised [to] you So how could I grieve for a people (who are) disbelievers (93)",
+      transliteration:
+        "fatawallā ʿanhum waqāla yāqawmi laqad ablaghtukum risālāti rabbī wanaṣaḥtu lakum fakayfa āsā ʿalā qawmin kāfirīna ",
+      verse: 1047,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 94,
       image: "",
-      text:
-        "And We sent to no city a prophet [who was denied] except that We seized its people with poverty and hardship that they might humble themselves [to Allah ].",
-      verse: 927,
+      text: "And not We sent in a city any Prophet except We seized its people with adversity and hardship so that they may (become) humble (94)",
+      transliteration:
+        "wamā arsalnā fī qaryatin min nabiyyin illā akhadhnā ahlahā bil-basāi wal-ḍarāi laʿallahum yaḍḍarraʿūna ",
+      verse: 1048,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 95,
       image: "",
-      text:
-        'Then We exchanged in place of the bad [condition], good, until they increased [and prospered] and said, "Our fathers [also] were touched with hardship and ease." So We seized them suddenly while they did not perceive.',
-      verse: 928,
+      text: "Then We changed (in) place (of) the bad the good until they increased and said Verily (had) touched our forefathers the adversity and the ease So We seized them suddenly while they (did) not perceive (95)",
+      transliteration:
+        "thumma baddalnā makāna l-sayi-ati l-ḥasanata ḥattā ʿafaw waqālū qad massa ābāanā l-ḍarāu wal-sarāu fa-akhadhnāhum baghtatan wahum lā yashʿurūna ",
+      verse: 1049,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 96,
       image: "",
-      text:
-        'And if only the people of the cities had believed and feared Allah, We would have opened upon them blessings from the heaven and the earth; but they denied [the messengers], so We seized them for what they were earning."',
-      verse: 929,
+      text: "And if [that] people (of) the cities (had) believed and feared Allah surely We (would have) opened upon them blessings from the heaven and the earth but they denied So We seized them for what they used to earn (96)",
+      transliteration:
+        "walaw anna ahla l-qurā āmanū wa-ittaqaw lafataḥnā ʿalayhim barakātin mina l-samāi wal-arḍi walākin kadhabū fa-akhadhnāhum bimā kānū yaksibūna ",
+      verse: 1050,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 97,
       image: "",
-      text:
-        "Then, did the people of the cities feel secure from Our punishment coming to them at night while they were asleep?",
-      verse: 930,
+      text: "Then did feel secure (the) people (of) the cities that comes to them Our punishment (at) night while they (were) asleep (97)",
+      transliteration:
+        "afa-amina ahlu l-qurā an yatiyahum basunā bayātan wahum nāimūna ",
+      verse: 1051,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 98,
       image: "",
-      text:
-        "Or did the people of the cities feel secure from Our punishment coming to them in the morning while they were at play?",
-      verse: 931,
+      text: "Or felt secure (the) people (of) the cities that comes to them Our punishment (in) daylight while they (were) playing (98)",
+      transliteration:
+        "awa-amina ahlu l-qurā an yatiyahum basunā ḍuḥan wahum yalʿabūna ",
+      verse: 1052,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 99,
       image: "",
-      text:
-        "Then did they feel secure from the plan of Allah ? But no one feels secure from the plan of Allah except the losing people.",
-      verse: 932,
+      text: "Then did they feel secure (from the) plan (of) Allah But not feel secure (from the) plan (of) Allah except the people (who are) the losers (99)",
+      transliteration:
+        "afa-aminū makra l-lahi falā yamanu makra l-lahi illā l-qawmu l-khāsirūna ",
+      verse: 1053,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 100,
       image: "",
-      text:
-        "Has it not become clear to those who inherited the earth after its [previous] people that if We willed, We could afflict them for their sins? But We seal over their hearts so they do not hear.",
-      verse: 933,
+      text: "Would it not guide [for] those who inherit the land from after its people that if We willed We (could) afflict them for their sins and We put a seal over their hearts so they (do) not hear (100)",
+      transliteration:
+        "awalam yahdi lilladhīna yarithūna l-arḍa min baʿdi ahlihā an law nashāu aṣabnāhum bidhunūbihim wanaṭbaʿu ʿalā qulūbihim fahum lā yasmaʿūna ",
+      verse: 1054,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 101,
       image: "",
-      text:
-        "Those cities -  We relate to you, [O Muhammad], some of their news. And certainly did their messengers come to them with clear proofs, but they were not to believe in that which they had denied before. Thus does Allah seal over the hearts of the disbelievers.",
-      verse: 934,
+      text: "These (were) the cities  We relate to you of their news And certainly came to them their Messengers with clear proofs but not they were to believe in what they (had) denied from before Thus (has been) put a seal (by) Allah on (the) hearts (of) the disbelievers (101)",
+      transliteration:
+        "til'ka l-qurā naquṣṣu ʿalayka min anbāihā walaqad jāathum rusuluhum bil-bayināti famā kānū liyu'minū bimā kadhabū min qablu kadhālika yaṭbaʿu l-lahu ʿalā qulūbi l-kāfirīna ",
+      verse: 1055,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 102,
       image: "",
-      text:
-        "And We did not find for most of them any covenant; but indeed, We found most of them defiantly disobedient.",
-      verse: 935,
+      text: "And not We found for most of them any covenant But We found most of them certainly, defiantly disobedient (102)",
+      transliteration:
+        "wamā wajadnā li-aktharihim min ʿahdin wa-in wajadnā aktharahum lafāsiqīna ",
+      verse: 1056,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 103,
       image: "",
-      text:
-        "Then We sent after them Moses with Our signs to Pharaoh and his establishment, but they were unjust toward them. So see how was the end of the corrupters.",
-      verse: 936,
+      text: "Then We sent from after them Musa with Our Signs to Firaun and his chiefs But they were unjust to them So see how was (the) end (of) the corrupters (103)",
+      transliteration:
+        "thumma baʿathnā min baʿdihim mūsā biāyātinā ilā fir'ʿawna wamala-ihi faẓalamū bihā fa-unẓur kayfa kāna ʿāqibatu l-muf'sidīna ",
+      verse: 1057,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 104,
       image: "",
-      text:
-        'And Moses said, "O Pharaoh, I am a messenger from the Lord of the worlds',
-      verse: 937,
+      text: "And said Musa O Firaun Indeed, I am a Messenger from (the) Lord (of) the worlds (104)",
+      transliteration:
+        "waqāla mūsā yāfir'ʿawnu innī rasūlun min rabbi l-ʿālamīna ",
+      verse: 1058,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 105,
       image: "",
-      text:
-        '[Who is] obligated not to say about Allah except the truth. I have come to you with clear evidence from your Lord, so send with me the Children of Israel."',
-      verse: 938,
+      text: "Obligated on that not I say about Allah except the truth Verily I (have) come to you with a clear Sign from your Lord so send with me (the) Children (of) Israel (105)",
+      transliteration:
+        "ḥaqīqun ʿalā an lā aqūla ʿalā l-lahi illā l-ḥaqa qad ji'tukum bibayyinatin min rabbikum fa-arsil maʿiya banī is'rāīla ",
+      verse: 1059,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 106,
       image: "",
-      text:
-        '[Pharaoh] said, "If you have come with a sign, then bring it forth, if you should be of the truthful."',
-      verse: 939,
+      text: "He said If you have come with a Sign then bring it if you are of the truthful (106)",
+      transliteration:
+        "qāla in kunta ji'ta biāyatin fati bihā in kunta mina l-ṣādiqīna ",
+      verse: 1060,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 107,
       image: "",
-      text:
-        "So Moses threw his staff, and suddenly it was a serpent, manifest.",
-      verse: 940,
+      text: "So he threw his staff and suddenly it (was) a serpent manifest (107)",
+      transliteration: "fa-alqā ʿaṣāhu fa-idhā hiya thuʿ'bānun mubīnun ",
+      verse: 1061,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 108,
       image: "",
-      text:
-        "And he drew out his hand; thereupon it was white [with radiance] for the observers.",
-      verse: 941,
+      text: "And he drew out his hand and suddenly it (was) white for the observers (108)",
+      transliteration: "wanazaʿa yadahu fa-idhā hiya bayḍāu lilnnāẓirīna ",
+      verse: 1062,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 109,
       image: "",
-      text:
-        'Said the eminent among the people of Pharaoh, "Indeed, this is a learned magician',
-      verse: 942,
+      text: "Said the chiefs of (the) people (of) Firaun Indeed this (is) surely a magician  learned (109)",
+      transliteration:
+        "qāla l-mala-u min qawmi fir'ʿawna inna hādhā lasāḥirun ʿalīmun ",
+      verse: 1063,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 110,
       image: "",
-      text:
-        'Who wants to expel you from your land [through magic], so what do you instruct?"',
-      verse: 943,
+      text: "He wants to drive you out from your land so what (do) you instruct (110)",
+      transliteration: "yurīdu an yukh'rijakum min arḍikum famādhā tamurūna ",
+      verse: 1064,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 111,
       image: "",
-      text:
-        'They said, "Postpone [the matter of] him and his brother and send among the cities gatherers',
-      verse: 944,
+      text: "They said Postpone him and his brother and send in the cities gatherers (111)",
+      transliteration: "qālū arjih wa-akhāhu wa-arsil fī l-madāini ḥāshirīna ",
+      verse: 1065,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 112,
       image: "",
-      text: 'Who will bring you every learned magician."',
-      verse: 945,
+      text: "They (will) bring to you [with] every magician learned (112)",
+      transliteration: "yatūka bikulli sāḥirin ʿalīmin ",
+      verse: 1066,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 113,
       image: "",
-      text:
-        'And the magicians came to Pharaoh. They said, "Indeed for us is a reward if we are the predominant."',
-      verse: 946,
+      text: "So came the magicians (to) Firaun They said Indeed for us surely (will be) a reward if we are [we] the victors (113)",
+      transliteration:
+        "wajāa l-saḥaratu fir'ʿawna qālū inna lanā la-ajran in kunnā naḥnu l-ghālibīna ",
+      verse: 1067,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 114,
       image: "",
-      text:
-        'He said, "Yes, and, [moreover], you will be among those made near [to me]."',
-      verse: 947,
+      text: "He said Yes and indeed you surely (will be) of the ones who are near (114)",
+      transliteration: "qāla naʿam wa-innakum lamina l-muqarabīna ",
+      verse: 1068,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 115,
       image: "",
-      text:
-        'They said, "O Moses, either you throw [your staff], or we will be the ones to throw [first]."',
-      verse: 948,
+      text: "They said O Musa Whether [that] you throw or Whether [that] we will be [we] the ones to throw (115)",
+      transliteration:
+        "qālū yāmūsā immā an tul'qiya wa-immā an nakūna naḥnu l-mul'qīna ",
+      verse: 1069,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 116,
       image: "",
-      text:
-        'He said, "Throw," and when they threw, they bewitched the eyes of the people and struck terror into them, and they presented a great [feat of] magic.',
-      verse: 949,
+      text: "He said Throw Then when they threw they bewitched (the) eyes (of) the people and terrified them and came (up) with a magic great (116)",
+      transliteration:
+        "qāla alqū falammā alqaw saḥarū aʿyuna l-nāsi wa-is'tarhabūhum wajāū bisiḥ'rin ʿaẓīmin ",
+      verse: 1070,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 117,
       image: "",
-      text:
-        'And We inspired to Moses, "Throw your staff," and at once it devoured what they were falsifying.',
-      verse: 950,
+      text: "And We inspired to Musa that Throw your staff and suddenly it swallow(ed) what they (were) falsifying (117)",
+      transliteration:
+        "wa-awḥaynā ilā mūsā an alqi ʿaṣāka fa-idhā hiya talqafu mā yafikūna ",
+      verse: 1071,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 118,
       image: "",
-      text:
-        "So the truth was established, and abolished was what they were doing.",
-      verse: 951,
+      text: "So was established the truth and became futile what they used to do (118)",
+      transliteration: "fawaqaʿa l-ḥaqu wabaṭala mā kānū yaʿmalūna ",
+      verse: 1072,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 119,
       image: "",
-      text:
-        "And Pharaoh and his people were overcome right there and became debased.",
-      verse: 952,
+      text: "So they were defeated there and returned humiliated (119)",
+      transliteration: "faghulibū hunālika wa-inqalabū ṣāghirīna ",
+      verse: 1073,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 120,
       image: "",
-      text: "And the magicians fell down in prostration [to Allah ].",
-      verse: 953,
+      text: "And fell down the magicians prostrate (120)",
+      transliteration: "wa-ul'qiya l-saḥaratu sājidīna ",
+      verse: 1074,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 121,
       image: "",
-      text: 'They said, "We have believed in the Lord of the worlds,',
-      verse: 954,
+      text: "They said We believe in (the) Lord (of) the worlds (121)",
+      transliteration: "qālū āmannā birabbi l-ʿālamīna ",
+      verse: 1075,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 122,
       image: "",
-      text: 'The Lord of Moses and Aaron."',
-      verse: 955,
+      text: "Lord (of) Musa and Harun (122)",
+      transliteration: "rabbi mūsā wahārūna ",
+      verse: 1076,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 123,
       image: "",
-      text:
-        'Said Pharaoh, "You believed in him before I gave you permission. Indeed, this is a conspiracy which you conspired in the city to expel therefrom its people. But you are going to know.',
-      verse: 956,
+      text: "Said Firaun You believed in him before [that] I give permission to you Indeed this (is) surely a plot you have plotted it in the city so that you may drive out from it its people But soon you will know (123)",
+      transliteration:
+        "qāla fir'ʿawnu āmantum bihi qabla an ādhana lakum inna hādhā lamakrun makartumūhu fī l-madīnati litukh'rijū min'hā ahlahā fasawfa taʿlamūna ",
+      verse: 1077,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 124,
       image: "",
-      text:
-        'I will surely cut off your hands and your feet on opposite sides; then I will surely crucify you all."',
-      verse: 957,
+      text: "I will surely cut off your hands and your feet of opposite (sides) Then I will surely crucify you all (124)",
+      transliteration:
+        "la-uqaṭṭiʿanna aydiyakum wa-arjulakum min khilāfin thumma la-uṣallibannakum ajmaʿīna ",
+      verse: 1078,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 125,
       image: "",
-      text: 'They said, "Indeed, to our Lord we will return.',
-      verse: 958,
+      text: "They said Indeed, we to our Lord (will) return (125)",
+      transliteration: "qālū innā ilā rabbinā munqalibūna ",
+      verse: 1079,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 126,
       image: "",
-      text:
-        'And you do not resent us except because we believed in the signs of our Lord when they came to us. Our Lord, pour upon us patience and let us die as Muslims [in submission to You]."',
-      verse: 959,
+      text: "And not you take revenge from us except that we believed in (the) Signs (of) our Lord when they came to us Our Lord Pour upon us patience and cause us to die (as) Muslims (126)",
+      transliteration:
+        "wamā tanqimu minnā illā an āmannā biāyāti rabbinā lammā jāatnā rabbanā afrigh ʿalaynā ṣabran watawaffanā mus'limīna ",
+      verse: 1080,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 127,
       image: "",
-      text:
-        'And the eminent among the people of Pharaoh said," Will you leave Moses and his people to cause corruption in the land and abandon you and your gods?" [Pharaoh] said, "We will kill their sons and keep their women alive; and indeed, we are subjugators over them."',
-      verse: 960,
+      text: "And said the chiefs of (the) people (of) Firaun Will you leave Musa and his people so that they cause corruption in the earth and forsake you and your gods He said We will kill their sons and we will let live their women and indeed, we over them (are) subjugators (127)",
+      transliteration:
+        "waqāla l-mala-u min qawmi fir'ʿawna atadharu mūsā waqawmahu liyuf'sidū fī l-arḍi wayadharaka waālihataka qāla sanuqattilu abnāahum wanastaḥyī nisāahum wa-innā fawqahum qāhirūna ",
+      verse: 1081,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 128,
       image: "",
-      text:
-        'Said Moses to his people, "Seek help through Allah and be patient. Indeed, the earth belongs to Allah . He causes to inherit it whom He wills of His servants. And the [best] outcome is for the righteous."',
-      verse: 961,
+      text: "Said Musa to his people Seek help from Allah and be patient Indeed the earth (belongs) to Allah He causes to inherit it whom He wills of His servants And the end (is) for the righteous (128)",
+      transliteration:
+        "qāla mūsā liqawmihi is'taʿīnū bil-lahi wa-iṣ'birū inna l-arḍa lillahi yūrithuhā man yashāu min ʿibādihi wal-ʿāqibatu lil'muttaqīna ",
+      verse: 1082,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 129,
       image: "",
-      text:
-        'They said, "We have been harmed before you came to us and after you have come to us." He said, "Perhaps your Lord will destroy your enemy and grant you succession in the land and see how you will do."',
-      verse: 962,
+      text: "They said We have been harmed from before [that] you came to us from and after [what] you have come to us He said Perhaps your Lord [that] will destroy your enemy and make you successors in the earth then see how you will do (129)",
+      transliteration:
+        "qālū ūdhīnā min qabli an tatiyanā wamin baʿdi mā ji'tanā qāla ʿasā rabbukum an yuh'lika ʿaduwwakum wayastakhlifakum fī l-arḍi fayanẓura kayfa taʿmalūna ",
+      verse: 1083,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 130,
       image: "",
-      text:
-        "And We certainly seized the people of Pharaoh with years of famine and a deficiency in fruits that perhaps they would be reminded.",
-      verse: 963,
+      text: "And certainly We seized (the) people (of) Firaun with years (of famine) and a deficit of [the] fruits so that they may receive admonition (130)",
+      transliteration:
+        "walaqad akhadhnā āla fir'ʿawna bil-sinīna wanaqṣin mina l-thamarāti laʿallahum yadhakkarūna ",
+      verse: 1084,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 131,
       image: "",
-      text:
-        'But when good came to them, they said, "This is ours [by right]." And if a bad [condition] struck them, they saw an evil omen in Moses and those with him. Unquestionably, their fortune is with Allah, but most of them do not know.',
-      verse: 964,
+      text: "But when came to them the good they said For us (is) this And if afflicts them bad they ascribe evil omens to Musa and who (were) with him Behold Only their evil omens (are) with Allah but most of them (do) not know (131)",
+      transliteration:
+        "fa-idhā jāathumu l-ḥasanatu qālū lanā hādhihi wa-in tuṣib'hum sayyi-atun yaṭṭayyarū bimūsā waman maʿahu alā innamā ṭāiruhum ʿinda l-lahi walākinna aktharahum lā yaʿlamūna ",
+      verse: 1085,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 132,
       image: "",
-      text:
-        'And they said, "No matter what sign you bring us with which to bewitch us, we will not be believers in you."',
-      verse: 965,
+      text: "And they said Whatever you bring us therewith of (the) sign so that you bewitch us with it then not we (will be) in you believers (132)",
+      transliteration:
+        "waqālū mahmā tatinā bihi min āyatin litasḥaranā bihā famā naḥnu laka bimu'minīna ",
+      verse: 1086,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 133,
       image: "",
-      text:
-        "So We sent upon them the flood and locusts and lice and frogs and blood as distinct signs, but they were arrogant and were a criminal people.",
-      verse: 966,
+      text: "So We sent on them the flood and the locusts and the lice and the frogs and the blood (as) signs manifest but they showed arrogance and they were a people criminal (133)",
+      transliteration:
+        "fa-arsalnā ʿalayhimu l-ṭūfāna wal-jarāda wal-qumala wal-ḍafādiʿa wal-dama āyātin mufaṣṣalātin fa-is'takbarū wakānū qawman muj'rimīna ",
+      verse: 1087,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 134,
       image: "",
-      text:
-        'And when the punishment descended upon them, they said, "O Moses, invoke for us your Lord by what He has promised you. If you [can] remove the punishment from us, we will surely believe you, and we will send with you the Children of Israel."',
-      verse: 967,
+      text: "And when fell on them the punishment they said O Musa Invoke for us your Lord by what He has promised to you If you remove from us the punishment surely, we will believe [for] you and surely, we will send with you (the) Children (of) Israel (134)",
+      transliteration:
+        "walammā waqaʿa ʿalayhimu l-rij'zu qālū yāmūsā ud'ʿu lanā rabbaka bimā ʿahida ʿindaka la-in kashafta ʿannā l-rij'za lanu'minanna laka walanur'silanna maʿaka banī is'rāīla ",
+      verse: 1088,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 135,
       image: "",
-      text:
-        "But when We removed the punishment from them until a term which they were to reach, then at once they broke their word.",
-      verse: 968,
+      text: "But when We removed from them the punishment till a (fixed) term (which) they were to reach [it] then they broke (the word) (135)",
+      transliteration:
+        "falammā kashafnā ʿanhumu l-rij'za ilā ajalin hum bālighūhu idhā hum yankuthūna ",
+      verse: 1089,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 136,
       image: "",
-      text:
-        "So We took retribution from them, and We drowned them in the sea because they denied Our signs and were heedless of them.",
-      verse: 969,
+      text: "So We took retribution from them and We drowned them in the sea because they denied Our Signs and they were to them heedless (136)",
+      transliteration:
+        "fa-intaqamnā min'hum fa-aghraqnāhum fī l-yami bi-annahum kadhabū biāyātinā wakānū ʿanhā ghāfilīna ",
+      verse: 1090,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 137,
       image: "",
-      text:
-        "And We caused the people who had been oppressed to inherit the eastern regions of the land and the western ones, which We had blessed. And the good word of your Lord was fulfilled for the Children of Israel because of what they had patiently endured. And We destroyed [all] that Pharaoh and his people were producing and what they had been building.",
-      verse: 970,
+      text: "And We made inheritors the people those who were considered weak  (the) eastern (parts) (of) the land and the western (parts) of it which We blessed [in it] And was fulfilled (the) word (of) your Lord  the best for (the) Children (of) Israel because they were patient And We destroyed what used to make Firaun and his people and what they used to erect (137)",
+      transliteration:
+        "wa-awrathnā l-qawma alladhīna kānū yus'taḍʿafūna mashāriqa l-arḍi wamaghāribahā allatī bāraknā fīhā watammat kalimatu rabbika l-ḥus'nā ʿalā banī is'rāīla bimā ṣabarū wadammarnā mā kāna yaṣnaʿu fir'ʿawnu waqawmuhu wamā kānū yaʿrishūna ",
+      verse: 1091,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 138,
       image: "",
-      text:
-        'And We took the Children of Israel across the sea; then they came upon a people intent in devotion to [some] idols of theirs. They said, "O Moses, make for us a god just as they have gods." He said, "Indeed, you are a people behaving ignorantly.',
-      verse: 971,
+      text: "And We led across (the) Children (of) Israel the sea Then they came upon a people devoted to idols of theirs They said O Musa Make for us a god like what they have gods He said Indeed, you (are) a people ignorant (138)",
+      transliteration:
+        "wajāwaznā bibanī is'rāīla l-baḥra fa-ataw ʿalā qawmin yaʿkufūna ʿalā aṣnāmin lahum qālū yāmūsā ij'ʿal lanā ilāhan kamā lahum ālihatun qāla innakum qawmun tajhalūna ",
+      verse: 1092,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 139,
       image: "",
-      text:
-        'Indeed, those [worshippers] -  destroyed is that in which they are [engaged], and worthless is whatever they were doing."',
-      verse: 972,
+      text: "Indeed these destroyed (is) what they (are) in it and vain (is) what they used to do (139)",
+      transliteration:
+        "inna hāulāi mutabbarun mā hum fīhi wabāṭilun mā kānū yaʿmalūna ",
+      verse: 1093,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 140,
       image: "",
-      text:
-        'He said, "Is it other than Allah I should desire for you as a god while He has preferred you over the worlds?"',
-      verse: 973,
+      text: "He said Should other than Allah I seek for you a god while He has preferred you over the worlds (140)",
+      transliteration:
+        "qāla aghayra l-lahi abghīkum ilāhan wahuwa faḍḍalakum ʿalā l-ʿālamīna ",
+      verse: 1094,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 141,
       image: "",
-      text:
-        "And [recall, O Children of Israel], when We saved you from the people of Pharaoh, [who were] afflicting you with the worst torment -  killing your sons and keeping your women alive. And in that was a great trial from your Lord.",
-      verse: 974,
+      text: "And when We saved you from (the) people (of) Firaun who were afflicting you (with) worst (of) torment they were killing your sons and letting live your women And in that (was) a trial from your Lord great (141)",
+      transliteration:
+        "wa-idh anjaynākum min āli fir'ʿawna yasūmūnakum sūa l-ʿadhābi yuqattilūna abnāakum wayastaḥyūna nisāakum wafī dhālikum balāon min rabbikum ʿaẓīmun ",
+      verse: 1095,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 142,
       image: "",
-      text:
-        'And We made an appointment with Moses for thirty nights and perfected them by [the addition of] ten; so the term of his Lord was completed as forty nights. And Moses said to his brother Aaron, "Take my place among my people, do right [by them], and do not follow the way of the corrupters."',
-      verse: 975,
+      text: "And We appointed (for) Musa thirty nights and We completed them with ten (more) so was completed (the) set term (of) his Lord (of) forty night(s) And said Musa to his brother Harun Take my place in my people and do right and (do) not follow (the) way (of) the corrupters (142)",
+      transliteration:
+        "wawāʿadnā mūsā thalāthīna laylatan wa-atmamnāhā biʿashrin fatamma mīqātu rabbihi arbaʿīna laylatan waqāla mūsā li-akhīhi hārūna ukh'luf'nī fī qawmī wa-aṣliḥ walā tattabiʿ sabīla l-muf'sidīna ",
+      verse: 1096,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 143,
       image: "",
-      text:
-        'And when Moses arrived at Our appointed time and his Lord spoke to him, he said, "My Lord, show me [Yourself] that I may look at You." [ Allah ] said, "You will not see Me, but look at the mountain; if it should remain in place, then you will see Me." But when his Lord appeared to the mountain, He rendered it level, and Moses fell unconscious. And when he awoke, he said, "Exalted are You! I have repented to You, and I am the first of the believers."',
-      verse: 976,
+      text: "And when came Musa to Our appointed place and spoke to him his Lord he said O my Lord Show me (that) I may look at You He said Never you (can) see Me but look at the mountain [then] if it remains in its place then you (will) see Me But when revealed (His) Glory his Lord to the mountain He made it crumbled to dust and fell down Musa unconscious And when he recovered he said Glory be to You I turn (in repentance) to you and I am (the) first (of) the believers (143)",
+      transliteration:
+        "walammā jāa mūsā limīqātinā wakallamahu rabbuhu qāla rabbi arinī anẓur ilayka qāla lan tarānī walākini unẓur ilā l-jabali fa-ini is'taqarra makānahu fasawfa tarānī falammā tajallā rabbuhu lil'jabali jaʿalahu dakkan wakharra mūsā ṣaʿiqan falammā afāqa qāla sub'ḥānaka tub'tu ilayka wa-anā awwalu l-mu'minīna ",
+      verse: 1097,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 144,
       image: "",
-      text:
-        '[ Allah ] said, "O Moses, I have chosen you over the people with My messages and My words [to you]. So take what I have given you and be among the grateful."',
-      verse: 977,
+      text: "He said O Musa Indeed, I have chosen you over the people with My Messages and with My words So take what I have given you and be among the grateful (144)",
+      transliteration:
+        "qāla yāmūsā innī iṣ'ṭafaytuka ʿalā l-nāsi birisālātī wabikalāmī fakhudh mā ātaytuka wakun mina l-shākirīna ",
+      verse: 1098,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 145,
       image: "",
-      text:
-        'And We wrote for him on the tablets [something] of all things -  instruction and explanation for all things, [saying], "Take them with determination and order your people to take the best of it. I will show you the home of the defiantly disobedient."',
-      verse: 978,
+      text: "And We ordained (laws) for him in the tablets  of every thing an instruction and explanation for every thing So take them with firmness and order your people (to) take (the) best of it I will show you (the) home (of) the defiantly disobedient (145)",
+      transliteration:
+        "wakatabnā lahu fī l-alwāḥi min kulli shayin mawʿiẓatan watafṣīlan likulli shayin fakhudh'hā biquwwatin wamur qawmaka yakhudhū bi-aḥsanihā sa-urīkum dāra l-fāsiqīna ",
+      verse: 1099,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 146,
       image: "",
-      text:
-        "I will turn away from My signs those who are arrogant upon the earth without right; and if they should see every sign, they will not believe in it. And if they see the way of consciousness, they will not adopt it as a way; but if they see the way of error, they will adopt it as a way. That is because they have denied Our signs and they were heedless of them.",
-      verse: 979,
+      text: "I will turn away from My Signs those who are arrogant in the earth without [the] right and if they see every sign not (will) they believe in it And if they see (the) way (of) the righteousness not (will) they take it (as) a way but if they see (the) way (of) [the] error they will take it (as) a way That (is) because they denied Our Signs and they were of them heedless (146)",
+      transliteration:
+        "sa-aṣrifu ʿan āyātiya alladhīna yatakabbarūna fī l-arḍi bighayri l-ḥaqi wa-in yaraw kulla āyatin lā yu'minū bihā wa-in yaraw sabīla l-rush'di lā yattakhidhūhu sabīlan wa-in yaraw sabīla l-ghayi yattakhidhūhu sabīlan dhālika bi-annahum kadhabū biāyātinā wakānū ʿanhā ghāfilīna ",
+      verse: 1100,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 147,
       image: "",
-      text:
-        "Those who denied Our signs and the meeting of the Hereafter -  their deeds have become worthless. Are they recompensed except for what they used to do?",
-      verse: 980,
+      text: "And those who denied Our Signs and (the) meeting (of) the Hereafter  worthless (are) their deeds Will they be recompensed except (for) what they used to do (147)",
+      transliteration:
+        "wa-alladhīna kadhabū biāyātinā waliqāi l-ākhirati ḥabiṭat aʿmāluhum hal yuj'zawna illā mā kānū yaʿmalūna ",
+      verse: 1101,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 148,
       image: "",
-      text:
-        "And the people of Moses made, after [his departure], from their ornaments a calf -  an image having a lowing sound. Did they not see that it could neither speak to them nor guide them to a way? They took it [for worship], and they were wrongdoers.",
-      verse: 981,
+      text: "And took (the) people (of) Musa from after him from their ornaments a calf  an image [for] it (had) a lowing sound Did not they see that it (could) not speak to them and not guide them (to) a way They took it (for worship) and they were wrongdoers (148)",
+      transliteration:
+        "wa-ittakhadha qawmu mūsā min baʿdihi min ḥuliyyihim ʿij'lan jasadan lahu khuwārun alam yaraw annahu lā yukallimuhum walā yahdīhim sabīlan ittakhadhūhu wakānū ẓālimīna ",
+      verse: 1102,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 149,
       image: "",
-      text:
-        'And when regret overcame them and they saw that they had gone astray, they said, "If our Lord does not have mercy upon us and forgive us, we will surely be among the losers."',
-      verse: 982,
+      text: "And when (it was made to) fall into their hands and they saw that they (had) indeed gone astray they said If not has Mercy on us Our Lord and forgive [for] us we will surely be among the losers (149)",
+      transliteration:
+        "walammā suqiṭa fī aydīhim wara-aw annahum qad ḍallū qālū la-in lam yarḥamnā rabbunā wayaghfir lanā lanakūnanna mina l-khāsirīna ",
+      verse: 1103,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 150,
       image: "",
-      text:
-        'And when Moses returned to his people, angry and grieved, he said, "How wretched is that by which you have replaced me after [my departure]. Were you impatient over the matter of your Lord?" And he threw down the tablets and seized his brother by [the hair of] his head, pulling him toward him. [Aaron] said, "O son of my mother, indeed the people oppressed me and were about to kill me, so let not the enemies rejoice over me and do not place me among the wrongdoing people."',
-      verse: 983,
+      text: "And when returned Musa to his people  angry and grieved he said Evil is what you have done in my place from after me Were you impatient (over the) matter (of) your Lord And he cast down the tablets and seized by head his brother dragging him to himself He said O son (of) my mother Indeed the people considered me weak and were about to kill me So (let) not rejoice over me the enemies and (do) not place me with the people (who are) wrongdoing (150)",
+      transliteration:
+        "walammā rajaʿa mūsā ilā qawmihi ghaḍbāna asifan qāla bi'samā khalaftumūnī min baʿdī aʿajil'tum amra rabbikum wa-alqā l-alwāḥa wa-akhadha birasi akhīhi yajurruhu ilayhi qāla ib'na umma inna l-qawma is'taḍʿafūnī wakādū yaqtulūnanī falā tush'mit biya l-aʿdāa walā tajʿalnī maʿa l-qawmi l-ẓālimīna ",
+      verse: 1104,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 151,
       image: "",
-      text:
-        '[Moses] said, "My Lord, forgive me and my brother and admit us into Your mercy, for You are the most merciful of the merciful."',
-      verse: 984,
+      text: "He said O my Lord Forgive me and my brother and admit us into Your Mercy for You (are) the Most Merciful (of) the merciful (151)",
+      transliteration:
+        "qāla rabbi igh'fir lī wali-akhī wa-adkhil'nā fī raḥmatika wa-anta arḥamu l-rāḥimīna ",
+      verse: 1105,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 152,
       image: "",
-      text:
-        "Indeed, those who took the calf [for worship] will obtain anger from their Lord and humiliation in the life of this world, and thus do We recompense the inventors [of falsehood].",
-      verse: 985,
+      text: "Indeed those who took the calf will reach them wrath from their Lord and humiliation in the life (of) the world And thus We recompense the ones who invent (falsehood) (152)",
+      transliteration:
+        "inna alladhīna ittakhadhū l-ʿij'la sayanāluhum ghaḍabun min rabbihim wadhillatun fī l-ḥayati l-dun'yā wakadhālika najzī l-muf'tarīna ",
+      verse: 1106,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 153,
       image: "",
-      text:
-        "But those who committed misdeeds and then repented after them and believed - indeed your Lord, thereafter, is Forgiving and Merciful.",
-      verse: 986,
+      text: "And those who do the evil deeds then repented from after that and believed indeed your Lord from after that (is) surely Oft-Forgiving Most Merciful (153)",
+      transliteration:
+        "wa-alladhīna ʿamilū l-sayiāti thumma tābū min baʿdihā waāmanū inna rabbaka min baʿdihā laghafūrun raḥīmun ",
+      verse: 1107,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 154,
       image: "",
-      text:
-        "And when the anger subsided in Moses, he took up the tablets; and in their inscription was guidance and mercy for those who are fearful of their Lord.",
-      verse: 987,
+      text: "And when was calmed from Musa the anger he took (up) the tablets and in their inscription (was) guidance and mercy for those who [they] of their Lord (are) fearful (154)",
+      transliteration:
+        "walammā sakata ʿan mūsā l-ghaḍabu akhadha l-alwāḥa wafī nus'khatihā hudan waraḥmatun lilladhīna hum lirabbihim yarhabūna ",
+      verse: 1108,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 155,
       image: "",
-      text:
-        'And Moses chose from his people seventy men for Our appointment. And when the earthquake seized them, he said, "My Lord, if You had willed, You could have destroyed them before and me [as well]. Would You destroy us for what the foolish among us have done? This is not but Your trial by which You send astray whom You will and guide whom You will. You are our Protector, so forgive us and have mercy upon us; and You are the best of forgivers.',
-      verse: 988,
+      text: "And chose Musa (from) his people seventy men for Our appointment Then when seized them the earthquake he said O my Lord If you (had) willed You (could) have destroyed them from before and me Would You destroy us for what did the foolish among us Not it (was) but Your trial You let go astray by it whom You will and You guide whom You will You (are) our Protector so forgive us and have mercy upon us and You (are) Best (of) Forgivers (155)",
+      transliteration:
+        "wa-ikh'tāra mūsā qawmahu sabʿīna rajulan limīqātinā falammā akhadhathumu l-rajfatu qāla rabbi law shi'ta ahlaktahum min qablu wa-iyyāya atuh'likunā bimā faʿala l-sufahāu minnā in hiya illā fit'natuka tuḍillu bihā man tashāu watahdī man tashāu anta waliyyunā fa-igh'fir lanā wa-ir'ḥamnā wa-anta khayru l-ghāfirīna ",
+      verse: 1109,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 156,
       image: "",
-      text:
-        'And decree for us in this world [that which is] good and [also] in the Hereafter; indeed, we have turned back to You." [ Allah ] said, "My punishment -  I afflict with it whom I will, but My mercy encompasses all things." So I will decree it [especially] for those who fear Me and give zakah and those who believe in Our verses -',
-      verse: 989,
+      text: "And ordain for us in this [the] world good and in the Hereafter Indeed, we we have turned to You He said My punishment  I afflict with it whom I will but My Mercy encompasses every thing So I will ordain it for those who (are) righteous and give zakah and those who [they] in Our Verses they believe (156)",
+      transliteration:
+        "wa-uk'tub lanā fī hādhihi l-dun'yā ḥasanatan wafī l-ākhirati innā hud'nā ilayka qāla ʿadhābī uṣību bihi man ashāu waraḥmatī wasiʿat kulla shayin fasa-aktubuhā lilladhīna yattaqūna wayu'tūna l-zakata wa-alladhīna hum biāyātinā yu'minūna ",
+      verse: 1110,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 157,
       image: "",
-      text:
-        "Those who follow the Messenger, the unlettered prophet, whom they find written in what they have of the Torah and the Gospel, who enjoins upon them what is right and forbids them what is wrong and makes lawful for them the good things and prohibits for them the evil and relieves them of their burden and the shackles which were upon them. So they who have believed in him, honored him, supported him and followed the light which was sent down with him -  it is those who will be the successful.",
-      verse: 990,
+      text: "Those who follow the Messenger the Prophet the unlettered whom they find him written with them in the Taurat and the Injeel He commands them to the right and forbids them from the wrong and he makes lawful for them the pure things and makes unlawful for them the impure things and he relieves from them their burden and the fetters which were upon them So those who believe in him and honor him and help him and follow the light which has been sent down with him  Those (are) [they] the successful ones (157)",
+      transliteration:
+        "alladhīna yattabiʿūna l-rasūla l-nabiya l-umiya alladhī yajidūnahu maktūban ʿindahum fī l-tawrāti wal-injīli yamuruhum bil-maʿrūfi wayanhāhum ʿani l-munkari wayuḥillu lahumu l-ṭayibāti wayuḥarrimu ʿalayhimu l-khabāitha wayaḍaʿu ʿanhum iṣ'rahum wal-aghlāla allatī kānat ʿalayhim fa-alladhīna āmanū bihi waʿazzarūhu wanaṣarūhu wa-ittabaʿū l-nūra alladhī unzila maʿahu ulāika humu l-muf'liḥūna ",
+      verse: 1111,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 158,
       image: "",
-      text:
-        'Say, [O Muhammad], "O mankind, indeed I am the Messenger of Allah to you all, [from Him] to whom belongs the dominion of the heavens and the earth. There is no deity except Him; He gives life and causes death." So believe in Allah and His Messenger, the unlettered prophet, who believes in Allah and His words, and follow him that you may be guided.',
-      verse: 991,
+      text: "Say O mankind Indeed I am (the) Messenger (of) Allah to you all the One for Whom (is the) dominion (of) the heavens and the earth (There is) no god except Him He gives life and causes death So believe in Allah and His Messenger the Prophet the unlettered the one who believes in Allah and His Words and follow him so that you may (be) guided (158)",
+      transliteration:
+        "qul yāayyuhā l-nāsu innī rasūlu l-lahi ilaykum jamīʿan alladhī lahu mul'ku l-samāwāti wal-arḍi lā ilāha illā huwa yuḥ'yī wayumītu faāminū bil-lahi warasūlihi l-nabiyi l-umiyi alladhī yu'minu bil-lahi wakalimātihi wa-ittabiʿūhu laʿallakum tahtadūna ",
+      verse: 1112,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 159,
       image: "",
-      text:
-        "And among the people of Moses is a community which guides by truth and by it establishes justice.",
-      verse: 992,
+      text: "And among (the) people (of) Musa (is) a community (which) guides with truth and by it establishes justice (159)",
+      transliteration:
+        "wamin qawmi mūsā ummatun yahdūna bil-ḥaqi wabihi yaʿdilūna ",
+      verse: 1113,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 160,
       image: "",
-      text:
-        'And We divided them into twelve descendant tribes [as distinct] nations. And We inspired to Moses when his people implored him for water, "Strike with your staff the stone," and there gushed forth from it twelve springs. Every people knew its watering place. And We shaded them with clouds and sent down upon them manna and quails, [saying], "Eat from the good things with which We have provided you." And they wronged Us not, but they were [only] wronging themselves.',
-      verse: 993,
+      text: "And We divided them (into) two (and) ten [i.e. twelve] tribes (as) communities And We inspired to Musa when asked him for water his people [that] Strike with your staff the stone Then gushed forth from it two (and) ten [i.e. twelve] springs Certainly knew each people their drinking place And We shaded [on] them (with) the clouds and We sent down upon them the manna and the quails Eat from (the) good things which We have provided you And not they wronged Us but they were (to) themselves doing wrong (160)",
+      transliteration:
+        "waqaṭṭaʿnāhumu ith'natay ʿashrata asbāṭan umaman wa-awḥaynā ilā mūsā idhi is'tasqāhu qawmuhu ani iḍ'rib biʿaṣāka l-ḥajara fa-inbajasat min'hu ith'natā ʿashrata ʿaynan qad ʿalima kullu unāsin mashrabahum waẓallalnā ʿalayhimu l-ghamāma wa-anzalnā ʿalayhimu l-mana wal-salwā kulū min ṭayyibāti mā razaqnākum wamā ẓalamūnā walākin kānū anfusahum yaẓlimūna ",
+      verse: 1114,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 161,
       image: "",
-      text:
-        "And [mention, O Muhammad], when it was said to them, \"Dwell in this city and eat from it wherever you will and say, 'Relieve us of our burdens,' and enter the gate bowing humbly; We will [then] forgive you your sins. We will increase the doers of good [in goodness and reward].\"",
-      verse: 994,
+      text: "And when it was said to them Live (in) this city and eat from it wherever you wish and say Repentance and enter the gate prostrating We will forgive for you your sins We will increase (reward) (of) the good-doers (161)",
+      transliteration:
+        "wa-idh qīla lahumu us'kunū hādhihi l-qaryata wakulū min'hā ḥaythu shi'tum waqūlū ḥiṭṭatun wa-ud'khulū l-bāba sujjadan naghfir lakum khaṭīātikum sanazīdu l-muḥ'sinīna ",
+      verse: 1115,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 162,
       image: "",
-      text:
-        "But those who wronged among them changed [the words] to a statement other than that which had been said to them. So We sent upon them a punishment from the sky for the wrong that they were doing.",
-      verse: 995,
+      text: "But changed those who wronged among them word other than (that) which was said to them So We sent upon them torment from the sky because they were doing wrong (162)",
+      transliteration:
+        "fabaddala alladhīna ẓalamū min'hum qawlan ghayra alladhī qīla lahum fa-arsalnā ʿalayhim rij'zan mina l-samāi bimā kānū yaẓlimūna ",
+      verse: 1116,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 163,
       image: "",
-      text:
-        "And ask them about the town that was by the sea -  when they transgressed in [the matter of] the sabbath -  when their fish came to them openly on their sabbath day, and the day they had no sabbath they did not come to them. Thus did We give them trial because they were defiantly disobedient.",
-      verse: 996,
+      text: "And ask them about the town which was situated (by) the sea when they transgressed in the (matter of) Sabbath when came to them their fish (on the) day (of) their Sabbath visibly and (on the) day not they had Sabbath (they did) not come to them Thus We test them because they were defiantly disobeying (163)",
+      transliteration:
+        "wasalhum ʿani l-qaryati allatī kānat ḥāḍirata l-baḥri idh yaʿdūna fī l-sabti idh tatīhim ḥītānuhum yawma sabtihim shurraʿan wayawma lā yasbitūna lā tatīhim kadhālika nablūhum bimā kānū yafsuqūna ",
+      verse: 1117,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 164,
       image: "",
-      text:
-        'And when a community among them said, "Why do you advise [or warn] a people whom Allah is [about] to destroy or to punish with a severe punishment?" they [the advisors] said, "To be absolved before your Lord and perhaps they may fear Him."',
-      verse: 997,
+      text: "And when said a community among them Why (do) you preach a people (whom) Allah (is going to) destroy them or punish them (with) a punishment severe They said To be absolved before your Lord and that they may become righteous (164)",
+      transliteration:
+        "wa-idh qālat ummatun min'hum lima taʿiẓūna qawman l-lahu muh'likuhum aw muʿadhibuhum ʿadhāban shadīdan qālū maʿdhiratan ilā rabbikum walaʿallahum yattaqūna ",
+      verse: 1118,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 165,
       image: "",
-      text:
-        "And when they forgot that by which they had been reminded, We saved those who had forbidden evil and seized those who wronged, with a wretched punishment, because they were defiantly disobeying.",
-      verse: 998,
+      text: "So when they forgot what they had been reminded with [it] We saved those who forbade [from] the evil and We seized those who wronged with a punishment wretched because they were defiantly disobeying (165)",
+      transliteration:
+        "falammā nasū mā dhukkirū bihi anjaynā alladhīna yanhawna ʿani l-sūi wa-akhadhnā alladhīna ẓalamū biʿadhābin baīsin bimā kānū yafsuqūna ",
+      verse: 1119,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 166,
       image: "",
-      text:
-        'So when they were insolent about that which they had been forbidden, We said to them, "Be apes, despised."',
-      verse: 999,
+      text: "So when they exceeded all bounds about what they were forbidden from it We said to them Be apes despised (166)",
+      transliteration:
+        "falammā ʿataw ʿan mā nuhū ʿanhu qul'nā lahum kūnū qiradatan khāsiīna ",
+      verse: 1120,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 167,
       image: "",
-      text:
-        "And [mention] when your Lord declared that He would surely [continue to] send upon them until the Day of Resurrection those who would afflict them with the worst torment. Indeed, your Lord is swift in penalty; but indeed, He is Forgiving and Merciful.",
-      verse: 1000,
+      text: "And when declared your Lord that He would surely send upon them till (the) Day (of) the Resurrection (those) who would afflict them (with) a grievous [the] punishment Indeed your Lord (is) surely swift (in) the retribution but indeed, He (is) surely Oft-Forgiving Most Merciful (167)",
+      transliteration:
+        "wa-idh ta-adhana rabbuka layabʿathanna ʿalayhim ilā yawmi l-qiyāmati man yasūmuhum sūa l-ʿadhābi inna rabbaka lasarīʿu l-ʿiqābi wa-innahu laghafūrun raḥīmun ",
+      verse: 1121,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 168,
       image: "",
-      text:
-        "And We divided them throughout the earth into nations.  Of them some were righteous, and of them some were otherwise. And We tested them with good [times] and bad that perhaps they would return [to obedience].",
-      verse: 1001,
+      text: "And We divided them in the earth (as) nations Among them (are) the righteous and among them (are) other than that And We tested them with the good and the bad so that they may return (168)",
+      transliteration:
+        "waqaṭṭaʿnāhum fī l-arḍi umaman min'humu l-ṣāliḥūna wamin'hum dūna dhālika wabalawnāhum bil-ḥasanāti wal-sayiāti laʿallahum yarjiʿūna ",
+      verse: 1122,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 169,
       image: "",
-      text:
-        'And there followed them successors who inherited the Scripture [while] taking the commodities of this lower life and saying, "It will be forgiven for us." And if an offer like it comes to them, they will [again] take it. Was not the covenant of the Scripture taken from them that they would not say about Allah except the truth, and they studied what was in it? And the home of the Hereafter is better for those who fear Allah, so will you not use reason?',
-      verse: 1002,
+      text: "Then succeeded from after them successors (who) inherited the Book taking goods (of) this the lower (life) and they say It will be forgiven for us And if comes to them goods similar to it they will take it Was not taken on them Covenant (of) the Book that not they will say about Allah except the truth while they studied what (is) in it And the home (of) the Hereafter (is) better for those who fear Allah So will not you use intellect (169)",
+      transliteration:
+        "fakhalafa min baʿdihim khalfun warithū l-kitāba yakhudhūna ʿaraḍa hādhā l-adnā wayaqūlūna sayugh'faru lanā wa-in yatihim ʿaraḍun mith'luhu yakhudhūhu alam yu'khadh ʿalayhim mīthāqu l-kitābi an lā yaqūlū ʿalā l-lahi illā l-ḥaqa wadarasū mā fīhi wal-dāru l-ākhiratu khayrun lilladhīna yattaqūna afalā taʿqilūna ",
+      verse: 1123,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 170,
       image: "",
-      text:
-        "But those who hold fast to the Book and establish prayer -  indeed, We will not allow to be lost the reward of the reformers.",
-      verse: 1003,
+      text: "And those who hold fast to the Book and establish the prayer indeed, We (will) not [We] let go waste (the) reward (of) the reformers (170)",
+      transliteration:
+        "wa-alladhīna yumassikūna bil-kitābi wa-aqāmū l-ṣalata innā lā nuḍīʿu ajra l-muṣ'liḥīna ",
+      verse: 1124,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 171,
       image: "",
-      text:
-        'And [mention] when We raised the mountain above them as if it was a dark cloud and they were certain that it would fall upon them, [and Allah said], "Take what We have given you with determination and remember what is in it that you might fear Allah ."',
-      verse: 1004,
+      text: 'And when We raised the mountain above them as if it was a canopy and they thought that it (would) fall upon them (We said), "Take what We have given you with strength and remember what (is) in it so that you may fear Allah (171)',
+      transliteration:
+        "wa-idh nataqnā l-jabala fawqahum ka-annahu ẓullatun waẓannū annahu wāqiʿun bihim khudhū mā ātaynākum biquwwatin wa-udh'kurū mā fīhi laʿallakum tattaqūna ",
+      verse: 1125,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 172,
       image: "",
-      text:
-        'And [mention] when your Lord took from the children of Adam -  from their loins - their descendants and made them testify of themselves, [saying to them], "Am I not your Lord?" They said, "Yes, we have testified." [This] -  lest you should say on the day of Resurrection, "Indeed, we were of this unaware."',
-      verse: 1005,
+      text: "And when (was) taken (by) your Lord from (the) Children (of) Adam  from their loins  their descendants and made them testify over themselves Am I not your Lord They said Yes we have testified Lest you say (on the) Day (of) the Resurrection Indeed we were about this unaware (172)",
+      transliteration:
+        "wa-idh akhadha rabbuka min banī ādama min ẓuhūrihim dhurriyyatahum wa-ashhadahum ʿalā anfusihim alastu birabbikum qālū balā shahid'nā an taqūlū yawma l-qiyāmati innā kunnā ʿan hādhā ghāfilīna ",
+      verse: 1126,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 173,
       image: "",
-      text:
-        'Or [lest] you say, "It was only that our fathers associated [others in worship] with Allah before, and we were but descendants after them. Then would You destroy us for what the falsifiers have done?"',
-      verse: 1006,
+      text: "Or you say Only partners (were) associated (with Allah) (by) our forefathers from before (us) and we are descendants from after them So will You destroy us for what did the falsifiers (173)",
+      transliteration:
+        "aw taqūlū innamā ashraka ābāunā min qablu wakunnā dhurriyyatan min baʿdihim afatuh'likunā bimā faʿala l-mub'ṭilūna ",
+      verse: 1127,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 174,
       image: "",
-      text:
-        "And thus do We [explain in] detail the verses, and perhaps they will return.",
-      verse: 1007,
+      text: "And thus We explain the Verses so that they may return (174)",
+      transliteration: "wakadhālika nufaṣṣilu l-āyāti walaʿallahum yarjiʿūna ",
+      verse: 1128,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 175,
       image: "",
-      text:
-        "And recite to them, [O Muhammad], the news of him to whom we gave [knowledge of] Our signs, but he detached himself from them; so Satan pursued him, and he became of the deviators.",
-      verse: 1008,
+      text: "And recite to them (the) story (of the) one whom We gave [him] Our Verses but he detached [from] them so followed him the Shaitaan and he became of those gone astray (175)",
+      transliteration:
+        "wa-ut'lu ʿalayhim naba-a alladhī ātaynāhu āyātinā fa-insalakha min'hā fa-atbaʿahu l-shayṭānu fakāna mina l-ghāwīna ",
+      verse: 1129,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 176,
       image: "",
-      text:
-        "And if We had willed, we could have elevated him thereby, but he adhered [instead] to the earth and followed his own desire. So his example is like that of the dog: if you chase him, he pants, or if you leave him, he [still] pants. That is the example of the people who denied Our signs. So relate the stories that perhaps they will give thought.",
-      verse: 1009,
+      text: "And if We willed surely, We (could) have raised him with these [and] but he adhered to the earth and followed his (vain) desires So his example (is) like (the) example (of) the dog if you attack [on] him he lolls out his tongue or if you leave him he lolls out his tongue That (is the) example (of) the people who denied [in] Our Signs So relate the story so that they may reflect (176)",
+      transliteration:
+        "walaw shi'nā larafaʿnāhu bihā walākinnahu akhlada ilā l-arḍi wa-ittabaʿa hawāhu famathaluhu kamathali l-kalbi in taḥmil ʿalayhi yalhath aw tatruk'hu yalhath dhālika mathalu l-qawmi alladhīna kadhabū biāyātinā fa-uq'ṣuṣi l-qaṣaṣa laʿallahum yatafakkarūna ",
+      verse: 1130,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 177,
       image: "",
-      text:
-        "How evil an example [is that of] the people who denied Our signs and used to wrong themselves.",
-      verse: 1010,
+      text: "Evil (as) an example (are) the people those who denied Our Signs and themselves they used to wrong (177)",
+      transliteration:
+        "sāa mathalan l-qawmu alladhīna kadhabū biāyātinā wa-anfusahum kānū yaẓlimūna ",
+      verse: 1131,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 178,
       image: "",
-      text:
-        "Whoever Allah guides -  he is the [rightly] guided; and whoever He sends astray -  it is those who are the losers.",
-      verse: 1011,
+      text: "Whoever (is) guided (by) Allah then he (is) the guided one while whoever He lets go astray then those [they] (are) the losers (178)",
+      transliteration:
+        "man yahdi l-lahu fahuwa l-muh'tadī waman yuḍ'lil fa-ulāika humu l-khāsirūna ",
+      verse: 1132,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 179,
       image: "",
-      text:
-        "And We have certainly created for Hell many of the jinn and mankind. They have hearts with which they do not understand, they have eyes with which they do not see, and they have ears with which they do not hear. Those are like livestock; rather, they are more astray. It is they who are the heedless.",
-      verse: 1012,
+      text: "And certainly We have created for Hell many of the jinn and men For them (are) hearts (but) not they understand with them and for them (are) eyes (but) not they see with them and for them (are) ears (but) not they hear with them Those (are) like cattle nay they (are) more astray Those  they (are) the heedless (179)",
+      transliteration:
+        "walaqad dharanā lijahannama kathīran mina l-jini wal-insi lahum qulūbun lā yafqahūna bihā walahum aʿyunun lā yub'ṣirūna bihā walahum ādhānun lā yasmaʿūna bihā ulāika kal-anʿāmi bal hum aḍallu ulāika humu l-ghāfilūna ",
+      verse: 1133,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 180,
       image: "",
-      text:
-        "And to Allah belong the best names, so invoke Him by them. And leave [the company of] those who practice deviation concerning His names. They will be recompensed for what they have been doing.",
-      verse: 1013,
+      text: "And for Allah (are) the names  the most beautiful so invoke Him by them And leave those who deviate concerning His names They will be recompensed for what they used to do (180)",
+      transliteration:
+        "walillahi l-asmāu l-ḥus'nā fa-id'ʿūhu bihā wadharū alladhīna yul'ḥidūna fī asmāihi sayuj'zawna mā kānū yaʿmalūna ",
+      verse: 1134,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 181,
       image: "",
-      text:
-        "And among those We created is a community which guides by truth and thereby establishes justice.",
-      verse: 1014,
+      text: "And of (those) whom We have created (is) a nation who guides with the truth and thereby they establish justice (181)",
+      transliteration:
+        "wamimman khalaqnā ummatun yahdūna bil-ḥaqi wabihi yaʿdilūna ",
+      verse: 1135,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 182,
       image: "",
-      text:
-        "But those who deny Our signs -  We will progressively lead them [to destruction] from where they do not know.",
-      verse: 1015,
+      text: "But those who denied Our Signs We will gradually lead them from where not they know (182)",
+      transliteration:
+        "wa-alladhīna kadhabū biāyātinā sanastadrijuhum min ḥaythu lā yaʿlamūna ",
+      verse: 1136,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 183,
       image: "",
-      text: "And I will give them time. Indeed, my plan is firm.",
-      verse: 1016,
+      text: "And I will give respite to them Indeed My plan (is) firm (183)",
+      transliteration: "wa-um'lī lahum inna kaydī matīnun ",
+      verse: 1137,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 184,
       image: "",
-      text:
-        "Then do they not give thought? There is in their companion [Muhammad] no madness. He is not but a clear warner.",
-      verse: 1017,
+      text: "Do not they reflect Not in their companion [of] (is) any madness Not he (is) but a warner clear (184)",
+      transliteration:
+        "awalam yatafakkarū mā biṣāḥibihim min jinnatin in huwa illā nadhīrun mubīnun ",
+      verse: 1138,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 185,
       image: "",
-      text:
-        "Do they not look into the realm of the heavens and the earth and everything that Allah has created and [think] that perhaps their appointed time has come near? So in what statement hereafter will they believe?",
-      verse: 1018,
+      text: "Do not they look in (the) dominion (of) the heavens and the earth and what has (been) created (by) Allah of (every)thing and that perhaps [that] has verily come near  their term So in what statement after this will they believe (185)",
+      transliteration:
+        "awalam yanẓurū fī malakūti l-samāwāti wal-arḍi wamā khalaqa l-lahu min shayin wa-an ʿasā an yakūna qadi iq'taraba ajaluhum fabi-ayyi ḥadīthin baʿdahu yu'minūna ",
+      verse: 1139,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 186,
       image: "",
-      text:
-        "Whoever Allah sends astray -  there is no guide for him. And He leaves them in their transgression, wandering blindly.",
-      verse: 1019,
+      text: "Whoever (is) let go astray (by) Allah then (there is) no guide for him And He leaves them in their transgression wandering blindly (186)",
+      transliteration:
+        "man yuḍ'lili l-lahu falā hādiya lahu wayadharuhum fī ṭugh'yānihim yaʿmahūna ",
+      verse: 1140,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 187,
       image: "",
-      text:
-        'They ask you, [O Muhammad], about the Hour: when is its arrival? Say, "Its knowledge is only with my Lord. None will reveal its time except Him. It lays heavily upon the heavens and the earth. It will not come upon you except unexpectedly." They ask you as if you are familiar with it. Say, "Its knowledge is only with Allah, but most of the people do not know."',
-      verse: 1020,
+      text: "They ask you about the Hour when will be its appointed time Say Only its knowledge (is) with my Lord no (one) can reveal [it] its time except Him It lays heavily in the heavens and the earth Not will it come to you but suddenly They ask you as if you (were) well informed about it Say Only its knowledge (is) with Allah but most (of) the people (do) not know (187)",
+      transliteration:
+        "yasalūnaka ʿani l-sāʿati ayyāna mur'sāhā qul innamā ʿil'muhā ʿinda rabbī lā yujallīhā liwaqtihā illā huwa thaqulat fī l-samāwāti wal-arḍi lā tatīkum illā baghtatan yasalūnaka ka-annaka ḥafiyyun ʿanhā qul innamā ʿil'muhā ʿinda l-lahi walākinna akthara l-nāsi lā yaʿlamūna ",
+      verse: 1141,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 188,
       image: "",
-      text:
-        'Say, "I hold not for myself [the power of] benefit or harm, except what Allah has willed. And if I knew the unseen, I could have acquired much wealth, and no harm would have touched me. I am not except a warner and a bringer of good tidings to a people who believe."',
-      verse: 1021,
+      text: "Say Not I have power for myself (to) benefit and no (power to) harm except what wills Allah And if I would know (of) the unseen surely I could have multiplied of the good and not (could) have touched me the evil Not (am) I except a warner and a bearer of good tidings to a people who believe (188)",
+      transliteration:
+        "qul lā amliku linafsī nafʿan walā ḍarran illā mā shāa l-lahu walaw kuntu aʿlamu l-ghayba la-is'takthartu mina l-khayri wamā massaniya l-sūu in anā illā nadhīrun wabashīrun liqawmin yu'minūna ",
+      verse: 1142,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 189,
       image: "",
-      text:
-        'It is He who created you from one soul and created from it its mate that he might dwell in security with her. And when he covers her, she carries a light burden and continues therein. And when it becomes heavy, they both invoke Allah, their Lord, "If You should give us a good [child], we will surely be among the grateful."',
-      verse: 1022,
+      text: "He (is) the One Who created you from a soul single and made from it its mate that he might live with her And when he covers her she carries a burden light and continues with it But when she grows heavy they both invoke Allah their Lord If You give us a righteous (child) surely we will be among the thankful (189)",
+      transliteration:
+        "huwa alladhī khalaqakum min nafsin wāḥidatin wajaʿala min'hā zawjahā liyaskuna ilayhā falammā taghashāhā ḥamalat ḥamlan khafīfan famarrat bihi falammā athqalat daʿawā l-laha rabbahumā la-in ātaytanā ṣāliḥan lanakūnanna mina l-shākirīna ",
+      verse: 1143,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 190,
       image: "",
-      text:
-        "But when He gives them a good [child], they ascribe partners to Him concerning that which He has given them. Exalted is Allah above what they associate with Him.",
-      verse: 1023,
+      text: "But when He gives them a good, (child) they make for Him partners in what He has given them But exalted (is) Allah above what they associate (with Him) (190)",
+      transliteration:
+        "falammā ātāhumā ṣāliḥan jaʿalā lahu shurakāa fīmā ātāhumā fataʿālā l-lahu ʿammā yush'rikūna ",
+      verse: 1144,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 191,
       image: "",
-      text:
-        "Do they associate with Him those who create nothing and they are [themselves] created?",
-      verse: 1024,
+      text: "Do they associate what (can) not create anything and they are created (191)",
+      transliteration: "ayush'rikūna mā lā yakhluqu shayan wahum yukh'laqūna ",
+      verse: 1145,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 192,
       image: "",
-      text:
-        "And the false deities are unable to [give] them help, nor can they help themselves.",
-      verse: 1025,
+      text: "And not they are able to (give) them any help and not themselves can they help (192)",
+      transliteration:
+        "walā yastaṭīʿūna lahum naṣran walā anfusahum yanṣurūna ",
+      verse: 1146,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 193,
       image: "",
-      text:
-        "And if you [believers] invite them to guidance, they will not follow you. It is all the same for you whether you invite them or you are silent.",
-      verse: 1026,
+      text: "And if you call them to the guidance not will they follow you (It is) same for you whether you call them or you remain silent (193)",
+      transliteration:
+        "wa-in tadʿūhum ilā l-hudā lā yattabiʿūkum sawāon ʿalaykum adaʿawtumūhum am antum ṣāmitūna ",
+      verse: 1147,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 194,
       image: "",
-      text:
-        "Indeed, those you [polytheists] call upon besides Allah are servants like you. So call upon them and let them respond to you, if you should be truthful.",
-      verse: 1027,
+      text: "Indeed those whom you call from besides Allah (are) slaves like you So invoke them and let them respond to you if you are truthful (194)",
+      transliteration:
+        "inna alladhīna tadʿūna min dūni l-lahi ʿibādun amthālukum fa-id'ʿūhum falyastajībū lakum in kuntum ṣādiqīna ",
+      verse: 1148,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 195,
       image: "",
-      text:
-        "Do they have feet by which they walk? Or do they have hands by which they strike? Or do they have eyes by which they see? Or do they have ears by which they hear? Say, [O Muhammad], \"Call your 'partners' and then conspire against me and give me no respite.",
-      verse: 1028,
+      text: "Are for them feet (to) walk with [it] or for them hands (to) hold with [it] or for them eyes (to) see with [it] or for them ears (to) hear with [it] Say Call your partners then scheme against me and (do) not give me respite (195)",
+      transliteration:
+        "alahum arjulun yamshūna bihā am lahum aydin yabṭishūna bihā am lahum aʿyunun yub'ṣirūna bihā am lahum ādhānun yasmaʿūna bihā quli id'ʿū shurakāakum thumma kīdūni falā tunẓirūni ",
+      verse: 1149,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 196,
       image: "",
-      text:
-        "Indeed, my protector is Allah, who has sent down the Book; and He is an ally to the righteous.",
-      verse: 1029,
+      text: "Indeed my protector (is) Allah the One Who revealed the Book And He protects the righteous (196)",
+      transliteration:
+        "inna waliyyiya l-lahu alladhī nazzala l-kitāba wahuwa yatawallā l-ṣāliḥīna ",
+      verse: 1150,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 197,
       image: "",
-      text:
-        'And those you call upon besides Him are unable to help you, nor can they help themselves."',
-      verse: 1030,
+      text: "And those whom you invoke from besides Him not they are able (to) help you and not themselves can they help (197)",
+      transliteration:
+        "wa-alladhīna tadʿūna min dūnihi lā yastaṭīʿūna naṣrakum walā anfusahum yanṣurūna ",
+      verse: 1151,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 198,
       image: "",
-      text:
-        "And if you invite them to guidance, they do not hear; and you see them looking at you while they do not see.",
-      verse: 1031,
+      text: "And if you call them to the guidance not do they not And you see them looking at you but they  not (do) they see (198)",
+      transliteration:
+        "wa-in tadʿūhum ilā l-hudā lā yasmaʿū watarāhum yanẓurūna ilayka wahum lā yub'ṣirūna ",
+      verse: 1152,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 199,
       image: "",
-      text:
-        "Take what is given freely, enjoin what is good, and turn away from the ignorant.",
-      verse: 1032,
+      text: "Hold (to) forgiveness and enjoin the good and turn away from the ignorant (199)",
+      transliteration:
+        "khudhi l-ʿafwa wamur bil-ʿur'fi wa-aʿriḍ ʿani l-jāhilīna ",
+      verse: 1153,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 200,
       image: "",
-      text:
-        "And if an evil suggestion comes to you from Satan, then seek refuge in Allah . Indeed, He is Hearing and Knowing.",
-      verse: 1033,
+      text: "And if an evil suggestion comes to you from [the] Shaitaan [an evil suggestion] then seek refuge in Allah Indeed, He (is) All-Hearing All-Knowing (200)",
+      transliteration:
+        "wa-immā yanzaghannaka mina l-shayṭāni nazghun fa-is'taʿidh bil-lahi innahu samīʿun ʿalīmun ",
+      verse: 1154,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 201,
       image: "",
-      text:
-        "Indeed, those who fear Allah -  when an impulse touches them from Satan, they remember [Him] and at once they have insight.",
-      verse: 1034,
+      text: "Indeed those who fear (Allah) when touches them an evil thought from the Shaitaan they remember (Allah) and then they (are) those who see (aright) (201)",
+      transliteration:
+        "inna alladhīna ittaqaw idhā massahum ṭāifun mina l-shayṭāni tadhakkarū fa-idhā hum mub'ṣirūna ",
+      verse: 1155,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 202,
       image: "",
-      text:
-        "But their brothers -  the devils increase them in error; then they do not stop short.",
-      verse: 1035,
+      text: "But their brothers they plunge them in the error then not they cease (202)",
+      transliteration:
+        "wa-ikh'wānuhum yamuddūnahum fī l-ghayi thumma lā yuq'ṣirūna ",
+      verse: 1156,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 203,
       image: "",
-      text:
-        'And when you, [O Muhammad], do not bring them a sign, they say, "Why have you not contrived it?" Say, "I only follow what is revealed to me from my Lord. This [Qur\'an] is enlightenment from your Lord and guidance and mercy for a people who believe."',
-      verse: 1036,
+      text: "And when not you bring them a Sign they say Why (have) not you devised it Say Only I follow what is revealed to me from my Lord This (is) enlightenment from your Lord and guidance and mercy for a people who believe (203)",
+      transliteration:
+        "wa-idhā lam tatihim biāyatin qālū lawlā ij'tabaytahā qul innamā attabiʿu mā yūḥā ilayya min rabbī hādhā baṣāiru min rabbikum wahudan waraḥmatun liqawmin yu'minūna ",
+      verse: 1157,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 204,
       image: "",
-      text:
-        "So when the Qur'an is recited, then listen to it and pay attention that you may receive mercy.",
-      verse: 1037,
+      text: "And when is recited the Quran then listen to it and pay attention so that you may receive mercy (204)",
+      transliteration:
+        "wa-idhā quri-a l-qur'ānu fa-is'tamiʿū lahu wa-anṣitū laʿallakum tur'ḥamūna ",
+      verse: 1158,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 205,
       image: "",
-      text:
-        "And remember your Lord within yourself in humility and in fear without being apparent in speech -  in the mornings and the evenings. And do not be among the heedless.",
-      verse: 1038,
+      text: "And remember your Lord in yourself humbly and (in) fear and without the loudness of [the] words in the mornings and (in) the evenings And (do) not be among the heedless (205)",
+      transliteration:
+        "wa-udh'kur rabbaka fī nafsika taḍarruʿan wakhīfatan wadūna l-jahri mina l-qawli bil-ghuduwi wal-āṣāli walā takun mina l-ghāfilīna ",
+      verse: 1159,
+      juz: 9,
+      surah: 7,
     },
     {
       number: 206,
       image: "",
-      text:
-        "Indeed, those who are near your Lord are not prevented by arrogance from His worship, and they exalt Him, and to Him they prostrate.",
-      verse: 1039,
+      text: "Indeed those who (are) near your Lord not (do) they turn away in pride from His worship And they glorify Him and to Him they prostrate (206)",
+      transliteration:
+        "inna alladhīna ʿinda rabbika lā yastakbirūna ʿan ʿibādatihi wayusabbiḥūnahu walahu yasjudūna ",
+      verse: 1160,
+      juz: 9,
+      surah: 7,
     },
   ],
 };

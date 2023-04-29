@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const insan: Surah = {
   name: "Al-Insan",
@@ -6,216 +6,304 @@ export const insan: Surah = {
     {
       number: 1,
       image: "",
-      text:
-        "Has there [not] come upon man a period of time when he was not a thing [even] mentioned?",
-      verse: 5461,
+      text: "Has (there) come upon man a period of time not he was a thing mentioned (1)",
+      transliteration:
+        "hal atā ʿalā l-insāni ḥīnun mina l-dahri lam yakun shayan madhkūran ",
+      verse: 5592,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 2,
       image: "",
-      text:
-        "Indeed, We created man from a sperm-drop mixture that We may try him; and We made him hearing and seeing.",
-      verse: 5462,
+      text: "Indeed, We [We] created man from a semen-drop a mixture (that) We test him so We made (for) him hearing and sight (2)",
+      transliteration:
+        "innā khalaqnā l-insāna min nuṭ'fatin amshājin nabtalīhi fajaʿalnāhu samīʿan baṣīran ",
+      verse: 5593,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 3,
       image: "",
-      text:
-        "Indeed, We guided him to the way, be he grateful or be he ungrateful.",
-      verse: 5463,
+      text: "Indeed, We guided him (to) the way whether (he) be grateful and whether (he) be ungrateful (3)",
+      transliteration: "innā hadaynāhu l-sabīla immā shākiran wa-immā kafūran ",
+      verse: 5594,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 4,
       image: "",
-      text:
-        "Indeed, We have prepared for the disbelievers chains and shackles and a blaze.",
-      verse: 5464,
+      text: "Indeed, We [We] have prepared for the disbelievers chains and shackles and a Blazing Fire (4)",
+      transliteration:
+        "innā aʿtadnā lil'kāfirīna salāsilā wa-aghlālan wasaʿīran ",
+      verse: 5595,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 5,
       image: "",
-      text:
-        "Indeed, the righteous will drink from a cup [of wine] whose mixture is of Kafur,",
-      verse: 5465,
+      text: "Indeed the righteous will drink from a cup is its mixture (of) Kafur (5)",
+      transliteration:
+        "inna l-abrāra yashrabūna min kasin kāna mizājuhā kāfūran ",
+      verse: 5596,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 6,
       image: "",
-      text:
-        "A spring of which the [righteous] servants of Allah will drink; they will make it gush forth in force [and abundance].",
-      verse: 5466,
+      text: "A spring  will drink from it (the) slaves (of) Allah causing it to gush forth abundantly (6)",
+      transliteration:
+        "ʿaynan yashrabu bihā ʿibādu l-lahi yufajjirūnahā tafjīran ",
+      verse: 5597,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 7,
       image: "",
-      text:
-        "They [are those who] fulfill [their] vows and fear a Day whose evil will be widespread.",
-      verse: 5467,
+      text: "They fulfill the vows and fear a Day  (which) is its evil widespread (7)",
+      transliteration:
+        "yūfūna bil-nadhri wayakhāfūna yawman kāna sharruhu mus'taṭīran ",
+      verse: 5598,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 8,
       image: "",
-      text:
-        "And they give food in spite of love for it to the needy, the orphan, and the captive,",
-      verse: 5468,
+      text: "And they feed the food in spite of love (for) it (to the) needy and (the) orphan and (the) captive (8)",
+      transliteration:
+        "wayuṭ'ʿimūna l-ṭaʿāma ʿalā ḥubbihi mis'kīnan wayatīman wa-asīran ",
+      verse: 5599,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 9,
       image: "",
-      text:
-        '[Saying], "We feed you only for the countenance of Allah . We wish not from you reward or gratitude.',
-      verse: 5469,
+      text: "Only we feed you for (the) Countenance (of) Allah Not we desire from you any reward and not thanks (9)",
+      transliteration:
+        "innamā nuṭ'ʿimukum liwajhi l-lahi lā nurīdu minkum jazāan walā shukūran ",
+      verse: 5600,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 10,
       image: "",
-      text: 'Indeed, We fear from our Lord a Day austere and distressful."',
-      verse: 5470,
+      text: "Indeed, we fear from our Lord a Day  harsh and distressful (10)",
+      transliteration: "innā nakhāfu min rabbinā yawman ʿabūsan qamṭarīran ",
+      verse: 5601,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 11,
       image: "",
-      text:
-        "So Allah will protect them from the evil of that Day and give them radiance and happiness",
-      verse: 5471,
+      text: "But will protect them Allah (from the) evil (of) that Day and will cause them to meet radiance and happiness (11)",
+      transliteration:
+        "fawaqāhumu l-lahu sharra dhālika l-yawmi walaqqāhum naḍratan wasurūran ",
+      verse: 5602,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 12,
       image: "",
-      text:
-        "And will reward them for what they patiently endured [with] a garden [in Paradise] and silk [garments].",
-      verse: 5472,
+      text: "And will reward them because they were patient (with) a Garden and silk (12)",
+      transliteration: "wajazāhum bimā ṣabarū jannatan waḥarīran ",
+      verse: 5603,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 13,
       image: "",
-      text:
-        "[They will be] reclining therein on adorned couches. They will not see therein any [burning] sun or [freezing] cold.",
-      verse: 5473,
+      text: "Reclining therein on couches Not they will see therein sun and not freezing cold (13)",
+      transliteration:
+        "muttakiīna fīhā ʿalā l-arāiki lā yarawna fīhā shamsan walā zamharīran ",
+      verse: 5604,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 14,
       image: "",
-      text:
-        "And near above them are its shades, and its [fruit] to be picked will be lowered in compliance.",
-      verse: 5474,
+      text: "And near above them (are) its shades and will hang low its cluster of fruits dangling low (14)",
+      transliteration:
+        "wadāniyatan ʿalayhim ẓilāluhā wadhullilat quṭūfuhā tadhlīlan ",
+      verse: 5605,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 15,
       image: "",
-      text:
-        "And there will be circulated among them vessels of silver and cups having been [created] clear [as glass],",
-      verse: 5475,
+      text: "And will be circulated among them vessels of silver and cups (that) are (of) crystal (15)",
+      transliteration:
+        "wayuṭāfu ʿalayhim biāniyatin min fiḍḍatin wa-akwābin kānat qawārīrā ",
+      verse: 5606,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 16,
       image: "",
-      text:
-        "Clear glasses [made] from silver of which they have determined the measure.",
-      verse: 5476,
+      text: "Crystal-clear of silver They will determine its measure (16)",
+      transliteration: "qawārīrā min fiḍḍatin qaddarūhā taqdīran ",
+      verse: 5607,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 17,
       image: "",
-      text:
-        "And they will be given to drink a cup [of wine] whose mixture is of ginger",
-      verse: 5477,
+      text: "And they will be given to drink therein a cup  is its mixture (of) Zanjabil (17)",
+      transliteration: "wayus'qawna fīhā kasan kāna mizājuhā zanjabīlan ",
+      verse: 5608,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 18,
       image: "",
-      text: "[From] a fountain within Paradise named Salsabeel.",
-      verse: 5478,
+      text: "A spring therein named Salsabil (18)",
+      transliteration: "ʿaynan fīhā tusammā salsabīlan ",
+      verse: 5609,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 19,
       image: "",
-      text:
-        "There will circulate among them young boys made eternal.  When you see them, you would think them [as beautiful as] scattered pearls.",
-      verse: 5479,
+      text: "And will circulate among them young boys made eternal When you see them you would think them (to be) pearls scattered (19)",
+      transliteration:
+        "wayaṭūfu ʿalayhim wil'dānun mukhalladūna idhā ra-aytahum ḥasib'tahum lu'lu-an manthūran ",
+      verse: 5610,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 20,
       image: "",
-      text:
-        "And when you look there [in Paradise], you will see pleasure and great dominion.",
-      verse: 5480,
+      text: "And when you look then you will see blessings and a kingdom great (20)",
+      transliteration:
+        "wa-idhā ra-ayta thamma ra-ayta naʿīman wamul'kan kabīran ",
+      verse: 5611,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 21,
       image: "",
-      text:
-        "Upon the inhabitants will be green garments of fine silk and brocade.  And they will be adorned with bracelets of silver, and their Lord will give them a purifying drink.",
-      verse: 5481,
+      text: "Upon them (will be) garments (of) fine silk green and heavy brocade And they will be adorned (with) bracelets of silver and will give them to drink their Lord a drink pure (21)",
+      transliteration:
+        "ʿāliyahum thiyābu sundusin khuḍ'run wa-is'tabraqun waḥullū asāwira min fiḍḍatin wasaqāhum rabbuhum sharāban ṭahūran ",
+      verse: 5612,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 22,
       image: "",
-      text:
-        '[And it will be said], "Indeed, this is for you a reward, and your effort has been appreciated."',
-      verse: 5482,
+      text: "Indeed this is for you a reward and has been your effort appreciated (22)",
+      transliteration:
+        "inna hādhā kāna lakum jazāan wakāna saʿyukum mashkūran ",
+      verse: 5613,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 23,
       image: "",
-      text:
-        "Indeed, it is We who have sent down to you, [O Muhammad], the Qur'an progressively.",
-      verse: 5483,
+      text: "Indeed, We [We] [We] revealed to you the Quran progressively (23)",
+      transliteration: "innā naḥnu nazzalnā ʿalayka l-qur'āna tanzīlan ",
+      verse: 5614,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 24,
       image: "",
-      text:
-        "So be patient for the decision of your Lord and do not obey from among them a sinner or ungrateful [disbeliever].",
-      verse: 5484,
+      text: "So be patient for (the) Command (of) your Lord and (do) not obey from them any sinner or disbeliever (24)",
+      transliteration:
+        "fa-iṣ'bir liḥuk'mi rabbika walā tuṭiʿ min'hum āthiman aw kafūran ",
+      verse: 5615,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 25,
       image: "",
-      text: "And mention the name of your Lord [in prayer] morning and evening",
-      verse: 5485,
+      text: "And remember (the) name (of) your Lord morning and evening (25)",
+      transliteration: "wa-udh'kuri is'ma rabbika buk'ratan wa-aṣīlan ",
+      verse: 5616,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 26,
       image: "",
-      text:
-        "And during the night prostrate to Him and exalt Him a long [part of the] night.",
-      verse: 5486,
+      text: "And of the night prostrate to Him and glorify Him a night long (26)",
+      transliteration:
+        "wamina al-layli fa-us'jud lahu wasabbiḥ'hu laylan ṭawīlan ",
+      verse: 5617,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 27,
       image: "",
-      text:
-        "Indeed, these [disbelievers] love the immediate and leave behind them a grave Day.",
-      verse: 5487,
+      text: "Indeed these love the immediate and leave behind them a Day grave (27)",
+      transliteration:
+        "inna hāulāi yuḥibbūna l-ʿājilata wayadharūna warāahum yawman thaqīlan ",
+      verse: 5618,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 28,
       image: "",
-      text:
-        "We have created them and strengthened their forms, and when We will, We can change their likenesses with [complete] alteration.",
-      verse: 5488,
+      text: "We created them and We strengthened their forms and when We will We can change their likeness[es] (with) a change (28)",
+      transliteration:
+        "naḥnu khalaqnāhum washadadnā asrahum wa-idhā shi'nā baddalnā amthālahum tabdīlan ",
+      verse: 5619,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 29,
       image: "",
-      text:
-        "Indeed, this is a reminder, so he who wills may take to his Lord a way.",
-      verse: 5489,
+      text: "Indeed this (is) a reminder so whoever wills let him take to his Lord a way (29)",
+      transliteration:
+        "inna hādhihi tadhkiratun faman shāa ittakhadha ilā rabbihi sabīlan ",
+      verse: 5620,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 30,
       image: "",
-      text:
-        "And you do not will except that Allah wills. Indeed, Allah is ever Knowing and Wise.",
-      verse: 5490,
+      text: "And not you will except that wills Allah Indeed Allah is All-Knower All-Wise (30)",
+      transliteration:
+        "wamā tashāūna illā an yashāa l-lahu inna l-laha kāna ʿalīman ḥakīman ",
+      verse: 5621,
+      juz: 29,
+      surah: 76,
     },
     {
       number: 31,
       image: "",
-      text:
-        "He admits whom He wills into His mercy; but the wrongdoers -  He has prepared for them a painful punishment.",
-      verse: 5491,
+      text: "He admits whom He wills into His mercy but (for) the wrongdoers He has prepared for them a punishment painful (31)",
+      transliteration:
+        "yud'khilu man yashāu fī raḥmatihi wal-ẓālimīna aʿadda lahum ʿadhāban alīman ",
+      verse: 5622,
+      juz: 29,
+      surah: 76,
     },
   ],
 };

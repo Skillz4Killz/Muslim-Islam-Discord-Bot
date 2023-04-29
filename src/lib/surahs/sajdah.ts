@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const sajdah: Surah = {
   name: "As-Sajdah",
@@ -6,210 +6,295 @@ export const sajdah: Surah = {
     {
       number: 1,
       image: "",
-      text: "Alif, Lam, Meem.",
-      verse: 3373,
+      text: "Alif Lam Meem (1)",
+      transliteration: "alif-lam-meem ",
+      verse: 3504,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 2,
       image: "",
-      text:
-        "[This is] the revelation of the Book about which there is no doubt from the Lord of the worlds.",
-      verse: 3374,
+      text: "(The) revelation (of) the Book (there is) no doubt about it from (the) Lord (of) the worlds (2)",
+      transliteration: "tanzīlu l-kitābi lā rayba fīhi min rabbi l-ʿālamīna ",
+      verse: 3505,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 3,
       image: "",
-      text:
-        'Or do they say, "He invented it"? Rather, it is the truth from your Lord, [O Muhammad], that you may warn a people to whom no warner has come before you [so] perhaps they will be guided.',
-      verse: 3375,
+      text: "Or (do) they say He invented it Nay it (is) the truth from your Lord that you may warn a people not has come to them any warner before you before you so that they may be guided (3)",
+      transliteration:
+        "am yaqūlūna if'tarāhu bal huwa l-ḥaqu min rabbika litundhira qawman mā atāhum min nadhīrin min qablika laʿallahum yahtadūna ",
+      verse: 3506,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 4,
       image: "",
-      text:
-        "It is Allah who created the heavens and the earth and whatever is between them in six days; then He established Himself above the Throne. You have not besides Him any protector or any intercessor; so will you not be reminded?",
-      verse: 3376,
+      text: "Allah (is) the One Who created the heavens and the earth and whatever (is) between them in six periods Then established Himself on the Throne Not for you besides Him besides Him any protector and not any intercessor Then will not you take heed (4)",
+      transliteration:
+        "al-lahu alladhī khalaqa l-samāwāti wal-arḍa wamā baynahumā fī sittati ayyāmin thumma is'tawā ʿalā l-ʿarshi mā lakum min dūnihi min waliyyin walā shafīʿin afalā tatadhakkarūna ",
+      verse: 3507,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 5,
       image: "",
-      text:
-        "He arranges [each] matter from the heaven to the earth; then it will ascend to Him in a Day, the extent of which is a thousand years of those which you count.",
-      verse: 3377,
+      text: "He regulates the affair of the heaven to the earth then it will ascend to Him in a Day (the) measure of which is (the) measure of which is a thousand years of what you count (5)",
+      transliteration:
+        "yudabbiru l-amra mina l-samāi ilā l-arḍi thumma yaʿruju ilayhi fī yawmin kāna miq'dāruhu alfa sanatin mimmā taʿuddūna ",
+      verse: 3508,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 6,
       image: "",
-      text:
-        "That is the Knower of the unseen and the witnessed, the Exalted in Might, the Merciful,",
-      verse: 3378,
+      text: "That (is the) Knower (of) the hidden and the witnessed the All-Mighty the Most Merciful (6)",
+      transliteration: "dhālika ʿālimu l-ghaybi wal-shahādati l-ʿazīzu l-raḥīmu ",
+      verse: 3509,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 7,
       image: "",
-      text:
-        "Who perfected everything which He created and began the creation of man from clay.",
-      verse: 3379,
+      text: "The One Who made good every thing He created and He began (the) creation (of) man from clay (7)",
+      transliteration:
+        "alladhī aḥsana kulla shayin khalaqahu wabada-a khalqa l-insāni min ṭīnin ",
+      verse: 3510,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 8,
       image: "",
-      text:
-        "Then He made his posterity out of the extract of a liquid disdained.",
-      verse: 3380,
+      text: "Then He made his progeny from an extract of water despised (8)",
+      transliteration: "thumma jaʿala naslahu min sulālatin min māin mahīnin ",
+      verse: 3511,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 9,
       image: "",
-      text:
-        "Then He proportioned him and breathed into him from His [created] soul and made for you hearing and vision and hearts; little are you grateful.",
-      verse: 3381,
+      text: "Then He fashioned him and breathed into him from His spirit and made for you the hearing and the sight and feelings little [what] thanks you give (9)",
+      transliteration:
+        "thumma sawwāhu wanafakha fīhi min rūḥihi wajaʿala lakumu l-samʿa wal-abṣāra wal-afidata qalīlan mā tashkurūna ",
+      verse: 3512,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 10,
       image: "",
-      text:
-        'And they say, "When we are lost within the earth, will we indeed be [recreated] in a new creation?" Rather, they are, in [the matter of] the meeting with their Lord, disbelievers.',
-      verse: 3382,
+      text: "And they say Is (it) when we are lost in the earth will we certainly be in a creation new Nay they in (the) meeting (of) their Lord (are) disbelievers (10)",
+      transliteration:
+        "waqālū a-idhā ḍalalnā fī l-arḍi a-innā lafī khalqin jadīdin bal hum biliqāi rabbihim kāfirūna ",
+      verse: 3513,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 11,
       image: "",
-      text:
-        'Say, "The angel of death will take you who has been entrusted with you. Then to your Lord you will be returned."',
-      verse: 3383,
+      text: "Say Will take your soul (the) Angel (of) the death the one who has been put in charge of you Then to your Lord you will be returned (11)",
+      transliteration:
+        "qul yatawaffākum malaku l-mawti alladhī wukkila bikum thumma ilā rabbikum tur'jaʿūna ",
+      verse: 3514,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 12,
       image: "",
-      text:
-        'If you could but see when the criminals are hanging their heads before their Lord, [saying], "Our Lord, we have seen and heard, so return us [to the world]; we will work righteousness. Indeed, we are [now] certain."',
-      verse: 3384,
+      text: "And if you (could) see when the criminals (will) hang their heads before their Lord Our Lord we have seen and we have heard so return us we will do righteous (deeds) Indeed, we (are now) certain (12)",
+      transliteration:
+        "walaw tarā idhi l-muj'rimūna nākisū ruūsihim ʿinda rabbihim rabbanā abṣarnā wasamiʿ'nā fa-ir'jiʿ'nā naʿmal ṣāliḥan innā mūqinūna ",
+      verse: 3515,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 13,
       image: "",
-      text:
-        'And if we had willed, We could have given every soul its guidance, but the word from Me will come into effect [that] "I will surely fill Hell with jinn and people all together.',
-      verse: 3385,
+      text: "And if We (had) willed surely We (would) have given every soul its guidance but (is) true the Word from Me that I will surely fill Hell with the jinn and the men together (13)",
+      transliteration:
+        "walaw shi'nā laātaynā kulla nafsin hudāhā walākin ḥaqqa l-qawlu minnī la-amla-anna jahannama mina l-jinati wal-nāsi ajmaʿīna ",
+      verse: 3516,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 14,
       image: "",
-      text:
-        'So taste [punishment] because you forgot the meeting of this, your Day; indeed, We have [accordingly] forgotten you. And taste the punishment of eternity for what you used to do."',
-      verse: 3386,
+      text: "So taste because you forgot (the) meeting (of) this Day of yours (of) this Day of yours Indeed, We have forgotten you And taste (the) punishment (of) eternity for what you used (to) do (14)",
+      transliteration:
+        "fadhūqū bimā nasītum liqāa yawmikum hādhā innā nasīnākum wadhūqū ʿadhāba l-khul'di bimā kuntum taʿmalūna ",
+      verse: 3517,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 15,
       image: "",
-      text:
-        "Only those believe in Our verses who, when they are reminded by them, fall down in prostration and exalt [ Allah ] with praise of their Lord, and they are not arrogant.",
-      verse: 3387,
+      text: "Only believe in Our Verses those who when they are reminded of them fall down prostrating and glorify (the) praises (of) their Lord and they are not arrogant are not arrogant (15)",
+      transliteration:
+        "innamā yu'minu biāyātinā alladhīna idhā dhukkirū bihā kharrū sujjadan wasabbaḥū biḥamdi rabbihim wahum lā yastakbirūna ",
+      verse: 3518,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 16,
       image: "",
-      text:
-        "They arise from [their] beds; they supplicate their Lord in fear and aspiration, and from what We have provided them, they spend.",
-      verse: 3388,
+      text: "Forsake their sides from (their) beds they call their Lord (in) fear and hope and out of what We have provided them they spend (16)",
+      transliteration:
+        "tatajāfā junūbuhum ʿani l-maḍājiʿi yadʿūna rabbahum khawfan waṭamaʿan wamimmā razaqnāhum yunfiqūna ",
+      verse: 3519,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 17,
       image: "",
-      text:
-        "And no soul knows what has been hidden for them of comfort for eyes as reward for what they used to do.",
-      verse: 3389,
+      text: "And not knows a soul what is hidden for them of (the) comfort (for) the eyes (as) a reward for what they used (to) do (17)",
+      transliteration:
+        "falā taʿlamu nafsun mā ukh'fiya lahum min qurrati aʿyunin jazāan bimā kānū yaʿmalūna ",
+      verse: 3520,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 18,
       image: "",
-      text:
-        "Then is one who was a believer like one who was defiantly disobedient? They are not equal.",
-      verse: 3390,
+      text: "Then is one who is a believer like (him) who is defiantly disobedient Not they are equal (18)",
+      transliteration: "afaman kāna mu'minan kaman kāna fāsiqan lā yastawūna ",
+      verse: 3521,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 19,
       image: "",
-      text:
-        "As for those who believed and did righteous deeds, for them will be the Gardens of Refuge as accommodation for what they used to do.",
-      verse: 3391,
+      text: "As for those who believe and do righteous deeds then for them (are) Gardens (of) Refuge (as) hospitality for what they used (to) do (19)",
+      transliteration:
+        "ammā alladhīna āmanū waʿamilū l-ṣāliḥāti falahum jannātu l-mawā nuzulan bimā kānū yaʿmalūna ",
+      verse: 3522,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 20,
       image: "",
-      text:
-        'But as for those who defiantly disobeyed, their refuge is the Fire. Every time they wish to emerge from it, they will be returned to it while it is said to them, "Taste the punishment of the Fire which you used to deny."',
-      verse: 3392,
+      text: "But as for those who are defiantly disobedient then their refuge (is) the Fire Every time they wish to come out from it they (will) be returned in it and it (will) be said to them Taste (the) punishment (of) the Fire which you used (to) [in it] deny (20)",
+      transliteration:
+        "wa-ammā alladhīna fasaqū famawāhumu l-nāru kullamā arādū an yakhrujū min'hā uʿīdū fīhā waqīla lahum dhūqū ʿadhāba l-nāri alladhī kuntum bihi tukadhibūna ",
+      verse: 3523,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 21,
       image: "",
-      text:
-        "And we will surely let them taste the nearer punishment short of the greater punishment that perhaps they will repent.",
-      verse: 3393,
+      text: "And surely, We will let them taste of the punishment the nearer before the punishment the greater so that they may return (21)",
+      transliteration:
+        "walanudhīqannahum mina l-ʿadhābi l-adnā dūna l-ʿadhābi l-akbari laʿallahum yarjiʿūna ",
+      verse: 3524,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 22,
       image: "",
-      text:
-        "And who is more unjust than one who is reminded of the verses of his Lord; then he turns away from them? Indeed We, from the criminals, will take retribution.",
-      verse: 3394,
+      text: "And who (is) more unjust than (he) who is reminded of (the) Verses (of) his Lord then he turns away from them Indeed, We from the criminals (will) take retribution (22)",
+      transliteration:
+        "waman aẓlamu mimman dhukkira biāyāti rabbihi thumma aʿraḍa ʿanhā innā mina l-muj'rimīna muntaqimūna ",
+      verse: 3525,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 23,
       image: "",
-      text:
-        "And We certainly gave Moses the Scripture, so do not be in doubt over his meeting. And we made the Torah guidance for the Children of Israel.",
-      verse: 3395,
+      text: "And certainly We gave Musa the Scripture so (do) not be in doubt about receiving it And We made it a guide for the Children of Israel for the Children of Israel (23)",
+      transliteration:
+        "walaqad ātaynā mūsā l-kitāba falā takun fī mir'yatin min liqāihi wajaʿalnāhu hudan libanī is'rāīla ",
+      verse: 3526,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 24,
       image: "",
-      text:
-        "And We made from among them leaders guiding by Our command when they were patient and [when] they were certain of Our signs.",
-      verse: 3396,
+      text: "And We made from them leaders guiding by Our Command when they were patient and they were of Our Verses certain (24)",
+      transliteration:
+        "wajaʿalnā min'hum a-immatan yahdūna bi-amrinā lammā ṣabarū wakānū biāyātinā yūqinūna ",
+      verse: 3527,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 25,
       image: "",
-      text:
-        "Indeed, your Lord will judge between them on the Day of Resurrection concerning that over which they used to differ.",
-      verse: 3397,
+      text: "Indeed your Lord [He] will judge between them (on the) Day (of) Resurrection in what they used (to) [in it] differ (25)",
+      transliteration:
+        "inna rabbaka huwa yafṣilu baynahum yawma l-qiyāmati fīmā kānū fīhi yakhtalifūna ",
+      verse: 3528,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 26,
       image: "",
-      text:
-        "Has it not become clear to them how many generations We destroyed before them, [as] they walk among their dwellings? Indeed in that are signs; then do they not hear?",
-      verse: 3398,
+      text: "Does it not guide [for] them (that) how many We have destroyed before them before them of the generations they walk about in their dwellings Indeed in that surely, are Signs Then do not they hear (26)",
+      transliteration:
+        "awalam yahdi lahum kam ahlaknā min qablihim mina l-qurūni yamshūna fī masākinihim inna fī dhālika laāyātin afalā yasmaʿūna ",
+      verse: 3529,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 27,
       image: "",
-      text:
-        "Have they not seen that We drive the water [in clouds] to barren land and bring forth thereby crops from which their livestock eat and [they] themselves? Then do they not see?",
-      verse: 3399,
+      text: "Do not they see that We drive water to the land [the] barren then We bring forth thereby crops eat from it their cattle and they themselves Then do not they see (27)",
+      transliteration:
+        "awalam yaraw annā nasūqu l-māa ilā l-arḍi l-juruzi fanukh'riju bihi zarʿan takulu min'hu anʿāmuhum wa-anfusuhum afalā yub'ṣirūna ",
+      verse: 3530,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 28,
       image: "",
-      text:
-        'And they say, "When will be this conquest, if you should be truthful?"',
-      verse: 3400,
+      text: "And they say When (will be) this decision if you are truthful (28)",
+      transliteration: "wayaqūlūna matā hādhā l-fatḥu in kuntum ṣādiqīna ",
+      verse: 3531,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 29,
       image: "",
-      text:
-        'Say, [O Muhammad], "On the Day of Conquest the belief of those who had disbelieved will not benefit them, nor will they be reprieved."',
-      verse: 3401,
+      text: "Say (On the) Day (of) the Decision not will benefit those who disbelieve their belief and not they will be granted respite (29)",
+      transliteration:
+        "qul yawma l-fatḥi lā yanfaʿu alladhīna kafarū īmānuhum walā hum yunẓarūna ",
+      verse: 3532,
+      juz: 21,
+      surah: 32,
     },
     {
       number: 30,
       image: "",
-      text: "So turn away from them and wait. Indeed, they are waiting.",
-      verse: 3402,
+      text: "So turn away from them and wait Indeed, they (are) waiting (30)",
+      transliteration: "fa-aʿriḍ ʿanhum wa-intaẓir innahum muntaẓirūna ",
+      verse: 3533,
+      juz: 21,
+      surah: 32,
     },
   ],
 };

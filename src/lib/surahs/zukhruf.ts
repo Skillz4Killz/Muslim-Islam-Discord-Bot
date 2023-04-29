@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const zukhruf: Surah = {
   name: "Az-Zukhruf",
@@ -6,616 +6,869 @@ export const zukhruf: Surah = {
     {
       number: 1,
       image: "",
-      text: "Ha, Meem.",
-      verse: 4195,
+      text: "Ha Meem (1)",
+      transliteration: "hha-meem ",
+      verse: 4326,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 2,
       image: "",
-      text: "By the clear Book,",
-      verse: 4196,
+      text: "By the Book the clear (2)",
+      transliteration: "wal-kitābi l-mubīni ",
+      verse: 4327,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 3,
       image: "",
-      text:
-        "Indeed, We have made it an Arabic Qur'an that you might understand.",
-      verse: 4197,
+      text: "Indeed, We (have) made it a Quran (in) Arabic so that you may understand (3)",
+      transliteration: "innā jaʿalnāhu qur'ānan ʿarabiyyan laʿallakum taʿqilūna ",
+      verse: 4328,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 4,
       image: "",
-      text:
-        "And indeed it is, in the Mother of the Book with Us, exalted and full of wisdom.",
-      verse: 4198,
+      text: "And indeed, it (is) in (the) Mother (of) the Book with Us surely exalted full of wisdom (4)",
+      transliteration: "wa-innahu fī ummi l-kitābi ladaynā laʿaliyyun ḥakīmun ",
+      verse: 4329,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 5,
       image: "",
-      text:
-        "Then should We turn the message away, disregarding you, because you are a transgressing people?",
-      verse: 4199,
+      text: "Then should We take away from you the Reminder disregarding (you) because you are a people transgressing (5)",
+      transliteration:
+        "afanaḍribu ʿankumu l-dhik'ra ṣafḥan an kuntum qawman mus'rifīna ",
+      verse: 4330,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 6,
       image: "",
-      text: "And how many a prophet We sent among the former peoples,",
-      verse: 4200,
+      text: "And how many We sent of a Prophet among the former (people) (6)",
+      transliteration: "wakam arsalnā min nabiyyin fī l-awalīna ",
+      verse: 4331,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 7,
       image: "",
-      text:
-        "But there would not come to them a prophet except that they used to ridicule him.",
-      verse: 4201,
+      text: "And not came to them any Prophet any Prophet but they used to mock at him mock at him (7)",
+      transliteration: "wamā yatīhim min nabiyyin illā kānū bihi yastahziūna ",
+      verse: 4332,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 8,
       image: "",
-      text:
-        "And We destroyed greater than them in [striking] power, and the example of the former peoples has preceded.",
-      verse: 4202,
+      text: "Then We destroyed stronger than them (in) power and has passed (the) example (of) the former (people) (8)",
+      transliteration:
+        "fa-ahlaknā ashadda min'hum baṭshan wamaḍā mathalu l-awalīna ",
+      verse: 4333,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 9,
       image: "",
-      text:
-        'And if you should ask them, "Who has created the heavens and the earth?" they would surely say, "They were created by the Exalted in Might, the Knowing."',
-      verse: 4203,
+      text: "And if you ask them Who created the heavens and the earth They will surely say Created them the All-Mighty the All-Knower (9)",
+      transliteration:
+        "wala-in sa-altahum man khalaqa l-samāwāti wal-arḍa layaqūlunna khalaqahunna l-ʿazīzu l-ʿalīmu ",
+      verse: 4334,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 10,
       image: "",
-      text:
-        "[The one] who has made for you the earth a bed and made for you upon it roads that you might be guided",
-      verse: 4204,
+      text: "The One Who made for you the earth a bed and made for you therein roads so that you may (be) guided (10)",
+      transliteration:
+        "alladhī jaʿala lakumu l-arḍa mahdan wajaʿala lakum fīhā subulan laʿallakum tahtadūna ",
+      verse: 4335,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 11,
       image: "",
-      text:
-        "And who sends down rain from the sky in measured amounts, and We revive thereby a dead land -  thus will you be brought forth -",
-      verse: 4205,
+      text: "And the One Who sends down from the sky water in (due) measure then We revive with it a land dead thus you will be brought forth (11)",
+      transliteration:
+        "wa-alladhī nazzala mina l-samāi māan biqadarin fa-ansharnā bihi baldatan maytan kadhālika tukh'rajūna ",
+      verse: 4336,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 12,
       image: "",
-      text:
-        "And who created the species, all of them, and has made for you of ships and animals those which you mount.",
-      verse: 4206,
+      text: "And the One Who created the pairs all of them and made for you [of] the ships and the cattle what you ride (12)",
+      transliteration:
+        "wa-alladhī khalaqa l-azwāja kullahā wajaʿala lakum mina l-ful'ki wal-anʿāmi mā tarkabūna ",
+      verse: 4337,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 13,
       image: "",
-      text:
-        'That you may settle yourselves upon their backs and then remember the favor of your Lord when you have settled upon them and say. "Exalted is He who has subjected this to us, and we could not have [otherwise] subdued it.',
-      verse: 4207,
+      text: "That you may sit firmly on their backs then remember (the) favor (of) your Lord when you sit firmly on them and say Glory be (to) the One Who (has) subjected to us this and not we were of it capable (13)",
+      transliteration:
+        "litastawū ʿalā ẓuhūrihi thumma tadhkurū niʿ'mata rabbikum idhā is'tawaytum ʿalayhi wataqūlū sub'ḥāna alladhī sakhara lanā hādhā wamā kunnā lahu muq'rinīna ",
+      verse: 4338,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 14,
       image: "",
-      text: 'And indeed we, to our Lord, will [surely] return."',
-      verse: 4208,
+      text: "And indeed, we to our Lord will surely return (14)",
+      transliteration: "wa-innā ilā rabbinā lamunqalibūna ",
+      verse: 4339,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 15,
       image: "",
-      text:
-        "But they have attributed to Him from His servants a portion. Indeed, man is clearly ungrateful.",
-      verse: 4209,
+      text: "But they attribute to Him from His slaves a portion Indeed man surely (is) clearly ungrateful surely (is) clearly ungrateful (15)",
+      transliteration:
+        "wajaʿalū lahu min ʿibādihi juz'an inna l-insāna lakafūrun mubīnun ",
+      verse: 4340,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 16,
       image: "",
-      text:
-        "Or has He taken, out of what He has created, daughters and chosen you for [having] sons?",
-      verse: 4210,
+      text: "Or has He taken of what He has created daughters and He has chosen (for) you sons (16)",
+      transliteration:
+        "ami ittakhadha mimmā yakhluqu banātin wa-aṣfākum bil-banīna ",
+      verse: 4341,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 17,
       image: "",
-      text:
-        "And when one of them is given good tidings of that which he attributes to the Most Merciful in comparison, his face becomes dark, and he suppresses grief.",
-      verse: 4211,
+      text: "And when is given good news (to) one of them of what he sets up for the Most Gracious (as) a likeness becomes his face dark and he (is) filled with grief (17)",
+      transliteration:
+        "wa-idhā bushira aḥaduhum bimā ḍaraba lilrraḥmāni mathalan ẓalla wajhuhu mus'waddan wahuwa kaẓīmun ",
+      verse: 4342,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 18,
       image: "",
-      text:
-        "So is one brought up in ornaments while being during conflict unevident [attributed to Allah ]?",
-      verse: 4212,
+      text: "Then (is one) who is brought up in ornaments and he in the dispute (is) not clear (18)",
+      transliteration:
+        "awaman yunasha-u fī l-ḥil'yati wahuwa fī l-khiṣāmi ghayru mubīnin ",
+      verse: 4343,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 19,
       image: "",
-      text:
-        "And they have made the angels, who are servants of the Most Merciful, females. Did they witness their creation? Their testimony will be recorded, and they will be questioned.",
-      verse: 4213,
+      text: "And they made the Angels those who themselves (are) slaves (of) the Most Gracious females Did they witness their creation Will be recorded their testimony and they will be questioned (19)",
+      transliteration:
+        "wajaʿalū l-malāikata alladhīna hum ʿibādu l-raḥmāni ināthan ashahidū khalqahum satuk'tabu shahādatuhum wayus'alūna ",
+      verse: 4344,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 20,
       image: "",
-      text:
-        'And they said, "If the Most Merciful had willed, we would not have worshipped them." They have of that no knowledge. They are not but falsifying.',
-      verse: 4214,
+      text: "And they say If had willed the Most Gracious we would not have worshipped them we would not have worshipped them Not they have about that any knowledge Nothing they (do) but lie (20)",
+      transliteration:
+        "waqālū law shāa l-raḥmānu mā ʿabadnāhum mā lahum bidhālika min ʿil'min in hum illā yakhruṣūna ",
+      verse: 4345,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 21,
       image: "",
-      text:
-        "Or have We given them a book before the Qur'an to which they are adhering?",
-      verse: 4215,
+      text: "Or have We given them a book before it before it so they to it (are) holding fast (21)",
+      transliteration:
+        "am ātaynāhum kitāban min qablihi fahum bihi mus'tamsikūna ",
+      verse: 4346,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 22,
       image: "",
-      text:
-        'Rather, they say, "Indeed, we found our fathers upon a religion, and we are in their footsteps [rightly] guided."',
-      verse: 4216,
+      text: "Nay they say Indeed, we [we] found our forefathers upon a religion and indeed, we on their footsteps (are) guided (22)",
+      transliteration:
+        "bal qālū innā wajadnā ābāanā ʿalā ummatin wa-innā ʿalā āthārihim muh'tadūna ",
+      verse: 4347,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 23,
       image: "",
-      text:
-        'And similarly, We did not send before you any warner into a city except that its affluent said, "Indeed, we found our fathers upon a religion, and we are, in their footsteps, following."',
-      verse: 4217,
+      text: "And thus not We sent before you before you in a town any warner except said (the) wealthy ones of it Indeed, we [we] found our forefathers on a religion and indeed, we [on] their footsteps (are) following (23)",
+      transliteration:
+        "wakadhālika mā arsalnā min qablika fī qaryatin min nadhīrin illā qāla mut'rafūhā innā wajadnā ābāanā ʿalā ummatin wa-innā ʿalā āthārihim muq'tadūna ",
+      verse: 4348,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 24,
       image: "",
-      text:
-        '[Each warner] said, "Even if I brought you better guidance than that [religion] upon which you found your fathers?" They said, "Indeed we, in that with which you were sent, are disbelievers."',
-      verse: 4218,
+      text: "He said Even if I brought you better guidance than what you found on it your forefathers They said Indeed, we with what you are sent with [it] (are) disbelievers (24)",
+      transliteration:
+        "qāla awalaw ji'tukum bi-ahdā mimmā wajadttum ʿalayhi ābāakum qālū innā bimā ur'sil'tum bihi kāfirūna ",
+      verse: 4349,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 25,
       image: "",
-      text:
-        "So we took retribution from them; then see how was the end of the deniers.",
-      verse: 4219,
+      text: "So We took retribution from them Then see how was (the) end (of) the deniers (25)",
+      transliteration:
+        "fa-intaqamnā min'hum fa-unẓur kayfa kāna ʿāqibatu l-mukadhibīna ",
+      verse: 4350,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 26,
       image: "",
-      text:
-        'And [mention, O Muhammad], when Abraham said to his father and his people, "Indeed, I am disassociated from that which you worship',
-      verse: 4220,
+      text: "And when Ibrahim Said Ibrahim Said to his father and his people Indeed, I (am) disassociated from what you worship (26)",
+      transliteration:
+        "wa-idh qāla ib'rāhīmu li-abīhi waqawmihi innanī barāon mimmā taʿbudūna ",
+      verse: 4351,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 27,
       image: "",
-      text: 'Except for He who created me; and indeed, He will guide me."',
-      verse: 4221,
+      text: "Except the One Who created me and indeed, He will guide me (27)",
+      transliteration: "illā alladhī faṭaranī fa-innahu sayahdīni ",
+      verse: 4352,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 28,
       image: "",
-      text:
-        "And he made it a word remaining among his descendants that they might return [to it].",
-      verse: 4222,
+      text: "And he made it a word lasting among his descendents so that they may return (28)",
+      transliteration:
+        "wajaʿalahā kalimatan bāqiyatan fī ʿaqibihi laʿallahum yarjiʿūna ",
+      verse: 4353,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 29,
       image: "",
-      text:
-        "However, I gave enjoyment to these [people of Makkah] and their fathers until there came to them the truth and a clear Messenger.",
-      verse: 4223,
+      text: "Nay I gave enjoyment (to) these and their forefathers until came to them the truth and a Messenger clear (29)",
+      transliteration:
+        "bal mattaʿtu hāulāi waābāahum ḥattā jāahumu l-ḥaqu warasūlun mubīnun ",
+      verse: 4354,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 30,
       image: "",
-      text:
-        'But when the truth came to them, they said, "This is magic, and indeed we are, concerning it, disbelievers."',
-      verse: 4224,
+      text: "And when came to them the truth they said This (is) magic and indeed, we of it (are) disbelievers (30)",
+      transliteration:
+        "walammā jāahumu l-ḥaqu qālū hādhā siḥ'run wa-innā bihi kāfirūna ",
+      verse: 4355,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 31,
       image: "",
-      text:
-        'And they said, "Why was this Qur\'an not sent down upon a great man from [one of] the two cities?"',
-      verse: 4225,
+      text: "And they say Why not was sent down this the Quran to a man from the two towns great (31)",
+      transliteration:
+        "waqālū lawlā nuzzila hādhā l-qur'ānu ʿalā rajulin mina l-qaryatayni ʿaẓīmin ",
+      verse: 4356,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 32,
       image: "",
-      text:
-        "Do they distribute the mercy of your Lord? It is We who have apportioned among them their livelihood in the life of this world and have raised some of them above others in degrees [of rank] that they may make use of one another for service. But the mercy of your Lord is better than whatever they accumulate.",
-      verse: 4226,
+      text: "Do they distribute (the) Mercy (of) your Lord We [We] distribute among them their livelihood in the life (of) the world and We raise some of them above others (in) degrees so that may take some of them others (for) service But (the) Mercy (of) your Lord (is) better than what they accumulate (32)",
+      transliteration:
+        "ahum yaqsimūna raḥmata rabbika naḥnu qasamnā baynahum maʿīshatahum fī l-ḥayati l-dun'yā warafaʿnā baʿḍahum fawqa baʿḍin darajātin liyattakhidha baʿḍuhum baʿḍan sukh'riyyan waraḥmatu rabbika khayrun mimmā yajmaʿūna ",
+      verse: 4357,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 33,
       image: "",
-      text:
-        "And if it were not that the people would become one community [of disbelievers], We would have made for those who disbelieve in the Most Merciful -  for their houses - ceilings and stairways of silver upon which to mount",
-      verse: 4227,
+      text: "And if not that (would) become [the] mankind a community one We (would have) made for (one) who disbelieves in the Most Gracious for their houses roofs of silver and stairways upon which they mount (33)",
+      transliteration:
+        "walawlā an yakūna l-nāsu ummatan wāḥidatan lajaʿalnā liman yakfuru bil-raḥmāni libuyūtihim suqufan min fiḍḍatin wamaʿārija ʿalayhā yaẓharūna ",
+      verse: 4358,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 34,
       image: "",
-      text:
-        "And for their houses -  doors and couches [of silver] upon which to recline",
-      verse: 4228,
+      text: "And for their houses doors and couches upon which they recline (34)",
+      transliteration: "walibuyūtihim abwāban wasururan ʿalayhā yattakiūna ",
+      verse: 4359,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 35,
       image: "",
-      text:
-        "And gold ornament. But all that is not but the enjoyment of worldly life. And the Hereafter with your Lord is for the righteous.",
-      verse: 4229,
+      text: "And ornaments of gold And not (is) all that but an enjoyment (of) the life (of) the world And the Hereafter with your Lord (is) for the righteous (35)",
+      transliteration:
+        "wazukh'rufan wa-in kullu dhālika lammā matāʿu l-ḥayati l-dun'yā wal-ākhiratu ʿinda rabbika lil'muttaqīna ",
+      verse: 4360,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 36,
       image: "",
-      text:
-        "And whoever is blinded from remembrance of the Most Merciful -  We appoint for him a devil, and he is to him a companion.",
-      verse: 4230,
+      text: "And whoever turns away from (the) remembrance (of) the Most Gracious We appoint for him a devil then he (is) to him a companion (36)",
+      transliteration:
+        "waman yaʿshu ʿan dhik'ri l-raḥmāni nuqayyiḍ lahu shayṭānan fahuwa lahu qarīnun ",
+      verse: 4361,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 37,
       image: "",
-      text:
-        "And indeed, the devils avert them from the way [of guidance] while they think that they are [rightly] guided",
-      verse: 4231,
+      text: "And indeed, they surely, turn them from the Path and they think that they (are) guided (37)",
+      transliteration:
+        "wa-innahum layaṣuddūnahum ʿani l-sabīli wayaḥsabūna annahum muh'tadūna ",
+      verse: 4362,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 38,
       image: "",
-      text:
-        'Until, when he comes to Us [at Judgement], he says [to his companion], "Oh, I wish there was between me and you the distance between the east and west -  how wretched a companion."',
-      verse: 4232,
+      text: "Until when he comes to Us he says O would that between me and between you (were the) distance (of) the East and the West How wretched is the companion (38)",
+      transliteration:
+        "ḥattā idhā jāanā qāla yālayta baynī wabaynaka buʿ'da l-mashriqayni fabi'sa l-qarīnu ",
+      verse: 4363,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 39,
       image: "",
-      text:
-        "And never will it benefit you that Day, when you have wronged, that you are [all] sharing in the punishment.",
-      verse: 4233,
+      text: "And never will benefit you the Day when you have wronged that you (will be) in the punishment sharing (39)",
+      transliteration:
+        "walan yanfaʿakumu l-yawma idh ẓalamtum annakum fī l-ʿadhābi mush'tarikūna ",
+      verse: 4364,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 40,
       image: "",
-      text:
-        "Then will you make the deaf hear, [O Muhammad], or guide the blind or he who is in clear error?",
-      verse: 4234,
+      text: "Then can you cause to hear the deaf or guide the blind and (one) who is in an error clear (40)",
+      transliteration:
+        "afa-anta tus'miʿu l-ṣuma aw tahdī l-ʿum'ya waman kāna fī ḍalālin mubīnin ",
+      verse: 4365,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 41,
       image: "",
-      text:
-        "And whether [or not] We take you away [in death], indeed, We will take retribution upon them.",
-      verse: 4235,
+      text: "And whether We take you away We take you away then indeed, We from them (will) take retribution (41)",
+      transliteration: "fa-immā nadhhabanna bika fa-innā min'hum muntaqimūna ",
+      verse: 4366,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 42,
       image: "",
-      text:
-        "Or whether [or not] We show you that which We have promised them, indeed, We are Perfect in Ability.",
-      verse: 4236,
+      text: "Or We show you that which We have promised them then indeed, We over them have full power (42)",
+      transliteration:
+        "aw nuriyannaka alladhī waʿadnāhum fa-innā ʿalayhim muq'tadirūna ",
+      verse: 4367,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 43,
       image: "",
-      text:
-        "So adhere to that which is revealed to you. Indeed, you are on a straight path.",
-      verse: 4237,
+      text: "So hold fast to that which is revealed to you Indeed, you (are) on a Path Straight (43)",
+      transliteration:
+        "fa-is'tamsik bi-alladhī ūḥiya ilayka innaka ʿalā ṣirāṭin mus'taqīmin ",
+      verse: 4368,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 44,
       image: "",
-      text:
-        "And indeed, it is a remembrance for you and your people, and you [all] are going to be questioned.",
-      verse: 4238,
+      text: "And indeed, it (is) surely, a Reminder for you and your people and soon you will be questioned (44)",
+      transliteration: "wa-innahu ladhik'run laka waliqawmika wasawfa tus'alūna ",
+      verse: 4369,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 45,
       image: "",
-      text:
-        "And ask those We sent before you of Our messengers; have We made besides the Most Merciful deities to be worshipped?",
-      verse: 4239,
+      text: "And ask (those) whom We sent before you before you of Our Messengers did We make besides besides the Most Gracious gods to be worshipped (45)",
+      transliteration:
+        "wasal man arsalnā min qablika min rusulinā ajaʿalnā min dūni l-raḥmāni ālihatan yuʿ'badūna ",
+      verse: 4370,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 46,
       image: "",
-      text:
-        'And certainly did We send Moses with Our signs to Pharaoh and his establishment, and he said, "Indeed, I am the messenger of the Lord of the worlds."',
-      verse: 4240,
+      text: "And certainly We sent Musa with Our Signs to Firaun and his chiefs and he said Indeed, I am a Messenger (of the) Lord (of) the worlds (46)",
+      transliteration:
+        "walaqad arsalnā mūsā biāyātinā ilā fir'ʿawna wamala-ihi faqāla innī rasūlu rabbi l-ʿālamīna ",
+      verse: 4371,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 47,
       image: "",
-      text: "But when he brought them Our signs, at once they laughed at them.",
-      verse: 4241,
+      text: "But when he came to them with Our Signs behold They at them laughed (47)",
+      transliteration: "falammā jāahum biāyātinā idhā hum min'hā yaḍḥakūna ",
+      verse: 4372,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 48,
       image: "",
-      text:
-        "And We showed them not a sign except that it was greater than its sister, and We seized them with affliction that perhaps they might return [to faith].",
-      verse: 4242,
+      text: "And not We showed them of a Sign but it (was) greater than its sister and We seized them with the punishment so that they may return (48)",
+      transliteration:
+        "wamā nurīhim min āyatin illā hiya akbaru min ukh'tihā wa-akhadhnāhum bil-ʿadhābi laʿallahum yarjiʿūna ",
+      verse: 4373,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 49,
       image: "",
-      text:
-        'And they said [to Moses], "O magician, invoke for us your Lord by what He has promised you. Indeed, we will be guided."',
-      verse: 4243,
+      text: "And they said O [the] magician Invoke for us your Lord by what He has made covenant with you Indeed, we (will) surely be guided (49)",
+      transliteration:
+        "waqālū yāayyuha l-sāḥiru ud'ʿu lanā rabbaka bimā ʿahida ʿindaka innanā lamuh'tadūna ",
+      verse: 4374,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 50,
       image: "",
-      text:
-        "But when We removed from them the affliction, at once they broke their word.",
-      verse: 4244,
+      text: "But when We removed from them the punishment behold They broke (their word) (50)",
+      transliteration: "falammā kashafnā ʿanhumu l-ʿadhāba idhā hum yankuthūna ",
+      verse: 4375,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 51,
       image: "",
-      text:
-        'And Pharaoh called out among his people; he said, "O my people, does not the kingdom of Egypt belong to me, and these rivers flowing beneath me; then do you not see?',
-      verse: 4245,
+      text: "And called out Firaun among his people he said O my people Is not for me (the) kingdom (of) Egypt and these [the] rivers flowing underneath me underneath me Then do not you see (51)",
+      transliteration:
+        "wanādā fir'ʿawnu fī qawmihi qāla yāqawmi alaysa lī mul'ku miṣ'ra wahādhihi l-anhāru tajrī min taḥtī afalā tub'ṣirūna ",
+      verse: 4376,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 52,
       image: "",
-      text:
-        "Or am I [not] better than this one who is insignificant and hardly makes himself clear?",
-      verse: 4246,
+      text: "Or am I better than this one who  he (is) insignificant and hardly and hardly clear (52)",
+      transliteration:
+        "am anā khayrun min hādhā alladhī huwa mahīnun walā yakādu yubīnu ",
+      verse: 4377,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 53,
       image: "",
-      text:
-        'Then why have there not been placed upon him bracelets of gold or come with him the angels in conjunction?"',
-      verse: 4247,
+      text: "Then why not are placed on him bracelets of gold or come with him the Angels accompanying (him) (53)",
+      transliteration:
+        "falawlā ul'qiya ʿalayhi aswiratun min dhahabin aw jāa maʿahu l-malāikatu muq'tarinīna ",
+      verse: 4378,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 54,
       image: "",
-      text:
-        "So he bluffed his people, and they obeyed him. Indeed, they were [themselves] a people defiantly disobedient [of Allah ].",
-      verse: 4248,
+      text: "So he bluffed his people and they obeyed him Indeed, they were a people defiantly disobedient (54)",
+      transliteration:
+        "fa-is'takhaffa qawmahu fa-aṭāʿūhu innahum kānū qawman fāsiqīna ",
+      verse: 4379,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 55,
       image: "",
-      text:
-        "And when they angered Us, We took retribution from them and drowned them all.",
-      verse: 4249,
+      text: "So when they angered Us We took retribution from them and We drowned them all (55)",
+      transliteration:
+        "falammā āsafūnā intaqamnā min'hum fa-aghraqnāhum ajmaʿīna ",
+      verse: 4380,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 56,
       image: "",
-      text:
-        "And We made them a precedent and an example for the later peoples.",
-      verse: 4250,
+      text: "And We made them a precedent and an example for the later (generations) (56)",
+      transliteration: "fajaʿalnāhum salafan wamathalan lil'ākhirīna ",
+      verse: 4381,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 57,
       image: "",
-      text:
-        "And when the son of Mary was presented as an example, immediately your people laughed aloud.",
-      verse: 4251,
+      text: "And when is presented (the) son (of) Maryam (as) an example behold Your people about it laughed aloud (57)",
+      transliteration:
+        "walammā ḍuriba ub'nu maryama mathalan idhā qawmuka min'hu yaṣiddūna ",
+      verse: 4382,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 58,
       image: "",
-      text:
-        'And they said, "Are our gods better, or is he?" They did not present the comparison except for [mere] argument. But, [in fact], they are a people prone to dispute.',
-      verse: 4252,
+      text: "And they said Are our gods better or he Not they present it to you except (for) argument Nay they (are) a people argumentative (58)",
+      transliteration:
+        "waqālū aālihatunā khayrun am huwa mā ḍarabūhu laka illā jadalan bal hum qawmun khaṣimūna ",
+      verse: 4383,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 59,
       image: "",
-      text:
-        "Jesus was not but a servant upon whom We bestowed favor, and We made him an example for the Children of Israel.",
-      verse: 4253,
+      text: "Not he (was) except a slave We bestowed Our favor on him and We made him an example for (the) Children of Israel for (the) Children of Israel (59)",
+      transliteration:
+        "in huwa illā ʿabdun anʿamnā ʿalayhi wajaʿalnāhu mathalan libanī is'rāīla ",
+      verse: 4384,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 60,
       image: "",
-      text:
-        "And if We willed, We could have made [instead] of you angels succeeding [one another] on the earth.",
-      verse: 4254,
+      text: "And if We willed surely We (could have) made among you Angels in the earth succeeding (60)",
+      transliteration:
+        "walaw nashāu lajaʿalnā minkum malāikatan fī l-arḍi yakhlufūna ",
+      verse: 4385,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 61,
       image: "",
-      text:
-        "And indeed, Jesus will be [a sign for] knowledge of the Hour, so be not in doubt of it, and follow Me. This is a straight path.",
-      verse: 4255,
+      text: "And indeed, it surely (is) a knowledge of the Hour So (do) not (be) doubtful about it and follow Me This (is the) Path Straight (61)",
+      transliteration:
+        "wa-innahu laʿil'mun lilssāʿati falā tamtarunna bihā wa-ittabiʿūni hādhā ṣirāṭun mus'taqīmun ",
+      verse: 4386,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 62,
       image: "",
-      text:
-        "And never let Satan avert you. Indeed, he is to you a clear enemy.",
-      verse: 4256,
+      text: "And (let) not avert you the Shaitaan Indeed, he (is) for you an enemy clear (62)",
+      transliteration:
+        "walā yaṣuddannakumu l-shayṭānu innahu lakum ʿaduwwun mubīnun ",
+      verse: 4387,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 63,
       image: "",
-      text:
-        'And when Jesus brought clear proofs, he said, "I have come to you with wisdom and to make clear to you some of that over which you differ, so fear Allah and obey me.',
-      verse: 4257,
+      text: "And when came Isa with clear proofs he said Verily I have come to you with wisdom and that I make clear to you some (of) that which you differ in it So fear Allah and obey me (63)",
+      transliteration:
+        "walammā jāa ʿīsā bil-bayināti qāla qad ji'tukum bil-ḥik'mati wali-ubayyina lakum baʿḍa alladhī takhtalifūna fīhi fa-ittaqū l-laha wa-aṭīʿūni ",
+      verse: 4388,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 64,
       image: "",
-      text:
-        'Indeed, Allah is my Lord and your Lord, so worship Him. This is a straight path."',
-      verse: 4258,
+      text: "Indeed Allah He (is) my Lord and your Lord so worship Him This (is) a Path Straight (64)",
+      transliteration:
+        "inna l-laha huwa rabbī warabbukum fa-uʿ'budūhu hādhā ṣirāṭun mus'taqīmun ",
+      verse: 4389,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 65,
       image: "",
-      text:
-        "But the denominations from among them differed [and separated], so woe to those who have wronged from the punishment of a painful Day.",
-      verse: 4259,
+      text: "But differed the factions from among them so woe to those who wronged from (the) punishment (of the) Day painful (65)",
+      transliteration:
+        "fa-ikh'talafa l-aḥzābu min baynihim fawaylun lilladhīna ẓalamū min ʿadhābi yawmin alīmin ",
+      verse: 4390,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 66,
       image: "",
-      text:
-        "Are they waiting except for the Hour to come upon them suddenly while they perceive not?",
-      verse: 4260,
+      text: "Are they waiting except (for) the Hour that it should come on them suddenly while they (do) not perceive (66)",
+      transliteration:
+        "hal yanẓurūna illā l-sāʿata an tatiyahum baghtatan wahum lā yashʿurūna ",
+      verse: 4391,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 67,
       image: "",
-      text:
-        "Close friends, that Day, will be enemies to each other, except for the righteous",
-      verse: 4261,
+      text: "Friends that Day some of them to others (will be) enemies except the righteous (67)",
+      transliteration:
+        "al-akhilāu yawma-idhin baʿḍuhum libaʿḍin ʿaduwwun illā l-mutaqīna ",
+      verse: 4392,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 68,
       image: "",
-      text:
-        '[To whom Allah will say], "O My servants, no fear will there be concerning you this Day, nor will you grieve,',
-      verse: 4262,
+      text: "O My slaves No fear on you this Day and not you will grieve (68)",
+      transliteration:
+        "yāʿibādi lā khawfun ʿalaykumu l-yawma walā antum taḥzanūna ",
+      verse: 4393,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 69,
       image: "",
-      text: "[You] who believed in Our verses and were Muslims.",
-      verse: 4263,
+      text: "Those who believed in Our Verses and were submissive (69)",
+      transliteration: "alladhīna āmanū biāyātinā wakānū mus'limīna ",
+      verse: 4394,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 70,
       image: "",
-      text: 'Enter Paradise, you and your kinds, delighted."',
-      verse: 4264,
+      text: "Enter Paradise you and your spouses delighted (70)",
+      transliteration: "ud'khulū l-janata antum wa-azwājukum tuḥ'barūna ",
+      verse: 4395,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 71,
       image: "",
-      text:
-        "Circulated among them will be plates and vessels of gold. And therein is whatever the souls desire and [what] delights the eyes, and you will abide therein eternally.",
-      verse: 4265,
+      text: "Will be circulated for them plates of gold and cups And therein (is) what desires the souls and delights the eyes and you therein will abide forever (71)",
+      transliteration:
+        "yuṭāfu ʿalayhim biṣiḥāfin min dhahabin wa-akwābin wafīhā mā tashtahīhi l-anfusu wataladhu l-aʿyunu wa-antum fīhā khālidūna ",
+      verse: 4396,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 72,
       image: "",
-      text:
-        "And that is Paradise which you are made to inherit for what you used to do.",
-      verse: 4266,
+      text: "And this (is) the Paradise which you are made to inherit for what you used to do (72)",
+      transliteration:
+        "watil'ka l-janatu allatī ūrith'tumūhā bimā kuntum taʿmalūna ",
+      verse: 4397,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 73,
       image: "",
-      text: "For you therein is much fruit from which you will eat.",
-      verse: 4267,
+      text: "For you therein (are) fruits abundant from it you will eat (73)",
+      transliteration: "lakum fīhā fākihatun kathīratun min'hā takulūna ",
+      verse: 4398,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 74,
       image: "",
-      text:
-        "Indeed, the criminals will be in the punishment of Hell, abiding eternally.",
-      verse: 4268,
+      text: "Indeed the criminals (will be) in (the) punishment (of) Hell abiding forever (74)",
+      transliteration: "inna l-muj'rimīna fī ʿadhābi jahannama khālidūna ",
+      verse: 4399,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 75,
       image: "",
-      text:
-        "It will not be allowed to subside for them, and they, therein, are in despair.",
-      verse: 4269,
+      text: "Not will it subside for them and they in it (will) despair (75)",
+      transliteration: "lā yufattaru ʿanhum wahum fīhi mub'lisūna ",
+      verse: 4400,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 76,
       image: "",
-      text:
-        "And We did not wrong them, but it was they who were the wrongdoers.",
-      verse: 4270,
+      text: "And not We wronged them but they were themselves wrongdoers (76)",
+      transliteration: "wamā ẓalamnāhum walākin kānū humu l-ẓālimīna ",
+      verse: 4401,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 77,
       image: "",
-      text:
-        'And they will call, "O Malik, let your Lord put an end to us!" He will say, "Indeed, you will remain."',
-      verse: 4271,
+      text: "And they will call O Malik Let put an end to us your Lord He (will) say Indeed, you (will) remain (77)",
+      transliteration:
+        "wanādaw yāmāliku liyaqḍi ʿalaynā rabbuka qāla innakum mākithūna ",
+      verse: 4402,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 78,
       image: "",
-      text:
-        "We had certainly brought you the truth, but most of you, to the truth, were averse.",
-      verse: 4272,
+      text: "Certainly We have brought you the truth but most of you to the truth (are) averse (78)",
+      transliteration:
+        "laqad ji'nākum bil-ḥaqi walākinna aktharakum lil'ḥaqqi kārihūna ",
+      verse: 4403,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 79,
       image: "",
-      text:
-        "Or have they devised [some] affair? But indeed, We are devising [a plan].",
-      verse: 4273,
+      text: "Or have they determined an affair Then indeed, We (are) determined (79)",
+      transliteration: "am abramū amran fa-innā mub'rimūna ",
+      verse: 4404,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 80,
       image: "",
-      text:
-        "Or do they think that We hear not their secrets and their private conversations? Yes, [We do], and Our messengers are with them recording.",
-      verse: 4274,
+      text: "Or (do) they think that We (can) not hear their secret(s) and their private counsel(s) Nay and Our Messengers with them are recording (80)",
+      transliteration:
+        "am yaḥsabūna annā lā nasmaʿu sirrahum wanajwāhum balā warusulunā ladayhim yaktubūna ",
+      verse: 4405,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 81,
       image: "",
-      text:
-        'Say, [O Muhammad], "If the Most Merciful had a son, then I would be the first of [his] worshippers."',
-      verse: 4275,
+      text: "Say If had the Most Gracious a son Then, I (would be the) first (of) the worshippers (81)",
+      transliteration:
+        "qul in kāna lilrraḥmāni waladun fa-anā awwalu l-ʿābidīna ",
+      verse: 4406,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 82,
       image: "",
-      text:
-        "Exalted is the Lord of the heavens and the earth, Lord of the Throne, above what they describe.",
-      verse: 4276,
+      text: "Glory be (to the) Lord (of) the heavens and the earth (the) Lord (of) the Throne above what they ascribe (82)",
+      transliteration:
+        "sub'ḥāna rabbi l-samāwāti wal-arḍi rabbi l-ʿarshi ʿammā yaṣifūna ",
+      verse: 4407,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 83,
       image: "",
-      text:
-        "So leave them to converse vainly and amuse themselves until they meet their Day which they are promised.",
-      verse: 4277,
+      text: "So leave them (to) converse vainly and play until they meet their Day which they are promised (83)",
+      transliteration:
+        "fadharhum yakhūḍū wayalʿabū ḥattā yulāqū yawmahumu alladhī yūʿadūna ",
+      verse: 4408,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 84,
       image: "",
-      text:
-        "And it is Allah who is [the only] deity in the heaven, and on the earth [the only] deity. And He is the Wise, the Knowing.",
-      verse: 4278,
+      text: "And He (is) the One Who (is) in the heaven  God and in the earth  God And He (is) the All-Wise the All-Knower (84)",
+      transliteration:
+        "wahuwa alladhī fī l-samāi ilāhun wafī l-arḍi ilāhun wahuwa l-ḥakīmu l-ʿalīmu ",
+      verse: 4409,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 85,
       image: "",
-      text:
-        "And blessed is He to whom belongs the dominion of the heavens and the earth and whatever is between them and with whom is knowledge of the Hour and to whom you will be returned.",
-      verse: 4279,
+      text: "And blessed (is) the One Who  to Whom (belongs the) dominion (of) the heavens and the earth and whatever (is) between both of them and with Him (is the) knowledge (of) the Hour and to Him you will be returned (85)",
+      transliteration:
+        "watabāraka alladhī lahu mul'ku l-samāwāti wal-arḍi wamā baynahumā waʿindahu ʿil'mu l-sāʿati wa-ilayhi tur'jaʿūna ",
+      verse: 4410,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 86,
       image: "",
-      text:
-        "And those they invoke besides Him do not possess [power of] intercession; but only those who testify to the truth [can benefit], and they know.",
-      verse: 4280,
+      text: "And not have power those whom they invoke besides Him besides Him (for) the intercession except who testifies to the truth and they know (86)",
+      transliteration:
+        "walā yamliku alladhīna yadʿūna min dūnihi l-shafāʿata illā man shahida bil-ḥaqi wahum yaʿlamūna ",
+      verse: 4411,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 87,
       image: "",
-      text:
-        'And if you asked them who created them, they would surely say, " Allah ." So how are they deluded?',
-      verse: 4281,
+      text: "And if you ask them who created them they will certainly say Allah Then how are they deluded (87)",
+      transliteration:
+        "wala-in sa-altahum man khalaqahum layaqūlunna l-lahu fa-annā yu'fakūna ",
+      verse: 4412,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 88,
       image: "",
-      text:
-        'And [ Allah acknowledges] his saying, "O my Lord, indeed these are a people who do not believe."',
-      verse: 4282,
+      text: "And his saying O my Lord Indeed these (are) a people (who do) not believe (88)",
+      transliteration: "waqīlihi yārabbi inna hāulāi qawmun lā yu'minūna ",
+      verse: 4413,
+      juz: 25,
+      surah: 43,
     },
     {
       number: 89,
       image: "",
-      text:
-        'So turn aside from them and say, "Peace." But they are going to know.',
-      verse: 4283,
+      text: "So turn away from them and say Peace But soon they will know (89)",
+      transliteration: "fa-iṣ'faḥ ʿanhum waqul salāmun fasawfa yaʿlamūna ",
+      verse: 4414,
+      juz: 25,
+      surah: 43,
     },
   ],
 };

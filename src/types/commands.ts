@@ -1,5 +1,10 @@
-import { BotClient } from "../../bot.ts";
-import { ApplicationCommandOption, ApplicationCommandTypes, Interaction, Message } from "../../deps.ts";
+import { BotClient } from "../../bot.js";
+import {
+  ApplicationCommandOption,
+  ApplicationCommandTypes,
+  Interaction,
+  Message,
+} from "../../deps.js";
 
 export interface Command {
   /** The name of this command. */
@@ -19,10 +24,14 @@ export interface Command {
 }
 
 export interface Argument {
-  name: string
-  execute: (argument: CommandArgument, parameters: string[], message: Message) => unknown | Promise<unknown>
+  name: string;
+  execute: (
+    argument: CommandArgument,
+    parameters: string[],
+    message: Message
+  ) => unknown | Promise<unknown>;
 }
 
 export interface CommandArgument {
-  lowercase: boolean
+  lowercase: boolean;
 }

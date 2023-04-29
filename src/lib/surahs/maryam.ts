@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const maryam: Surah = {
   name: "Maryam",
@@ -6,677 +6,962 @@ export const maryam: Surah = {
     {
       number: 1,
       image: "",
-      text: "Kaf, Ha, Ya, 'Ayn, Sad.",
-      verse: 2120,
+      text: "Kaaf Ha Ya Ain Sad (1)",
+      transliteration: "kaf-ha-ya-ain-sad ",
+      verse: 2251,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 2,
       image: "",
-      text:
-        "[This is] a mention of the mercy of your Lord to His servant Zechariah",
-      verse: 2121,
+      text: "(A) mention (of the) Mercy (of) your Lord (to) His servant Zakariya (2)",
+      transliteration: "dhik'ru raḥmati rabbika ʿabdahu zakariyyā ",
+      verse: 2252,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 3,
       image: "",
-      text: "When he called to his Lord a private supplication.",
-      verse: 2122,
+      text: "When he called (to) his Lord a call  secret (3)",
+      transliteration: "idh nādā rabbahu nidāan khafiyyan ",
+      verse: 2253,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 4,
       image: "",
-      text:
-        'He said, "My Lord, indeed my bones have weakened, and my head has filled with white, and never have I been in my supplication to You, my Lord, unhappy.',
-      verse: 2123,
+      text: "He said My Lord Indeed, [I] (have) weakened my bones my bones and flared (my) head (with) white and not I have been in (my) supplication (to) You my Lord unblessed (4)",
+      transliteration:
+        "qāla rabbi innī wahana l-ʿaẓmu minnī wa-ish'taʿala l-rasu shayban walam akun biduʿāika rabbi shaqiyyan ",
+      verse: 2254,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 5,
       image: "",
-      text:
-        "And indeed, I fear the successors after me, and my wife has been barren, so give me from Yourself an heir",
-      verse: 2124,
+      text: "And indeed, I [I] fear the successors after me after me and is my wife barren So give [to] me from Yourself an heir (5)",
+      transliteration:
+        "wa-innī khif'tu l-mawāliya min warāī wakānati im'ra-atī ʿāqiran fahab lī min ladunka waliyyan ",
+      verse: 2255,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 6,
       image: "",
-      text:
-        'Who will inherit me and inherit from the family of Jacob. And make him, my Lord, pleasing [to You]."',
-      verse: 2125,
+      text: "Who will inherit me and inherit from (the) family (of) Yaqub And make him my Lord pleasing (6)",
+      transliteration:
+        "yarithunī wayarithu min āli yaʿqūba wa-ij'ʿalhu rabbi raḍiyyan ",
+      verse: 2256,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 7,
       image: "",
-      text:
-        '[He was told], "O Zechariah, indeed We give you good tidings of a boy whose name will be John.  We have not assigned to any before [this] name."',
-      verse: 2126,
+      text: "O Zakariya Indeed, We [We] give you glad tidings of a boy his name (will be) Yahya not We (have) assigned [for] it before before (this) name (7)",
+      transliteration:
+        "yāzakariyyā innā nubashiruka bighulāmin us'muhu yaḥyā lam najʿal lahu min qablu samiyyan ",
+      verse: 2257,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 8,
       image: "",
-      text:
-        'He said, "My Lord, how will I have a boy when my wife has been barren and I have reached extreme old age?"',
-      verse: 2127,
+      text: "He said My Lord How can I have a boy while is my wife barren and indeed I have reached of the old age extreme (8)",
+      transliteration:
+        "qāla rabbi annā yakūnu lī ghulāmun wakānati im'ra-atī ʿāqiran waqad balaghtu mina l-kibari ʿitiyyan ",
+      verse: 2258,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 9,
       image: "",
-      text:
-        "[An angel] said, \"Thus [it will be]; your Lord says, 'It is easy for Me, for I created you before, while you were nothing.' \"",
-      verse: 2128,
+      text: "He said Thus said your Lord 'It (is) easy for Me (is) easy for Me and certainly I (have) created you before before while not you were anything.' (9)",
+      transliteration:
+        "qāla kadhālika qāla rabbuka huwa ʿalayya hayyinun waqad khalaqtuka min qablu walam taku shayan ",
+      verse: 2259,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 10,
       image: "",
-      text:
-        '[Zechariah] said, "My Lord, make for me a sign." He said, "Your sign is that you will not speak to the people for three nights, [being] sound."',
-      verse: 2129,
+      text: "He said My Lord Make for me a sign He said Your sign (is) that not you will speak (to) the people (for) three nights sound (10)",
+      transliteration:
+        "qāla rabbi ij'ʿal lī āyatan qāla āyatuka allā tukallima l-nāsa thalātha layālin sawiyyan ",
+      verse: 2260,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 11,
       image: "",
-      text:
-        "So he came out to his people from the prayer chamber and signaled to them to exalt [ Allah ] in the morning and afternoon.",
-      verse: 2130,
+      text: "Then he came out to his people from the prayer chamber and he signaled to them to glorify (Allah) (in) the morning and (in) the evening (11)",
+      transliteration:
+        "fakharaja ʿalā qawmihi mina l-miḥ'rābi fa-awḥā ilayhim an sabbiḥū buk'ratan waʿashiyyan ",
+      verse: 2261,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 12,
       image: "",
-      text:
-        '[ Allah ] said, "O John, take the Scripture with determination." And We gave him judgement [while yet] a boy',
-      verse: 2131,
+      text: "O Yahya Hold the Scripture with strength And We gave him [the] wisdom (when he was) a child (12)",
+      transliteration:
+        "yāyaḥyā khudhi l-kitāba biquwwatin waātaynāhu l-ḥuk'ma ṣabiyyan ",
+      verse: 2262,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 13,
       image: "",
-      text: "And affection from Us and purity, and he was fearing of Allah",
-      verse: 2132,
+      text: "And affection from Us and purity and he was righteous (13)",
+      transliteration: "waḥanānan min ladunnā wazakatan wakāna taqiyyan ",
+      verse: 2263,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 14,
       image: "",
-      text: "And dutiful to his parents, and he was not a disobedient tyrant.",
-      verse: 2133,
+      text: "And dutiful to his parents and not he was a tyrant disobedient (14)",
+      transliteration: "wabarran biwālidayhi walam yakun jabbāran ʿaṣiyyan ",
+      verse: 2264,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 15,
       image: "",
-      text:
-        "And peace be upon him the day he was born and the day he dies and the day he is raised alive.",
-      verse: 2134,
+      text: "And peace be upon him (the) day he was born and (the) day he dies and (the) day he will be raised alive (15)",
+      transliteration:
+        "wasalāmun ʿalayhi yawma wulida wayawma yamūtu wayawma yub'ʿathu ḥayyan ",
+      verse: 2265,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 16,
       image: "",
-      text:
-        "And mention, [O Muhammad], in the Book [the story of] Mary, when she withdrew from her family to a place toward the east.",
-      verse: 2135,
+      text: "And mention in the Book Maryam when she withdrew from her family (to) a place eastern (16)",
+      transliteration:
+        "wa-udh'kur fī l-kitābi maryama idhi intabadhat min ahlihā makānan sharqiyyan ",
+      verse: 2266,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 17,
       image: "",
-      text:
-        "And she took, in seclusion from them, a screen. Then We sent to her Our Angel, and he represented himself to her as a well-proportioned man.",
-      verse: 2136,
+      text: "Then she took from them from them a screen Then We sent to her Our Spirit then he assumed for her the likeness then he assumed for her the likeness (of) a man well-proportioned (17)",
+      transliteration:
+        "fa-ittakhadhat min dūnihim ḥijāban fa-arsalnā ilayhā rūḥanā fatamathala lahā basharan sawiyyan ",
+      verse: 2267,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 18,
       image: "",
-      text:
-        'She said, "Indeed, I seek refuge in the Most Merciful from you, [so leave me], if you should be fearing of Allah ."',
-      verse: 2137,
+      text: "She said Indeed, I [I] seek refuge with the Most Gracious from you if you are God fearing (18)",
+      transliteration: "qālat innī aʿūdhu bil-raḥmāni minka in kunta taqiyyan ",
+      verse: 2268,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 19,
       image: "",
-      text:
-        'He said, "I am only the messenger of your Lord to give you [news of] a pure boy."',
-      verse: 2138,
+      text: "He said Only I am a Messenger (from) your Lord that I (may) bestow on you a son pure (19)",
+      transliteration:
+        "qāla innamā anā rasūlu rabbiki li-ahaba laki ghulāman zakiyyan ",
+      verse: 2269,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 20,
       image: "",
-      text:
-        'She said, "How can I have a boy while no man has touched me and I have not been unchaste?"',
-      verse: 2139,
+      text: "She said How can be for me a son when not has touched me a man and not I am unchaste (20)",
+      transliteration:
+        "qālat annā yakūnu lī ghulāmun walam yamsasnī basharun walam aku baghiyyan ",
+      verse: 2270,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 21,
       image: "",
-      text:
-        "He said, \"Thus [it will be]; your Lord says, 'It is easy for Me, and We will make him a sign to the people and a mercy from Us. And it is a matter [already] decreed.' \"",
-      verse: 2140,
+      text: "He said Thus said your Lord 'It (is) for Me easy and so that We will make him a sign for the mankind and a Mercy from Us And (it) is a matter decreed.' (21)",
+      transliteration:
+        "qāla kadhāliki qāla rabbuki huwa ʿalayya hayyinun walinajʿalahu āyatan lilnnāsi waraḥmatan minnā wakāna amran maqḍiyyan ",
+      verse: 2271,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 22,
       image: "",
-      text:
-        "So she conceived him, and she withdrew with him to a remote place.",
-      verse: 2141,
+      text: "So she conceived him and she withdrew with him (to) a place remote (22)",
+      transliteration: "faḥamalathu fa-intabadhat bihi makānan qaṣiyyan ",
+      verse: 2272,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 23,
       image: "",
-      text:
-        'And the pains of childbirth drove her to the trunk of a palm tree. She said, "Oh, I wish I had died before this and was in oblivion, forgotten."',
-      verse: 2142,
+      text: "Then drove her the pains of childbirth to (the) trunk (of) the date-palm She said O! I wish I (had) died before this and I was (in) oblivion forgotten (23)",
+      transliteration:
+        "fa-ajāahā l-makhāḍu ilā jidh'ʿi l-nakhlati qālat yālaytanī mittu qabla hādhā wakuntu nasyan mansiyyan ",
+      verse: 2273,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 24,
       image: "",
-      text:
-        'But he called her from below her, "Do not grieve; your Lord has provided beneath you a stream.',
-      verse: 2143,
+      text: "So cried to her from beneath her That (do) not grieve verily (has) placed your Lord beneath you a stream (24)",
+      transliteration:
+        "fanādāhā min taḥtihā allā taḥzanī qad jaʿala rabbuki taḥtaki sariyyan ",
+      verse: 2274,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 25,
       image: "",
-      text:
-        "And shake toward you the trunk of the palm tree; it will drop upon you ripe, fresh dates.",
-      verse: 2144,
+      text: "And shake towards you (the) trunk (of) the date-palm it will drop upon you fresh dates ripe (25)",
+      transliteration:
+        "wahuzzī ilayki bijidh'ʿi l-nakhlati tusāqiṭ ʿalayki ruṭaban janiyyan ",
+      verse: 2275,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 26,
       image: "",
-      text:
-        "So eat and drink and be contented. And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.' \"",
-      verse: 2145,
+      text: "So eat and drink and cool (your) eyes And if you see from human being anyone then say Indeed, I [I] have vowed to the Most Gracious a fast so not I will speak today (to any) human being (26)",
+      transliteration:
+        "fakulī wa-ish'rabī waqarrī ʿaynan fa-immā tarayinna mina l-bashari aḥadan faqūlī innī nadhartu lilrraḥmāni ṣawman falan ukallima l-yawma insiyyan ",
+      verse: 2276,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 27,
       image: "",
-      text:
-        'Then she brought him to her people, carrying him. They said, "O Mary, you have certainly done a thing unprecedented.',
-      verse: 2146,
+      text: "Then she came with him (to) her people carrying him They said O Maryam Certainly you (have) brought an amazing thing an amazing thing (27)",
+      transliteration:
+        "fa-atat bihi qawmahā taḥmiluhu qālū yāmaryamu laqad ji'ti shayan fariyyan ",
+      verse: 2277,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 28,
       image: "",
-      text:
-        'O sister of Aaron, your father was not a man of evil, nor was your mother unchaste."',
-      verse: 2147,
+      text: "O sister (of) Harun Not was your father an evil man an evil man and not was your mother unchaste (28)",
+      transliteration:
+        "yāukh'ta hārūna mā kāna abūki im'ra-a sawin wamā kānat ummuki baghiyyan ",
+      verse: 2278,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 29,
       image: "",
-      text:
-        'So she pointed to him. They said, "How can we speak to one who is in the cradle a child?"',
-      verse: 2148,
+      text: "Then she pointed to him They said How (can) we speak (to one) who is in the cradle a child (29)",
+      transliteration:
+        "fa-ashārat ilayhi qālū kayfa nukallimu man kāna fī l-mahdi ṣabiyyan ",
+      verse: 2279,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 30,
       image: "",
-      text:
-        '[Jesus] said, "Indeed, I am the servant of Allah . He has given me the Scripture and made me a prophet.',
-      verse: 2149,
+      text: "He said Indeed, I am a slave (of) Allah He gave me the Scripture and made me a Prophet (30)",
+      transliteration:
+        "qāla innī ʿabdu l-lahi ātāniya l-kitāba wajaʿalanī nabiyyan ",
+      verse: 2280,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 31,
       image: "",
-      text:
-        "And He has made me blessed wherever I am and has enjoined upon me prayer and zakah as long as I remain alive",
-      verse: 2150,
+      text: "And He (has) made me blessed wherever wherever I am and has enjoined (on) me [of] the prayer and zakah as long as I am as long as I am alive (31)",
+      transliteration:
+        "wajaʿalanī mubārakan ayna mā kuntu wa-awṣānī bil-ṣalati wal-zakati mā dum'tu ḥayyan ",
+      verse: 2281,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 32,
       image: "",
-      text:
-        "And [made me] dutiful to my mother, and He has not made me a wretched tyrant.",
-      verse: 2151,
+      text: "And dutiful to my mother and not He (has) made me insolent unblessed (32)",
+      transliteration: "wabarran biwālidatī walam yajʿalnī jabbāran shaqiyyan ",
+      verse: 2282,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 33,
       image: "",
-      text:
-        'And peace is on me the day I was born and the day I will die and the day I am raised alive."',
-      verse: 2152,
+      text: "And peace (be) on me (the) day I was born and (the) day I will die and (the) Day I will be raised alive (33)",
+      transliteration:
+        "wal-salāmu ʿalayya yawma wulidttu wayawma amūtu wayawma ub'ʿathu ḥayyan ",
+      verse: 2283,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 34,
       image: "",
-      text:
-        "That is Jesus, the son of Mary -  the word of truth about which they are in dispute.",
-      verse: 2153,
+      text: "That (was) Isa (the) son (of) Maryam a statement (of) truth that which about it they dispute (34)",
+      transliteration:
+        "dhālika ʿīsā ub'nu maryama qawla l-ḥaqi alladhī fīhi yamtarūna ",
+      verse: 2284,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 35,
       image: "",
-      text:
-        'It is not [befitting] for Allah to take a son; exalted is He!  When He decrees an affair, He only says to it, "Be," and it is.',
-      verse: 2154,
+      text: "Not (it) is for Allah that He should take any son any son Glory be to Him When He decrees a matter then only He says to it Be and it is (35)",
+      transliteration:
+        "mā kāna lillahi an yattakhidha min waladin sub'ḥānahu idhā qaḍā amran fa-innamā yaqūlu lahu kun fayakūnu ",
+      verse: 2285,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 36,
       image: "",
-      text:
-        '[Jesus said], "And indeed, Allah is my Lord and your Lord, so worship Him. That is a straight path."',
-      verse: 2155,
+      text: "And indeed Allah (is) my Lord and your Lord so worship Him This (is) a path straight (36)",
+      transliteration:
+        "wa-inna l-laha rabbī warabbukum fa-uʿ'budūhu hādhā ṣirāṭun mus'taqīmun ",
+      verse: 2286,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 37,
       image: "",
-      text:
-        "Then the factions differed [concerning Jesus] from among them, so woe to those who disbelieved -  from the scene of a tremendous Day.",
-      verse: 2156,
+      text: "But differed the sects from among them from among them so woe to those who disbelieve from (the) witnessing (of) a Day great (37)",
+      transliteration:
+        "fa-ikh'talafa l-aḥzābu min baynihim fawaylun lilladhīna kafarū min mashhadi yawmin ʿaẓīmin ",
+      verse: 2287,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 38,
       image: "",
-      text:
-        "How [clearly] they will hear and see the Day they come to Us, but the wrongdoers today are in clear error.",
-      verse: 2157,
+      text: "How they will hear How they will hear and how (they will) see (the) Day they will come to Us but the wrongdoers today (are) in error clear (38)",
+      transliteration:
+        "asmiʿ bihim wa-abṣir yawma yatūnanā lākini l-ẓālimūna l-yawma fī ḍalālin mubīnin ",
+      verse: 2288,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 39,
       image: "",
-      text:
-        "And warn them, [O Muhammad], of the Day of Regret, when the matter will be concluded; and [yet], they are in [a state of] heedlessness, and they do not believe.",
-      verse: 2158,
+      text: "And warn them (of the) Day (of) the Regret when has been decided the matter And they (are) in heedlessness and they (do) not believe (39)",
+      transliteration:
+        "wa-andhir'hum yawma l-ḥasrati idh quḍiya l-amru wahum fī ghaflatin wahum lā yu'minūna ",
+      verse: 2289,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 40,
       image: "",
-      text:
-        "Indeed, it is We who will inherit the earth and whoever is on it, and to Us they will be returned.",
-      verse: 2159,
+      text: "Indeed, We [We] [We] will inherit the earth and whoever (is) on it and to Us they will be returned (40)",
+      transliteration:
+        "innā naḥnu narithu l-arḍa waman ʿalayhā wa-ilaynā yur'jaʿūna ",
+      verse: 2290,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 41,
       image: "",
-      text:
-        "And mention in the Book [the story of] Abraham. Indeed, he was a man of truth and a prophet.",
-      verse: 2160,
+      text: "And mention in the Book Ibrahim Indeed, he was a man of truth a Prophet (41)",
+      transliteration:
+        "wa-udh'kur fī l-kitābi ib'rāhīma innahu kāna ṣiddīqan nabiyyan ",
+      verse: 2291,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 42,
       image: "",
-      text:
-        '[Mention] when he said to his father, "O my father, why do you worship that which does not hear and does not see and will not benefit you at all?',
-      verse: 2161,
+      text: "When he said to his father O my father Why (do) you worship that which not hears and not sees and not benefits [to] you (in) anything (42)",
+      transliteration:
+        "idh qāla li-abīhi yāabati lima taʿbudu mā lā yasmaʿu walā yub'ṣiru walā yugh'nī ʿanka shayan ",
+      verse: 2292,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 43,
       image: "",
-      text:
-        "O my father, indeed there has come to me of knowledge that which has not come to you, so follow me; I will guide you to an even path.",
-      verse: 2162,
+      text: "O my father Indeed, [I] verily (has) come to me of the knowledge what not came to you so follow me I will guide you (to) the path even (43)",
+      transliteration:
+        "yāabati innī qad jāanī mina l-ʿil'mi mā lam yatika fa-ittabiʿ'nī ahdika ṣirāṭan sawiyyan ",
+      verse: 2293,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 44,
       image: "",
-      text:
-        "O my father, do not worship Satan. Indeed Satan has ever been, to the Most Merciful, disobedient.",
-      verse: 2163,
+      text: "O my father (Do) not worship the Shaitaan Indeed the Shaitaan is to the Most Gracious disobedient (44)",
+      transliteration:
+        "yāabati lā taʿbudi l-shayṭāna inna l-shayṭāna kāna lilrraḥmāni ʿaṣiyyan ",
+      verse: 2294,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 45,
       image: "",
-      text:
-        'O my father, indeed I fear that there will touch you a punishment from the Most Merciful so you would be to Satan a companion [in Hellfire]."',
-      verse: 2164,
+      text: "O my father Indeed, I [I] fear that will touch you a punishment from the Most Gracious so you would be to the Shaitaan a friend (45)",
+      transliteration:
+        "yāabati innī akhāfu an yamassaka ʿadhābun mina l-raḥmāni fatakūna lilshayṭāni waliyyan ",
+      verse: 2295,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 46,
       image: "",
-      text:
-        '[His father] said, "Have you no desire for my gods, O Abraham?  If you do not desist, I will surely stone you, so avoid me a prolonged time."',
-      verse: 2165,
+      text: "He said Do you hate Do you hate (from) my gods O Ibrahim Surely, if not you desist surely, I will stone you so leave me (for) a prolonged time (46)",
+      transliteration:
+        "qāla arāghibun anta ʿan ālihatī yāib'rāhīmu la-in lam tantahi la-arjumannaka wa-uh'jur'nī maliyyan ",
+      verse: 2296,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 47,
       image: "",
-      text:
-        '[Abraham] said, "Peace will be upon you. I will ask forgiveness for you of my Lord. Indeed, He is ever gracious to me.',
-      verse: 2166,
+      text: "He said Peace (be) on you I will ask forgiveness for you (from) my Lord Indeed, He is to me Ever Gracious (47)",
+      transliteration:
+        "qāla salāmun ʿalayka sa-astaghfiru laka rabbī innahu kāna bī ḥafiyyan ",
+      verse: 2297,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 48,
       image: "",
-      text:
-        'And I will leave you and those you invoke other than Allah and will invoke my Lord.  I expect that I will not be in invocation to my Lord unhappy."',
-      verse: 2167,
+      text: "And I will leave you and what you invoke besides besides Allah and I will invoke my Lord May be that not I will be in invocation (to) my Lord unblessed (48)",
+      transliteration:
+        "wa-aʿtazilukum wamā tadʿūna min dūni l-lahi wa-adʿū rabbī ʿasā allā akūna biduʿāi rabbī shaqiyyan ",
+      verse: 2298,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 49,
       image: "",
-      text:
-        "So when he had left them and those they worshipped other than Allah, We gave him Isaac and Jacob, and each [of them] We made a prophet.",
-      verse: 2168,
+      text: "So when he left them and what they worshipped besides Allah besides Allah besides Allah [and] We bestowed [to] him Isaac and Yaqub and each (of them) We made a Prophet (49)",
+      transliteration:
+        "falammā iʿ'tazalahum wamā yaʿbudūna min dūni l-lahi wahabnā lahu is'ḥāqa wayaʿqūba wakullan jaʿalnā nabiyyan ",
+      verse: 2299,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 50,
       image: "",
-      text:
-        "And We gave them of Our mercy, and we made for them a reputation of high honor.",
-      verse: 2169,
+      text: "And We bestowed to them of Our Mercy and We made for them a truthful mention a truthful mention high (50)",
+      transliteration:
+        "wawahabnā lahum min raḥmatinā wajaʿalnā lahum lisāna ṣid'qin ʿaliyyan ",
+      verse: 2300,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 51,
       image: "",
-      text:
-        "And mention in the Book, Moses. Indeed, he was chosen, and he was a messenger and a prophet.",
-      verse: 2170,
+      text: "And mention in the Book Musa Indeed, he was chosen and was a Messenger a Prophet (51)",
+      transliteration:
+        "wa-udh'kur fī l-kitābi mūsā innahu kāna mukh'laṣan wakāna rasūlan nabiyyan ",
+      verse: 2301,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 52,
       image: "",
-      text:
-        "And We called him from the side of the mount at [his] right and brought him near, confiding [to him].",
-      verse: 2171,
+      text: "And We called him from (the) side (of) the Mount the right and brought him near (for) conversation (52)",
+      transliteration:
+        "wanādaynāhu min jānibi l-ṭūri l-aymani waqarrabnāhu najiyyan ",
+      verse: 2302,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 53,
       image: "",
-      text: "And We gave him out of Our mercy his brother Aaron as a prophet.",
-      verse: 2172,
+      text: "And We bestowed [to] him from Our Mercy his brother Harun a Prophet (53)",
+      transliteration: "wawahabnā lahu min raḥmatinā akhāhu hārūna nabiyyan ",
+      verse: 2303,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 54,
       image: "",
-      text:
-        "And mention in the Book, Ishmael. Indeed, he was true to his promise, and he was a messenger and a prophet.",
-      verse: 2173,
+      text: "And mention in the Book Ishmael Indeed, he was true (to his) promise and was a Messenger  a Prophet (54)",
+      transliteration:
+        "wa-udh'kur fī l-kitābi is'māʿīla innahu kāna ṣādiqa l-waʿdi wakāna rasūlan nabiyyan ",
+      verse: 2304,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 55,
       image: "",
-      text:
-        "And he used to enjoin on his people prayer and zakah and was to his Lord pleasing.",
-      verse: 2174,
+      text: "And he used (to) enjoin (on) his people the prayer and zakah and was near his Lord pleasing (55)",
+      transliteration:
+        "wakāna yamuru ahlahu bil-ṣalati wal-zakati wakāna ʿinda rabbihi marḍiyyan ",
+      verse: 2305,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 56,
       image: "",
-      text:
-        "And mention in the Book, Idrees. Indeed, he was a man of truth and a prophet.",
-      verse: 2175,
+      text: "And mention in the Book Idris Indeed, he was truthful a Prophet (56)",
+      transliteration:
+        "wa-udh'kur fī l-kitābi id'rīsa innahu kāna ṣiddīqan nabiyyan ",
+      verse: 2306,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 57,
       image: "",
-      text: "And We raised him to a high station.",
-      verse: 2176,
+      text: "And We raised him (to) a position high (57)",
+      transliteration: "warafaʿnāhu makānan ʿaliyyan ",
+      verse: 2307,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 58,
       image: "",
-      text:
-        "Those were the ones upon whom Allah bestowed favor from among the prophets of the descendants of Adam and of those We carried [in the ship] with Noah, and of the descendants of Abraham and Israel, and of those whom We guided and chose.  When the verses of the Most Merciful were recited to them, they fell in prostration and weeping.",
-      verse: 2177,
+      text: "Those (were) the ones whom Allah bestowed favor Allah bestowed favor upon them from (among) the Prophets of (the) offspring (of) Adam and of those We carried with Nuh and of (the) offspring (of) Ibrahim and Israel and of (those) whom We guided and We chose When were recited to them (the) Verses (of) the Most Gracious they fell prostrating and weeping (58)",
+      transliteration:
+        "ulāika alladhīna anʿama l-lahu ʿalayhim mina l-nabiyīna min dhurriyyati ādama wamimman ḥamalnā maʿa nūḥin wamin dhurriyyati ib'rāhīma wa-is'rāīla wamimman hadaynā wa-ij'tabaynā idhā tut'lā ʿalayhim āyātu l-raḥmāni kharrū sujjadan wabukiyyan ",
+      verse: 2308,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 59,
       image: "",
-      text:
-        "But there came after them successors who neglected prayer and pursued desires; so they are going to meet evil -",
-      verse: 2178,
+      text: "Then succeeded after them after them successors who neglected the prayer and they followed the lusts so soon they will meet evil (59)",
+      transliteration:
+        "fakhalafa min baʿdihim khalfun aḍāʿū l-ṣalata wa-ittabaʿū l-shahawāti fasawfa yalqawna ghayyan ",
+      verse: 2309,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 60,
       image: "",
-      text:
-        "Except those who repent, believe and do righteousness; for those will enter Paradise and will not be wronged at all.",
-      verse: 2179,
+      text: "Except (one) who repented and believed and did good (deeds) Then those will enter Paradise and not they will be wronged (in) anything (60)",
+      transliteration:
+        "illā man tāba waāmana waʿamila ṣāliḥan fa-ulāika yadkhulūna l-janata walā yuẓ'lamūna shayan ",
+      verse: 2310,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 61,
       image: "",
-      text:
-        "[Therein are] gardens of perpetual residence which the Most Merciful has promised His servants in the unseen. Indeed, His promise has ever been coming.",
-      verse: 2180,
+      text: "Gardens (of) Eden which promised the Most Gracious (to) His slaves in the unseen Indeed, [it] is His promise sure to come (61)",
+      transliteration:
+        "jannāti ʿadnin allatī waʿada l-raḥmānu ʿibādahu bil-ghaybi innahu kāna waʿduhu matiyyan ",
+      verse: 2311,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 62,
       image: "",
-      text:
-        "They will not hear therein any ill speech -  only [greetings of] peace -  and they will have their provision therein, morning and afternoon.",
-      verse: 2181,
+      text: "Not they will hear therein vain talk but peace And for them (is) their provision therein morning and evening (62)",
+      transliteration:
+        "lā yasmaʿūna fīhā laghwan illā salāman walahum riz'quhum fīhā buk'ratan waʿashiyyan ",
+      verse: 2312,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 63,
       image: "",
-      text:
-        "That is Paradise, which We give as inheritance to those of Our servants who were fearing of Allah .",
-      verse: 2182,
+      text: "This (is) Paradise which We give (as) inheritance [of] (to) Our slaves (the one) who is righteous (63)",
+      transliteration:
+        "til'ka l-janatu allatī nūrithu min ʿibādinā man kāna taqiyyan ",
+      verse: 2313,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 64,
       image: "",
-      text:
-        '[Gabriel said], "And we [angels] descend not except by the order of your Lord. To Him belongs that before us and that behind us and what is in between.  And never is your Lord forgetful -',
-      verse: 2183,
+      text: "And not we descend except by (the) Command (of) your Lord To Him (belongs) what (is) before us (is) before us and what (is) behind us and what (is) between that And not is your Lord forgetful (64)",
+      transliteration:
+        "wamā natanazzalu illā bi-amri rabbika lahu mā bayna aydīnā wamā khalfanā wamā bayna dhālika wamā kāna rabbuka nasiyyan ",
+      verse: 2314,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 65,
       image: "",
-      text:
-        'Lord of the heavens and the earth and whatever is between them -  so worship Him and have patience for His worship.  Do you know of any similarity to Him?"',
-      verse: 2184,
+      text: "Lord (of) the heavens and the earth and whatever (is) between both of them so worship Him and be constant in His worship Do you know for Him any similarity (65)",
+      transliteration:
+        "rabbu l-samāwāti wal-arḍi wamā baynahumā fa-uʿ'bud'hu wa-iṣ'ṭabir liʿibādatihi hal taʿlamu lahu samiyyan ",
+      verse: 2315,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 66,
       image: "",
-      text:
-        'And the disbeliever says, "When I have died, am I going to be brought forth alive?"',
-      verse: 2185,
+      text: "And says [the] man What! When What! When I am dead surely will I be brought forth alive (66)",
+      transliteration:
+        "wayaqūlu l-insānu a-idhā mā mittu lasawfa ukh'raju ḥayyan ",
+      verse: 2316,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 67,
       image: "",
-      text:
-        "Does man not remember that We created him before, while he was nothing?",
-      verse: 2186,
+      text: "Does not remember [the] man that We We created him before before while not he was anything (67)",
+      transliteration:
+        "awalā yadhkuru l-insānu annā khalaqnāhu min qablu walam yaku shayan ",
+      verse: 2317,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 68,
       image: "",
-      text:
-        "So by your Lord, We will surely gather them and the devils; then We will bring them to be present around Hell upon their knees.",
-      verse: 2187,
+      text: "So by your Lord surely, We will gather them and the devils then surely, We will bring them around Hell bent (on) knees (68)",
+      transliteration:
+        "fawarabbika lanaḥshurannahum wal-shayāṭīna thumma lanuḥ'ḍirannahum ḥawla jahannama jithiyyan ",
+      verse: 2318,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 69,
       image: "",
-      text:
-        "Then We will surely extract from every sect those of them who were worst against the Most Merciful in insolence.",
-      verse: 2188,
+      text: "Then surely, We will drag out from every sect those of them (who were) worst against the Most Gracious (in) rebellion (69)",
+      transliteration:
+        "thumma lananziʿanna min kulli shīʿatin ayyuhum ashaddu ʿalā l-raḥmāni ʿitiyyan ",
+      verse: 2319,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 70,
       image: "",
-      text:
-        "Then, surely it is We who are most knowing of those most worthy of burning therein.",
-      verse: 2189,
+      text: "Then surely, We know best [of] those who [they] (are) most worthy therein (of) being burnt (70)",
+      transliteration:
+        "thumma lanaḥnu aʿlamu bi-alladhīna hum awlā bihā ṣiliyyan ",
+      verse: 2320,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 71,
       image: "",
-      text:
-        "And there is none of you except he will come to it. This is upon your Lord an inevitability decreed.",
-      verse: 2190,
+      text: "And (there is) not (any) of you but (will be) passing over it (This) is upon your Lord an inevitability decreed (71)",
+      transliteration:
+        "wa-in minkum illā wāriduhā kāna ʿalā rabbika ḥatman maqḍiyyan ",
+      verse: 2321,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 72,
       image: "",
-      text:
-        "Then We will save those who feared Allah and leave the wrongdoers within it, on their knees.",
-      verse: 2191,
+      text: "Then We will deliver those who feared (Allah) and We will leave the wrongdoers therein bent (on) knees (72)",
+      transliteration:
+        "thumma nunajjī alladhīna ittaqaw wanadharu l-ẓālimīna fīhā jithiyyan ",
+      verse: 2322,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 73,
       image: "",
-      text:
-        'And when Our verses are recited to them as clear evidences, those who disbelieve say to those who believe, "Which of [our] two parties is best in position and best in association?"',
-      verse: 2192,
+      text: "And when are recited to them Our Verses clear say those who disbelieved to those who believed Which (of) the two groups (is) better (in) position and best (in) assembly (73)",
+      transliteration:
+        "wa-idhā tut'lā ʿalayhim āyātunā bayyinātin qāla alladhīna kafarū lilladhīna āmanū ayyu l-farīqayni khayrun maqāman wa-aḥsanu nadiyyan ",
+      verse: 2323,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 74,
       image: "",
-      text:
-        "And how many a generation have We destroyed before them who were better in possessions and [outward] appearance?",
-      verse: 2193,
+      text: "And how many We destroyed before them of a generation  they (were) better (in) possessions and appearance (74)",
+      transliteration:
+        "wakam ahlaknā qablahum min qarnin hum aḥsanu athāthan wari'yan ",
+      verse: 2324,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 75,
       image: "",
-      text:
-        'Say, "Whoever is in error -  let the Most Merciful extend for him an extension [in wealth and time] until, when they see that which they were promised -  either punishment [in this world] or the Hour [of resurrection] -  they will come to know who is worst in position and weaker in soldiers."',
-      verse: 2194,
+      text: "Say Whoever is in [the] error then surely will extend for him the Most Gracious an extension until when they see what they were promised either the punishment or the Hour then they will know who [he] (is) worst (in) position and weaker (in) forces (75)",
+      transliteration:
+        "qul man kāna fī l-ḍalālati falyamdud lahu l-raḥmānu maddan ḥattā idhā ra-aw mā yūʿadūna immā l-ʿadhāba wa-immā l-sāʿata fasayaʿlamūna man huwa sharrun makānan wa-aḍʿafu jundan ",
+      verse: 2325,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 76,
       image: "",
-      text:
-        "And Allah increases those who were guided, in guidance, and the enduring good deeds are better to your Lord for reward and better for recourse.",
-      verse: 2195,
+      text: "And Allah increases And Allah increases those who accept guidance (in) guidance And the everlasting good deeds (are) better near your Lord (for) reward and better (for) return (76)",
+      transliteration:
+        "wayazīdu l-lahu alladhīna ih'tadaw hudan wal-bāqiyātu l-ṣāliḥātu khayrun ʿinda rabbika thawāban wakhayrun maraddan ",
+      verse: 2326,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 77,
       image: "",
-      text:
-        'Then, have you seen he who disbelieved in Our verses and said, "I will surely be given wealth and children [in the next life]?"',
-      verse: 2196,
+      text: "Then, have you seen he who disbelieved in Our Verses and said Surely, I will be given wealth and children (77)",
+      transliteration:
+        "afara-ayta alladhī kafara biāyātinā waqāla laūtayanna mālan wawaladan ",
+      verse: 2327,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 78,
       image: "",
-      text:
-        "Has he looked into the unseen, or has he taken from the Most Merciful a promise?",
-      verse: 2197,
+      text: "Has he looked (into) the unseen or has he taken from the Most Gracious a promise (78)",
+      transliteration:
+        "aṭṭalaʿa l-ghayba ami ittakhadha ʿinda l-raḥmāni ʿahdan ",
+      verse: 2328,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 79,
       image: "",
-      text:
-        "No! We will record what he says and extend for him from the punishment extensively.",
-      verse: 2198,
+      text: "Nay We will record what he says and We will extend for him from the punishment extensively (79)",
+      transliteration:
+        "kallā sanaktubu mā yaqūlu wanamuddu lahu mina l-ʿadhābi maddan ",
+      verse: 2329,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 80,
       image: "",
-      text:
-        "And We will inherit him [in] what he mentions, and he will come to Us alone.",
-      verse: 2199,
+      text: "And We will inherit (from) him what he says and he will come to Us alone (80)",
+      transliteration: "wanarithuhu mā yaqūlu wayatīnā fardan ",
+      verse: 2330,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 81,
       image: "",
-      text:
-        "And they have taken besides Allah [false] deities that they would be for them [a source of] honor.",
-      verse: 2200,
+      text: "And they have taken besides Allah besides Allah besides Allah gods that they may be for them an honor (81)",
+      transliteration:
+        "wa-ittakhadhū min dūni l-lahi ālihatan liyakūnū lahum ʿizzan ",
+      verse: 2331,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 82,
       image: "",
-      text:
-        'No! Those "gods" will deny their worship of them and will be against them opponents [on the Day of Judgement].',
-      verse: 2201,
+      text: "Nay they will deny their worship (of them) and they will be against them opponents (82)",
+      transliteration:
+        "kallā sayakfurūna biʿibādatihim wayakūnūna ʿalayhim ḍiddan ",
+      verse: 2332,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 83,
       image: "",
-      text:
-        "Do you not see that We have sent the devils upon the disbelievers, inciting them to [evil] with [constant] incitement?",
-      verse: 2202,
+      text: "Do not you see that We [We] have sent the devils upon the disbelievers inciting them (with) incitement (83)",
+      transliteration:
+        "alam tara annā arsalnā l-shayāṭīna ʿalā l-kāfirīna ta-uzzuhum azzan ",
+      verse: 2333,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 84,
       image: "",
-      text:
-        "So be not impatient over them.  We only count out to them a [limited] number.",
-      verse: 2203,
+      text: "So (do) not make haste against them Only We count for them a number (84)",
+      transliteration: "falā taʿjal ʿalayhim innamā naʿuddu lahum ʿaddan ",
+      verse: 2334,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 85,
       image: "",
-      text:
-        "On the Day We will gather the righteous to the Most Merciful as a delegation",
-      verse: 2204,
+      text: "(The) Day We will gather the righteous to the Most Gracious (as) a delegation (85)",
+      transliteration: "yawma naḥshuru l-mutaqīna ilā l-raḥmāni wafdan ",
+      verse: 2335,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 86,
       image: "",
-      text: "And will drive the criminals to Hell in thirst",
-      verse: 2205,
+      text: "And We will drive the criminals to Hell thirsty (86)",
+      transliteration: "wanasūqu l-muj'rimīna ilā jahannama wir'dan ",
+      verse: 2336,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 87,
       image: "",
-      text:
-        "None will have [power of] intercession except he who had taken from the Most Merciful a covenant.",
-      verse: 2206,
+      text: "Not they will have the power (of) the intercession except (he) who has taken from the Most Gracious a covenant (87)",
+      transliteration:
+        "lā yamlikūna l-shafāʿata illā mani ittakhadha ʿinda l-raḥmāni ʿahdan ",
+      verse: 2337,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 88,
       image: "",
-      text: 'And they say, "The Most Merciful has taken [for Himself] a son."',
-      verse: 2207,
+      text: "And they say Has taken the Most Gracious a son (88)",
+      transliteration: "waqālū ittakhadha l-raḥmānu waladan ",
+      verse: 2338,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 89,
       image: "",
-      text: "You have done an atrocious thing.",
-      verse: 2208,
+      text: "Verily you have put forth a thing atrocious (89)",
+      transliteration: "laqad ji'tum shayan iddan ",
+      verse: 2339,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 90,
       image: "",
-      text:
-        "The heavens almost rupture therefrom and the earth splits open and the mountains collapse in devastation",
-      verse: 2209,
+      text: "Almost the heavens get torn therefrom and splits asunder the earth and collapse the mountain (in) devastation (90)",
+      transliteration:
+        "takādu l-samāwātu yatafaṭṭarna min'hu watanshaqqu l-arḍu watakhirru l-jibālu haddan ",
+      verse: 2340,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 91,
       image: "",
-      text: "That they attribute to the Most Merciful a son.",
-      verse: 2210,
+      text: "That they invoke to the Most Gracious a son (91)",
+      transliteration: "an daʿaw lilrraḥmāni waladan ",
+      verse: 2341,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 92,
       image: "",
-      text:
-        "And it is not appropriate for the Most Merciful that He should take a son.",
-      verse: 2211,
+      text: "And not is appropriate for the Most Gracious that He should take a son (92)",
+      transliteration: "wamā yanbaghī lilrraḥmāni an yattakhidha waladan ",
+      verse: 2342,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 93,
       image: "",
-      text:
-        "There is no one in the heavens and earth but that he comes to the Most Merciful as a servant.",
-      verse: 2212,
+      text: "Not all who (are) in the heavens and the earth but (will) come (to) the Most Gracious (as) a slave (93)",
+      transliteration:
+        "in kullu man fī l-samāwāti wal-arḍi illā ātī l-raḥmāni ʿabdan ",
+      verse: 2343,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 94,
       image: "",
-      text: "He has enumerated them and counted them a [full] counting.",
-      verse: 2213,
+      text: "Verily He has enumerated them and counted them a counting (94)",
+      transliteration: "laqad aḥṣāhum waʿaddahum ʿaddan ",
+      verse: 2344,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 95,
       image: "",
-      text:
-        "And all of them are coming to Him on the Day of Resurrection alone.",
-      verse: 2214,
+      text: "And all of them (will) come (to) Him (on the) Day (of) the Resurrection alone (95)",
+      transliteration: "wakulluhum ātīhi yawma l-qiyāmati fardan ",
+      verse: 2345,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 96,
       image: "",
-      text:
-        "Indeed, those who have believed and done righteous deeds -  the Most Merciful will appoint for them affection.",
-      verse: 2215,
+      text: "Indeed those who believed and did good deeds will bestow for them the Most Gracious affection (96)",
+      transliteration:
+        "inna alladhīna āmanū waʿamilū l-ṣāliḥāti sayajʿalu lahumu l-raḥmānu wuddan ",
+      verse: 2346,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 97,
       image: "",
-      text:
-        "So, [O Muhammad], We have only made Qur'an easy in the Arabic language that you may give good tidings thereby to the righteous and warn thereby a hostile people.",
-      verse: 2216,
+      text: "So, only We (have) made it easy in your tongue that you may give glad tidings with it (to) the righteous and warn with it a people hostile (97)",
+      transliteration:
+        "fa-innamā yassarnāhu bilisānika litubashira bihi l-mutaqīna watundhira bihi qawman luddan ",
+      verse: 2347,
+      juz: 16,
+      surah: 19,
     },
     {
       number: 98,
       image: "",
-      text:
-        "And how many have We destroyed before them of generations? Do you perceive of them anyone or hear from them a sound?",
-      verse: 2217,
+      text: "And how many We (have) destroyed before them of a generation Can you perceive of them any one or hear from them a sound (98)",
+      transliteration:
+        "wakam ahlaknā qablahum min qarnin hal tuḥissu min'hum min aḥadin aw tasmaʿu lahum rik'zan ",
+      verse: 2348,
+      juz: 16,
+      surah: 19,
     },
   ],
 };

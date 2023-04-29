@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const qaf: Surah = {
   name: "Qaf",
@@ -6,307 +6,434 @@ export const qaf: Surah = {
     {
       number: 1,
       image: "",
-      text: "Qaf.  By the honored Qur'an...",
-      verse: 4500,
+      text: "Qaf By the Quran the Glorious (1)",
+      transliteration: "qaf wal-qur'āni l-majīdi ",
+      verse: 4631,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 2,
       image: "",
-      text:
-        'But they wonder that there has come to them a warner from among themselves, and the disbelievers say, "This is an amazing thing.',
-      verse: 4501,
+      text: "Nay they wonder that has come to them a warner from them So say the disbelievers This (is) a thing amazing (2)",
+      transliteration:
+        "bal ʿajibū an jāahum mundhirun min'hum faqāla l-kāfirūna hādhā shayon ʿajībun ",
+      verse: 4632,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 3,
       image: "",
-      text:
-        'When we have died and have become dust, [we will return to life]? That is a distant return."',
-      verse: 4502,
+      text: "What! When we die and have become dust That (is) a return far (3)",
+      transliteration: "a-idhā mit'nā wakunnā turāban dhālika rajʿun baʿīdun ",
+      verse: 4633,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 4,
       image: "",
-      text:
-        "We know what the earth diminishes of them, and with Us is a retaining record.",
-      verse: 4503,
+      text: "Certainly We know what diminishes the earth of them and with Us (is) a Book guarded (4)",
+      transliteration:
+        "qad ʿalim'nā mā tanquṣu l-arḍu min'hum waʿindanā kitābun ḥafīẓun ",
+      verse: 4634,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 5,
       image: "",
-      text:
-        "But they denied the truth when it came to them, so they are in a confused condition.",
-      verse: 4504,
+      text: "Nay they denied the truth when it came (to) them so they (are) in a state confused (5)",
+      transliteration:
+        "bal kadhabū bil-ḥaqi lammā jāahum fahum fī amrin marījin ",
+      verse: 4635,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 6,
       image: "",
-      text:
-        "Have they not looked at the heaven above them -  how We structured it and adorned it and [how] it has no rifts?",
-      verse: 4505,
+      text: "Then do not they look at the sky above them  how We structured it and adorned it and not for it any rifts (6)",
+      transliteration:
+        "afalam yanẓurū ilā l-samāi fawqahum kayfa banaynāhā wazayyannāhā wamā lahā min furūjin ",
+      verse: 4636,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 7,
       image: "",
-      text:
-        "And the earth -  We spread it out and cast therein firmly set mountains and made grow therein [something] of every beautiful kind,",
-      verse: 4506,
+      text: "And the earth We have spread it out and cast therein firmly set mountains and We made to grow therein of every kind beautiful (7)",
+      transliteration:
+        "wal-arḍa madadnāhā wa-alqaynā fīhā rawāsiya wa-anbatnā fīhā min kulli zawjin bahījin ",
+      verse: 4637,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 8,
       image: "",
-      text:
-        "Giving insight and a reminder for every servant who turns [to Allah ].",
-      verse: 4507,
+      text: "Giving insight and a reminder for every slave who turns (8)",
+      transliteration: "tabṣiratan wadhik'rā likulli ʿabdin munībin ",
+      verse: 4638,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 9,
       image: "",
-      text:
-        "And We have sent down blessed rain from the sky and made grow thereby gardens and grain from the harvest",
-      verse: 4508,
+      text: "And We have sent down from the sky water blessed then We made to grow thereby gardens and grain (for) the harvest (9)",
+      transliteration:
+        "wanazzalnā mina l-samāi māan mubārakan fa-anbatnā bihi jannātin waḥabba l-ḥaṣīdi ",
+      verse: 4639,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 10,
       image: "",
-      text: "And lofty palm trees having fruit arranged in layers -",
-      verse: 4509,
+      text: "And the palms trees tall  for it (are) layers arranged (10)",
+      transliteration: "wal-nakhla bāsiqātin lahā ṭalʿun naḍīdun ",
+      verse: 4640,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 11,
       image: "",
-      text:
-        "As provision for the servants, and We have given life thereby to a dead land. Thus is the resurrection.",
-      verse: 4510,
+      text: "A provision for the slaves and We give life therewith (to) a land dead Thus (will be) the coming forth (11)",
+      transliteration:
+        "riz'qan lil'ʿibādi wa-aḥyaynā bihi baldatan maytan kadhālika l-khurūju ",
+      verse: 4641,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 12,
       image: "",
-      text:
-        "The people of Noah denied before them, and the companions of the well and Thamud",
-      verse: 4511,
+      text: "Denied before them (the) people (of) Nuh and (the) companions (of) Ar-Raas and Thamud (12)",
+      transliteration:
+        "kadhabat qablahum qawmu nūḥin wa-aṣḥābu l-rasi wathamūdu ",
+      verse: 4642,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 13,
       image: "",
-      text: "And 'Aad and Pharaoh and the brothers of Lot",
-      verse: 4512,
+      text: "And Aad and Firaun and (the) brothers (of) Lut (13)",
+      transliteration: "waʿādun wafir'ʿawnu wa-ikh'wānu lūṭin ",
+      verse: 4643,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 14,
       image: "",
-      text:
-        "And the companions of the thicket and the people of Tubba'. All denied the messengers, so My threat was justly fulfilled.",
-      verse: 4513,
+      text: "And (the) companions (of) the wood and (the) people (of) Tubba All denied the Messengers so was fulfilled My Threat (14)",
+      transliteration:
+        "wa-aṣḥābu l-aykati waqawmu tubbaʿin kullun kadhaba l-rusula faḥaqqa waʿīdi ",
+      verse: 4644,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 15,
       image: "",
-      text:
-        "Did We fail in the first creation? But they are in confusion over a new creation.",
-      verse: 4514,
+      text: "Were We then tired with the creation the first Nay they (are) in doubt about a creation new (15)",
+      transliteration:
+        "afaʿayīnā bil-khalqi l-awali bal hum fī labsin min khalqin jadīdin ",
+      verse: 4645,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 16,
       image: "",
-      text:
-        "And We have already created man and know what his soul whispers to him, and We are closer to him than [his] jugular vein",
-      verse: 4515,
+      text: "And certainly We created man and We know what whispers to him his soul and We (are) nearer to him than (his) jugular vein (his) jugular vein (16)",
+      transliteration:
+        "walaqad khalaqnā l-insāna wanaʿlamu mā tuwaswisu bihi nafsuhu wanaḥnu aqrabu ilayhi min ḥabli l-warīdi ",
+      verse: 4646,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 17,
       image: "",
-      text:
-        "When the two receivers receive, seated on the right and on the left.",
-      verse: 4516,
+      text: "When receive the two receivers on the right and on the left seated (17)",
+      transliteration:
+        "idh yatalaqqā l-mutalaqiyāni ʿani l-yamīni waʿani l-shimāli qaʿīdun ",
+      verse: 4647,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 18,
       image: "",
-      text:
-        "Man does not utter any word except that with him is an observer prepared [to record].",
-      verse: 4517,
+      text: "Not he utters any word but with him (is) an observer ready (18)",
+      transliteration: "mā yalfiẓu min qawlin illā ladayhi raqībun ʿatīdun ",
+      verse: 4648,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 19,
       image: "",
-      text:
-        "And the intoxication of death will bring the truth; that is what you were trying to avoid.",
-      verse: 4518,
+      text: "And will come (the) stupor (of) death in truth That (is) what you were [from it] avoiding (19)",
+      transliteration:
+        "wajāat sakratu l-mawti bil-ḥaqi dhālika mā kunta min'hu taḥīdu ",
+      verse: 4649,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 20,
       image: "",
-      text:
-        "And the Horn will be blown. That is the Day of [carrying out] the threat.",
-      verse: 4519,
+      text: "And will be blown [in] the trumpet That (is the) Day (of) the Warning (20)",
+      transliteration: "wanufikha fī l-ṣūri dhālika yawmu l-waʿīdi ",
+      verse: 4650,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 21,
       image: "",
-      text: "And every soul will come, with it a driver and a witness.",
-      verse: 4520,
+      text: "And will come every soul with it a driver and a witness (21)",
+      transliteration: "wajāat kullu nafsin maʿahā sāiqun washahīdun ",
+      verse: 4651,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 22,
       image: "",
-      text:
-        '[It will be said], "You were certainly in unmindfulness of this, and We have removed from you your cover, so your sight, this Day, is sharp."',
-      verse: 4521,
+      text: "Certainly you were in heedlessness of this So We have removed from you your cover so your sight today (is) sharp (22)",
+      transliteration:
+        "laqad kunta fī ghaflatin min hādhā fakashafnā ʿanka ghiṭāaka fabaṣaruka l-yawma ḥadīdun ",
+      verse: 4652,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 23,
       image: "",
-      text:
-        'And his companion, [the angel], will say, "This [record] is what is with me, prepared."',
-      verse: 4522,
+      text: "And (will) say his companion This (is) what (is) with me ready (23)",
+      transliteration: "waqāla qarīnuhu hādhā mā ladayya ʿatīdun ",
+      verse: 4653,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 24,
       image: "",
-      text: '[ Allah will say], "Throw into Hell every obstinate disbeliever,',
-      verse: 4523,
+      text: "Throw in (to) Hell every disbeliever stubborn (24)",
+      transliteration: "alqiyā fī jahannama kulla kaffārin ʿanīdin ",
+      verse: 4654,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 25,
       image: "",
-      text: "Preventer of good, aggressor, and doubter,",
-      verse: 4524,
+      text: "Forbidder of good transgressor doubter (25)",
+      transliteration: "mannāʿin lil'khayri muʿ'tadin murībin ",
+      verse: 4655,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 26,
       image: "",
-      text:
-        'Who made [as equal] with Allah another deity; then throw him into the severe punishment."',
-      verse: 4525,
+      text: "Who made with Allah a god another so throw him in(to) the punishment the severe (26)",
+      transliteration:
+        "alladhī jaʿala maʿa l-lahi ilāhan ākhara fa-alqiyāhu fī l-ʿadhābi l-shadīdi ",
+      verse: 4656,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 27,
       image: "",
-      text:
-        'His [devil] companion will say, "Our Lord, I did not make him transgress, but he [himself] was in extreme error."',
-      verse: 4526,
+      text: "Will say his companion Our Lord not I made him transgress but he was in error far (27)",
+      transliteration:
+        "qāla qarīnuhu rabbanā mā aṭghaytuhu walākin kāna fī ḍalālin baʿīdin ",
+      verse: 4657,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 28,
       image: "",
-      text:
-        '[ Allah ] will say, "Do not dispute before Me, while I had already presented to you the warning.',
-      verse: 4527,
+      text: "He will say (Do) not dispute (in) My presence and indeed I sent forth to you the Warning (28)",
+      transliteration:
+        "qāla lā takhtaṣimū ladayya waqad qaddamtu ilaykum bil-waʿīdi ",
+      verse: 4658,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 29,
       image: "",
-      text:
-        'The word will not be changed with Me, and never will I be unjust to the servants."',
-      verse: 4528,
+      text: "Not will be changed the word with Me and not I Am unjust to My slaves (29)",
+      transliteration:
+        "mā yubaddalu l-qawlu ladayya wamā anā biẓallāmin lil'ʿabīdi ",
+      verse: 4659,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 30,
       image: "",
-      text:
-        'On the Day We will say to Hell, "Have you been filled?" and it will say, "Are there some more,"',
-      verse: 4529,
+      text: "(The) Day We will say to Hell Are you filled And it will say Are (there) any more (30)",
+      transliteration:
+        "yawma naqūlu lijahannama hali im'talati wataqūlu hal min mazīdin ",
+      verse: 4660,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 31,
       image: "",
-      text: "And Paradise will be brought near to the righteous, not far,",
-      verse: 4530,
+      text: "And will be brought near the Paradise to the righteous not far (31)",
+      transliteration: "wa-uz'lifati l-janatu lil'muttaqīna ghayra baʿīdin ",
+      verse: 4661,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 32,
       image: "",
-      text:
-        '[It will be said], "This is what you were promised -  for every returner [to Allah ] and keeper [of His covenant]',
-      verse: 4531,
+      text: "This (is) what you were promised for everyone who turns (and) who keeps (32)",
+      transliteration: "hādhā mā tūʿadūna likulli awwābin ḥafīẓin ",
+      verse: 4662,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 33,
       image: "",
-      text:
-        "Who feared the Most Merciful unseen and came with a heart returning [in repentance].",
-      verse: 4532,
+      text: "Who feared the Most Gracious in the unseen and came with a heart returning (33)",
+      transliteration:
+        "man khashiya l-raḥmāna bil-ghaybi wajāa biqalbin munībin ",
+      verse: 4663,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 34,
       image: "",
-      text: 'Enter it in peace. This is the Day of Eternity."',
-      verse: 4533,
+      text: "Enter it in peace That (is) a Day (of) Eternity (34)",
+      transliteration: "ud'khulūhā bisalāmin dhālika yawmu l-khulūdi ",
+      verse: 4664,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 35,
       image: "",
-      text: "They will have whatever they wish therein, and with Us is more.",
-      verse: 4534,
+      text: "For them whatever they wish therein and with Us (is) more (35)",
+      transliteration: "lahum mā yashāūna fīhā waladaynā mazīdun ",
+      verse: 4665,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 36,
       image: "",
-      text:
-        "And how many a generation before them did We destroy who were greater than them in [striking] power and had explored throughout the lands. Is there any place of escape?",
-      verse: 4535,
+      text: "And how many We destroyed before them of a generation they (were) stronger than them (in) power so they explored throughout the lands Is (there) any place of escape (36)",
+      transliteration:
+        "wakam ahlaknā qablahum min qarnin hum ashaddu min'hum baṭshan fanaqqabū fī l-bilādi hal min maḥīṣin ",
+      verse: 4666,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 37,
       image: "",
-      text:
-        "Indeed in that is a reminder for whoever has a heart or who listens while he is present [in mind].",
-      verse: 4536,
+      text: "Indeed in that surely, is a reminder for (one) who is  for him a heart or (who) gives ear (who) gives ear while he (is) a witness (37)",
+      transliteration:
+        "inna fī dhālika ladhik'rā liman kāna lahu qalbun aw alqā l-samʿa wahuwa shahīdun ",
+      verse: 4667,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 38,
       image: "",
-      text:
-        "And We did certainly create the heavens and earth and what is between them in six days, and there touched Us no weariness.",
-      verse: 4537,
+      text: "And certainly We created the heavens and the earth and whatever (is) between both of them in six periods and (did) not touch Us any fatigue (38)",
+      transliteration:
+        "walaqad khalaqnā l-samāwāti wal-arḍa wamā baynahumā fī sittati ayyāmin wamā massanā min lughūbin ",
+      verse: 4668,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 39,
       image: "",
-      text:
-        "So be patient, [O Muhammad], over what they say and exalt [ Allah ] with praise of your Lord before the rising of the sun and before its setting,",
-      verse: 4538,
+      text: "So be patient over what they say and glorify (the) praise (of) your Lord before (the) rising (of) the sun and before the setting (39)",
+      transliteration:
+        "fa-iṣ'bir ʿalā mā yaqūlūna wasabbiḥ biḥamdi rabbika qabla ṭulūʿi l-shamsi waqabla l-ghurūbi ",
+      verse: 4669,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 40,
       image: "",
-      text: "And [in part] of the night exalt Him and after prostration.",
-      verse: 4539,
+      text: "And of the night glorify Him and after the prostration (40)",
+      transliteration: "wamina al-layli fasabbiḥ'hu wa-adbāra l-sujūdi ",
+      verse: 4670,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 41,
       image: "",
-      text:
-        "And listen on the Day when the Caller will call out from a place that is near -",
-      verse: 4540,
+      text: "And listen (The) Day will call the caller from a place near (41)",
+      transliteration: "wa-is'tamiʿ yawma yunādi l-munādi min makānin qarībin ",
+      verse: 4671,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 42,
       image: "",
-      text:
-        "The Day they will hear the blast [of the Horn] in truth. That is the Day of Emergence [from the graves].",
-      verse: 4541,
+      text: "(The) Day they will hear the Blast in truth That (is the) Day (of) coming forth (42)",
+      transliteration:
+        "yawma yasmaʿūna l-ṣayḥata bil-ḥaqi dhālika yawmu l-khurūji ",
+      verse: 4672,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 43,
       image: "",
-      text:
-        "Indeed, it is We who give life and cause death, and to Us is the destination",
-      verse: 4542,
+      text: "Indeed, We [We] [We] give life and [We] cause death and to Us (is) the final return (43)",
+      transliteration: "innā naḥnu nuḥ'yī wanumītu wa-ilaynā l-maṣīru ",
+      verse: 4673,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 44,
       image: "",
-      text:
-        "On the Day the earth breaks away from them [and they emerge] rapidly; that is a gathering easy for Us.",
-      verse: 4543,
+      text: "(The) Day will split the earth from them hurrying That (is) a gathering for Us easy (44)",
+      transliteration:
+        "yawma tashaqqaqu l-arḍu ʿanhum sirāʿan dhālika ḥashrun ʿalaynā yasīrun ",
+      verse: 4674,
+      juz: 26,
+      surah: 50,
     },
     {
       number: 45,
       image: "",
-      text:
-        "We are most knowing of what they say, and you are not over them a tyrant. But remind by the Qur'an whoever fears My threat.",
-      verse: 4544,
+      text: "We know best [of] what they say and not (are) you over them the one to compel But remind with the Quran whoever fears My threat (45)",
+      transliteration:
+        "naḥnu aʿlamu bimā yaqūlūna wamā anta ʿalayhim bijabbārin fadhakkir bil-qur'āni man yakhāfu waʿīdi ",
+      verse: 4675,
+      juz: 26,
+      surah: 50,
     },
   ],
 };

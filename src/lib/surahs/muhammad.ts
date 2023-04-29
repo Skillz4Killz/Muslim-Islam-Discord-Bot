@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const muhammad: Surah = {
   name: "Muhammad",
@@ -6,266 +6,377 @@ export const muhammad: Surah = {
     {
       number: 1,
       image: "",
-      text:
-        "Those who disbelieve and avert [people] from the way of Allah -  He will waste their deeds.",
-      verse: 4415,
+      text: "Those who disbelieve and turn away from (the) way of Allah (the) way of Allah He will cause to be lost their deeds (1)",
+      transliteration:
+        "alladhīna kafarū waṣaddū ʿan sabīli l-lahi aḍalla aʿmālahum ",
+      verse: 4546,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 2,
       image: "",
-      text:
-        "And those who believe and do righteous deeds and believe in what has been sent down upon Muhammad -  and it is the truth from their Lord -  He will remove from them their misdeeds and amend their condition.",
-      verse: 4416,
+      text: "And those who believe and do righteous deeds and believe in what is revealed to Muhammad and it (is) the truth from their Lord He will remove from them their misdeeds and improve their condition (2)",
+      transliteration:
+        "wa-alladhīna āmanū waʿamilū l-ṣāliḥāti waāmanū bimā nuzzila ʿalā muḥammadin wahuwa l-ḥaqu min rabbihim kaffara ʿanhum sayyiātihim wa-aṣlaḥa bālahum ",
+      verse: 4547,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 3,
       image: "",
-      text:
-        "That is because those who disbelieve follow falsehood, and those who believe follow the truth from their Lord. Thus does Allah present to the people their comparisons.",
-      verse: 4417,
+      text: "That (is) because those who disbelieve follow falsehood and that those who believe follow (the) truth from their Lord Thus Allah presents Allah presents to the people their similitudes (3)",
+      transliteration:
+        "dhālika bi-anna alladhīna kafarū ittabaʿū l-bāṭila wa-anna alladhīna āmanū ittabaʿū l-ḥaqa min rabbihim kadhālika yaḍribu l-lahu lilnnāsi amthālahum ",
+      verse: 4548,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 4,
       image: "",
-      text:
-        "So when you meet those who disbelieve [in battle], strike [their] necks until, when you have inflicted slaughter upon them, then secure their bonds, and either [confer] favor afterwards or ransom [them] until the war lays down its burdens. That [is the command]. And if Allah had willed, He could have taken vengeance upon them [Himself], but [He ordered armed struggle] to test some of you by means of others. And those who are killed in the cause of Allah -  never will He waste their deeds.",
-      verse: 4418,
+      text: "So when you meet those who disbelieve then strike the necks until when you have subdued them then bind firmly the bond then either a favor afterwards or ransom until lays down the war its burdens That And if Allah had willed Allah had willed surely, He could have taken retribution from them but to test some of you with others And those who are killed in (the) way of Allah (the) way of Allah then never He will cause to be lost their deeds (4)",
+      transliteration:
+        "fa-idhā laqītumu alladhīna kafarū faḍarba l-riqābi ḥattā idhā athkhantumūhum fashuddū l-wathāqa fa-immā mannan baʿdu wa-immā fidāan ḥattā taḍaʿa l-ḥarbu awzārahā dhālika walaw yashāu l-lahu la-intaṣara min'hum walākin liyabluwā baʿḍakum bibaʿḍin wa-alladhīna qutilū fī sabīli l-lahi falan yuḍilla aʿmālahum ",
+      verse: 4549,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 5,
       image: "",
-      text: "He will guide them and amend their condition",
-      verse: 4419,
+      text: "He will guide them and improve their condition (5)",
+      transliteration: "sayahdīhim wayuṣ'liḥu bālahum ",
+      verse: 4550,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 6,
       image: "",
-      text: "And admit them to Paradise, which He has made known to them.",
-      verse: 4420,
+      text: "And admit them (to) Paradise He has made it known to them (6)",
+      transliteration: "wayud'khiluhumu l-janata ʿarrafahā lahum ",
+      verse: 4551,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 7,
       image: "",
-      text:
-        "O you who have believed, if you support Allah, He will support you and plant firmly your feet.",
-      verse: 4421,
+      text: "O you who believe O you who believe O you who believe If you help Allah He will help you and make firm your feet (7)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū in tanṣurū l-laha yanṣur'kum wayuthabbit aqdāmakum ",
+      verse: 4552,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 8,
       image: "",
-      text:
-        "But those who disbelieve -  for them is misery, and He will waste their deeds.",
-      verse: 4422,
+      text: "But those who disbelieve destruction (is) for them and He will cause to be lost their deeds (8)",
+      transliteration: "wa-alladhīna kafarū fataʿsan lahum wa-aḍalla aʿmālahum ",
+      verse: 4553,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 9,
       image: "",
-      text:
-        "That is because they disliked what Allah revealed, so He rendered worthless their deeds.",
-      verse: 4423,
+      text: "That (is) because they hate what Allah has revealed Allah has revealed so He has made worthless their deeds (9)",
+      transliteration:
+        "dhālika bi-annahum karihū mā anzala l-lahu fa-aḥbaṭa aʿmālahum ",
+      verse: 4554,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 10,
       image: "",
-      text:
-        "Have they not traveled through the land and seen how was the end of those before them? Allah destroyed [everything] over them, and for the disbelievers is something comparable.",
-      verse: 4424,
+      text: "Do not they travel in the earth and see how was (the) end (of) those before them before them Allah destroyed Allah destroyed [over] them and for the disbelievers its likeness (10)",
+      transliteration:
+        "afalam yasīrū fī l-arḍi fayanẓurū kayfa kāna ʿāqibatu alladhīna min qablihim dammara l-lahu ʿalayhim walil'kāfirīna amthāluhā ",
+      verse: 4555,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 11,
       image: "",
-      text:
-        "That is because Allah is the protector of those who have believed and because the disbelievers have no protector.",
-      verse: 4425,
+      text: "That (is) because Allah (is the) Protector (of) those who believe and that the disbelievers  (there is) no protector for them (11)",
+      transliteration:
+        "dhālika bi-anna l-laha mawlā alladhīna āmanū wa-anna l-kāfirīna lā mawlā lahum ",
+      verse: 4556,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 12,
       image: "",
-      text:
-        "Indeed, Allah will admit those who have believed and done righteous deeds to gardens beneath which rivers flow, but those who disbelieve enjoy themselves and eat as grazing livestock eat, and the Fire will be a residence for them.",
-      verse: 4426,
+      text: "Indeed Allah will admit those who believe and do righteous deeds (to) Gardens flow from underneath it the rivers but those who disbelieve they enjoy and eat as eat the cattle and the Fire (will be) an abode for them (12)",
+      transliteration:
+        "inna l-laha yud'khilu alladhīna āmanū waʿamilū l-ṣāliḥāti jannātin tajrī min taḥtihā l-anhāru wa-alladhīna kafarū yatamattaʿūna wayakulūna kamā takulu l-anʿāmu wal-nāru mathwan lahum ",
+      verse: 4557,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 13,
       image: "",
-      text:
-        "And how many a city was stronger than your city [Makkah] which drove you out? We destroyed them; and there was no helper for them.",
-      verse: 4427,
+      text: "And how many of a town which (was) stronger (in) strength than your town which has driven you out We destroyed them so no helper for them (13)",
+      transliteration:
+        "waka-ayyin min qaryatin hiya ashaddu quwwatan min qaryatika allatī akhrajatka ahlaknāhum falā nāṣira lahum ",
+      verse: 4558,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 14,
       image: "",
-      text:
-        "So is he who is on clear evidence from his Lord like him to whom the evil of his work has been made attractive and they follow their [own] desires?",
-      verse: 4428,
+      text: "Then is (he) who is on a clear proof from his Lord like (he) who is made attractive to him (the) evil (of) his deeds while they follow their desires (14)",
+      transliteration:
+        "afaman kāna ʿalā bayyinatin min rabbihi kaman zuyyina lahu sūu ʿamalihi wa-ittabaʿū ahwāahum ",
+      verse: 4559,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 15,
       image: "",
-      text:
-        "Is the description of Paradise, which the righteous are promised, wherein are rivers of water unaltered, rivers of milk the taste of which never changes, rivers of wine delicious to those who drink, and rivers of purified honey, in which they will have from all [kinds of] fruits and forgiveness from their Lord, like [that of] those who abide eternally in the Fire and are given to drink scalding water that will sever their intestines?",
-      verse: 4429,
+      text: "A parable (of) Paradise which is promised (to) the righteous Therein (are) rivers of water not polluted and rivers of milk not changes its taste and rivers of wine delicious for (the) drinkers and rivers of honey purified and for them therein of all fruits and forgiveness from their Lord like he who like he who (will) abide forever in the Fire and they will be given to drink water boiling so it cuts into pieces their intestines (15)",
+      transliteration:
+        "mathalu l-janati allatī wuʿida l-mutaqūna fīhā anhārun min māin ghayri āsinin wa-anhārun min labanin lam yataghayyar ṭaʿmuhu wa-anhārun min khamrin ladhatin lilshāribīna wa-anhārun min ʿasalin muṣaffan walahum fīhā min kulli l-thamarāti wamaghfiratun min rabbihim kaman huwa khālidun fī l-nāri wasuqū māan ḥamīman faqaṭṭaʿa amʿāahum ",
+      verse: 4560,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 16,
       image: "",
-      text:
-        'And among them, [O Muhammad], are those who listen to you, until when they depart from you, they say to those who were given knowledge, "What has he said just now?" Those are the ones of whom Allah has sealed over their hearts and who have followed their [own] desires.',
-      verse: 4430,
+      text: "And among them (are some) who listen to you until when they depart from you they say to those who were given the knowledge What (has) he said just now Those  (are) the ones Allah has set a seal Allah has set a seal upon their hearts and they follow their desires (16)",
+      transliteration:
+        "wamin'hum man yastamiʿu ilayka ḥattā idhā kharajū min ʿindika qālū lilladhīna ūtū l-ʿil'ma mādhā qāla ānifan ulāika alladhīna ṭabaʿa l-lahu ʿalā qulūbihim wa-ittabaʿū ahwāahum ",
+      verse: 4561,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 17,
       image: "",
-      text:
-        "And those who are guided -  He increases them in guidance and gives them their righteousness.",
-      verse: 4431,
+      text: "And those who accept guidance He increases them (in) guidance and gives them their righteousness (17)",
+      transliteration: "wa-alladhīna ih'tadaw zādahum hudan waātāhum taqwāhum ",
+      verse: 4562,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 18,
       image: "",
-      text:
-        "Then do they await except that the Hour should come upon them unexpectedly? But already there have come [some of] its indications. Then what good to them, when it has come, will be their remembrance?",
-      verse: 4432,
+      text: "Then do they wait but (for) the Hour that it should come to them suddenly But indeed have come its indications Then how to them when has come to them their reminder (18)",
+      transliteration:
+        "fahal yanẓurūna illā l-sāʿata an tatiyahum baghtatan faqad jāa ashrāṭuhā fa-annā lahum idhā jāathum dhik'rāhum ",
+      verse: 4563,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 19,
       image: "",
-      text:
-        "So know, [O Muhammad], that there is no deity except Allah and ask forgiveness for your sin and for the believing men and believing women. And Allah knows of your movement and your resting place.",
-      verse: 4433,
+      text: "So know that [He]  (there is) no god but Allah and ask forgiveness for your sin and for the believing men and the believing women And Allah knows your movement and your resting places (19)",
+      transliteration:
+        "fa-iʿ'lam annahu lā ilāha illā l-lahu wa-is'taghfir lidhanbika walil'mu'minīna wal-mu'mināti wal-lahu yaʿlamu mutaqallabakum wamathwākum ",
+      verse: 4564,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 20,
       image: "",
-      text:
-        'Those who believe say, "Why has a surah not been sent down? But when a precise surah is revealed and fighting is mentioned therein, you see those in whose hearts is hypocrisy looking at you with a look of one overcome by death. And more appropriate for them [would have been]',
-      verse: 4434,
+      text: "And say those who believe Why not has been revealed a Surah But when is revealed a Surah precise and is mentioned in it the fighting you see those who in their hearts (is) a disease looking at you  a look (of) one fainting (of) one fainting from the death But more appropriate for them (20)",
+      transliteration:
+        "wayaqūlu alladhīna āmanū lawlā nuzzilat sūratun fa-idhā unzilat sūratun muḥ'kamatun wadhukira fīhā l-qitālu ra-ayta alladhīna fī qulūbihim maraḍun yanẓurūna ilayka naẓara l-maghshiyi ʿalayhi mina l-mawti fa-awlā lahum ",
+      verse: 4565,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 21,
       image: "",
-      text:
-        "Obedience and good words. And when the matter [of fighting] was determined, if they had been true to Allah, it would have been better for them.",
-      verse: 4435,
+      text: "(Is) obedience and a word kind And when (is) determined the matter then if they had been true (to) Allah surely, it would have been better for them (21)",
+      transliteration:
+        "ṭāʿatun waqawlun maʿrūfun fa-idhā ʿazama l-amru falaw ṣadaqū l-laha lakāna khayran lahum ",
+      verse: 4566,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 22,
       image: "",
-      text:
-        "So would you perhaps, if you turned away, cause corruption on earth and sever your [ties of] relationship?",
-      verse: 4436,
+      text: "Then would you perhaps if you are given authority that you cause corruption in the earth and cut off your ties of kinship (22)",
+      transliteration:
+        "fahal ʿasaytum in tawallaytum an tuf'sidū fī l-arḍi watuqaṭṭiʿū arḥāmakum ",
+      verse: 4567,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 23,
       image: "",
-      text:
-        "Those [who do so] are the ones that Allah has cursed, so He deafened them and blinded their vision.",
-      verse: 4437,
+      text: "Those (are) the ones Allah has cursed them Allah has cursed them so He made them deaf and blinded their vision (23)",
+      transliteration:
+        "ulāika alladhīna laʿanahumu l-lahu fa-aṣammahum wa-aʿmā abṣārahum ",
+      verse: 4568,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 24,
       image: "",
-      text:
-        "Then do they not reflect upon the Qur'an, or are there locks upon [their] hearts?",
-      verse: 4438,
+      text: "Then do not they ponder (over) the Quran or upon (their) hearts (are) locks (24)",
+      transliteration: "afalā yatadabbarūna l-qur'āna am ʿalā qulūbin aqfāluhā ",
+      verse: 4569,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 25,
       image: "",
-      text:
-        "Indeed, those who reverted back [to disbelief] after guidance had become clear to them - Satan enticed them and prolonged hope for them.",
-      verse: 4439,
+      text: "Indeed those who return on their backs after after what (has) become clear to them (of) the guidance Shaitaan enticed [for] them and prolonged hope for them (25)",
+      transliteration:
+        "inna alladhīna ir'taddū ʿalā adbārihim min baʿdi mā tabayyana lahumu l-hudā l-shayṭānu sawwala lahum wa-amlā lahum ",
+      verse: 4570,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 26,
       image: "",
-      text:
-        'That is because they said to those who disliked what Allah sent down, "We will obey you in part of the matter." And Allah knows what they conceal.',
-      verse: 4440,
+      text: "That (is) because they [they] said to those who hate what Allah has revealed Allah has revealed We will obey you in part (of) the matter But Allah knows their secrets (26)",
+      transliteration:
+        "dhālika bi-annahum qālū lilladhīna karihū mā nazzala l-lahu sanuṭīʿukum fī baʿḍi l-amri wal-lahu yaʿlamu is'rārahum ",
+      verse: 4571,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 27,
       image: "",
-      text:
-        "Then how [will it be] when the angels take them in death, striking their faces and their backs?",
-      verse: 4441,
+      text: "Then how when take them in death the Angels striking their faces and their backs (27)",
+      transliteration:
+        "fakayfa idhā tawaffathumu l-malāikatu yaḍribūna wujūhahum wa-adbārahum ",
+      verse: 4572,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 28,
       image: "",
-      text:
-        "That is because they followed what angered Allah and disliked [what earns] His pleasure, so He rendered worthless their deeds.",
-      verse: 4442,
+      text: "That (is) because they followed what angered Allah and hated His pleasure so He made worthless their deeds (28)",
+      transliteration:
+        "dhālika bi-annahumu ittabaʿū mā askhaṭa l-laha wakarihū riḍ'wānahu fa-aḥbaṭa aʿmālahum ",
+      verse: 4573,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 29,
       image: "",
-      text:
-        "Or do those in whose hearts is disease think that Allah would never expose their [feelings of] hatred?",
-      verse: 4443,
+      text: "Or do think those who in their hearts (is) a disease that never will Allah bring forth will Allah bring forth their hatred (29)",
+      transliteration:
+        "am ḥasiba alladhīna fī qulūbihim maraḍun an lan yukh'rija l-lahu aḍghānahum ",
+      verse: 4574,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 30,
       image: "",
-      text:
-        "And if We willed, We could show them to you, and you would know them by their mark; but you will surely know them by the tone of [their] speech. And Allah knows your deeds.",
-      verse: 4444,
+      text: "And if We willed surely, We could show them to you and you would know them by their marks but surely, you will know them by (the) tone (of their) speech And Allah knows your deeds (30)",
+      transliteration:
+        "walaw nashāu la-araynākahum falaʿaraftahum bisīmāhum walataʿrifannahum fī laḥni l-qawli wal-lahu yaʿlamu aʿmālakum ",
+      verse: 4575,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 31,
       image: "",
-      text:
-        "And We will surely test you until We make evident those who strive among you [for the cause of Allah ] and the patient, and We will test your affairs.",
-      verse: 4445,
+      text: "And surely We will test you until We make evident those who strive among you and the patient ones and We will test your affairs (31)",
+      transliteration:
+        "walanabluwannakum ḥattā naʿlama l-mujāhidīna minkum wal-ṣābirīna wanabluwā akhbārakum ",
+      verse: 4576,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 32,
       image: "",
-      text:
-        "Indeed, those who disbelieved and averted [people] from the path of Allah and opposed the Messenger after guidance had become clear to them -  never will they harm Allah at all, and He will render worthless their deeds.",
-      verse: 4446,
+      text: "Indeed those who disbelieve and turn away from (the) way of Allah (the) way of Allah and oppose the Messenger after after [what] (has been) made clear to them the guidance never will they harm Allah (in) anything and He will make worthless their deeds (32)",
+      transliteration:
+        "inna alladhīna kafarū waṣaddū ʿan sabīli l-lahi washāqqū l-rasūla min baʿdi mā tabayyana lahumu l-hudā lan yaḍurrū l-laha shayan wasayuḥ'biṭu aʿmālahum ",
+      verse: 4577,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 33,
       image: "",
-      text:
-        "O you who have believed, obey Allah and obey the Messenger and do not invalidate your deeds.",
-      verse: 4447,
+      text: "O you who believe O you who believe O you who believe Obey Allah and obey the Messenger and (do) not make vain your deeds (33)",
+      transliteration:
+        "yāayyuhā alladhīna āmanū aṭīʿū l-laha wa-aṭīʿū l-rasūla walā tub'ṭilū aʿmālakum ",
+      verse: 4578,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 34,
       image: "",
-      text:
-        "Indeed, those who disbelieved and averted [people] from the path of Allah and then died while they were disbelievers -  never will Allah forgive them.",
-      verse: 4448,
+      text: "Indeed those who disbelieve and turn away from (the) way (of) Allah then died while they (were) disbelievers never will Allah forgive will Allah forgive them (34)",
+      transliteration:
+        "inna alladhīna kafarū waṣaddū ʿan sabīli l-lahi thumma mātū wahum kuffārun falan yaghfira l-lahu lahum ",
+      verse: 4579,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 35,
       image: "",
-      text:
-        "So do not weaken and call for peace while you are superior; and Allah is with you and will never deprive you of [the reward of] your deeds.",
-      verse: 4449,
+      text: "So (do) not weaken and call for peace while you (are) superior and Allah (is) with you and never will deprive you (of) your deeds (35)",
+      transliteration:
+        "falā tahinū watadʿū ilā l-salmi wa-antumu l-aʿlawna wal-lahu maʿakum walan yatirakum aʿmālakum ",
+      verse: 4580,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 36,
       image: "",
-      text:
-        "[This] worldly life is only amusement and diversion. And if you believe and fear Allah, He will give you your rewards and not ask you for your properties.",
-      verse: 4450,
+      text: "Only the life (of) the world (is) play and amusement And if you believe and fear (Allah) He will give you your rewards and not will ask you (for) your wealth (36)",
+      transliteration:
+        "innamā l-ḥayatu l-dun'yā laʿibun walahwun wa-in tu'minū watattaqū yu'tikum ujūrakum walā yasalkum amwālakum ",
+      verse: 4581,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 37,
       image: "",
-      text:
-        "If He should ask you for them and press you, you would withhold, and He would expose your unwillingness.",
-      verse: 4451,
+      text: "If He were to ask you for it and press you you will withhold and He will bring forth your hatred (37)",
+      transliteration:
+        "in yasalkumūhā fayuḥ'fikum tabkhalū wayukh'rij aḍghānakum ",
+      verse: 4582,
+      juz: 26,
+      surah: 47,
     },
     {
       number: 38,
       image: "",
-      text:
-        "Here you are -  those invited to spend in the cause of Allah -  but among you are those who withhold [out of greed]. And whoever withholds only withholds [benefit] from himself; and Allah is the Free of need, while you are the needy. And if you turn away, He will replace you with another people; then they will not be the likes of you.",
-      verse: 4452,
+      text: "Here you are  these called to spend in (the) way (of) Allah  but among you (are some) who withhold and whoever withholds then only he withholds from himself But Allah (is) Free of need while you (are) the needy And if you turn away He will replace you (with) a people other than you then not they will be (the) likes of you (38)",
+      transliteration:
+        "hāantum hāulāi tud'ʿawna litunfiqū fī sabīli l-lahi faminkum man yabkhalu waman yabkhal fa-innamā yabkhalu ʿan nafsihi wal-lahu l-ghaniyu wa-antumu l-fuqarāu wa-in tatawallaw yastabdil qawman ghayrakum thumma lā yakūnū amthālakum ",
+      verse: 4583,
+      juz: 26,
+      surah: 47,
     },
   ],
 };

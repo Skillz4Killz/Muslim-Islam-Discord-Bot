@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const shuraa: Surah = {
   name: "Ash-Shuraa",
@@ -6,369 +6,527 @@ export const shuraa: Surah = {
     {
       number: 1,
       image: "",
-      text: "Ha, Meem.",
-      verse: 4142,
+      text: "Ha Meem (1)",
+      transliteration: "hha-meem ",
+      verse: 4273,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 2,
       image: "",
-      text: "'Ayn, Seen, Qaf.",
-      verse: 4143,
+      text: "Ayn Seen Qaaf (2)",
+      transliteration: "ain-seen-qaf ",
+      verse: 4274,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 3,
       image: "",
-      text:
-        "Thus has He revealed to you, [O Muhammad], and to those before you - Allah, the Exalted in Might, the Wise.",
-      verse: 4144,
+      text: "Thus reveals to you and to those before you  before you  Allah the All-Mighty the All-Wise (3)",
+      transliteration:
+        "kadhālika yūḥī ilayka wa-ilā alladhīna min qablika l-lahu l-ʿazīzu l-ḥakīmu ",
+      verse: 4275,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 4,
       image: "",
-      text:
-        "To Him belongs whatever is in the heavens and whatever is in the earth, and He is the Most High, the Most Great.",
-      verse: 4145,
+      text: "To Him (belong) whatever (is) in the heavens and whatever (is) in the earth and He (is) the Most High the Most Great (4)",
+      transliteration:
+        "lahu mā fī l-samāwāti wamā fī l-arḍi wahuwa l-ʿaliyu l-ʿaẓīmu ",
+      verse: 4276,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 5,
       image: "",
-      text:
-        "The heavens almost break from above them, and the angels exalt [ Allah ] with praise of their Lord and ask forgiveness for those on earth. Unquestionably, it is Allah who is the Forgiving, the Merciful.",
-      verse: 4146,
+      text: "Almost the heavens break up from above them and the Angels glorify (the) praise (of) their Lord and ask for forgiveness for those on the earth Unquestionably indeed Allah He (is) the Oft-Forgiving the Most Merciful (5)",
+      transliteration:
+        "takādu l-samāwātu yatafaṭṭarna min fawqihinna wal-malāikatu yusabbiḥūna biḥamdi rabbihim wayastaghfirūna liman fī l-arḍi alā inna l-laha huwa l-ghafūru l-raḥīmu ",
+      verse: 4277,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 6,
       image: "",
-      text:
-        "And those who take as allies other than Him - Allah is [yet] Guardian over them; and you, [O Muhammad], are not over them a manager.",
-      verse: 4147,
+      text: "And those who take besides besides protectors Allah (is) a Guardian over them and not you (are) over them a manager (6)",
+      transliteration:
+        "wa-alladhīna ittakhadhū min dūnihi awliyāa l-lahu ḥafīẓun ʿalayhim wamā anta ʿalayhim biwakīlin ",
+      verse: 4278,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 7,
       image: "",
-      text:
-        "And thus We have revealed to you an Arabic Qur'an that you may warn the Mother of Cities [Makkah] and those around it and warn of the Day of Assembly, about which there is no doubt. A party will be in Paradise and a party in the Blaze.",
-      verse: 4148,
+      text: "And thus We have revealed to you a Quran (in) Arabic that you may warn (the) mother (of) the towns and whoever (is) around it and warn (of the) Day (of) Assembly (there is) no doubt in it A party (will be) in Paradise and a party in the Blazing Fire (7)",
+      transliteration:
+        "wakadhālika awḥaynā ilayka qur'ānan ʿarabiyyan litundhira umma l-qurā waman ḥawlahā watundhira yawma l-jamʿi lā rayba fīhi farīqun fī l-janati wafarīqun fī l-saʿīri ",
+      verse: 4279,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 8,
       image: "",
-      text:
-        "And if Allah willed, He could have made them [of] one religion, but He admits whom He wills into His mercy. And the wrongdoers have not any protector or helper.",
-      verse: 4149,
+      text: "And if Allah willed Allah willed He could have made them a community one but He admits whom He wills in (to) His Mercy And the wrongdoers not for them any protector and not any helper (8)",
+      transliteration:
+        "walaw shāa l-lahu lajaʿalahum ummatan wāḥidatan walākin yud'khilu man yashāu fī raḥmatihi wal-ẓālimūna mā lahum min waliyyin walā naṣīrin ",
+      verse: 4280,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 9,
       image: "",
-      text:
-        "Or have they taken protectors [or allies] besides him? But Allah -  He is the Protector, and He gives life to the dead, and He is over all things competent.",
-      verse: 4150,
+      text: "Or have they taken besides Him besides Him protectors But Allah  He (is) the Protector and He gives life (to) the dead And He (is) on every thing All-Powerful (9)",
+      transliteration:
+        "ami ittakhadhū min dūnihi awliyāa fal-lahu huwa l-waliyu wahuwa yuḥ'yī l-mawtā wahuwa ʿalā kulli shayin qadīrun ",
+      verse: 4281,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 10,
       image: "",
-      text:
-        'And in anything over which you disagree -  its ruling is [to be referred] to Allah . [Say], "That is Allah, my Lord; upon Him I have relied, and to Him I turn back."',
-      verse: 4151,
+      text: "And whatever you differ in it of a thing then its ruling (is) to Allah That (is) Allah my Lord upon Him I put my trust and to Him I turn (10)",
+      transliteration:
+        "wamā ikh'talaftum fīhi min shayin faḥuk'muhu ilā l-lahi dhālikumu l-lahu rabbī ʿalayhi tawakkaltu wa-ilayhi unību ",
+      verse: 4282,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 11,
       image: "",
-      text:
-        "[He is] Creator of the heavens and the earth. He has made for you from yourselves, mates, and among the cattle, mates; He multiplies you thereby.  There is nothing like unto Him, and He is the Hearing, the Seeing.",
-      verse: 4152,
+      text: "(The) Creator (of) the heavens and the earth He made for you from yourselves mates and among the cattle mates He multiplies you thereby (There) is not like Him anything and He (is) the All-Hearer the All-Seer (11)",
+      transliteration:
+        "fāṭiru l-samāwāti wal-arḍi jaʿala lakum min anfusikum azwājan wamina l-anʿāmi azwājan yadhra-ukum fīhi laysa kamith'lihi shayon wahuwa l-samīʿu l-baṣīru ",
+      verse: 4283,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 12,
       image: "",
-      text:
-        "To Him belong the keys of the heavens and the earth. He extends provision for whom He wills and restricts [it]. Indeed He is, of all things, Knowing.",
-      verse: 4153,
+      text: "To Him (belongs) (the) keys (of) the heavens and the earth He extends the provision for whom He wills and restricts Indeed, He of every thing (is) All-Knower (12)",
+      transliteration:
+        "lahu maqālīdu l-samāwāti wal-arḍi yabsuṭu l-riz'qa liman yashāu wayaqdiru innahu bikulli shayin ʿalīmun ",
+      verse: 4284,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 13,
       image: "",
-      text:
-        "He has ordained for you of religion what He enjoined upon Noah and that which We have revealed to you, [O Muhammad], and what We enjoined upon Abraham and Moses and Jesus -  to establish the religion and not be divided therein. Difficult for those who associate others with Allah is that to which you invite them. Allah chooses for Himself whom He wills and guides to Himself whoever turns back [to Him].",
-      verse: 4154,
+      text: "He has ordained for you of the religion what He enjoined upon Nuh and that which We have revealed to you and what We enjoined upon Ibrahim and Musa and Isa To establish the religion and not be divided therein Is difficult on the polytheists what you call them to it Allah chooses for Himself whom He wills and guides to Himself whoever turns (13)",
+      transliteration:
+        "sharaʿa lakum mina l-dīni mā waṣṣā bihi nūḥan wa-alladhī awḥaynā ilayka wamā waṣṣaynā bihi ib'rāhīma wamūsā waʿīsā an aqīmū l-dīna walā tatafarraqū fīhi kabura ʿalā l-mush'rikīna mā tadʿūhum ilayhi l-lahu yajtabī ilayhi man yashāu wayahdī ilayhi man yunību ",
+      verse: 4285,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 14,
       image: "",
-      text:
-        "And they did not become divided until after knowledge had come to them -  out of jealous animosity between themselves. And if not for a word that preceded from your Lord [postponing the penalty] until a specified time, it would have been concluded between them. And indeed, those who were granted inheritance of the Scripture after them are, concerning it, in disquieting doubt.",
-      verse: 4155,
+      text: "And not they became divided until after after [what] came to them the knowledge (out of) rivalry among them And if not (for) a word (that) preceded from your Lord for a term specified surely, it (would have) been settled between them And indeed those who were made to inherit the Book after them after them (are) surely in doubt concerning it  disquieting (14)",
+      transliteration:
+        "wamā tafarraqū illā min baʿdi mā jāahumu l-ʿil'mu baghyan baynahum walawlā kalimatun sabaqat min rabbika ilā ajalin musamman laquḍiya baynahum wa-inna alladhīna ūrithū l-kitāba min baʿdihim lafī shakkin min'hu murībin ",
+      verse: 4286,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 15,
       image: "",
-      text:
-        'So to that [religion of Allah ] invite, [O Muhammad], and remain on a right course as you are commanded and do not follow their inclinations but say, "I have believed in what Allah has revealed of the Qur\'an, and I have been commanded to do justice among you. Allah is our Lord and your Lord. For us are our deeds, and for you your deeds. There is no [need for] argument between us and you. Allah will bring us together, and to Him is the [final] destination."',
-      verse: 4156,
+      text: "So to that then invite and stand firm as you are commanded and (do) not follow their desires but say I believe in what Allah has sent down Allah has sent down of (the) Book and I am commanded that I do justice between you Allah (is) our Lord and your Lord For us our deeds and for you your deeds (There is) no argument between us and between you Allah will assemble [between] us and to Him (is) the final return (15)",
+      transliteration:
+        "falidhālika fa-ud'ʿu wa-is'taqim kamā umir'ta walā tattabiʿ ahwāahum waqul āmantu bimā anzala l-lahu min kitābin wa-umir'tu li-aʿdila baynakumu l-lahu rabbunā warabbukum lanā aʿmālunā walakum aʿmālukum lā ḥujjata baynanā wabaynakumu l-lahu yajmaʿu baynanā wa-ilayhi l-maṣīru ",
+      verse: 4287,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 16,
       image: "",
-      text:
-        "And those who argue concerning Allah after He has been responded to -  their argument is invalid with their Lord, and upon them is [His] wrath, and for them is a severe punishment.",
-      verse: 4157,
+      text: "And those who argue concerning Allah after after [what] response has been made to Him response has been made to Him their argument (is) invalid with their Lord and upon them (is) wrath and for them (is) a punishment severe (16)",
+      transliteration:
+        "wa-alladhīna yuḥājjūna fī l-lahi min baʿdi mā us'tujība lahu ḥujjatuhum dāḥiḍatun ʿinda rabbihim waʿalayhim ghaḍabun walahum ʿadhābun shadīdun ",
+      verse: 4288,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 17,
       image: "",
-      text:
-        "It is Allah who has sent down the Book in truth and [also] the balance. And what will make you perceive? Perhaps the Hour is near.",
-      verse: 4158,
+      text: "Allah (is) the One Who (has) sent down the Book in truth and the Balance And what will make you know Perhaps the Hour (is) near (17)",
+      transliteration:
+        "al-lahu alladhī anzala l-kitāba bil-ḥaqi wal-mīzāna wamā yud'rīka laʿalla l-sāʿata qarībun ",
+      verse: 4289,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 18,
       image: "",
-      text:
-        "Those who do not believe in it are impatient for it, but those who believe are fearful of it and know that it is the truth. Unquestionably, those who dispute concerning the Hour are in extreme error.",
-      verse: 4159,
+      text: "Seek to hasten [of] it those who (do) not believe in it and those who believe (are) fearful of it and know that it (is) the truth Unquestionably indeed those who dispute concerning the Hour (are) certainly in error far (18)",
+      transliteration:
+        "yastaʿjilu bihā alladhīna lā yu'minūna bihā wa-alladhīna āmanū mush'fiqūna min'hā wayaʿlamūna annahā l-ḥaqu alā inna alladhīna yumārūna fī l-sāʿati lafī ḍalālin baʿīdin ",
+      verse: 4290,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 19,
       image: "",
-      text:
-        "Allah is Subtle with His servants; He gives provisions to whom He wills. And He is the Powerful, the Exalted in Might.",
-      verse: 4160,
+      text: "Allah (is) Subtle with His slaves He gives provision (to) whom He wills And He (is) the All-Strong the All-Mighty (19)",
+      transliteration:
+        "al-lahu laṭīfun biʿibādihi yarzuqu man yashāu wahuwa l-qawiyu l-ʿazīzu ",
+      verse: 4291,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 20,
       image: "",
-      text:
-        "Whoever desires the harvest of the Hereafter -  We increase for him in his harvest. And whoever desires the harvest of this world -  We give him thereof, but there is not for him in the Hereafter any share.",
-      verse: 4161,
+      text: "Whoever is desiring (the) harvest (of) the Hereafter  We increase for him in his harvest And whoever is desiring (the) harvest (of) the world We give him of it but not for him in the Hereafter any share (20)",
+      transliteration:
+        "man kāna yurīdu ḥartha l-ākhirati nazid lahu fī ḥarthihi waman kāna yurīdu ḥartha l-dun'yā nu'tihi min'hā wamā lahu fī l-ākhirati min naṣībin ",
+      verse: 4292,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 21,
       image: "",
-      text:
-        "Or have they other deities who have ordained for them a religion to which Allah has not consented? But if not for the decisive word, it would have been concluded between them. And indeed, the wrongdoers will have a painful punishment.",
-      verse: 4162,
+      text: "Or for them (are) partners who have ordained for them of the religion what not Allah has given permission of it Allah has given permission of it Allah has given permission of it And if not (for) a word decisive surely, it (would have) been judged between them And indeed the wrongdoers for them (is a) punishment painful (21)",
+      transliteration:
+        "am lahum shurakāu sharaʿū lahum mina l-dīni mā lam yadhan bihi l-lahu walawlā kalimatu l-faṣli laquḍiya baynahum wa-inna l-ẓālimīna lahum ʿadhābun alīmun ",
+      verse: 4293,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 22,
       image: "",
-      text:
-        "You will see the wrongdoers fearful of what they have earned, and it will [certainly] befall them. And those who have believed and done righteous deeds will be in lush regions of the gardens [in Paradise] having whatever they will in the presence of their Lord. That is what is the great bounty.",
-      verse: 4163,
+      text: "You will see the wrongdoers fearful of what they earned and it (will) befall [on] them And those who believe and do righteous deeds (will be) in flowering meadows (of) the Gardens for them (is) whatever they wish with their Lord That  it (is) the Bounty the Great (22)",
+      transliteration:
+        "tarā l-ẓālimīna mush'fiqīna mimmā kasabū wahuwa wāqiʿun bihim wa-alladhīna āmanū waʿamilū l-ṣāliḥāti fī rawḍāti l-janāti lahum mā yashāūna ʿinda rabbihim dhālika huwa l-faḍlu l-kabīru ",
+      verse: 4294,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 23,
       image: "",
-      text:
-        'It is that of which Allah gives good tidings to His servants who believe and do righteous deeds. Say, [O Muhammad], "I do not ask you for this message any payment [but] only good will through kinship." And whoever commits a good deed -  We will increase for him good therein. Indeed, Allah is Forgiving and Appreciative.',
-      verse: 4164,
+      text: "That (is of) which Allah gives glad tidings Allah gives glad tidings (to) His slaves  those who believe and do righteous deeds Say Not I ask you for it any payment except the love among the relatives And whoever earns any good We increase for him therein good Indeed Allah (is) Oft-Forgiving All-Appreciative (23)",
+      transliteration:
+        "dhālika alladhī yubashiru l-lahu ʿibādahu alladhīna āmanū waʿamilū l-ṣāliḥāti qul lā asalukum ʿalayhi ajran illā l-mawadata fī l-qur'bā waman yaqtarif ḥasanatan nazid lahu fīhā ḥus'nan inna l-laha ghafūrun shakūrun ",
+      verse: 4295,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 24,
       image: "",
-      text:
-        'Or do they say, "He has invented about Allah a lie"? But if Allah willed, He could seal over your heart. And Allah eliminates falsehood and establishes the truth by His words. Indeed, He is Knowing of that within the breasts.',
-      verse: 4165,
+      text: "Or (do) they say He has invented about Allah a lie But if Allah willed Allah willed He would seal [over] your heart And Allah eliminates And Allah eliminates the falsehood and establishes the truth by His Words Indeed, He (is) All-Knowing of what (is in) the breasts (24)",
+      transliteration:
+        "am yaqūlūna if'tarā ʿalā l-lahi kadhiban fa-in yasha-i l-lahu yakhtim ʿalā qalbika wayamḥu l-lahu l-bāṭila wayuḥiqqu l-ḥaqa bikalimātihi innahu ʿalīmun bidhāti l-ṣudūri ",
+      verse: 4296,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 25,
       image: "",
-      text:
-        "And it is He who accepts repentance from his servants and pardons misdeeds, and He knows what you do.",
-      verse: 4166,
+      text: "And He (is) the One Who accepts the repentance of His slaves and pardons [of] the evil and He knows what you do (25)",
+      transliteration:
+        "wahuwa alladhī yaqbalu l-tawbata ʿan ʿibādihi wayaʿfū ʿani l-sayiāti wayaʿlamu mā tafʿalūna ",
+      verse: 4297,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 26,
       image: "",
-      text:
-        "And He answers [the supplication of] those who have believed and done righteous deeds and increases [for] them from His bounty. But the disbelievers will have a severe punishment.",
-      verse: 4167,
+      text: "And He answers those who believe and do righteous deeds and increases (for) them from His Bounty And the disbelievers  for them (will be) a punishment severe (26)",
+      transliteration:
+        "wayastajību alladhīna āmanū waʿamilū l-ṣāliḥāti wayazīduhum min faḍlihi wal-kāfirūna lahum ʿadhābun shadīdun ",
+      verse: 4298,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 27,
       image: "",
-      text:
-        "And if Allah had extended [excessively] provision for His servants, they would have committed tyranny throughout the earth. But He sends [it] down in an amount which He wills. Indeed He is, of His servants, Acquainted and Seeing.",
-      verse: 4168,
+      text: "And if Allah extends Allah extends the provision for His slaves surely they would rebel in the earth but He sends down in (due) measure what He wills Indeed, He of His slaves (is) All-Aware All-Seer (27)",
+      transliteration:
+        "walaw basaṭa l-lahu l-riz'qa liʿibādihi labaghaw fī l-arḍi walākin yunazzilu biqadarin mā yashāu innahu biʿibādihi khabīrun baṣīrun ",
+      verse: 4299,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 28,
       image: "",
-      text:
-        "And it is He who sends down the rain after they had despaired and spreads His mercy. And He is the Protector, the Praiseworthy.",
-      verse: 4169,
+      text: "And He (is) the One Who sends down the rain after after [what] they have despaired and spreads His mercy And He (is) the Protector the Praiseworthy (28)",
+      transliteration:
+        "wahuwa alladhī yunazzilu l-ghaytha min baʿdi mā qanaṭū wayanshuru raḥmatahu wahuwa l-waliyu l-ḥamīdu ",
+      verse: 4300,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 29,
       image: "",
-      text:
-        "And of his signs is the creation of the heavens and earth and what He has dispersed throughout them of creatures. And He, for gathering them when He wills, is competent.",
-      verse: 4170,
+      text: "And among His Signs (is the) creation (of) the heavens and the earth and whatever He has dispersed in both of them of (the) creatures And He (is) over their gathering when He wills All-Powerful (29)",
+      transliteration:
+        "wamin āyātihi khalqu l-samāwāti wal-arḍi wamā batha fīhimā min dābbatin wahuwa ʿalā jamʿihim idhā yashāu qadīrun ",
+      verse: 4301,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 30,
       image: "",
-      text:
-        "And whatever strikes you of disaster -  it is for what your hands have earned; but He pardons much.",
-      verse: 4171,
+      text: "And whatever befalls you of (the) misfortune (is because) of what have earned your hands But He pardons [from] much (30)",
+      transliteration:
+        "wamā aṣābakum min muṣībatin fabimā kasabat aydīkum wayaʿfū ʿan kathīrin ",
+      verse: 4302,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 31,
       image: "",
-      text:
-        "And you will not cause failure [to Allah ] upon the earth. And you have not besides Allah any protector or helper.",
-      verse: 4172,
+      text: "And not you (can) escape in the earth and not for you besides besides Allah any protector and not any helper (31)",
+      transliteration:
+        "wamā antum bimuʿ'jizīna fī l-arḍi wamā lakum min dūni l-lahi min waliyyin walā naṣīrin ",
+      verse: 4303,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 32,
       image: "",
-      text: "And of His signs are the ships in the sea, like mountains.",
-      verse: 4173,
+      text: "And among His Signs (are) the ships in the sea like [the] mountains (32)",
+      transliteration: "wamin āyātihi l-jawāri fī l-baḥri kal-aʿlāmi ",
+      verse: 4304,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 33,
       image: "",
-      text:
-        "If He willed, He could still the wind, and they would remain motionless on its surface. Indeed in that are signs for everyone patient and grateful.",
-      verse: 4174,
+      text: "If He wills He can cause the wind to become still He can cause the wind to become still then they would remain motionless on its back Indeed in that surely (are) Signs for everyone patient (and) grateful (33)",
+      transliteration:
+        "in yasha yus'kini l-rīḥa fayaẓlalna rawākida ʿalā ẓahrihi inna fī dhālika laāyātin likulli ṣabbārin shakūrin ",
+      verse: 4305,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 34,
       image: "",
-      text:
-        "Or He could destroy them for what they earned; but He pardons much.",
-      verse: 4175,
+      text: "Or He could destroy them for what they have earned but He pardons [from] much (34)",
+      transliteration: "aw yūbiq'hunna bimā kasabū wayaʿfu ʿan kathīrin ",
+      verse: 4306,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 35,
       image: "",
-      text:
-        "And [that is so] those who dispute concerning Our signs may know that for them there is no place of escape.",
-      verse: 4176,
+      text: "And may know those who dispute concerning Our Signs (that) not for them any place of refuge (35)",
+      transliteration:
+        "wayaʿlama alladhīna yujādilūna fī āyātinā mā lahum min maḥīṣin ",
+      verse: 4307,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 36,
       image: "",
-      text:
-        "So whatever thing you have been given -  it is but [for] enjoyment of the worldly life. But what is with Allah is better and more lasting for those who have believed and upon their Lord rely",
-      verse: 4177,
+      text: "So whatever you are given of a thing (is) but a passing enjoyment (for) the life (of) the world But what (is) with Allah (is) better and more lasting for those who believe and upon their Lord put (their) trust (36)",
+      transliteration:
+        "famā ūtītum min shayin famatāʿu l-ḥayati l-dun'yā wamā ʿinda l-lahi khayrun wa-abqā lilladhīna āmanū waʿalā rabbihim yatawakkalūna ",
+      verse: 4308,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 37,
       image: "",
-      text:
-        "And those who avoid the major sins and immoralities, and when they are angry, they forgive,",
-      verse: 4178,
+      text: "And those who avoid (the) greater sins and the immoralities and when and when they are angry they forgive (37)",
+      transliteration:
+        "wa-alladhīna yajtanibūna kabāira l-ith'mi wal-fawāḥisha wa-idhā mā ghaḍibū hum yaghfirūna ",
+      verse: 4309,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 38,
       image: "",
-      text:
-        "And those who have responded to their lord and established prayer and whose affair is [determined by] consultation among themselves, and from what We have provided them, they spend.",
-      verse: 4179,
+      text: "And those who respond to their Lord and establish prayer and their affairs (are conducted by) consultation among them and from what We have provided them they spend (38)",
+      transliteration:
+        "wa-alladhīna is'tajābū lirabbihim wa-aqāmū l-ṣalata wa-amruhum shūrā baynahum wamimmā razaqnāhum yunfiqūna ",
+      verse: 4310,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 39,
       image: "",
-      text: "And those who, when tyranny strikes them, they defend themselves,",
-      verse: 4180,
+      text: "And those who when strikes them tyranny they defend themselves (39)",
+      transliteration: "wa-alladhīna idhā aṣābahumu l-baghyu hum yantaṣirūna ",
+      verse: 4311,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 40,
       image: "",
-      text:
-        "And the retribution for an evil act is an evil one like it, but whoever pardons and makes reconciliation -  his reward is [due] from Allah . Indeed, He does not like wrongdoers.",
-      verse: 4181,
+      text: "(The) recompense (of) an evil (is) an evil like it But whoever pardons and makes reconciliation then his reward (is) on Allah Indeed, He (does) not like the wrongdoers (40)",
+      transliteration:
+        "wajazāu sayyi-atin sayyi-atun mith'luhā faman ʿafā wa-aṣlaḥa fa-ajruhu ʿalā l-lahi innahu lā yuḥibbu l-ẓālimīna ",
+      verse: 4312,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 41,
       image: "",
-      text:
-        "And whoever avenges himself after having been wronged -  those have not upon them any cause [for blame].",
-      verse: 4182,
+      text: "And surely whosoever defends himself after he has been wronged then those not (is) against them any way (41)",
+      transliteration:
+        "walamani intaṣara baʿda ẓul'mihi fa-ulāika mā ʿalayhim min sabīlin ",
+      verse: 4313,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 42,
       image: "",
-      text:
-        "The cause is only against the ones who wrong the people and tyrannize upon the earth without right. Those will have a painful punishment.",
-      verse: 4183,
+      text: "Only the way against those who oppress the people and rebel in the earth without right Those for them (is) a punishment painful (42)",
+      transliteration:
+        "innamā l-sabīlu ʿalā alladhīna yaẓlimūna l-nāsa wayabghūna fī l-arḍi bighayri l-ḥaqi ulāika lahum ʿadhābun alīmun ",
+      verse: 4314,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 43,
       image: "",
-      text:
-        "And whoever is patient and forgives -  indeed, that is of the matters [requiring] determination.",
-      verse: 4184,
+      text: "And whoever (is) patient and forgives indeed that (is) surely of matters of determination matters of determination (43)",
+      transliteration:
+        "walaman ṣabara waghafara inna dhālika lamin ʿazmi l-umūri ",
+      verse: 4315,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 44,
       image: "",
-      text:
-        'And he whom Allah sends astray -  for him there is no protector beyond Him. And you will see the wrongdoers, when they see the punishment, saying, "Is there for return [to the former world] any way?"',
-      verse: 4185,
+      text: "And whoever Allah lets go astray Allah lets go astray then not for him any protector after Him after Him And you will see the wrongdoers when they see the punishment saying Is (there) for return any way (44)",
+      transliteration:
+        "waman yuḍ'lili l-lahu famā lahu min waliyyin min baʿdihi watarā l-ẓālimīna lammā ra-awū l-ʿadhāba yaqūlūna hal ilā maraddin min sabīlin ",
+      verse: 4316,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 45,
       image: "",
-      text:
-        'And you will see them being exposed to the Fire, humbled from humiliation, looking from [behind] a covert glance. And those who had believed will say, "Indeed, the [true] losers are the ones who lost themselves and their families on the Day of Resurrection. Unquestionably, the wrongdoers are in an enduring punishment."',
-      verse: 4186,
+      text: "And you will see them being exposed to it humbled by disgrace looking with a glance stealthy And will say those who believed Indeed the losers (are) those who lost themselves and their families (on the) Day (of) the Resurrection Unquestionably Indeed the wrongdoers (are) in a punishment lasting (45)",
+      transliteration:
+        "watarāhum yuʿ'raḍūna ʿalayhā khāshiʿīna mina l-dhuli yanẓurūna min ṭarfin khafiyyin waqāla alladhīna āmanū inna l-khāsirīna alladhīna khasirū anfusahum wa-ahlīhim yawma l-qiyāmati alā inna l-ẓālimīna fī ʿadhābin muqīmin ",
+      verse: 4317,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 46,
       image: "",
-      text:
-        "And there will not be for them any allies to aid them other than Allah . And whoever Allah sends astray -  for him there is no way.",
-      verse: 4187,
+      text: "And not will be for them any protector (who) will help them besides besides Allah And whom Allah lets go astray Allah lets go astray then not for him any way (46)",
+      transliteration:
+        "wamā kāna lahum min awliyāa yanṣurūnahum min dūni l-lahi waman yuḍ'lili l-lahu famā lahu min sabīlin ",
+      verse: 4318,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 47,
       image: "",
-      text:
-        "Respond to your Lord before a Day comes from Allah of which there is no repelling. No refuge will you have that day, nor for you will there be any denial.",
-      verse: 4188,
+      text: "Respond to your Lord before before [that] comes a Day (there is) no averting for it from Allah Not (is) for you any refuge (on) that Day and not for you any denial (47)",
+      transliteration:
+        "is'tajībū lirabbikum min qabli an yatiya yawmun lā maradda lahu mina l-lahi mā lakum min malja-in yawma-idhin wamā lakum min nakīrin ",
+      verse: 4319,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 48,
       image: "",
-      text:
-        "But if they turn away -  then We have not sent you, [O Muhammad], over them as a guardian; upon you is only [the duty of] notification. And indeed, when We let man taste mercy from us, he rejoices in it; but if evil afflicts him for what his hands have put forth, then indeed, man is ungrateful.",
-      verse: 4189,
+      text: "Then if they turn away then not We have sent you over them (as) a guardian Not (is) on you except the conveyance And indeed when We cause to taste [the] man from Us Mercy he rejoices in it But if befalls them evil for what have sent forth their hands then indeed [the] man (is) ungrateful (48)",
+      transliteration:
+        "fa-in aʿraḍū famā arsalnāka ʿalayhim ḥafīẓan in ʿalayka illā l-balāghu wa-innā idhā adhaqnā l-insāna minnā raḥmatan fariḥa bihā wa-in tuṣib'hum sayyi-atun bimā qaddamat aydīhim fa-inna l-insāna kafūrun ",
+      verse: 4320,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 49,
       image: "",
-      text:
-        "To Allah belongs the dominion of the heavens and the earth; He creates what he wills. He gives to whom He wills female [children], and He gives to whom He wills males.",
-      verse: 4190,
+      text: "To Allah (belongs the) dominion (of) the heavens and the earth He creates what He wills He grants to whom He wills females and He grants to whom He wills [the] males (49)",
+      transliteration:
+        "lillahi mul'ku l-samāwāti wal-arḍi yakhluqu mā yashāu yahabu liman yashāu ināthan wayahabu liman yashāu l-dhukūra ",
+      verse: 4321,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 50,
       image: "",
-      text:
-        "Or He makes them [both] males and females, and He renders whom He wills barren. Indeed, He is Knowing and Competent.",
-      verse: 4191,
+      text: "Or He grants them males and females and He makes whom He wills barren Indeed, He (is) All-Knower All-Powerful (50)",
+      transliteration:
+        "aw yuzawwijuhum dhuk'rānan wa-ināthan wayajʿalu man yashāu ʿaqīman innahu ʿalīmun qadīrun ",
+      verse: 4322,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 51,
       image: "",
-      text:
-        "And it is not for any human being that Allah should speak to him except by revelation or from behind a partition or that He sends a messenger to reveal, by His permission, what He wills. Indeed, He is Most High and Wise.",
-      verse: 4192,
+      text: "And not is for any human that Allah should speak to him Allah should speak to him except (by) revelation or from behind a veil or (by) sending a messenger then he reveals by His permission what He wills Indeed, He (is) Most High Most Wise (51)",
+      transliteration:
+        "wamā kāna libasharin an yukallimahu l-lahu illā waḥyan aw min warāi ḥijābin aw yur'sila rasūlan fayūḥiya bi-idh'nihi mā yashāu innahu ʿaliyyun ḥakīmun ",
+      verse: 4323,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 52,
       image: "",
-      text:
-        "And thus We have revealed to you an inspiration of Our command. You did not know what is the Book or [what is] faith, but We have made it a light by which We guide whom We will of Our servants. And indeed, [O Muhammad], you guide to a straight path -",
-      verse: 4193,
+      text: "And thus We have revealed to you an inspiration by Our Command Not (did) you know what the Book (is) and not the faith But We have made it a light We guide with it whom We will of Our slaves And indeed, you surely guide to (the) Path Straight (52)",
+      transliteration:
+        "wakadhālika awḥaynā ilayka rūḥan min amrinā mā kunta tadrī mā l-kitābu walā l-īmānu walākin jaʿalnāhu nūran nahdī bihi man nashāu min ʿibādinā wa-innaka latahdī ilā ṣirāṭin mus'taqīmin ",
+      verse: 4324,
+      juz: 25,
+      surah: 42,
     },
     {
       number: 53,
       image: "",
-      text:
-        "The path of Allah, to whom belongs whatever is in the heavens and whatever is on the earth. Unquestionably, to Allah do [all] matters evolve.",
-      verse: 4194,
+      text: "(The) path (of) Allah the One to Whom (belongs) whatever (is) in the heavens and whatever (is) in the earth Unquestionably To Allah reach all affairs (53)",
+      transliteration:
+        "ṣirāṭi l-lahi alladhī lahu mā fī l-samāwāti wamā fī l-arḍi alā ilā l-lahi taṣīru l-umūru ",
+      verse: 4325,
+      juz: 25,
+      surah: 42,
     },
   ],
 };

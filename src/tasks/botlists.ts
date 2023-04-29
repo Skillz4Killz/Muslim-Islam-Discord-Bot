@@ -1,6 +1,6 @@
-// import { Milliseconds } from "../utils/constants/time.ts";
-// import { botCache, botID, cache } from "../../deps.ts";
-// import { configs } from "../../configs.ts";
+// import { Milliseconds } from "../utils/constants/time.js";
+// import { botCache, botID, cache } from "../../deps.js";
+// import { configs } from "../../configs.js";
 
 // botCache.tasks.set(`botlists`, {
 //   name: `botlists`,

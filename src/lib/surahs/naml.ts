@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const naml: Surah = {
   name: "An-Naml",
@@ -6,646 +6,919 @@ export const naml: Surah = {
     {
       number: 1,
       image: "",
-      text: "Ta, Seen.  These are the verses of the Qur'an and a clear Book",
-      verse: 3029,
+      text: "Ta Seen These (are the) Verses (of) the Quran and a Book clear (1)",
+      transliteration: "tta-seen til'ka āyātu l-qur'āni wakitābin mubīnin ",
+      verse: 3160,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 2,
       image: "",
-      text: "As guidance and good tidings for the believers",
-      verse: 3030,
+      text: "A guidance and glad tidings for the believers (2)",
+      transliteration: "hudan wabush'rā lil'mu'minīna ",
+      verse: 3161,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 3,
       image: "",
-      text:
-        "Who establish prayer and give zakah, and of the Hereafter they are certain [in faith].",
-      verse: 3031,
+      text: "Those who establish the prayer and give zakah and they in the Hereafter [they] believe with certainty (3)",
+      transliteration:
+        "alladhīna yuqīmūna l-ṣalata wayu'tūna l-zakata wahum bil-ākhirati hum yūqinūna ",
+      verse: 3162,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 4,
       image: "",
-      text:
-        "Indeed, for those who do not believe in the Hereafter, We have made pleasing to them their deeds, so they wander blindly.",
-      verse: 3032,
+      text: "Indeed those who (do) not believe in the Hereafter We have made fair-seeming to them their deeds so they wander blindly (4)",
+      transliteration:
+        "inna alladhīna lā yu'minūna bil-ākhirati zayyannā lahum aʿmālahum fahum yaʿmahūna ",
+      verse: 3163,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 5,
       image: "",
-      text:
-        "Those are the ones for whom there will be the worst of punishment, and in the Hereafter they are the greatest losers.",
-      verse: 3033,
+      text: "Those (are) the ones for them (is) an evil [the] punishment and they in the Hereafter [they] (will be) the greatest losers (5)",
+      transliteration:
+        "ulāika alladhīna lahum sūu l-ʿadhābi wahum fī l-ākhirati humu l-akhsarūna ",
+      verse: 3164,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 6,
       image: "",
-      text:
-        "And indeed, [O Muhammad], you receive the Qur'an from one Wise and Knowing.",
-      verse: 3034,
+      text: "And indeed, you surely, receive the Quran from [near] from [near] the All-Wise the All-Knower (6)",
+      transliteration: "wa-innaka latulaqqā l-qur'āna min ladun ḥakīmin ʿalīmin ",
+      verse: 3165,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 7,
       image: "",
-      text:
-        '[Mention] when Moses said to his family, "Indeed, I have perceived a fire. I will bring you from there information or will bring you a burning torch that you may warm yourselves."',
-      verse: 3035,
+      text: "When said Musa to his family Indeed, I perceive a fire I will bring you from it some information or I will bring you a torch burning so that you may warm yourselves (7)",
+      transliteration:
+        "idh qāla mūsā li-ahlihi innī ānastu nāran saātīkum min'hā bikhabarin aw ātīkum bishihābin qabasin laʿallakum taṣṭalūna ",
+      verse: 3166,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 8,
       image: "",
-      text:
-        'But when he came to it, he was called, "Blessed is whoever is at the fire and whoever is around it. And exalted is Allah, Lord of the worlds.',
-      verse: 3036,
+      text: "But when he came to it he was called [that] Blessed is who (is) at the fire and whoever (is) around it And glory be (to) Allah (the) Lord (of) the worlds (8)",
+      transliteration:
+        "falammā jāahā nūdiya an būrika man fī l-nāri waman ḥawlahā wasub'ḥāna l-lahi rabbi l-ʿālamīna ",
+      verse: 3167,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 9,
       image: "",
-      text: 'O Moses, indeed it is I - Allah, the Exalted in Might, the Wise."',
-      verse: 3037,
+      text: "O Musa Indeed I Am Allah the All-Mighty the All-Wise (9)",
+      transliteration: "yāmūsā innahu anā l-lahu l-ʿazīzu l-ḥakīmu ",
+      verse: 3168,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 10,
       image: "",
-      text:
-        'And [he was told], "Throw down your staff." But when he saw it writhing as if it were a snake, he turned in flight and did not return. [ Allah said], "O Moses, fear not. Indeed, in My presence the messengers do not fear.',
-      verse: 3038,
+      text: 'And, "Throw your staff But when he saw it moving as if it (were) a snake he turned back (in) flight and (did) not look back O Musa (Do) not fear Indeed, [I] (do) not fear (in) My presence the Messengers (10)',
+      transliteration:
+        "wa-alqi ʿaṣāka falammā raāhā tahtazzu ka-annahā jānnun wallā mud'biran walam yuʿaqqib yāmūsā lā takhaf innī lā yakhāfu ladayya l-mur'salūna ",
+      verse: 3169,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 11,
       image: "",
-      text:
-        "Otherwise, he who wrongs, then substitutes good after evil -  indeed, I am Forgiving and Merciful.",
-      verse: 3039,
+      text: "Except who wrongs then substitutes good after evil then indeed, I Am Oft-Forgiving Most Merciful (11)",
+      transliteration:
+        "illā man ẓalama thumma baddala ḥus'nan baʿda sūin fa-innī ghafūrun raḥīmun ",
+      verse: 3170,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 12,
       image: "",
-      text:
-        'And put your hand into the opening of your garment [at the breast]; it will come out white without disease. [These are] among the nine signs [you will take] to Pharaoh and his people. Indeed, they have been a people defiantly disobedient."',
-      verse: 3040,
+      text: "And enter your hand into your bosom it will come forth white without without harm (These are) among nine signs to Firaun and his people Indeed, they are a people defiantly disobedient (12)",
+      transliteration:
+        "wa-adkhil yadaka fī jaybika takhruj bayḍāa min ghayri sūin fī tis'ʿi āyātin ilā fir'ʿawna waqawmihi innahum kānū qawman fāsiqīna ",
+      verse: 3171,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 13,
       image: "",
-      text:
-        'But when there came to them Our visible signs, they said, "This is obvious magic."',
-      verse: 3041,
+      text: "But when came to them Our Signs visible they said This (is) a magic manifest (13)",
+      transliteration:
+        "falammā jāathum āyātunā mub'ṣiratan qālū hādhā siḥ'run mubīnun ",
+      verse: 3172,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 14,
       image: "",
-      text:
-        "And they rejected them, while their [inner] selves were convinced thereof, out of injustice and haughtiness. So see how was the end of the corrupters.",
-      verse: 3042,
+      text: "And they rejected them though were convinced with them (signs) themselves (out of) injustice and haughtiness So see how was (the) end (of) the corrupters (14)",
+      transliteration:
+        "wajaḥadū bihā wa-is'tayqanathā anfusuhum ẓul'man waʿuluwwan fa-unẓur kayfa kāna ʿāqibatu l-muf'sidīna ",
+      verse: 3173,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 15,
       image: "",
-      text:
-        'And We had certainly given to David and Solomon knowledge, and they said, "Praise [is due] to Allah, who has favored us over many of His believing servants."',
-      verse: 3043,
+      text: "And verily We gave Dawood and Sulaiman knowledge and they said Praise be to Allah the One Who has favored us over many of His servants the believers (15)",
+      transliteration:
+        "walaqad ātaynā dāwūda wasulaymāna ʿil'man waqālā l-ḥamdu lillahi alladhī faḍḍalanā ʿalā kathīrin min ʿibādihi l-mu'minīna ",
+      verse: 3174,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 16,
       image: "",
-      text:
-        'And Solomon inherited David. He said, "O people, we have been taught the language of birds, and we have been given from all things. Indeed, this is evident bounty."',
-      verse: 3044,
+      text: "And inherited Sulaiman Dawood And he said O people We have been taught (the) language (of) the birds and we have been given from every thing Indeed this surely, it (is) the favor evident (16)",
+      transliteration:
+        "wawaritha sulaymānu dāwūda waqāla yāayyuhā l-nāsu ʿullim'nā manṭiqa l-ṭayri waūtīnā min kulli shayin inna hādhā lahuwa l-faḍlu l-mubīnu ",
+      verse: 3175,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 17,
       image: "",
-      text:
-        "And gathered for Solomon were his soldiers of the jinn and men and birds, and they were [marching] in rows.",
-      verse: 3045,
+      text: "And were gathered for Sulaiman his hosts of jinn and the men and the birds and they (were) set in rows (17)",
+      transliteration:
+        "waḥushira lisulaymāna junūduhu mina l-jini wal-insi wal-ṭayri fahum yūzaʿūna ",
+      verse: 3176,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 18,
       image: "",
-      text:
-        'Until, when they came upon the valley of the ants, an ant said, "O ants, enter your dwellings that you not be crushed by Solomon and his soldiers while they perceive not."',
-      verse: 3046,
+      text: "Until when they came to (the) valley (of) the ants said an ant O ants Enter your dwellings lest not crush you lest not crush you Sulaiman and his hosts while they (do) not perceive (do) not perceive (18)",
+      transliteration:
+        "ḥattā idhā ataw ʿalā wādi l-namli qālat namlatun yāayyuhā l-namlu ud'khulū masākinakum lā yaḥṭimannakum sulaymānu wajunūduhu wahum lā yashʿurūna ",
+      verse: 3177,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 19,
       image: "",
-      text:
-        'So [Solomon] smiled, amused at her speech, and said, "My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents and to do righteousness of which You approve. And admit me by Your mercy into [the ranks of] Your righteous servants."',
-      verse: 3047,
+      text: "So he smiled  laughing at her speech and said My Lord Grant me (the) power that I may thank You (for) Your Favor which You have bestowed on me and on my parents and that I may do righteous (deeds) that will please You And admit me by Your Mercy among Your slaves righteous (19)",
+      transliteration:
+        "fatabassama ḍāḥikan min qawlihā waqāla rabbi awziʿ'nī an ashkura niʿ'mataka allatī anʿamta ʿalayya waʿalā wālidayya wa-an aʿmala ṣāliḥan tarḍāhu wa-adkhil'nī biraḥmatika fī ʿibādika l-ṣāliḥīna ",
+      verse: 3178,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 20,
       image: "",
-      text:
-        'And he took attendance of the birds and said, "Why do I not see the hoopoe -  or is he among the absent?',
-      verse: 3048,
+      text: "And he inspected the birds and said Why Why not I see the hoopoe or is he from the absent (20)",
+      transliteration:
+        "watafaqqada l-ṭayra faqāla mā liya lā arā l-hud'huda am kāna mina l-ghāibīna ",
+      verse: 3179,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 21,
       image: "",
-      text:
-        'I will surely punish him with a severe punishment or slaughter him unless he brings me clear authorization."',
-      verse: 3049,
+      text: "I will surely punish him (with) a punishment severe or I will surely slaughter him unless he brings me a reason clear (21)",
+      transliteration:
+        "la-uʿadhibannahu ʿadhāban shadīdan aw laādh'baḥannahu aw layatiyannī bisul'ṭānin mubīnin ",
+      verse: 3180,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 22,
       image: "",
-      text:
-        'But the hoopoe stayed not long and said, "I have encompassed [in knowledge] that which you have not encompassed, and I have come to you from Sheba with certain news.',
-      verse: 3050,
+      text: "So he stayed not long and he said I have encompassed that which not you have encompassed it and I have come to you from Saba with news certain (22)",
+      transliteration:
+        "famakatha ghayra baʿīdin faqāla aḥaṭtu bimā lam tuḥiṭ bihi waji'tuka min saba-in binaba-in yaqīnin ",
+      verse: 3181,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 23,
       image: "",
-      text:
-        "Indeed, I found [there] a woman ruling them, and she has been given of all things, and she has a great throne.",
-      verse: 3051,
+      text: "Indeed, I found a woman ruling them and she has been given of every thing and for her (is) a throne great (23)",
+      transliteration:
+        "innī wajadttu im'ra-atan tamlikuhum waūtiyat min kulli shayin walahā ʿarshun ʿaẓīmun ",
+      verse: 3182,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 24,
       image: "",
-      text:
-        "I found her and her people prostrating to the sun instead of Allah, and Satan has made their deeds pleasing to them and averted them from [His] way, so they are not guided,",
-      verse: 3052,
+      text: "And I found her and her people prostrating to the sun instead of Allah instead of Allah instead of Allah and has made fair-seeming to them the Shaitaan their deeds and averted them from the Way so they (are) not guided (24)",
+      transliteration:
+        "wajadttuhā waqawmahā yasjudūna lilshamsi min dūni l-lahi wazayyana lahumu l-shayṭānu aʿmālahum faṣaddahum ʿani l-sabīli fahum lā yahtadūna ",
+      verse: 3183,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 25,
       image: "",
-      text:
-        "[And] so they do not prostrate to Allah, who brings forth what is hidden within the heavens and the earth and knows what you conceal and what you declare -",
-      verse: 3053,
+      text: "That not they prostrate to Allah the One Who brings forth the hidden in the heavens and the earth and knows what you conceal and what you declare (25)",
+      transliteration:
+        "allā yasjudū lillahi alladhī yukh'riju l-khaba-a fī l-samāwāti wal-arḍi wayaʿlamu mā tukh'fūna wamā tuʿ'linūna ",
+      verse: 3184,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 26,
       image: "",
-      text: 'Allah -  there is no deity except Him, Lord of the Great Throne."',
-      verse: 3054,
+      text: "Allah (there is) no god but He (the) Lord (of) the Throne the Great (26)",
+      transliteration: "al-lahu lā ilāha illā huwa rabbu l-ʿarshi l-ʿaẓīmi ",
+      verse: 3185,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 27,
       image: "",
-      text:
-        '[Solomon] said, "We will see whether you were truthful or were of the liars.',
-      verse: 3055,
+      text: "He said We will see whether you speak (the) truth or you are of the liars (27)",
+      transliteration: "qāla sananẓuru aṣadaqta am kunta mina l-kādhibīna ",
+      verse: 3186,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 28,
       image: "",
-      text:
-        'Take this letter of mine and deliver it to them. Then leave them and see what [answer] they will return."',
-      verse: 3056,
+      text: "Go with my letter this and deliver it to them Then turn away from them and see what they return (28)",
+      transliteration:
+        "idh'hab bikitābī hādhā fa-alqih ilayhim thumma tawalla ʿanhum fa-unẓur mādhā yarjiʿūna ",
+      verse: 3187,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 29,
       image: "",
-      text:
-        'She said, "O eminent ones, indeed, to me has been delivered a noble letter.',
-      verse: 3057,
+      text: "She said O chiefs Indeed [I] is delivered to me a letter noble (29)",
+      transliteration:
+        "qālat yāayyuhā l-mala-u innī ul'qiya ilayya kitābun karīmun ",
+      verse: 3188,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 30,
       image: "",
-      text:
-        "Indeed, it is from Solomon, and indeed, it reads: 'In the name of Allah, the Entirely Merciful, the Especially Merciful,",
-      verse: 3058,
+      text: "Indeed, it (is) from Sulaiman and indeed it (is) In the name (of) Allah the Most Gracious the Most Merciful (30)",
+      transliteration:
+        "innahu min sulaymāna wa-innahu bis'mi l-lahi l-raḥmāni l-raḥīmi ",
+      verse: 3189,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 31,
       image: "",
-      text:
-        "Be not haughty with me but come to me in submission [as Muslims].' \"",
-      verse: 3059,
+      text: "That not exalt yourselves against me but come to me (in) submission (31)",
+      transliteration: "allā taʿlū ʿalayya watūnī mus'limīna ",
+      verse: 3190,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 32,
       image: "",
-      text:
-        'She said, "O eminent ones, advise me in my affair. I would not decide a matter until you witness [for] me."',
-      verse: 3060,
+      text: "She said O chiefs Advise me in my affair Not I would be the one to decide any matter until you are present with me (32)",
+      transliteration:
+        "qālat yāayyuhā l-mala-u aftūnī fī amrī mā kuntu qāṭiʿatan amran ḥattā tashhadūni ",
+      verse: 3191,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 33,
       image: "",
-      text:
-        'They said, "We are men of strength and of great military might, but the command is yours, so see what you will command."',
-      verse: 3061,
+      text: "They said We (are) possessors (of) strength and possessors (of) might great and the command (is) up to you so look what you will command (33)",
+      transliteration:
+        "qālū naḥnu ulū quwwatin wa-ulū basin shadīdin wal-amru ilayki fa-unẓurī mādhā tamurīna ",
+      verse: 3192,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 34,
       image: "",
-      text:
-        'She said, "Indeed kings -  when they enter a city, they ruin it and render the honored of its people humbled. And thus do they do.',
-      verse: 3062,
+      text: "She said Indeed the kings when they enter a town they ruin it and make (the) most honorable (of) its people (the) lowest And thus they do (34)",
+      transliteration:
+        "qālat inna l-mulūka idhā dakhalū qaryatan afsadūhā wajaʿalū aʿizzata ahlihā adhillatan wakadhālika yafʿalūna ",
+      verse: 3193,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 35,
       image: "",
-      text:
-        'But indeed, I will send to them a gift and see with what [reply] the messengers will return."',
-      verse: 3063,
+      text: "But indeed, I am going to send to them a gift and see with what return the messengers (35)",
+      transliteration:
+        "wa-innī mur'silatun ilayhim bihadiyyatin fanāẓiratun bima yarjiʿu l-mur'salūna ",
+      verse: 3194,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 36,
       image: "",
-      text:
-        'So when they came to Solomon, he said, "Do you provide me with wealth? But what Allah has given me is better than what He has given you. Rather, it is you who rejoice in your gift.',
-      verse: 3064,
+      text: "So when came (to) Sulaiman he said Will you provide me with wealth But what Allah has given me Allah has given me (is) better than what He has given you Nay you in your gift rejoice (36)",
+      transliteration:
+        "falammā jāa sulaymāna qāla atumiddūnani bimālin famā ātāniya l-lahu khayrun mimmā ātākum bal antum bihadiyyatikum tafraḥūna ",
+      verse: 3195,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 37,
       image: "",
-      text:
-        'Return to them, for we will surely come to them with soldiers that they will be powerless to encounter, and we will surely expel them therefrom in humiliation, and they will be debased."',
-      verse: 3065,
+      text: "Return to them surely, we will come to them with hosts not (is) resistance for them of it and surely, we will drive them out from there (in) humiliation and they (will be) abased (37)",
+      transliteration:
+        "ir'jiʿ ilayhim falanatiyannahum bijunūdin lā qibala lahum bihā walanukh'rijannahum min'hā adhillatan wahum ṣāghirūna ",
+      verse: 3196,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 38,
       image: "",
-      text:
-        '[Solomon] said, "O assembly [of jinn], which of you will bring me her throne before they come to me in submission?"',
-      verse: 3066,
+      text: "He said O chiefs Which of you will bring me her throne before that they come to me (in) submission (38)",
+      transliteration:
+        "qāla yāayyuhā l-mala-u ayyukum yatīnī biʿarshihā qabla an yatūnī mus'limīna ",
+      verse: 3197,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 39,
       image: "",
-      text:
-        'A powerful one from among the jinn said, "I will bring it to you before you rise from your place, and indeed, I am for this [task] strong and trustworthy."',
-      verse: 3067,
+      text: "Said a strong one of the jinn I will bring it to you will bring it to you before [that] you rise from your place And indeed, I am for it surely, strong trustworthy (39)",
+      transliteration:
+        "qāla ʿif'rītun mina l-jini anā ātīka bihi qabla an taqūma min maqāmika wa-innī ʿalayhi laqawiyyun amīnun ",
+      verse: 3198,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 40,
       image: "",
-      text:
-        'Said one who had knowledge from the Scripture, "I will bring it to you before your glance returns to you." And when [Solomon] saw it placed before him, he said, "This is from the favor of my Lord to test me whether I will be grateful or ungrateful. And whoever is grateful -  his gratitude is only for [the benefit of] himself. And whoever is ungrateful -  then indeed, my Lord is Free of need and Generous."',
-      verse: 3068,
+      text: "Said one who with him (was) knowledge of the Scripture I will bring it to you will bring it to you before [that] returns to you your glance Then when he saw it placed before him he said This (is) from (the) Favor (of) my Lord to test me whether I am grateful or I am ungrateful And whoever (is) grateful then only he is grateful for his own soul And whoever (is) ungrateful then indeed my Lord (is) Self-sufficient Noble (40)",
+      transliteration:
+        "qāla alladhī ʿindahu ʿil'mun mina l-kitābi anā ātīka bihi qabla an yartadda ilayka ṭarfuka falammā raāhu mus'taqirran ʿindahu qāla hādhā min faḍli rabbī liyabluwanī a-ashkuru am akfuru waman shakara fa-innamā yashkuru linafsihi waman kafara fa-inna rabbī ghaniyyun karīmun ",
+      verse: 3199,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 41,
       image: "",
-      text:
-        'He said, "Disguise for her her throne; we will see whether she will be guided [to truth] or will be of those who is not guided."',
-      verse: 3069,
+      text: "He said Disguise for her her throne we will see whether she will be guided or will be of those who are not guided are not guided (41)",
+      transliteration:
+        "qāla nakkirū lahā ʿarshahā nanẓur atahtadī am takūnu mina alladhīna lā yahtadūna ",
+      verse: 3200,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 42,
       image: "",
-      text:
-        'So when she arrived, it was said [to her], "Is your throne like this?" She said, "[It is] as though it was it." [Solomon said], "And we were given knowledge before her, and we have been Muslims [in submission to Allah ].',
-      verse: 3070,
+      text: "So when she came it was said Is like this your throne She said It is like it And we were given the knowledge before her before her and we have been Muslims (42)",
+      transliteration:
+        "falammā jāat qīla ahākadhā ʿarshuki qālat ka-annahu huwa waūtīnā l-ʿil'ma min qablihā wakunnā mus'limīna ",
+      verse: 3201,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 43,
       image: "",
-      text:
-        'And that which she was worshipping other than Allah had averted her [from submission to Him]. Indeed, she was from a disbelieving people."',
-      verse: 3071,
+      text: "And has averted her what she used (to) worship besides besides Allah Indeed, she was from a people who disbelieve (43)",
+      transliteration:
+        "waṣaddahā mā kānat taʿbudu min dūni l-lahi innahā kānat min qawmin kāfirīna ",
+      verse: 3202,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 44,
       image: "",
-      text:
-        'She was told, "Enter the palace." But when she saw it, she thought it was a body of water and uncovered her shins [to wade through]. He said, "Indeed, it is a palace [whose floor is] made smooth with glass." She said, "My Lord, indeed I have wronged myself, and I submit with Solomon to Allah, Lord of the worlds."',
-      verse: 3072,
+      text: "It was said to her Enter the palace Then when she saw it she thought it (was) a pool and she uncovered [on] her shins He said Indeed, it (is) a palace made smooth of glass She said My Lord indeed, I [I] have wronged myself and I submit with Sulaiman to Allah (the) Lord (of) the worlds (44)",
+      transliteration:
+        "qīla lahā ud'khulī l-ṣarḥa falammā ra-athu ḥasibathu lujjatan wakashafat ʿan sāqayhā qāla innahu ṣarḥun mumarradun min qawārīra qālat rabbi innī ẓalamtu nafsī wa-aslamtu maʿa sulaymāna lillahi rabbi l-ʿālamīna ",
+      verse: 3203,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 45,
       image: "",
-      text:
-        'And We had certainly sent to Thamud their brother Salih, [saying], "Worship Allah," and at once they were two parties conflicting.',
-      verse: 3073,
+      text: "And certainly We sent to Thamud their brother Salih that Worship Allah Then behold They (became) two parties quarreling (45)",
+      transliteration:
+        "walaqad arsalnā ilā thamūda akhāhum ṣāliḥan ani uʿ'budū l-laha fa-idhā hum farīqāni yakhtaṣimūna ",
+      verse: 3204,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 46,
       image: "",
-      text:
-        'He said, "O my people, why are you impatient for evil instead of good? Why do you not seek forgiveness of Allah that you may receive mercy?"',
-      verse: 3074,
+      text: "He said O my people Why (do) you seek to hasten the evil before the good Why not you ask forgiveness (of) Allah so that you may receive mercy (46)",
+      transliteration:
+        "qāla yāqawmi lima tastaʿjilūna bil-sayi-ati qabla l-ḥasanati lawlā tastaghfirūna l-laha laʿallakum tur'ḥamūna ",
+      verse: 3205,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 47,
       image: "",
-      text:
-        'They said, "We consider you a bad omen, you and those with you." He said, "Your omen is with Allah . Rather, you are a people being tested."',
-      verse: 3075,
+      text: "They said We consider you a bad omen We consider you a bad omen and those with you He said Your bad omen (is) with Allah Nay you (are) a people being tested (47)",
+      transliteration:
+        "qālū iṭṭayyarnā bika wabiman maʿaka qāla ṭāirukum ʿinda l-lahi bal antum qawmun tuf'tanūna ",
+      verse: 3206,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 48,
       image: "",
-      text:
-        "And there were in the city nine family heads causing corruption in the land and not amending [its affairs].",
-      verse: 3076,
+      text: "And were in the city nine family heads they were spreading corruption in the land and not reforming (48)",
+      transliteration:
+        "wakāna fī l-madīnati tis'ʿatu rahṭin yuf'sidūna fī l-arḍi walā yuṣ'liḥūna ",
+      verse: 3207,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 49,
       image: "",
-      text:
-        "They said, \"Take a mutual oath by Allah that we will kill him by night, he and his family. Then we will say to his executor, 'We did not witness the destruction of his family, and indeed, we are truthful.' \"",
-      verse: 3077,
+      text: "They said Swear to each other by Allah surely, we will attack him by night and his family Then we will surely say to his heir Not we witnessed (the) destruction (of) his family and indeed, we (are) surely truthful (49)",
+      transliteration:
+        "qālū taqāsamū bil-lahi lanubayyitannahu wa-ahlahu thumma lanaqūlanna liwaliyyihi mā shahid'nā mahlika ahlihi wa-innā laṣādiqūna ",
+      verse: 3208,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 50,
       image: "",
-      text:
-        "And they planned a plan, and We planned a plan, while they perceived not.",
-      verse: 3078,
+      text: "So they plotted a plot and We planned a plan while they (did) not perceive (50)",
+      transliteration: "wamakarū makran wamakarnā makran wahum lā yashʿurūna ",
+      verse: 3209,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 51,
       image: "",
-      text:
-        "Then look how was the outcome of their plan -  that We destroyed them and their people, all.",
-      verse: 3079,
+      text: "Then see how was (the) end (of) their plot that We destroyed them and their people all (51)",
+      transliteration:
+        "fa-unẓur kayfa kāna ʿāqibatu makrihim annā dammarnāhum waqawmahum ajmaʿīna ",
+      verse: 3210,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 52,
       image: "",
-      text:
-        "So those are their houses, desolate because of the wrong they had done. Indeed in that is a sign for people who know.",
-      verse: 3080,
+      text: "So, these (are) their houses ruined because they wronged Indeed in that surely, is a sign for a people who know (52)",
+      transliteration:
+        "fatil'ka buyūtuhum khāwiyatan bimā ẓalamū inna fī dhālika laāyatan liqawmin yaʿlamūna ",
+      verse: 3211,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 53,
       image: "",
-      text: "And We saved those who believed and used to fear Allah .",
-      verse: 3081,
+      text: "And We saved those who believed and used (to) fear (Allah) (53)",
+      transliteration: "wa-anjaynā alladhīna āmanū wakānū yattaqūna ",
+      verse: 3212,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 54,
       image: "",
-      text:
-        'And [mention] Lot, when he said to his people, "Do you commit immorality while you are seeing?',
-      verse: 3082,
+      text: "And Lut when he said to his people Do you commit [the] immorality while you see (54)",
+      transliteration:
+        "walūṭan idh qāla liqawmihi atatūna l-fāḥishata wa-antum tub'ṣirūna ",
+      verse: 3213,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 55,
       image: "",
-      text:
-        'Do you indeed approach men with desire instead of women? Rather, you are a people behaving ignorantly."',
-      verse: 3083,
+      text: "Why do you approach the men (with) lust instead of instead of the women Nay you (are) a people ignorant (55)",
+      transliteration:
+        "a-innakum latatūna l-rijāla shahwatan min dūni l-nisāi bal antum qawmun tajhalūna ",
+      verse: 3214,
+      juz: 19,
+      surah: 27,
     },
     {
       number: 56,
       image: "",
-      text:
-        'But the answer of his people was not except that they said, "Expel the family of Lot from your city. Indeed, they are people who keep themselves pure."',
-      verse: 3084,
+      text: "But not was (the) answer (of) his people except that they said Drive out (the) family (of) Lut from your town Indeed, they (are) people who keep clean and pure (56)",
+      transliteration:
+        "famā kāna jawāba qawmihi illā an qālū akhrijū āla lūṭin min qaryatikum innahum unāsun yataṭahharūna ",
+      verse: 3215,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 57,
       image: "",
-      text:
-        "So We saved him and his family, except for his wife; We destined her to be of those who remained behind.",
-      verse: 3085,
+      text: "So We saved him and his family except his wife We destined her (to be) of those who remained behind (57)",
+      transliteration:
+        "fa-anjaynāhu wa-ahlahu illā im'ra-atahu qaddarnāhā mina l-ghābirīna ",
+      verse: 3216,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 58,
       image: "",
-      text:
-        "And We rained upon them a rain [of stones], and evil was the rain of those who were warned.",
-      verse: 3086,
+      text: "And We rained upon them a rain and was evil (the) rain (on) those who were warned (58)",
+      transliteration: "wa-amṭarnā ʿalayhim maṭaran fasāa maṭaru l-mundharīna ",
+      verse: 3217,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 59,
       image: "",
-      text:
-        'Say, [O Muhammad], "Praise be to Allah, and peace upon His servants whom He has chosen. Is Allah better or what they associate with Him?"',
-      verse: 3087,
+      text: "Say All praise (be) to Allah and peace (be) upon His slaves those whom He has chosen Is Allah better or what they associate (with Him) (59)",
+      transliteration:
+        "quli l-ḥamdu lillahi wasalāmun ʿalā ʿibādihi alladhīna iṣ'ṭafā āllahu khayrun ammā yush'rikūna ",
+      verse: 3218,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 60,
       image: "",
-      text:
-        "[More precisely], is He [not best] who created the heavens and the earth and sent down for you rain from the sky, causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof? Is there a deity with Allah ? [No], but they are a people who ascribe equals [to Him].",
-      verse: 3088,
+      text: "Or Who has created the heavens and the earth and sent down for you from the sky water And We caused to grow thereby gardens of beauty (and delight) of beauty (and delight) not it is for you that you cause to grow their trees Is there any god with Allah Nay they (are) a people who ascribe equals (60)",
+      transliteration:
+        "amman khalaqa l-samāwāti wal-arḍa wa-anzala lakum mina l-samāi māan fa-anbatnā bihi ḥadāiqa dhāta bahjatin mā kāna lakum an tunbitū shajarahā a-ilāhun maʿa l-lahi bal hum qawmun yaʿdilūna ",
+      verse: 3219,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 61,
       image: "",
-      text:
-        "Is He [not best] who made the earth a stable ground and placed within it rivers and made for it firmly set mountains and placed between the two seas a barrier? Is there a deity with Allah ? [No], but most of them do not know.",
-      verse: 3089,
+      text: "Or Who made the earth a firm abode and made (in) its midst rivers and made for it firm mountains and made between the two seas a barrier Is there any god with Allah Nay most of them (do) not know (61)",
+      transliteration:
+        "amman jaʿala l-arḍa qarāran wajaʿala khilālahā anhāran wajaʿala lahā rawāsiya wajaʿala bayna l-baḥrayni ḥājizan a-ilāhun maʿa l-lahi bal aktharuhum lā yaʿlamūna ",
+      verse: 3220,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 62,
       image: "",
-      text:
-        "Is He [not best] who responds to the desperate one when he calls upon Him and removes evil and makes you inheritors of the earth? Is there a deity with Allah ? Little do you remember.",
-      verse: 3090,
+      text: "Or Who responds (to) the distressed one when he calls Him and He removes the evil and makes you inheritors (of) the earth Is there any god with Allah Little (is) what you remember (62)",
+      transliteration:
+        "amman yujību l-muḍ'ṭara idhā daʿāhu wayakshifu l-sūa wayajʿalukum khulafāa l-arḍi a-ilāhun maʿa l-lahi qalīlan mā tadhakkarūna ",
+      verse: 3221,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 63,
       image: "",
-      text:
-        "Is He [not best] who guides you through the darknesses of the land and sea and who sends the winds as good tidings before His mercy? Is there a deity with Allah ? High is Allah above whatever they associate with Him.",
-      verse: 3091,
+      text: "Or Who guides you in (the) darkness[es] (of) the land and the sea and Who sends the winds (as) glad tidings before before His Mercy Is there any god with Allah High is Allah above what they associate (with Him) (63)",
+      transliteration:
+        "amman yahdīkum fī ẓulumāti l-bari wal-baḥri waman yur'silu l-riyāḥa bush'ran bayna yaday raḥmatihi a-ilāhun maʿa l-lahi taʿālā l-lahu ʿammā yush'rikūna ",
+      verse: 3222,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 64,
       image: "",
-      text:
-        'Is He [not best] who begins creation and then repeats it and who provides for you from the heaven and earth? Is there a deity with Allah ? Say, "Produce your proof, if you should be truthful."',
-      verse: 3092,
+      text: "Or Who originates the creation then repeats it and Who provides you from the heavens and the earth Is there any god with Allah Say Bring forth your proof if you are truthful (64)",
+      transliteration:
+        "amman yabda-u l-khalqa thumma yuʿīduhu waman yarzuqukum mina l-samāi wal-arḍi a-ilāhun maʿa l-lahi qul hātū bur'hānakum in kuntum ṣādiqīna ",
+      verse: 3223,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 65,
       image: "",
-      text:
-        'Say, "None in the heavens and earth knows the unseen except Allah, and they do not perceive when they will be resurrected."',
-      verse: 3093,
+      text: "Say No (one) knows whoever (is) in the heavens and the earth (of) the unseen except Allah and not they perceive when they will be resurrected (65)",
+      transliteration:
+        "qul lā yaʿlamu man fī l-samāwāti wal-arḍi l-ghayba illā l-lahu wamā yashʿurūna ayyāna yub'ʿathūna ",
+      verse: 3224,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 66,
       image: "",
-      text:
-        "Rather, their knowledge is arrested concerning the Hereafter. Rather, they are in doubt about it. Rather, they are, concerning it, blind.",
-      verse: 3094,
+      text: "Nay is arrested their knowledge of the Hereafter Nay they (are) in doubt about it Nay they about it (are) blind (66)",
+      transliteration:
+        "bali iddāraka ʿil'muhum fī l-ākhirati bal hum fī shakkin min'hā bal hum min'hā ʿamūna ",
+      verse: 3225,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 67,
       image: "",
-      text:
-        'And those who disbelieve say, "When we have become dust as well as our forefathers, will we indeed be brought out [of the graves]?',
-      verse: 3095,
+      text: "And say those who disbelieve What, when we have become dust and our forefathers will we surely be brought out (67)",
+      transliteration:
+        "waqāla alladhīna kafarū a-idhā kunnā turāban waābāunā a-innā lamukh'rajūna ",
+      verse: 3226,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 68,
       image: "",
-      text:
-        'We have been promised this, we and our forefathers, before. This is not but legends of the former peoples."',
-      verse: 3096,
+      text: "Certainly we have been promised this we and our forefathers before before Not (is) this except tales (of) the former (people) (68)",
+      transliteration:
+        "laqad wuʿid'nā hādhā naḥnu waābāunā min qablu in hādhā illā asāṭīru l-awalīna ",
+      verse: 3227,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 69,
       image: "",
-      text:
-        'Say, [O Muhammad], "Travel through the land and observe how was the end of the criminals."',
-      verse: 3097,
+      text: "Say Travel in the land and see how was (the) end (of) the criminals (69)",
+      transliteration:
+        "qul sīrū fī l-arḍi fa-unẓurū kayfa kāna ʿāqibatu l-muj'rimīna ",
+      verse: 3228,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 70,
       image: "",
-      text:
-        "And grieve not over them or be in distress from what they conspire.",
-      verse: 3098,
+      text: "And (do) not grieve over them and not be in distress from what they plot (70)",
+      transliteration:
+        "walā taḥzan ʿalayhim walā takun fī ḍayqin mimmā yamkurūna ",
+      verse: 3229,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 71,
       image: "",
-      text:
-        'And they say, "When is [the fulfillment of] this promise, if you should be truthful?"',
-      verse: 3099,
+      text: "And they say When (will) this promise (be fulfilled) if you are truthful (71)",
+      transliteration: "wayaqūlūna matā hādhā l-waʿdu in kuntum ṣādiqīna ",
+      verse: 3230,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 72,
       image: "",
-      text:
-        'Say, "Perhaps it is close behind you -  some of that for which you are impatient.',
-      verse: 3100,
+      text: "Say Perhaps that is close behind you some (of) that which you seek to hasten (72)",
+      transliteration:
+        "qul ʿasā an yakūna radifa lakum baʿḍu alladhī tastaʿjilūna ",
+      verse: 3231,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 73,
       image: "",
-      text:
-        'And indeed, your Lord is full of bounty for the people, but most of them do not show gratitude."',
-      verse: 3101,
+      text: "And indeed your Lord (is) full of Bounty (is) full of Bounty for the mankind but most of them (are) not grateful (73)",
+      transliteration:
+        "wa-inna rabbaka ladhū faḍlin ʿalā l-nāsi walākinna aktharahum lā yashkurūna ",
+      verse: 3232,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 74,
       image: "",
-      text:
-        "And indeed, your Lord knows what their breasts conceal and what they declare.",
-      verse: 3102,
+      text: "And indeed your Lord surely knows what conceals their breasts and what they declare (74)",
+      transliteration:
+        "wa-inna rabbaka layaʿlamu mā tukinnu ṣudūruhum wamā yuʿ'linūna ",
+      verse: 3233,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 75,
       image: "",
-      text:
-        "And there is nothing concealed within the heaven and the earth except that it is in a clear Register.",
-      verse: 3103,
+      text: "And not (is) any (thing) hidden in the heavens and the earth but (is) in a Record clear (75)",
+      transliteration:
+        "wamā min ghāibatin fī l-samāi wal-arḍi illā fī kitābin mubīnin ",
+      verse: 3234,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 76,
       image: "",
-      text:
-        "Indeed, this Qur'an relates to the Children of Israel most of that over which they disagree.",
-      verse: 3104,
+      text: "Indeed this [the] Quran relates to (the) Children (of) Israel most (of) that they in it differ (76)",
+      transliteration:
+        "inna hādhā l-qur'āna yaquṣṣu ʿalā banī is'rāīla akthara alladhī hum fīhi yakhtalifūna ",
+      verse: 3235,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 77,
       image: "",
-      text: "And indeed, it is guidance and mercy for the believers.",
-      verse: 3105,
+      text: "And indeed, it (is) surely a guidance and a mercy for the believers (77)",
+      transliteration: "wa-innahu lahudan waraḥmatun lil'mu'minīna ",
+      verse: 3236,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 78,
       image: "",
-      text:
-        "Indeed, your Lord will judge between them by His [wise] judgement. And He is the Exalted in Might, the Knowing.",
-      verse: 3106,
+      text: "Indeed your Lord will judge between them by His Judgment and He (is) the All-Mighty the All-Knower (78)",
+      transliteration:
+        "inna rabbaka yaqḍī baynahum biḥuk'mihi wahuwa l-ʿazīzu l-ʿalīmu ",
+      verse: 3237,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 79,
       image: "",
-      text: "So rely upon Allah ; indeed, you are upon the clear truth.",
-      verse: 3107,
+      text: "So put your trust in Allah indeed, you (are) on the truth manifest (79)",
+      transliteration: "fatawakkal ʿalā l-lahi innaka ʿalā l-ḥaqi l-mubīni ",
+      verse: 3238,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 80,
       image: "",
-      text:
-        "Indeed, you will not make the dead hear, nor will you make the deaf hear the call when they have turned their backs retreating.",
-      verse: 3108,
+      text: "Indeed, you (can) not cause to hear the dead and not can you cause to hear the deaf the call when they turn back retreating (80)",
+      transliteration:
+        "innaka lā tus'miʿu l-mawtā walā tus'miʿu l-ṣuma l-duʿāa idhā wallaw mud'birīna ",
+      verse: 3239,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 81,
       image: "",
-      text:
-        "And you cannot guide the blind away from their error. You will only make hear those who believe in Our verses so they are Muslims [submitting to Allah ].",
-      verse: 3109,
+      text: "And not (can) you guide the blind from their error Not you can cause to hear except (those) who believe in Our Signs so they (are) Muslims (81)",
+      transliteration:
+        "wamā anta bihādī l-ʿum'yi ʿan ḍalālatihim in tus'miʿu illā man yu'minu biāyātinā fahum mus'limūna ",
+      verse: 3240,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 82,
       image: "",
-      text:
-        "And when the word befalls them, We will bring forth for them a creature from the earth speaking to them, [saying] that the people were, of Our verses, not certain [in faith].",
-      verse: 3110,
+      text: "And when (is) fulfilled the word against them We will bring forth for them a creature from the earth speaking to them that the people were of Our Signs not certain (82)",
+      transliteration:
+        "wa-idhā waqaʿa l-qawlu ʿalayhim akhrajnā lahum dābbatan mina l-arḍi tukallimuhum anna l-nāsa kānū biāyātinā lā yūqinūna ",
+      verse: 3241,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 83,
       image: "",
-      text:
-        "And [warn of] the Day when We will gather from every nation a company of those who deny Our signs, and they will be [driven] in rows",
-      verse: 3111,
+      text: "And (the) Day We will gather from every nation a troop of (those) who deny Our Signs and they will be set in rows (83)",
+      transliteration:
+        "wayawma naḥshuru min kulli ummatin fawjan mimman yukadhibu biāyātinā fahum yūzaʿūna ",
+      verse: 3242,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 84,
       image: "",
-      text:
-        'Until, when they arrive [at the place of Judgement], He will say, "Did you deny My signs while you encompassed them not in knowledge, or what [was it that] you were doing?"',
-      verse: 3112,
+      text: "Until when they come He will say Did you deny My Signs while not you encompassed them (in) knowledge or what you used (to) do (84)",
+      transliteration:
+        "ḥattā idhā jāū qāla akadhabtum biāyātī walam tuḥīṭū bihā ʿil'man ammādhā kuntum taʿmalūna ",
+      verse: 3243,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 85,
       image: "",
-      text:
-        "And the decree will befall them for the wrong they did, and they will not [be able to] speak.",
-      verse: 3113,
+      text: "And (will be) fulfilled the word against them because they wronged and they (will) not speak (85)",
+      transliteration:
+        "wawaqaʿa l-qawlu ʿalayhim bimā ẓalamū fahum lā yanṭiqūna ",
+      verse: 3244,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 86,
       image: "",
-      text:
-        "Do they not see that We made the night that they may rest therein and the day giving sight? Indeed in that are signs for a people who believe.",
-      verse: 3114,
+      text: "Do not they see that We [We] have made the night that they may rest in it and the day giving visibility Indeed in that surely (are) Signs for a people who believe (86)",
+      transliteration:
+        "alam yaraw annā jaʿalnā al-layla liyaskunū fīhi wal-nahāra mub'ṣiran inna fī dhālika laāyātin liqawmin yu'minūna ",
+      verse: 3245,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 87,
       image: "",
-      text:
-        "And [warn of] the Day the Horn will be blown, and whoever is in the heavens and whoever is on the earth will be terrified except whom Allah wills. And all will come to Him humbled.",
-      verse: 3115,
+      text: "And (the) Day will be blown [in] the trumpet and will be terrified whoever (is) in the heavens and whoever (is) in the earth except whom Allah wills Allah wills And all (will) come to Him humbled (87)",
+      transliteration:
+        "wayawma yunfakhu fī l-ṣūri fafaziʿa man fī l-samāwāti waman fī l-arḍi illā man shāa l-lahu wakullun atawhu dākhirīna ",
+      verse: 3246,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 88,
       image: "",
-      text:
-        "And you see the mountains, thinking them rigid, while they will pass as the passing of clouds. [It is] the work of Allah, who perfected all things. Indeed, He is Acquainted with that which you do.",
-      verse: 3116,
+      text: "And you see the mountains thinking them firmly fixed while they will pass (as the) passing (of) the clouds (The) Work (of) Allah Who perfected all things Indeed, He (is) All-Aware of what you do (88)",
+      transliteration:
+        "watarā l-jibāla taḥsabuhā jāmidatan wahiya tamurru marra l-saḥābi ṣun'ʿa l-lahi alladhī atqana kulla shayin innahu khabīrun bimā tafʿalūna ",
+      verse: 3247,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 89,
       image: "",
-      text:
-        "Whoever comes [at Judgement] with a good deed will have better than it, and they, from the terror of that Day, will be safe.",
-      verse: 3117,
+      text: "Whoever comes with the good then for him (will be) better than it and they from (the) terror (of) that Day (will be) safe (89)",
+      transliteration:
+        "man jāa bil-ḥasanati falahu khayrun min'hā wahum min fazaʿin yawma-idhin āminūna ",
+      verse: 3248,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 90,
       image: "",
-      text:
-        'And whoever comes with an evil deed -  their faces will be overturned into the Fire, [and it will be said], "Are you recompensed except for what you used to do?"',
-      verse: 3118,
+      text: "And whoever comes with the evil will be cast down their faces in the Fire Are you recompensed except (for) what you used (to) do (90)",
+      transliteration:
+        "waman jāa bil-sayi-ati fakubbat wujūhuhum fī l-nāri hal tuj'zawna illā mā kuntum taʿmalūna ",
+      verse: 3249,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 91,
       image: "",
-      text:
-        '[Say, O Muhammad], "I have only been commanded to worship the Lord of this city, who made it sacred and to whom [belongs] all things. And I am commanded to be of the Muslims [those who submit to Allah ]',
-      verse: 3119,
+      text: "Only I am commanded that I worship (the) Lord (of) this city the One Who made it sacred and to Him (belongs) all things And I am commanded that I be of the Muslims (91)",
+      transliteration:
+        "innamā umir'tu an aʿbuda rabba hādhihi l-baldati alladhī ḥarramahā walahu kullu shayin wa-umir'tu an akūna mina l-mus'limīna ",
+      verse: 3250,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 92,
       image: "",
-      text:
-        'And to recite the Qur\'an." And whoever is guided is only guided for [the benefit of] himself; and whoever strays -  say, "I am only [one] of the warners."',
-      verse: 3120,
+      text: "And that I recite the Quran And whoever accepts guidance then only he accepts guidance for himself and whoever goes astray then say Only I am of the warners (92)",
+      transliteration:
+        "wa-an atluwā l-qur'āna famani ih'tadā fa-innamā yahtadī linafsihi waman ḍalla faqul innamā anā mina l-mundhirīna ",
+      verse: 3251,
+      juz: 20,
+      surah: 27,
     },
     {
       number: 93,
       image: "",
-      text:
-        'And say, "[All] praise is [due] to Allah . He will show you His signs, and you will recognize them. And your Lord is not unaware of what you do."',
-      verse: 3121,
+      text: "And say All praise (be) to Allah He will show you His Signs and you will recognize them And your Lord is not And your Lord is not unaware of what you do (93)",
+      transliteration:
+        "waquli l-ḥamdu lillahi sayurīkum āyātihi fataʿrifūnahā wamā rabbuka bighāfilin ʿammā taʿmalūna ",
+      verse: 3252,
+      juz: 20,
+      surah: 27,
     },
   ],
 };

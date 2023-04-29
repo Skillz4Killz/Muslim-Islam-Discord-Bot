@@ -1,4 +1,4 @@
-import { Surah } from "../types/islam.ts";
+import { Surah } from "../types/islam.js";
 
 export const zumar: Surah = {
   name: "Az-Zumar",
@@ -6,524 +6,745 @@ export const zumar: Surah = {
     {
       number: 1,
       image: "",
-      text:
-        "The revelation of the Qur'an is from Allah, the Exalted in Might, the Wise.",
-      verse: 3928,
+      text: "(The) revelation (of) the Book (is) from Allah the All-Mighty the All-Wise (1)",
+      transliteration: "tanzīlu l-kitābi mina l-lahi l-ʿazīzi l-ḥakīmi ",
+      verse: 4059,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 2,
       image: "",
-      text:
-        "Indeed, We have sent down to you the Book, [O Muhammad], in truth. So worship Allah, [being] sincere to Him in religion.",
-      verse: 3929,
+      text: "Indeed, We [We] have revealed to you the Book in truth so worship Allah (being) sincere to Him (in) the religion (2)",
+      transliteration:
+        "innā anzalnā ilayka l-kitāba bil-ḥaqi fa-uʿ'budi l-laha mukh'liṣan lahu l-dīna ",
+      verse: 4060,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 3,
       image: "",
-      text:
-        'Unquestionably, for Allah is the pure religion. And those who take protectors besides Him [say], "We only worship them that they may bring us nearer to Allah in position." Indeed, Allah will judge between them concerning that over which they differ. Indeed, Allah does not guide he who is a liar and [confirmed] disbeliever.',
-      verse: 3930,
+      text: "Unquestionably for Allah (is) the religion the pure And those who take besides Him besides Him protectors Not we worship them except that they may bring us near to Allah (in) nearness Indeed Allah will judge between them in what they [in it] differ Indeed Allah (does) not guide (one) who [he] (is) a liar and a disbeliever (3)",
+      transliteration:
+        "alā lillahi l-dīnu l-khāliṣu wa-alladhīna ittakhadhū min dūnihi awliyāa mā naʿbuduhum illā liyuqarribūnā ilā l-lahi zul'fā inna l-laha yaḥkumu baynahum fī mā hum fīhi yakhtalifūna inna l-laha lā yahdī man huwa kādhibun kaffārun ",
+      verse: 4061,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 4,
       image: "",
-      text:
-        "If Allah had intended to take a son, He could have chosen from what He creates whatever He willed. Exalted is He; He is Allah, the One, the Prevailing.",
-      verse: 3931,
+      text: "If Allah (had) intended Allah (had) intended to take a son surely, He (could) have chosen from what He creates whatever He willed Glory be to Him He (is) Allah the One the Irresistible (4)",
+      transliteration:
+        "law arāda l-lahu an yattakhidha waladan la-iṣ'ṭafā mimmā yakhluqu mā yashāu sub'ḥānahu huwa l-lahu l-wāḥidu l-qahāru ",
+      verse: 4062,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 5,
       image: "",
-      text:
-        "He created the heavens and earth in truth. He wraps the night over the day and wraps the day over the night and has subjected the sun and the moon, each running [its course] for a specified term. Unquestionably, He is the Exalted in Might, the Perpetual Forgiver.",
-      verse: 3932,
+      text: "He created the heavens and the earth in [the] truth He wraps the night over the day and wraps the day over the night And He subjected the sun and the moon each running for a term specified Unquestionably He (is) the All-Mighty the Oft-Forgiving (5)",
+      transliteration:
+        "khalaqa l-samāwāti wal-arḍa bil-ḥaqi yukawwiru al-layla ʿalā l-nahāri wayukawwiru l-nahāra ʿalā al-layli wasakhara l-shamsa wal-qamara kullun yajrī li-ajalin musamman alā huwa l-ʿazīzu l-ghafāru ",
+      verse: 4063,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 6,
       image: "",
-      text:
-        "He created you from one soul. Then He made from it its mate, and He produced for you from the grazing livestock eight mates. He creates you in the wombs of your mothers, creation after creation, within three darknesses. That is Allah, your Lord; to Him belongs dominion. There is no deity except Him, so how are you averted?",
-      verse: 3933,
+      text: "He created you from a soul single Then He made from it its mate And He sent down for you of the cattle eight kinds He creates you in (the) wombs (of) your mothers creation after after creation in darkness[es] three That (is) Allah your Lord for Him (is) the dominion (There is) no god except He Then how are you turning away (6)",
+      transliteration:
+        "khalaqakum min nafsin wāḥidatin thumma jaʿala min'hā zawjahā wa-anzala lakum mina l-anʿāmi thamāniyata azwājin yakhluqukum fī buṭūni ummahātikum khalqan min baʿdi khalqin fī ẓulumātin thalāthin dhālikumu l-lahu rabbukum lahu l-mul'ku lā ilāha illā huwa fa-annā tuṣ'rafūna ",
+      verse: 4064,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 7,
       image: "",
-      text:
-        "If you disbelieve -  indeed, Allah is Free from need of you. And He does not approve for His servants disbelief. And if you are grateful, He approves it for you; and no bearer of burdens will bear the burden of another. Then to your Lord is your return, and He will inform you about what you used to do. Indeed, He is Knowing of that within the breasts.",
-      verse: 3934,
+      text: "If you disbelieve then indeed Allah (is) free from need of you And not He likes in His slaves ungratefulness And if you are grateful He likes it in you And not will bear bearer of burdens (the) burden (of) another Then to your Lord (is) your return then He will inform you about what you used to do Indeed, He (is) the All-Knower of what (is) in the breasts of what (is) in the breasts (7)",
+      transliteration:
+        "in takfurū fa-inna l-laha ghaniyyun ʿankum walā yarḍā liʿibādihi l-kuf'ra wa-in tashkurū yarḍahu lakum walā taziru wāziratun wiz'ra ukh'rā thumma ilā rabbikum marjiʿukum fayunabbi-ukum bimā kuntum taʿmalūna innahu ʿalīmun bidhāti l-ṣudūri ",
+      verse: 4065,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 8,
       image: "",
-      text:
-        'And when adversity touches man, he calls upon his Lord, turning to Him [alone]; then when He bestows on him a favor from Himself, he forgets Him whom he called upon before, and he attributes to Allah equals to mislead [people] from His way. Say, "Enjoy your disbelief for a little; indeed, you are of the companions of the Fire."',
-      verse: 3935,
+      text: "And when touches [the] man adversity he calls his Lord turning to Him then when He bestows on him a favor from Himself he forgets (for) what he used to call he used to call [to] Him before before and he sets up to Allah rivals to mislead from His Path Say Enjoy in your disbelief (for) a little Indeed, you (are) of (the) companions (of) the Fire (8)",
+      transliteration:
+        "wa-idhā massa l-insāna ḍurrun daʿā rabbahu munīban ilayhi thumma idhā khawwalahu niʿ'matan min'hu nasiya mā kāna yadʿū ilayhi min qablu wajaʿala lillahi andādan liyuḍilla ʿan sabīlihi qul tamattaʿ bikuf'rika qalīlan innaka min aṣḥābi l-nāri ",
+      verse: 4066,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 9,
       image: "",
-      text:
-        'Is one who is devoutly obedient during periods of the night, prostrating and standing [in prayer], fearing the Hereafter and hoping for the mercy of his Lord, [like one who does not]? Say, "Are those who know equal to those who do not know?" Only they will remember [who are] people of understanding.',
-      verse: 3936,
+      text: "Is (one) who [he] (is) devoutly obedient  (during) hours (of) the night prostrating and standing fearing the Hereafter and hoping (for the) Mercy (of) his Lord Say Are equal those who know and those who (do) not know Only will take heed those of understanding those of understanding (9)",
+      transliteration:
+        "amman huwa qānitun ānāa al-layli sājidan waqāiman yaḥdharu l-ākhirata wayarjū raḥmata rabbihi qul hal yastawī alladhīna yaʿlamūna wa-alladhīna lā yaʿlamūna innamā yatadhakkaru ulū l-albābi ",
+      verse: 4067,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 10,
       image: "",
-      text:
-        'Say, "O My servants who have believed, fear your Lord. For those who do good in this world is good, and the earth of Allah is spacious. Indeed, the patient will be given their reward without account."',
-      verse: 3937,
+      text: "Say O My slaves [those] who believe Fear your Lord For those who do good in this world (is) good and the earth (of) Allah (is) spacious Only will be paid back in full the patient ones their reward without account (10)",
+      transliteration:
+        "qul yāʿibādi alladhīna āmanū ittaqū rabbakum lilladhīna aḥsanū fī hādhihi l-dun'yā ḥasanatun wa-arḍu l-lahi wāsiʿatun innamā yuwaffā l-ṣābirūna ajrahum bighayri ḥisābin ",
+      verse: 4068,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 11,
       image: "",
-      text:
-        'Say, [O Muhammad], "Indeed, I have been commanded to worship Allah, [being] sincere to Him in religion.',
-      verse: 3938,
+      text: "Say Indeed, I [I] am commanded that I worship Allah (being) sincere to Him (in) the religion (11)",
+      transliteration:
+        "qul innī umir'tu an aʿbuda l-laha mukh'liṣan lahu l-dīna ",
+      verse: 4069,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 12,
       image: "",
-      text:
-        'And I have been commanded to be the first [among you] of the Muslims."',
-      verse: 3939,
+      text: "And I am commanded that I be (the) first (of) those who submit (12)",
+      transliteration: "wa-umir'tu li-an akūna awwala l-mus'limīna ",
+      verse: 4070,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 13,
       image: "",
-      text:
-        'Say, "Indeed I fear, if I should disobey my Lord, the punishment of a tremendous Day."',
-      verse: 3940,
+      text: "Say Indeed, I [I] fear if I disobey my Lord (the) punishment (of) a Day great (13)",
+      transliteration: "qul innī akhāfu in ʿaṣaytu rabbī ʿadhāba yawmin ʿaẓīmin ",
+      verse: 4071,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 14,
       image: "",
-      text: 'Say, " Allah [alone] do I worship, sincere to Him in my religion,',
-      verse: 3941,
+      text: "Say I worship Allah I worship Allah (being) sincere to Him (in) my religion (14)",
+      transliteration: "quli l-laha aʿbudu mukh'liṣan lahu dīnī ",
+      verse: 4072,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 15,
       image: "",
-      text:
-        'So worship what you will besides Him." Say, "Indeed, the losers are the ones who will lose themselves and their families on the Day of Resurrection. Unquestionably, that is the manifest loss."',
-      verse: 3942,
+      text: "So worship what you will besides Him besides Him Say Indeed the losers (are) those who (will) lose themselves and their families (on the) Day (of) the Resurrection Unquestionably that  it (is) the loss the clear (15)",
+      transliteration:
+        "fa-uʿ'budū mā shi'tum min dūnihi qul inna l-khāsirīna alladhīna khasirū anfusahum wa-ahlīhim yawma l-qiyāmati alā dhālika huwa l-khus'rānu l-mubīnu ",
+      verse: 4073,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 16,
       image: "",
-      text:
-        "They will have canopies of fire above them and below them, canopies. By that Allah threatens His servants. O My servants, then fear Me.",
-      verse: 3943,
+      text: "For them from above them coverings of the Fire and from below them coverings (With) that threatens Allah [with it] His slaves O My slaves So fear Me (16)",
+      transliteration:
+        "lahum min fawqihim ẓulalun mina l-nāri wamin taḥtihim ẓulalun dhālika yukhawwifu l-lahu bihi ʿibādahu yāʿibādi fa-ittaqūni ",
+      verse: 4074,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 17,
       image: "",
-      text:
-        "But those who have avoided Taghut, lest they worship it, and turned back to Allah -  for them are good tidings. So give good tidings to My servants",
-      verse: 3944,
+      text: "And those who avoid the false gods lest they worship them and turn to Allah for them (are) glad tidings So give glad tidings (to) My slaves (17)",
+      transliteration:
+        "wa-alladhīna ij'tanabū l-ṭāghūta an yaʿbudūhā wa-anābū ilā l-lahi lahumu l-bush'rā fabashir ʿibādi ",
+      verse: 4075,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 18,
       image: "",
-      text:
-        "Who listen to speech and follow the best of it. Those are the ones Allah has guided, and those are people of understanding.",
-      verse: 3945,
+      text: "Those who they listen (to) the Word then follow the best thereof those (are) they whom Allah has guided them Allah has guided them and those are [they] the men of understanding the men of understanding (18)",
+      transliteration:
+        "alladhīna yastamiʿūna l-qawla fayattabiʿūna aḥsanahu ulāika alladhīna hadāhumu l-lahu wa-ulāika hum ulū l-albābi ",
+      verse: 4076,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 19,
       image: "",
-      text:
-        "Then, is one who has deserved the decree of punishment [to be guided]? Then, can you save one who is in the Fire?",
-      verse: 3946,
+      text: "Then, is (one) who became due on him the word (of) the punishment Then can you save (one) who (is) in the Fire (19)",
+      transliteration:
+        "afaman ḥaqqa ʿalayhi kalimatu l-ʿadhābi afa-anta tunqidhu man fī l-nāri ",
+      verse: 4077,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 20,
       image: "",
-      text:
-        "But those who have feared their Lord -  for them are chambers, above them chambers built high, beneath which rivers flow. [This is] the promise of Allah . Allah does not fail in [His] promise.",
-      verse: 3947,
+      text: "But those who fear their Lord for them (are) lofty mansions above them above them lofty mansions built high flow from beneath it the rivers (The) Promise (of) Allah Not Allah fails Allah fails (in His) promise (20)",
+      transliteration:
+        "lākini alladhīna ittaqaw rabbahum lahum ghurafun min fawqihā ghurafun mabniyyatun tajrī min taḥtihā l-anhāru waʿda l-lahi lā yukh'lifu l-lahu l-mīʿāda ",
+      verse: 4078,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 21,
       image: "",
-      text:
-        "Do you not see that Allah sends down rain from the sky and makes it flow as springs [and rivers] in the earth; then He produces thereby crops of varying colors; then they dry and you see them turned yellow; then He makes them [scattered] debris. Indeed in that is a reminder for those of understanding.",
-      verse: 3948,
+      text: "Do not you see that Allah sends down from the sky water and He makes it flow (as) springs in the earth then He produces with it crops (of) different colors then they wither and you see it turn yellow then He makes them debris Indeed in that surely, (is) a reminder for those of understanding for those of understanding (21)",
+      transliteration:
+        "alam tara anna l-laha anzala mina l-samāi māan fasalakahu yanābīʿa fī l-arḍi thumma yukh'riju bihi zarʿan mukh'talifan alwānuhu thumma yahīju fatarāhu muṣ'farran thumma yajʿaluhu ḥuṭāman inna fī dhālika ladhik'rā li-ulī l-albābi ",
+      verse: 4079,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 22,
       image: "",
-      text:
-        "So is one whose breast Allah has expanded to [accept] Islam and he is upon a light from his Lord [like one whose heart rejects it]? Then woe to those whose hearts are hardened against the remembrance of Allah . Those are in manifest error.",
-      verse: 3949,
+      text: "So is (one for) whom Allah has expanded Allah has expanded his breast for Islam so he (is) upon a light from his Lord So woe to (those are) hardened their hearts from (the) remembrance of Allah (the) remembrance of Allah Those (are) in error clear (22)",
+      transliteration:
+        "afaman sharaḥa l-lahu ṣadrahu lil'is'lāmi fahuwa ʿalā nūrin min rabbihi fawaylun lil'qāsiyati qulūbuhum min dhik'ri l-lahi ulāika fī ḍalālin mubīnin ",
+      verse: 4080,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 23,
       image: "",
-      text:
-        "Allah has sent down the best statement: a consistent Book wherein is reiteration. The skins shiver therefrom of those who fear their Lord; then their skins and their hearts relax at the remembrance of Allah . That is the guidance of Allah by which He guides whom He wills. And one whom Allah leaves astray -  for him there is no guide.",
-      verse: 3950,
+      text: "Allah has revealed (the) best (of) [the] statement  a Book (its parts) resembling each other oft-repeated Shiver from it (the) skins (of) those who fear their Lord then relax their skins and their hearts at (the) remembrance (of) Allah That (is the) guidance (of) Allah He guides with it whom He wills And whoever Allah lets go astray Allah lets go astray then not for him any guide (23)",
+      transliteration:
+        "al-lahu nazzala aḥsana l-ḥadīthi kitāban mutashābihan mathāniya taqshaʿirru min'hu julūdu alladhīna yakhshawna rabbahum thumma talīnu julūduhum waqulūbuhum ilā dhik'ri l-lahi dhālika hudā l-lahi yahdī bihi man yashāu waman yuḍ'lili l-lahu famā lahu min hādin ",
+      verse: 4081,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 24,
       image: "",
-      text:
-        'Then is he who will shield with his face the worst of the punishment on the Day of Resurrection [like one secure from it]? And it will be said to the wrongdoers, "Taste what you used to earn."',
-      verse: 3951,
+      text: "Then (is) he who will shield with his face (the) worst punishment (on the) Day (of) the Resurrection And it will be said to the wrongdoers Taste what you used to earn (24)",
+      transliteration:
+        "afaman yattaqī biwajhihi sūa l-ʿadhābi yawma l-qiyāmati waqīla lilẓẓālimīna dhūqū mā kuntum taksibūna ",
+      verse: 4082,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 25,
       image: "",
-      text:
-        "Those before them denied, and punishment came upon them from where they did not perceive.",
-      verse: 3952,
+      text: "Denied those who (were) before them (were) before them so came upon them the punishment from where not they perceive (25)",
+      transliteration:
+        "kadhaba alladhīna min qablihim fa-atāhumu l-ʿadhābu min ḥaythu lā yashʿurūna ",
+      verse: 4083,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 26,
       image: "",
-      text:
-        "So Allah made them taste disgrace in worldly life. But the punishment of the Hereafter is greater, if they only knew.",
-      verse: 3953,
+      text: "So Allah made them So Allah made them the disgrace in the life (of) the world and certainly (the) punishment (of) the Hereafter (is) greater if they knew (26)",
+      transliteration:
+        "fa-adhāqahumu l-lahu l-khiz'ya fī l-ḥayati l-dun'yā walaʿadhābu l-ākhirati akbaru law kānū yaʿlamūna ",
+      verse: 4084,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 27,
       image: "",
-      text:
-        "And We have certainly presented for the people in this Qur'an from every [kind of] example -  that they might remember.",
-      verse: 3954,
+      text: "And indeed We have set forth for people in this Quran of every example so that they may take heed (27)",
+      transliteration:
+        "walaqad ḍarabnā lilnnāsi fī hādhā l-qur'āni min kulli mathalin laʿallahum yatadhakkarūna ",
+      verse: 4085,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 28,
       image: "",
-      text:
-        "[It is] an Arabic Qur'an, without any deviance that they might become righteous.",
-      verse: 3955,
+      text: "A Quran (in) Arabic without any crookedness so that they may (become) righteous (28)",
+      transliteration:
+        "qur'ānan ʿarabiyyan ghayra dhī ʿiwajin laʿallahum yattaqūna ",
+      verse: 4086,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 29,
       image: "",
-      text:
-        "Allah presents an example: a slave owned by quarreling partners and another belonging exclusively to one man -  are they equal in comparison? Praise be to Allah ! But most of them do not know.",
-      verse: 3956,
+      text: "Allah sets forth Allah sets forth an example  a man about him partners quarreling and a man (belonging) exclusively to one man  are they both equal (in) comparison All praise (be) to Allah Nay most of them (do) not know (29)",
+      transliteration:
+        "ḍaraba l-lahu mathalan rajulan fīhi shurakāu mutashākisūna warajulan salaman lirajulin hal yastawiyāni mathalan l-ḥamdu lillahi bal aktharuhum lā yaʿlamūna ",
+      verse: 4087,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 30,
       image: "",
-      text: "Indeed, you are to die, and indeed, they are to die.",
-      verse: 3957,
+      text: "Indeed, you will die and indeed, they (will also) die (30)",
+      transliteration: "innaka mayyitun wa-innahum mayyitūna ",
+      verse: 4088,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 31,
       image: "",
-      text:
-        "Then indeed you, on the Day of Resurrection, before your Lord, will dispute.",
-      verse: 3958,
+      text: "Then indeed you (on the) Day (of) the Resurrection before your Lord will dispute (31)",
+      transliteration:
+        "thumma innakum yawma l-qiyāmati ʿinda rabbikum takhtaṣimūna ",
+      verse: 4089,
+      juz: 23,
+      surah: 39,
     },
     {
       number: 32,
       image: "",
-      text:
-        "So who is more unjust than one who lies about Allah and denies the truth when it has come to him? Is there not in Hell a residence for the disbelievers?",
-      verse: 3959,
+      text: "Then who (is) more unjust than (one) who lies against Allah and denies the truth when it comes to him Is (there) not in Hell an abode for the disbelievers (32)",
+      transliteration:
+        "faman aẓlamu mimman kadhaba ʿalā l-lahi wakadhaba bil-ṣid'qi idh jāahu alaysa fī jahannama mathwan lil'kāfirīna ",
+      verse: 4090,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 33,
       image: "",
-      text:
-        "And the one who has brought the truth and [they who] believed in it -  those are the righteous.",
-      verse: 3960,
+      text: "And the one who brought the truth and believed in it those [they] (are) the righteous (33)",
+      transliteration:
+        "wa-alladhī jāa bil-ṣid'qi waṣaddaqa bihi ulāika humu l-mutaqūna ",
+      verse: 4091,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 34,
       image: "",
-      text:
-        "They will have whatever they desire with their Lord. That is the reward of the doers of good -",
-      verse: 3961,
+      text: "For them (is) what they wish with their Lord That (is the) reward (of) the good-doers (34)",
+      transliteration:
+        "lahum mā yashāūna ʿinda rabbihim dhālika jazāu l-muḥ'sinīna ",
+      verse: 4092,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 35,
       image: "",
-      text:
-        "That Allah may remove from them the worst of what they did and reward them their due for the best of what they used to do.",
-      verse: 3962,
+      text: "That Allah will remove That Allah will remove from them (the) worst (of) what they did and reward them their due for (the) best (of) what they used to do (35)",
+      transliteration:
+        "liyukaffira l-lahu ʿanhum aswa-a alladhī ʿamilū wayajziyahum ajrahum bi-aḥsani alladhī kānū yaʿmalūna ",
+      verse: 4093,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 36,
       image: "",
-      text:
-        "Is not Allah sufficient for His Servant [Prophet Muhammad]? And [yet], they threaten you with those [they worship] other than Him. And whoever Allah leaves astray -  for him there is no guide.",
-      verse: 3963,
+      text: "Is not Allah sufficient (for) His slave And they threaten you with those besides Him besides Him And whoever Allah lets go astray  Allah lets go astray  then not for him any guide (36)",
+      transliteration:
+        "alaysa l-lahu bikāfin ʿabdahu wayukhawwifūnaka bi-alladhīna min dūnihi waman yuḍ'lili l-lahu famā lahu min hādin ",
+      verse: 4094,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 37,
       image: "",
-      text:
-        "And whoever Allah guides -  for him there is no misleader. Is not Allah Exalted in Might and Owner of Retribution?",
-      verse: 3964,
+      text: "And whoever Allah guides Allah guides then not for him any misleader Is not Allah All-Mighty All-Able of retribution All-Able of retribution (37)",
+      transliteration:
+        "waman yahdi l-lahu famā lahu min muḍillin alaysa l-lahu biʿazīzin dhī intiqāmin ",
+      verse: 4095,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 38,
       image: "",
-      text:
-        'And if you asked them, "Who created the heavens and the earth?" they would surely say, " Allah ." Say, "Then have you considered what you invoke besides Allah ? If Allah intended me harm, are they removers of His harm; or if He intended me mercy, are they withholders of His mercy?" Say, "Sufficient for me is Allah ; upon Him [alone] rely the [wise] reliers."',
-      verse: 3965,
+      text: "And if you ask them who created the heavens and the earth Surely, they will say Allah Say Then do you see what you invoke besides besides Allah if Allah intended for me Allah intended for me harm are they removers (of) harm (from) Him or if He intended for me mercy are they withholders (of) His mercy Say Sufficient (is) Allah for me Sufficient (is) Allah for me upon Him put trust those who trust (38)",
+      transliteration:
+        "wala-in sa-altahum man khalaqa l-samāwāti wal-arḍa layaqūlunna l-lahu qul afara-aytum mā tadʿūna min dūni l-lahi in arādaniya l-lahu biḍurrin hal hunna kāshifātu ḍurrihi aw arādanī biraḥmatin hal hunna mum'sikātu raḥmatihi qul ḥasbiya l-lahu ʿalayhi yatawakkalu l-mutawakilūna ",
+      verse: 4096,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 39,
       image: "",
-      text:
-        'Say, "O my people, work according to your position, [for] indeed, I am working; and you are going to know',
-      verse: 3966,
+      text: "Say O my people Work (according) to your position indeed, I am working then soon you will know (39)",
+      transliteration:
+        "qul yāqawmi iʿ'malū ʿalā makānatikum innī ʿāmilun fasawfa taʿlamūna ",
+      verse: 4097,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 40,
       image: "",
-      text:
-        'To whom will come a torment disgracing him and on whom will descend an enduring punishment."',
-      verse: 3967,
+      text: "(Upon) whom will come a punishment disgracing him and descends on him a punishment everlasting (40)",
+      transliteration:
+        "man yatīhi ʿadhābun yukh'zīhi wayaḥillu ʿalayhi ʿadhābun muqīmun ",
+      verse: 4098,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 41,
       image: "",
-      text:
-        "Indeed, We sent down to you the Book for the people in truth. So whoever is guided -  it is for [the benefit of] his soul; and whoever goes astray only goes astray to its detriment. And you are not a manager over them.",
-      verse: 3968,
+      text: "Indeed We We revealed to you the Book for [the] mankind in truth So whoever accepts guidance then (it is) for his soul and whoever goes astray then only he strays against his (soul) And not you (are) over them a manager (41)",
+      transliteration:
+        "innā anzalnā ʿalayka l-kitāba lilnnāsi bil-ḥaqi famani ih'tadā falinafsihi waman ḍalla fa-innamā yaḍillu ʿalayhā wamā anta ʿalayhim biwakīlin ",
+      verse: 4099,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 42,
       image: "",
-      text:
-        "Allah takes the souls at the time of their death, and those that do not die [He takes] during their sleep. Then He keeps those for which He has decreed death and releases the others for a specified term. Indeed in that are signs for a people who give thought.",
-      verse: 3969,
+      text: "Allah takes the souls (at the) time (of) their death and the one who (does) not die in their sleep Then He keeps the one whom He has decreed for them the death and sends the others for a term specified Indeed in that surely (are) signs for a people who ponder (42)",
+      transliteration:
+        "al-lahu yatawaffā l-anfusa ḥīna mawtihā wa-allatī lam tamut fī manāmihā fayum'siku allatī qaḍā ʿalayhā l-mawta wayur'silu l-ukh'rā ilā ajalin musamman inna fī dhālika laāyātin liqawmin yatafakkarūna ",
+      verse: 4100,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 43,
       image: "",
-      text:
-        'Or have they taken other than Allah as intercessors? Say, "Even though they do not possess [power over] anything, nor do they reason?"',
-      verse: 3970,
+      text: "Or have they taken besides besides Allah intercessors Say Even though they were not possessing anything and not they understand (43)",
+      transliteration:
+        "ami ittakhadhū min dūni l-lahi shufaʿāa qul awalaw kānū lā yamlikūna shayan walā yaʿqilūna ",
+      verse: 4101,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 44,
       image: "",
-      text:
-        'Say, "To Allah belongs [the right to allow] intercession entirely. To Him belongs the dominion of the heavens and the earth. Then to Him you will be returned."',
-      verse: 3971,
+      text: "Say To Allah (belongs) the intercession all For Him (is the) dominion (of) the heavens and the earth Then to Him you will be returned (44)",
+      transliteration:
+        "qul lillahi l-shafāʿatu jamīʿan lahu mul'ku l-samāwāti wal-arḍi thumma ilayhi tur'jaʿūna ",
+      verse: 4102,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 45,
       image: "",
-      text:
-        "And when Allah is mentioned alone, the hearts of those who do not believe in the Hereafter shrink with aversion, but when those [worshipped] other than Him are mentioned, immediately they rejoice.",
-      verse: 3972,
+      text: "And when Allah is mentioned Allah is mentioned Alone shrink with aversion (the) hearts (of) those who (do) not believe in the Hereafter and when are mentioned those besides Him besides Him behold They rejoice (45)",
+      transliteration:
+        "wa-idhā dhukira l-lahu waḥdahu ish'ma-azzat qulūbu alladhīna lā yu'minūna bil-ākhirati wa-idhā dhukira alladhīna min dūnihi idhā hum yastabshirūna ",
+      verse: 4103,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 46,
       image: "",
-      text:
-        'Say, "O Allah, Creator of the heavens and the earth, Knower of the unseen and the witnessed, You will judge between your servants concerning that over which they used to differ."',
-      verse: 3973,
+      text: "Say O Allah Creator (of) the heavens and the earth Knower (of) the unseen and the witnessed You will judge between Your slaves in what they used to therein differ (46)",
+      transliteration:
+        "quli l-lahuma fāṭira l-samāwāti wal-arḍi ʿālima l-ghaybi wal-shahādati anta taḥkumu bayna ʿibādika fī mā kānū fīhi yakhtalifūna ",
+      verse: 4104,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 47,
       image: "",
-      text:
-        "And if those who did wrong had all that is in the earth entirely and the like of it with it, they would [attempt to] ransom themselves thereby from the worst of the punishment on the Day of Resurrection. And there will appear to them from Allah that which they had not taken into account.",
-      verse: 3974,
+      text: "And if And if those who did wrong (had) whatever (is) in the earth all and (the) like of it with it they would ransom with it from (the) evil (of) the punishment (on the) Day (of) the Resurrection And (will) appear to them from Allah what not they had taken into account (47)",
+      transliteration:
+        "walaw anna lilladhīna ẓalamū mā fī l-arḍi jamīʿan wamith'lahu maʿahu la-if'tadaw bihi min sūi l-ʿadhābi yawma l-qiyāmati wabadā lahum mina l-lahi mā lam yakūnū yaḥtasibūna ",
+      verse: 4105,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 48,
       image: "",
-      text:
-        "And there will appear to them the evils they had earned, and they will be enveloped by what they used to ridicule.",
-      verse: 3975,
+      text: "And will become apparent to them (the) evils (of) what they earned and will surround them what they used to [in it] mock (48)",
+      transliteration:
+        "wabadā lahum sayyiātu mā kasabū waḥāqa bihim mā kānū bihi yastahziūna ",
+      verse: 4106,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 49,
       image: "",
-      text:
-        'And when adversity touches man, he calls upon Us; then when We bestow on him a favor from Us, he says, "I have only been given it because of [my] knowledge." Rather, it is a trial, but most of them do not know.',
-      verse: 3976,
+      text: "So when touches [the] man adversity he calls upon Us then when We bestow (on) him a favor from Us he says Only I have been given it for knowledge Nay it (is) a trial but most of them (do) not know (49)",
+      transliteration:
+        "fa-idhā massa l-insāna ḍurrun daʿānā thumma idhā khawwalnāhu niʿ'matan minnā qāla innamā ūtītuhu ʿalā ʿil'min bal hiya fit'natun walākinna aktharahum lā yaʿlamūna ",
+      verse: 4107,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 50,
       image: "",
-      text:
-        "Those before them had already said it, but they were not availed by what they used to earn.",
-      verse: 3977,
+      text: "Indeed said it those before them before them but (did) not avail them what they used to earn (50)",
+      transliteration:
+        "qad qālahā alladhīna min qablihim famā aghnā ʿanhum mā kānū yaksibūna ",
+      verse: 4108,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 51,
       image: "",
-      text:
-        "And the evil consequences of what they earned struck them. And those who have wronged of these [people] will be afflicted by the evil consequences of what they earned; and they will not cause failure.",
-      verse: 3978,
+      text: "Then struck them (the) evils (of) what they earned And those who have wronged of these will strike them (the) evils (of) what they earned and not they will be able to escape (51)",
+      transliteration:
+        "fa-aṣābahum sayyiātu mā kasabū wa-alladhīna ẓalamū min hāulāi sayuṣībuhum sayyiātu mā kasabū wamā hum bimuʿ'jizīna ",
+      verse: 4109,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 52,
       image: "",
-      text:
-        "Do they not know that Allah extends provision for whom He wills and restricts [it]? Indeed in that are signs for a people who believe.",
-      verse: 3979,
+      text: "Do not they know that Allah extends the provision for whom He wills and restricts Indeed in that surely (are) signs for a people who believe (52)",
+      transliteration:
+        "awalam yaʿlamū anna l-laha yabsuṭu l-riz'qa liman yashāu wayaqdiru inna fī dhālika laāyātin liqawmin yu'minūna ",
+      verse: 4110,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 53,
       image: "",
-      text:
-        'Say, "O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah . Indeed, Allah forgives all sins. Indeed, it is He who is the Forgiving, the Merciful."',
-      verse: 3980,
+      text: "Say O My slaves Those who have transgressed against themselves (do) not despair of (the) Mercy (of) Allah Indeed Allah forgives the sins all Indeed He He (is) the Oft-Forgiving the Most Merciful (53)",
+      transliteration:
+        "qul yāʿibādiya alladhīna asrafū ʿalā anfusihim lā taqnaṭū min raḥmati l-lahi inna l-laha yaghfiru l-dhunūba jamīʿan innahu huwa l-ghafūru l-raḥīmu ",
+      verse: 4111,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 54,
       image: "",
-      text:
-        "And return [in repentance] to your Lord and submit to Him before the punishment comes upon you; then you will not be helped.",
-      verse: 3981,
+      text: "And turn to your Lord and submit to Him before before [that] comes to you the punishment then not you will be helped (54)",
+      transliteration:
+        "wa-anībū ilā rabbikum wa-aslimū lahu min qabli an yatiyakumu l-ʿadhābu thumma lā tunṣarūna ",
+      verse: 4112,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 55,
       image: "",
-      text:
-        "And follow the best of what was revealed to you from your Lord before the punishment comes upon you suddenly while you do not perceive,",
-      verse: 3982,
+      text: "And follow (the) best (of) what is revealed to you from your Lord before before [that] comes to you the punishment suddenly while you (do) not perceive (55)",
+      transliteration:
+        "wa-ittabiʿū aḥsana mā unzila ilaykum min rabbikum min qabli an yatiyakumu l-ʿadhābu baghtatan wa-antum lā tashʿurūna ",
+      verse: 4113,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 56,
       image: "",
-      text:
-        'Lest a soul should say, "Oh [how great is] my regret over what I neglected in regard to Allah and that I was among the mockers."',
-      verse: 3983,
+      text: "Lest should say a soul Oh! My regret over what I neglected in regard (to) Allah and that I was surely, among the mockers (56)",
+      transliteration:
+        "an taqūla nafsun yāḥasratā ʿalā mā farraṭtu fī janbi l-lahi wa-in kuntu lamina l-sākhirīna ",
+      verse: 4114,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 57,
       image: "",
-      text:
-        'Or [lest] it say, "If only Allah had guided me, I would have been among the righteous."',
-      verse: 3984,
+      text: "Or it should say If that If that Allah (had) guided me surely, I (would) have been among the righteous (57)",
+      transliteration:
+        "aw taqūla law anna l-laha hadānī lakuntu mina l-mutaqīna ",
+      verse: 4115,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 58,
       image: "",
-      text:
-        'Or [lest] it say when it sees the punishment, "If only I had another turn so I could be among the doers of good."',
-      verse: 3985,
+      text: "Or it should say when it sees the punishment If only for me another chance then I could be among the good-doers (58)",
+      transliteration:
+        "aw taqūla ḥīna tarā l-ʿadhāba law anna lī karratan fa-akūna mina l-muḥ'sinīna ",
+      verse: 4116,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 59,
       image: "",
-      text:
-        "But yes, there had come to you My verses, but you denied them and were arrogant, and you were among the disbelievers.",
-      verse: 3986,
+      text: "Yes verily came to you My Verses but you denied them and were arrogant and you were among the disbelievers (59)",
+      transliteration:
+        "balā qad jāatka āyātī fakadhabta bihā wa-is'takbarta wakunta mina l-kāfirīna ",
+      verse: 4117,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 60,
       image: "",
-      text:
-        "And on the Day of Resurrection you will see those who lied about Allah [with] their faces blackened. Is there not in Hell a residence for the arrogant?",
-      verse: 3987,
+      text: "And (on the) Day (of) the Resurrection you will see those who lied about Allah their faces (will be) blackened Is (there) not in Hell an abode for the arrogant (60)",
+      transliteration:
+        "wayawma l-qiyāmati tarā alladhīna kadhabū ʿalā l-lahi wujūhuhum mus'waddatun alaysa fī jahannama mathwan lil'mutakabbirīna ",
+      verse: 4118,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 61,
       image: "",
-      text:
-        "And Allah will save those who feared Him by their attainment; no evil will touch them, nor will they grieve.",
-      verse: 3988,
+      text: "And Allah will deliver And Allah will deliver those who feared (Him) to their place of salvation not will touch them the evil and not they will grieve (61)",
+      transliteration:
+        "wayunajjī l-lahu alladhīna ittaqaw bimafāzatihim lā yamassuhumu l-sūu walā hum yaḥzanūna ",
+      verse: 4119,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 62,
       image: "",
-      text:
-        "Allah is the Creator of all things, and He is, over all things, Disposer of affairs.",
-      verse: 3989,
+      text: "Allah (is the) Creator (of) all things and He (is) over all things a Guardian (62)",
+      transliteration:
+        "al-lahu khāliqu kulli shayin wahuwa ʿalā kulli shayin wakīlun ",
+      verse: 4120,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 63,
       image: "",
-      text:
-        "To Him belong the keys of the heavens and the earth. And they who disbelieve in the verses of Allah -  it is those who are the losers.",
-      verse: 3990,
+      text: "For Him (are the) keys (of) the heavens and the earth And those who disbelieve in (the) Verses (of) Allah those  they (are) the losers (63)",
+      transliteration:
+        "lahu maqālīdu l-samāwāti wal-arḍi wa-alladhīna kafarū biāyāti l-lahi ulāika humu l-khāsirūna ",
+      verse: 4121,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 64,
       image: "",
-      text:
-        'Say, [O Muhammad], "Is it other than Allah that you order me to worship, O ignorant ones?"',
-      verse: 3991,
+      text: "Say Is (it) other than Allah you order me (to) worship O ignorant ones (64)",
+      transliteration: "qul afaghayra l-lahi tamurūnnī aʿbudu ayyuhā l-jāhilūna ",
+      verse: 4122,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 65,
       image: "",
-      text:
-        'And it was already revealed to you and to those before you that if you should associate [anything] with Allah, your work would surely become worthless, and you would surely be among the losers."',
-      verse: 3992,
+      text: "And verily it has been revealed to you and to those who (were) before you (were) before you if you associate (with Allah) surely, will become worthless your deeds and you will surely be among the losers (65)",
+      transliteration:
+        "walaqad ūḥiya ilayka wa-ilā alladhīna min qablika la-in ashrakta layaḥbaṭanna ʿamaluka walatakūnanna mina l-khāsirīna ",
+      verse: 4123,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 66,
       image: "",
-      text: "Rather, worship [only] Allah and be among the grateful.",
-      verse: 3993,
+      text: "Nay But worship Allah But worship Allah and be among the thankful ones (66)",
+      transliteration: "bali l-laha fa-uʿ'bud wakun mina l-shākirīna ",
+      verse: 4124,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 67,
       image: "",
-      text:
-        "They have not appraised Allah with true appraisal, while the earth entirely will be [within] His grip on the Day of Resurrection, and the heavens will be folded in His right hand. Exalted is He and high above what they associate with Him.",
-      verse: 3994,
+      text: "And not they appraised Allah (with) true appraisal while the earth entirely (will be) in His Grip (on the) Day (of) the Resurrection and the heavens (will be) folded in His Right Hand Glory be to Him And High is He above what they associate (with Him) (67)",
+      transliteration:
+        "wamā qadarū l-laha ḥaqqa qadrihi wal-arḍu jamīʿan qabḍatuhu yawma l-qiyāmati wal-samāwātu maṭwiyyātun biyamīnihi sub'ḥānahu wataʿālā ʿammā yush'rikūna ",
+      verse: 4125,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 68,
       image: "",
-      text:
-        "And the Horn will be blown, and whoever is in the heavens and whoever is on the earth will fall dead except whom Allah wills. Then it will be blown again, and at once they will be standing, looking on.",
-      verse: 3995,
+      text: "And (will) be blown [in] the trumpet then (will) fall dead whoever (is) in the heavens and whoever (is) on the earth except whom Allah wills Allah wills Then (it will) be blown [in it] a second time and behold They (will be) standing waiting (68)",
+      transliteration:
+        "wanufikha fī l-ṣūri faṣaʿiqa man fī l-samāwāti waman fī l-arḍi illā man shāa l-lahu thumma nufikha fīhi ukh'rā fa-idhā hum qiyāmun yanẓurūna ",
+      verse: 4126,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 69,
       image: "",
-      text:
-        "And the earth will shine with the light of its Lord, and the record [of deeds] will be placed, and the prophets and the witnesses will be brought, and it will be judged between them in truth, and they will not be wronged.",
-      verse: 3996,
+      text: "And (will) shine the earth with (the) light (of) its Lord and (will) be placed the Record and (will) be brought the Prophets and the witnesses and it (will) be judged between them in truth and they will not be wronged will not be wronged (69)",
+      transliteration:
+        "wa-ashraqati l-arḍu binūri rabbihā wawuḍiʿa l-kitābu wajīa bil-nabiyīna wal-shuhadāi waquḍiya baynahum bil-ḥaqi wahum lā yuẓ'lamūna ",
+      verse: 4127,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 70,
       image: "",
-      text:
-        "And every soul will be fully compensated [for] what it did; and He is most knowing of what they do.",
-      verse: 3997,
+      text: "And (will) be paid in full every soul what it did and He (is the) Best-Knower of what they do (70)",
+      transliteration:
+        "wawuffiyat kullu nafsin mā ʿamilat wahuwa aʿlamu bimā yafʿalūna ",
+      verse: 4128,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 71,
       image: "",
-      text:
-        'And those who disbelieved will be driven to Hell in groups until, when they reach it, its gates are opened and its keepers will say, "Did there not come to you messengers from yourselves, reciting to you the verses of your Lord and warning you of the meeting of this Day of yours?" They will say, "Yes, but the word of punishment has come into effect upon the disbelievers.',
-      verse: 3998,
+      text: "And (will) be driven those who disbelieve to Hell (in) groups until when they reach it (will) be opened its gates and (will) say to them its keepers Did not come to you Messengers from you reciting to you (the) Verses (of) your Lord and warning you (of the) meeting (of) your Day this They (will) say Yes But has been justified (the) word (of) punishment against the disbelievers (71)",
+      transliteration:
+        "wasīqa alladhīna kafarū ilā jahannama zumaran ḥattā idhā jāūhā futiḥat abwābuhā waqāla lahum khazanatuhā alam yatikum rusulun minkum yatlūna ʿalaykum āyāti rabbikum wayundhirūnakum liqāa yawmikum hādhā qālū balā walākin ḥaqqat kalimatu l-ʿadhābi ʿalā l-kāfirīna ",
+      verse: 4129,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 72,
       image: "",
-      text:
-        '[To them] it will be said, "Enter the gates of Hell to abide eternally therein, and wretched is the residence of the arrogant."',
-      verse: 3999,
+      text: "It will be said Enter (the) gates (of) Hell (to) abide eternally therein and wretched is (the) abode (of) the arrogant (72)",
+      transliteration:
+        "qīla ud'khulū abwāba jahannama khālidīna fīhā fabi'sa mathwā l-mutakabirīna ",
+      verse: 4130,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 73,
       image: "",
-      text:
-        'But those who feared their Lord will be driven to Paradise in groups until, when they reach it while its gates have been opened and its keepers say, "Peace be upon you; you have become pure; so enter it to abide eternally therein," [they will enter].',
-      verse: 4000,
+      text: "And (will) be driven those who feared their Lord to Paradise (in) groups until when they reach it and (will) be opened its gates and (will) say to them its keepers Peace be upon you you have done well so enter it (to) abide eternally (73)",
+      transliteration:
+        "wasīqa alladhīna ittaqaw rabbahum ilā l-janati zumaran ḥattā idhā jāūhā wafutiḥat abwābuhā waqāla lahum khazanatuhā salāmun ʿalaykum ṭib'tum fa-ud'khulūhā khālidīna ",
+      verse: 4131,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 74,
       image: "",
-      text:
-        'And they will say, "Praise to Allah, who has fulfilled for us His promise and made us inherit the earth [so] we may settle in Paradise wherever we will. And excellent is the reward of [righteous] workers."',
-      verse: 4001,
+      text: "And they will say All praise (be) to Allah Who has fulfilled for us His promise and has made us inherit the earth we may settle [from] (in) Paradise wherever we wish So excellent (is the) reward (of) the workers (74)",
+      transliteration:
+        "waqālū l-ḥamdu lillahi alladhī ṣadaqanā waʿdahu wa-awrathanā l-arḍa natabawwa-u mina l-janati ḥaythu nashāu faniʿ'ma ajru l-ʿāmilīna ",
+      verse: 4132,
+      juz: 24,
+      surah: 39,
     },
     {
       number: 75,
       image: "",
-      text:
-        'And you will see the angels surrounding the Throne, exalting [ Allah ] with praise of their Lord. And it will be judged between them in truth, and it will be said, "[All] praise to Allah, Lord of the worlds."',
-      verse: 4002,
+      text: "And you will see the Angels surrounding [from] around the Throne glorifying (the) praise (of) their Lord And (will) be judged between them in truth and it will be said All praise be to Allah (the) Lord (of) the worlds (75)",
+      transliteration:
+        "watarā l-malāikata ḥāffīna min ḥawli l-ʿarshi yusabbiḥūna biḥamdi rabbihim waquḍiya baynahum bil-ḥaqi waqīla l-ḥamdu lillahi rabbi l-ʿālamīna ",
+      verse: 4133,
+      juz: 24,
+      surah: 39,
     },
   ],
 };

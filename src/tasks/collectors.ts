@@ -1,32 +1,23 @@
-// // This task will help remove un-used collectors to help keep our cache optimized.
-// import { botCache } from "../../deps.ts";
-// import { Milliseconds } from "../utils/constants/time.ts";
+// This task will help remove un-used collectors to help keep our cache optimized.
+import { Bot } from "../../bot.js";
+import { messageCollectors } from "../utils/collectors.js";
+import { Milliseconds } from "../utils/constants/time.js";
 
-// botCache.tasks.set(`collectors`, {
-//   name: `collectors`,
-//   // Runs this function once a minute
-//   interval: Milliseconds.MINUTE,
-//   execute: async function () {
-//     const now = Date.now();
+Bot.tasks.set(`collectors`, {
+  name: `collectors`,
+  // Runs this function once a minute
+  interval: Milliseconds.MINUTE,
+  execute: async function () {
+    const now = Date.now();
 
-//     botCache.messageCollectors.forEach((collector, key) => {
-//       // This collector has not finished yet.
-//       if ((collector.createdAt + collector.duration) > now) return;
+    messageCollectors.forEach((collector, key) => {
+      // This collector has not finished yet.
+      if (collector.createdAt + collector.duration > now) return;
 
-//       // Remove the collector
-//       botCache.messageCollectors.delete(key);
-//       // Reject the promise so code can continue in commands.
-//       return collector.reject();
-//     });
-
-//     botCache.reactionCollectors.forEach((collector, key) => {
-//       // This collector has not finished yet.
-//       if ((collector.createdAt + collector.duration) > now) return;
-
-//       // Remove the collector
-//       botCache.reactionCollectors.delete(key);
-//       // Reject the promise so code can continue in commands.
-//       return collector.reject();
-//     });
-//   },
-// });
+      // Remove the collector
+      messageCollectors.delete(key);
+      // Reject the promise so code can continue in commands.
+      return collector.reject();
+    });
+  },
+});

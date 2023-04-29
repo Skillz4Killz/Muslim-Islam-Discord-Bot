@@ -1,6 +1,5 @@
-import { Bot } from "../../bot.ts";
-import { botCache } from "../../cache.ts";
-import { Message } from "../../deps.ts";
+import { Bot } from "../../bot.js";
+import { Message } from "../../deps.js";
 
 const salamTerms = [
   "salam",
@@ -21,7 +20,7 @@ const greetingTerms = [
   "gn",
 ];
 
-botCache.monitors.set("salam", {
+Bot.monitors.set("salam", {
   name: "salam",
   botChannelPermissions: ["SEND_MESSAGES"],
   /** The main code that will be run when this monitor is triggered. */
@@ -32,27 +31,28 @@ botCache.monitors.set("salam", {
     // if the message starts with a salam term reply
     for (const term of salamTerms) {
       if (content.startsWith(term)) {
-        return await Bot.helpers.sendMessage(
-          message.channelId,
-          { content: `Walaikumasalam Wa Rahmatullahi Wa Barakatuhu`},
-        );
+        return await Bot.helpers.sendMessage(message.channelId, {
+          content: `Walaikumasalam Wa Rahmatullahi Wa Barakatuhu`,
+        });
       }
     }
 
     // if the message starts with non-salam greeting reply
     for (const term of greetingTerms) {
       if (
-        term === "hi" && content.startsWith(term) &&
+        term === "hi" &&
+        content.startsWith(term) &&
         content.split(" ")[0] !== "hi"
       ) {
         continue;
       }
       if (content.startsWith(term)) {
-        return await Bot.helpers.sendMessage(
-          message.channelId,
-          { content: `Asalamoalaikum Wa Rahmatullahi Wa Barakatuhu`},
-        );
+        return await Bot.helpers.sendMessage(message.channelId, {
+          content: `Asalamoalaikum Wa Rahmatullahi Wa Barakatuhu`,
+        });
       }
     }
+
+    return
   },
 });

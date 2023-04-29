@@ -1,4 +1,5 @@
-import { Milliseconds } from "./constants/time.ts";
+import { BigString } from "@discordeno/bot";
+import { Milliseconds } from "./constants/time.js";
 
 /** This function should be used when you want to convert milliseconds to a human readable format like 1d5h. */
 export function humanizeMilliseconds(milliseconds: number) {
@@ -61,8 +62,8 @@ export function stringToMilliseconds(text: string) {
   return total;
 }
 
-export function snowflakeToTimestamp(id: bigint) {
-  return Number(id / 4194304n + 1420070400000n);
+export function snowflakeToTimestamp(id: BigString) {
+  return Number(BigInt(id) / 4194304n + 1420070400000n);
 }
 
 export function getTime() {
@@ -83,5 +84,5 @@ export function getTime() {
 }
 
 export function chooseRandom<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(Math.random() * arr.length)]!;
 }
