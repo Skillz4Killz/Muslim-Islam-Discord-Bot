@@ -6,7 +6,7 @@ import Embeds from "../utils/Embed.js";
 
 Bot.tasks.set("reminder", {
   name: "reminder",
-  interval: 60000,
+  interval: 60000 * 10,
   execute: async function () {
     Bot.logger.info("Reminder Task Running");
 
