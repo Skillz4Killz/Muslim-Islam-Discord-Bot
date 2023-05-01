@@ -51,8 +51,9 @@ Bot.commands.set("quiz", {
           interaction.user.id,
           interaction.channelId!
         );
+
         // if no response just cancel out
-        if (!answer) {
+        if (!answer || answer.content === "quit") {
           return interaction.respond(
             "Cancelling the quiz, as there was no response provided.",
             { private: false }

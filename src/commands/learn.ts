@@ -8,7 +8,7 @@ import { needMessage } from "../utils/collectors.js";
 import { createCommand } from "./mod.js";
 
 createCommand({
-  name: "question",
+  name: "learn",
   description: "Learn more about Islam one question at a time!",
   type: ApplicationCommandTypes.ChatInput,
   execute: async (_, interaction) => {
@@ -36,7 +36,6 @@ createCommand({
         interaction.user.id,
         interaction.channelId!
       );
-      Bot.logger.info("question 3", answer);
       // if no response just cancel out
       if (!answer) {
         return interaction.respond(
