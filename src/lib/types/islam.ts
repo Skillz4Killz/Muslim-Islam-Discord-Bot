@@ -8,7 +8,7 @@ export interface Ayah {
   /** The overall verse number in all the surahs. */
   verse: number;
   /** The juz which this ayah is part of. */
-  juz?: number;
+  juz: number;
 }
 
 export interface Surah {

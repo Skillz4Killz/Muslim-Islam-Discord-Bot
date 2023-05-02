@@ -4,6 +4,7 @@ import {
   InteractionResponseTypes,
 } from "../../deps.js";
 import questionData from "../lib/constants/questions.js";
+import { Components } from "../utils/Components.js";
 import { needMessage } from "../utils/collectors.js";
 
 Bot.commands.set("quiz", {
@@ -30,6 +31,15 @@ Bot.commands.set("quiz", {
             { private: false }
           );
         else {
+          const components = new Components();
+          for (const [index] of data.choices.entries()) {
+            components.addButton(
+              `${index + 1}`,
+              "Primary",
+              `quizAnswer-${interaction.user.id}-${index + 1}`
+            );
+          }
+
           await Bot.helpers.sendInteractionResponse(
             interaction.id,
             interaction.token,
@@ -39,6 +49,7 @@ Bot.commands.set("quiz", {
                 content: `${data.question}\n\n${data.choices
                   .map((choice, index) => `**${index + 1}.** ${choice}`)
                   .join(`\n`)}`,
+                components,
               },
             }
           );
@@ -51,9 +62,10 @@ Bot.commands.set("quiz", {
           interaction.user.id,
           interaction.channelId!
         );
-
+        console.log("quiz button msg", 1);
         // if no response just cancel out
         if (!answer || answer.content === "quit") {
+          console.log("quiz button msg", 2);
           return interaction.respond(
             "Cancelling the quiz, as there was no response provided.",
             { private: false }
@@ -68,14 +80,23 @@ Bot.commands.set("quiz", {
             : data.choices[userChoice - 1] === data.answer;
         if (isCorrect) correctAnswer++;
 
+        console.log("quiz button msg", 3);
         // React if the user is right or wrong
-        await Bot.helpers
-          .addReaction(
-            interaction.channelId!,
-            answer.id,
-            isCorrect ? `✅` : `❌`
-          )
-          .catch(() => null);
+        // answer.id doesnt exist for button responses
+        if (answer.id) {
+          console.log("quiz button msg", 4);
+          await Bot.helpers
+            .addReaction(
+              interaction.channelId!,
+              answer.id,
+              isCorrect ? `✅` : `❌`
+            )
+            .catch(() => null);
+        } else {
+          console.log("quiz button msg", 5);
+          // @ts-ignore
+          if (answer.interaction) interaction = answer.interaction;
+        }
       } catch (error) {
         console.error(error);
         return interaction.respond(
@@ -85,9 +106,23 @@ Bot.commands.set("quiz", {
       }
     }
 
-    await interaction.respond(
-      `You got **${correctAnswer}** out of ${questions.length} correct!`,
-      { private: false }
-    );
+    console.log("quiz button msg", 6);
+    if (interaction.acknowledged)
+      await interaction.respond(
+        `You got **${correctAnswer}** out of ${questions.length} correct!`,
+        { private: false }
+      );
+    else {
+      await Bot.helpers.sendInteractionResponse(
+        interaction.id,
+        interaction.token,
+        {
+          type: InteractionResponseTypes.ChannelMessageWithSource,
+          data: {
+            content: `You got **${correctAnswer}** out of ${questions.length} correct!`,
+          },
+        }
+      );
+    }
   },
 });

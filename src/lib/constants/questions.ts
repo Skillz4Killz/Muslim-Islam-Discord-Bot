@@ -1,4 +1,4 @@
-export default [
+export const questions: Questions[] = [
   {
     answer: `To worship Allah and not worship anything besides Him, to offer prayers perfectly, to pay the (compulsory) charity i.e. Zakat and to fast the month of Ramadan.`,
     choices: [
@@ -143,7 +143,7 @@ export default [
   {
     answer: "Knowledge",
     choices: ["Good deeds", "Dawah", "Knowledge", "Patience"],
-    questions: "What precedes speech and action?",
+    question: "What precedes speech and action?",
     explanation: `Al-Bukhārī ? said: “Chapter: Knowledge comes before speech and action.”
 
       The proof is the saying of Allāh, the Most High: "Know that none has the right to be worshipped except Allāh, and ask forgiveness of your Lord for your sins." [47:19]
@@ -1003,7 +1003,7 @@ The proof for Decree is His saying (the Most High): "We have created all things 
     choices: ["Abdullah", "Abu Talib", "Abdul Muttalib", "Hashim"],
     answer: "Abdullah",
     explanation: `
-    Knowledge of your Prophet Muḥammad. He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
+    He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
 
     The Prophet  lived 63 years, 40 of those years were before Prophethood and 23 years as a Messenger and Prophet. [Through the revelation of Sūrah] ‘Iqraʾ’ he became a Prophet, and [through the revelation of Sūrah] ‘Muddathir’ he became a Messenger. His birth-city was Mecca and he migrated to Medina.
 
@@ -1021,7 +1021,7 @@ The proof for Decree is His saying (the Most High): "We have created all things 
     explanation: `
     The proof of his death is the statement of Allāh (the Exalted): "Verily, you will die and verily, they too will die. Then, on the Day of Resurrection, you will be disputing before your Lord." [39:30]
 
-    Knowledge of your Prophet Muḥammad. He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
+    He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
 
     The Prophet  lived 63 years, 40 of those years were before Prophethood and 23 years as a Messenger and Prophet. [Through the revelation of Sūrah] ‘Iqraʾ’ he became a Prophet, and [through the revelation of Sūrah] ‘Muddathir’ he became a Messenger. His birth-city was Mecca and he migrated to Medina.
 
@@ -1037,7 +1037,7 @@ The proof for Decree is His saying (the Most High): "We have created all things 
     choices: ["63", "40", "83", "Still alive"],
     answer: "40",
     explanation: `
-    Knowledge of your Prophet Muḥammad. He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
+    He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
 
     The Prophet  lived 63 years, 40 of those years were before Prophethood and 23 years as a Messenger and Prophet. [Through the revelation of Sūrah] ‘Iqraʾ’ he became a Prophet, and [through the revelation of Sūrah] ‘Muddathir’ he became a Messenger. His birth-city was Mecca and he migrated to Medina.
 
@@ -1053,7 +1053,7 @@ The proof for Decree is His saying (the Most High): "We have created all things 
     choices: ["Fatiha", "Muhammad", "Iqra", "Muddathir"],
     answer: "Iqra",
     explanation: `
-    Knowledge of your Prophet Muḥammad. He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
+    He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
 
     The Prophet  lived 63 years, 40 of those years were before Prophethood and 23 years as a Messenger and Prophet. [Through the revelation of Sūrah] ‘Iqraʾ’ he became a Prophet, and [through the revelation of Sūrah] ‘Muddathir’ he became a Messenger. His birth-city was Mecca and he migrated to Medina.
 
@@ -1070,7 +1070,7 @@ The proof for Decree is His saying (the Most High): "We have created all things 
     choices: ["Fatiha", "Muhammad", "Iqra", "Muddathir"],
     answer: "Muddathir",
     explanation: `
-    Knowledge of your Prophet Muḥammad. He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
+    He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
 
     The Prophet  lived 63 years, 40 of those years were before Prophethood and 23 years as a Messenger and Prophet. [Through the revelation of Sūrah] ‘Iqraʾ’ he became a Prophet, and [through the revelation of Sūrah] ‘Muddathir’ he became a Messenger. His birth-city was Mecca and he migrated to Medina.
 
@@ -1086,7 +1086,7 @@ The proof for Decree is His saying (the Most High): "We have created all things 
     choices: ["Saudia Arabia", "Mecca", "Medina", "Dubai"],
     answer: "Mecca",
     explanation: `
-    Knowledge of your Prophet Muḥammad. He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
+    He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
 
     The Prophet  lived 63 years, 40 of those years were before Prophethood and 23 years as a Messenger and Prophet. [Through the revelation of Sūrah] ‘Iqraʾ’ he became a Prophet, and [through the revelation of Sūrah] ‘Muddathir’ he became a Messenger. His birth-city was Mecca and he migrated to Medina.
 
@@ -1102,7 +1102,7 @@ The proof for Decree is His saying (the Most High): "We have created all things 
     choices: ["Saudia Arabia", "Mecca", "Medina", "Dubai"],
     answer: "Medina",
     explanation: `
-    Knowledge of your Prophet Muḥammad. He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
+    He is: Muḥammad the son of ʿAbdullāh, the son of ʿAbd al-Muṭṭalib, the son of Hāshim, the son of Quraysh who are from the Arabs. The Arabs are from the offspring of Ismāʿīl, the son of Ibrāhīm the Khalīl (Beloved) - may peace and blessings be on him and our Prophet.
 
     The Prophet  lived 63 years, 40 of those years were before Prophethood and 23 years as a Messenger and Prophet. [Through the revelation of Sūrah] ‘Iqraʾ’ he became a Prophet, and [through the revelation of Sūrah] ‘Muddathir’ he became a Messenger. His birth-city was Mecca and he migrated to Medina.
 
@@ -1162,3 +1162,12 @@ This is the meaning of ‘Lā ilāha illa Allāh.’
 `,
   },
 ];
+
+export default questions;
+
+interface Questions {
+  question: string;
+  explanation: string;
+  choices: string[];
+  answer: string;
+}

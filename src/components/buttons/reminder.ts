@@ -1,3 +1,4 @@
+import { AYAHS } from "../../../ayahs.js";
 import { Bot } from "../../../bot.js";
 import {
   ButtonStyles,
@@ -11,7 +12,7 @@ import { QuranCollection } from "../../quran.js";
 import Embeds from "../../utils/Embed.js";
 
 export async function processReminderButton(interaction: Interaction) {
-  if (!interaction.data?.customId) return;
+  if (!interaction.data?.customId?.startsWith("reminder")) return;
   const [name, userID, verse] = interaction.data?.customId.split("-");
   let numberVerse = Number(verse);
 
@@ -53,7 +54,11 @@ export async function processReminderButton(interaction: Interaction) {
           `**${((aya.number / surah?.ayahs.length) * 100).toFixed(2)}%**`,
         ].join("\n")
       )
-      .addField("Juz Progress", `Coming Soon! Inshallah!`)
+      // .addField("Juz Progress", `Coming Soon! Inshallah!`)
+      .addField("Juz Progress", [
+        `Juz #${aya.juz}`,
+        `**${((aya.number / AYAHS.filter(a => a.juz === aya.juz).length) * 100).toFixed(2)}%**`,
+      ].join("\n"))
       .addField(
         "Quran Progress",
         `**${((numberVerse / 6105) * 100).toFixed(2)}%**`
