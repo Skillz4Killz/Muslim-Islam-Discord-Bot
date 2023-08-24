@@ -8,6 +8,7 @@ import {
   avatarUrl,
 } from "../../../deps.js";
 import { db } from "../../database/mod.js";
+import { Ayah, Surah } from "../../lib/types/islam.js";
 import { QuranCollection } from "../../quran.js";
 import Embeds from "../../utils/Embed.js";
 
@@ -15,13 +16,6 @@ export async function processReminderButton(interaction: Interaction) {
   if (!interaction.data?.customId?.startsWith("reminder")) return;
   const [name, userID, verse] = interaction.data?.customId.split("-");
   let numberVerse = Number(verse);
-
-  const surah = QuranCollection.find((sura) =>
-    sura.ayahs.some((ayah) => ayah.verse === numberVerse)
-  );
-  const aya = surah?.ayahs.find((a) => a.verse === numberVerse);
-
-  if (!surah || !aya) return;
 
   if (BigInt(userID!) !== interaction.user.id) {
     return await Bot.helpers.sendInteractionResponse(
@@ -35,6 +29,24 @@ export async function processReminderButton(interaction: Interaction) {
       }
     );
   }
+
+  let surah: Surah | undefined = undefined;
+  let aya: Ayah | undefined = undefined;
+
+  let text = "";
+  let ayahCounter = 0;
+
+  for (const ayah of AYAHS) {
+    if (ayah.verse < numberVerse) continue;
+    if (text.length >= 300) break;
+
+    surah = QuranCollection.get(ayah.surah);
+    aya = ayah;
+    text += `\n${ayah.text}`;
+    ayahCounter++;
+  }
+
+  if (!surah || !aya) return;
 
   // User pressed next button to read next ayah
   if (name === "reminderNext") {
@@ -55,10 +67,16 @@ export async function processReminderButton(interaction: Interaction) {
         ].join("\n")
       )
       // .addField("Juz Progress", `Coming Soon! Inshallah!`)
-      .addField("Juz Progress", [
-        `Juz #${aya.juz}`,
-        `**${((aya.number / AYAHS.filter(a => a.juz === aya.juz).length) * 100).toFixed(2)}%**`,
-      ].join("\n"))
+      .addField(
+        "Juz Progress",
+        [
+          `Juz #${aya.juz}`,
+          `**${(
+            (aya.number / AYAHS.filter((a) => a.juz === aya!.juz).length) *
+            100
+          ).toFixed(2)}%**`,
+        ].join("\n")
+      )
       .addField(
         "Quran Progress",
         `**${((numberVerse / 6105) * 100).toFixed(2)}%**`
@@ -76,7 +94,7 @@ export async function processReminderButton(interaction: Interaction) {
         })
       )
       .setTitle(`Surah ${surah.name} Ayah #${aya.number}`)
-      .setDescription(aya.text)
+      .setDescription(text)
       .setTimestamp()
       .setFooter("Credits To Quran.com");
     Bot.logger.info(
