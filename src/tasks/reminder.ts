@@ -1,8 +1,10 @@
+import { AYAHS } from "../../ayahs.js";
 import { Bot } from "../../bot.js";
 import { ButtonStyles, MessageComponentTypes, avatarUrl } from "../../deps.js";
 import { db } from "../database/mod.js";
 import { QuranCollection } from "../quran.js";
 import Embeds from "../utils/Embed.js";
+import { humanizeMilliseconds } from "../utils/helpers.js";
 
 Bot.tasks.set("reminder", {
   name: "reminder",
@@ -46,12 +48,24 @@ Bot.tasks.set("reminder", {
         // Get the surah and ayah numbers to send based on the verse they are up to
         let verse = usersettings.finishMonthlyVerse || 1;
 
-        const surah = QuranCollection.find((sura) =>
+        let surah = QuranCollection.find((sura) =>
           sura.ayahs.some((ayah) => ayah.verse === verse)
         );
-        const ayah = surah?.ayahs.find((a) => a.verse === verse);
+        let ayah = surah?.ayahs.find((a) => a.verse === verse);
+        let text = "";
+
+        for (const aya of AYAHS) {
+          if (aya.verse < verse) continue;
+          if (text.length >= 300) break;
+
+          surah = QuranCollection.get(aya.surah);
+          ayah = aya;
+          text += `\n${aya.text}`;
+        }
 
         if (!surah || !ayah) return;
+
+        const juz = AYAHS.filter((a) => a.juz === ayah?.juz);
 
         const progress = new Embeds(Bot)
           .setColor("RANDOM")
@@ -64,32 +78,41 @@ Bot.tasks.set("reminder", {
           .setTitle(`Monthly Tracker`)
           .addField(
             "Surah Progress",
-            [
-              `Surah ${surah.name} Verse ${ayah.number}`,
-              `**${((ayah.number / surah?.ayahs.length) * 100).toFixed(2)}%**`,
-            ].join("\n")
+            `**${((ayah.number / surah?.ayahs.length) * 100).toFixed(2)}%**`,
+            true
           )
-          .addField("Juz Progress", `Coming Soon! Inshallah!`)
+          .addField(
+            `Juz #${ayah.juz} Progress`,
+            `**${((ayah.number / juz.length) * 100).toFixed(2)}%**`,
+            true
+          )
           .addField(
             "Quran Progress",
-            `**${((verse / 6105) * 100).toFixed(2)}%**`
+            `**${((ayah.verse / AYAHS.length) * 100).toFixed(2)}%**`,
+            true
           )
-          .addField("Estimated Date Of Completion", "Soon!")
-          .setTimestamp();
-
-        progress
-          .addEmbed()
-          .setColor("RANDOM")
-          .setAuthor(
-            `Finish Quran Every Month Reminder!`,
-            avatarUrl(user.id, user.discriminator, {
-              avatar: user.avatar,
-            })
+          .addField(
+            "Estimated Date Of Completion",
+            [
+              `Surah: ${humanizeMilliseconds(
+                (surah.ayahs.length - ayah.number) * 600000
+              )}`,
+              `Juz: ${humanizeMilliseconds(
+                (juz.length -
+                  juz.findIndex((a) => a.verse === ayah?.verse) +
+                  1) *
+                  600000
+              )}`,
+              `Quran: ${humanizeMilliseconds(
+                (AYAHS.length - ayah.verse) * 600000
+              )}`,
+            ].join("\n")
           )
-          .setTitle(`Surah ${surah.name} Ayah #${ayah.number}`)
-          .setDescription(ayah.text)
           .setTimestamp()
+          .setTitle(`Surah ${surah.name} Ayah #${ayah.number}`)
+          .setDescription(text)
           .setFooter("Credits To Quran.com");
+
         Bot.logger.info(
           `Reminded ${user.id} in ${settings.id} of ${surah.name} Ayah #${ayah.number} in the reminder task.`
         );

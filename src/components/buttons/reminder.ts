@@ -11,6 +11,7 @@ import { db } from "../../database/mod.js";
 import { Ayah, Surah } from "../../lib/types/islam.js";
 import { QuranCollection } from "../../quran.js";
 import Embeds from "../../utils/Embed.js";
+import { humanizeMilliseconds } from "../../utils/helpers.js";
 
 export async function processReminderButton(interaction: Interaction) {
   if (!interaction.data?.customId?.startsWith("reminder")) return;
@@ -48,6 +49,8 @@ export async function processReminderButton(interaction: Interaction) {
 
   if (!surah || !aya) return;
 
+  const juz = AYAHS.filter(a => a.juz === aya?.juz)
+
   // User pressed next button to read next ayah
   if (name === "reminderNext") {
     const progress = new Embeds(Bot)
@@ -61,42 +64,32 @@ export async function processReminderButton(interaction: Interaction) {
       .setTitle(`Monthly Tracker`)
       .addField(
         "Surah Progress",
-        [
-          `Surah ${surah.name} Verse ${aya.number}`,
           `**${((aya.number / surah?.ayahs.length) * 100).toFixed(2)}%**`,
-        ].join("\n")
+        true,
       )
-      // .addField("Juz Progress", `Coming Soon! Inshallah!`)
       .addField(
-        "Juz Progress",
-        [
-          `Juz #${aya.juz}`,
+        `Juz #${aya.juz} Progress`,
           `**${(
-            (aya.number / AYAHS.filter((a) => a.juz === aya!.juz).length) *
+            (aya.number / juz.length) *
             100
           ).toFixed(2)}%**`,
-        ].join("\n")
+        true,
       )
       .addField(
         "Quran Progress",
-        `**${((numberVerse / 6105) * 100).toFixed(2)}%**`
+        `**${((aya.verse / AYAHS.length) * 100).toFixed(2)}%**`,
+        true
       )
-      .addField("Estimated Date Of Completion", "Soon!")
-      .setTimestamp();
-
-    progress
-      .addEmbed()
-      .setColor("RANDOM")
-      .setAuthor(
-        `Finish Quran Every Month Reminder!`,
-        avatarUrl(interaction.user.id, interaction.user.discriminator, {
-          avatar: interaction.user.avatar,
-        })
-      )
+      .addField("Estimated Date Of Completion", [
+        `Surah: ${humanizeMilliseconds((surah.ayahs.length - aya.number) * 600000)}`,
+        `Juz: ${humanizeMilliseconds((juz.length - juz.findIndex(a => a.verse === aya?.verse) + 1) * 600000)}`,
+        `Quran: ${humanizeMilliseconds((AYAHS.length - aya.verse) * 600000)}`
+      ].join('\n'))
+      .setTimestamp()
       .setTitle(`Surah ${surah.name} Ayah #${aya.number}`)
       .setDescription(text)
-      .setTimestamp()
       .setFooter("Credits To Quran.com");
+
     Bot.logger.info(
       `Reminded ${interaction.user.id} in ${interaction.guildId} of ${surah.name} Ayah #${aya.number} in the reminder button.`
     );
@@ -156,7 +149,7 @@ export async function processReminderButton(interaction: Interaction) {
 
   await db.users.update({
     where: { userID },
-    data: { finishMonthlyVerse: numberVerse < 6105 ? { increment: 1 } : 0 },
+    data: { finishMonthlyVerse: aya.verse < AYAHS.length ? { increment: ayahCounter } : 0 },
   });
 
   await Bot.helpers.sendInteractionResponse(interaction.id, interaction.token, {
