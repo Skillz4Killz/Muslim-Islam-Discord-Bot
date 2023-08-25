@@ -42,6 +42,7 @@ Bot.tasks.forEach((task) => {
       } catch (error) {
         console.log(error);
       }
+      Bot.logger.info(`[TASK: ${task.name}] Finished.`)
     }, task.interval);
   }, Date.now() % task.interval);
 });
